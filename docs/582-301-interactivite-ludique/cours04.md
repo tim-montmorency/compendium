@@ -290,9 +290,9 @@ Planifier les contrôles en fonction du type de jeu :
 
 ![](./assets/img/Xbox-Wireless-Controller-–-Remix-Special-Edition-9.webp){data-zoom-image .w-25}
 
-Le [Character controller](./unity-assets/index.md) passe par le _Input System_ de Unity. Ça veut dire qu'on peut brancher une manette Xbox, appuyer sur *Play* et ça marche.
+Le [Character controller](./unity-assets/index.md) passe par le _Input System_ de Unity. Ça veut dire qu'on peut brancher une manette Xbox, appuyer sur **Play** et ça marche.
 
-Par contre, pour se déplacer avec une manette dans les menus du jeu ça demande de configurer le _EventSystem_, on y reviendra.
+Par contre, pour se déplacer avec une manette dans les menus du jeu ça demande de configurer le **EventSystem**, on y reviendra.
 
 ### Borne d'arcade (optionnel)
 

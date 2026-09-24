@@ -3,10 +3,8 @@
 *[HUD]: Head-up display
 *[MVP]: Minimum Viable Product
 *[CES]: Collider Event System
-*[MSBAF]: Make Something Bad As Fast (as possible)ç
+*[MSBAF]: Make Something Bad As Fast (as possible)
 *[N2H]: Nice 2 Have
-
-[STOP]
 
 ## Retour sur Protolude
 
@@ -18,11 +16,11 @@
 
 - **Build settings** : Ne pas oublier d'ajouter les scènes dans les Build Settings pour que les transitions fonctionnent.
 
-  - File > Build profile 
-  - Cliquer sur « Scene List »
-  - Glisser les scènes de votre jeu dans la section « Scene List »
+  - **File > Build profile**
+  - Cliquer sur **Scene List**
+  - Glisser les scènes de votre jeu dans la section **Scene List**
 
-- **Structure de fichier** : Bien structurer vos dossiers et fichiers de projet sous _
+- **Structure de fichier** : Bien structurer vos dossiers et fichiers de projet sous **_**
 
   ```txt 
     📂 Assets
@@ -56,7 +54,7 @@
 
 - **Concernant l'IA et les CES** ...
 
-## Grayboxing
+## Greyboxing
 
 ![type:video](./assets/video/ao-city-camera-transitions-test-trim-new-1.mp4){.h-auto}
 
@@ -79,10 +77,21 @@
 <figcaption markdown>[Tunic](https://www.gamedeveloper.com/business/how-tunic-weaves-wondrous-unknowable-worlds-inspired-by-inscrutable-nes-manuals)</figcaption>
 </figure>
 
-- Dans ***Package Manager*** cliquer sur ***Unity Registry***
-- Chercher ***ProBuilder*** et cliquer sur "Install"
+- Dans **Package Manager** cliquer sur **Unity Registry**
+- Chercher **ProBuilder** et cliquer sur **Install**
+- Il est possible ensuite de créer une forme libre (CP pour Create Polyshape) ou une forme prédéfinie, mais programmable <br>![](./assets/img/probuilder-tools.png){data-zoom-image .w-10}
+- On peut exporter les formes en format `.obj`<br>![](./assets/img/probuilder-export.png){data-zoom-image .w-10}
 
-<!-- ProBuilder (Unity Registry) - Polybrush (Unity Registry) -->
+### Material et shader
+
+![](./assets/img/StandardShaderMetallicGraduationTable.jpg)
+
+1. Dans le panneau **Project > Assets > _ > Materials**, clic-droit **Create > Material**
+1. Configurer (roughness / metallic) et renommer le Material pour le reconnaitre facilement
+  - Pour activer la transparence, configurer le **Surface Type** à **Transparent**.
+1. Appliquer finalement sur un Mesh Renderer <br>![](./assets/img/material-gold.png){data-zoom-image .w-10}
+
+<!-- Nous aurons l'occasion d'élaborer davantage sur cet aspect au cours de la session. -->
 
 ## HUD et menu
 
@@ -94,99 +103,137 @@
 Ressources : 
 
 - [Itch.io](https://itch.io/game-assets/free/tag-user-interface)
-- [Kenney.nl](https://kenney.nl/assets/tag:interface)
+- [Kenney.nl](https://kenney.nl/assets/tag:interface) 🤌
 - [Unity Asset Store](https://assetstore.unity.com/)
 
-### Canvas et EventSystem
+!!! warning "Assets en anglais 🇬🇧"
 
-Dans la `Hierarchy`, clic-droit > `UI` > **Canvas**.
+    Certains assets viennent avec du texte sur les images. Dans le cadre du cours, il sera demandé de soit trouver des assets sans mots, soit de les franciser.
+
+### Canvas
+
+Dans la **Hierarchy**, clic-droit puis **UI (Canvas) > Canvas**.
 
 Deux objets apparaissent :
 
-- **Canvas** c'est le panneau où vivent tous les éléments d'interface. Pour voir son contour, ne pas oublier d'activer les options : ![](./assets/img/view-options-btn.png), puis affichez les _Gizmos_ ![](./assets/img/gizmos-btn.png)
+- **Canvas** c'est le panneau où vivent tous les éléments d'interface. Pour voir son contour, ne pas oublier d'activer les options : ![](./assets/img/view-options-btn.png), puis affichez les **Gizmos** ![](./assets/img/gizmos-btn.png)
 - **EventSystem** : créé automatiquement, c'est lui qui détecte les clics. Ne jamais le supprimer.
 
-  !!! tip "Éditer confortablement"
+  !!! info "Éditer confortablement"
 
       Le Canvas est immense par rapport à la scène 3D. Basculer la vue en **2D** : ![](./assets/img/view-options-2d.png)
 
-!!! note "Bonne pratique"
+!!! tip "Bonne pratique « Responsive »"
 
-    Sur le Canvas, dans le composant `Canvas Scaler` :
+    Sur le Canvas, dans le composant **Canvas Scaler** :
 
-    - `UI Scale Mode` > **Scale With Screen Size**
-    - `Reference Resolution` > **2560 × 1440**
+    - **UI Scale Mode > Scale With Screen Size**
+    - **Reference Resolution > 2560 × 1440** (écran 2k)
 
 ### Panel
 
-Un _Panel_ c'est simplement une couche (layer) qui comprends soit une image, soit couleur. 
+Un **Panel** c'est simplement une couche (layer) qui comprend soit une image, soit une couleur. 
 
 Ça peut aussi être simplement un conteneur pour des éléments du UI.
 
-Par défaut, ça utilise une image qu'on peut facilement retirer en choisissant "None" au champ _Source Image_.
+Par défaut, ça utilise une image qu'on peut facilement retirer en choisissant **None** au champ **Source Image**.
 
 ### TextMeshPro
 
-Dans la `Hierarchy`, clic-droit sur le Canvas > `UI` > **Text - TextMeshPro**.
+Dans la **Hierarchy**, clic-droit sur **Canvas > UI > Text - TextMeshPro**.
 
-À la première utilisation dans le projet, la fenêtre **TMP Importer** s'affiche : cliquer sur **Import TMP Essentials**, puis fermer la fenêtre. Les *Examples and Extras* ne sont pas nécessaires.
+À la première utilisation dans le projet, la fenêtre **TMP Importer** s'affiche. 
+
+Cliquer sur **Import TMP Essentials**, puis fermer la fenêtre. (_Examples and Extras_ ne sont pas nécessaires.)<br>![](./assets/img/tmp-importer.png){data-zoom-image }
 
 #### Utiliser sa propre police
 
-1. Glisser le fichier `.ttf` dans `Project`, sous `Assets/_/Fonts`
-2. `Window` > `TextMeshPro` > **Font Asset Creator**
+1. Glisser le fichier `.ttf` dans **Project**, sous **Assets > _ > Fonts**
+2. **Window > TextMeshPro > Font Asset Creator**
 3. Glisser la police dans le champ **Source Font**
-4. `Character Set` > **Extended ASCII** (nécessaire pour les accents)
-5. `Render Mode` > **SDFAA** (simule une police vectorielle)
-6. Cliquer sur **Generate Font Atlas**, puis **Save** dans `Assets/_/Fonts`
-7. Glisser le nouveau **font asset** (le F bleu ![](./assets/img/font-asset-icon.png){.rounded-0}) dans le champ `Font Asset` du texte
+4. **Character Set > Extended ASCII** (nécessaire pour les accents)
+5. **Render Mode > SDFAA** (simule une police vectorielle)
+6. Cliquer sur **Generate Font Atlas**, puis **Save** dans **Assets > _ > Fonts**
+7. Glisser le nouveau **font asset** (le F bleu ![](./assets/img/font-asset-icon.png){.rounded-0}) dans le champ **Font Asset** du texte
 
 !!! warning "Licences"
 
     Une police téléchargée n'est pas forcément libre de distribution. [Google Fonts](https://fonts.google.com/) est sûr, mais ailleurs (ex. : [Dafont](https://www.dafont.com/)), il faudra vérifier la licence et la citer dans les crédits.
 
-!!! tip "Réglages utiles"
+<!-- !!! tip "Réglages utiles"
 
-    Dans le panneau _Inspector_ du texte :
+    Dans le panneau **Inspector** du texte :
      
-    - _Auto Size_ : le texte s'adapte au cadre
+    - **Auto Size** : le texte s'adapte au cadre
     - Alignement horizontal et vertical
-    - _Outline_/_Underlay_ si par exemple un texte blanc sur un ciel clair est illisible sans contour
+    - **Outline**/**Underlay** si par exemple un texte blanc sur un ciel clair est illisible sans contour -->
 
-#### À propos du câdre
+#### À propos du cadre
 
 ![](./assets/img/unity-aspect-ratio.png){data-zoom-image .w-33}
 
-Dans le panneau "Game", on peut sélectionner la résolution dans laquelle on planifie faire notre jeu. L'option "Free  Aspect" est un peu l'équivalent responsive, mais pour un jeu vidéo, c'est rarement pertinent.
+Dans le panneau **Game**, on peut sélectionner la résolution dans laquelle on planifie faire notre jeu. L'option **Free Aspect** est un peu l'équivalent responsive, mais pour un jeu vidéo, c'est rarement pertinent.
 
-### Le Rect Transform
+### _Rect Transform_    
 
 Les enfants du canvas n'ont pas de **Transform** comme les autres game objects, ils ont un **Rect Transform** avec un concept d'ancrage qu'il faudra maitriser. 
 
 ![](./assets/img/rect-transform.png){data-zoom-image .w-25}
 
-<p class="codepen aspect-1-1" data-theme-id="50173" data-height="300" data-pen-title="Unity Rect Transform" data-version="2" data-default-tab="result" data-slug-hash="YPZZgKm" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen aspect-16-9" data-theme-id="50173" data-height="300" data-pen-title="Unity Rect Transform" data-version="2" data-default-tab="result" data-slug-hash="YPZZgKm" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/01a0c9e6-2f02-7668-b2ed-e184dceceb90">
   Unity Rect Transform</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
+[Ouvrir dans le navigateur](https://es-d-72058649520260925-01a0c9e6-2f02-7668-b2ed-e184dceceb90.codepen.dev)
+
+### Image
+
+1. Dans la **Hierarchy**, clic-droit > **UI (Canvas) > Image**.
+1. Glisser une image dans **Assets > _ > Sprites**
+1. Cliquer sur l'image
+1. **Texture type** = **Sprite (2D and UI)**
+1. Clic **Apply**
+
 ### Le bouton
 
-Dans la `Hierarchy`, clic-droit sur le Canvas > `UI` > **Button - TextMeshPro**.
+Le bouton c'est essentiellement un panel qui contient un textmesh pro, mais il permet en plus de déclencher des actions.
 
-Le bouton c'est essentiellement un panel qui contient un textmesh pro, mais il permet de faire en plus des actions.
+Dans la **Hierarchy**, clic-droit sur **Canvas > UI > Button - TextMeshPro**.
 
-En effet, le composant "Button" expose un événement **`On Click ()`** dans le panneau _Inspector_. On y branche des actions :
+Dans le composant **Button** du bouton : 
 
-1. Cliquer sur le plus `+` sous `On Click ()`
+1. Cliquer sur le plus **+** sous **On Click ()**
 1. Glisser n'importe quel GameObject
-1. Choisir `GameObject` > `SetActive (bool)`. Ça fait l'équivalent du CES quand on active/désactive un Game Object.
+1. Choisir **GameObject > SetActive (bool)**. Ça fait l'équivalent du CES quand on active/désactive un Game Object.<br>![](./assets/img/btn-action.png){data-zoom-image .w-10}
 
-![](./assets/img/btn-action.png){data-zoom-image .w-50}
+<!-- !!! quote "Psst. On peut aussi déclencher des scripts custom ;)" -->
 
-On peut aussi déclencher des scripts ;)
+#### _9 slicing sprite_
+ 
+![](./assets/img/9slice-pizza.png){data-zoom-image .w-50}
+
+<!-- https://en.wikipedia.org/wiki/9-slice_scaling -->
+
+1. Trouver une image de bouton carré<br>![](./assets/img/button_square_depth_flat.png){data-zoom-image .w-10}
+1. Glisser l'image dans **Assets > _ > Sprites**
+1. Cliquer sur l'image
+  > Cliquer sur **Install 2D Sprite Package** si ce n'est pas déjà installé
+1. **Texture type** = **Sprite (2D and UI)**
+  - Si l'image est en pixelart, **Filter Mode** = **Point (no filter)**
+1. **Sprite Mode** = **Single**
+1. Clic sur **Apply**
+1. Clic sur **Open Sprite Editor**
+1. Glisser les 4 lignes vertes vers le centre de sorte à avoir un centre uni<br>![](./assets/img/9slice-sprite-editor.png){data-zoom-image .w-10}
+1. Clic sur **Apply** et ferme le **Sprite Editor**
+
+Dans le panneau **Hierarchy** : 
+
+1. Clic sur un bouton dans le canvas
+1. Drag le sprite du panneau **Project** vers **Image > Source Image**
+1. **Image type** = **Sliced**
 
 ## Scripts
 
@@ -194,7 +241,7 @@ On peut aussi déclencher des scripts ;)
 
 Les scripts en Unity s'écrivent avec le langage de programmation C# (prononcé «See Sharp»).
 
-Les scripts ont une extension `.cs` et doivent toujours être nommé pareille que le nom donné à la classe : 
+Les scripts ont une extension `.cs` et doivent toujours être nommés pareil que le nom donné à la classe : 
 
 ```c# title="NomDeMonScript.cs"
 using UnityEngine;
@@ -251,15 +298,15 @@ public class Exemple : MonoBehaviour
 
 99.99% du temps, vous ajouterez un composant script sur un GameObject.
 
-1. Dans le panneau _Hierarchy_, clic-droit puis "Create Empty"
-1. Renommer le GameObject « Exemple »
-1. Dans _Inspector_, Add Component > New Script, nommer "MonScript"
-1. Sauvegarder le fichier `MonScript.cs` dans Assets > _ > Scripts
+1. Dans le panneau **Hierarchy**, clic-droit puis **Create Empty**
+1. Renommer le GameObject **Exemple**
+1. Dans **Inspector**, **Add Component > New Script**, nommer `MonScript`
+1. Sauvegarder le fichier `MonScript.cs` dans **Assets > _ > Scripts**
 
 ### Éditer un script
 
-1. Double cliquer sur `MonScript.cs` dans _Inspector_<br>![](./assets/img/exemple-monscript.png){.w-10 data-zoom-image} (Un logiciel d'édition de code devrait s'ouvrir, Visual Studio ou VsCode)
-1. Supprimer la méthode `Start()` et déclarez à sa place une variable `int`
+1. Double cliquer sur `MonScript.cs` dans **Inspector**<br>![](./assets/img/exemple-monscript.png){.w-10 data-zoom-image} (Un logiciel d'édition de code devrait s'ouvrir, Visual Studio ou VsCode)
+1. Supprimer la méthode `Start()` et déclarer à sa place une variable `int`
 1. Dans `Update()` incrémenter la variable de `1`.
 1. Afficher le résultat de la variable dans la console avec la commande :<div markdown> 
 ```c#
@@ -289,44 +336,28 @@ Debug.Log("Texte ou autre chose ;)");
 
 ### Déclencher un script | Button
 
-1. Modifier le script en changeant `void Update()` par `public void TimMomo()`. Cette méthode, n'étant pas reconnue par Unity, ne s'activera que lorqu'on le déclenchera. Déclenchons la au clic du bouton dans un canvas.
-1. Clic sur le bouton du Canvas
-1. Dans _Inspector_, sous Button, clic sur + sous `On Click ()`
-1. Glisse le Game Object `Exemple` dans le champs `None (Object)`
-1. Clic sur "No Function" > "MonScript" > "TimMomo ()"
+1. Modifier le script en changeant `void Update()` par `public void TimMomo()`. Cette méthode, n'étant pas reconnue par Unity, ne s'activera que lorsqu'on la déclenchera. Déclenchons-la au clic du bouton dans un canvas.
+1. Clic sur le bouton du **Canvas**
+1. Dans **Inspector**, sous **Button**, clic sur **+** sous **On Click ()**
+1. Glisse le Game Object **Exemple** dans le champs **None (Object)**
+1. Clic sur **No Function** > `MonScript` > `TimMomo ()`
 1. Play, clic sur le bouton et regarde dans la console
 
 !!! warning "Character controller 💔 Button"
+
+    ![](./assets/img/cursor.jpg){.w-10}
 
     Quand on utilise un Character controller (première et troisième personne), ça bloque la souris au centre de l'écran et cache le curseur. Ce qui ne permet pas d'interagir avec le canvas.
 
     À la troisième personne, on peut désactiver le controle de la caméra avec la souris :
 
-    1. Sous "PlayerArmature", dans la composante "Starter Assets Inputs", décocher les cases "Cursor Locked" et "Cursor Input For Look"
+    1. Sous **PlayerArmature**, dans la composante **Starter Assets Inputs**, décocher les cases **Cursor Locked** et **Cursor Input For Look**
 
     Maintenant on peut cliquer sur les boutons du UI
 
-!!! tip "2.5d"
-
-    Tant qu'à y être, voyons ce qu'on peut configurer pour une scène 2.5D. 
-    
-    Pour désactiver ++w++ et ++s++
-
-    1. Double-clic sur `Assets`/`Starter Assets`/`Runtime`/`InputSystem`/`StarterAssets`/`Player/Move`
-    1. Dans Player > Move, WASD, supprimer les options Up et Down
-    1. Clic sur 'Save Asset'
-
-    Pour reculer la caméra du personnage
-
-    1. Dans "PlayerFollowCamera", changer la valeur de "Camera Distance"
-
-    Retirer la perspective
-
-    1. Sur MainCamera du personnage, dans camera > Projection, changer "Perspective" pour "Orthographic"
-
 ### Changer de scène
 
-Assurez-vous d'abord que la scène en question est dans la _Scene List_.
+Assurez-vous d'abord que la scène en question est dans la **Scene List**.
 
 ```c#
 using UnityEngine;
@@ -334,7 +365,7 @@ using UnityEngine.SceneManagement;
 
 public class MonScript : MonoBehaviour
 {
-    public string nomDeLaScene = "Niveau2"; // Nom exact 🤌
+    public string nomDeLaScene = "Niveau2"; // Nom exact ☝️
 
     public void ChangeLaScene()
     {
@@ -379,7 +410,32 @@ Kanban, sprint et 🎉
     - Ajouter dans le planning les tâches critiques
     - Catégoriser les souhaits (N2H)
 
-<!-- Applications similaires à Trello : [GitHub Project](https://docs.github.com/fr/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects), [kan.bn](https://kan.bn/) -->
-<!-- https://www.youtube.com/watch?v=N9RGoTFeTsI -->
+### Sprint 1
 
-## Devlog
+Objectifs du prototype (8 oct) : 
+
+- 3 zones parcourables en *greybox*
+- Passage entre les scènes : accueil, niveau 1-2-3, gameover
+  - Usage du CES
+
+Exemples de cartes : 
+
+- Configurer un repertoire GitHub avec le bon `.gitignore`
+- Créer les scènes Accueil, Niveau 1, Niveau 2, Niveau 3 et Game Over, puis les ajouter à la Scene List
+- Greyboxing | Zone 1
+- Greyboxing | Zone 2 
+- Greyboxing | Zone 3 
+- Placer le personnage et la caméra dans les 3 niveaux (idéalement faire un prefab pour le réutiliser !)
+- Monter le menu d'accueil : bouton Jouer vers le Niveau 1 
+- Configurer les conditions de sortie (CES) | Zone 1 
+- Configurer les conditions de sortie (CES) | Zone 2 
+- Configurer les conditions de sortie (CES) | Zone 3 
+- Monter l'écran Game Over (ex. : boutons Recommencer et retour à l'Accueil)
+- Tester le parcours complet : Accueil → Niveaux 1-2-3 → fin 
+
+<!-- - Monter le menu pause -->
+ <!-- Pause : Time.timeScale, boutons Reprendre et Accueil  -->
+<!-- 
+!!! success "Prochain cours"
+
+    L'énoncé du travail final sera remis -->

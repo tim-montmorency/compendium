@@ -74,7 +74,7 @@ Piste — Package Behavior (Unity 6, Unity Registry)
 ### L'animation
 
 !!! tip "Habiller et animer un PNJ"
-    Même recette qu'au [cours 6](./cours06.md) : un personnage **T-pose Synty** passé dans [Mixamo](https://www.mixamo.com) pour le squelette, `Animation Type: Humanoid`, puis les animations de marche et de course récupérées directement sur Mixamo. Un PNJ qui patrouille avec une vraie animation de marche vaut dix lignes de code de plus.
+    Même recette qu'au [cours 6](./cours06.md) : un personnage **T-pose Synty** passé dans [Mixamo](https://www.mixamo.com) pour le squelette, **Animation Type: Humanoid**, puis les animations de marche et de course récupérées directement sur Mixamo. Un PNJ qui patrouille avec une vraie animation de marche vaut dix lignes de code de plus.
 
 ### Le son
 

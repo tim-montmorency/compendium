@@ -65,7 +65,7 @@ Piste — Package Recorder (Unity Registry)
 ## La sauvegarde
 
 !!! info "Tu sauvegardes déjà, depuis le cours 3"
-    La case **`Persistent`** d'une Variable du CES écrit sa valeur sur le disque et la recharge au lancement suivant. Tu t'en sers depuis huit semaines sans savoir ce qu'il y a dessous.
+    La case **Persistent** d'une Variable du CES écrit sa valeur sur le disque et la recharge au lancement suivant. Tu t'en sers depuis huit semaines sans savoir ce qu'il y a dessous.
 
     Ce qu'il y a dessous, c'est `PlayerPrefs`. On l'ouvre aujourd'hui — non pas parce que la case ne suffit pas, mais parce que **dès que tu écris ton propre script**, c'est l'outil dont tu as besoin : la case coche une Variable du CES, elle ne sauvegarde pas ce que ton code à toi calcule.
 
@@ -88,7 +88,7 @@ Piste — Package Recorder (Unity Registry)
     * un meilleur score sauvegardé avec `PlayerPrefs`, affiché au menu
     * un compteur qui calcule quelque chose (temps restant, distance parcourue, précision)
     * une petite règle propre à ton jeu : « si le joueur a les trois fragments **et** qu'il est de nuit, alors… »
-    * un effet que tu déclenches depuis une action ***Invoke Events*** du CES
+    * un effet que tu déclenches depuis une action **Invoke Events** du CES
 
     Si tu n'as toujours pas d'idée à ce stade de la session, **le meilleur score est le bon choix** : c'est court, c'est utile, et ça te fait pratiquer `PlayerPrefs` pour de vrai.
 

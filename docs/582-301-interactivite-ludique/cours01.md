@@ -479,11 +479,11 @@ Unity Hub sert, entre autres, à gérer les versions de Unity et à créer des p
 ![](./assets/img/unity-interface-num.png){data-zoom-image}
 
 1. **Barre de menu** : Regroupe les options globales du logiciel (sauvegarde, paramètres généraux et ouverture de nouvelles fenêtres).
-2. **Panneau _Hierarchy_** : Liste tous les objets (_GameObjects_) de la scène active et permet d'organiser leurs relations de parenté (parent/enfant).
-3. **Panneau _Scene_** : L'espace de travail visuel (2D/3D) pour construire votre niveau en y plaçant vos objets. (Le test du jeu se fait dans l'onglet _Game_).
+2. **Panneau Hierarchy** : Liste tous les objets (_GameObjects_) de la scène active et permet d'organiser leurs relations de parenté (parent/enfant).
+3. **Panneau Scene** : L'espace de travail visuel (2D/3D) pour construire votre niveau en y plaçant vos objets. (Le test du jeu se fait dans l'onglet **Game**).
 4. **Barre d'outils** : Fournit les outils de manipulation spatiale pour sélectionner, déplacer, pivoter et redimensionner les objets de la scène.
-5. **Panneau _Inspector_** : Affiche et permet de modifier les propriétés et composants (_Components_) de l'élément sélectionné (objet ou ressource).
-6. **Panneau _Project_** : L'explorateur de fichiers. Il rassemble toutes vos ressources (_Assets_), importées (modèles, sons) ou créées dans Unity (scripts, matériaux).
+5. **Panneau Inspector** : Affiche et permet de modifier les propriétés et composants (_Components_) de l'élément sélectionné (objet ou ressource).
+6. **Panneau Project** : L'explorateur de fichiers. Il rassemble toutes vos ressources (_Assets_), importées (modèles, sons) ou créées dans Unity (scripts, matériaux).
 
 ## Assets
 

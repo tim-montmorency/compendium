@@ -29,55 +29,55 @@ Première chose à faire, **se connecter à GitHub** !
 
 Dans Unity Hub,
 
-1. Dans _Projects_, cliquez sur « ***+ New Project*** »
+1. Dans **Projects**, cliquez sur **+ New Project**
 1. Sélectionnez la version 6 de Unity
-1. Cliquer sur « Universal 3D » (URP)
-1. Choisir un nouveau nom (_Project name_). Exemple : `Protolude`
-1. Choisir l'emplacement (_Location_) 
+1. Cliquer sur **Universal 3D** (URP)
+1. Choisir un nouveau nom (**Project name**). Exemple : `Protolude`
+1. Choisir l'emplacement (**Location**) 
   - Au collège, dans le dossier `Documents/Code_Unity` idéalement
 
 Là, il y a deux méthodes pour connecter Unity à Github.
 
-#### Méthode 1 : _Source control provider_
+#### Méthode 1 : **Source control provider**
 
 ![](./assets/img/git-methode-1.jpg)
 
 Avant de créer le projet, on créer une passerelle avec GitHub
 
 1. Choisir GitHub <br><figure markdown>![](./assets/img/source-control-provider.png){data-zoom-image .w-50}</figure>
-1. Cliquer sur « ***Get a token*** »<br><figure markdown>![](./assets/img/source-control-provider-pat.png){data-zoom-image .w-50}</figure>
+1. Cliquer sur **Get a token**<br><figure markdown>![](./assets/img/source-control-provider-pat.png){data-zoom-image .w-50}</figure>
 1. Confirmer l'accès<br><figure markdown>![](./assets/img/confirm-access.png){data-zoom-image .w-50}</figure>
 1. Cliquer sur Generate token<br><figure markdown>![](./assets/img/new-personal-token.png){data-zoom-image .w-50}</figure>
 1. Copier le token d'accès dans votre presse papier<br><figure markdown>![](./assets/img/new-personal-token-generated.png){data-zoom-image .w-50}</figure>
 1. Retourner sur Unity Hub
 1. Entrer le token d'acccès et cliquer sur Authorize<br><figure markdown>![](./assets/img/new-personnal-token-autorize.png){data-zoom-image .w-50}</figure>
-1. Enfin, cliquer sur « ***+ Create project*** »
+1. Enfin, cliquer sur **+ Create project**
 1. Ouvrir l'application :simple-github: **GitHub Desktop**
-1. Cliquer sur `File > Add local repository`
-1. Choisir le chemin vers le projet créé et cliquer sur « Add repository »
-1. La fenêtre "Initialize Git LFS" devrait apparaitre. Cliquer sur Initialize Git LFS <br><figure markdown>![](./assets/img/git-lfs.png){data-zoom-image .w-50}</figure>
-1. Cliquer sur « _Publish branch_ » <br><figure markdown>![](./assets/img/publish-branch.png){data-zoom-image .w-50}</figure>
+1. Cliquer sur **File > Add local repository**
+1. Choisir le chemin vers le projet créé et cliquer sur **Add repository**
+1. La fenêtre **Initialize Git LFS** devrait apparaitre. Cliquer sur **Initialize Git LFS**<br><figure markdown>![](./assets/img/git-lfs.png){data-zoom-image .w-50}</figure>
+1. Cliquer sur **Publish branch**<br><figure markdown>![](./assets/img/publish-branch.png){data-zoom-image .w-50}</figure>
 
 #### Méthode 2 : À l'ancienne 👵
 
 ![](./assets/img/git-methode-2.jpg)
 
-1. Cliquer sur « ***+ Create project*** » (sans choisir de _source control provider_)
+1. Cliquer sur **+ Create project** (sans choisir de source control provider)
 1. Ouvrir l'application :simple-github: **GitHub Desktop**
-1. Cliquer sur `File > Add local repository`
-1. Choisir le chemin vers le projet créé et cliquer sur « Add repository »
-1. Une erreur devrait apparaitre. Cliquer sur le lien « _create a repository_ »<br><figure markdown>![](./assets/img/no-repo-no-bueno.png){data-zoom-image .w-50}</figure>
-1. La fenêtre « Create a new repository » apparait :
+1. Cliquer sur **File > Add local repository**
+1. Choisir le chemin vers le projet créé et cliquer sur **Add repository**
+1. Une erreur devrait apparaitre. Cliquer sur le lien **create a repository**<br><figure markdown>![](./assets/img/no-repo-no-bueno.png){data-zoom-image .w-50}</figure>
+1. La fenêtre **Create a new repository** apparait :
   - Vérifier que le nom est correct
   - Ne touchez pas au chemin, il devrait être normalement bien configuré
   - Ajouter une courte description
-  - Cocher "Initialize this repository with a README"
-  - Sélectionner Unity dans la liste de "Git ignore"
-  - Vous pouvez mettre MIT License pour la "License"<br><figure markdown>![](./assets/img/no-bueno-new-repo.png){data-zoom-image .w-50}</figure>
-  - Cliquer sur « Create repository »
-1. La fenêtre « Publish repository » apparait. 
-  - Décocher « Keep this code private »
-  - Cliquer sur « Publish repository »<br><figure markdown>![](./assets/img/no-bueno-publish.png){data-zoom-image .w-50}</figure>
+  - Cocher **Initialize this repository with a README**
+  - Sélectionner Unity dans la liste de **Git ignore**
+  - Vous pouvez mettre MIT License pour la **License**<br><figure markdown>![](./assets/img/no-bueno-new-repo.png){data-zoom-image .w-50}</figure>
+  - Cliquer sur **Create repository**
+1. La fenêtre **Publish repository** apparait. 
+  - Décocher **Keep this code private**
+  - Cliquer sur **Publish repository**<br><figure markdown>![](./assets/img/no-bueno-publish.png){data-zoom-image .w-50}</figure>
 
 !!! note "À faire juste une fois par projet"
 
@@ -129,17 +129,17 @@ Voilà !
 
 !!! note "Dossier Scenes à déplacer"
 
-    Dans un nouveau projet, le dossier « 📁 Scenes » existe déjà à la racine du dossier « 📁 Assets ». Vous pouvez simplement le déplacer dans votre structure de dossier.
+    Dans un nouveau projet, le dossier **📁 Scenes** existe déjà à la racine du dossier **📁 Assets**. Vous pouvez simplement le déplacer dans votre structure de dossier.
 
 !!! note "Asset store"
 
-    Tout ce qui sera importé d'ailleur se positionnera normalement à la racine du dossier « 📁 Assets ». Il sera important de les laisser à cet endroit pour éviter des problèmes plus tard.
+    Tout ce qui sera importé d'ailleur se positionnera normalement à la racine du dossier **📁 Assets**. Il sera important de les laisser à cet endroit pour éviter des problèmes plus tard.
 
 !!! note "Pourquoi _ ?"
 
     Séparer les éléments personnalisés du reste.
 
-    Le «_» affichera le dossier en premier sous « 📁 Assets ».
+    Le **_** affichera le dossier en premier sous **📁 Assets**.
 
 !!! note "GitHub"
 
@@ -153,16 +153,16 @@ Voilà !
 
 1. Modifier la structure de fichiers
 
-1. Ajoutez un cube et renommer le « Plancher »
+1. Ajoutez un cube et renommer le **Plancher**
 1. Repositionnez le cube au centre de la scène (x=0, y=0, x=0)
 1. L'aplatissez le pour faire une plateforme (x=10, y=0.1, x=10)
 
-1. Ajouter un autre cube et renommer le « Pente »
+1. Ajouter un autre cube et renommer le **Pente**
 1. Changer sa dimension/position/échelle pour créer une pente qui donne vers le plancher <br>![](./assets/img/pente.png){data-zoom-image .w-10} 
 
 !!! info "Gizmo"
 
-    Pour voir la caméra et autres éléments importants, activez les options : ![](./assets/img/view-options-btn.png), puis affichez les _Gizmos_ ![](./assets/img/gizmos-btn.png)
+    Pour voir la caméra et autres éléments importants, activez les options : ![](./assets/img/view-options-btn.png), puis affichez les **Gizmos** ![](./assets/img/gizmos-btn.png)
 
     Notez qu'on voit maintenant la caméra et la lumière directionnelle (soleil)
 
@@ -170,7 +170,7 @@ Voilà !
 
 !!! info "Positionner un élément sur une surface"
 
-    Quand on glisse un élément du panneau Project sur la scène, vous verrez que celui-ci se positionne SUR les surfaces.
+    Quand on glisse un élément du panneau **Project** sur la scène, vous verrez que celui-ci se positionne SUR les surfaces.
 
     Ensuite, le repositionnement ne suit plus cette logique. Sauf si on utilise le raccourci : ++ctrl+shift++ + `drag`.
 
@@ -178,26 +178,26 @@ Voilà !
 
 ![](./assets/img/physics.webp){.w-50}
 
-- Noter la notion de _collider_ sur le « Plancher »
+- Noter la notion de _collider_ sur le **Plancher**
 
   > :material-arrow-collapse-horizontal: Un collider est une carapace invisible qui permet au moteur physique de Unity de détecter les collisions et d'empêcher les objets de se traverser.
 
 - Ajouter une sphère en haut de la pente
-- Play<br>![](./assets/img/decu.jpg){.w-20}
-- Stop
+- **Play**<br>![](./assets/img/decu.jpg){.w-20}
+- **Stop**
 
   !!! tip "Attention au mode Play"
 
-      Lorsque vous effectuez des modifications en mode ***Play***, sachez qu'elles sont temporaire et qu'elles disparaîtront après le ***Stop***.
+      Lorsque vous effectuez des modifications en mode **Play**, sachez qu'elles sont temporaire et qu'elles disparaîtront après le **Stop**.
 
 #### RigidBody
 
-- Ajouter un ***RigidBody*** à la sphere via `Add Component` dans le panneau _Inspector_
+- Ajouter un **Rigidbody** à la sphere via **Add Component** dans le panneau **Inspector**
 
     > :material-food-apple: Rigidbody, ça ajoute une masse à un objet et par défaut, ça applique la gravité.
 
-- Play<br>![](./assets/img/demo-rigidbody.webp){data-zoom-image .w-10} 
-- Stop
+- **Play**<br>![](./assets/img/demo-rigidbody.webp){data-zoom-image .w-10} 
+- **Stop**
 
 #### Collider
 
@@ -207,17 +207,17 @@ Selon la forme des objets, les colliders changent. Par défaut, une sphère a un
 
 Pour le fun : 
 
-- Désactiver ***Sphere Collider*** de la sphère
-- Ajouter un ***Box Collider*** via `Add Component`
-- Play<br>![](./assets/img/demo-collider.webp){data-zoom-image .w-10} 
-- Stop
-- Remet le ***Sphere Collider*** pour la suite
+- Désactiver **Sphere Collider** de la sphère
+- Ajouter un **Box Collider** via **Add Component**
+- **Play**<br>![](./assets/img/demo-collider.webp){data-zoom-image .w-10} 
+- **Stop**
+- Remet le **Sphere Collider** pour la suite
 
 ### Mesh Renderer
 
 ![](./assets/img/Mesh-Renderer.png){.w-50 data-zoom-image}
 
-Le _Mesh Renderer_ c'est l'enveloppe, le manteau de la forme. C'est ce qu'on voit au final. Ça utilise ce qu'on appelle un _shader_ pour afficher une surface, mais bon, on y reviendra une fois.
+Le **Mesh Renderer** c'est l'enveloppe, le manteau de la forme. C'est ce qu'on voit au final. Ça utilise ce qu'on appelle un _shader_ pour afficher une surface, mais bon, on y reviendra une fois.
 
 !!! question "Pourquoi on désactiverait ça ?"
 
@@ -240,7 +240,7 @@ Le _Mesh Renderer_ c'est l'enveloppe, le manteau de la forme. C'est ce qu'on voi
 
 ![](./assets/img/Mesh-Filter.png){.w-50 data-zoom-image}
 
-Finalement, le _Mesh Filter_ c'est le squelette géométrique (juste des points et des polygones). C'est un peu l'équivalent des vecteurs d'une image vectorielle.
+Finalement, le **Mesh Filter** c'est le squelette géométrique (juste des points et des polygones). C'est un peu l'équivalent des vecteurs d'une image vectorielle.
 
 ---
 
@@ -267,12 +267,12 @@ En Unity, on parle surtout de **collision**. Quand le projectif entre en collisi
 
 Pour faciliter la gestion des événements liés à des collisions, installons le package [Collider Event System](./unity-assets/index.md#collider-event-system).
 
-Dans le panneau _Project_, glissez un prefab du package sur la scène. 
+Dans le panneau **Project**, glissez un prefab du package sur la scène. 
 
-Ex : `Packages` > `Collider Event System` > `Prefabs` > `Trigger Cube`
+Ex : **Packages > Collider Event System > Prefabs > Trigger Cube**
 
 1. Positionnez le à l'endroit où vous voulez effectuer une détection de collision.
-1. Dans le panneau _Inspector_, sous _Collider Event_, on peut ajouter un comportement lorsqu'une collision est détectée dans la section ***Actions*** :
+1. Dans le panneau **Inspector**, sous **Collider Event**, on peut ajouter un comportement lorsqu'une collision est détectée dans la section **Actions** :
 
 ![](./assets/img/inspector-collider-event-addAction.png){data-zoom-image}
 
@@ -297,17 +297,17 @@ Les actions possibles sont les suivantes :
 
 ![](./assets/img/snap.gif){.w-50}
 
-Pour activer ou désactiver manuellement un objet dans Unity, on doit simplement cocher ou décocher la case à cocher dans le panneau _Inspector_.
+Pour activer ou désactiver manuellement un objet dans Unity, on doit simplement cocher ou décocher la case à cocher dans le panneau **Inspector**.
 
 ![](./assets/img/activate-deactivate.png){data-zoom-image .w-25}
 
-Toutefois, il est également possible de le faire dynamiquement en programmation, ou avec « Collider Event System ». Voici la marche à suivre pour cette dernière :
+Toutefois, il est également possible de le faire dynamiquement en programmation, ou avec **Collider Event System**. Voici la marche à suivre pour cette dernière :
 
-1. Ajouter un prefab du « Collider Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
-1. Dans le panneau _Inspector_, sous _Collider Event_, sous _Actions_, ajouter « Game Object »
-1. _Target mode_ : _Specific object_
-1. _Target_ : Glisser depuis le panneau _Hierarchy_ un des _GameObjects_ (ex: le plancher)
-1. _Operation_ : laisser à Disable
+1. Ajouter un prefab du **Collider Event System** sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
+1. Dans le panneau **Inspector**, sous **Collider Event**, sous **Actions**, ajouter **Game Object**
+1. **Target mode** : **Specific object**
+1. **Target** : Glisser depuis le panneau **Hierarchy** un des _GameObjects_ (ex: le plancher)
+1. **Operation** : laisser à Disable
 
 <div class="grid" markdown>
 <figure markdown>
@@ -325,24 +325,24 @@ Toutefois, il est également possible de le faire dynamiquement en programmation
 
 ![](./assets/img/teleport-goku.gif){.w-50}
 
-1. Ajouter un prefab du « Collider Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
-1. Dans le panneau _Inspector_, sous _Collider Event_, sous _Actions_, ajouter « Transform »
-1. _Target mode_ : _Entering Objects_ (les éléments qui entrent en collision avec le CES)
-1. _Value Source_ : _Fixed Value_
-1. Cocher _Position_ et spécifier des valeurs
+1. Ajouter un prefab du **Collider Event System** sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
+1. Dans le panneau **Inspector**, sous **Collider Event**, sous **Actions**, ajouter **Transform**
+1. **Target mode** : **Entering Objects** (les éléments qui entrent en collision avec le CES)
+1. **Value Source** : **Fixed Value**
+1. Cocher **Position** et spécifier des valeurs
 
 ![type:video](./assets/video/CES-transform-position.webm){.h-auto .w-50}
 
 ### Changer la rotation d'un objet avec CES
 
-1. Ajouter un prefab du « Collider Event System » sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
-1. Dans le panneau _Inspector_, sous _Collider Event_, sous _Actions_, ajouter « Transform »
-1. _Target mode_ : _Specific object_
-1. _Target_ : Glisser depuis le panneau _Hierarchy_ un des _GameObjects_ (ex: _Pente_)
-1. _Value Source_ : _Fixed Value_
-1. Cocher _Rotation_ et spécifier des valeurs
-1. Cocher _Animate_
-1. _Duration_ (en secondes) : 3
+1. Ajouter un prefab du **Collider Event System** sur la scène, de sorte à ce qu'il puisse entrer en collision avec une sphère qui roule.
+1. Dans le panneau **Inspector**, sous **Collider Event**, sous **Actions**, ajouter **Transform**
+1. **Target mode** : **Specific object**
+1. **Target** : Glisser depuis le panneau **Hierarchy** un des _GameObjects_ (ex: **Pente**)
+1. **Value Source** : **Fixed Value**
+1. Cocher **Rotation** et spécifier des valeurs
+1. Cocher **Animate**
+1. **Duration** (en secondes) : 3
 
 ![type:video](./assets/video/CES-transform-rotation.webm){.h-auto .w-50}
 
@@ -367,21 +367,21 @@ Un prefab c'est un objet ou un groupe d'objets qu'on enregistre pour le réutili
 
 Admettons que je veuille ajouter 10 bonhommes de neige dans mon jeu. Je pourrais le dupliquer 10 fois, mais pas l'idéal. Si ensuite je veux ajouter une carotte pour le nez, je dois le faire pour les 10 ! Il faudrait avoir à le faire une seule fois pour tous les bonhommes. Ça, ça s'appelle faire un prefab.
 
-- Crééer un gameobject vide, nomme le « bonhomme de neige » et y mettre les 3 sphères.<br>![](./assets/img/mrplow1.png){data-zoom-image .w-10}
-- Glisser « bonhomme de neige » dans le panneau _Project_ dans le dossier prefab que vous devirez déjà avoir si vous avez bien fait votre structure de dossiers ;)
-- Supprimer « bonhomme de neige » du panneau _Hierarchy_
-- Glisser le prefab « bonhomme de neige » sur la scène (on reconnait le prefab par un cube turquoise)<br>![](./assets/img/mrplow2.png){data-zoom-image .w-10}
+- Crééer un gameobject vide, nomme le **bonhomme de neige** et y mettre les 3 sphères.<br>![](./assets/img/mrplow1.png){data-zoom-image .w-10}
+- Glisser **bonhomme de neige** dans le panneau **Project** dans le dossier prefab que vous devirez déjà avoir si vous avez bien fait votre structure de dossiers ;)
+- Supprimer **bonhomme de neige** du panneau **Hierarchy**
+- Glisser le prefab **bonhomme de neige** sur la scène (on reconnait le prefab par un cube turquoise)<br>![](./assets/img/mrplow2.png){data-zoom-image .w-10}
 - Dubliquer le prefab et repositionnez le, 10 fois<br>![](./assets/img/mrplow3.png){data-zoom-image .w-10}
 
 Testons l'avantage d'utiliser des prefabs. Ajoutons une carotte pour le nez.
 
-- Dans le panneau _Project_, double-clic sur le prefab « bonhomme de neige »<br>![](./assets/img/mrplow4.png){data-zoom-image .w-10}
+- Dans le panneau **Project**, double-clic sur le prefab **bonhomme de neige**<br>![](./assets/img/mrplow4.png){data-zoom-image .w-10}
 - Ajouter une carotte pour le nez<br>![](./assets/img/mrplow5.png){data-zoom-image .w-10}
-- Sauvegarder et revenir de l'édition en cliquant sur la petite flèche dans le panneau hierarchy<br>![](./assets/img/prefab-backbtn.png){data-zoom-image .w-10}
+- Sauvegarder et revenir de l'édition en cliquant sur la petite flèche dans le panneau **Hierarchy**<br>![](./assets/img/prefab-backbtn.png){data-zoom-image .w-10}
 
 ### Détacher un prefab
 
-Pour détacher un prefab, clic-droit sur l'objet dans le panneau `Hierarchy`, puis `Prefab` > `Unpack Completely`.
+Pour détacher un prefab, clic-droit sur l'objet dans le panneau **Hierarchy**, puis **Prefab > Unpack Completely**.
 
 Il n'y aura plus de référence au prefab, donc si on change le prefab, ca ne changera plus cet élément.
 
@@ -401,16 +401,16 @@ L'avantage du _pack_ est qu'il contient des centaines de modèles 3D **cohérent
 
 ![](./assets/img/wrong-shader.png){data-zoom-image .w-50}
 
-Bon, là, si vous ajoutez tout de suite des assets de « SyntyStudio » vous devriez faire face à un problème de _Shaders_ incompatibles. Quand ça arrive, Unity affiche les assets en magenta.
+Bon, là, si vous ajoutez tout de suite des assets de **SyntyStudio** vous devriez faire face à un problème de _Shaders_ incompatibles. Quand ça arrive, Unity affiche les assets en magenta.
 
 Pas de panique, ça veut juste dire que l'asset utilise un shader qui n'est pas reconnu par la technologie URP (ce sur quoi notre projet est basé). Il faut donc convertir le _pack_ avant de pouvoir l'utiliser :
 
-1. Clic sur `Window` > `Rendering` > `Render Pipeline Converter`.
-1. **Source Pipeline** = `Built-in`
-1. **Target Pipeline** = `Universal Render Pipeline (Universal Renderer)`
-1. Coche « ***Material Reference Converter*** » et « ***Material Shader Converter*** ».
-1. Clic sur le bouton `Scan`.
-1. Quand c'est terminé, clic sur `Convert Assets`.
+1. Clic sur **Window > Rendering > Render Pipeline Converter**.
+1. **Source Pipeline** = **Built-in**
+1. **Target Pipeline** = **Universal Render Pipeline (Universal Renderer)**
+1. Coche **Material Reference Converter** et **Material Shader Converter**.
+1. Clic sur le bouton **Scan**.
+1. Quand c'est terminé, clic sur **Convert Assets**.
 
 Là, ça fonctionne !
 
@@ -418,22 +418,22 @@ Là, ça fonctionne !
 
 !!! example "Prototype"
 
-    Certains materials peuvent être encore brisés. C'est parce que SyntyStudio utilise parfois des _shaders_ personnalisés. Pour corriger cela, dans le panneau Project, tapez "URP_ExtractMe" dans la barre de recherche. Double-cliquez dessus sur l'élément trouvé, puis cliquez sur Import.
+    Certains materials peuvent être encore brisés. C'est parce que SyntyStudio utilise parfois des _shaders_ personnalisés. Pour corriger cela, dans le panneau **Project**, tapez `URP_ExtractMe` dans la barre de recherche. Double-cliquez dessus sur l'élément trouvé, puis cliquez sur **Import**.
 
 !!! danger "Erreur d'inattention"
 
     Si vous avez convertis en Universal Render Pipeline (2D Renderer), vous devez soit recommencer, soit appliquer la procédure suivante.
 
-    - Créer un dossier « Editor » dans Assets.
-    - Télécharger et déplacer dans le dossier Editor le [script de récupération](./extra/Convert2DMaterialsToURPLit.cs).
-    - Sur Unity, vous devriez voir l'onglet "Tools". Cliquer sur `URP` > `3. Convertir vers URP Lit (tout le projet)`
+    - Créer un dossier **Editor** dans **Assets**.
+    - Télécharger et déplacer dans le dossier **Editor** le [script de récupération](./extra/Convert2DMaterialsToURPLit.cs).
+    - Sur Unity, vous devriez voir l'onglet **Tools**. Cliquer sur **URP > 3. Convertir vers URP Lit (tout le projet)**
 
     Idée originale de Christophe Granger.
 
 ### Ajouter des assets sur la scène
 
-1. Dans le panneau ***Project***, ouvre le dossier `SyntyStudios` > `PolygonAdventure` > `Prefabs` > `Environments`
-1. Glissez par exemple, `SM_Env_Road_Straight_01` sur le panneau ***Scene***.
+1. Dans le panneau **Project**, ouvre le dossier **SyntyStudios > PolygonAdventure > Prefabs > Environments**
+1. Glissez par exemple, **SM_Env_Road_Straight_01** sur le panneau **Scene**.
 1. Repositionnez le prefab au centre de l'environnement (`x=0`, `y=0` et `z=0`).
 
 ### Mesh Collider vs Box Collider
@@ -448,7 +448,7 @@ Là, ça fonctionne !
 
 Certains modèles 3D incluent par défaut un **Mesh Collider**. Si son utilisation est pertinente pour des surfaces complexes (comme un terrain) on garde, mais souvent ce n'est pas pertinent. 
 
-*Mesh Collider* est très gourmand en ressources, car le processeur doit calculer les collisions pour chaque polygone.
+**Mesh Collider** est très gourmand en ressources, car le processeur doit calculer les collisions pour chaque polygone.
 <!-- 
 ## Un environnement qui se tient
 

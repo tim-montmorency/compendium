@@ -22,26 +22,26 @@ Les scènes en Unity sont différents lieux ou interfaces qui sont traditionnell
 
 ### Créer une nouvelle 
 
-Dans le panneau Project : 
+Dans le panneau **Project** : 
 
-- 📁 Assets > 📁 _ > 📁 Scenes
-- Clic-droit > `Create` > `Scene` > `Scene`
+- **📁 Assets > 📁 _ > 📁 Scenes**
+- Clic-droit > **Create > Scene > Scene**
 
 ### Ajouter une scène au Build
 
 Pour changer de scène, il faut d'abord configurer les scènes du build. On doit mentionner manuellement à Unity les scènes qui font officiellement parti de notre jeu.
 
-- `File` > `Build Profiles`
-- Dans la colonne de gauche, clic sur `Scene List`
+- **File > Build Profiles**
+- Dans la colonne de gauche, clic sur **Scene List**
 - Il faut glisser manuellement les scènes de notre jeu dans cette case !<br>![](./assets/img/scene-list.png){data-zoom-image} 
 
 ### Changement de scène avec CES
 
-Collider Event > Actions > Scene
+**Collider Event > Actions > Scene**
 
 ![](./assets/img/CES-scene.png){data-zoom-image}
 
-Pour changer de scène à la collision, il ne suffit que de glisser la scene dans le champ Scene Asset.
+Pour changer de scène à la collision, il ne suffit que de glisser la scene dans le champ **Scene Asset**.
 
 Pour les autres options, voici l'explication :
 
@@ -56,13 +56,13 @@ Pour les autres options, voici l'explication :
 
 La configuration du skybox se trouve :
 
-`Window` > `Rendering` > `Lighting` > onglet `Environment` > `Skybox Material`
+**Window > Rendering > Lighting**, onglet **Environment > Skybox Material**
 
-Le Material par défaut est `Default-Skybox`.
+Le Material par défaut est **Default-Skybox**.
 
 Pour en ajouter d'autres, il faut créer d'autres Material, mais nous n'en sommes pas encore à cet étape.
 
-Avec l'aide de l'asset gratuit « [Skybox Series Free](./unity-assets/index.html#skybox-series-free) », vous aurez d'autres options pour configurer `Skybox Material`.
+Avec l'aide de l'asset gratuit « [Skybox Series Free](./unity-assets/index.html#skybox-series-free) », vous aurez d'autres options pour configurer **Skybox Material**.
 
 ## Text (version express)
 
@@ -70,30 +70,30 @@ Avec l'aide de l'asset gratuit « [Skybox Series Free](./unity-assets/index.html
 
 Pour ajouter du texte à une scène 3D, la façon rapide est d'ajouter : 
 
-- `Hierarchy` > clic-droit > `3D Object` > `Legacy` > `TextMesh`
-- Changer le contenu du champ `Text`
-- Modifier `Font Size` à `500`
-- Changer `Character Size` à `0.01`
+- **Hierarchy** > clic-droit > **3D Object > Legacy > TextMesh**
+- Changer le contenu du champ **Text**
+- Modifier **Font Size** à `500`
+- Changer **Character Size** à `0.01`
 
 ### Changer la fonte 
 
 Télécharger une fonte sur Google Fonts. Exemple : 
 
 - <https://fonts.google.com/specimen/Google+Sans>
-- Cliquer sur « Get Font »
-- Cliquer sur « Download all » et chosir le chemin de sauvegarde
+- Cliquer sur **Get Font**
+- Cliquer sur **Download all** et chosir le chemin de sauvegarde
 - Dézipper le fichier téléchargé
 
 Dans unity : 
 
-- Dans 📁 Assets > 📁 _ : créer un nouveau dossier 📁 Fonts
-- Glisser un fichier `.ttf` téléchargé dans le dossier 📁 Fonts
-- Sélectionner le TextMesh dans le panneau Hierarchy
-- Dans `Inspector` > `TextMesh` > `Font`, glisser la fonte du dossier 📁 Fonts
+- Dans **📁 Assets > 📁 _**, créer un nouveau dossier **📁 Fonts**
+- Glisser un fichier `.ttf` téléchargé dans le dossier **📁 Fonts**
+- Sélectionner le **TextMesh** dans le panneau **Hierarchy**
+- Dans **Inspector > TextMesh > Font**, glisser la fonte du dossier **📁 Fonts**
 
 ## Son
 
-Avant l'ajout d'audio dans un projet, on doit avoir un "Audio Listener". 
+Avant l'ajout d'audio dans un projet, on doit avoir un **Audio Listener**. 
 
 Il y en a déjè un par défaut d'assigné sur la caméra principale, mais c'est bon de le savoir quand même.
 
@@ -103,19 +103,19 @@ Il y en a déjè un par défaut d'assigné sur la caméra principale, mais c'est
 
 Dans unity : 
 
-- Dans 📁 Assets > 📁 _ : créer un nouveau dossier 📁 Audio
-- Glisser le fichier `.mp3` téléchargé dans le dossier 📁 Audio
+- Dans **📁 Assets > 📁 _**, créer un nouveau dossier **📁 Audio**
+- Glisser le fichier `.mp3` téléchargé dans le dossier **📁 Audio**
 
 ### Ajouter une source audio
 
-- `Hierarchy` > clic-droit > `Audio` > `Audio Source`
-- Dans `Inspector` > `Audio Generator`, glisser le fichier audio du panneau _Project_
+- **Hierarchy** > clic-droit > **Audio > Audio Source**
+- Dans **Inspector > Audio Generator**, glisser le fichier audio du panneau **Project**
 
 !!! examples "Options"
 
-    L'option `Play On Awake` coché, déclenche l'audio au chargement de la scène.
+    L'option **Play On Awake** coché, déclenche l'audio au chargement de la scène.
 
-    L'option `Loop` la fait boucler.
+    L'option **Loop** la fait boucler.
 
 ## Personnage jouable
 
@@ -133,14 +133,14 @@ Le contrôle d'un personnage nécéssite normalement un peu de code. Heureusemen
 
 ![](./assets/img/fps-config.png){data-zoom-image}
 
-- Désactive ou supprime la « Main Camera »
+- Désactive ou supprime la **Main Camera**
 - Ajoute le [Character Controllers](./unity-assets/index.md#character-controllers) via le Asset Store
-- Dans le panneau _Project_, `Assets` > `Starter Assets` > `Runtime` > `FirstPersonController` > `Prefabs`, glisse ***NestedParent_Unpack*** sur la scène
+- Dans le panneau **Project**, **Assets > Starter Assets > Runtime > FirstPersonController > Prefabs**, glisse **NestedParent_Unpack** sur la scène
 - Positionne le prefab **au-dessus** du sol
-- Clic-droit sur l'objet dans le panneau `Hierarchy`, puis `Prefab` > `Unpack Completely`
-- Dans ***NestedParent_Unpack***, clic sur PlayerFollowCamera
-- Pour que la caméra suive le personnage, du panneau _Hierarchy_, glisse `PlayerCapsule` vers le champ `Inspector` > `Cinemachine Camera` > `Tracking Target` 
-- Play
+- Clic-droit sur l'objet dans le panneau **Hierarchy**, puis **Prefab > Unpack Completely**
+- Dans **NestedParent_Unpack**, clic sur **PlayerFollowCamera**
+- Pour que la caméra suive le personnage, du panneau **Hierarchy**, glisse **PlayerCapsule** vers le champ **Inspector > Cinemachine Camera > Tracking Target** 
+- **Play**
 
 !!! examples "Contrôles"
 
@@ -152,14 +152,14 @@ Le contrôle d'un personnage nécéssite normalement un peu de code. Heureusemen
 
 ![](./assets/img/tps-capsule-config.png){data-zoom-image}
 
-- Désactive ou supprime la « Main Camera »
+- Désactive ou supprime la **Main Camera**
 - Ajoute le [Character Controllers](./unity-assets/index.md#character-controllers) via le Asset Store
-- Dans le panneau _Project_, `Assets` > `Starter Assets` > `Runtime` > `ThirdPersonController` > `Prefabs`, glisse ***NestedParentCapsule_Unpack*** sur la scène
+- Dans le panneau **Project**, **Assets > Starter Assets > Runtime > ThirdPersonController > Prefabs**, glisse **NestedParentCapsule_Unpack** sur la scène
 - Positionne le prefab **au-dessus** du sol
-- Clic-droit sur l'objet dans le panneau `Hierarchy`, puis `Prefab` > `Unpack Completely`
-- Dans ***NestedParentCapsule_Unpack***, clic sur PlayerFollowCamera
-- Pour que la caméra suive le personnage, du panneau _Hierarchy_, glisse `PlayerCapsule` > `PlayerCameraRoot` vers le champ `Inspector` > `Cinemachine Camera` > `Tracking Target` 
-- Play
+- Clic-droit sur l'objet dans le panneau **Hierarchy**, puis **Prefab > Unpack Completely**
+- Dans **NestedParentCapsule_Unpack**, clic sur **PlayerFollowCamera**
+- Pour que la caméra suive le personnage, du panneau **Hierarchy**, glisse **PlayerCapsule > PlayerCameraRoot** vers le champ **Inspector > Cinemachine Camera > Tracking Target** 
+- **Play**
 
 !!! examples "Contrôles"
 
@@ -169,7 +169,7 @@ Le contrôle d'un personnage nécéssite normalement un peu de code. Heureusemen
 
 ### Troisième personne avec armature
 
-- Suivre la même procédure que pour l'ajout d'un "ThirdPersonController", mais au lieu de "NestedParentCapsule_Unpack", choisir "NestedParentArmature_Unpack".
+- Suivre la même procédure que pour l'ajout d'un **ThirdPersonController**, mais au lieu de **NestedParentCapsule_Unpack**, choisir **NestedParentArmature_Unpack**.
 
 <div class="grid" markdown>
 <figure markdown>
@@ -182,15 +182,15 @@ Le contrôle d'un personnage nécéssite normalement un peu de code. Heureusemen
 </figure>
 </div>
 
-Le pack SyntyStudio contient plein de personnages en TPose : ![](./assets/img/tpose.png){.w-10 data-zoom-image}. Par exemple, dans le dossier `SyntyStudios` > `PolygonAdventure` > `Prefabs` > `Characters`.
+Le pack SyntyStudio contient plein de personnages en TPose : ![](./assets/img/tpose.png){.w-10 data-zoom-image}. Par exemple, dans le dossier **SyntyStudios > PolygonAdventure > Prefabs > Characters**.
 
 Parce que les personnages Synty sont humanoïdes, on peut s'en servir pour remplacer le manequin humanoïde par défaut.
 
-- Dans `NestedParentArmature_Unpack` > `PlayerArmature` > `Geometry`, désactive ou supprime `Armature_Mesh`.
-- Glisse un prefab Character de Synty sous le dossier `Geometry`
-- Clic sur Player Armature
-- Trouve un `CharactersAvatar`. Exemple : `SyntyStudios` > `PolygonAdventure` > `Models` > `Characters`. Déplier `Characters` et on devrait y voir `CharactersAvatar`.
-- Glisse `CharactersAvatar` vers le champ `Animator` > `Avatar`
+- Dans **NestedParentArmature_Unpack > PlayerArmature > Geometry**, désactive ou supprime **Armature_Mesh**.
+- Glisse un prefab Character de Synty sous le dossier **Geometry**
+- Clic sur **Player Armature**
+- Trouve un **CharactersAvatar**. Exemple : **SyntyStudios > PolygonAdventure > Models > Characters**. Déplier **Characters** et on devrait y voir **CharactersAvatar**.
+- Glisse **CharactersAvatar** vers le champ **Animator > Avatar**
 
 ## Collider Event System, la suite
 
@@ -239,7 +239,7 @@ Au cours 01, nous avons vu la notion de prérequis (inventaire, économie, progr
 ### Types de déclenchement d'actions
 
 - **Entrée** (par défaut) : Se déclenche à l'instant où un objet **entre** dans la zone. <br>Ex. : prendre un objet
-- **Présence** : Se déclenche **X secondes** suite à une collision soutenue. <br>Ex. : Trop longtemps dans une zone de feu charge la scène _Game Over_<br>![](./assets/img/ces-hold-time.png){data-zoom-image .w-10}
+- **Présence** : Se déclenche **X secondes** suite à une collision soutenue. <br>Ex. : Trop longtemps dans une zone de feu charge la scène **Game Over**<br>![](./assets/img/ces-hold-time.png){data-zoom-image .w-10}
 - **Sortie** : Se déclenche quand l'objet **sort** de la zone. <br>Ex. : Sortir d'une pièce ferme sa lumière<br>![](./assets/img/ces-exit-action.png){data-zoom-image .w-10}
 
 ## Démo
@@ -254,17 +254,17 @@ Jusqu'ici, le jeu n'existe que dans l'éditeur.
 
 **Compiler** (faire un *build*), c'est produire une application autonome pour un usage spécifique. Par exemple, faire un build Web pour publier sur [itch.io](https://itch.io/), `.exe` pour Windows, `.apk` pour Android, etc.
 
-- `File` > `Build Profiles` > vérifie la ***Scene List*** (toutes vos scènes doivent y être glissé)
-- Dans la colonne de gauche, choisir un build profile (ex: Windows). S'il n'y en a pas, cliquer sur « Add Build Profile » <br>![](./assets/img/build-profiles.png){data-zoom-image .w-10} ![](./assets/img/add-build-profile.png){data-zoom-image .w-10}
-- Clic sur `Build`
-- Enregistrer dans un dossier `Build` à la racine du projet (au même niveau que `.gitignore`)
+- **File > Build Profiles**, vérifie la **Scene List** (toutes vos scènes doivent y être glissé)
+- Dans la colonne de gauche, choisir un build profile (ex: Windows). S'il n'y en a pas, cliquer sur **Add Build Profile** <br>![](./assets/img/build-profiles.png){data-zoom-image .w-10} ![](./assets/img/add-build-profile.png){data-zoom-image .w-10}
+- Clic sur **Build**
+- Enregistrer dans un dossier **Build** à la racine du projet (au même niveau que `.gitignore`)
 - Attends (c'est long la première fois), puis **lance ton jeu** comme une vraie application 🎉
 
 !!! note "Github + Build"
 
     Il n'est pas une bonne pratique de sauvegarder un build sur GitHub. C'est trop lourd. 
     
-    Normalement, avec le fichier `.gitignore` pour Unity, les builds dans le dossier `Build` à la racine du projet seront ignoré par Git et c'est ce qu'on veut.
+    Normalement, avec le fichier `.gitignore` pour Unity, les builds dans le dossier **Build** à la racine du projet seront ignoré par Git et c'est ce qu'on veut.
 
 !!! warning "Au CÉGEP, on ne peut malheureusement pas installer de nouveaux Build Profile"
 
