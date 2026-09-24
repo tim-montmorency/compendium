@@ -211,29 +211,6 @@ Dans le composant **Button** du bouton :
 
 <!-- !!! quote "Psst. On peut aussi déclencher des scripts custom ;)" -->
 
-#### _9 slicing sprite_
- 
-![](./assets/img/9slice-pizza.png){data-zoom-image .w-50}
-
-<!-- https://en.wikipedia.org/wiki/9-slice_scaling -->
-
-1. Trouver une image de bouton carré<br>![](./assets/img/button_square_depth_flat.png){data-zoom-image .w-10}
-1. Glisser l'image dans **Assets > _ > Sprites**
-1. Cliquer sur l'image
-  > Cliquer sur **Install 2D Sprite Package** si ce n'est pas déjà installé
-1. **Texture type** = **Sprite (2D and UI)**
-  - Si l'image est en pixelart, **Filter Mode** = **Point (no filter)**
-1. **Sprite Mode** = **Single**
-1. Clic sur **Apply**
-1. Clic sur **Open Sprite Editor**
-1. Glisser les 4 lignes vertes vers le centre de sorte à avoir un centre uni<br>![](./assets/img/9slice-sprite-editor.png){data-zoom-image .w-10}
-1. Clic sur **Apply** et ferme le **Sprite Editor**
-
-Dans le panneau **Hierarchy** : 
-
-1. Clic sur un bouton dans le canvas
-1. Drag le sprite du panneau **Project** vers **Image > Source Image**
-1. **Image type** = **Sliced**
 
 ## Scripts
 
