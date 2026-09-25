@@ -7,8 +7,8 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
 
 | NOM | PLAGE HORAIRE | LIEU | DATES |
 |---|---|---|---|
-| *Alexis Guilbault (3e)* | Trou horaire : mardi 12 h 30 à 14 h 10 | En personne au Centre d'aide C-1602 | 8 sept. au 8 déc. inclus |
-| *Olivier Laliberté (3e)* | Mercredi soir : 20 h à 21 h 15 | En ligne sur Teams : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 9 sept. au 9 déc. inclus |
+| *Alexis Guilbault* | Trou horaire : mardi 12 h 30 à 14 h 10 | En personne au Centre d'aide C-1602 | 8 sept. au 8 déc. inclus |
+| *Olivier Laliberté* | Mercredi soir : 20 h à 21 h 15 | En ligne sur Teams : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 9 sept. au 9 déc. inclus |
 
 !!! success "Nouveau : périodes de tutorat supplémentaires réservées à Web 5"
     En plus de leurs plages habituelles, Alexis et Olivier offriront **des périodes de tutorat de plus, réservées au cours Web 5**, placées juste avant les remises du portfolio :
