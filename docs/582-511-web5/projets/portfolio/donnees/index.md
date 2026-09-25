@@ -53,6 +53,9 @@ Toutes les sources doivent produire des projets qui ont **exactement ces noms de
 !!! warning "Noms de propriétés : sans espaces, sans accents, en minuscules"
     `annee`, pas `Année`. `categorie`, pas `Catégorie`. En JavaScript, `projet.annee` fonctionne, `projet.Année` est une source de bogues garantie. Ça vaut pour les clés de votre JSON, les en-têtes de colonnes de votre Google Sheet et les noms de champs d'Airtable.
 
+!!! tip "Commencez par un seul projet, dupliqué"
+    Remplissez d'abord **un** projet complet, puis dupliquez-le 3 ou 4 fois en changeant seulement l'`id` et le `titre`. Vous allez sûrement ajuster vos propriétés en codant vos cartes et votre détail : c'est plus simple avec un seul vrai projet à corriger. Le vrai contenu vient une fois la structure stable.
+
 Vous pouvez ajouter d'autres propriétés propres à votre portfolio (ex. `outils`, `client`, `role`). Gardez simplement la même règle de nommage, et le même nom dans toutes vos données.
 
 ## Où va le code

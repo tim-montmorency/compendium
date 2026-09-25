@@ -31,7 +31,9 @@
 | `querySelector()`, `innerHTML` | Insérer le HTML dans la page |
 | `addEventListener()` | Réagir à un clic (ouvrir une modale) |
 
-Votre aide-mémoire des sessions précédentes couvre tout ça : [aide-mémoire JS](https://jfcmontmorency.github.io/aide-memoire/){ :target="_blank" }
+Tous les concepts clés, avec un exemple chacun, à garder ouvert pendant que vous codez :
+
+[:material-language-javascript: Récap JS : les concepts clés](js/recap-js.md){ .md-button .md-button--primary }
 
 ## JSON et `fetch()` asynchrone
 
@@ -78,16 +80,22 @@ Selon la structure de navigation choisie dans `PLANIFICATION.md` :
 - **Multipages** : une seule page `projet.html` pour tous les projets. Elle lit `?id=cafe-du-coin` dans l'adresse avec `URLSearchParams`. Voir [Afficher les projets, section 5](projets/portfolio/donnees/afficher-projets.md#5-multipages-projethtml-et-les-parametres-durl).
 - **One-pager avec carrousel** : le détail est dans la carte elle-même, rien de plus à charger.
 
+!!! info "Pas de composant JavaScript supplémentaire à ajouter"
+    Le chargement de vos projets et l'affichage de leur détail (modale, carrousel ou `projet.html`), c'est **l'interactivité JavaScript** exigée pour le portfolio. Aucun autre composant JS n'est demandé.
+
 ## Atelier de production
 
 Structure Pomodoro, comme aux cours 4.2 et 5.1 : sprints de 25 minutes, un objectif précis noté dans `JOURNAL.md` au début de chaque sprint, 2 minutes de bilan à la fin, vraie pause entre les sprints.
 
 Ordre suggéré, une étape par sprint :
 
-1. **Préparer votre source** : `projets.json`, feuille Google ou base Airtable, avec au moins 3 projets dans le format commun. Test `console.log(projets[0].titre)` réussi.
+1. **Préparer votre source** : `projets.json`, feuille Google ou base Airtable. Commencez par **un seul projet** complet dans le format commun, puis dupliquez-le quelques fois (voir l'encadré ci-dessous). Test `console.log(projets[0].titre)` réussi.
 2. **Générer les cartes** : `creerCarteProjet()` + `main.js`. Plus aucune carte écrite à la main dans le HTML.
 3. **Le détail statique** : si votre modale ou votre `projet.html` n'est pas encore intégré en HTML/CSS, codez-le d'abord avec **un projet écrit en dur**, comme vos autres composants.
 4. **Brancher le détail sur les données** : modale ou `projet.html?id=...`.
+
+!!! tip "Un seul projet, dupliqué, avant de tout remplir"
+    Vous allez probablement ajouter, renommer ou retirer des propriétés en construisant vos cartes et votre détail (« ah, il me faudrait aussi `outils`... »). Si vos 8 projets sont déjà remplis, chaque changement est à refaire 8 fois. Bâtissez d'abord **un** projet complet, dupliquez-le 3 ou 4 fois en changeant seulement l'`id` et le `titre`, et remplissez le vrai contenu une fois votre structure stable.
 
 !!! tip "Si votre HTML/CSS n'est pas terminé"
     Priorité aux cartes de projets. Le reste de l'intégration HTML/CSS se poursuit en parallèle, mais la section projets est celle qui doit être branchée sur les données en premier.
@@ -109,7 +117,7 @@ Commit final avant de partir.
 
 **Obligatoire** :
 
-- [ ] Votre source de données est en place, avec tous vos projets (ou au moins ceux prêts à ce jour) dans le format commun.
+- [ ] Votre **source de données** est créée (JSON local, Google Sheets ou Airtable), avec un projet complet dans le format commun, dupliqué quelques fois. Le vrai contenu viendra une fois la structure stable.
 - [ ] Les **cartes de projets** de la page d'accueil sont générées en JavaScript à partir de cette source.
 - [ ] Commits poussés sur GitHub, `JOURNAL.md` à jour.
 
