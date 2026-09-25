@@ -18,21 +18,21 @@
 
 ## 2. Préparer les données
 
-Renommer la table par défaut en `Projets` (**sans espace ni accent**), puis créer les champs du [format commun](index.md#le-format-commun-des-donnees), avec le bon **type de champ** :
+Renommer la table par défaut en `Projects` (**sans espace ni accent**), puis créer les champs du [format commun](index.md#le-format-commun-des-donnees), avec le bon **type de champ** :
 
 | Champ | Type Airtable | Remarque |
 |---|---|---|
-| `id` | Texte sur une ligne | Identifiant lisible pour `projet.html?id=...` (ex. `cafe-du-coin`). Voir la note plus bas. |
-| `titre` | Texte sur une ligne | |
+| `id` | Texte sur une ligne | Identifiant lisible pour `project.html?id=...` (ex. `cafe-du-coin`). Voir la note plus bas. |
+| `title` | Texte sur une ligne | |
 | `description` | Texte long | |
-| `categorie` | Sélection unique ou texte | |
-| `annee` | Texte sur une ligne | |
+| `category` | Sélection unique ou texte | |
+| `year` | Texte sur une ligne | |
 | `images` | **Pièce jointe** (Attachment) | Plusieurs fichiers : la **première** image devient l'image principale, les suivantes la galerie. |
-| `lien` | URL | |
+| `link` | URL | |
 | `video` | URL | Le lien d'intégration complet (voir section 6). |
 
 !!! note "Le champ `id` est optionnel avec Airtable"
-    Chaque enregistrement Airtable a déjà un identifiant unique, du genre `recA1b2C3d4E5f6G7`. Le code de `data.js` l'utilise automatiquement si vous ne créez pas de champ `id`. Créer votre propre `id` donne simplement de plus belles URL : `projet.html?id=cafe-du-coin` plutôt que `projet.html?id=recA1b2C3d4E5f6G7`.
+    Chaque enregistrement Airtable a déjà un identifiant unique, du genre `recA1b2C3d4E5f6G7`. Le code de `data.js` l'utilise automatiquement si vous ne créez pas de champ `id`. Créer votre propre `id` donne simplement de plus belles URL : `project.html?id=cafe-du-coin` plutôt que `project.html?id=recA1b2C3d4E5f6G7`.
 
 ## 3. Obtenir l'URL : Base ID et nom de la table
 
@@ -41,7 +41,7 @@ Dans Airtable, **Aide → API documentation** (ou [airtable.com/developers/web/a
 L'URL de votre table :
 
 ```text
-https://api.airtable.com/v0/BASE_ID/Projets
+https://api.airtable.com/v0/BASE_ID/Projects
 ```
 
 Contrairement à opensheet, cette URL ne fonctionne **pas** directement dans le navigateur : il faut lui joindre un jeton.
@@ -79,30 +79,30 @@ Airtable n'utilise plus de clé API classique depuis 2024 : il faut un **jeton d
 // Source : Airtable
 
 const BASE_ID = 'appXXXXXXXXXXXXXX';   // votre Base ID
-const TABLE = 'Projets';
-const JETON = 'patXXXXXXXXXXXXXX';     // jeton en lecture seule, 1 base
+const TABLE = 'Projects';
+const TOKEN = 'patXXXXXXXXXXXXXX';     // jeton en lecture seule, 1 base
 
-async function chargerProjets() {
-  const reponse = await fetch(`https://api.airtable.com/v0/${BASE_ID}/${TABLE}`, {
-    headers: { Authorization: `Bearer ${JETON}` }
+async function loadProjects() {
+  const response = await fetch(`https://api.airtable.com/v0/${BASE_ID}/${TABLE}`, {
+    headers: { Authorization: `Bearer ${TOKEN}` }
   });
 
-  if (!reponse.ok) {
-    throw new Error(`Impossible de charger les projets (${reponse.status})`);
+  if (!response.ok) {
+    throw new Error(`Impossible de charger les projets (${response.status})`);
   }
 
-  const donnees = await reponse.json();
+  const data = await response.json();
 
   // Ramener au format commun
-  return donnees.records.map(record => {
-    const champs = record.fields;
-    const urlsImages = (champs.images || []).map(fichier => fichier.url);
+  return data.records.map(record => {
+    const fields = record.fields;
+    const imageUrls = (fields.images || []).map(file => file.url);
 
     return {
       id: record.id,           // identifiant Airtable par défaut...
-      ...champs,               // ...remplacé par votre champ id s'il existe
-      image: urlsImages[0] || '',
-      galerie: urlsImages.slice(1)
+      ...fields,               // ...remplacé par votre champ id s'il existe
+      image: imageUrls[0] || '',
+      gallery: imageUrls.slice(1)
     };
   });
 }
@@ -115,29 +115,29 @@ async function chargerProjets() {
 // Source : Airtable
 
 const BASE_ID = 'appXXXXXXXXXXXXXX';   // votre Base ID
-const TABLE = 'Projets';
-const JETON = 'patXXXXXXXXXXXXXX';     // jeton en lecture seule, 1 base
+const TABLE = 'Projects';
+const TOKEN = 'patXXXXXXXXXXXXXX';     // jeton en lecture seule, 1 base
 
-function chargerProjets() {
+function loadProjects() {
   return fetch(`https://api.airtable.com/v0/${BASE_ID}/${TABLE}`, {
-    headers: { Authorization: `Bearer ${JETON}` }
+    headers: { Authorization: `Bearer ${TOKEN}` }
   })
-    .then(reponse => {
-      if (!reponse.ok) {
-        throw new Error(`Impossible de charger les projets (${reponse.status})`);
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Impossible de charger les projets (${response.status})`);
       }
-      return reponse.json();
+      return response.json();
     })
-    .then(donnees => donnees.records.map(record => {
+    .then(data => data.records.map(record => {
       // Ramener au format commun
-      const champs = record.fields;
-      const urlsImages = (champs.images || []).map(fichier => fichier.url);
+      const fields = record.fields;
+      const imageUrls = (fields.images || []).map(file => file.url);
 
       return {
         id: record.id,           // identifiant Airtable par défaut...
-        ...champs,               // ...remplacé par votre champ id s'il existe
-        image: urlsImages[0] || '',
-        galerie: urlsImages.slice(1)
+        ...fields,               // ...remplacé par votre champ id s'il existe
+        image: imageUrls[0] || '',
+        gallery: imageUrls.slice(1)
       };
     }));
 }
@@ -156,7 +156,7 @@ Airtable ne retourne pas directement un tableau de projets. Sa réponse ressembl
       id: 'recA1b2C3d4E5f6G7',
       createdTime: '2026-09-20T14:00:00.000Z',
       fields: {
-        titre: 'Café du coin',
+        title: 'Café du coin',
         description: '...',
         images: [
           { url: 'https://...photo1.jpg', filename: 'photo1.jpg', ... },
@@ -171,9 +171,9 @@ Airtable ne retourne pas directement un tableau de projets. Sa réponse ressembl
 
 Le `map()` fait trois choses :
 
-1. **Il sort les données de `fields`** : `...champs` recopie tous les champs au premier niveau, donc `projet.titre` plutôt que `projet.fields.titre`.
-2. **Il fournit un `id`** : celui d'Airtable par défaut. Comme `...champs` vient après, votre propre champ `id` le remplace s'il existe.
-3. **Il transforme les pièces jointes** : le tableau d'objets `images` devient une URL `image` (la première) et un tableau d'URL `galerie` (les suivantes).
+1. **Il sort les données de `fields`** : `...fields` recopie tous les champs au premier niveau, donc `project.title` plutôt que `project.fields.title`.
+2. **Il fournit un `id`** : celui d'Airtable par défaut. Comme `...fields` vient après, votre propre champ `id` le remplace s'il existe.
+3. **Il transforme les pièces jointes** : le tableau d'objets `images` devient une URL `image` (la première) et un tableau d'URL `gallery` (les suivantes).
 
 Résultat : exactement le même format que le JSON local. La page d'affichage n'a aucune idée que les données viennent d'Airtable.
 
@@ -204,8 +204,8 @@ Pourquoi le lien complet? Parce qu'il s'injecte directement dans un `<iframe>`, 
 ## 7. Pièges propres à cette source
 
 - **Erreur 401 ou 403** : jeton invalide, mal copié, ou sans accès à cette base. Vérifiez les scopes et la section *Access* du jeton.
-- **Erreur 404** : Base ID ou nom de table erroné. Le nom de la table est sensible à la casse et aux accents : `Projets`, pas `projets`.
-- **Champ vide = propriété absente** : si une cellule est vide, Airtable n'inclut tout simplement pas ce champ dans `fields`. `projet.lien` vaut alors `undefined`. Le code d'affichage doit le prévoir (voir la page suivante).
+- **Erreur 404** : Base ID ou nom de table erroné. Le nom de la table est sensible à la casse et aux accents : `Projects`, pas `projects`.
+- **Champ vide = propriété absente** : si une cellule est vide, Airtable n'inclut tout simplement pas ce champ dans `fields`. `project.link` vaut alors `undefined`. Le code d'affichage doit le prévoir (voir la page suivante).
 - **Ordre des projets** : pour recevoir les projets dans l'ordre de votre vue Airtable, ajoutez le nom de la vue à l'URL : `` `https://api.airtable.com/v0/${BASE_ID}/${TABLE}?view=${encodeURIComponent('Nom de la vue')}` ``.
 - **100 enregistrements maximum par requête** : largement suffisant pour un portfolio. Le plan gratuit permet 1000 enregistrements par base.
 
@@ -214,7 +214,7 @@ Pourquoi le lien complet? Parce qu'il s'injecte directement dans un `<iframe>`, 
 Temporairement, à la fin de `data.js` :
 
 ```js
-chargerProjets().then(projets => console.log(projets[0].titre));
+loadProjects().then(projects => console.log(projects[0].title));
 ```
 
 Vous voyez le titre de votre premier projet dans la console? Retirez cette ligne de test et passez à l'affichage.

@@ -1,0 +1,52 @@
+/* Le CSS est déjà prêt : concentrez-vous sur le JavaScript. */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #0a0a0a;
+  color: #fff;
+  font-family: system-ui, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+}
+
+.projects {
+  width: min(100% - 2rem, 1100px);
+  margin: 3rem auto;
+}
+
+.projects__title { font-size: 2.5rem; margin: 0 0 1.5rem; }
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: #161616;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project-card__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.project-card__content { padding: 1rem; }
+
+.project-card__title { margin: 0 0 0.25rem; font-size: 1.25rem; }
+
+.project-card__meta {
+  margin: 0 0 0.5rem;
+  color: #ff2b47;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.project-card__description { margin: 0 0 0.75rem; color: #a3a3a3; }
+
+.project-card__link { color: #ff2b47; }

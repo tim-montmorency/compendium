@@ -30,32 +30,21 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
 ## Aujourd'hui
 
 - [ ] Tutorat : rappel et périodes supplémentaires avant les remises
-- [ ] Récap JS express : ce que vous savez déjà
+- [ ] Échauffement JS : 5 défis dans la console
 - [ ] JSON et `fetch()` asynchrone
+- [ ] Exercice guidé : du JSON à la carte
 - [ ] Choisir sa source de données : JSON local, Google Sheets, Airtable
 - [ ] Un seul code d'affichage pour toutes les sources
-- [ ] Détail d'un projet : modale ou `projet.html` (paramètres d'URL)
+- [ ] Détail d'un projet : modale ou `project.html` (paramètres d'URL)
 - [ ] Atelier de production (Pomodoro)
 - [ ] Journal de bord
 - [ ] Devoir pour le cours 6.1
 
-## Récap JS express
+## Échauffement JS : 5 défis dans la console
 
-Ça fait un bout que vous n'avez pas écrit de JavaScript, mais vous l'avez déjà tout vu. Aujourd'hui, on réactive seulement ce qui sert à charger et afficher des données :
+Ça fait un bout que vous n'avez pas écrit de JavaScript, mais vous l'avez déjà tout vu. On réactive seulement ce qui sert aujourd'hui, avec 5 petits défis dans la console du navigateur. Corrigé ensemble, un défi à la fois.
 
-| Notion | À quoi ça sert aujourd'hui |
-|---|---|
-| Tableau d'objets `[{...}, {...}]` | Vos projets |
-| `projet.titre` | Lire une propriété d'un projet |
-| Gabarit littéral `` `<h3>${projet.titre}</h3>` `` | Fabriquer du HTML avec des données |
-| `map()` | Transformer chaque projet en carte |
-| `find()` | Retrouver **un** projet par son `id` |
-| `querySelector()`, `innerHTML` | Insérer le HTML dans la page |
-| `addEventListener()` | Réagir à un clic (ouvrir une modale) |
-
-Tous les concepts clés, avec un exemple chacun, à garder ouvert pendant que vous codez :
-
-[:material-language-javascript: Récap JS : les concepts clés](js/recap-js.md){ .md-button .md-button--primary }
+[:material-console: Partie 1 : échauffement dans la console](exercices/ex-json-cartes/index.md#partie-1-echauffement-dans-la-console){ .md-button .md-button--primary }
 
 ## JSON et `fetch()` asynchrone
 
@@ -68,25 +57,34 @@ Tous les concepts clés, avec un exemple chacun, à garder ouvert pendant que vo
 **Avec `async` / `await`**
 
 ```js
-async function chargerProjets() {
-  const reponse = await fetch('data/projets.json'); // 1. aller chercher
-  const projets = await reponse.json();             // 2. lire le JSON
-  return projets;                                   // 3. un tableau de projets
+async function loadProjects() {
+  const response = await fetch('data/projects.json'); // 1. aller chercher
+  const projects = await response.json();             // 2. lire le JSON
+  return projects;                                    // 3. un tableau de projets
 }
 ```
 
 **Avec `.then()`**
 
 ```js
-function chargerProjets() {
-  return fetch('data/projets.json')    // 1. aller chercher
-    .then(reponse => reponse.json());  // 2. lire le JSON, 3. un tableau de projets
+function loadProjects() {
+  return fetch('data/projects.json')   // 1. aller chercher
+    .then(response => response.json());// 2. lire le JSON, 3. un tableau de projets
 }
 ```
 
 Les deux versions font exactement la même chose. Choisissez celle avec laquelle vous êtes le plus à l'aise, et gardez la même partout dans votre projet.
 
 Seule l'adresse dans `fetch()` change selon la source. Tout le reste en découle.
+
+## Exercice guidé : du JSON à la carte
+
+Avant de toucher à votre portfolio, on code ensemble le même mécanisme en miniature : un fichier JSON de 3 projets, et des cartes générées en JavaScript. Quatre étapes, vérifiées une à une dans le navigateur.
+
+[:material-code-json: Partie 2 : du JSON à la carte](exercices/ex-json-cartes/index.md#partie-2-du-json-a-la-carte){ .md-button .md-button--primary }
+
+!!! tip "Besoin de revoir une notion?"
+    Tous les concepts clés, avec un exemple chacun, sont dans le [récap JS](js/recap-js.md). C'est une référence à consulter au besoin, pas à lire d'un bloc.
 
 ## Choisir sa source de données
 
@@ -97,7 +95,9 @@ C'est le choix que vous avez justifié dans `PLANIFICATION.md`. La page de dépa
 Puis, la procédure complète de **votre** source, jusqu'au code de `js/data.js` :
 
 [:material-code-json: JSON local (et conversion depuis Excel)](projets/portfolio/donnees/json-local.md){ .md-button }
+
 [:material-google-spreadsheet: Google Sheets + opensheet](projets/portfolio/donnees/google-sheets-opensheet.md){ .md-button }
+
 [:material-table-large: Airtable](projets/portfolio/donnees/airtable.md){ .md-button }
 
 !!! danger "Airtable : un jeton en lecture seule, limité à une seule base"
@@ -105,7 +105,7 @@ Puis, la procédure complète de **votre** source, jusqu'au code de `js/data.js`
 
 ## Un seul code d'affichage
 
-Peu importe la source, `chargerProjets()` retourne le même tableau de projets. Le code qui génère vos cartes est donc le même pour tout le monde :
+Peu importe la source, `loadProjects()` retourne le même tableau de projets. Le code qui génère vos cartes est donc le même pour tout le monde :
 
 [:material-cards-outline: Afficher les projets](projets/portfolio/donnees/afficher-projets.md){ .md-button .md-button--primary }
 
@@ -114,11 +114,11 @@ Peu importe la source, `chargerProjets()` retourne le même tableau de projets. 
 Selon la structure de navigation choisie dans `PLANIFICATION.md` :
 
 - **One-pager avec modale** : un bouton `data-id` sur la carte, `find()`, puis `<dialog>`. Voir [Afficher les projets, section 4](projets/portfolio/donnees/afficher-projets.md#4-one-pager-avec-modale).
-- **Multipages** : une seule page `projet.html` pour tous les projets. Elle lit `?id=cafe-du-coin` dans l'adresse avec `URLSearchParams`. Voir [Afficher les projets, section 5](projets/portfolio/donnees/afficher-projets.md#5-multipages-projethtml-et-les-parametres-durl).
+- **Multipages** : une seule page `project.html` pour tous les projets. Elle lit `?id=cafe-du-coin` dans l'adresse avec `URLSearchParams`. Voir [Afficher les projets, section 5](projets/portfolio/donnees/afficher-projets.md#5-multipages-projecthtml-et-les-parametres-durl).
 - **One-pager avec carrousel** : le détail est dans la carte elle-même, rien de plus à charger.
 
 !!! info "Pas de composant JavaScript supplémentaire à ajouter"
-    Le chargement de vos projets et l'affichage de leur détail (modale, carrousel ou `projet.html`), c'est **l'interactivité JavaScript** exigée pour le portfolio. Aucun autre composant JS n'est demandé.
+    Le chargement de vos projets et l'affichage de leur détail (modale, carrousel ou `project.html`), c'est **l'interactivité JavaScript** exigée pour le portfolio. Aucun autre composant JS n'est demandé.
 
 ## Atelier de production
 
@@ -126,13 +126,13 @@ Structure Pomodoro, comme aux cours 4.2 et 5.1 : sprints de 25 minutes, un objec
 
 Ordre suggéré, une étape par sprint :
 
-1. **Préparer votre source** : `projets.json`, feuille Google ou base Airtable. Commencez par **un seul projet** complet dans le format commun, puis dupliquez-le quelques fois (voir l'encadré ci-dessous). Test `console.log(projets[0].titre)` réussi.
-2. **Générer les cartes** : `creerCarteProjet()` + `main.js`. Plus aucune carte écrite à la main dans le HTML.
-3. **Le détail statique** : si votre modale ou votre `projet.html` n'est pas encore intégré en HTML/CSS, codez-le d'abord avec **un projet écrit en dur**, comme vos autres composants.
-4. **Brancher le détail sur les données** : modale ou `projet.html?id=...`.
+1. **Préparer votre source** : `projects.json`, feuille Google ou base Airtable. Commencez par **un seul projet** complet dans le format commun, puis dupliquez-le quelques fois (voir l'encadré ci-dessous). Test `console.log(projects[0].title)` réussi.
+2. **Générer les cartes** : `createProjectCard()` + `main.js`. Plus aucune carte écrite à la main dans le HTML.
+3. **Le détail statique** : si votre modale ou votre `project.html` n'est pas encore intégré en HTML/CSS, codez-le d'abord avec **un projet écrit en dur**, comme vos autres composants.
+4. **Brancher le détail sur les données** : modale ou `project.html?id=...`.
 
 !!! tip "Un seul projet, dupliqué, avant de tout remplir"
-    Vous allez probablement ajouter, renommer ou retirer des propriétés en construisant vos cartes et votre détail (« ah, il me faudrait aussi `outils`... »). Si vos 8 projets sont déjà remplis, chaque changement est à refaire 8 fois. Bâtissez d'abord **un** projet complet, dupliquez-le 3 ou 4 fois en changeant seulement l'`id` et le `titre`, et remplissez le vrai contenu une fois votre structure stable.
+    Vous allez probablement ajouter, renommer ou retirer des propriétés en construisant vos cartes et votre détail (« ah, il me faudrait aussi `tools`... »). Si vos 8 projets sont déjà remplis, chaque changement est à refaire 8 fois. Bâtissez d'abord **un** projet complet, dupliquez-le 3 ou 4 fois en changeant seulement l'`id` et le `title`, et remplissez le vrai contenu une fois votre structure stable.
 
 !!! tip "Si votre HTML/CSS n'est pas terminé"
     Priorité aux cartes de projets. Le reste de l'intégration HTML/CSS se poursuit en parallèle, mais la section projets est celle qui doit être branchée sur les données en premier.
@@ -160,7 +160,7 @@ Commit final avant de partir.
 
 **Idéalement** :
 
-- [ ] Le **détail d'un projet** est intégré en HTML/CSS (modale ou `projet.html`), d'abord avec un projet en dur si nécessaire.
+- [ ] Le **détail d'un projet** est intégré en HTML/CSS (modale ou `project.html`), d'abord avec un projet en dur si nécessaire.
 - [ ] Puis branché sur les données (clic sur une carte → bon projet affiché).
 
 !!! danger "La bêta, c'est dans une semaine"

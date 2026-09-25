@@ -1,0 +1,28 @@
+[
+  {
+    "id": "cafe-du-coin",
+    "title": "Café du coin",
+    "description": "Identité visuelle et site web pour un café de quartier.",
+    "category": "Design web",
+    "year": "2025",
+    "image": "assets/images/cafe-du-coin.svg",
+    "link": "https://example.com"
+  },
+  {
+    "id": "biome",
+    "title": "Biome",
+    "description": "Modélisation 3D d'un écosystème miniature.",
+    "category": "3D",
+    "year": "2025",
+    "image": "assets/images/biome.svg"
+  },
+  {
+    "id": "echo",
+    "title": "Écho",
+    "description": "Installation interactive sonore et visuelle.",
+    "category": "Interactivité",
+    "year": "2024",
+    "image": "assets/images/echo.svg",
+    "link": "https://example.com"
+  }
+]

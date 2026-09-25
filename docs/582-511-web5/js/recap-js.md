@@ -405,9 +405,9 @@ Deux syntaxes pour attendre qu'elle soit résolue, sans bloquer la page :
 
 ```js
 async function loadProjects() {
-  const response = await fetch('data/projects.json'); // 1. la réponse du serveur
-  const projects = await response.json();              // 2. le contenu, converti
-  return projects;                                      // 3. un tableau de projets
+  const response = await fetch('data/projects.json');// 1. la réponse du serveur
+  const projects = await response.json();            // 2. le contenu, converti
+  return projects;                                   // 3. un tableau de projets
 }
 ```
 
@@ -415,15 +415,15 @@ async function loadProjects() {
 
 ```js
 function loadProjects() {
-  return fetch('data/projects.json')          // 1. la réponse du serveur
-    .then(response => response.json());       // 2. le contenu, converti; 3. un tableau de projets
+  return fetch('data/projects.json')  // 1. la réponse du serveur
+    .then(response => response.json()); // 2. le contenu, converti; 3. un tableau de projets
 }
 ```
 
 Les deux versions font exactement la même chose. Choisissez celle avec laquelle vous êtes le plus à l'aise, et gardez la même partout dans votre projet.
 
 !!! warning "Une fonction `async` retourne toujours une promesse"
-    `const projects = loadProjects();` ne donne **pas** les projets, mais une promesse. Il faut `await loadProjects()` (dans une autre fonction `async`) ou `loadProjects().then(...)`.
+    `const projects = loadProjects();` ne donne **pas** les projets, mais une promesse. Il faut `await loadProjects()` (dans une autre fonction `async`) ou `loadProjects().then(...)` pour récupérer des valeurs, comme vos données de projets.
 
 ## 16. Gérer les erreurs : `try` / `catch` et `.catch()` { #erreurs }
 

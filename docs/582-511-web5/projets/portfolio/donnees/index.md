@@ -3,13 +3,13 @@
 !!! abstract "L'essentiel en 3 points"
     1. Vos projets ne sont pas écrits dans le HTML : ils vivent dans une **source de données** (JSON local, Google Sheets ou Airtable) et sont chargés en JavaScript avec `fetch()`.
     2. Peu importe la source, `js/data.js` doit toujours retourner **la même chose** : un tableau de projets, avec les mêmes noms de propriétés.
-    3. Le code qui affiche vos projets (cartes, modale, `projet.html`) est **identique pour tout le monde**. Changer de source plus tard ne demande de modifier que `data.js`.
+    3. Le code qui affiche vos projets (cartes, modale, `project.html`) est **identique pour tout le monde**. Changer de source plus tard ne demande de modifier que `data.js`.
 
 ## Le principe
 
 ![](./assets/schema-chargement-donnees.svg)
 
-Chaque page-source ci-dessous se termine par **sa** version de `chargerProjets()`. Ensuite, tout le monde continue sur la même page : *Afficher les projets*.
+Chaque page-source ci-dessous se termine par **sa** version de `loadProjects()`. Ensuite, tout le monde continue sur la même page : *Afficher les projets*.
 
 ## Choisir sa source
 
@@ -36,23 +36,23 @@ Toutes les sources doivent produire des projets qui ont **exactement ces noms de
 
 | Propriété | Obligatoire | Contenu | Exemple |
 |---|---|---|---|
-| `id` | Oui | Identifiant unique, sans espaces ni accents. Sert à `projet.html?id=...` | `cafe-du-coin` |
-| `titre` | Oui | Titre du projet | `Café du coin` |
+| `id` | Oui | Identifiant unique, sans espaces ni accents. Sert à `project.html?id=...` | `cafe-du-coin` |
+| `title` | Oui | Titre du projet | `Café du coin` |
 | `description` | Oui | Courte description | `Identité visuelle et site web...` |
-| `categorie` | Oui | Type de projet | `Design web` |
-| `annee` | Oui | Année de réalisation | `2025` |
+| `category` | Oui | Type de projet | `Design web` |
+| `year` | Oui | Année de réalisation | `2025` |
 | `image` | Oui | Chemin ou URL de l'image principale | `assets/images/cafe.jpg` |
-| `lien` | Non | Lien externe (site en ligne, Behance, dépôt...) | `https://...` |
+| `link` | Non | Lien externe (site en ligne, Behance, dépôt...) | `https://...` |
 | `video` | Non | Lien d'intégration (embed) complet YouTube ou Vimeo | `https://www.youtube.com/embed/...` |
-| `galerie` | Non | Plusieurs images supplémentaires (tableau d'URL) | `["assets/images/cafe-2.jpg", ...]` |
+| `gallery` | Non | Plusieurs images supplémentaires (tableau d'URL) | `["assets/images/cafe-2.jpg", ...]` |
 
-!!! warning "Noms de propriétés : sans espaces, sans accents, en minuscules"
-    `annee`, pas `Année`. `categorie`, pas `Catégorie`. En JavaScript, `projet.annee` fonctionne, `projet.Année` est une source de bogues garantie. Ça vaut pour les clés de votre JSON, les en-têtes de colonnes de votre Google Sheet et les noms de champs d'Airtable.
+!!! warning "Noms de propriétés : en anglais, en minuscules, sans espaces ni accents"
+    `category`, pas `Category` ni `catégorie`. En JavaScript, `project.category` fonctionne; une majuscule ou un accent de trop donne `undefined`, une source de bogues garantie. Ça vaut pour les clés de votre JSON, les en-têtes de colonnes de votre Google Sheet et les noms de champs d'Airtable.
 
 !!! tip "Commencez par un seul projet, dupliqué"
-    Remplissez d'abord **un** projet complet, puis dupliquez-le 3 ou 4 fois en changeant seulement l'`id` et le `titre`. Vous allez sûrement ajuster vos propriétés en codant vos cartes et votre détail : c'est plus simple avec un seul vrai projet à corriger. Le vrai contenu vient une fois la structure stable.
+    Remplissez d'abord **un** projet complet, puis dupliquez-le 3 ou 4 fois en changeant seulement l'`id` et le `title`. Vous allez sûrement ajuster vos propriétés en codant vos cartes et votre détail : c'est plus simple avec un seul vrai projet à corriger. Le vrai contenu vient une fois la structure stable.
 
-Vous pouvez ajouter d'autres propriétés propres à votre portfolio (ex. `outils`, `client`, `role`). Gardez simplement la même règle de nommage, et le même nom dans toutes vos données.
+Vous pouvez ajouter d'autres propriétés propres à votre portfolio (ex. `tools`, `client`, `role`). Gardez simplement la même règle de nommage, et le même nom dans toutes vos données.
 
 ## Où va le code
 
@@ -60,16 +60,16 @@ Selon l'[arborescence du dépôt](../arborescence-portfolio.md) :
 
 | Fichier | Rôle |
 |---|---|
-| `js/data.js` | **Seulement** `chargerProjets()` : aller chercher les données et les retourner dans le format commun. C'est le seul fichier qui change selon la source. |
-| `js/composants/carte-projet.js` | Transformer **un** projet en HTML (une carte). |
-| `js/main.js` | Le chef d'orchestre : appelle `chargerProjets()`, puis affiche les cartes. |
-| `data/projets.json` | Seulement si vous avez choisi le JSON local. |
+| `js/data.js` | **Seulement** `loadProjects()` : aller chercher les données et les retourner dans le format commun. C'est le seul fichier qui change selon la source. |
+| `js/components/project-card.js` | Transformer **un** projet en HTML (une carte). |
+| `js/main.js` | Le chef d'orchestre : appelle `loadProjects()`, puis affiche les cartes. |
+| `data/projects.json` | Seulement si vous avez choisi le JSON local. |
 
 Dans le `<head>` de vos pages, dans cet ordre :
 
 ```html
 <script src="js/data.js" defer></script>
-<script src="js/composants/carte-projet.js" defer></script>
+<script src="js/components/project-card.js" defer></script>
 <script src="js/main.js" defer></script>
 ```
 
@@ -77,6 +77,6 @@ Dans le `<head>` de vos pages, dans cet ordre :
 
 ## La suite
 
-Une fois votre source prête et `chargerProjets()` testée dans la console :
+Une fois votre source prête et `loadProjects()` testée dans la console :
 
 [:material-cards-outline: Afficher les projets (et page projet.html)](afficher-projets.md){ .md-button .md-button--primary }
