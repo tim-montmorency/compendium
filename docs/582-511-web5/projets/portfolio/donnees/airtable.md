@@ -72,80 +72,29 @@ Airtable n'utilise plus de clé API classique depuis 2024 : il faut un **jeton d
 
 ## 5. Le code de `js/data.js`
 
-**Avec `async` / `await`**
+C'est le même `loadProjects()` que pour le JSON local (voir l'[exercice « Du JSON à la carte »](../../../exercices/ex-json-cartes/index.md) et la [page JSON local](json-local.md#3-le-code-de-jsdatajs)). Deux choses changent : l'appel à `fetch()`, et la forme de la réponse.
+
+### 1. Le `fetch()` avec le jeton
+
+C'est de la configuration : gardez les identifiants dans des constantes en haut du fichier.
 
 ```js
-// js/data.js
-// Source : Airtable
-
 const BASE_ID = 'appXXXXXXXXXXXXXX';   // votre Base ID
 const TABLE = 'Projects';
 const TOKEN = 'patXXXXXXXXXXXXXX';     // jeton en lecture seule, 1 base
-
-async function loadProjects() {
-  const response = await fetch(`https://api.airtable.com/v0/${BASE_ID}/${TABLE}`, {
-    headers: { Authorization: `Bearer ${TOKEN}` }
-  });
-
-  if (!response.ok) {
-    throw new Error(`Impossible de charger les projets (${response.status})`);
-  }
-
-  const data = await response.json();
-
-  // Ramener au format commun
-  return data.records.map(record => {
-    const fields = record.fields;
-    const imageUrls = (fields.images || []).map(file => file.url);
-
-    return {
-      id: record.id,           // identifiant Airtable par défaut...
-      ...fields,               // ...remplacé par votre champ id s'il existe
-      image: imageUrls[0] || '',
-      gallery: imageUrls.slice(1)
-    };
-  });
-}
 ```
 
-**Avec `.then()`**
+Nouveauté : `fetch()` reçoit un **deuxième argument**, un objet d'options, qui envoie le jeton dans l'en-tête de la requête :
 
 ```js
-// js/data.js
-// Source : Airtable
-
-const BASE_ID = 'appXXXXXXXXXXXXXX';   // votre Base ID
-const TABLE = 'Projects';
-const TOKEN = 'patXXXXXXXXXXXXXX';     // jeton en lecture seule, 1 base
-
-function loadProjects() {
-  return fetch(`https://api.airtable.com/v0/${BASE_ID}/${TABLE}`, {
-    headers: { Authorization: `Bearer ${TOKEN}` }
-  })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`Impossible de charger les projets (${response.status})`);
-      }
-      return response.json();
-    })
-    .then(data => data.records.map(record => {
-      // Ramener au format commun
-      const fields = record.fields;
-      const imageUrls = (fields.images || []).map(file => file.url);
-
-      return {
-        id: record.id,           // identifiant Airtable par défaut...
-        ...fields,               // ...remplacé par votre champ id s'il existe
-        image: imageUrls[0] || '',
-        gallery: imageUrls.slice(1)
-      };
-    }));
-}
+fetch(`https://api.airtable.com/v0/${BASE_ID}/${TABLE}`, {
+  headers: { Authorization: `Bearer ${TOKEN}` }
+})
 ```
 
-Les deux versions font exactement la même chose. Choisissez celle avec laquelle vous êtes le plus à l'aise, et gardez la même partout dans votre projet.
+Le reste (vérifier `response.ok`, convertir avec `.json()`) est identique au JSON local.
 
-### Pourquoi cette transformation?
+### 2. Ramener la réponse au format commun
 
 Airtable ne retourne pas directement un tableau de projets. Sa réponse ressemble à ceci :
 
@@ -169,11 +118,15 @@ Airtable ne retourne pas directement un tableau de projets. Sa réponse ressembl
 }
 ```
 
-Le `map()` fait trois choses :
+Avant de retourner les données, transformez chaque élément de `records` en un projet du format commun, avec `map()`. Pour chaque `record` :
 
-1. **Il sort les données de `fields`** : `...fields` recopie tous les champs au premier niveau, donc `project.title` plutôt que `project.fields.title`.
-2. **Il fournit un `id`** : celui d'Airtable par défaut. Comme `...fields` vient après, votre propre champ `id` le remplace s'il existe.
-3. **Il transforme les pièces jointes** : le tableau d'objets `images` devient une URL `image` (la première) et un tableau d'URL `gallery` (les suivantes).
+1. **Sortir les données de `fields`** : recopiez tous les champs au premier niveau avec la syntaxe de décomposition `...record.fields`. On obtient `project.title` plutôt que `project.fields.title`.
+2. **Fournir un `id`** : l'`id` d'Airtable (`record.id`) par défaut. Placez-le **avant** `...record.fields` : si vous avez créé votre propre champ `id`, il le remplacera.
+3. **Transformer les pièces jointes** : `images` est un tableau d'**objets**. Avec `map()`, gardez seulement leur `.url`. La première URL devient `image`, les suivantes deviennent `gallery` (indice : `slice(1)`).
+4. **Prévoir l'absence d'images** : si le champ est vide, Airtable ne l'inclut pas du tout. Utilisez un tableau vide par défaut : `record.fields.images || []`.
+
+!!! question "À vérifier"
+    `console.log(projects[0])` doit afficher un objet « à plat » (`title`, `description`, `image`...), sans `fields` ni `records`, avec `image` qui est une URL et `gallery` un tableau d'URL.
 
 Résultat : exactement le même format que le JSON local. La page d'affichage n'a aucune idée que les données viennent d'Airtable.
 

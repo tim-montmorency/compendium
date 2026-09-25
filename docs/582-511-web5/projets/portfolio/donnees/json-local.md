@@ -70,42 +70,29 @@ Si vous préférez remplir vos projets dans un tableur, Excel peut servir de poi
 
 ## 3. Le code de `js/data.js`
 
-**Avec `async` / `await`**
+Vous avez déjà écrit cette fonction dans l'[exercice « Du JSON à la carte »](../../../exercices/ex-json-cartes/index.md). Dans votre portfolio, elle va dans `js/data.js`, seule.
+
+Le squelette, à compléter :
 
 ```js
-// js/data.js
-// Source : fichier JSON local
-
 async function loadProjects() {
-  const response = await fetch('data/projects.json');
-
-  if (!response.ok) {
-    throw new Error(`Impossible de charger les projets (${response.status})`);
-  }
-
-  const projects = await response.json();
-  return projects; // déjà dans le format commun
+  // 1. fetch() de 'data/projects.json' (attendre la réponse)
+  // 2. Vérifier que la réponse est correcte (voir ci-dessous)
+  // 3. Convertir la réponse avec .json() (attendre encore)
+  // 4. Retourner le tableau de projets
 }
 ```
 
-**Avec `.then()`**
+**La seule nouveauté par rapport à l'exercice : vérifier la réponse.** Si le fichier est introuvable (erreur 404), `fetch()` ne plante pas tout seul. Il faut vérifier `response.ok` et lancer une erreur soi-même, pour que le `catch` de `main.js` l'attrape :
 
 ```js
-// js/data.js
-// Source : fichier JSON local
-
-function loadProjects() {
-  return fetch('data/projects.json')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`Impossible de charger les projets (${response.status})`);
-      }
-      return response.json(); // déjà dans le format commun
-    });
+if (!response.ok) {
+  throw new Error(`Impossible de charger les projets (${response.status})`);
 }
 ```
 
-Les deux versions font exactement la même chose. Choisissez celle avec laquelle vous êtes le plus à l'aise, et gardez la même partout dans votre projet.
+!!! note "Avec `.then()`"
+    Même logique, étape par étape : `return fetch(...)`, puis un premier `.then(response => { ... })` qui vérifie `response.ok` et retourne `response.json()`. Choisissez une syntaxe et gardez-la partout dans votre projet.
 
 Le JSON est **déjà** dans le format commun : il n'y a rien à transformer. C'est la version la plus courte des trois sources.
 

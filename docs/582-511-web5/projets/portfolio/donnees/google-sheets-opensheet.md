@@ -55,64 +55,33 @@ Le dernier segment est le **nom de l'onglet**. Collez cette URL directement dans
 
 ## 3. Le code de `js/data.js`
 
-**Avec `async` / `await`**
+C'est le même `loadProjects()` que pour le JSON local (voir l'[exercice « Du JSON à la carte »](../../../exercices/ex-json-cartes/index.md) et la [page JSON local](json-local.md#3-le-code-de-jsdatajs)). Deux choses changent.
+
+### 1. L'adresse du `fetch()`
+
+C'est de la configuration : gardez l'ID et le nom de l'onglet dans des constantes en haut du fichier, faciles à retrouver.
 
 ```js
-// js/data.js
-// Source : Google Sheets via opensheet
-
 const SHEET_ID = '1AbC2dEf3GhI4jKl5MnO6pQr7StU8vWx9Yz'; // votre ID
 const SHEET_NAME = 'Projects';
 
-async function loadProjects() {
-  const response = await fetch(`https://opensheet.elk.sh/${SHEET_ID}/${SHEET_NAME}`);
-
-  if (!response.ok) {
-    throw new Error(`Impossible de charger les projets (${response.status})`);
-  }
-
-  const rows = await response.json();
-
-  // Ramener au format commun : seule la galerie demande une transformation
-  return rows.map(row => ({
-    ...row,
-    gallery: row.gallery ? row.gallery.split(',').map(url => url.trim()) : []
-  }));
-}
+// l'adresse à passer à fetch() :
+`https://opensheet.elk.sh/${SHEET_ID}/${SHEET_NAME}`
 ```
 
-**Avec `.then()`**
+### 2. La galerie : du texte au tableau
 
-```js
-// js/data.js
-// Source : Google Sheets via opensheet
+Si vous n'utilisez pas de galerie, rien à faire : la réponse est déjà dans le format commun, retournez-la telle quelle.
 
-const SHEET_ID = '1AbC2dEf3GhI4jKl5MnO6pQr7StU8vWx9Yz'; // votre ID
-const SHEET_NAME = 'Projects';
+Sinon, dans la feuille, la galerie est un **texte** (`"url1, url2"`). Le format commun attend un **tableau** (`["url1", "url2"]`). Avant de retourner les données :
 
-function loadProjects() {
-  return fetch(`https://opensheet.elk.sh/${SHEET_ID}/${SHEET_NAME}`)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`Impossible de charger les projets (${response.status})`);
-      }
-      return response.json();
-    })
-    .then(rows => rows.map(row => ({
-      ...row,
-      gallery: row.gallery ? row.gallery.split(',').map(url => url.trim()) : []
-    })));
-}
-```
+1. Parcourez les lignes avec `map()`, pour produire un nouveau tableau de projets.
+2. Pour chaque ligne, recopiez toutes les colonnes avec la syntaxe de décomposition : `{ ...row }`.
+3. Remplacez `gallery` par sa version en tableau : `split(',')` coupe le texte à chaque virgule, et `trim()` retire les espaces autour de chaque URL.
+4. Si la cellule est vide, `gallery` doit être un tableau vide `[]` (ternaire).
 
-Les deux versions font exactement la même chose. Choisissez celle avec laquelle vous êtes le plus à l'aise, et gardez la même partout dans votre projet.
-
-Qu'est-ce que fait le `map()`?
-
-- `...row` recopie toutes les colonnes telles quelles (`id`, `title`, `description`...).
-- `gallery` : le texte `"url1, url2"` devient le tableau `["url1", "url2"]`. Si la cellule est vide, on retourne un tableau vide.
-
-Si vous n'utilisez pas de galerie, `return rows;` suffit : c'est alors exactement le même code que pour le JSON local, seule l'URL change.
+!!! question "À vérifier"
+    `console.log(projects[0].gallery)` doit afficher un tableau d'URL, pas un texte.
 
 ## 4. Pièges propres à cette source
 
