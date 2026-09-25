@@ -21,3 +21,18 @@ Voici les tâches que vous devez faire pour le cours avec les dates associées.
 ## 22 octobre
 - [ ] Date limite pour remettre la carte d'affaires, sans possibilité de correction. [Dossier de remise](https://cmontmorency365.sharepoint.com/:f:/s/Section_A26_582541MO-000001/IgCIfGWO-mnIQJBP1i9cst9NAbub4NGPa36kXnO_r9LR3Gg?e=cVMPWI)
 - [ ] Comité photo: Les photos sont le 29 octobre, donc la réservation de matériel doit être faite au maximum le 22. C'est bien une semaine d'avance? 
+
+## 26 octobre
+- [ ] Vous aimeriez avoir des rétroactions formatives pour votre cv? Vous avez jusqu'au 26 pour m'envoyer votre cv en message sur Teams. Je vous transmettrai ensuite mes commentaires pour de possibles améliorations.
+
+## 29 octobre
+- [ ] Remise du CV. [Consignes](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/evaluations/cv.html)
+- [ ] Simulations d'entrevues. Se préparer en amont. [Préparation](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/activites/simulation-entrevue.html)
+- [ ] Photos professionnelles. S'habiller chic.
+
+## 2 novembre 
+- [ ] Vous aimeriez avoir des rétroactions formatives pour votre lettre? Vous avez jusqu'au 2 pour m'envoyer votre lettre en message sur Teams. Je vous transmettrai ensuite mes commentaires pour de possibles améliorations.
+
+
+## 5 novembre
+- [ ] Remise de la lettre. [Consignes](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/evaluations/lettre.html)
