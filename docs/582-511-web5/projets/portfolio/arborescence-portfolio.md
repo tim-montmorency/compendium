@@ -20,6 +20,7 @@ portfolio-prenom-nom/
 ├── js/
 │   ├── main.js
 │   ├── data.js
+│   ├── projet.js (si applicable multipages)
 │   └── composants/
 │       ├── carte-projet.js
 │       └── modale.js
@@ -63,7 +64,8 @@ Une variable déclarée dans `:root` à l'intérieur de `variables.css` devient 
 | `css/layout.css` | La disposition générale de la page (grid/flexbox), pas le contenu d'un composant précis. |
 | `css/composants/` | Un fichier par composant (carte, navigation, modale...), nommé selon la nomenclature BEM. |
 | `js/main.js` | Le point d'entrée : appelle `data.js`, puis initialise les composants avec les données reçues. |
-| `js/data.js` | Le `fetch()` asynchrone de vos projets (JSON local ou API en ligne, voir cours 3.2). |
+| `js/data.js` | Le `fetch()` asynchrone de vos projets (JSON local ou API en ligne) : voir [Charger les données du portfolio](donnees/index.md). |
+| `js/projet.js` | Seulement en multipages : lit l'`id` dans l'URL et affiche le projet correspondant dans `projet.html`. |
 | `js/composants/` | Un fichier par composant qui a besoin de logique JS (ex. ouvrir une modale). |
 | `data/projets.json` | Vos données de projets, seulement si vous avez choisi l'option JSON local. |
 | `assets/` | Images, icônes, tout média utilisé dans le site. |
@@ -79,7 +81,7 @@ Une variable déclarée dans `:root` à l'intérieur de `variables.css` devient 
 
 !!! note "Gestion des données"
     - **JSON local** : gardez `data/projets.json`.
-    - **Base de données en ligne** (Airtable, Supabase...) : pas de dossier `data/`, l'URL de l'API va directement dans `js/donnees.js`.
+    - **Base de données en ligne** (Google Sheets + opensheet, Airtable) : pas de dossier `data/`, l'URL de l'API va directement dans `js/data.js`.
 
 ## Pourquoi séparer par composant
 

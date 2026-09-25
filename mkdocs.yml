@@ -293,6 +293,12 @@ nav:
         - Portfolio consignes sommaires: 582-511-web5/projets/portfolio/index.md
         - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
         - Arborescence du dépôt git : 582-511-web5/projets/portfolio/arborescence-portfolio.md
+        - Gestions des données-projets:
+            - 582-511-web5/projets/portfolio/donnees/index.md
+            - JSON local: 582-511-web5/projets/portfolio/donnees/json-local.md
+            - Google Sheets + opensheet: 582-511-web5/projets/portfolio/donnees/google-sheets-opensheet.md
+            - Airtable: 582-511-web5/projets/portfolio/donnees/airtable.md
+            - Afficher les projets: 582-511-web5/projets/portfolio/donnees/afficher-projets.md
       - I.A.:
         - 582-511-web5/ia/travail-assiste-ia.md
         - 582-511-web5/ia/citer-utilisation-ia-journal.md
