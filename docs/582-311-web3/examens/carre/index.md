@@ -63,12 +63,13 @@ Doit être réalisé en **2 h 45**
 - [ ] Sous le breakpoint `md`, les cartes s'affichent en 2 colonnes et non en 5
 - [ ] Indenter correctement le code
 
-### CPanel
+### GitHub Pages
 
-- [ ] Créer au bon endroit un dossier nommé « carre »
-- [ ] Dans ce dossier, ajouter le contenu du build vite
+- [ ] Créer un nouveau repo GitHub nommé "carre-NOM-PRENOM" (Remplacer NOM et PRENOM par votre nom et prénom)
+- [ ] Y ajouter le contenu d'un build vite
+- [ ] Configurer GitHub Pages pour mettre le build en ligne
 
-- [ ] Dans un fichier README.md à la racine du devoir classroom, ajouter l'URL de votre cPanel
+- [ ] Dans un fichier README.md à la racine du devoir classroom, ajouter l'URL de votre site.
 
 ## Remise
 
