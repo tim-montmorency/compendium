@@ -9,7 +9,9 @@ Voici les tâches que vous devez faire pour le cours avec les dates associées.
 
 ## 5 octobre
 - [ ] Si vous souhaitez que je vous imprime une première version de votre carte d'affaire pour correction, la remettre dans ce dossier au maximum le 5. Remise au format figma, ou photoshop ou canva. Je vous l'apporterai au cours du 8. [Dossier de remise](https://cmontmorency365.sharepoint.com/:f:/s/Section_A26_582541MO-000001/IgCIfGWO-mnIQJBP1i9cst9NAbub4NGPa36kXnO_r9LR3Gg?e=cVMPWI)
-- [ ] Comité design: L'invitation pour les employeurs devrait être faite d'ici là. 
+- [ ] Vous aimeriez avoir des rétroactions formatives pour votre portfolio? Vous avez jusqu'au 5 pour m'envoyer le lien vers votre portfolio en message sur Teams. Je vous transmettrai ensuite mes commentaires pour de possibles améliorations. 
+- [ ] Comité design: L'invitation pour les employeurs devrait être faite d'ici là.
+
 
 ## 8 octobre
 - [ ] Remettre le portfolio. [Consignes](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/evaluations/portfolio.html)
