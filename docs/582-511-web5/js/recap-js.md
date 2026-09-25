@@ -243,14 +243,25 @@ const cards = projects.map(project => `<h3>${project.title}</h3>`);
 
 <br>
 
-<!--
-**`join()`** : colle les éléments d'un tableau en une seule chaîne. Toujours après un `map()` qui produit du HTML.
+**`join()`** : colle tous les éléments d'un tableau en **une seule chaîne**. On l'utilise juste après un `map()` qui produit du HTML, parce que `innerHTML` attend du texte, pas un tableau.
 
 ```js
 cards.join('');
 // "<h3>Café du coin</h3><h3>Biome</h3>"
 ```
--->
+
+Le `''` entre les parenthèses, c'est ce qu'on met **entre** chaque élément : ici, rien. Sans lui, `join()` sépare les éléments par une virgule, qui apparaîtrait dans la page entre vos cartes :
+
+```js
+cards.join();
+// "<h3>Café du coin</h3>,<h3>Biome</h3>"   ← virgule parasite
+```
+
+Les deux s'enchaînent souvent sur une seule ligne :
+
+```js
+grid.innerHTML = projects.map(createProjectCard).join('');
+```
 
 
 <br>
@@ -275,6 +286,7 @@ const project = projects.find(project => project.id === 'biome');
 | `map()` | Un tableau transformé | Projets → cartes HTML |
 | `filter()` | Un tableau plus court | Filtrer par catégorie |
 | `find()` | **Un** élément (ou `undefined`) | Le projet qui correspond à l'`id` de l'URL |
+| `join()` | **Une** chaîne de texte | Coller les cartes HTML avant de les insérer |
 
 ## 11. Sélectionner des éléments du DOM
 
