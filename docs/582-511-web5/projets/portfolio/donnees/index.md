@@ -7,13 +7,7 @@
 
 ## Le principe
 
-```text
-Source de données         js/data.js              js/main.js
-(JSON, Sheets, Airtable)  chargerProjets()   →    afficherProjets(projets)
-        │                        │                        │
-        └── fetch() ────────────►│ retourne un tableau ──►│ génère les cartes
-                                 │ de projets             │ (ou projet.html)
-```
+![](./assets/schema-chargement-donnees.svg)
 
 Chaque page-source ci-dessous se termine par **sa** version de `chargerProjets()`. Ensuite, tout le monde continue sur la même page : *Afficher les projets*.
 
@@ -31,7 +25,9 @@ C'est le choix que vous avez justifié dans `PLANIFICATION.md` au cours 3.2.
     Une base de données en ligne n'est pas plus « avancée » en soi. Elle est utile seulement si vous voulez vraiment modifier votre contenu sans toucher au code ni redéployer.
 
 [:material-code-json: JSON local (et conversion depuis Excel)](json-local.md){ .md-button }
+
 [:material-google-spreadsheet: Google Sheets + opensheet](google-sheets-opensheet.md){ .md-button }
+
 [:material-table-large: Airtable](airtable.md){ .md-button }
 
 ## Le format commun des données
