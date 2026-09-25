@@ -7,8 +7,10 @@
 
 Pour aller plus loin sur chaque notion : [aide-mémoire JS](https://jfcmontmorency.github.io/aide-memoire/){ :target="_blank" } (celui de vos sessions précédentes) et [MDN en français](https://developer.mozilla.org/fr/docs/Web/JavaScript){ :target="_blank" }.
 
+<!--
 !!! info "Les noms dans le code : en anglais"
     Variables, fonctions, classes CSS, propriétés de vos données, noms de fichiers : on les écrit en anglais (`project.title`, `loadProjects()`, `.project-card`, `data/projects.json`). C'est le standard en programmation, et c'est ce que vous lirez dans toute documentation ou tout code professionnel. Les **contenus** (titres, descriptions, messages affichés) restent en français, bien sûr.
+-->
 
 ## 1. Variables : `const` et `let`
 
@@ -21,7 +23,7 @@ activeProject = activeProject + 1;
 ```
 
 !!! tip "Par défaut : `const`"
-    Commencez toujours par `const`. Si le navigateur se plaint (`Assignment to constant variable`), c'est que vous vouliez vraiment `let`.
+    Commencez toujours par `const`. Si la console de l'inspecteur du navigateur se plaint (`Assignment to constant variable`), c'est que vous vouliez vraiment `let`.
 
 ## 2. Types de base
 
@@ -47,8 +49,8 @@ Des chaînes entre accents graves `` ` ``, dans lesquelles on insère une valeur
 const title = 'Café du coin';
 const year = 2025;
 
-const html = `<h3>${title} (${year})</h3>`;
-// "<h3>Café du coin (2025)</h3>"
+const html = `<h3>${title} - ${year}</h3>`;
+// "<h3>Café du coin - 2025</h3>"
 ```
 
 Ils acceptent plusieurs lignes, ce qui garde le HTML lisible :
@@ -61,9 +63,9 @@ const card = `
 `;
 ```
 
-## 4. Objets { #objets }
+## 4. Objets `{ }`
 
-Un objet regroupe les informations d'**une** chose (un projet) sous forme de paires `propriété: valeur`.
+Un objet regroupe les informations d'**une** chose (un projet) sous forme de paires <br> `propriété: valeur`.
 
 ```js
 const project = {
@@ -74,7 +76,7 @@ const project = {
 };
 
 console.log(project.title);     // "Café du coin"
-console.log(project['year']);   // "2025" : même chose, autre notation
+console.log(project['title']);   // "Café du coin" : même chose, autre notation
 console.log(project.client);    // undefined : la propriété n'existe pas
 ```
 
@@ -88,7 +90,8 @@ console.log(project.client);    // undefined : la propriété n'existe pas
 ```js
 const property = 'category';
 console.log(project[property]);   // "Design web"
-// project.property chercherait une propriété qui s'appelle littéralement « property »
+// project.property chercherait une propriété qui 
+// s'appelle littéralement "property"
 ```
 
 ### Propriétés imbriquées
@@ -99,11 +102,11 @@ Une propriété peut contenir un tableau ou un autre objet. On enchaîne simplem
 const project = {
   title: 'Biome',
   gallery: ['biome-1.jpg', 'biome-2.jpg'],
-  client: { name: 'Musée', city: 'Laval' }
+  teammate: { name: 'Bob', role: 'Preneur de son' }
 };
 
 project.gallery[0];     // "biome-1.jpg"
-project.client.city;    // "Laval"
+project.teammate.name;    // "Bob"
 ```
 
 Référence : [accesseurs de propriétés (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors){ :target="_blank" }
@@ -172,7 +175,7 @@ Le **ternaire** fait la même chose en une expression : très utile **à l'inté
 
 ```js
 // condition ? si vrai : si faux
-const linkHtml = project.link ? `<a href="${project.link}">Voir en ligne</a>` : '';
+const linkHtml = project.link ? `<a href="${project.link}">Voir ></a>` : '';
 ```
 
 !!! note "Valeurs « fausses »"
@@ -216,6 +219,16 @@ Référence : [forEach (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScri
 
 ## 10. Transformer, filtrer, trouver : `map`, `filter`, `find`
 
+Toujours en partant de cet exemple:
+
+
+```js
+const projects = [
+  { id: 'cafe-du-coin', title: 'Café du coin', year: '2025' },
+  { id: 'biome', title: 'Biome', year: '2025' }
+];
+```
+
 Les trois méthodes de tableau qui font le gros du travail dans un portfolio.
 
 **`map()`** : transforme **chaque** élément, retourne un **nouveau tableau** de même longueur.
@@ -228,12 +241,19 @@ const cards = projects.map(project => `<h3>${project.title}</h3>`);
 // ["<h3>Café du coin</h3>", "<h3>Biome</h3>"]
 ```
 
+<br>
+
+<!--
 **`join()`** : colle les éléments d'un tableau en une seule chaîne. Toujours après un `map()` qui produit du HTML.
 
 ```js
 cards.join('');
 // "<h3>Café du coin</h3><h3>Biome</h3>"
 ```
+-->
+
+
+<br>
 
 **`filter()`** : garde seulement les éléments qui respectent une condition.
 
@@ -241,10 +261,12 @@ cards.join('');
 const projects3D = projects.filter(project => project.category === '3D');
 ```
 
+<br>
+
 **`find()`** : retourne le **premier** élément qui respecte la condition, ou `undefined`.
 
 ```js
-const project = projects.find(p => p.id === 'biome');
+const project = projects.find(project => project.id === 'biome');
 // { id: 'biome', title: 'Biome', ... }
 ```
 
@@ -257,8 +279,10 @@ const project = projects.find(p => p.id === 'biome');
 ## 11. Sélectionner des éléments du DOM
 
 ```js
-const grid = document.querySelector('.projects__grid');       // le premier qui correspond
-const cards = document.querySelectorAll('.project-card');     // tous (une NodeList)
+// le premier élément du DOM qui correspond
+const grid = document.querySelector('.projects__grid');   
+// tous les éléments qui correspondent (une NodeList)
+const cards = document.querySelectorAll('.project-card');    
 
 cards.forEach(card => console.log(card));
 ```
@@ -464,20 +488,20 @@ Et dans l'inspecteur du navigateur (F12) :
 Les concepts de cette page, réunis dans le patron que vous allez coder pour votre portfolio :
 
 ```js
-async function init() {                                      // 15. async
-  const grid = document.querySelector('.projects__grid');    // 11. DOM
-  try {                                                      // 16. try / catch
-    const projects = await loadProjects();                   // 15. fetch, 6. tableau d'objets
-    grid.innerHTML = projects                                // 12. innerHTML
+async function init() {                                   // 15. async
+  const grid = document.querySelector('.projects__grid'); // 11. DOM
+  try {                                                   // 16. try / catch
+    const projects = await loadProjects();   // 15. fetch, 6. tableau d'objets
+    grid.innerHTML = projects                             // 12. innerHTML
       .map(project => `
         <article class="project-card">
           <h3>${project.title}</h3>
           ${project.link ? `<a href="${project.link}">Voir</a>` : ''}
         </article>
-      `)                                                     // 10. map, 3. gabarit, 8. ternaire
-      .join('');                                             // 10. join
+      `)                                   // 10. map, 3. gabarit, 8. ternaire
+      .join('');                           // 10. join
   } catch (error) {
-    console.error(error);                                    // 18. console
+    console.error(error);                  // 18. console
   }
 }
 
@@ -489,7 +513,7 @@ La même chose avec `.then()` :
 ```js
 function init() {
   const grid = document.querySelector('.projects__grid');
-  loadProjects()                                             // 15. fetch, .then()
+  loadProjects()                                          // 15. fetch, .then()
     .then(projects => {
       grid.innerHTML = projects
         .map(project => `
@@ -500,7 +524,7 @@ function init() {
         `)
         .join('');
     })
-    .catch(error => console.error(error));                   // 16. .catch()
+    .catch(error => console.error(error));                // 16. .catch()
 }
 
 init();
