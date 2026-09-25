@@ -18,7 +18,9 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
 
     Certaines pourraient avoir lieu pendant nos heures de cours, d'autres en soirée. **Les dates et heures exactes seront confirmées sous peu, ici même.** Surveillez cette page.
 
-    Pour en profiter au maximum : arrivez avec une question précise, votre dépôt à jour sur GitHub et le problème reproductible (« mes cartes ne s'affichent pas, voici l'erreur dans la console »), plutôt que « ça marche pas ».
+    Pour en profiter au maximum : arrivez avec une question précise, votre dépôt à jour sur GitHub et le problème reproductible (« mes cartes ne s'affichent pas, voici l'erreur dans la console »), plutôt que « ça marche pas ». 
+
+    Vous pourrez inviter le tuteur à votre dépôt GitHub (encore privé à ce jour) afin qu'il puisse faire un clone de votre projet et y jeter un oeil au besoin.
 
 ## Projet portfolio
 
