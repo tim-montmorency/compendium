@@ -39,15 +39,30 @@ Tous les concepts clés, avec un exemple chacun, à garder ouvert pendant que vo
 
 - **JSON** : un format texte pour échanger des données. Un tableau (`[ ]`) d'objets (`{ }`), avec des guillemets doubles partout.
 - **`fetch()`** : va chercher une ressource (un fichier, une API) et retourne une **promesse** : la réponse n'arrive pas tout de suite.
-- **`async` / `await`** : attendre la réponse sans bloquer la page, en écrivant le code de façon linéaire.
+- Deux façons d'attendre cette réponse, que vous avez vues dans vos cours précédents :
+    - **`async` / `await`** : le code s'écrit de façon linéaire, une étape par ligne.
+    - **`.then()`** : chaque étape s'enchaîne à la précédente.
+
+**Avec `async` / `await`**
 
 ```js
 async function chargerProjets() {
   const reponse = await fetch('data/projets.json'); // 1. aller chercher
-  const projets = await reponse.json();              // 2. lire le JSON
-  return projets;                                     // 3. un tableau de projets
+  const projets = await reponse.json();             // 2. lire le JSON
+  return projets;                                   // 3. un tableau de projets
 }
 ```
+
+**Avec `.then()`**
+
+```js
+function chargerProjets() {
+  return fetch('data/projets.json')    // 1. aller chercher
+    .then(reponse => reponse.json());  // 2. lire le JSON, 3. un tableau de projets
+}
+```
+
+Les deux versions font exactement la même chose. Choisissez celle avec laquelle vous êtes le plus à l'aise, et gardez la même partout dans votre projet.
 
 Seule l'adresse dans `fetch()` change selon la source. Tout le reste en découle.
 

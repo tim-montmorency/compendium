@@ -67,6 +67,8 @@ Lu à voix haute : « s'il y a un lien, affiche la balise `<a>`, sinon rien ».
 
 ## 3. Toutes les cartes : `js/main.js`
 
+**Avec `async` / `await`**
+
 ```js
 // js/main.js
 
@@ -85,13 +87,36 @@ async function init() {
 init();
 ```
 
+**Avec `.then()`**
+
+```js
+// js/main.js
+
+function init() {
+  const grille = document.querySelector('.projets__grille');
+
+  chargerProjets()
+    .then(projets => {
+      grille.innerHTML = projets.map(creerCarteProjet).join('');
+    })
+    .catch(erreur => {
+      console.error(erreur);
+      grille.innerHTML = '<p>Les projets n’ont pas pu être chargés.</p>';
+    });
+}
+
+init();
+```
+
+Utilisez la même syntaxe que dans votre `data.js`. Les deux fonctionnent avec n'importe quelle version de `chargerProjets()` : une fonction `async` et une chaîne `.then()` retournent toutes deux une promesse.
+
 Ligne par ligne :
 
-- `await chargerProjets()` : on attend que les données arrivent, peu importe leur source.
+- `await chargerProjets()` ou `chargerProjets().then(...)` : on attend que les données arrivent, peu importe leur source.
 - `projets.map(creerCarteProjet)` : chaque projet du tableau devient une chaîne de HTML. Résultat : un tableau de cartes.
 - `.join('')` : on colle toutes ces chaînes ensemble en une seule.
 - `grille.innerHTML = ...` : on insère le tout dans le conteneur, en une seule opération.
-- `try` / `catch` : si le chargement échoue (fichier introuvable, jeton invalide, pas de réseau), l'utilisateur voit un message plutôt qu'une section vide, et l'erreur détaillée reste dans la console pour vous.
+- `try` / `catch`, ou `.catch()` : si le chargement échoue (fichier introuvable, jeton invalide, pas de réseau), l'utilisateur voit un message plutôt qu'une section vide, et l'erreur détaillée reste dans la console pour vous.
 
 !!! note "Pourquoi un seul `innerHTML` plutôt qu'une boucle qui ajoute les cartes une à une?"
     Modifier le DOM une seule fois est plus rapide que le modifier à chaque tour de boucle. C'est aussi ce que vise l'indicateur de la grille d'évaluation sur le chargement efficace des données.
@@ -143,7 +168,7 @@ document.querySelector('.modale__fermer')
 - `find()` retrouve, dans le tableau déjà chargé, le projet qui a cet `id`. Aucun nouveau `fetch()`.
 - `<dialog>` et `showModal()` : la modale native du navigateur, qui gère déjà le fond assombri et la touche Échap.
 
-Ce code doit être placé **à l'intérieur** de `init()`, après la ligne `grille.innerHTML = ...`, pour avoir accès à la variable `projets`.
+Ce code doit être placé **à l'intérieur** de `init()`, après la ligne `grille.innerHTML = ...` (dans le `try` avec `async` / `await`, ou dans le `.then()`), pour avoir accès à la variable `projets`.
 
 ## 5. Multipages : `projet.html` et les paramètres d'URL
 
@@ -170,6 +195,8 @@ Mêmes `<head>`, en-tête et pied de page que `index.html`, avec un conteneur vi
 `data.js` est le **même fichier** que pour la page d'accueil : on réutilise `chargerProjets()` sans rien changer.
 
 ### Le code de `js/projet.js`
+
+**Avec `async` / `await`**
 
 ```js
 // js/projet.js
@@ -206,6 +233,48 @@ async function afficherProjet() {
     console.error(erreur);
     conteneur.innerHTML = '<p>Le projet n’a pas pu être chargé.</p>';
   }
+}
+
+afficherProjet();
+```
+
+**Avec `.then()`**
+
+```js
+// js/projet.js
+
+function afficherProjet() {
+  const conteneur = document.querySelector('.projet');
+
+  // 1. Lire l'id dans l'adresse : projet.html?id=cafe-du-coin
+  const parametres = new URLSearchParams(window.location.search);
+  const idProjet = parametres.get('id'); // "cafe-du-coin"
+
+  // 2. Recharger les données (même fonction que sur la page d'accueil)
+  chargerProjets()
+    .then(projets => {
+      // 3. Retrouver le bon projet
+      const projet = projets.find(p => p.id === idProjet);
+
+      if (!projet) {
+        conteneur.innerHTML = '<p>Ce projet est introuvable.</p> <a href="index.html">Retour aux projets</a>';
+        return;
+      }
+
+      // 4. L'afficher
+      document.title = `${projet.titre} | Portfolio`;
+      conteneur.innerHTML = `
+        <h1 class="projet__titre">${projet.titre}</h1>
+        <p class="projet__meta">${projet.categorie} · ${projet.annee}</p>
+        <img class="projet__image" src="${projet.image}" alt="${projet.titre}">
+        <p class="projet__description">${projet.description}</p>
+        ${projet.video ? `<iframe class="projet__video" src="${projet.video}" title="Vidéo : ${projet.titre}" allowfullscreen></iframe>` : ''}
+      `;
+    })
+    .catch(erreur => {
+      console.error(erreur);
+      conteneur.innerHTML = '<p>Le projet n’a pas pu être chargé.</p>';
+    });
 }
 
 afficherProjet();

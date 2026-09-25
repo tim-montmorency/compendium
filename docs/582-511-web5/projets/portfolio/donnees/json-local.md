@@ -70,6 +70,8 @@ Si vous préférez remplir vos projets dans un tableur, Excel peut servir de poi
 
 ## 3. Le code de `js/data.js`
 
+**Avec `async` / `await`**
+
 ```js
 // js/data.js
 // Source : fichier JSON local
@@ -86,20 +88,26 @@ async function chargerProjets() {
 }
 ```
 
-Le JSON est **déjà** dans le format commun : il n'y a rien à transformer. C'est la version la plus courte des trois sources.
+**Avec `.then()`**
 
-??? note "La même chose avec `.then()`"
-    ```js
-    function chargerProjets() {
-      return fetch('data/projets.json')
-        .then(reponse => {
-          if (!reponse.ok) {
-            throw new Error(`Impossible de charger les projets (${reponse.status})`);
-          }
-          return reponse.json();
-        });
-    }
-    ```
+```js
+// js/data.js
+// Source : fichier JSON local
+
+function chargerProjets() {
+  return fetch('data/projets.json')
+    .then(reponse => {
+      if (!reponse.ok) {
+        throw new Error(`Impossible de charger les projets (${reponse.status})`);
+      }
+      return reponse.json(); // déjà dans le format commun
+    });
+}
+```
+
+Les deux versions font exactement la même chose. Choisissez celle avec laquelle vous êtes le plus à l'aise, et gardez la même partout dans votre projet.
+
+Le JSON est **déjà** dans le format commun : il n'y a rien à transformer. C'est la version la plus courte des trois sources.
 
 ## 4. Pièges propres à cette source
 

@@ -55,6 +55,8 @@ Le dernier segment est le **nom de l'onglet**. Collez cette URL directement dans
 
 ## 3. Le code de `js/data.js`
 
+**Avec `async` / `await`**
+
 ```js
 // js/data.js
 // Source : Google Sheets via opensheet
@@ -78,6 +80,32 @@ async function chargerProjets() {
   }));
 }
 ```
+
+**Avec `.then()`**
+
+```js
+// js/data.js
+// Source : Google Sheets via opensheet
+
+const ID_FEUILLE = '1AbC2dEf3GhI4jKl5MnO6pQr7StU8vWx9Yz'; // votre ID
+const ONGLET = 'Projets';
+
+function chargerProjets() {
+  return fetch(`https://opensheet.elk.sh/${ID_FEUILLE}/${ONGLET}`)
+    .then(reponse => {
+      if (!reponse.ok) {
+        throw new Error(`Impossible de charger les projets (${reponse.status})`);
+      }
+      return reponse.json();
+    })
+    .then(lignes => lignes.map(ligne => ({
+      ...ligne,
+      galerie: ligne.galerie ? ligne.galerie.split(',').map(url => url.trim()) : []
+    })));
+}
+```
+
+Les deux versions font exactement la même chose. Choisissez celle avec laquelle vous êtes le plus à l'aise, et gardez la même partout dans votre projet.
 
 Qu'est-ce que fait le `map()`?
 

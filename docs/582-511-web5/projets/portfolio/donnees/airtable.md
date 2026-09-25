@@ -72,6 +72,8 @@ Airtable n'utilise plus de clé API classique depuis 2024 : il faut un **jeton d
 
 ## 5. Le code de `js/data.js`
 
+**Avec `async` / `await`**
+
 ```js
 // js/data.js
 // Source : Airtable
@@ -105,6 +107,43 @@ async function chargerProjets() {
   });
 }
 ```
+
+**Avec `.then()`**
+
+```js
+// js/data.js
+// Source : Airtable
+
+const BASE_ID = 'appXXXXXXXXXXXXXX';   // votre Base ID
+const TABLE = 'Projets';
+const JETON = 'patXXXXXXXXXXXXXX';     // jeton en lecture seule, 1 base
+
+function chargerProjets() {
+  return fetch(`https://api.airtable.com/v0/${BASE_ID}/${TABLE}`, {
+    headers: { Authorization: `Bearer ${JETON}` }
+  })
+    .then(reponse => {
+      if (!reponse.ok) {
+        throw new Error(`Impossible de charger les projets (${reponse.status})`);
+      }
+      return reponse.json();
+    })
+    .then(donnees => donnees.records.map(record => {
+      // Ramener au format commun
+      const champs = record.fields;
+      const urlsImages = (champs.images || []).map(fichier => fichier.url);
+
+      return {
+        id: record.id,           // identifiant Airtable par défaut...
+        ...champs,               // ...remplacé par votre champ id s'il existe
+        image: urlsImages[0] || '',
+        galerie: urlsImages.slice(1)
+      };
+    }));
+}
+```
+
+Les deux versions font exactement la même chose. Choisissez celle avec laquelle vous êtes le plus à l'aise, et gardez la même partout dans votre projet.
 
 ### Pourquoi cette transformation?
 
