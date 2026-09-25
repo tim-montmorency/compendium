@@ -3,7 +3,7 @@ tags:
   - Exercice
 ---
 
-# DaisyUI
+# DaisyUI + Vite
 
 ![](./giphy2.gif){.w-100}
 

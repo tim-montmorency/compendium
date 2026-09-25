@@ -75,7 +75,7 @@ Les types disponibles : clé/serrure · adresse · connaissance · collecte · c
 | Porte 2 | | | |
 | Porte 3 | | | |
 
-- [ ] Passe chaque porte au **[test des trois questions](../devoirs/projet-final.md#le-test-des-trois-questions)** : pourquoi c'est fermé? comment le joueur sait-il quoi faire? qu'est-ce qui change quand ça s'ouvre?
+- [ ] Passe chaque porte au **[test des trois questions](../devoirs/projet-final/index.md#le-test-des-trois-questions)** : pourquoi c'est fermé? comment le joueur sait-il quoi faire? qu'est-ce qui change quand ça s'ouvre?
 - [ ] **Test du retrait** : retire une porte par la pensée. Le jeu devient-il meilleur? Alors elle ne sert à rien — la qualité des portes est évaluée, pas leur nombre
 
 !!! tip "Une courbe, pas trois fois la même chose"

@@ -1,31 +1,22 @@
 # Cours 5 
 
-[STOP]
-
-git ligne de commande
+<!-- git ligne de commande
 git vscode
 
 Codeberg
 Bitbucket
 Console dans vscode
 
-
-
-| Mise en ligne : GitHub Pages & cPanel
+| Mise en ligne : GitHub Pages & cPanel -->
 
 <!-- **Savoirs :** #4 Compatibilité navigateurs · #12 Validation (via le build/déploiement) -->
 
 <!-- Plan : distinction code source vs build (dist/) · GitHub Pages (CI/CD) · cPanel (hébergement réel) · comparaison -->
+<!-- ![](./assets/images/webserver.gif){.aspect-16-9 .w-100} -->
 
 *[CDN]: Content Delivery Network
 *[FTP]: File Transfer Protocol
 *[CI/CD]: Continuous Integration / Continuous Deployment
-
-![](./assets/images/webserver.gif){.aspect-16-9 .w-100}
-
-Vous avez un beau projet **Digger** qui roule sur `localhost`… mais personne d'autre que vous ne peut le voir 😅. Aujourd'hui, on le met **en ligne**, pour de vrai.
-
-On va découvrir **deux façons** de publier un site _buildé_ avec Vite&nbsp;: **GitHub Pages** (gratuit et automatisé) et **cPanel** (un vrai serveur, avec nom de domaine et courriels). Même livrable, deux transports.
 
 ## Serveur, domaine et hébergement
 
@@ -33,35 +24,54 @@ Le concept de serveur, de domaine et d'hébergement se traduit bien par l'analog
 
 ![](./assets/images/DomainHostingVsWebHosting.jpg){data-zoom-image}
 
-## On déploie le *build*, pas le code source
-
-Depuis qu'on utilise **Vite**, votre projet a deux visages :
-
-- Le **code source** (`index.html`, vos fichiers CSS/JS, `node_modules`, `vite.config.js`…) : c'est ce sur quoi vous travaillez.
-- Le **build** : le dossier `dist/` généré par la commande `npm run build`. C'est une version optimisée, minifiée, prête pour le Web.
-
-!!! danger "La règle d'or"
-
-    On **ne met jamais le code source en ligne**. On met en ligne le **`dist/`**.
-
-Ce qui change d'une méthode à l'autre, c'est seulement **le moyen de transport** du `dist/` vers le serveur. On va en voir deux :
-
-<div class="grid grid-1-2" markdown>
-
-**:material-github: Partie 1 - GitHub Pages**<br>
-Le build et la publication sont **automatisés** par GitHub. Gratuit, idéal pour le développement.
-
-**:material-server: Partie 2 - cPanel**<br>
-On téléverse le build **manuellement** sur un vrai serveur. Contrôle total, courriels et nom de domaine réels.
-
-</div>
-
-## Partie 1 - GitHub Pages
+## GitHub Pages
 
 ![](./assets/images/github-banner.webp){.w-100}
 
-GitHub Pages transforme un dépôt Git en site Web gratuit. Comme Vite exige une étape de *build*, on demande à **GitHub Actions** de le faire pour nous à chaque `git push`.
+[GitHub Pages](https://docs.github.com/fr/pages) transforme gratuitement un dépôt Git en site Web. 
 
+### Méthode rapide
+
+La façon la plus simple de le faire est avec un `index.html` à la racine du repo.
+
+1. Créer un nouveau repository **public** sur GitHub.
+1. Créer un `index.html` avec une structure de base et du contenu dans le `<body>`
+1. Clic sur Settings > Pages
+1. Source = Deploy from a branch
+1. Branch = main, clic Save
+1. Attendre le déploiement (quelques minutes). On peut voir quand c'est fait dans l'onglet `Actions`.
+
+L'adresse de votre site est normalement construite ainsi : 
+
+```
+https://USERNAME.github.io/NOM-DU-REPOSITORY/
+```
+
+#### Déployer manuellement un build vite
+
+![](./assets/images/false-automation.gif){.w-50 data-zoom-image}
+
+Après avoir exécuté `npx vite build`, un dossier `/dist` est créé avec le code à déployer à l'intérieur.
+
+Il suffit alors de mettre **le contenu** du dossier `/dist` à la racine du repo GitHub pour que GitHub Pages l'affiche.
+
+``` title="Exemple du repo GitHub"
+📂 assets
+  - index-BJN94h4U.css
+  - poppins-latin-700-normal-BVuQR_eA.woff
+  - ...
+📄 index.html
+```
+
+### Méthode automatisée
+
+![](./assets/images/real-automation.gif){.w-50 data-zoom-image}
+
+Il est possible d'automatiser tout ça avec **GitHub Actions**.
+
+Ainsi, on a le code source sur GitHub, et quand on fait un `git push`, ça exécute en arrière-plan un `npx vite build` et ça déploie automatiquement sur GitHub Pages !
+
+<!-- 
 ### :material-numeric-1-box: Configurer le `base` dans `vite.config.js`
 
 C'est **l'étape la plus importante** - celle qu'on oublie toujours. Sur GitHub Pages, votre site n'est pas à la racine du domaine, mais dans un **sous-dossier** portant le nom du dépôt :
@@ -152,104 +162,42 @@ Rendez-vous dans l'onglet **Actions** de votre dépôt : vous verrez le workflow
 
 !!! tip "C'est ça, le CI/CD"
 
-    Vous venez de mettre en place un mini pipeline d'**intégration et de déploiement continus** : chaque `push` reconstruit et republie le site automatiquement. Plus besoin d'y penser.
+    Vous venez de mettre en place un mini pipeline d'**intégration et de déploiement continus** : chaque `push` reconstruit et republie le site automatiquement. Plus besoin d'y penser. -->
 
-## Partie 2 - Hébergement réel avec cPanel
+## Hébergement avec cPanel
 
 ![](./assets/images/cpanel_banner.png)
 
-Abréviation de “control panel”, cPanel est un panneau de gestion d’hébergement Web qui permet de gérer un ou plusieurs serveurs et leurs sites Web via une interface graphique.
+Abréviation de « Control Panel », cPanel est un panneau de gestion d’hébergement Web qui permet de gérer des serveurs et des sites Web.
 
-Il existe plusieurs autres outils de gestion de serveur comme Plesk, DirectAdmin ou Webmin, mais dans le cadre du cours, nous utiliserons cPanel.
+Il existe plusieurs alternatives comme Plesk, DirectAdmin ou Webmin, mais dans le cadre du cours, nous utiliserons cPanel.
+
+L'entreprise qui héberge les sites Web s'appelle HostPapa et le nom de domaine qui sera utilisé sera `tim-momo.com`.
 
 ### Connexion
 
-<!-- ![](./assets/images/cpanel-login.png){data-zoom-image} -->
+![](./assets/images/cpanel-login.png){data-zoom-image}
 
-#### Adresse
+La connexion se fait à l'adresse suivante : 
 
-La connexion se fait à l'adresse suivante : **https://SOUSDOMAINE.tim-momo.com:2083**
+```
+https://SOUSDOMAINE.tim-momo.com:2083
+```
 
-Remplacez `SOUSDOMAINE` par les 9 caractères de votre numéro de DA.
+!!! note "Remplacez `SOUSDOMAINE` par votre nom de famille"
 
-!!! example "Exemple"
+    Exemple : https://tremblay-rivard.tim-momo.com:2083
 
-    https://202912345.tim-momo.com:2083
+Le **nom d'utilisateur** est votre prénom sur colnet, en minuscule, sans accents. 
 
-#### Nom d'utilisateur
+!!! info "Spécificités"
 
-Vous trouverez votre nom d'utilisateur dans une des listes ci-dessous.
+    - Si vous avez plusieurs prénoms, ce sera simplement le premier. (ex: pour Charlie Charlotte, le username est `charlie`)
+    - Si c'est un prénom composé, le trait n'est pas conservé. (ex: pour Pier-Olivier, le username est `pierolivier`)
 
-<div class="grid align-items-start" markdown>
+    - Pour Alexandre, ajoute les initiales de ton nom de famille (ex: pour Alexandre Tremblay-Rivard, le username est `alexandretr`)
 
-| AM |
-| ----------------- |
-| ounissiassil |
-| keosombathtommy |
-| siroistanguaycdr |
-| chahedchaima |
-| fosubradley[^exception]|
-| benfradjadam |
-| raymondjanviervi |
-| canomendozacrist |
-| gagnsabrina |
-| jeanjacqueskathl |
-| rousselthomas |
-| cortesluca |
-| richardnurlika |
-| vicsaimark |
-| onkoyasmine |
-| ferdinandjayden |
-| mullerfranoissar |
-| briandwilliam |
-| guilbaultalexis |
-| driesenseanlarry |
-| benmaizrada |
-| richardtyler |
-| veilleuxamlie |
-| elfantroussiyass |
-| bonneaulucas |
-
-| PM |
-| ----------------- |
-| cheourwalid |
-| pereiracalderonp |
-| lalibertolivier |
-| canizalezefram |
-| simonnathan |
-| rodriguezfontain |
-| tighzanourelisle |
-| crevierjonathan |
-| gevorgyanmariam |
-| chheralexia |
-| cruznicolas |
-| lvesqueflix |
-| plantesalmeronal |
-| thortjessica |
-| sadkimohamedali |
-| sousaluizfelippe |
-| ataimeena |
-| frchettemathieu |
-| lysenkoiryna |
-| guerrierjonesthe |
-| warrenzackary |
-| vaillancourtrosa |
-| labbharleymarlon |
-| thriaultjrmy |
-| vitalstanleyoliv |
-| barydiouma |
-
-</div>
-
-[^exception]: Votre mot de passe contient un "1" avant votre numéro de téléphone
-
-#### Mot de passe
-
-Votre mot de passe est votre **numéro de téléphone** sur Colnet : sans tiret ni espace.
-
-!!! example "Exemple"
-
-    5145551234
+Le **mot de passe** est le numéro de DA à 9 chiffres. (ex: `201234567`)
 
 ### Tableau de bord
 
@@ -283,32 +231,38 @@ Il est fortement recommandé de changer son mot de passe pour quelque chose de p
 * 📁 public_html : C’est la racine Web : tout ce que vous y ajouterez sera visible sur internet
 
   > Exemples :
-  > - public_html/index.html : visible par `https://201234567.tim-momo.com/`
-  > - public_html/tp2/index.html : visible par `https://201234567.tim-momo.com/tp2/`
-  > 
-  > Je recommande de faire un répertoire par projet pour le moment. Rien à la racine directement. Pour le moment ;)
-  > 
-  > Petit truc. Téléverser un `.zip` pour l'extraire ensuite permet de faciliter le processus.
+  > - public_html/index.html : visible par `https://xxxxxx.tim-momo.com/`
+  > - public_html/tp2/index.html : visible par `https://xxxxxx.tim-momo.com/tp2/`
+   
+  - Je recommande de faire un répertoire par projet pour le moment. Rien à la racine directement. Pour le moment ;)
+  - Petit truc. Téléverser un `.zip` pour l'extraire ensuite permet de faciliter le processus.
 
 * 📁 public_ftp : Sert pour partager des fichiers via FTP anonyme. 
 
-  > Si activé, n'importe qui pourrait télécharger son contenu via une adresse comme : `ftp://201234567.tim-momo.com`
+  - Si activé, n'importe qui pourrait télécharger son contenu via une adresse comme : `ftp://xxxxxx.tim-momo.com`
 
 * 📁 mail : Contient les boîtes de réception de vos courriels
 * 📁 logs : contient les erreurs serveur au format compressé (ex. : 404, 500)
 * 📁 ssl : stocke les certificats pour activer la notion HTTPS
 * 📁 tmp : fichiers temporaires
-* 📁 etc : contient des fichiers de configuration globales
+* 📁 etc : contient des fichiers de configuration globaux
 
 !!! info "403 Forbidden"
 
     S'il n'y a pas de fichier index.html à la racine du dossier public_html, vous devriez logiquement voir cette page :
 
-    ![](./assets/images/cpanel-403.png)
+    ![](./assets/images/cpanel-403.png){data-zoom-image}
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/cpanel/giphy.gif){.aspect-4-3}
+
+  <small>Exercice - cPanel</small><br>
+  **[Publier un build Vite](./activite/cpanel/index.md){.stretched-link .back}**
+</div>
 
 ### Courriels
 
-![](./assets/images/cpanel-courriels.png)
+![](./assets/images/cpanel-courriels.png){data-zoom-image}
 
 Votre cPanel vient avec une gestion de courriels, un peu comme si vous aviez votre propre Gmail.
 
@@ -316,7 +270,7 @@ Votre cPanel vient avec une gestion de courriels, un peu comme si vous aviez vot
 
 1. Dans le tableau de bord, cliquer sur « Comptes de messagerie »
 1. Cliquer sur « Créer »
-1. Ajouter un nom d'utilisateur. Ce sera le nom de votre courriel. Par exemple : contact@201234567.tim-momo.com
+1. Ajouter un nom d'utilisateur. Ce sera le nom de votre courriel. Par exemple : `contact@xxxxxx.tim-momo.com`
 1. Ajouter un mot de passe
 1. Cliquer sur « Créer »
 
@@ -324,17 +278,8 @@ Votre cPanel vient avec une gestion de courriels, un peu comme si vous aviez vot
 
 1. Dans le tableau de bord, cliquer sur « Comptes de messagerie »
 1. Cliquer sur « Check Email » de la boîte de courriel précédemment créée.
-
-!!! info "Webmail"
-
-    Si le lien ne fonctionne pas, vous y avez accès par votre url en spécifiant webmail.
-    
-    Ex: https://webmail.201234567.tim-momo.com/ 
-
-1. Cliquer sur « Open »
-
-  ![](./assets/images/roundcube.png){.w-50}
-
+  - Si le lien ne fonctionne pas, vous y avez accès par votre url en spécifiant webmail (ex: `https://webmail.xxxxxx.tim-momo.com/`)
+1. Cliquer sur « Open » <br>![](./assets/images/roundcube.png){.w-50 data-zoom-image}
 1. Tester l'envoi et la réception d'un courriel.
 
 ## Gestion du serveur à distance avec ftp-simple
@@ -355,23 +300,23 @@ Votre cPanel vient avec une gestion de courriels, un peu comme si vous aviez vot
 
    > Cela ouvre le fichier de configuration `ftp-simple-temp.json`
 
-1. Entrer les informations de connexion de votre cPanel :
-
+1. Entrer les informations de connexion de votre cPanel :<div markdown>
   ```json title="Exemple"
   [
     {
-      "name": "201234567.tim-momo.com",
-      "host": "201234567.tim-momo.com",
+      "name": "xxxxxx.tim-momo.com",
+      "host": "xxxxxx.tim-momo.com",
       "port": 21,
       "type": "ftp",
-      "username": "carmackjohn",
-      "password": "5145551234",
+      "username": "picard",
+      "password": "201234567",
       "path": "/public_html",
       "autosave": true,
       "confirm": true
     }
   ]
   ```
+  </div>
 1. Sauvegarder et fermer le fichier de configuration.
 
 ### Ouvrir une session
@@ -383,50 +328,13 @@ Votre cPanel vient avec une gestion de courriels, un peu comme si vous aviez vot
 1. Choisir le site sur lequel se connecter (normalement celui configuré plus tôt)
 1. Choisir le dossier à ouvrir (`. Current directory : /public_html`)
 
-  ![](./assets/images/current-directory.png)
+  ![](./assets/images/current-directory.png){data-zoom-image}
 
-!!! danger "Rappel : on téléverse le `dist/`, pas le source"
+## Exercices
 
-    Faites d'abord `npm run build` en local, puis glissez le **contenu du dossier `dist/`** dans `public_html` (ou dans un sous-dossier de projet). Ne téléversez jamais `node_modules`, `vite.config.js` ou vos fichiers source.
+<div class="grid grid-1-2" markdown>
+  ![](./examens/carre/giphy.gif){.aspect-4-3}
 
-    Contrairement à GitHub Pages, ici **pas de `base` à configurer** si votre site est à la racine du domaine.
-
-## GitHub Pages ou cPanel ?
-
-Les deux méthodes publient le même `dist/` ; elles diffèrent par le *transport* et par ce que le serveur vous offre.
-
-| Critère | :material-github: GitHub Pages | :material-server: cPanel |
-| --- | --- | --- |
-| **Transport du build** | Automatisé (GitHub Actions à chaque `push`) | Manuel (Gestionnaire de fichiers ou FTP) |
-| **Étape de build** | Faite par GitHub dans le nuage | Faite par vous, en local |
-| **Config `base` Vite** | Obligatoire (`/nom-du-depot/`) | Aucune (site à la racine) |
-| **Coût** | Gratuit | Hébergement payant (réel) |
-| **Nom de domaine** | `usager.github.io/...` (perso possible) | Vrai nom de domaine |
-| **Courriels** | ✗ | ✓ (boîtes @votredomaine) |
-| **Contrôle du serveur** | Aucun (boîte noire) | Total (fichiers, logs, SSL, FTP) |
-| **Idéal pour** | Prototypes, portfolios, démos | Sites clients, milieu de travail |
-
-!!! success "À retenir"
-
-    Même livrable (`dist/`), deux transports. GitHub Pages **automatise** ; cPanel donne le **contrôle d'un vrai serveur**. Savoir faire les deux, c'est être prêt autant pour vos projets perso que pour un mandat client.
-
-## Récapitulatif : mettre Digger en ligne
-
-=== ":material-github: Méthode GitHub Pages"
-
-    - [ ] Régler `base: '/nom-du-depot/'` dans `vite.config.js`
-    - [ ] Créer `.github/workflows/deploy.yml`
-    - [ ] Activer **Settings → Pages → Source : GitHub Actions**
-    - [ ] `git add . && git commit -m "Déploiement" && git push`
-    - [ ] Vérifier l'onglet **Actions** puis ouvrir l'URL `usager.github.io/nom-du-depot/`
-
-=== ":material-server: Méthode cPanel"
-
-    - [ ] `npm run build` en local (génère `dist/`)
-    - [ ] Se connecter au cPanel (`https://SOUSDOMAINE.tim-momo.com:2083`)
-    - [ ] Téléverser le **contenu de `dist/`** dans `public_html/` (ou un sous-dossier de projet)
-    - [ ] Ouvrir l'URL de votre serveur pour valider
-
-!!! danger "L'erreur numéro 1"
-
-    Une **page blanche** sur GitHub Pages&nbsp;? C'est presque toujours le `base` mal configuré dans `vite.config.js`. Vérifiez qu'il correspond **exactement** au nom du dépôt, entre deux barres obliques.
+  <small>Exercice - Préparation à l'examen</small><br>
+  **[Carré](./examens/carre/index.md){.stretched-link .back}**
+</div>
