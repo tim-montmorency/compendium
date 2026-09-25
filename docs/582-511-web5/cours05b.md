@@ -30,7 +30,7 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
 ## Aujourd'hui
 
 - [ ] Tutorat : rappel et périodes supplémentaires avant les remises
-- [ ] Échauffement JS : 5 défis dans la console
+- [ ] Échauffement JavaScript : 5 défis dans la console
 - [ ] JSON et `fetch()` asynchrone
 - [ ] Exercice guidé : du JSON à la carte
 - [ ] Choisir sa source de données : JSON local, Google Sheets, Airtable
@@ -43,6 +43,11 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
 ## Échauffement JS : 5 défis dans la console
 
 Ça fait un bout que vous n'avez pas écrit de JavaScript, mais vous l'avez déjà tout vu. On réactive seulement ce qui sert aujourd'hui, avec 5 petits défis dans la console du navigateur. Corrigé ensemble, un défi à la fois.
+
+<div class="class-content-link">
+  <img src="./assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
+</div>
 
 [:material-console: Partie 1 : échauffement dans la console](exercices/ex-json-cartes/index.md#partie-1-echauffement-dans-la-console){ .md-button .md-button--primary }
 

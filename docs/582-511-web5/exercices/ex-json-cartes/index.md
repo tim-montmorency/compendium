@@ -7,6 +7,11 @@
 
 ## Partie 1 : échauffement dans la console
 
+<div class="class-content-link">
+  <img src="../../assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
+</div>
+
 Ouvrez n'importe quelle page dans votre navigateur, puis la console : **F12**, onglet **Console**.
 
 Copiez-collez ce tableau dans la console, puis appuyez sur Entrée :
@@ -38,6 +43,11 @@ Pour chaque défi, écrivez **une** ligne de code dans la console. On fait le co
 Chaque notion est expliquée, avec des exemples, dans le [récap JS](../../js/recap-js.md).
 
 ## Partie 2 : du JSON à la carte
+
+<div class="class-content-link">
+  <img src="../../assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
+</div>
 
 ### Dossier de départ
 
