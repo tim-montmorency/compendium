@@ -1,5 +1,10 @@
 # Exercice : du JSON à la carte
 
+<div class="class-content-link">
+  <img src="../../assets/IA-interdite.png">
+  <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
+</div>
+
 !!! abstract "L'essentiel en 3 points"
     1. Avant de toucher à votre portfolio, on réactive les 5 notions JavaScript qui servent à afficher des projets : tableau d'objets, accès aux propriétés, `forEach`, gabarit littéral, `fetch`.
     2. **Partie 1** : 5 petits défis dans la console du navigateur. **Partie 2** : un mini-projet guidé, en 4 étapes, qui affiche des cartes à partir d'un fichier JSON.
@@ -226,3 +231,8 @@ Vous venez de coder, en petit, tout ce que votre portfolio doit faire. Pour le t
 - votre `init()` va dans `js/main.js`.
 
 [:material-database: Charger les données du portfolio](../../projets/portfolio/donnees/index.md){ .md-button .md-button--primary }
+
+
+## Notes de cours 📚
+
+- [Recap JavaScript](../../js/recap-js.md)

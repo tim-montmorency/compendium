@@ -55,6 +55,9 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
 
 [:material-console: Partie 1 : échauffement dans la console](exercices/ex-json-cartes/index.md#partie-1-echauffement-dans-la-console){ .md-button .md-button--primary }
 
+!!! tip "Besoin de revoir une notion?"
+    Tous les concepts clés, avec un exemple chacun, sont dans le [récap JS](js/recap-js.md). C'est une référence à consulter au besoin, pas à lire d'un bloc.
+
 ### JSON et `fetch()` asynchrone
 
 - **JSON** : un format texte pour échanger des données. Un tableau (`[ ]`) d'objets (`{ }`), avec des guillemets doubles partout.
