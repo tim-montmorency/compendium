@@ -39,8 +39,12 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
 - [ ] Atelier de production (Pomodoro)
 - [ ] Journal de bord
 - [ ] Devoir pour le cours 6.1
+  
+## Recap JavaScript
 
-## Échauffement JS : 5 défis dans la console
+[:material-console: Révision JavaScript](./js/recap-js.md){ .md-button .md-button--primary }
+
+### Échauffement JS : 5 défis dans la console
 
 Ça fait un bout que vous n'avez pas écrit de JavaScript, mais vous l'avez déjà tout vu. On réactive seulement ce qui sert aujourd'hui, avec 5 petits défis dans la console du navigateur. Corrigé ensemble, un défi à la fois.
 
@@ -51,7 +55,7 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
 
 [:material-console: Partie 1 : échauffement dans la console](exercices/ex-json-cartes/index.md#partie-1-echauffement-dans-la-console){ .md-button .md-button--primary }
 
-## JSON et `fetch()` asynchrone
+### JSON et `fetch()` asynchrone
 
 - **JSON** : un format texte pour échanger des données. Un tableau (`[ ]`) d'objets (`{ }`), avec des guillemets doubles partout.
 - **`fetch()`** : va chercher une ressource (un fichier, une API) et retourne une **promesse** : la réponse n'arrive pas tout de suite.
@@ -65,7 +69,7 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
 async function loadProjects() {
   const response = await fetch('data/projects.json'); // 1. aller chercher
   const projects = await response.json();             // 2. lire le JSON
-  return projects;                                    // 3. un tableau de projets
+  return projects;                                    // 3. tableau de projets
 }
 ```
 
@@ -74,7 +78,7 @@ async function loadProjects() {
 ```js
 function loadProjects() {
   return fetch('data/projects.json')   // 1. aller chercher
-    .then(response => response.json());// 2. lire le JSON, 3. un tableau de projets
+    .then(response => response.json());// 2. lire le JSON, 3. tableau de projets
 }
 ```
 
@@ -82,7 +86,7 @@ Les deux versions font exactement la même chose. Choisissez celle avec laquelle
 
 Seule l'adresse dans `fetch()` change selon la source. Tout le reste en découle.
 
-## Exercice guidé : du JSON à la carte
+### Exercice guidé : du JSON à la carte
 
 Avant de toucher à votre portfolio, on code ensemble le même mécanisme en miniature : un fichier JSON de 3 projets, et des cartes générées en JavaScript. Quatre étapes, vérifiées une à une dans le navigateur.
 
