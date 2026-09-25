@@ -65,8 +65,8 @@ Doit être réalisé en **2 h 45**
 
 ### GitHub Pages
 
-- [ ] Créer un nouveau repo GitHub nommé "carre-NOM-PRENOM" (Remplacer NOM et PRENOM par votre prénom)
-- [ ] Y ajouter le contenu du build vite
+- [ ] Créer un nouveau repo GitHub nommé "carre-NOM-PRENOM" (Remplacer NOM et PRENOM par votre nom et prénom)
+- [ ] Y ajouter le contenu d'un build vite
 - [ ] Configurer GitHub Pages pour mettre le build en ligne
 
 - [ ] Dans un fichier README.md à la racine du devoir classroom, ajouter l'URL de votre site.
