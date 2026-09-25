@@ -11,12 +11,13 @@
 ## Demo reel
 Évaluation formative par les pairs.  
 
-
+<!--
 ## 🚨 Remise des cartes d'affaire
 
 
 ## Cartes d'affaires
 Rencontre individuelle pour corriger formativement les cartes d'affaires. 
+-->
 
 ## Portfolio
 * Évaluation formative du portfolio d'un collègue de classe.
@@ -33,9 +34,8 @@ Ajouter 3 employeurs potentiels à la liste pour avoir un total de 8 employeurs 
 
 [🛠️ Comités](./evaluations/journee-carriere.md){ .md-button }    
 
-
-
 ## Temps pour les invitations de la journée carrière
+
 Envoyer vos 8 invitations lorsque le comité communication a approuvé vos entreprises. Vous assurez de modifier les champs [Prénom, nom].         
 
 [🛠️ Invitation](./evaluations/journee-carriere.md){ .md-button }    
