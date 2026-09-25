@@ -470,9 +470,9 @@ const id = params.get('id'); // "biome", ou null si absent
 ## 18. Déboguer : la console
 
 ```js
-console.log(projects);         // afficher une valeur
-console.table(projects);       // un tableau d'objets en vrai tableau, très lisible
-console.error('Oups');         // en rouge
+console.log(projects);     // afficher une valeur
+console.table(projects);   // un tableau d'objets en vrai tableau, très lisible
+console.error('Oups');     // en rouge
 ```
 
 !!! tip "Le réflexe"
