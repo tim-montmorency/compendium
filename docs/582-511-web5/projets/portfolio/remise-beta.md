@@ -3,7 +3,9 @@
 !!! abstract "L'essentiel en 3 points"
     1. La bêta, c'est votre portfolio **complet, en ligne et testable** : tout ce qui doit fonctionner fonctionne, sur desktop et sur mobile.
     2. C'est une remise **formative** : elle sert à recevoir de la rétroaction et à lancer les **tests par les pairs**, qui porteront sur cette version.
-    3. Cochez chaque élément ci-dessous avant la remise. Ce qui manque à la bêta devra être complété pour la remise finale, mais vos pairs ne pourront pas le tester.
+    3. **Comment remettre** : un *commit* et un *push* de tous les fichiers sur `main`, puis une branche `beta`, un dépôt **public** et la mise en ligne GitHub Pages **de la branche `beta`**. Au plus tard le **vendredi 2 octobre, avant le début du cours**.
+
+    Cochez chaque élément ci-dessous avant la remise. Ce qui manque à la bêta devra être complété pour la remise finale, mais vos pairs ne pourront pas le tester.
 
 [:material-file-document-outline: Consignes complètes du portfolio](index-textuel.md#remise-2-version-beta-vendredi-2-octobre){ .md-button }
 
@@ -18,14 +20,18 @@
 - [ ] Le code est **commenté dans vos propres mots** (HTML, CSS et JS).
 - [ ] La console du navigateur (F12) ne montre **aucune erreur rouge**.
 
-## En ligne
+## La remise et la mise en ligne
 
-- [ ] Le site est **déployé** et fonctionne en ligne (GitHub Pages ou autre hébergeur) : [procédure GitHub Pages](deploiement-github-pages.md).
+Toute la procédure, étape par étape : [:material-github: Remettre la bêta et la mettre en ligne](deploiement-github-pages.md){ .md-button .md-button--primary }
+
+- [ ] Tous les fichiers demandés sont *commités* et poussés (*push*) sur `main`.
+- [ ] La branche **`beta`** est créée à partir de `main`.
+- [ ] Le dépôt est **public**.
+- [ ] GitHub Pages met en ligne la branche **`beta`** (**Settings → Pages**).
 - [ ] Tout fonctionne **en ligne**, pas seulement sur votre poste : cartes, détail, images, liens.
 
 ## Le dépôt GitHub
 
-- [ ] Le dépôt est **privé** et *marie-michelle-ouellet* y est invitée comme collaboratrice.
 - [ ] La structure de dossiers suit l'[arborescence du dépôt](arborescence-portfolio.md), avec des noms de fichiers en anglais, en minuscules et uniformes.
 - [ ] Les **commits** sont réguliers, fréquents et bien nommés.
 - [ ] `README.md` est à jour, avec l'**adresse réelle** de votre site en ligne et le lien vers votre Figma.
@@ -49,6 +55,12 @@
 
 - [ ] J'ai ouvert **l'adresse en ligne** dans une fenêtre de navigation privée, et tout fonctionne.
 - [ ] J'ai testé sur mon téléphone (ou avec le mode appareil de l'inspecteur).
-- [ ] Mon dernier *commit* est bien poussé sur GitHub.
+- [ ] Mon dernier *commit* est bien poussé sur GitHub, **avant** la création de la branche `beta`.
+- [ ] Dans VS Code, je suis de retour sur la branche `main`.
 
-<!-- MM : préciser ici comment et où remettre (lien Teams, Omnivox, etc.) -->
+!!! warning "Après la remise : on continue sur `main`"
+    Si vous continuez à travailler après la remise, faites-le **sur `main`**, jamais sur `beta`. La branche `beta` et le site en ligne restent tels que remis pendant les tests par les pairs.
+
+!!! info "Et ensuite : les tests par les pairs"
+    La semaine de la bêta, un·e collègue testera votre portfolio **en ligne** à l'aide d'une grille de tests guidés. Les résultats et vos correctifs seront documentés pour la remise finale.
+

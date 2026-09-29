@@ -90,7 +90,7 @@ Le CSS moderne peut faire avancer une animation avec le défilement plutôt qu'a
 
 ## Déployer sur GitHub Pages
 
-La bêta doit être **en ligne**. On le fait ensemble, maintenant, pour régler les problèmes pendant que je suis là.
+La bêta se remet avec une branche `beta`, mise en ligne sur GitHub Pages. On fait les étapes ensemble, maintenant, pour régler les problèmes pendant que je suis là. Créez la branche `beta` **seulement quand votre bêta est terminée**, au plus tard vendredi avant le début du cours : elle doit contenir votre version finale.
 
 [:material-github: Déployer son portfolio sur GitHub Pages](projets/portfolio/deploiement-github-pages.md){ .md-button .md-button--primary }
 
@@ -113,7 +113,7 @@ Commit final avant de partir.
 Compléter tous les éléments de la [liste de vérification de la remise bêta](projets/portfolio/remise-beta.md), en particulier :
 
 - [ ] les cartes de projets générées à partir de vos données, et le détail d'un projet;
-- [ ] le site déployé et fonctionnel **en ligne**;
+- [ ] la remise : *push* sur `main`, branche `beta`, dépôt **public** et GitHub Pages publié à partir de `beta`, **avant le début du cours vendredi** ([procédure](projets/portfolio/deploiement-github-pages.md));
 - [ ] les 5 questions du bloc 2 dans `JOURNAL.md`.
 
 !!! info "Besoin d'aide d'ici vendredi?"

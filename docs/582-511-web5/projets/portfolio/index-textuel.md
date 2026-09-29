@@ -139,18 +139,27 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 #### Remise 2 : Version Beta *(vendredi 2 octobre)*
 
 - design corrigé et adapté, suite à la rétroaction de la remise 1,
-- dépôt GitHub mis à jour:
+- dépôt GitHub mis à jour :
   - structure de dossiers cohérente et convention de nommage uniforme,
-  - fichiers *README.md*, *PLANIFICATION.md* et *JOURNAL.md* mis-à-jour,
-  - commits réguliers, fréquents et bien nommés, avec commits réguliers et bien nommés,
+  - fichiers *README.md* (avec l'adresse réelle de votre site en ligne), *PLANIFICATION.md* et *JOURNAL.md* mis à jour,
+  - commits réguliers, fréquents et bien nommés,
 - intégration HTML/CSS/JS fonctionnelle, avec commentaires dans le code,
-- version desktop ET mobile complet et fonctionnels (tout est responsive et s'adapte en fonction de la largeur de l'écran),
+- projets chargés de façon asynchrone à partir de votre source de données : cartes de projets générées en JavaScript et détail d'un projet fonctionnel,
+- versions desktop ET mobile complètes et fonctionnelles (tout est responsive et s'adapte en fonction de la largeur de l'écran),
 - intégration des contenus textuels et médias,
-- journal de bord complété jusqu'à ce point (JOURNAL.md),
+- journal de bord complété jusqu'à ce point (*JOURNAL.md*) :
   - 5 questions à répondre pour le deuxième bloc du projet,
-  - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
-- version BETA déployée et fonctionnelle en ligne,
+  - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu,
+- version bêta déployée et fonctionnelle en ligne,
+- **modalités de remise**, au plus tard le vendredi 2 octobre, **avant le début du cours** :
+  - *commit* et *push* de tous les fichiers demandés sur la branche `main`,
+  - création d'une branche `beta` à partir de `main`,
+  - dépôt rendu **public**,
+  - mise en ligne GitHub Pages **de la branche `beta`**,
+  - après la remise, le travail se poursuit sur `main`, jamais sur `beta`,
 - lancement des tests par les pairs cette semaine-là : **les résultats et correctifs seront documentés pour la remise finale**.
+
+[:material-clipboard-check: Liste de vérification de la remise bêta](remise-beta.md){ .md-button }
 
 ### Remise finale : sommative (40%)
 

@@ -327,8 +327,15 @@
     <li>Rétroaction formative individuelle : groupe d'Enric le 14 septembre, groupe de Lora le 17 septembre</li>
   </ul>
   <ul>
-    <li>Version Beta déployée et fonctionnelle en ligne</li>
+    <li>Design corrigé suite à la rétroaction de la remise 1</li>
+    <li>Intégration HTML/CSS/JS fonctionnelle et commentée, responsive (desktop et mobile)</li>
+    <li>Contenus textuels et médias intégrés</li>
+    <li>Projets chargés en JavaScript à partir de votre source de données (cartes et détail)</li>
+    <li>Dépôt GitHub à jour (<em>README.md</em> avec l'adresse du site, <em>PLANIFICATION.md</em>)</li>
+    <li>Journal de bord complété jusqu'à ce point (<em>JOURNAL.md</em>)</li>
+    <li>Remise : <em>push</em> sur <code>main</code>, branche <code>beta</code>, dépôt public et GitHub Pages publié à partir de <code>beta</code>, avant le début du cours</li>
     <li>Lancement des tests par les pairs cette semaine-là (résultats et correctifs à documenter pour la remise finale)</li>
+    <li><a href="remise-beta.html">Liste de vérification détaillée</a></li>
   </ul>
 </div>
 
