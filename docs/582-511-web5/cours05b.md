@@ -3,8 +3,6 @@
 
 ## Tutorat
 
-Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e année, comme vous. Les autres tuteurs du programme sont en 2e année et ne peuvent pas vous aider pour ce cours.
-
 | NOM | PLAGE HORAIRE | LIEU | DATES |
 |---|---|---|---|
 | *Alexis Guilbault* | Trou horaire : mardi 12 h 30 à 14 h 10 | En personne au Centre d'aide C-1602 | 8 sept. au 8 déc. inclus |
@@ -15,9 +13,9 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
     | 📅 Date | 👤 Tuteur | ⏱️ Durée | 📍 Où | 🎯 Avant |
     |---|---|---|---|---|
     | Mer. 30 sept. | Alexis | 25 min par groupe | 🏫 En classe, pendant le cours Web 5 | Bêta (2 oct.) |
-    | Lun. 5 oct., soir | Olivier | 50 min | 💻 En ligne (Teams) | Remise finale gr. Lora (8 oct.) |
-    | Mar. 6 oct., soir | Alexis | 50 min | 💻 En ligne (Teams) | Remise finale gr. Lora (8 oct.) |
-    | Mar. 13 oct., soir | Alexis | 50 min | 💻 En ligne (Teams) | Remise finale gr. Enric (15 oct.) |
+    | Lun. 5 oct., 19 h 10 à 20 h | Olivier | 50 min | 💻 En ligne sur Teams, équipe *TIM - Web5 - A26* : [canal « Tutorat dédié Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Lora (8 oct.) |
+    | Mar. 6 oct., 19 h 10 à 20 h | Alexis | 50 min | 💻 En ligne sur Teams, équipe *TIM - Web5 - A26* : [canal « Tutorat dédié Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Lora (8 oct.) |
+    | Mar. 13 oct., 19 h 10 à 20 h | Alexis | 50 min | 💻 En ligne sur Teams, équipe *TIM - Web5 - A26* : [canal « Tutorat dédié Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Enric (15 oct.) |
 
     👥 **Toutes les périodes sont ouvertes aux deux groupes.** La colonne « Avant » indique seulement la remise qui approche : le gr. Enric est aussi le bienvenu les 5 et 6 octobre.
 
