@@ -52,11 +52,11 @@ Si vous êtes bloqué à l'étape 1 ou 2, c'est **la priorité d'aujourd'hui**, 
 
 ![Schéma : une source de données au choix, lue par fetch() dans data.js, qui retourne un tableau de projets utilisé pour les cartes et pour le détail](projets/portfolio/donnees/assets/schema-chargement-donnees.svg)
 
-| Fichier | Son travail |
-|---|---|
-| `js/data.js` | `loadProjects()` : aller chercher les données et les **retourner**. |
-| `js/components/project-card.js` | `createProjectCard(project)` : **un** projet → le HTML de **sa** carte. |
-| `js/main.js` | `init()` : attendre `loadProjects()`, puis insérer les cartes dans la page. Sans oublier d'appeler `init();`. |
+| Fichier | Son travail | Revoir |
+|---|---|---|
+| `js/data.js` | `loadProjects()` : aller chercher les données et les **retourner**. | [fetch et async](js/recap-js.md#async), [erreurs](js/recap-js.md#erreurs) |
+| `js/components/project-card.js` | `createProjectCard(project)` : **un** projet → le HTML de **sa** carte. | [gabarits littéraux](js/recap-js.md#gabarits) |
+| `js/main.js` | `init()` : attendre `loadProjects()`, puis insérer les cartes dans la page. Sans oublier d'appeler `init();`. | [forEach](js/recap-js.md#foreach), [map et join](js/recap-js.md#map-filter-find) |
 
 [:material-database: Charger les données du portfolio](projets/portfolio/donnees/index.md){ .md-button }
 [:material-cards-outline: Afficher les projets](projets/portfolio/donnees/afficher-projets.md){ .md-button }

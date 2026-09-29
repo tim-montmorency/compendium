@@ -88,6 +88,8 @@ Les deux versions font exactement la même chose. Choisissez celle avec laquelle
 
 Seule l'adresse dans `fetch()` change selon la source. Tout le reste en découle.
 
+Revoir dans le récap : [JSON](js/recap-js.md#json), [une promesse, en bref](js/recap-js.md#promesses), [async / await et .then()](js/recap-js.md#async), [gérer les erreurs](js/recap-js.md#erreurs).
+
 ### Exercice guidé : du JSON à la carte
 
 Avant de toucher à votre portfolio, on code ensemble le même mécanisme en miniature : un fichier JSON de 3 projets, et des cartes générées en JavaScript. Quatre étapes, vérifiées une à une dans le navigateur.
@@ -124,8 +126,8 @@ Peu importe la source, `loadProjects()` retourne le même tableau de projets. Le
 
 Selon la structure de navigation choisie dans `PLANIFICATION.md` :
 
-- **One-pager avec modale** : un bouton `data-id` sur la carte, `find()`, puis `<dialog>`. Voir [Afficher les projets, section 4](projets/portfolio/donnees/afficher-projets.md#4-one-pager-avec-modale).
-- **Multipages** : une seule page `project.html` pour tous les projets. Elle lit `?id=cafe-du-coin` dans l'adresse avec `URLSearchParams`. Voir [Afficher les projets, section 5](projets/portfolio/donnees/afficher-projets.md#5-multipages-projecthtml-et-les-parametres-durl).
+- **One-pager avec modale** : un bouton `data-id` sur la carte ([dataset](js/recap-js.md#dataset)), `find()` ([récap](js/recap-js.md#map-filter-find)), puis `<dialog>`. Voir [Afficher les projets, section 4](projets/portfolio/donnees/afficher-projets.md#4-one-pager-avec-modale).
+- **Multipages** : une seule page `project.html` pour tous les projets. Elle lit `?id=cafe-du-coin` dans l'adresse avec `URLSearchParams` ([récap](js/recap-js.md#urlsearchparams)). Voir [Afficher les projets, section 5](projets/portfolio/donnees/afficher-projets.md#5-multipages-projecthtml-et-les-parametres-durl).
 - **One-pager avec carrousel** : le détail est dans la carte elle-même, rien de plus à charger.
 
 !!! info "Pas de composant JavaScript supplémentaire à ajouter"

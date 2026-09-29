@@ -41,7 +41,7 @@ const video = null;             // null : « volontairement vide »
 console.log(typeof year); // "number"
 ```
 
-## 3. Gabarits littéraux
+## 3. Gabarits littéraux { #gabarits }
 
 Des chaînes entre accents graves `` ` ``, dans lesquelles on insère une valeur avec `${...}`. C'est **l'outil principal** pour fabriquer du HTML avec des données.
 
@@ -63,7 +63,7 @@ const card = `
 `;
 ```
 
-## 4. Objets `{ }`
+## 4. Objets `{ }` { #objets }
 
 Un objet regroupe les informations d'**une** chose (un projet) sous forme de paires <br> `propriété: valeur`.
 
@@ -161,7 +161,7 @@ const createTitle = (project) => `<h3>${project.title}</h3>`;
 
 Sur une seule ligne, sans accolades, le `return` est implicite.
 
-## 8. Conditions et opérateur ternaire
+## 8. Conditions et opérateur ternaire { #ternaire }
 
 ```js
 if (project.link) {
@@ -217,7 +217,7 @@ projects.forEach((project) => {
 
 Référence : [forEach (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach){ :target="_blank" }
 
-## 10. Transformer, filtrer, trouver : `map`, `filter`, `find`
+## 10. Transformer, filtrer, trouver : `map`, `filter`, `find` { #map-filter-find }
 
 Toujours en partant de cet exemple:
 
@@ -332,7 +332,7 @@ themeButton.addEventListener('click', () => {
 });
 ```
 
-### Attributs `data-` et `dataset`
+### Attributs `data-` et `dataset` { #dataset }
 
 Pour garder une information dans le HTML (ex. l'`id` d'un projet) et la relire au clic.
 
@@ -346,7 +346,7 @@ button.addEventListener('click', () => {
 });
 ```
 
-### Délégation d'événements
+### Délégation d'événements { #delegation }
 
 Un **seul** écouteur sur le parent, plutôt qu'un par carte. Indispensable quand les cartes sont générées en JavaScript : elles n'existent pas encore quand la page se charge.
 
@@ -470,7 +470,7 @@ function init() {
 }
 ```
 
-## 17. Paramètres d'URL : `URLSearchParams`
+## 17. Paramètres d'URL : `URLSearchParams` { #urlsearchparams }
 
 Lire les informations après le `?` d'une adresse, comme `project.html?id=biome`.
 
