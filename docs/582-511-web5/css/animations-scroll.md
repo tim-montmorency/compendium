@@ -1,0 +1,182 @@
+# Animations pilotées par le défilement (CSS)
+
+!!! abstract "L'essentiel en 3 points"
+    1. Une animation CSS normale avance avec le **temps** (`2s`, `500ms`). Avec `animation-timeline`, elle avance avec le **défilement** : on fait défiler, l'animation progresse; on remonte, elle recule.
+    2. Deux timelines à connaître : `scroll()` suit le défilement de **toute la page**, `view()` suit la visibilité d'**un élément** dans l'écran.
+    3. Toujours envelopper dans `@supports` (tous les navigateurs ne suivent pas encore) et dans `prefers-reduced-motion` (respecter les personnes qui demandent moins de mouvement).
+
+[:material-play-circle: Voir la démo](demo-animations-scroll.html){ .md-button .md-button--primary :target="_blank" }
+
+Faites défiler la démo, puis ouvrez l'inspecteur : tout le CSS est dans la page, commenté exemple par exemple.
+
+## Ce que vous savez déjà
+
+Vous connaissez les animations CSS depuis Web 2 : des `@keyframes`, puis la propriété `animation` sur l'élément.
+
+```css
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(60px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+  animation: reveal 1s ease-out;
+}
+```
+
+Ici, l'animation dure 1 seconde et démarre au chargement de la page, que la carte soit visible ou non.
+
+Pour déclencher une animation au défilement, vous avez peut-être déjà utilisé du JavaScript : un écouteur `scroll`, ou un `IntersectionObserver`, puis une classe ajoutée à l'élément. Le CSS moderne fait maintenant ça **seul**, sans une ligne de JavaScript.
+
+## Le principe : remplacer le temps par le défilement
+
+On garde exactement les mêmes `@keyframes`. On change seulement ce qui fait avancer l'animation :
+
+```css
+.card {
+  animation: reveal linear both;
+  animation-timeline: view();
+}
+```
+
+| Propriété | Rôle |
+|---|---|
+| `animation: reveal linear both` | Le nom des keyframes. **Pas de durée** : c'est le défilement qui décide. `linear` pour que l'animation suive le défilement sans accélération, `both` pour garder l'état de départ avant et l'état final après. |
+| `animation-timeline: view()` | Ce qui fait avancer l'animation : ici, la visibilité de la carte dans l'écran. |
+
+!!! danger "`animation-timeline` toujours **après** `animation`"
+    Le raccourci `animation` remet `animation-timeline` à sa valeur par défaut (le temps). Si vous l'écrivez après, votre `animation-timeline` est annulée sans message d'erreur, et l'animation joue au chargement comme avant.
+
+## Les deux timelines
+
+### `scroll()` : le défilement de la page
+
+L'animation va de 0 % (en haut de la page) à 100 % (en bas de la page). Idéal pour un élément **fixe** qui réagit à la lecture : une barre de progression, un en-tête qui change.
+
+```css
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: var(--color-accent);
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+@keyframes grow {
+  to { transform: scaleX(1); }
+}
+
+.progress-bar {
+  animation: grow linear both;
+  animation-timeline: scroll();
+}
+```
+
+### `view()` : la visibilité d'un élément
+
+Chaque élément a **sa propre** timeline : elle commence quand il entre dans l'écran par le bas, et se termine quand il en sort par le haut. Idéal pour faire apparaître vos cartes de projets, des images, des titres.
+
+```css
+.project-card {
+  animation: reveal linear both;
+  animation-timeline: view();
+}
+```
+
+!!! tip "Ça fonctionne aussi avec vos cartes générées en JavaScript"
+    Le CSS s'applique à tous les éléments qui ont la classe, même ceux ajoutés par `innerHTML` après le `fetch()`. Aucune modification à votre `main.js`.
+
+## Choisir quand l'animation joue : `animation-range`
+
+Par défaut, une animation `view()` s'étire sur **tout** le trajet de l'élément dans l'écran : elle serait à moitié faite quand la carte est au milieu. En général, on veut que l'apparition soit **terminée** dès que l'élément est entré.
+
+```css
+.project-card {
+  animation: reveal linear both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 100%;
+}
+```
+
+| Plage | Moment |
+|---|---|
+| `entry` | Pendant que l'élément **entre** dans l'écran (par le bas) |
+| `exit` | Pendant qu'il **sort** de l'écran (par le haut) |
+| `cover` | Tout le trajet, de sa première apparition à sa disparition complète |
+| `contain` | Pendant qu'il est **entièrement** visible |
+
+Les pourcentages précisent le début et la fin : `entry 0% entry 100%` = du tout début à la toute fin de l'entrée. Pour tester différentes plages visuellement : [View Progress Timeline : Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/){ :target="_blank" }.
+
+## Quoi animer? La performance
+
+Pour une animation fluide, animez en priorité :
+
+- `transform` (`translate`, `scale`, `rotate`);
+- `opacity`;
+- `clip-path` et `filter`, avec modération.
+
+Évitez d'animer `width`, `height`, `top`, `margin`, etc. : ces propriétés forcent le navigateur à recalculer la mise en page à chaque image, et l'animation saccade.
+
+## Deux règles obligatoires
+
+### 1. `@supports` : tous les navigateurs ne suivent pas encore
+
+Chrome, Edge et Safari (version 26 et plus) supportent les animations pilotées par le défilement. Firefox est en train de les ajouter : vérifiez l'état actuel sur [Can I use](https://caniuse.com/mdn-css_properties_animation-timeline){ :target="_blank" }.
+
+Dans un navigateur qui ne comprend pas `animation-timeline`, la ligne est ignorée : il reste `animation: reveal linear both`, une animation de **0 seconde**, donc aucun effet. Et si vous aviez placé l'état de départ directement sur l'élément (ex. `opacity: 0` sur la carte), la carte resterait **invisible**. On n'active donc les animations que si le navigateur les comprend :
+
+```css
+@supports (animation-timeline: scroll()) {
+  .project-card {
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 100%;
+  }
+}
+```
+
+Sans support : pas d'animation, mais un contenu parfaitement visible. C'est le bon compromis.
+
+### 2. `prefers-reduced-motion` : respecter l'accessibilité
+
+Certaines personnes activent, dans leur système, l'option « réduire les animations » : le mouvement peut leur causer des nausées ou des maux de tête. On la respecte en n'activant les animations que si elle n'est **pas** demandée :
+
+```css
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .project-card {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 100%;
+    }
+  }
+}
+```
+
+C'est le patron complet à retenir : **les keyframes à l'extérieur, l'activation à l'intérieur des deux conditions.**
+
+!!! tip "Tester `prefers-reduced-motion` sans changer vos réglages"
+    Dans Chrome : inspecteur (F12) → menu ⋮ → *More tools* → *Rendering* → *Emulate CSS media feature prefers-reduced-motion* → `reduce`.
+
+## Idées pour votre portfolio
+
+| Effet | Timeline | Keyframes |
+|---|---|---|
+| Cartes de projets qui apparaissent | `view()`, `entry 0% entry 100%` | `opacity` + `translateY` |
+| Barre de progression de lecture | `scroll()` | `transform: scaleX()` |
+| Image d'un projet qui se dévoile | `view()`, `entry 20% cover 50%` | `clip-path: inset()` |
+| Grand titre qui glisse horizontalement | `view()` | `translateX` |
+| Image qui grossit légèrement | `view()` | `transform: scale(0.9)` → `scale(1)` |
+
+Une ou deux animations bien choisies valent mieux que tout animer. Reliez-les aux idées d'animation que vous aviez notées dans votre `PLANIFICATION.md`, et documentez tout changement dans votre `JOURNAL.md`.
+
+!!! note "Et GSAP?"
+    Les animations CSS pilotées par le défilement couvrent la majorité des besoins d'un portfolio. Pour des scénarios plus complexes (épingler une section, enchaîner plusieurs animations dans une ligne du temps), on verra **GSAP et ScrollTrigger** dans le projet intégrateur.
+
+## Références
+
+- [Scroll-driven animations (MDN, en anglais)](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations){ :target="_blank" }
+- [scroll-driven-animations.style](https://scroll-driven-animations.style/){ :target="_blank" } : démos et outils visuels, par un ingénieur de l'équipe Chrome

@@ -23,11 +23,98 @@
 
 ## Projet portfolio
 
-!!! warning "Remise de la version Beta (finale et prête à tester) : vendredi 2 octobre"
-    Il reste le cours 6.1 (mercredi 30 sept.) avant la bêta. Aujourd'hui, on branche vos projets sur une vraie source de données : c'est le cœur fonctionnel de votre portfolio.
+!!! warning "Remise de la version bêta : vendredi 2 octobre"
+    C'est notre dernier cours avant la bêta. Aujourd'hui : on termine ensemble le chargement des projets, on met le site en ligne, et on s'assure que tout le monde sait exactement quoi remettre.
+
+    [:material-clipboard-check: Liste de vérification de la remise bêta](projets/portfolio/remise-beta.md){ .md-button .md-button--primary }
 
 ## Aujourd'hui
 
+- [ ] Où en êtes-vous? Récap du chargement des données
+- [ ] Atelier supervisé : cartes générées + détail d'un projet (avec Alexis, tuteur)
+- [ ] Animations pilotées par le défilement, en CSS
+- [ ] Déployer sur GitHub Pages
+- [ ] Remise bêta : la liste de vérification
+- [ ] Journal de bord, bloc 2
 
+## Où en êtes-vous?
+
+Levez la main pour chaque étape atteinte :
+
+1. Ma source de données est prête (au moins un projet dupliqué).
+2. `loadProjects()` fonctionne : `console.log(projects[0].title)` affiche un titre.
+3. Mes cartes de projets sont générées en JavaScript.
+4. Le détail d'un projet fonctionne (modale ou `project.html`).
+
+Si vous êtes bloqué à l'étape 1 ou 2, c'est **la priorité d'aujourd'hui**, avant tout le reste.
+
+### Récap : qui fait quoi
+
+![Schéma : une source de données au choix, lue par fetch() dans data.js, qui retourne un tableau de projets utilisé pour les cartes et pour le détail](projets/portfolio/donnees/assets/schema-chargement-donnees.svg)
+
+| Fichier | Son travail |
+|---|---|
+| `js/data.js` | `loadProjects()` : aller chercher les données et les **retourner**. |
+| `js/components/project-card.js` | `createProjectCard(project)` : **un** projet → le HTML de **sa** carte. |
+| `js/main.js` | `init()` : attendre `loadProjects()`, puis insérer les cartes dans la page. Sans oublier d'appeler `init();`. |
+
+[:material-database: Charger les données du portfolio](projets/portfolio/donnees/index.md){ .md-button }
+[:material-cards-outline: Afficher les projets](projets/portfolio/donnees/afficher-projets.md){ .md-button }
+
+Besoin de revoir le mécanisme sur un exemple simple? L'[exercice « Du JSON à la carte »](exercices/ex-json-cartes/index.md) reste disponible, avec ses solutions.
+
+## Atelier supervisé
+
+Structure Pomodoro : sprints de 25 minutes, un objectif précis noté dans `JOURNAL.md` au début de chaque sprint, 2 minutes de bilan, vraie pause.
+
+**Objectif de l'atelier, dans cet ordre** :
+
+1. Les cartes de projets sont générées à partir de vos données.
+2. Le détail d'un projet fonctionne.
+3. Le reste de l'intégration HTML/CSS et la version mobile.
+
+!!! success "Alexis est avec nous"
+    Notre tuteur de 3e année passe 25 minutes avec chaque groupe pendant l'atelier. Préparez votre question : le fichier ouvert, l'erreur de la console sous la main.
+
+Je circule aussi. Un commit par étape terminée.
+
+## Animer au défilement, en CSS
+
+Le CSS moderne peut faire avancer une animation avec le défilement plutôt qu'avec le temps, sans une ligne de JavaScript. Parfait pour faire apparaître vos cartes de projets.
+
+[:material-animation-play: Animations pilotées par le défilement](css/animations-scroll.md){ .md-button .md-button--primary }
+[:material-play-circle: Voir la démo](css/demo-animations-scroll.html){ .md-button :target="_blank" }
+
+!!! tip "Pour la bêta : optionnel"
+    Une animation au défilement n'est pas exigée pour la bêta. Priorité au contenu qui fonctionne. Si vous avez le temps, une seule animation bien choisie (vos cartes qui apparaissent, par exemple) fait déjà une belle différence.
+
+## Déployer sur GitHub Pages
+
+La bêta doit être **en ligne**. On le fait ensemble, maintenant, pour régler les problèmes pendant que je suis là.
+
+[:material-github: Déployer son portfolio sur GitHub Pages](projets/portfolio/deploiement-github-pages.md){ .md-button .md-button--primary }
+
+Avant de partir : l'adresse de votre site fonctionne, et elle est inscrite dans votre `README.md`.
+
+## Remise bêta : la liste de vérification
+
+[:material-clipboard-check: Liste de vérification de la remise bêta](projets/portfolio/remise-beta.md){ .md-button .md-button--primary }
+
+## Journal de bord, bloc 2
+
+C'est la fin du bloc 2 : dans `documentation/JOURNAL.md`, répondez aux 5 questions (elles sont dans la liste de vérification). Inscrivez aussi chaque prompt IA délibéré depuis la remise 1.
+
+Commit final avant de partir.
 
 ## Devoir
+
+### Portfolio, pour la remise bêta (vendredi 2 octobre)
+
+Compléter tous les éléments de la [liste de vérification de la remise bêta](projets/portfolio/remise-beta.md), en particulier :
+
+- [ ] les cartes de projets générées à partir de vos données, et le détail d'un projet;
+- [ ] le site déployé et fonctionnel **en ligne**;
+- [ ] les 5 questions du bloc 2 dans `JOURNAL.md`.
+
+!!! info "Besoin d'aide d'ici vendredi?"
+    Voir les périodes de tutorat en haut de cette page.

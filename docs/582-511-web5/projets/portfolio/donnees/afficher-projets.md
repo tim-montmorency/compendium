@@ -9,7 +9,7 @@
 
 !!! info "Avant de commencer"
     - Votre `loadProjects()` doit déjà fonctionner : le test `console.log(projects[0].title)` affiche un titre dans la console. Sinon, retournez à la page de votre source.
-    - Vous avez fait l'[exercice « Du JSON à la carte »](../../../exercices/ex-json-cartes/index.md) : c'est le même mécanisme. Cette page vous guide pour l'appliquer à **votre** portfolio.
+    - Vous avez fait l'[exercice « Du JSON à la carte »](../../../exercices/ex-json-cartes/index.md#partie-2-du-json-a-la-carte) : c'est le même mécanisme. Cette page vous guide pour l'appliquer à **votre** portfolio.
 
 !!! tip "Comment utiliser cette page"
     Cette page ne contient **pas** de code complet à copier-coller : votre portfolio n'a pas la même structure que celui du voisin. Vous y trouverez les étapes, les notions clés et des squelettes à compléter. Écrivez votre code vous-mêmes, et ouvrez le [récap JS](../../../js/recap-js.md) quand une notion vous échappe.

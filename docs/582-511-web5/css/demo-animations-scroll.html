@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Démo : animations pilotées par le défilement (CSS)</title>
+  <style>
+    /* ========================================
+       Base de la démo (rien de spécial ici)
+       ======================================== */
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #0a0a0a;
+      color: #fff;
+      font-family: system-ui, 'Segoe UI', sans-serif;
+      line-height: 1.6;
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 6rem max(1.5rem, calc((100% - 900px) / 2));
+      border-bottom: 1px solid #222;
+    }
+
+    h1 { font-size: clamp(2.5rem, 7vw, 5rem); line-height: 1.05; margin: 0 0 1rem; }
+    h2 { font-size: 2rem; margin: 0 0 0.5rem; }
+    p  { color: #a3a3a3; max-width: 60ch; }
+    code { color: #ff2b47; }
+
+    .label {
+      display: inline-block;
+      margin-bottom: 1rem;
+      padding: 0.2rem 0.75rem;
+      border: 1px solid #ff2b47;
+      border-radius: 999px;
+      color: #ff2b47;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .avertissement {
+      display: none;
+      padding: 1rem;
+      border-left: 4px solid #ff2b47;
+      background: #1a1a1a;
+    }
+
+    /* Si le navigateur ne connaît pas les animations au défilement : on affiche l'avertissement */
+    @supports not (animation-timeline: scroll()) {
+      .avertissement { display: block; }
+    }
+
+
+    /* ========================================
+       EXEMPLE 1 : barre de progression de lecture
+       Timeline : scroll() = le défilement de la PAGE
+       ======================================== */
+    .progress-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 6px;
+      background: #ff2b47;
+      transform-origin: left;
+      transform: scaleX(0);
+      z-index: 10;
+    }
+
+    @keyframes grow {
+      to { transform: scaleX(1); }
+    }
+
+
+    /* ========================================
+       EXEMPLE 2 : apparition des cartes
+       Timeline : view() = la visibilité de CHAQUE carte
+       ======================================== */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .card {
+      aspect-ratio: 4 / 3;
+      display: grid;
+      place-items: end start;
+      padding: 1rem;
+      border-radius: 8px;
+      background: #161616;
+      font-weight: 700;
+    }
+
+    .card:nth-child(3n + 1) { background: #ff2b47; }
+    .card:nth-child(3n + 2) { background: #2e7d5b; }
+    .card:nth-child(3n + 3) { background: #3b4cca; }
+
+    @keyframes reveal {
+      from {
+        opacity: 0;
+        transform: translateY(60px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+
+    /* ========================================
+       EXEMPLE 3 : image qui se dévoile
+       Timeline : view() + clip-path
+       ======================================== */
+    .unveil {
+      height: 60vh;
+      margin-top: 3rem;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #ff2b47, #3b4cca);
+    }
+
+    @keyframes unveil {
+      from { clip-path: inset(0 50% 0 50%); }
+      to   { clip-path: inset(0 0 0 0); }
+    }
+
+
+    /* ========================================
+       EXEMPLE 4 : texte horizontal qui défile
+       Timeline : view() sur la section
+       ======================================== */
+    .marquee-wrapper {
+      overflow: hidden;
+      margin-top: 3rem;
+    }
+
+    .marquee {
+      margin: 0;
+      max-width: none;
+      font-size: clamp(3rem, 12vw, 9rem);
+      font-weight: 800;
+      white-space: nowrap;
+      color: transparent;
+      -webkit-text-stroke: 2px #fff;
+    }
+
+    @keyframes slide {
+      from { transform: translateX(10%); }
+      to   { transform: translateX(-60%); }
+    }
+
+
+    /* ========================================
+       On active les animations SEULEMENT si :
+       1. le navigateur les supporte (@supports)
+       2. la personne n'a pas demandé moins de mouvement
+       ======================================== */
+    @supports (animation-timeline: scroll()) {
+      @media (prefers-reduced-motion: no-preference) {
+
+        /* Exemple 1 */
+        .progress-bar {
+          animation: grow linear both;
+          animation-timeline: scroll(); /* APRÈS le raccourci animation */
+        }
+
+        /* Exemple 2 */
+        .card {
+          animation: reveal linear both;
+          animation-timeline: view();
+          animation-range: entry 0% entry 100%;
+        }
+
+        /* Exemple 3 */
+        .unveil {
+          animation: unveil linear both;
+          animation-timeline: view();
+          animation-range: entry 20% cover 50%;
+        }
+
+        /* Exemple 4 */
+        .marquee {
+          animation: slide linear both;
+          animation-timeline: view();
+        }
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="progress-bar"></div>
+
+  <section>
+    <span class="label">Démo Web 5</span>
+    <h1>Animer<br>au défilement,<br>sans JavaScript.</h1>
+    <p>Faites défiler la page. Toutes les animations de cette démo sont faites en CSS seulement, avec <code>animation-timeline</code>. Ouvrez l'inspecteur pour lire le code : il est commenté.</p>
+    <p class="avertissement">⚠️ Votre navigateur ne supporte pas encore les animations pilotées par le défilement. Le contenu s'affiche normalement, sans animation. Essayez dans Chrome, Edge ou Safari récent.</p>
+  </section>
+
+  <section>
+    <span class="label">Exemple 1 · scroll()</span>
+    <h2>Barre de progression</h2>
+    <p>La barre rouge en haut de l'écran grandit à mesure qu'on descend dans la page. Sa timeline, c'est le défilement de toute la page : <code>animation-timeline: scroll()</code>.</p>
+  </section>
+
+  <section>
+    <span class="label">Exemple 2 · view()</span>
+    <h2>Apparition des cartes</h2>
+    <p>Chaque carte a sa propre timeline : sa visibilité dans l'écran, avec <code>animation-timeline: view()</code>. Elle apparaît pendant qu'elle entre dans l'écran (<code>animation-range: entry 0% entry 100%</code>).</p>
+    <div class="grid">
+      <div class="card">Projet 1</div>
+      <div class="card">Projet 2</div>
+      <div class="card">Projet 3</div>
+      <div class="card">Projet 4</div>
+      <div class="card">Projet 5</div>
+      <div class="card">Projet 6</div>
+    </div>
+  </section>
+
+  <section>
+    <span class="label">Exemple 3 · view() + clip-path</span>
+    <h2>Image qui se dévoile</h2>
+    <p>Le bloc s'ouvre du centre vers les côtés, grâce à <code>clip-path</code> animé sur une plage précise : <code>entry 20% cover 50%</code>.</p>
+    <div class="unveil"></div>
+  </section>
+
+  <section>
+    <span class="label">Exemple 4 · view()</span>
+    <h2>Texte qui glisse</h2>
+    <p>Le grand texte se déplace horizontalement pendant que la section traverse l'écran.</p>
+    <div class="marquee-wrapper">
+      <p class="marquee">PORTFOLIO · WEB 5 · PORTFOLIO</p>
+    </div>
+  </section>
+
+  <section>
+    <span class="label">Fin</span>
+    <h2>Et si le navigateur ne suit pas?</h2>
+    <p>Tout est enveloppé dans <code>@supports (animation-timeline: scroll())</code> et <code>@media (prefers-reduced-motion: no-preference)</code>. Sans support, ou si la personne a demandé moins de mouvement dans son système, le contenu reste simplement visible, sans animation.</p>
+  </section>
+
+</body>
+</html>
