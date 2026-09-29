@@ -24,6 +24,9 @@
 
 La branche `beta` est une **copie figée** de `main` au moment de la remise.
 
+!!! info "Jamais travaillé avec des branches?"
+    [Les branches Git, en 10 minutes](branches-git.md) : le principe, et comment créer ou changer de branche dans VS Code et GitHub Desktop.
+
 **Sur github.com (le plus simple)** :
 
 1. Sur la page principale de votre dépôt, cliquez sur le menu des branches (il affiche `main`, en haut à gauche de la liste des fichiers).

@@ -312,6 +312,7 @@ nav:
             - Spécificité CSS: 582-211-web2/css/specificite-css.md
             - Transitions CSS: 582-211-web2/css/transitions-css.md
             - Animations CSS: 582-211-web2/css/animations-css.md
+            - NOUVEAU Animation au scroll: 582-211-web2/css/animations-scroll.md
             - Unités vw, vh, calc, clamp: 582-211-web2/css/unites-vw-vh-clamp-calc.md
             - Variab., unités, fonctions: 582-211-web2/css/variables-unites-fonctions.md
         - CSS Flexbox:

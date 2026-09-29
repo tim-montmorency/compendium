@@ -33,6 +33,7 @@
 - [ ] Où en êtes-vous? Récap du chargement des données
 - [ ] Atelier supervisé : cartes générées + détail d'un projet (avec Alexis, tuteur)
 - [ ] Animations pilotées par le défilement, en CSS
+- [ ] Les branches Git, en 10 minutes
 - [ ] Déployer sur GitHub Pages
 - [ ] Remise bêta : la liste de vérification
 - [ ] Journal de bord, bloc 2
@@ -92,6 +93,7 @@ Le CSS moderne peut faire avancer une animation avec le défilement plutôt qu'a
 
 La bêta se remet avec une branche `beta`, mise en ligne sur GitHub Pages. On fait les étapes ensemble, maintenant, pour régler les problèmes pendant que je suis là. Créez la branche `beta` **seulement quand votre bêta est terminée**, au plus tard vendredi avant le début du cours : elle doit contenir votre version finale.
 
+[:material-source-branch: Les branches Git, en 10 minutes](projets/portfolio/branches-git.md){ .md-button }
 [:material-github: Déployer son portfolio sur GitHub Pages](projets/portfolio/deploiement-github-pages.md){ .md-button .md-button--primary }
 
 Avant de partir : l'adresse de votre site fonctionne, et elle est inscrite dans votre `README.md`.
