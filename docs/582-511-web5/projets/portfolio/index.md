@@ -328,7 +328,6 @@
   </ul>
   <ul>
     <li>Version Beta déployée et fonctionnelle en ligne</li>
-    <li>Grille de validation qualité amorcée</li>
     <li>Lancement des tests par les pairs cette semaine-là (résultats et correctifs à documenter pour la remise finale)</li>
   </ul>
 </div>

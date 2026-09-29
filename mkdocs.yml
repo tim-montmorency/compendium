@@ -299,7 +299,8 @@ nav:
             - Source JSON local: 582-511-web5/projets/portfolio/donnees/json-local.md
             - Source GoogleSheets+Opensheet: 582-511-web5/projets/portfolio/donnees/google-sheets-opensheet.md
             - Source Airtable: 582-511-web5/projets/portfolio/donnees/airtable.md
-            
+        - Déployer sur GitHub Pages: 582-511-web5/projets/portfolio/deploiement-github-pages.md
+        - Remise bêta, liste de vérification: 582-511-web5/projets/portfolio/remise-beta.md   
       - I.A.:
         - 582-511-web5/ia/travail-assiste-ia.md
         - 582-511-web5/ia/citer-utilisation-ia-journal.md

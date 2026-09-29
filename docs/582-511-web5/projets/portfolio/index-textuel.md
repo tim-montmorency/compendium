@@ -150,7 +150,6 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
   - 5 questions à répondre pour le deuxième bloc du projet,
   - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
 - version BETA déployée et fonctionnelle en ligne,
-- grille de validation qualité amorcée,
 - lancement des tests par les pairs cette semaine-là : **les résultats et correctifs seront documentés pour la remise finale**.
 
 ### Remise finale : sommative (40%)
