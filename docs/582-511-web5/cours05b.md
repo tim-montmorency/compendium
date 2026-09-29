@@ -10,17 +10,18 @@ Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e
 | *Alexis Guilbault* | Trou horaire : mardi 12 h 30 à 14 h 10 | En personne au Centre d'aide C-1602 | 8 sept. au 8 déc. inclus |
 | *Olivier Laliberté* | Mercredi soir : 20 h à 21 h 15 | En ligne sur Teams : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 9 sept. au 9 déc. inclus |
 
-!!! success "Nouveau : périodes de tutorat supplémentaires réservées à Web 5"
-    En plus de leurs plages habituelles, Alexis et Olivier offriront **des périodes de tutorat de plus, réservées au cours Web 5**, placées juste avant les remises du portfolio :
+!!! success "🆕 Tutorat supplémentaire réservé à Web 5"
 
-    - **2 périodes avant la remise bêta** (vendredi 2 octobre);
-    - **2 périodes avant la remise finale** (gr. Lora : jeudi 8 octobre · gr. Enric : jeudi 15 octobre).
+    | 📅 Date | 👤 Tuteur | ⏱️ Durée | 📍 Où | 🎯 Avant |
+    |---|---|---|---|---|
+    | Mer. 30 sept. | Alexis | 25 min par groupe | 🏫 En classe, pendant le cours Web 5 | Bêta (2 oct.) |
+    | Lun. 5 oct., soir | Olivier | 50 min | 💻 En ligne (Teams) | Remise finale gr. Lora (8 oct.) |
+    | Mar. 6 oct., soir | Alexis | 50 min | 💻 En ligne (Teams) | Remise finale gr. Lora (8 oct.) |
+    | Mar. 13 oct., soir | Alexis | 50 min | 💻 En ligne (Teams) | Remise finale gr. Enric (15 oct.) |
 
-    Certaines pourraient avoir lieu pendant nos heures de cours, d'autres en soirée. **Les dates et heures exactes seront confirmées sous peu, ici même.** Surveillez cette page.
+    👥 **Toutes les périodes sont ouvertes aux deux groupes.** La colonne « Avant » indique seulement la remise qui approche : le gr. Enric est aussi le bienvenu les 5 et 6 octobre.
 
-    Pour en profiter au maximum : arrivez avec une question précise, votre dépôt à jour sur GitHub et le problème reproductible (« mes cartes ne s'affichent pas, voici l'erreur dans la console »), plutôt que « ça marche pas ». 
-
-    Vous pourrez inviter le tuteur à votre dépôt GitHub (encore privé à ce jour) afin qu'il puisse faire un clone de votre projet et y jeter un oeil au besoin.
+    ✅ **Pour en profiter** : une question précise, votre dépôt à jour sur GitHub, l'erreur de la console sous la main. Invitez le tuteur à votre dépôt (privé) pour qu'il puisse le cloner au besoin.
 
 ## Projet portfolio
 
