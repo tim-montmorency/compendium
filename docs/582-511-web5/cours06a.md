@@ -4,7 +4,7 @@
 ## Aujourd'hui
 
 - [ ] Où en êtes-vous?
-- [ ] Du JSON à la carte, en direct (exercice partie 2)
+- [ ] Du JSON à la carte, retour sur l'exercice partie 2
 - [ ] Atelier supervisé : cartes générées + détail d'un projet (avec Alexis, tuteur)
 - [ ] Animations pilotées par le défilement, en CSS
 - [ ] Les branches Git, en 10 minutes
@@ -51,9 +51,9 @@ Levez la main pour chaque étape atteinte :
 
 Si vous êtes bloqué à l'étape 1 ou 2, c'est **la priorité d'aujourd'hui**, avant tout le reste.
 
-## Du JSON à la carte, en direct
+## Du JSON à la carte: retour sur la partie 2 de l'exercice
 
-On refait ensemble la partie 2 de l'exercice, au projecteur : c'est **exactement** le mécanisme de votre portfolio, en miniature. Suivez en codant avec moi, ou regardez simplement. Si vous avez déjà terminé l'exercice, passez directement à votre portfolio.
+On révise ensemble la partie 2 de l'exercice, au projecteur : c'est **exactement** le mécanisme de votre portfolio, en miniature. Suivez ma démo et les explications en détail. Si vous avez déjà terminé l'exercice, passez directement à votre portfolio.
 
 [:material-code-json: Exercice « Du JSON à la carte », partie 2](exercices/ex-json-cartes/index.md#partie-2-du-json-a-la-carte){ .md-button .md-button--primary }
 
