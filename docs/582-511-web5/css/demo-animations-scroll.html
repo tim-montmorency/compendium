@@ -86,14 +86,15 @@
       top: 14px;
       left: 0;
       width: 100%;
-      display: flex;
-      justify-content: space-around;
       opacity: 0; /* cachées par défaut (et si le navigateur ne supporte pas) */
       pointer-events: none;
       z-index: 10;
     }
 
     .progress-arrows span {
+      position: absolute;
+      left: calc(100% / 6); /* même position qu'avant, près du début de la barre */
+      transform: translateX(-50%);
       padding: 0.25rem 0.75rem;
       border-radius: 999px;
       background: #ff2b47;
@@ -341,8 +342,6 @@
   <section class="progress-demo">
     <div class="progress-arrows" aria-hidden="true">
       <span>↑ La barre</span>
-      <span>↑ grandit</span>
-      <span>↑ ici</span>
     </div>
     <span class="label">Exemple 1 · scroll()</span>
     <h2>Barre de progression</h2>
