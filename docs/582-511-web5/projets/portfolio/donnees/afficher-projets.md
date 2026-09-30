@@ -5,7 +5,7 @@
     2. Une fonction `createProjectCard(project)` transforme **un** projet en HTML. On l'applique ensuite à tout le tableau.
     3. Pour une structure multipages, `project.html?id=cafe-du-coin` lit le paramètre `id` avec `URLSearchParams`, puis retrouve le bon projet avec `find()`.
 
-[:material-arrow-left: Retour : choisir sa source](index.md){ .md-button }
+[:material-arrow-left: Retour : choisir sa source](index.md#choisir-sa-source){ .md-button }
 
 !!! info "Avant de commencer"
     - Votre `loadProjects()` doit déjà fonctionner : le test `console.log(projects[0].title)` affiche un titre dans la console. Sinon, retournez à la page de votre source.
