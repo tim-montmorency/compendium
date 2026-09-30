@@ -44,7 +44,7 @@
 
 Levez la main pour chaque étape atteinte :
 
-1. Ma source de données est prête (au moins un projet dupliqué).
+1. Ma source de données est prête (JSON, Airtable ou autre) pour au moins un projet.
 2. `loadProjects()` fonctionne : `console.log(projects[0].title)` affiche un titre.
 3. Mes cartes de projets sont générées en JavaScript.
 4. Le détail d'un projet fonctionne (modale ou `project.html`).
