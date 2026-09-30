@@ -19,6 +19,8 @@
 - [ ] Le **détail d'un projet** fonctionne (modale, carrousel ou `project.html`).
 - [ ] Le code est **commenté dans vos propres mots** (HTML, CSS et JS).
 - [ ] La console du navigateur (F12) ne montre **aucune erreur rouge**.
+- [ ] Chaque page HTML contient, dans son `<head>`, la ligne `<meta name="robots" content="noindex, nofollow">` : la bêta ne doit pas être indexée par les moteurs de recherche.
+- [ ] Chaque page HTML a un `<title>` significatif, ex. `Prénom Nom | Portfolio` (pas « Document » ni le titre par défaut).
 
 ## La remise et la mise en ligne
 
@@ -37,6 +39,7 @@ Toute la procédure, étape par étape :
 - [ ] La structure de dossiers suit l'[arborescence du dépôt](arborescence-portfolio.md), avec des noms de fichiers en anglais, en minuscules et uniformes.
 - [ ] Les **commits** sont réguliers, fréquents et bien nommés.
 - [ ] `README.md` est à jour, avec l'*adresse réelle* (le url final) de votre site en ligne et le lien vers votre Figma.
+- [ ] Aucune information personnelle que vous ne voulez pas rendre publique dans le dépôt : utilisez votre **courriel du collège** dans le `README.md` (le dépôt devient public).
 - [ ] `documentation/PLANIFICATION.md` est à jour. Tout changement de choix technologique depuis la remise 1 est justifié dans le journal.
 
 ## Le journal de bord (`documentation/JOURNAL.md`)
