@@ -1,7 +1,7 @@
 # Cours 6.1
 <!-- merc. 30 sept. -->
 
-### Aujourd'hui
+## Aujourd'hui
 
 - [ ] Où en êtes-vous?
 - [ ] Du JSON à la carte, retour sur l'exercice partie 2
@@ -11,6 +11,8 @@
 - [ ] Déployer sur GitHub Pages
 - [ ] Remise *bêta* : la liste de vérification
 - [ ] Devoir: Journal de bord, bloc 2 et remise version *bêta*
+
+## Rappel et mise à jour
 
 ### Projet portfolio
 
@@ -40,7 +42,7 @@
     ✅ **Pour en profiter** : une question précise, votre dépôt à jour sur GitHub, l'erreur de la console sous la main. Invitez le tuteur à votre dépôt (privé) pour qu'il puisse le cloner au besoin.
 
 
-## Où en êtes-vous?
+### Où en êtes-vous?
 
 Levez la main pour chaque étape atteinte :
 
