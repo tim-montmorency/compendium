@@ -74,6 +74,39 @@
       to { transform: scaleX(1); }
     }
 
+    /* Flèches qui pointent vers la barre (juste pour la démo) :
+       fixes en haut de l'écran, visibles seulement pendant que
+       la section de l'exemple 1 traverse l'écran */
+    .progress-demo {
+      view-timeline-name: --progress-demo;
+    }
+
+    .progress-arrows {
+      position: fixed;
+      top: 14px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      opacity: 0; /* cachées par défaut (et si le navigateur ne supporte pas) */
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    .progress-arrows span {
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      background: #ff2b47;
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    @keyframes show-hide {
+      0%, 100% { opacity: 0; }
+      20%, 80% { opacity: 1; }
+    }
+
 
     /* ========================================
        EXEMPLE 2 : apparition des cartes
@@ -157,6 +190,85 @@
 
 
     /* ========================================
+       EXEMPLE 5 : parallax (arrière-plan vs contenu)
+       Timeline : view() de la section
+       L'arrière-plan se déplace plus lentement que le contenu :
+       il « recule » pendant que la page défile.
+       ======================================== */
+    .parallax {
+      position: relative;
+      display: grid;
+      place-items: center;
+      padding: 0;
+      /* clip et non hidden : hidden créerait un conteneur de défilement */
+      overflow: clip;
+      /* On nomme la timeline de la section pour que ses enfants l'utilisent */
+      view-timeline-name: --parallax;
+    }
+
+    .parallax__bg,
+    .parallax__shapes {
+      position: absolute;
+      inset: -60% 0; /* beaucoup plus grand que la section : de la marge pour bouger */
+      pointer-events: none;
+    }
+
+    /* Couche lointaine : bouge beaucoup (donc semble loin, lente) */
+    .parallax__bg {
+      background:
+        radial-gradient(circle at 20% 30%, #3b4cca 0 8%, transparent 8.5%),
+        radial-gradient(circle at 75% 60%, #2e7d5b 0 12%, transparent 12.5%),
+        radial-gradient(circle at 50% 85%, #ff2b47 0 6%, transparent 6.5%),
+        #121212;
+      opacity: 0.6;
+    }
+
+    /* Couche du milieu : bouge un peu moins */
+    .parallax__shapes {
+      background:
+        radial-gradient(circle at 85% 20%, #ff2b47 0 3%, transparent 3.5%),
+        radial-gradient(circle at 10% 70%, #fff 0 1.5%, transparent 2%),
+        radial-gradient(circle at 60% 35%, #fff 0 1%, transparent 1.5%);
+    }
+
+    /* Le contenu : aucune animation, il défile normalement */
+    .parallax__content {
+      position: relative;
+      max-width: 40rem;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    @keyframes parallax-far {
+      from { transform: translateY(-25%); }
+      to   { transform: translateY(25%); }
+    }
+
+    @keyframes parallax-mid {
+      from { transform: translateY(-12%); }
+      to   { transform: translateY(12%); }
+    }
+
+    /* Couche avant-plan : bouge en SENS INVERSE, plus vite que le contenu.
+       Elle semble passer devant le texte : l'effet de profondeur est exagéré. */
+    .parallax__front {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      background:
+        radial-gradient(circle at 12% 20%, #ff2b47 0 2.5%, transparent 3%),
+        radial-gradient(circle at 88% 45%, #fff 0 1.8%, transparent 2.3%),
+        radial-gradient(circle at 30% 85%, #3b4cca 0 3.5%, transparent 4%),
+        radial-gradient(circle at 70% 90%, #fff 0 1.2%, transparent 1.7%);
+    }
+
+    @keyframes parallax-front {
+      from { transform: translateY(60%); }
+      to   { transform: translateY(-60%); }
+    }
+
+    /* ========================================
        On active les animations SEULEMENT si :
        1. le navigateur les supporte (@supports)
        2. la personne n'a pas demandé moins de mouvement
@@ -168,6 +280,12 @@
         .progress-bar {
           animation: grow linear both;
           animation-timeline: scroll(); /* APRÈS le raccourci animation */
+        }
+
+        /* Exemple 1 : flèches visibles pendant la section de l'exemple 1 */
+        .progress-arrows {
+          animation: show-hide linear both;
+          animation-timeline: --progress-demo;
         }
 
         /* Exemple 2 */
@@ -189,6 +307,22 @@
           animation: slide linear both;
           animation-timeline: view();
         }
+
+        /* Exemple 5 : les deux couches suivent la timeline de la section */
+        .parallax__bg {
+          animation: parallax-far linear both;
+          animation-timeline: --parallax;
+        }
+
+        .parallax__shapes {
+          animation: parallax-mid linear both;
+          animation-timeline: --parallax;
+        }
+
+        .parallax__front {
+          animation: parallax-front linear both;
+          animation-timeline: --parallax;
+        }
       }
     }
   </style>
@@ -204,7 +338,12 @@
     <p class="avertissement">⚠️ Votre navigateur ne supporte pas encore les animations pilotées par le défilement. Le contenu s'affiche normalement, sans animation. Essayez dans Chrome, Edge ou Safari récent.</p>
   </section>
 
-  <section>
+  <section class="progress-demo">
+    <div class="progress-arrows" aria-hidden="true">
+      <span>↑ La barre</span>
+      <span>↑ grandit</span>
+      <span>↑ ici</span>
+    </div>
     <span class="label">Exemple 1 · scroll()</span>
     <h2>Barre de progression</h2>
     <p>La barre rouge en haut de l'écran grandit à mesure qu'on descend dans la page. Sa timeline, c'est le défilement de toute la page : <code>animation-timeline: scroll()</code>.</p>
@@ -237,6 +376,17 @@
     <p>Le grand texte se déplace horizontalement pendant que la section traverse l'écran.</p>
     <div class="marquee-wrapper">
       <p class="marquee">PORTFOLIO · WEB 5 · PORTFOLIO</p>
+    </div>
+  </section>
+
+  <section class="parallax">
+    <div class="parallax__bg"></div>
+    <div class="parallax__shapes"></div>
+    <div class="parallax__front"></div>
+    <div class="parallax__content">
+      <span class="label">Exemple 5 · view-timeline</span>
+      <h2>Parallax</h2>
+      <p>Le texte défile normalement. Derrière, deux couches d'arrière-plan se déplacent dans le même sens que le défilement : elles semblent plus lentes, donc plus loin. Devant, une troisième couche file en sens inverse, plus vite que le texte : elle semble plus proche. Trois vitesses, trois profondeurs.</p>
     </div>
   </section>
 

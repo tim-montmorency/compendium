@@ -50,7 +50,7 @@ Levez la main pour chaque étape atteinte :
 
 Si vous êtes bloqué à l'étape 1 ou 2, c'est **la priorité d'aujourd'hui**, avant tout le reste.
 
-### Récap : qui fait quoi
+## Récap chargement de données de projet
 
 ![Schéma : une source de données au choix, lue par fetch() dans data.js, qui retourne un tableau de projets utilisé pour les cartes et pour le détail](projets/portfolio/donnees/assets/schema-chargement-donnees.svg)
 
