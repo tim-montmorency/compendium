@@ -213,7 +213,7 @@ Sans oublier la gestion d'erreur, comme dans `main.js`.
 - **Le clic sur une carte ne fait rien** : l'écouteur est placé avant l'insertion des cartes, ou le sélecteur de `closest()` ne correspond pas à la classe de votre bouton.
 - **Texte alternatif** : `alt="${project.title}"` est un minimum. Pour de meilleures descriptions, ajoutez une propriété `alt` à vos données.
 
-## 7. Avant de partir
+## 7. D'ici le prochain cours
 
 - [ ] Les cartes de la page d'accueil sont générées à partir de vos données, plus aucune n'est écrite à la main dans le HTML.
 - [ ] Le détail d'un projet s'affiche (modale, carrousel ou `project.html`).
