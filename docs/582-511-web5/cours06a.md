@@ -9,8 +9,8 @@
 - [ ] Animations pilotées par le défilement, en CSS
 - [ ] Les branches Git, en 10 minutes
 - [ ] Déployer sur GitHub Pages
-- [ ] Remise bêta : la liste de vérification
-- [ ] Journal de bord, bloc 2
+- [ ] Remise *bêta* : la liste de vérification
+- [ ] Devoir: Journal de bord, bloc 2 et remise version *bêta*
 
 ## Projet portfolio
 
