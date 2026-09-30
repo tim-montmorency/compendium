@@ -351,7 +351,7 @@
   <section>
     <span class="label">Exemple 2 · view()</span>
     <h2>Apparition des cartes</h2>
-    <p>Chaque carte a sa propre timeline : sa visibilité dans l'écran, avec <code>animation-timeline: view()</code>. Elle apparaît pendant qu'elle entre dans l'écran (<code>animation-range: entry 0% entry 100%</code>).</p>
+    <p>Chaque carte a sa propre timeline : sa visibilité dans l'écran, avec <code>animation-timeline: view()</code>. Elle apparaît une fois <strong>entièrement</strong> entrée dans l'écran, sur une courte distance de défilement : <code>animation-range: contain 0% contain 40%</code>. Avec <code>entry 0% entry 100%</code>, l'apparition se ferait plutôt pendant que la carte entre, dès qu'on en voit le premier pixel : plus discret.</p>
     <div class="grid">
       <div class="card">Projet 1</div>
       <div class="card">Projet 2</div>

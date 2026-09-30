@@ -108,7 +108,52 @@ Par défaut, une animation `view()` s'étire sur **tout** le trajet de l'éléme
 | `cover` | Tout le trajet, de sa première apparition à sa disparition complète |
 | `contain` | Pendant qu'il est **entièrement** visible |
 
-Les pourcentages précisent le début et la fin : `entry 0% entry 100%` = du tout début à la toute fin de l'entrée. Pour tester différentes plages visuellement : [View Progress Timeline : Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/){ :target="_blank" }.
+Les pourcentages précisent le début et la fin : `entry 0% entry 100%` = du tout début à la toute fin de l'entrée.
+
+!!! tip "Une apparition plus visible : `contain`"
+    Avec `entry 0% entry 100%`, la carte apparaît pendant qu'elle entre, dès qu'on en voit le premier pixel : l'effet est discret, parfois terminé avant qu'on le remarque. Pour un effet plus évident :
+
+    ```css
+    animation-range: contain 0% contain 40%;
+    ```
+
+    La carte attend d'être **entièrement** visible, puis apparaît sur une courte distance de défilement. C'est la version utilisée dans l'exemple 2 de la démo. Essayez les deux et comparez.
+
+Pour tester différentes plages visuellement : [View Progress Timeline : Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/){ :target="_blank" }.
+
+## Un classique : le parallax
+
+Le **parallax**, c'est l'illusion de profondeur : l'arrière-plan défile **plus lentement** que le contenu, comme un paysage au loin vu d'une voiture. En CSS, on anime l'arrière-plan dans le **même sens** que le défilement : il « recule » à l'écran, donc il semble plus lent.
+
+```css
+.parallax {
+  position: relative;
+  overflow: clip;                 /* surtout pas hidden (voir le piège ci-dessous) */
+  view-timeline-name: --parallax; /* on nomme la timeline de la section */
+}
+
+.parallax__bg {
+  position: absolute;
+  inset: -25% 0;                  /* plus grand que la section : de la marge pour bouger */
+}
+
+@keyframes parallax {
+  from { transform: translateY(-20%); }
+  to   { transform: translateY(20%); }
+}
+
+.parallax__bg {
+  animation: parallax linear both;
+  animation-timeline: --parallax; /* l'arrière-plan suit la visibilité de la SECTION */
+}
+```
+
+Nouveauté ici : `view-timeline-name`. Au lieu que l'arrière-plan suive sa propre visibilité, on donne un nom à la timeline de la **section**, et l'arrière-plan l'utilise. Le contenu, lui, n'a aucune animation : il défile normalement. Plusieurs couches avec des amplitudes différentes (`20%`, `10%`...) donnent encore plus de profondeur : voir l'exemple 5 de la démo.
+
+!!! danger "Piège : `overflow: hidden` sur un parent"
+    Un parent avec `overflow: hidden` (ou `auto`, `scroll`) devient un **conteneur de défilement**. `view()` et `scroll()` suivent alors ce conteneur, qui ne défile pas, au lieu de la page : l'animation reste figée, sans message d'erreur.
+
+    Si vous devez couper ce qui dépasse (un arrière-plan de parallax, un grand texte qui glisse), utilisez **`overflow: clip`** : même effet visuel, sans créer de conteneur de défilement.
 
 ## Quoi animer? La performance
 
@@ -125,6 +170,9 @@ Pour une animation fluide, animez en priorité :
 ### 1. `@supports` : tous les navigateurs ne suivent pas encore
 
 Chrome, Edge et Safari (version 26 et plus) supportent les animations pilotées par le défilement. Firefox est en train de les ajouter : vérifiez l'état actuel sur [Can I use](https://caniuse.com/mdn-css_properties_animation-timeline){ :target="_blank" }.
+
+!!! note "Tester dans Firefox"
+    Dans la version courante de Firefox, la fonctionnalité existe mais est désactivée par défaut (elle est active seulement dans Firefox Nightly). Pour l'essayer sur votre poste : tapez `about:config` dans la barre d'adresse, cherchez `layout.css.scroll-driven-animations.enabled`, et mettez-la à `true`. Vos visiteurs, eux, n'auront pas ce réglage : d'où l'importance de `@supports`.
 
 Dans un navigateur qui ne comprend pas `animation-timeline`, la ligne est ignorée : il reste `animation: reveal linear both`, une animation de **0 seconde**, donc aucun effet. Et si vous aviez placé l'état de départ directement sur l'élément (ex. `opacity: 0` sur la carte), la carte resterait **invisible**. On n'active donc les animations que si le navigateur les comprend :
 
@@ -165,11 +213,12 @@ C'est le patron complet à retenir : **les keyframes à l'extérieur, l'activati
 
 | Effet | Timeline | Keyframes |
 |---|---|---|
-| Cartes de projets qui apparaissent | `view()`, `entry 0% entry 100%` | `opacity` + `translateY` |
+| Cartes de projets qui apparaissent | `view()`, `entry 0% entry 100%` (discret) ou `contain 0% contain 40%` (plus visible) | `opacity` + `translateY` |
 | Barre de progression de lecture | `scroll()` | `transform: scaleX()` |
 | Image d'un projet qui se dévoile | `view()`, `entry 20% cover 50%` | `clip-path: inset()` |
 | Grand titre qui glisse horizontalement | `view()` | `translateX` |
 | Image qui grossit légèrement | `view()` | `transform: scale(0.9)` → `scale(1)` |
+| Parallax sur une section d'en-tête | `view-timeline-name` sur la section | `translateY` sur l'arrière-plan |
 
 Une ou deux animations bien choisies valent mieux que tout animer. Reliez-les aux idées d'animation que vous aviez notées dans votre `PLANIFICATION.md`, et documentez tout changement dans votre `JOURNAL.md`.
 
