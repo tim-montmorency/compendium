@@ -1,7 +1,7 @@
 # Cours 6.1
 <!-- merc. 30 sept. -->
 
-## Aujourd'hui
+### Aujourd'hui
 
 - [ ] Où en êtes-vous?
 - [ ] Du JSON à la carte, retour sur l'exercice partie 2
@@ -12,14 +12,14 @@
 - [ ] Remise *bêta* : la liste de vérification
 - [ ] Devoir: Journal de bord, bloc 2 et remise version *bêta*
 
-## Projet portfolio
+### Projet portfolio
 
 !!! warning "Remise de la version bêta : vendredi 2 octobre"
     C'est notre dernier cours avant la bêta. Aujourd'hui : on termine ensemble le chargement des projets, on met le site en ligne, et on s'assure que tout le monde sait exactement quoi remettre.
 
     [:material-clipboard-check: Liste de vérification de la remise bêta](projets/portfolio/remise-beta.md){ .md-button .md-button--primary }
 
-## Tutorat
+### Tutorat
 
 | 📅 Date | 👤 Tuteur | ⏱️ Durée | 📍 Où |
 |---|---|---|---|
