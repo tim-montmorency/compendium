@@ -1,6 +1,23 @@
 # Cours 6.1
 <!-- merc. 30 sept. -->
 
+## Aujourd'hui
+
+- [ ] Où en êtes-vous? Récap du chargement des données
+- [ ] Atelier supervisé : cartes générées + détail d'un projet (avec Alexis, tuteur)
+- [ ] Animations pilotées par le défilement, en CSS
+- [ ] Les branches Git, en 10 minutes
+- [ ] Déployer sur GitHub Pages
+- [ ] Remise bêta : la liste de vérification
+- [ ] Journal de bord, bloc 2
+
+## Projet portfolio
+
+!!! warning "Remise de la version bêta : vendredi 2 octobre"
+    C'est notre dernier cours avant la bêta. Aujourd'hui : on termine ensemble le chargement des projets, on met le site en ligne, et on s'assure que tout le monde sait exactement quoi remettre.
+
+    [:material-clipboard-check: Liste de vérification de la remise bêta](projets/portfolio/remise-beta.md){ .md-button .md-button--primary }
+
 ## Tutorat
 
 | NOM | PLAGE HORAIRE | LIEU | DATES |
@@ -21,22 +38,6 @@
 
     ✅ **Pour en profiter** : une question précise, votre dépôt à jour sur GitHub, l'erreur de la console sous la main. Invitez le tuteur à votre dépôt (privé) pour qu'il puisse le cloner au besoin.
 
-## Projet portfolio
-
-!!! warning "Remise de la version bêta : vendredi 2 octobre"
-    C'est notre dernier cours avant la bêta. Aujourd'hui : on termine ensemble le chargement des projets, on met le site en ligne, et on s'assure que tout le monde sait exactement quoi remettre.
-
-    [:material-clipboard-check: Liste de vérification de la remise bêta](projets/portfolio/remise-beta.md){ .md-button .md-button--primary }
-
-## Aujourd'hui
-
-- [ ] Où en êtes-vous? Récap du chargement des données
-- [ ] Atelier supervisé : cartes générées + détail d'un projet (avec Alexis, tuteur)
-- [ ] Animations pilotées par le défilement, en CSS
-- [ ] Les branches Git, en 10 minutes
-- [ ] Déployer sur GitHub Pages
-- [ ] Remise bêta : la liste de vérification
-- [ ] Journal de bord, bloc 2
 
 ## Où en êtes-vous?
 

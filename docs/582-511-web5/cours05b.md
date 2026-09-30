@@ -1,6 +1,22 @@
 # Cours 5.2
 <!-- ven. 25 sept. -->
 
+## Aujourd'hui
+
+- [ ] Échauffement JavaScript : 5 défis dans la console
+- [ ] JSON et `fetch()` asynchrone
+- [ ] Exercice guidé : du JSON à la carte (partie 1 tous ensemble)
+- [ ] Exercice : du JSON à la carte (partie 2, à ton rythme)
+- [ ] Choisir sa source de données : JSON local, Google Sheets, Airtable
+- [ ] Code d'affichage pour toutes les sources
+- [ ] Détail d'un projet : modale ou `project.html` (paramètres d'URL)
+- [ ] Devoir pour le cours 6.1
+
+## Projet portfolio
+
+!!! warning "Remise de la version Beta (finale et prête à tester) : vendredi 2 octobre"
+    Il reste le cours 6.1 (mercredi 30 sept.) avant la bêta. Aujourd'hui, on branche vos projets sur une vraie source de données : c'est le cœur fonctionnel de votre portfolio.
+
 ## Tutorat
 
 | NOM | PLAGE HORAIRE | LIEU | DATES |
@@ -21,23 +37,7 @@
 
     ✅ **Pour en profiter** : une question précise, votre dépôt à jour sur GitHub, l'erreur de la console sous la main. Invitez le tuteur à votre dépôt (privé) pour qu'il puisse le cloner au besoin.
 
-## Projet portfolio
 
-!!! warning "Remise de la version Beta (finale et prête à tester) : vendredi 2 octobre"
-    Il reste le cours 6.1 (mercredi 30 sept.) avant la bêta. Aujourd'hui, on branche vos projets sur une vraie source de données : c'est le cœur fonctionnel de votre portfolio.
-
-## Aujourd'hui
-
-- [ ] Tutorat : rappel et périodes supplémentaires avant les remises
-- [ ] Échauffement JavaScript : 5 défis dans la console
-- [ ] JSON et `fetch()` asynchrone
-- [ ] Exercice guidé : du JSON à la carte
-- [ ] Choisir sa source de données : JSON local, Google Sheets, Airtable
-- [ ] Un seul code d'affichage pour toutes les sources
-- [ ] Détail d'un projet : modale ou `project.html` (paramètres d'URL)
-- [ ] Atelier de production (Pomodoro)
-- [ ] Journal de bord
-- [ ] Devoir pour le cours 6.1
   
 ## Recap JavaScript
 
