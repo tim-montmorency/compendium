@@ -22,7 +22,9 @@
 
 ## La remise et la mise en ligne
 
-Toute la procédure, étape par étape : [:material-github: Remettre la bêta et la mettre en ligne](deploiement-github-pages.md){ .md-button .md-button--primary }
+Toute la procédure, étape par étape : 
+
+[:material-github: Déploiement sur GitHub Pages](deploiement-github-pages.md){ .md-button .md-button--primary }
 
 - [ ] Tous les fichiers demandés sont *commités* et poussés (*push*) sur `main`.
 - [ ] La branche **`beta`** est créée à partir de `main`.
@@ -34,22 +36,26 @@ Toute la procédure, étape par étape : [:material-github: Remettre la bêta et
 
 - [ ] La structure de dossiers suit l'[arborescence du dépôt](arborescence-portfolio.md), avec des noms de fichiers en anglais, en minuscules et uniformes.
 - [ ] Les **commits** sont réguliers, fréquents et bien nommés.
-- [ ] `README.md` est à jour, avec l'**adresse réelle** de votre site en ligne et le lien vers votre Figma.
+- [ ] `README.md` est à jour, avec l'*adresse réelle* (le url final) de votre site en ligne et le lien vers votre Figma.
 - [ ] `documentation/PLANIFICATION.md` est à jour. Tout changement de choix technologique depuis la remise 1 est justifié dans le journal.
 
 ## Le journal de bord (`documentation/JOURNAL.md`)
 
 - [ ] Un titre pour ce bloc, par exemple `## Bloc 2 : intégration et données`.
 - [ ] Les **5 questions** du bloc 2, avec des réponses concrètes :
-    1. Qu'est-ce que j'ai accompli depuis le dernier bloc? (Vous pouvez faire référence à vos *commits*.)
-    2. Quelle a été ma principale difficulté et comment je l'ai surmontée?
-    3. Qu'est-ce que j'ai appris que je ne savais pas avant?
-    4. Quelle est ma prochaine étape concrète?
-    5. Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
+
+1. Qu'est-ce que j'ai accompli depuis le dernier bloc? (Vous pouvez faire référence à vos *commits*.)
+2. Quelle a été ma principale difficulté et comment je l'ai surmontée?
+3. Qu'est-ce que j'ai appris que je ne savais pas avant?
+4. Quelle est ma prochaine étape concrète?
+5. Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
+
 - [ ] **Chaque question posée à l'IA** depuis la remise 1 est inscrite, avec la date, le prompt (en *italique*), l'outil et le résultat (accepté, modifié, rejeté). Pas les complétions en ligne de Copilot. [Comment citer l'IA](index-textuel.md#utilisation-de-lia)
 
 !!! tip "Répondre concrètement"
-    « J'ai avancé mon portfolio » ne dit rien. « J'ai généré mes cartes à partir de `projects.json` (commit `Chargement des projets`), ma difficulté était le chemin des images en ligne, réglée en retirant le `/` au début » : ça, c'est une réponse utile, pour vous et pour le jury.
+    « J'ai avancé mon portfolio » ne dit rien. 
+    
+    « J'ai généré mes cartes à partir de `projects.json` (commit `Chargement des projets`), ma difficulté était le chemin des images en ligne, réglée en retirant le `/` au début » : ça, c'est une réponse utile, pour vous et pour le jury.
 
 ## Avant de remettre : le test final
 
@@ -57,6 +63,8 @@ Toute la procédure, étape par étape : [:material-github: Remettre la bêta et
 - [ ] J'ai testé sur mon téléphone (ou avec le mode appareil de l'inspecteur).
 - [ ] Mon dernier *commit* est bien poussé sur GitHub, **avant** la création de la branche `beta`.
 - [ ] Dans VS Code, je suis de retour sur la branche `main`.
+
+[Rappel: gérer les branches git](./branches-git.md)
 
 !!! warning "Après la remise : on continue sur `main`"
     Si vous continuez à travailler après la remise, faites-le **sur `main`**, jamais sur `beta`. La branche `beta` et le site en ligne restent tels que remis pendant les tests par les pairs.
