@@ -7,9 +7,9 @@
 
 ## Le principe
 
-![](./assets/schema-chargement-donnees.svg)
+![Schéma : une source de données au choix, lue par fetch() dans data.js, qui retourne un tableau de projets utilisé pour les cartes et pour le détail](./assets/schema-chargement-donnees.svg)
 
-Chaque page-source ci-dessous se termine par **sa** version de `loadProjects()`. Ensuite, tout le monde continue sur la même page : *Afficher les projets*.
+Chaque page-source ci-dessous vous guide jusqu'à **votre** version de `loadProjects()`. Ensuite, tout le monde continue sur la même page : *Afficher les projets*.
 
 ## Choisir sa source
 
@@ -47,7 +47,7 @@ Toutes les sources doivent produire des projets qui ont **exactement ces noms de
 | `gallery` | Non | Plusieurs images supplémentaires (tableau d'URL) | `["assets/images/cafe-2.jpg", ...]` |
 
 !!! warning "Noms de propriétés : en anglais, en minuscules, sans espaces ni accents"
-    `category`, pas `Category` ni `catégorie`. En JavaScript, `project.category` fonctionne; une majuscule ou un accent de trop donne `undefined`, une source de bogues garantie. Ça vaut pour les clés de votre JSON, les en-têtes de colonnes de votre Google Sheet et les noms de champs d'Airtable.
+    `category`, pas `Category` ni `catégorie`. En JavaScript, `project.category` fonctionne; une majuscule ou un accent de trop donne `undefined`, une source de bogues garantie. Ça vaut pour les clés de votre JSON, les en-têtes de colonnes de votre Google Sheet et les noms de champs d'Airtable. Revoir : [Récap : objets et propriétés](../../../js/recap-js.md#objets)
 
 !!! tip "Commencez par un seul projet, dupliqué"
     Remplissez d'abord **un** projet complet, puis dupliquez-le 3 ou 4 fois en changeant seulement l'`id` et le `title`. Vous allez sûrement ajuster vos propriétés en codant vos cartes et votre détail : c'est plus simple avec un seul vrai projet à corriger. Le vrai contenu vient une fois la structure stable.
@@ -58,14 +58,16 @@ Vous pouvez ajouter d'autres propriétés propres à votre portfolio (ex. `tools
 
 Selon l'[arborescence du dépôt](../arborescence-portfolio.md) :
 
-| Fichier | Rôle |
-|---|---|
-| `js/data.js` | **Seulement** `loadProjects()` : aller chercher les données et les retourner dans le format commun. C'est le seul fichier qui change selon la source. |
-| `js/components/project-card.js` | Transformer **un** projet en HTML (une carte). |
-| `js/main.js` | Le chef d'orchestre : appelle `loadProjects()`, puis affiche les cartes. |
-| `data/projects.json` | Seulement si vous avez choisi le JSON local. |
+| Fichier | Rôle | Revoir |
+|---|---|---|
+| `js/data.js` | Déclarer la fonction `loadProjects()` : aller chercher les données avec `fetch()`, de façon asynchrone (`async`/`await` ou `.then()`), et les **retourner** dans le format commun. Si la réponse n'est pas correcte (`response.ok` faux), elle **signale** l'erreur avec `throw`. C'est le seul fichier qui change selon la source de vos données. | [fetch et async](../../../js/recap-js.md#async), [erreurs](../../../js/recap-js.md#erreurs) |
+| `js/components/project-card.js` | Déclarer la fonction `createProjectCard(project)` : elle transforme **un** projet en HTML (une carte) et le **retourne**. Elle n'insère rien dans la page. | [gabarits littéraux](../../../js/recap-js.md#gabarits) |
+| `js/main.js` | Le chef d'orchestre, dans une fonction `init()` : elle appelle et attend `loadProjects()` (`async`/`await` ou `.then()`), puis insère une carte par projet dans la page. C'est ici qu'on **attrape** les erreurs (`try`/`catch` ou `.catch()`) pour afficher un message au visiteur. **N'oubliez pas d'appeler `init();`** à la fin du fichier : déclarer une fonction ne l'exécute pas. | [async](../../../js/recap-js.md#async), [forEach](../../../js/recap-js.md#foreach), [map et join](../../../js/recap-js.md#map-filter-find), [erreurs](../../../js/recap-js.md#erreurs) |
+| `js/components/modal.js` | Seulement pour un one-pager avec modale : la logique d'ouverture et de fermeture. | [délégation](../../../js/recap-js.md#delegation), [dataset](../../../js/recap-js.md#dataset), [find](../../../js/recap-js.md#map-filter-find) |
+| `js/project.js` | Seulement en multipages : le point d'entrée de `project.html` (lit l'`id` dans l'adresse, attend `loadProjects()`, affiche **un** projet). | [URLSearchParams](../../../js/recap-js.md#urlsearchparams), [find](../../../js/recap-js.md#map-filter-find) |
+| `data/projects.json` | Seulement si vous avez choisi le JSON local. | [JSON](../../../js/recap-js.md#json) |
 
-Dans le `<head>` de vos pages, dans cet ordre :
+Dans le `<head>` de `index.html`, dans cet ordre :
 
 ```html
 <script src="js/data.js" defer></script>
@@ -73,10 +75,15 @@ Dans le `<head>` de vos pages, dans cet ordre :
 <script src="js/main.js" defer></script>
 ```
 
-`defer` exécute les scripts après la lecture du HTML, et dans l'ordre où ils sont écrits : `main.js` peut donc utiliser les fonctions déclarées dans les deux fichiers précédents.
+`defer` exécute les scripts après la lecture du HTML, et dans l'ordre où ils sont écrits : `main.js` peut donc utiliser les fonctions déclarées dans les deux fichiers précédents. Si vous avez une modale, ajoutez `js/components/modal.js` avant `main.js`.
+
+Dans `project.html` (multipages seulement) : `js/data.js`, puis `js/project.js`.
+
+!!! info "Signaler l'erreur dans `data.js`, l'attraper dans `main.js`"
+    Ne mettez **pas** de `try`/`catch` dans `data.js` : l'erreur serait « avalée », `loadProjects()` ne retournerait rien, et `main.js` planterait plus loin avec un message incompréhensible (`Cannot read properties of undefined`). `data.js` lance l'erreur (`throw`), `main.js` l'attrape et affiche un message. Revoir : [Récap : gérer les erreurs](../../../js/recap-js.md#erreurs)
 
 ## La suite
 
 Une fois votre source prête et `loadProjects()` testée dans la console :
 
-[:material-cards-outline: Afficher les projets (et page projet.html)](afficher-projets.md){ .md-button .md-button--primary }
+[:material-cards-outline: Afficher les projets (et page project.html)](afficher-projets.md){ .md-button .md-button--primary }

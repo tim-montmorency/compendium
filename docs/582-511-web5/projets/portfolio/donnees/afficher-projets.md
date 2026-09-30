@@ -5,11 +5,11 @@
     2. Une fonction `createProjectCard(project)` transforme **un** projet en HTML. On l'applique ensuite à tout le tableau.
     3. Pour une structure multipages, `project.html?id=cafe-du-coin` lit le paramètre `id` avec `URLSearchParams`, puis retrouve le bon projet avec `find()`.
 
-[:material-arrow-left: Retour : choisir sa source](index.md){ .md-button }
+[:material-arrow-left: Retour : choisir sa source](index.md#choisir-sa-source){ .md-button }
 
 !!! info "Avant de commencer"
     - Votre `loadProjects()` doit déjà fonctionner : le test `console.log(projects[0].title)` affiche un titre dans la console. Sinon, retournez à la page de votre source.
-    - Vous avez fait l'[exercice « Du JSON à la carte »](../../../exercices/ex-json-cartes/index.md) : c'est le même mécanisme. Cette page vous guide pour l'appliquer à **votre** portfolio.
+    - Vous avez fait l'[exercice « Du JSON à la carte »](../../../exercices/ex-json-cartes/index.md#partie-2-du-json-a-la-carte) : c'est le même mécanisme. Cette page vous guide pour l'appliquer à **votre** portfolio.
 
 !!! tip "Comment utiliser cette page"
     Cette page ne contient **pas** de code complet à copier-coller : votre portfolio n'a pas la même structure que celui du voisin. Vous y trouverez les étapes, les notions clés et des squelettes à compléter. Écrivez votre code vous-mêmes, et ouvrez le [récap JS](../../../js/recap-js.md) quand une notion vous échappe.
@@ -29,7 +29,7 @@ Dans `index.html`, un conteneur **vide** là où les cartes doivent apparaître.
 
 ## 2. Une carte : `js/components/project-card.js`
 
-Une fonction qui reçoit **un** projet et **retourne** le HTML de **sa** carte, avec un gabarit littéral : les accents graves `` ` `` et `${...}` pour insérer une valeur.
+Une fonction qui reçoit **un** projet et **retourne** le HTML de **sa** carte, avec un gabarit littéral : les accents graves `` ` `` et `${...}` pour insérer une valeur. Revoir : [Récap : gabarits littéraux](../../../js/recap-js.md#gabarits)
 
 Le squelette, à compléter avec **votre** structure de carte et **vos** classes :
 
@@ -61,7 +61,7 @@ Un projet sans `link` afficherait `href="undefined"`. On n'affiche un élément 
 ${condition ? `HTML si vrai` : ''}
 ```
 
-Lu à voix haute : « si la condition est vraie, affiche ce HTML, sinon rien ». À vous de l'appliquer à `project.link`, `project.video`, etc.
+Lu à voix haute : « si la condition est vraie, affiche ce HTML, sinon rien ». À vous de l'appliquer à `project.link`, `project.video`, etc. Revoir : [Récap : opérateur ternaire](../../../js/recap-js.md#ternaire)
 
 ## 3. Toutes les cartes : `js/main.js`
 
@@ -79,10 +79,10 @@ init();
 
 Pour l'étape 3, deux façons, déjà vues dans l'exercice :
 
-| Façon | Idée |
-|---|---|
-| `forEach` + `+=` | Pour chaque projet, **ajouter** sa carte au `innerHTML` du conteneur. |
-| `map()` + `join('')` | Transformer tout le tableau en cartes, coller le tout, puis l'insérer en **une seule** fois. |
+| Façon | Idée | Revoir |
+|---|---|---|
+| `forEach` + `+=` | Pour chaque projet, **ajouter** sa carte au `innerHTML` du conteneur. | [Récap : `forEach`](../../../js/recap-js.md#foreach) |
+| `map()` + `join('')` | Transformer tout le tableau en cartes, coller le tout, puis l'insérer en **une seule** fois. | [Récap : `map` et `join`](../../../js/recap-js.md#map-filter-find) |
 
 !!! note "Laquelle choisir?"
     Les deux fonctionnent. `map()` + `join('')` modifie le DOM une seule fois, ce qui est un peu plus efficace : c'est ce que vise l'indicateur de la grille d'évaluation sur le chargement efficace des données. Choisissez celle que vous comprenez et pouvez expliquer.
@@ -95,6 +95,8 @@ Un chargement peut échouer : fichier introuvable, jeton invalide, pas de résea
 |---|---|
 | `async` / `await` | `try { ... } catch (error) { ... }` |
 | `.then()` | `loadProjects().then(projects => { ... }).catch(error => { ... })` |
+
+Revoir : [Récap : gérer les erreurs](../../../js/recap-js.md#erreurs)
 
 Dans le `catch` : un `console.error(error)` pour vous, et un court message dans le conteneur pour le visiteur.
 
@@ -127,12 +129,12 @@ Les étapes, **dans** `init()`, après l'insertion des cartes (pour avoir accès
 
 Les outils dont vous avez besoin :
 
-| Notion | Ce que ça fait |
-|---|---|
-| `event.target.closest('.votre-bouton')` | Retrouve le bouton cliqué, même si on a cliqué sur un élément à l'intérieur. `null` si le clic était ailleurs. |
-| `bouton.dataset.id` | Lit l'attribut `data-id` d'un élément. |
-| `projects.find(p => p.id === ...)` | Retourne **le** projet qui a cet `id`. Aucun nouveau `fetch()`. |
-| `modal.showModal()` / `modal.close()` | Ouvre et ferme un `<dialog>`. |
+| Notion | Ce que ça fait | Revoir |
+|---|---|---|
+| `event.target.closest('.votre-bouton')` | Retrouve le bouton cliqué, même si on a cliqué sur un élément à l'intérieur. `null` si le clic était ailleurs. | [Récap : délégation d'événements](../../../js/recap-js.md#delegation) |
+| `bouton.dataset.id` | Lit l'attribut `data-id` d'un élément. | [Récap : `dataset`](../../../js/recap-js.md#dataset) |
+| `projects.find(p => p.id === ...)` | Retourne **le** projet qui a cet `id`. Aucun nouveau `fetch()`. | [Récap : `find`](../../../js/recap-js.md#map-filter-find) |
+| `modal.showModal()` / `modal.close()` | Ouvre et ferme un `<dialog>`. | [MDN : `<dialog>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/dialog){ :target="_blank" } |
 
 ## 5. Multipages : `project.html` et les paramètres d'URL
 
@@ -171,6 +173,8 @@ const projectId = params.get('id'); // "cafe-du-coin", ou null si absent
 - `new URLSearchParams(...)` : un objet qui sait lire cette chaîne.
 - `.get('id')` : la valeur du paramètre `id`.
 
+Revoir : [Récap : paramètres d'URL](../../../js/recap-js.md#urlsearchparams)
+
 ### Les étapes de `js/project.js`
 
 ```js
@@ -179,7 +183,7 @@ async function showProject() {
   // 2. Lire l'id dans l'adresse (ci-dessus)
   // 3. Attendre les projets : await loadProjects()
   // 4. Retrouver LE projet qui a cet id, avec find()
-  // 5. S'il n'existe pas : message « introuvable » + lien de retour, puis return
+  // 5. S'il n'existe pas : message "introuvable" + lien de retour, puis return
   // 6. Sinon : remplir le conteneur avec un gabarit littéral
 }
 
@@ -209,7 +213,7 @@ Sans oublier la gestion d'erreur, comme dans `main.js`.
 - **Le clic sur une carte ne fait rien** : l'écouteur est placé avant l'insertion des cartes, ou le sélecteur de `closest()` ne correspond pas à la classe de votre bouton.
 - **Texte alternatif** : `alt="${project.title}"` est un minimum. Pour de meilleures descriptions, ajoutez une propriété `alt` à vos données.
 
-## 7. Avant de partir
+## 7. D'ici le prochain cours
 
 - [ ] Les cartes de la page d'accueil sont générées à partir de vos données, plus aucune n'est écrite à la main dans le HTML.
 - [ ] Le détail d'un projet s'affiche (modale, carrousel ou `project.html`).

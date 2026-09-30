@@ -1,44 +1,43 @@
 # Cours 5.2
 <!-- ven. 25 sept. -->
 
-## Tutorat
+## Aujourd'hui
 
-Pour Web 5, ce sont **Alexis et Olivier** qu'il faut aller voir : ils sont en 3e année, comme vous. Les autres tuteurs du programme sont en 2e année et ne peuvent pas vous aider pour ce cours.
-
-| NOM | PLAGE HORAIRE | LIEU | DATES |
-|---|---|---|---|
-| *Alexis Guilbault* | Trou horaire : mardi 12 h 30 à 14 h 10 | En personne au Centre d'aide C-1602 | 8 sept. au 8 déc. inclus |
-| *Olivier Laliberté* | Mercredi soir : 20 h à 21 h 15 | En ligne sur Teams : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | 9 sept. au 9 déc. inclus |
-
-!!! success "Nouveau : périodes de tutorat supplémentaires réservées à Web 5"
-    En plus de leurs plages habituelles, Alexis et Olivier offriront **des périodes de tutorat de plus, réservées au cours Web 5**, placées juste avant les remises du portfolio :
-
-    - **2 périodes avant la remise bêta** (vendredi 2 octobre);
-    - **2 périodes avant la remise finale** (gr. Lora : jeudi 8 octobre · gr. Enric : jeudi 15 octobre).
-
-    Certaines pourraient avoir lieu pendant nos heures de cours, d'autres en soirée. **Les dates et heures exactes seront confirmées sous peu, ici même.** Surveillez cette page.
-
-    Pour en profiter au maximum : arrivez avec une question précise, votre dépôt à jour sur GitHub et le problème reproductible (« mes cartes ne s'affichent pas, voici l'erreur dans la console »), plutôt que « ça marche pas ». 
-
-    Vous pourrez inviter le tuteur à votre dépôt GitHub (encore privé à ce jour) afin qu'il puisse faire un clone de votre projet et y jeter un oeil au besoin.
+- [ ] Échauffement JavaScript : 5 défis dans la console
+- [ ] JSON et `fetch()` asynchrone
+- [ ] Exercice guidé : du JSON à la carte (partie 1 tous ensemble)
+- [ ] Exercice : du JSON à la carte (partie 2, à ton rythme)
+- [ ] Choisir sa source de données : JSON local, Google Sheets, Airtable
+- [ ] Code d'affichage pour toutes les sources
+- [ ] Détail d'un projet : modale ou `project.html` (paramètres d'URL)
+- [ ] Devoir pour le cours 6.1
 
 ## Projet portfolio
 
 !!! warning "Remise de la version Beta (finale et prête à tester) : vendredi 2 octobre"
     Il reste le cours 6.1 (mercredi 30 sept.) avant la bêta. Aujourd'hui, on branche vos projets sur une vraie source de données : c'est le cœur fonctionnel de votre portfolio.
 
-## Aujourd'hui
+## Tutorat
 
-- [ ] Tutorat : rappel et périodes supplémentaires avant les remises
-- [ ] Échauffement JavaScript : 5 défis dans la console
-- [ ] JSON et `fetch()` asynchrone
-- [ ] Exercice guidé : du JSON à la carte
-- [ ] Choisir sa source de données : JSON local, Google Sheets, Airtable
-- [ ] Un seul code d'affichage pour toutes les sources
-- [ ] Détail d'un projet : modale ou `project.html` (paramètres d'URL)
-- [ ] Atelier de production (Pomodoro)
-- [ ] Journal de bord
-- [ ] Devoir pour le cours 6.1
+| 📅 Date | 👤 Tuteur | ⏱️ Durée | 📍 Où |
+|---|---|---|---|
+| Chaque mardi, 12 h 30 à 14 h 10 (8 sept. au 8 déc.) | Alexis Guilbault | 1 h 40 | 🏫 En personne au Centre d'aide C-1602 |
+| Chaque mercredi, 20 h à 21 h 15 (9 sept. au 9 déc.) | Olivier Laliberté | 1 h 15 | 💻 En ligne sur Teams : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) |
+
+!!! success "🆕 Tutorat supplémentaire réservé à Web 5"
+
+    | 📅 Date | 👤 Tuteur | ⏱️ Durée | 📍 Où | 🎯 Avant |
+    |---|---|---|---|---|
+    | Mer. 30 sept. | Alexis | 25 min par groupe | 🏫 En classe, pendant le cours Web 5 | Bêta (2 oct.) |
+    | Lun. 5 oct., 19 h 10 à 20 h | Olivier | 50 min | 💻 En ligne sur Teams, équipe *TIM - Web5 - A26* : [canal « Tutorat dédié Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Lora (8 oct.) |
+    | Mar. 6 oct., 19 h 10 à 20 h | Alexis | 50 min | 💻 En ligne sur Teams, équipe *TIM - Web5 - A26* : [canal « Tutorat dédié Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Lora (8 oct.) |
+    | Mar. 13 oct., 19 h 10 à 20 h | Alexis | 50 min | 💻 En ligne sur Teams, équipe *TIM - Web5 - A26* : [canal « Tutorat dédié Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Enric (15 oct.) |
+
+    👥 **Toutes les périodes sont ouvertes aux deux groupes.** La colonne « Avant » indique seulement la remise qui approche : le gr. Enric est aussi le bienvenu les 5 et 6 octobre.
+
+    ✅ **Pour en profiter** : une question précise, votre dépôt à jour sur GitHub, l'erreur de la console sous la main. Invitez le tuteur à votre dépôt (privé) pour qu'il puisse le cloner au besoin.
+
+
   
 ## Recap JavaScript
 
@@ -89,6 +88,8 @@ Les deux versions font exactement la même chose. Choisissez celle avec laquelle
 
 Seule l'adresse dans `fetch()` change selon la source. Tout le reste en découle.
 
+Revoir dans le récap : [JSON](js/recap-js.md#json), [une promesse, en bref](js/recap-js.md#promesses), [async / await et .then()](js/recap-js.md#async), [gérer les erreurs](js/recap-js.md#erreurs).
+
 ### Exercice guidé : du JSON à la carte
 
 Avant de toucher à votre portfolio, on code ensemble le même mécanisme en miniature : un fichier JSON de 3 projets, et des cartes générées en JavaScript. Quatre étapes, vérifiées une à une dans le navigateur.
@@ -125,8 +126,8 @@ Peu importe la source, `loadProjects()` retourne le même tableau de projets. Le
 
 Selon la structure de navigation choisie dans `PLANIFICATION.md` :
 
-- **One-pager avec modale** : un bouton `data-id` sur la carte, `find()`, puis `<dialog>`. Voir [Afficher les projets, section 4](projets/portfolio/donnees/afficher-projets.md#4-one-pager-avec-modale).
-- **Multipages** : une seule page `project.html` pour tous les projets. Elle lit `?id=cafe-du-coin` dans l'adresse avec `URLSearchParams`. Voir [Afficher les projets, section 5](projets/portfolio/donnees/afficher-projets.md#5-multipages-projecthtml-et-les-parametres-durl).
+- **One-pager avec modale** : un bouton `data-id` sur la carte ([dataset](js/recap-js.md#dataset)), `find()` ([récap](js/recap-js.md#map-filter-find)), puis `<dialog>`. Voir [Afficher les projets, section 4](projets/portfolio/donnees/afficher-projets.md#4-one-pager-avec-modale).
+- **Multipages** : une seule page `project.html` pour tous les projets. Elle lit `?id=cafe-du-coin` dans l'adresse avec `URLSearchParams` ([récap](js/recap-js.md#urlsearchparams)). Voir [Afficher les projets, section 5](projets/portfolio/donnees/afficher-projets.md#5-multipages-projecthtml-et-les-parametres-durl).
 - **One-pager avec carrousel** : le détail est dans la carte elle-même, rien de plus à charger.
 
 !!! info "Pas de composant JavaScript supplémentaire à ajouter"
