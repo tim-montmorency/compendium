@@ -134,7 +134,9 @@
        Timeline : view() sur la section
        ======================================== */
     .marquee-wrapper {
-      overflow: hidden;
+      /* clip et non hidden : overflow: hidden crée un conteneur de défilement,
+         et view() suivrait ce conteneur (qui ne défile pas) au lieu de la page */
+      overflow: clip;
       margin-top: 3rem;
     }
 

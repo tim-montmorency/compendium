@@ -116,7 +116,7 @@ Pour une animation fluide, animez en priorité :
 
 - `transform` (`translate`, `scale`, `rotate`);
 - `opacity`;
-- `clip-path` et `filter`, avec modération.
+- [`clip-path`](https://css-tricks.com/animating-with-clip-path/) et [`filter`](https://developer.mozilla.org/fr/docs/Web/CSS/Guides/Filter_effects), avec modération.
 
 Évitez d'animer `width`, `height`, `top`, `margin`, etc. : ces propriétés forcent le navigateur à recalculer la mise en page à chaque image, et l'animation saccade.
 
