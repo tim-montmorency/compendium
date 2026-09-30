@@ -3,7 +3,8 @@
 
 ## Aujourd'hui
 
-- [ ] Où en êtes-vous? Récap du chargement des données
+- [ ] Où en êtes-vous?
+- [ ] Du JSON à la carte, en direct (exercice partie 2)
 - [ ] Atelier supervisé : cartes générées + détail d'un projet (avec Alexis, tuteur)
 - [ ] Animations pilotées par le défilement, en CSS
 - [ ] Les branches Git, en 10 minutes
@@ -50,20 +51,33 @@ Levez la main pour chaque étape atteinte :
 
 Si vous êtes bloqué à l'étape 1 ou 2, c'est **la priorité d'aujourd'hui**, avant tout le reste.
 
-## Récap chargement de données de projet
+## Du JSON à la carte, en direct
+
+On refait ensemble la partie 2 de l'exercice, au projecteur : c'est **exactement** le mécanisme de votre portfolio, en miniature. Suivez en codant avec moi, ou regardez simplement. Si vous avez déjà terminé l'exercice, passez directement à votre portfolio.
+
+[:material-code-json: Exercice « Du JSON à la carte », partie 2](exercices/ex-json-cartes/index.md#partie-2-du-json-a-la-carte){ .md-button .md-button--primary }
+
+1. `fetch()` + `await` : les projets apparaissent dans la console.
+2. `forEach` : le titre de chaque projet.
+3. Un gabarit littéral : la carte du premier projet dans la page.
+4. Toutes les cartes. Puis on ajoute un projet au JSON : une carte de plus, sans toucher au HTML.
+
+### Et dans votre portfolio?
+
+Le même code, réparti dans 3 fichiers :
 
 ![Schéma : une source de données au choix, lue par fetch() dans data.js, qui retourne un tableau de projets utilisé pour les cartes et pour le détail](projets/portfolio/donnees/assets/schema-chargement-donnees.svg)
 
-| Fichier | Son travail | Revoir |
-|---|---|---|
-| `js/data.js` | `loadProjects()` : aller chercher les données et les **retourner**. | [fetch et async](js/recap-js.md#async), [erreurs](js/recap-js.md#erreurs) |
-| `js/components/project-card.js` | `createProjectCard(project)` : **un** projet → le HTML de **sa** carte. | [gabarits littéraux](js/recap-js.md#gabarits) |
-| `js/main.js` | `init()` : attendre `loadProjects()`, puis insérer les cartes dans la page. Sans oublier d'appeler `init();`. | [forEach](js/recap-js.md#foreach), [map et join](js/recap-js.md#map-filter-find) |
+| Dans l'exercice | Dans votre portfolio | Son travail | Revoir |
+|---|---|---|---|
+| `loadProjects()` | `js/data.js` | Aller chercher les données et les **retourner**. | [fetch et async](js/recap-js.md#async), [erreurs](js/recap-js.md#erreurs) |
+| `createProjectCard(project)` | `js/components/project-card.js` | **Un** projet → le HTML de **sa** carte. | [gabarits littéraux](js/recap-js.md#gabarits) |
+| `init()` | `js/main.js` | Attendre `loadProjects()`, puis insérer les cartes dans la page. Sans oublier d'appeler `init();`. | [forEach](js/recap-js.md#foreach), [map et join](js/recap-js.md#map-filter-find) |
+
+Seules deux choses changent par rapport à l'exercice : l'adresse du `fetch()` (votre source) et la structure de la carte (votre design).
 
 [:material-database: Charger les données du portfolio](projets/portfolio/donnees/index.md){ .md-button }
 [:material-cards-outline: Afficher les projets](projets/portfolio/donnees/afficher-projets.md){ .md-button }
-
-Besoin de revoir le mécanisme sur un exemple simple? L'[exercice « Du JSON à la carte »](exercices/ex-json-cartes/index.md) reste disponible, avec ses solutions.
 
 ## Atelier supervisé
 
