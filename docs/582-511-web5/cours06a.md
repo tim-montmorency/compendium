@@ -142,5 +142,7 @@ Compléter tous les éléments de la [liste de vérification de la remise bêta]
 - [ ] la remise : *push* sur `main`, branche `beta`, dépôt **public** et GitHub Pages publié à partir de `beta`, **avant le début du cours vendredi** ([procédure](projets/portfolio/deploiement-github-pages.md));
 - [ ] les 5 questions du bloc 2 dans `JOURNAL.md`.
 
+[:material-clipboard-check: Liste de vérification de la remise bêta](projets/portfolio/remise-beta.md){ .md-button .md-button--primary }
+
 !!! info "Besoin d'aide d'ici vendredi?"
     Voir les périodes de tutorat en haut de cette page.
