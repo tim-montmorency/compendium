@@ -81,7 +81,16 @@ Seules deux choses changent par rapport à l'exercice : l'adresse du `fetch()` (
 
 ## Atelier supervisé
 
-Structure Pomodoro : sprints de 25 minutes, un objectif précis noté dans `JOURNAL.md` au début de chaque sprint, 2 minutes de bilan, vraie pause.
+Structure d'un cycle Pomodoro : 
+
+- un objectif précis noté dans `JOURNAL.md` au début de chaque sprint,
+- sprints de 25 minutes super focus sur l'objectif,
+- 2 minutes de bilan puis, 
+- mini pause 5 min (ne quittez pas le secteur, resstez pas loin de la classe).
+
+Et on recommence le cycle...
+
+<br>
 
 **Objectif de l'atelier, dans cet ordre** :
 
@@ -89,8 +98,8 @@ Structure Pomodoro : sprints de 25 minutes, un objectif précis noté dans `JOUR
 2. Le détail d'un projet fonctionne.
 3. Le reste de l'intégration HTML/CSS et la version mobile.
 
-!!! success "Alexis est avec nous"
-    Notre tuteur de 3e année passe 25 minutes avec chaque groupe pendant l'atelier. Préparez votre question : le fichier ouvert, l'erreur de la console sous la main.
+!!! success "Le tuteur Alexis est avec nous en support"
+    Notre tuteur de 3e année passera 25 minutes avec chaque groupe pendant l'atelier. Préparez votre question : le fichier ouvert, l'erreur de la console sous la main.
 
 Je circule aussi. Un commit par étape terminée.
 
