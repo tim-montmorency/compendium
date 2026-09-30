@@ -2,6 +2,78 @@
 
 [STOP]
 
+
+## Le menu pause
+
+Mettre le jeu en pause, c'est figer le temps : `Time.timeScale` règle la vitesse à laquelle le temps s'écoule dans Unity.
+
+| Valeur | Effet |
+|---|---|
+| `1` | Vitesse normale |
+| `0.5` | Ralenti |
+| `0` | Temps figé : la physique, les animations et tout ce qui dépend de `Time.deltaTime` s'arrêtent |
+
+!!! warning "Ce que `timeScale` n'arrête pas"
+    - `Update()` continue d'être appelée : un code qui ne se sert pas de `Time.deltaTime` continue de tourner.
+    - L'interface (boutons, survol) reste cliquable, heureusement.
+    - Le son continue de jouer. Pour le couper, passer par l'Audio Mixer (snapshot, au cours 7) ou par `AudioListener.pause = true;`.
+
+<!-- #### Monter le menu -->
+<!-- 
+1. Dans le **Canvas** du niveau, créer un **Panel** nommé `MenuPause`
+1. Y ajouter un titre (TextMeshPro) et deux boutons : **Reprendre** et **Accueil**
+1. Désactiver `MenuPause` (case à cocher en haut de l'**Inspector**) : il est caché au démarrage -->
+
+
+```c# title="GestionPause.cs"
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+
+public class GestionPause : MonoBehaviour
+{
+    public GameObject menuPause;          // Glisser le Panel MenuPause ici
+    public string sceneAccueil = "Accueil";
+
+    bool enPause = false;
+
+    void Update()
+    {
+        // Touche Échap (nouveau Input System, comme les Starter Assets)
+        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            if (enPause) Reprendre();
+            else Pause();
+        }
+    }
+
+    public void Pause()
+    {
+        enPause = true;
+        menuPause.SetActive(true);
+        Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    public void Reprendre()
+    {
+        enPause = false;
+        menuPause.SetActive(false);
+        Time.timeScale = 1f;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
+    public void RetourAccueil()
+    {
+        Time.timeScale = 1f; // Sinon la scène suivante démarre figée !
+        SceneManager.LoadScene(sceneAccueil);
+    }
+}
+```
+
+
 !!! abstract ":material-comment-check: Jalon formatif F1 — Prototype jouable"
     En deuxième partie de séance, je passe vous voir individuellement. **Attendu :** un greybox navigable, un personnage contrôlable, une interaction, un début et une fin. Laid, mais jouable d'un bout à l'autre.
 

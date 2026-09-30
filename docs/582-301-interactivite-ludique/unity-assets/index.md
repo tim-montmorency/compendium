@@ -68,6 +68,8 @@ Il n'est pas encore disponible via l'Asset Store. Il doit être installé via un
 https://github.com/jfcmontmorency/collider-event-system.git
 ```
 
+À la maison, vous devez installer Git sur votre ordinateur (https://git-scm.com/).
+
 !!! success "Demo"
 
     Une scène de démonstration est téléchargeable dans l'onglet _Samples_ du _package_.
@@ -95,6 +97,14 @@ Package officiel de Unity Technologies, il permet l'ajout d'un personnage contro
 Packager permettant de configurer un différent _Skybox_ dans Unity.
 
 [Skybox Series Free | :simple-unity: AssetStore](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633){ .md-button .md-button--primary }
+
+### Dialogue System
+
+![](./Dialogue-System.webp)
+
+Système de dialogue configurable via l'interface Unity.
+
+[Dialogue System | :simple-unity: AssetStore](https://assetstore.unity.com/packages/tools/gui/dialogue-system-248969){ .md-button .md-button--primary }
 
 ## Autres ressources
 
