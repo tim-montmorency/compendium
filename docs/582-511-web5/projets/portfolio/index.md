@@ -311,7 +311,7 @@
 
 <div class="proj-stepper">
   <div class="proj-step"><div class="proj-step-num">1</div><div class="proj-step-week">Enric: 14 sept · Lora: 17 sept</div><div class="proj-step-title">Planification et design</div></div>
-  <div class="proj-step"><div class="proj-step-num">2</div><div class="proj-step-week">2 oct</div><div class="proj-step-title">Version Beta</div></div>
+  <div class="proj-step"><div class="proj-step-num">2</div><div class="proj-step-week">2 oct</div><div class="proj-step-title">Version bêta</div></div>
 </div>
 
 <div class="proj-deliverable-grid">
