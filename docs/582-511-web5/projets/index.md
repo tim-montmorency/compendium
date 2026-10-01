@@ -21,7 +21,7 @@
 
 <div class="class-content-link">
   <img src="./assets/icon-portfolio.svg">
-  <a href="./portfolio/index-textuel.html#remise-2-version-beta-vendredi-2-octobree">Instructions de la <em>Remise 2 : Version Beta et QA</em> (semaine 6, 2 octobre)</a>
+  <a href="./portfolio/index-textuel.html#remise-2-version-beta-vendredi-2-octobre">Instructions de la <em>Remise 2 : Version Beta et QA</em> (semaine 6, 2 octobre)</a>
 </div>
 
 <div class="class-content-link">
