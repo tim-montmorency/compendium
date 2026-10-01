@@ -18,7 +18,15 @@
     https://votre-nom-utilisateur-github.github.io/nom-du-depot/
     ```
 
-4. *Commit*, puis *push* sur `main`. Vérifiez sur github.com que votre dernier *commit* y est bien.
+4. Dans le `<head>` de **chaque** page HTML (`index.html`, `project.html`...), ajoutez cette ligne pour que votre bêta ne soit **pas indexée** par Google et les autres moteurs de recherche :
+
+    ```html
+    <meta name="robots" content="noindex, nofollow">
+    ```
+
+    Une bêta n'est pas votre vitrine finale : inutile qu'un employeur la trouve en cherchant votre nom. On la retirera pour la remise finale, quand vous voudrez au contraire être trouvé.
+
+5. *Commit*, puis *push* sur `main`. Vérifiez sur github.com que votre dernier *commit* y est bien.
 
 ## Étape 2 : créer la branche `beta`
 
@@ -96,4 +104,5 @@ git checkout main          # IMPORTANT : revenir sur main
 - [ ] La console (F12) ne montre aucune erreur rouge.
 - [ ] Le site est testé sur mobile (votre téléphone, ou le mode appareil de l'inspecteur).
 - [ ] L'adresse est inscrite dans votre `README.md`.
+- [ ] Chaque page HTML contient `<meta name="robots" content="noindex, nofollow">`.
 - [ ] Dans VS Code, je suis de retour sur `main`.

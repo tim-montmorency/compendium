@@ -14,7 +14,7 @@
 
 ## Projet portfolio
 
-!!! warning "Remise de la version Beta (finale et prête à tester) : vendredi 2 octobre"
+!!! warning "Remise de la version bêta (finale et prête à tester) : vendredi 2 octobre"
     Il reste le cours 6.1 (mercredi 30 sept.) avant la bêta. Aujourd'hui, on branche vos projets sur une vraie source de données : c'est le cœur fonctionnel de votre portfolio.
 
 ## Tutorat

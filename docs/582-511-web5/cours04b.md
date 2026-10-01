@@ -3,8 +3,8 @@
 
 ## Projet portfolio
 
-!!! warning "Remise de la version Beta (finale et prête à tester) dans 2 semaines"
-    - La remise de la version Beta du portfolio est le *vendredi 2 octobre*, donc dans 2 semaines.
+!!! warning "Remise de la version bêta (finale et prête à tester) dans 2 semaines"
+    - La remise de la version bêta du portfolio est le *vendredi 2 octobre*, donc dans 2 semaines.
     - La remise finale du portfolio est prévue pour :
       -  gr. Lora : *jeudi 8 octobre*
       -  gr. Enric : *jeudi 15 octobre*

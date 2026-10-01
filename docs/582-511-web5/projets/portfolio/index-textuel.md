@@ -136,7 +136,7 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 
 **Rétroaction formative individuelle** de l'enseignante.
   
-#### Remise 2 : Version Beta *(vendredi 2 octobre)*
+#### Remise 2 : Version bêta *(vendredi 2 octobre)* { #remise-2-version-beta-vendredi-2-octobre }
 
 - design corrigé et adapté, suite à la rétroaction de la remise 1,
 - dépôt GitHub mis à jour :
