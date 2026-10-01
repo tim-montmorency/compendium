@@ -6,8 +6,8 @@
 *[QS]: Québec solidaire 
 *[PQ]: Parti québécois
 *[PCQ]: Parti conservateur du Québec
-*[FPS] : First Person Shooter
-*[TPS] : Third Person Shooter
+*[FPS]: First Person Shooter
+*[TPS]: Third Person Shooter
 *[CES]: Collider Event System
 
 ## Élections Québec 2026
@@ -16,7 +16,7 @@
 
 <figure markdown>
 ![](./assets/img/campagne-elections-quebec-2026-frechette-milliard-ghazal-pspp-duhaime.webp){ data-zoom-image }
-<figcaption class="small" markdown>Christine Fréchette (CAQ) (Première ministre actuellement), Charles Milliard (PLQ), Ruba Ghazal (QS), Paul St-Pierre Plamondon (PQ), Éric Duhaime (PCQ)</figcaption>
+<figcaption class="small" markdown>Christine Fréchette (CAQ) (première ministre sortante), Charles Milliard (PLQ), Ruba Ghazal (QS), Paul St-Pierre Plamondon (PQ), Éric Duhaime (PCQ)</figcaption>
 </figure>
 
 [:simple-youtube:](https://youtube.com/shorts/zBaIvM0QPx8?si=FQUmcdKig23fpSo3)
@@ -31,17 +31,17 @@ La [Boussole électorale](https://boussole.radio-canada.ca/) est un outil dével
 
 ### Où quand comment ?
 
-Lundi le 5 octobre 2026
+Le lundi 5 octobre 2026
 
 Vous devriez avoir reçu votre carte d’information de l’électeur pour savoir où voter. Sinon, [trouvez votre bureau de vote](https://www.electionsquebec.qc.ca/voter/ou-et-quand-voter/).
 
-Pour connaitre qui se présentent dans votre circonscription ainsi que ses enjeux spécifiques, [cherchez votre circonscription](https://www.electionsquebec.qc.ca/cartes-electorales/circonscriptions-provinciales/).
+Pour savoir qui se présente dans votre circonscription et connaître ses enjeux spécifiques, [cherchez votre circonscription](https://www.electionsquebec.qc.ca/cartes-electorales/circonscriptions-provinciales/).
 
 ## Asset Store et Git
 
 ![](./assets/img/assetstore-broken.jpg)
 
-Avant d'installer un asset que vous testez pour la première fois, faites **toujours** push. Certains assets peuvent corrompre un projet !
+Avant d'installer un asset que vous testez pour la première fois, faites **toujours** un commit et un push. Certains assets peuvent corrompre un projet !
 
 Pour éviter de devoir recommencer inutilement depuis une vieille version, assurez-vous de faire des commit/push régulièrement.
 
@@ -70,7 +70,7 @@ PlayerArmature (TPS) ou PlayerCapsule (FPS) :
 - **Jump Height**
 - **Gravity**
 
-Autres options à regarder 
+Autres options à regarder dans **PlayerFollowCamera** > **Cinemachine Third Person Follow** :
 
 - **Damping** : La vitesse de réponse de la caméra quand on est en mouvement
 - **Shoulder Offset** : Repositionne la caméra à partir du personnage
@@ -81,15 +81,15 @@ Autres options à regarder
 
 PlayerFollowCamera : 
 
-- **Cinemachine Camera** > **Lens** : changer la valeur
+- **Cinemachine Camera** > **Lens** > **Field Of View** : changer la valeur
 
 ### 2.5D
 
 ![type:video](./assets/video/2.5d.webm){.h-auto .w-50}
 
-Reculer la caméra : **PlayerFollowCamera** > **Camera Distance**
+Reculer la caméra : **PlayerFollowCamera** > **Cinemachine Third Person Follow** > **Camera Distance**
 
-Retirer la perspective : **MainCamera** du personnage, **Camera** > **Projection** changer **Perspective** pour **Orthographic**
+Retirer la perspective : sur **MainCamera**, dans **Camera** > **Projection**, changer **Perspective** pour **Orthographic**
 
 Désactiver :arrow_up: et :arrow_down: : sur **PlayerArmature**, ajouter ce script : 
 
@@ -117,53 +117,53 @@ public class Controles25D : MonoBehaviour
 
 PlayerArmature : 
 
-- **Camera Angle Override** = 65
+- **Camera Angle Override** = `65`
 - Cocher **Lock Camera Position** (désactive la gestion de la caméra par la souris)
 
 ### Vue isométrique
 
 ![type:video](./assets/video/isometric.mov){.w-50 .h-auto}
 
-Une vue isométrique c'est quand la caméra suit le personnage d'un angle de 30° vers le bas et 45° en diagonale, sans perspective.
+Une vue isométrique c'est quand la caméra suit le personnage d'un angle d'environ 35° vers le bas (35.264° exactement) et 45° en diagonale, sans perspective.
 
-- Retirer la perspective : **MainCamera** du personnage, **Camera** > **Projection** changer **Perspective** pour **Orthographic**
+- Retirer la perspective : sur **MainCamera**, dans **Camera** > **Projection**, changer **Perspective** pour **Orthographic**
 
 PlayerArmature : 
 
-- Rotation Y = 45
+- **Rotation** Y = `45`
 - Cocher **Lock Camera Position**
-- Camera Angle Override : `35.264`
+- **Camera Angle Override** = `35.264`
 
 PlayerFollowCamera : 
 
-- Lens > Orthographic Size = 6
-- **Cinemachine Camera** > **Procedural Components** > **Noise** = None
-- Shoulder Offset = 0, 0, 0
-- Vertical Arm Length = 0
-- Camera Distance = 20
-- Avoid Obstacles = décoché
+- **Lens** > **Orthographic Size** = `6`
+- **Cinemachine Camera** > **Procedural Components** > **Noise** = **None**
+- **Shoulder Offset** = `0, 0, 0`
+- **Vertical Arm Length** = `0`
+- **Camera Distance** = `20`
+- Décocher **Avoid Obstacles**
 
 ### Saut multiple
 
 ![type:video](./assets/video/xtra-jumps.webm){.w-50 .h-auto}
 
 - En TPS, ajouter le script [ExtraJumpsTPS.cs](./extra/ExtraJumpsTPS.cs) sur **PlayerArmature**
-- En FPS, ajouter le script [ExtraJumpsFPS.cs](./extra/ExtraJumpsFPS.cs) sur **Player Capsule**.
+- En FPS, ajouter le script [ExtraJumpsFPS.cs](./extra/ExtraJumpsFPS.cs) sur **PlayerCapsule**.
 
 !!! question "Et si on branchait le CES 🤔 !?"
 
     Woah ! Bonne idée !
 
     - Dans un Trigger Cube, ajoute une Action de type Invoke Events.
-    - Ensuite, glisse le PlayerArmature (en TPS) dedans
-    - Comme fonction, choisi ExtraJumpsTPS, puis AjouterSaut
-    - Configure à 1 (ça ajoutera un saut de plus !)
+    - Ensuite, glisse le PlayerArmature (en TPS) ou le PlayerCapsule (en FPS) dedans
+    - Comme fonction, choisis ExtraJumpsTPS (ou ExtraJumpsFPS), puis AjouterSaut
+    - Entre la hauteur du saut ajouté (ex. : `3`) : ça ajoutera un saut de plus !
 
 ### S'accroupir en FPS
 
 ![type:video](./assets/video/crouch.webm){.h-auto .w-50}
 
-- Ajouter le script [CrouchFPS.cs](./extra/CrouchFPS.cs) sur **Player Capsule**.
+- Ajouter le script [CrouchFPS.cs](./extra/CrouchFPS.cs) sur **PlayerCapsule**.
 
 ## Tir
 
@@ -178,7 +178,7 @@ public class Tir : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform fireStartingPoint;
     public Camera cam;
-    public float speed = 20f;
+    public float speed = 60f;
 
     void Update()
     {
@@ -186,49 +186,51 @@ public class Tir : MonoBehaviour
         {
             Quaternion direction = Quaternion.Euler(cam.transform.eulerAngles.x, transform.eulerAngles.y, 0);
             GameObject bullet = Instantiate(bulletPrefab, fireStartingPoint.position, direction * bulletPrefab.transform.rotation);
-            bullet.GetComponent<Rigidbody>().AddForce(direction * Vector3.forward * speed, ForceMode.Impulse);
+            bullet.GetComponentInChildren<Rigidbody>().AddForce(direction * Vector3.forward * speed, ForceMode.VelocityChange);
             Destroy(bullet, 3f);
         }
     }
 }
+
 ```
 
-1. Dans **Assets > _ > Scripts**, ajouter le script ci-dessus (**Create > Scripting > MonoBehavious Script**)
+1. Dans **Assets > _ > Scripts**, ajouter le script ci-dessus (**Create > Scripting > MonoBehaviour Script**)
 1. Créer un prefab pour le projectile
   - Créer une Sphere (**GameObject > 3D Object > Sphere**)
   - Réduire son échelle (ex. : `0.2`)
   - Ajouter un Rigidbody : 
     - **Collision Detection** = **Continuous Dynamic**
     - Mass = Environ `0.1`
-  - Déplacer le tout dans un Empty Object.
-  - Puis déplacer le Empty Object dans le dossier **Assets > _ > Prefabs**
-  - Renommer le prefab "Bullet"
-  - Supprimer la balle du panneau _Hierarchy_
+  - Placer la sphère dans un Empty Object
+  - Renommer l'Empty Object « Bullet »
+  - Glisser « Bullet » dans le dossier **Assets > _ > Prefabs** pour en faire un prefab
+  - Supprimer « Bullet » du panneau _Hierarchy_
   - Appliquer un nouveau Tag au prefab (ex. : Projectile)
 1. Créer le départ du projectile
   - En FPS, créer un **Empty Object** comme enfant de **PlayerCameraRoot**
   - En TPS, créer un **Empty Object** comme enfant de **PlayerArmature**
-  - Renommer **Empty Object** par « ShootStart »
-  - Le déplacer de sorte à ce qu'il soit un peu **devant** le personnage
+  - Le renommer « ShootStart »
+  - Le déplacer de sorte qu'il soit un peu **devant** le personnage
 1. Appliquer le script
   - Ajouter sur **PlayerCapsule** (FPS) ou **PlayerArmature** (TPS)
-  - Glisser le prefab Bullet, le ShootStart et la camera du personnage dans les champs du panneau _Inspector_
+  - Glisser le prefab Bullet, le ShootStart et la **MainCamera** dans les champs du panneau _Inspector_
 
 ![type:video](./assets/video/shoot.webm){.h-auto .w-50}
 
 !!! tip "Ajustement"
 
-    En TPS, ajouter un peu de **Shoulder Offset** (X) sur **PlayerFollowCamera** aide à mieux voir la trajectoir du projectile.
+    En TPS, ajouter un peu de **Shoulder Offset** (X) sur **PlayerFollowCamera** aide à mieux voir la trajectoire du projectile.
 
 ### Tir en TPS
 
-Étant donné que la notion de tir tel quel fonctionne avec l'orientation de la caméra, cela ne fait pas beaucoup de sens si le personnage peut lui aller dans la direction qu'il veut, mais le projectile est toujours envoyé en avant de la caméra.
+Le script `Tir.cs` utilise l'orientation horizontale du personnage et l'inclinaison verticale de la caméra. En FPS, le personnage tourne avec la caméra, donc le projectile part là où l'on regarde. En TPS, par contre, le personnage se tourne dans sa direction de déplacement : le projectile part donc devant le personnage, pas nécessairement là où la caméra regarde.
 
-Pour un effet plus "normal", il est préférable de faire tourner le pesonnage en meme temps que la caméra : 
+Pour un effet plus "normal", il est préférable de faire tourner le personnage en même temps que la caméra : 
 
 - Appliquer le script [MatchCameraYaw.cs](./extra/MatchCameraYaw.cs) sur PlayerArmature
+- Glisser **PlayerCameraRoot** dans le champ **Player Camera Root** du script
 
-L'inconvenient est que l'animation de déplacement sera moins fluide lors des déplacement latéraux.
+L'inconvénient est que l'animation de déplacement sera moins fluide lors des déplacements latéraux.
 
 ## Viseur
 
@@ -236,9 +238,9 @@ L'inconvenient est que l'animation de déplacement sera moins fluide lors des d�
 
 Qui dit tir, dit Viseur (_Crosshair_) ! Même sans tir, ça aide à orienter le regard.
 
-Pour un FPS, rien de nouveau. Il suffit d'ajouter un canvas avec au centre, le dit crosshair ! Voici plein d'images utiles pour cela : <https://kenney.nl/assets/crosshair-pack>.
+Pour un FPS, rien de nouveau. Il suffit d'ajouter un canvas avec au centre, ledit crosshair ! Voici plein d'images utiles pour cela : <https://kenney.nl/assets/crosshair-pack>.
 
-Pour un TPS, le crosshair est effectivement une option, mais il est alors préférable d'utiliser le script qui attache la 
+Pour un TPS, le crosshair est effectivement une option, mais il est alors préférable d'utiliser le script [MatchCameraYaw.cs](./extra/MatchCameraYaw.cs) (voir [Tir en TPS](#tir-en-tps)) pour que le personnage soit toujours orienté dans la même direction que la caméra.
 
 ## Retour sur les UI
 
@@ -259,23 +261,23 @@ La technique du [_9-slice scaling_](https://en.wikipedia.org/wiki/9-slice_scalin
 1. **Texture type** = **Sprite (2D and UI)**
   - Si l'image est en pixelart, **Filter Mode** = **Point (no filter)**
 1. **Sprite Mode** = **Single**
-1. Clic sur **Apply**
-1. Clic sur **Open Sprite Editor**
+1. Cliquer sur **Apply**
+1. Cliquer sur **Open Sprite Editor**
 1. Glisser les 4 lignes vertes vers le centre de sorte à avoir un centre uni<br>![](./assets/img/9slice-sprite-editor.png){data-zoom-image .w-10}
-1. Clic sur **Apply** et ferme le **Sprite Editor**
+1. Cliquer sur **Apply** et fermer le **Sprite Editor**
 
 Dans le panneau **Hierarchy** : 
 
-1. Clic sur un **bouton** dans le canvas
-1. Drag le sprite du panneau **Project** vers **Image > Source Image**
-1. **Image type** = **Sliced**
+1. Cliquer sur un **bouton** dans le canvas
+1. Dans le panneau **Inspector**, glisser le sprite du panneau **Project** vers **Image > Source Image**
+1. **Image Type** = **Sliced**
 
-## Événement déclenché clavier
+## Événement déclenché par le clavier
 
 ![](./assets/img/3zYv8D.png){.w-100}
 
 - Créer un Empty Object
-- Appliquer un composant : Condition Watcher (disponible via CES)
+- Ajouter le composant **Condition Watcher** (fourni par le CES)
 
 Ça se configure de la même manière qu'avec un prefab Trigger. On peut ainsi déclencher des actions quand la condition est respectée.
 
@@ -285,7 +287,7 @@ Dans le panneau **Hierarchy** :
 
 ### Créer un clip
 
-1. Ajouter la fenêtres Animation à votre interface (placez la idéalement au même endroit que la console).<br>![](./assets/img/window-animation.png){data-zoom-image .w-10} ![](./assets/img/animation-panel.png){data-zoom-image .w-10} 
+1. Ajouter la fenêtre Animation à votre interface (placez-la idéalement au même endroit que la console).<br>![](./assets/img/window-animation.png){data-zoom-image .w-10} ![](./assets/img/animation-panel.png){data-zoom-image .w-10} 
 1. Cliquer sur l'élément à animer
 1. Dans le panneau Animation, cliquer sur **Create**
 1. Nommer l'animation (ex. : `AvionAnimation.anim`) et l'enregistrer sous **Assets > _ > Animations**
@@ -293,7 +295,7 @@ Dans le panneau **Hierarchy** :
 ### Configurer l'animation (_Dopesheet_)
 
 1. Pour faciliter la gestion de l'animation, cliquer sur le bouton d'enregistrement rouge <br>![](./assets/img/animation-record.png){data-zoom-image .w-10}
-1. Appliquer une moditication sur l'objet dans le panneau Scene (ex.: position, rotation et scale)
+1. Appliquer une modification sur l'objet dans le panneau Scene (ex. : position, rotation et scale)
 1. Déplacer le curseur sur la ligne du temps
 1. Appliquer d'autres modifications
 1. Déplacer le curseur sur la ligne du temps 
@@ -304,8 +306,8 @@ Dans le panneau **Hierarchy** :
 ### Animator
 
 1. Un nouveau panneau devrait apparaitre à côté de Scene et Game. S'il n'y est pas, Window > Animation > Animator
-1. Cliquer sur l'animation, pour changer sa vitesse au besoin
-1. Double-cliquer sur l'animation pour activer ou désactiver le mode _Loop_
+1. Cliquer sur l'animation pour changer sa vitesse (**Speed**) dans l'**Inspector** au besoin
+1. Double-cliquer sur l'animation, puis cocher ou décocher **Loop Time** dans l'**Inspector**
 
 [:simple-youtube: How to create animations in Unity | Synty Studios](https://www.youtube.com/watch?v=78IrmMtByAU)
 
@@ -329,6 +331,7 @@ Dans le panneau Scene, utiliser l'option "Create Spline" situé dans la barre d'
 
 Pour afficher un Spline sous forme de route : 
 
+1. Importer les exemples du package : **Package Manager** > **Splines** > **Samples** > **Import**
 1. Créer un Spline
 1. Ajouter le composant "Loft Road Behaviour" sur le Spline
 
@@ -341,7 +344,7 @@ Pour augmenter la largeur :
 
     Non par défaut il n'y a pas de collider.
     
-    Pour en ajouter un, ajoutez [SplineRoadBehaviour.cs](./extra/SplineRoadBehaviour.cs) à vos scripts (Assets > _ > Scripts) et glissez le sur l'inspector du spline en question. Ça va en créer un.
+    Pour en ajouter un, ajoutez [SplineRoadBehaviour.cs](./extra/SplineRoadBehaviour.cs) à vos scripts (Assets > _ > Scripts) et glissez-le sur l'Inspector du spline en question. Ça va en créer un.
 
     MAIS, idéalement, la route serait à plat sur le plancher.
 
@@ -354,14 +357,14 @@ Pour augmenter la largeur :
 Pour créer une animation qui suit le Spline : 
 
 1. Créer un Spline
-1. Sélectionner le GameObjet à animer
+1. Sélectionner le GameObject à animer
 1. Ajouter un Composant "Spline Animate"
 1. Glisser le Spline créé dans le champ "Spline"
-1. Ajuster les paramères au besoin
+1. Ajuster les paramètres au besoin
 
 !!! tip "À essayer"
 
-    - "Spline instanciate" : permet de créer des instance le long d'un spline
+    - "Spline Instantiate" : permet de créer des instances le long d'un spline
     - "Spline extrude" : permet d'utiliser un Spline pour en faire une forme (ex. : tuyaux)
 
 [:simple-youtube: How to get started with the splines package | Unity](https://www.youtube.com/watch?v=IJbH5OZa_is)
@@ -385,7 +388,7 @@ Pour créer une animation qui suit le Spline :
 Propositions de cartes
 
 - Ajouter la capacité de tirer un projectile
-- Configurer le comportement du personnage controllable
+- Configurer le comportement du personnage contrôlable
 - Ajouter une animation pour x
 - Ajouter une animation pour y
 - Ajouter une animation pour z

@@ -12,7 +12,7 @@ public class CrouchFPS : MonoBehaviour
     public bool holdToCrouch = true;
 
     [Tooltip("Checked: jumping makes the player stand up (if there is enough headroom).")]
-    public bool jumpCancelsCrouch = trwue;
+    public bool jumpCancelsCrouch = true;
 
     [Header("Settings")]
     [Tooltip("Capsule height while crouching.")]
