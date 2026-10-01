@@ -9,7 +9,6 @@
 [:material-clipboard-check: Liste de vérification de la remise bêta](projets/portfolio/remise-beta.md){ .md-button .md-button--primary }
 
 
-
 ## Aujourd'hui
 
 - [ ] Où en êtes-vous?
