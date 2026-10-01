@@ -10,9 +10,6 @@
 *[TPS] : Third Person Shooter
 *[CES]: Collider Event System
 
-
-
-
 ## Élections Québec 2026
 
 ![](./assets/img/elections-quebec-2026.jpg){.w-100}
@@ -22,7 +19,7 @@
 <figcaption class="small" markdown>Christine Fréchette (CAQ) (Première ministre actuellement), Charles Milliard (PLQ), Ruba Ghazal (QS), Paul St-Pierre Plamondon (PQ), Éric Duhaime (PCQ)</figcaption>
 </figure>
 
-<https://youtube.com/shorts/zBaIvM0QPx8?si=FQUmcdKig23fpSo3>
+[:simple-youtube:](https://youtube.com/shorts/zBaIvM0QPx8?si=FQUmcdKig23fpSo3)
 
 ### La Boussole électorale
 
@@ -47,8 +44,6 @@ Pour connaitre qui se présentent dans votre circonscription ainsi que ses enjeu
 Avant d'installer un asset que vous testez pour la première fois, faites **toujours** push. Certains assets peuvent corrompre un projet !
 
 Pour éviter de devoir recommencer inutilement depuis une vieille version, assurez-vous de faire des commit/push régulièrement.
-
-[STOP]
 
 ## Character controller
 
@@ -92,12 +87,6 @@ PlayerFollowCamera :
 
 ![type:video](./assets/video/2.5d.webm){.h-auto .w-50}
 
-<!-- Désactiver ++w++ et ++s++
-
-1. Double-clic sur **Assets/Starter Assets/Runtime/InputSystem/StarterAssets/Player/Move**
-1. Dans **Player > Move**, WASD, supprimer les options **Up** et **Down**
-1. Clic sur **Save Asset** -->
-
 Reculer la caméra : **PlayerFollowCamera** > **Camera Distance**
 
 Retirer la perspective : **MainCamera** du personnage, **Camera** > **Projection** changer **Perspective** pour **Orthographic**
@@ -108,12 +97,17 @@ Désactiver :arrow_up: et :arrow_down: : sur **PlayerArmature**, ajouter ce scri
 using UnityEngine;
 using StarterAssets;
 
-[DefaultExecutionOrder(-100)] // S'exécute avant le ThirdPersonController
+[DefaultExecutionOrder(-100)]
 public class Controles25D : MonoBehaviour
 {
     StarterAssetsInputs input;
-    void Start() { input = GetComponent<StarterAssetsInputs>(); }
-    void Update() { input.move.y = 0; }
+    void Start() { 
+        input = GetComponent<StarterAssetsInputs>(); 
+    }
+
+    void Update() { 
+        input.move.y = 0; 
+    }
 }
 ```
 
@@ -149,7 +143,7 @@ PlayerFollowCamera :
 - Camera Distance = 20
 - Avoid Obstacles = décoché
 
-### Double saut 🦘
+### Saut multiple
 
 ![type:video](./assets/video/xtra-jumps.webm){.w-50 .h-auto}
 
@@ -165,10 +159,15 @@ PlayerFollowCamera :
     - Comme fonction, choisi ExtraJumpsTPS, puis AjouterSaut
     - Configure à 1 (ça ajoutera un saut de plus !)
 
+### S'accroupir en FPS
+
+![type:video](./assets/video/crouch.webm){.h-auto .w-50}
+
+- Ajouter le script [CrouchFPS.cs](./extra/CrouchFPS.cs) sur **Player Capsule**.
+
 ## Tir
 
 ![](./assets/img/doom.avif){data-zoom-image}
-
 
 ```c# title="Tir.cs"
 using UnityEngine;
@@ -178,13 +177,14 @@ public class Tir : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform fireStartingPoint;
+    public Camera cam;
     public float speed = 20f;
 
     void Update()
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            Quaternion direction = Quaternion.Euler(Camera.main.transform.eulerAngles.x, transform.eulerAngles.y, 0);
+            Quaternion direction = Quaternion.Euler(cam.transform.eulerAngles.x, transform.eulerAngles.y, 0);
             GameObject bullet = Instantiate(bulletPrefab, fireStartingPoint.position, direction * bulletPrefab.transform.rotation);
             bullet.GetComponent<Rigidbody>().AddForce(direction * Vector3.forward * speed, ForceMode.Impulse);
             Destroy(bullet, 3f);
@@ -192,7 +192,6 @@ public class Tir : MonoBehaviour
     }
 }
 ```
-
 
 1. Dans **Assets > _ > Scripts**, ajouter le script ci-dessus (**Create > Scripting > MonoBehavious Script**)
 1. Créer un prefab pour le projectile
@@ -213,11 +212,23 @@ public class Tir : MonoBehaviour
   - Le déplacer de sorte à ce qu'il soit un peu **devant** le personnage
 1. Appliquer le script
   - Ajouter sur **PlayerCapsule** (FPS) ou **PlayerArmature** (TPS)
-  - Glisser le prefab Bullet et le ShootStart dans les champs du panneau _Inspector_
+  - Glisser le prefab Bullet, le ShootStart et la camera du personnage dans les champs du panneau _Inspector_
+
+![type:video](./assets/video/shoot.webm){.h-auto .w-50}
 
 !!! tip "Ajustement"
 
     En TPS, ajouter un peu de **Shoulder Offset** (X) sur **PlayerFollowCamera** aide à mieux voir la trajectoir du projectile.
+
+### Tir en TPS
+
+Étant donné que la notion de tir tel quel fonctionne avec l'orientation de la caméra, cela ne fait pas beaucoup de sens si le personnage peut lui aller dans la direction qu'il veut, mais le projectile est toujours envoyé en avant de la caméra.
+
+Pour un effet plus "normal", il est préférable de faire tourner le pesonnage en meme temps que la caméra : 
+
+- Appliquer le script [MatchCameraYaw.cs](./extra/MatchCameraYaw.cs) sur PlayerArmature
+
+L'inconvenient est que l'animation de déplacement sera moins fluide lors des déplacement latéraux.
 
 ## Viseur
 
@@ -261,10 +272,43 @@ Dans le panneau **Hierarchy** :
 
 ## Événement déclenché clavier
 
+![](./assets/img/3zYv8D.png){.w-100}
+
 - Créer un Empty Object
 - Appliquer un composant : Condition Watcher (disponible via CES)
 
 Ça se configure de la même manière qu'avec un prefab Trigger. On peut ainsi déclencher des actions quand la condition est respectée.
+
+## Animation par _keyframe_
+
+![type:video](./assets/video/animation-start.webm){.w-100 .h-auto .rounded}
+
+### Créer un clip
+
+1. Ajouter la fenêtres Animation à votre interface (placez la idéalement au même endroit que la console).<br>![](./assets/img/window-animation.png){data-zoom-image .w-10} ![](./assets/img/animation-panel.png){data-zoom-image .w-10} 
+1. Cliquer sur l'élément à animer
+1. Dans le panneau Animation, cliquer sur **Create**
+1. Nommer l'animation (ex. : `AvionAnimation.anim`) et l'enregistrer sous **Assets > _ > Animations**
+
+### Configurer l'animation (_Dopesheet_)
+
+1. Pour faciliter la gestion de l'animation, cliquer sur le bouton d'enregistrement rouge <br>![](./assets/img/animation-record.png){data-zoom-image .w-10}
+1. Appliquer une moditication sur l'objet dans le panneau Scene (ex.: position, rotation et scale)
+1. Déplacer le curseur sur la ligne du temps
+1. Appliquer d'autres modifications
+1. Déplacer le curseur sur la ligne du temps 
+1. Appliquer d'autres modifications et ainsi de suite.
+1. Cliquer sur le bouton d'enregistrement à nouveau pour arrêter d'enregistrer
+1. Ajuster l'animation avec les curves au besoin ![](./assets/img/animation-curves.png){data-zoom-image .w-10}
+
+### Animator
+
+1. Un nouveau panneau devrait apparaitre à côté de Scene et Game. S'il n'y est pas, Window > Animation > Animator
+1. Cliquer sur l'animation, pour changer sa vitesse au besoin
+1. Double-cliquer sur l'animation pour activer ou désactiver le mode _Loop_
+
+[:simple-youtube: How to create animations in Unity | Synty Studios](https://www.youtube.com/watch?v=78IrmMtByAU)
+
 
 ## Splines
 
@@ -295,11 +339,13 @@ Pour augmenter la largeur :
 
 !!! question "Pas de Collider ?"
 
-    Non par défaut il n'y a pas de collider. 
+    Non par défaut il n'y a pas de collider.
     
     Pour en ajouter un, ajoutez [SplineRoadBehaviour.cs](./extra/SplineRoadBehaviour.cs) à vos scripts (Assets > _ > Scripts) et glissez le sur l'inspector du spline en question. Ça va en créer un.
 
-<!-- https://www.youtube.com/watch?v=IJbH5OZa_is -->
+    MAIS, idéalement, la route serait à plat sur le plancher.
+
+[:simple-youtube: Build With SPLINES in UNITY 6 | Synty Studios](https://www.youtube.com/watch?v=XDjmzHPdYBQ)
 
 ### Spline animate
 
@@ -318,37 +364,8 @@ Pour créer une animation qui suit le Spline :
     - "Spline instanciate" : permet de créer des instance le long d'un spline
     - "Spline extrude" : permet d'utiliser un Spline pour en faire une forme (ex. : tuyaux)
 
-    <!-- https://www.youtube.com/watch?v=XDjmzHPdYBQ -->
+[:simple-youtube: How to get started with the splines package | Unity](https://www.youtube.com/watch?v=IJbH5OZa_is)
 
-## Animation par _keyframe_
-
-![type:video](./assets/video/animation-start.webm){.w-100 .h-auto .rounded}
-
-### Créer un clip
-
-1. Ajouter la fenêtres Animation à votre interface (placez la idéalement au même endroit que la console).<br>![](./assets/img/window-animation.png){data-zoom-image .w-10} ![](./assets/img/animation-panel.png){data-zoom-image .w-10} 
-1. Cliquer sur l'élément à animer
-1. Dans le panneau Animation, cliquer sur **Create**
-1. Nommer l'animation (ex. : `AvionAnimation.anim`) et l'enregistrer sous **Assets > _ > Animations**
-
-### Configurer l'animation (_Dopesheet_)
-
-1. Pour faciliter la gestion de l'animation, cliquer sur le bouton d'enregistrement rouge <br>![](./assets/img/animation-record.png){data-zoom-image .w-10}
-1. Appliquer une moditication sur l'objet dans le panneau Scene (ex.: position, rotation et scale)
-1. Déplacer le curseur sur la ligne du temps
-1. Appliquer d'autres modifications
-1. Déplacer le curseur sur la ligne du temps 
-1. Appliquer d'autres modifications et ainsi de suite.
-1. Cliquer sur le bouton d'enregistrement à nouveau pour arrêter d'enregistrer
-1. Ajuster l'animation avec les curves au besoin ![](./assets/img/animation-curves.png){data-zoom-image .w-10}
-
-### Animator
-
-1. Un nouveau panneau devrait apparaitre à côté de Scene et Game. S'il n'y est pas, Window > Animation > Animator
-1. Cliquer sur l'animation, pour changer sa vitesse au besoin
-1. Double-cliquer sur l'animation pour activer ou désactiver le mode _Loop_
-
-<!-- https://www.youtube.com/watch?v=78IrmMtByAU -->
 
 ## Projet final
 

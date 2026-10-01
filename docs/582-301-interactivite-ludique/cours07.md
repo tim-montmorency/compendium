@@ -2,6 +2,51 @@
 
 [STOP]
 
+## HP
+
+- Créer une variable. Dans le panneau Project, clic-droit Create > Collider Event System > Variables > Int Variable
+- Nomme la variable HP
+- Dans l'inspecteur, configure Initial Value = 100
+- Laisse Persistent décoché. (Sinon la valeur du HP est conservée après le stop)
+
+
+- Ajouter un Trigger Cube
+- Add Action → Variable:
+Target Variable: drag the HP asset.
+Value Mode: Additive.
+Int Value: -10. Adding −10 is the same as subtracting 10.
+After Trigger:
+Do Nothing: the cube deals damage every time you walk back in. You have to leave and re-enter.
+Destroy: it deals damage only once.
+Step 3: Create the UI text
+GameObject → UI → Text - TextMeshPro. Accept importing "TMP Essentials" the first time.
+Place it in the Canvas, for example the top left corner.
+Step 4: The display script (the only code)
+You would create AfficherVariable.cs in Assets/_/Scripts:
+
+```c#
+using UnityEngine;
+using TMPro;
+using ColliderEventSystem;
+
+public class AfficherVariable : MonoBehaviour
+{
+    public IntVariable variable;          // L'asset HP
+    public string format = "HP : {0}";    // {0} est remplacé par la valeur
+
+    TMP_Text texte;
+
+    void Start()
+    {
+        texte = GetComponent<TMP_Text>();
+    }
+
+    void Update()
+    {
+        texte.text = string.Format(format, variable.RuntimeValue);
+    }
+}
+``` 
 
 ## Le menu pause
 
