@@ -48,7 +48,8 @@ Réaliser l'activité suivante:
 [🛠️ Préparation à la simulation d'entrevue](./activites/simulation-entrevue.md){ .md-button }   
 
 ## Devoir
-- [ ] Avancer le CV.
-- [ ] Terminer la préparation à la simulation d'entrevue. 
+- [ ] Avancer le **portfolio**.
+- [ ] Avancer le **CV**.
+- [ ] Terminer la **préparation à la simulation d'entrevue**. 
 
 

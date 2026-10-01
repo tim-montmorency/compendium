@@ -80,11 +80,11 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
 | # | Séance | Cœur de la séance | Jalon |
 |---|--------|-------------------|-------|
-| 6 | [Animation, caméra et états](./cours06.md) | Animator, machine à états, Cinemachine, 2.5D, **menu**, transitions de scènes, cinématique (Timeline) | |
+| 6 | [Contrôles, caméra et animation](./cours06.md) | Réglages du contrôleur, 2.5D / vue de dessus / isométrique, **tir** et viseur, 9-slice, Condition Watcher, animation par *keyframe*, splines | |
 | 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; **backlog MoSCoW** | :material-comment-check: **F1 - Prototype jouable** |
 | 8 | [Lumière et level design](./cours08.md) | Materials, lumières, *baking*, post-traitement, greyboxing → dressing, guidage | |
-| 9 | [Particules, VFX et *game feel*](./cours09.md) | Particle System, projectiles (Instantiate), *juice* | :material-comment-check: **F2 - Tranche verticale** + rétroaction objectif 1 |
-| 10 | [PNJ et intelligence artificielle](./cours10.md) | NavMesh, patrouille, détection, machine à états simple | |
+| 9 | [Particules, VFX et *game feel*](./cours09.md) | Particle System, impacts de projectiles, *juice* | :material-comment-check: **F2 - Tranche verticale** + rétroaction objectif 1 |
+| 10 | [PNJ et intelligence artificielle](./cours10.md) | NavMesh, patrouille, détection, **Animator et machines à états** (joueur et PNJ), Mixamo | |
 | 11 | [Publication et persistance](./cours11.md) | Build WebGL, itch.io, README/crédits, sauvegarde, performance | |
 
 ### Phase 4 - Production (S12–S15)
@@ -125,11 +125,11 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
 * **Starter Assets: Character Controllers (URP)** : import, prise en main
     * Première personne (installation immédiate)
-    * Troisième personne (la caméra Cinemachine est déjà configurée dans le package - on l'utilise sans l'expliquer, le démontage arrive en S6)
+    * Troisième personne (la caméra Cinemachine est déjà configurée dans le package - on l'utilise sans l'expliquer, les réglages arrivent en S6)
     * Notion d'**Input System** (survol : où sont les touches, comment en ajouter une)
 * Le tag `Player` et pourquoi tout en dépend
 * **Gating** (rappel S1) mis en œuvre concrètement avec le CES : clé → porte, zone bloquée, variable custom vérifiée plus loin
-* **Habiller le personnage** : substitution du mannequin gris par un personnage **T-pose Synty** dans le Third Person Controller — sans *rigging*, donc sans animation pour l'instant. L'auto-rigger **Mixamo** et l'avatar humanoïde sont reportés à la **S6**, où ils servent enfin à quelque chose
+* **Habiller le personnage** : substitution du mannequin gris par un personnage **T-pose Synty** dans le Third Person Controller — sans *rigging*, donc sans animation pour l'instant. L'auto-rigger **Mixamo** et l'avatar humanoïde sont reportés à la **S10**, avec l'Animator et les machines à états, où ils servent enfin à quelque chose
 * Premier build local
 
 !!! tip "Ajout recommandé"
@@ -191,42 +191,36 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     Les *materials* sont partis en S9 avec la passe visuelle - cette séance est déjà bien assez chargée.
 
 !!! note "Pourquoi le menu n'est plus ici"
-    Canvas, TextMeshPro, HUD, premier script, C# de survie, prefabs **et** un menu complet dans une seule séance, c'était trop d'un coup - surtout une séance déjà amputée par la rotation de validation. Le menu part en **S6**, où il retrouve les transitions de scènes : un menu titre → jeu → fin, c'est un `SceneManager` avec des boutons. Le sujet arrive entier au lieu d'être coupé en deux.
+    Canvas, TextMeshPro, HUD, premier script, C# de survie, prefabs **et** un menu complet dans une seule séance, c'était trop d'un coup - surtout une séance déjà amputée par la rotation de validation. La S5 garde le strict nécessaire : des boutons et un changement de scène par `SceneManager`. Le **menu pause** (`Time.timeScale`) part en **S7**.
 
     Le **HUD**, lui, reste ici : il se monte en même temps que le greybox, et il n'a besoin d'aucune transition de scène pour exister.
 
-### S6 - Animation, caméra et états
+### S6 - Contrôles, caméra et animation
 
-**Bloc 1 - États du personnage**
+**Bloc 1 - Le personnage contrôlable**
 
-* **Animator** : contrôleur, états, paramètres (`bool`, `float`, `trigger`), transitions et conditions
-* **Machine à états** appliquée au personnage : idle, marche, course, saut, action - détection et indication de l'état
-* **Blend Tree** simple (marche → course)
-* **Rigging du T-pose Synty via Mixamo** (reporté de la S3), avatar **humanoïde** et *retargeting* — le personnage arrête enfin de glisser les bras en croix
-* Animations Mixamo appliquées au perso Synty; *Animation Events*
-* Animer des objets du décor (porte, plateforme, mécanisme) avec la fenêtre **Animation**
+* **Réglages du Character Controller** (Starter Assets) : vitesse, sprint, saut, gravité; bruit de caméra (*Noise*), *damping*, *shoulder offset*, champ de vision
+* **Cadrages** : 2.5D (orthographique, axe verrouillé), vue de dessus, vue isométrique
+* Scripts prêts à brancher : **saut multiple** (branchable par CES), **accroupissement** en FPS
+* **Tir** : `Instantiate` d'un prefab de projectile, orientation par la caméra, `AddForce` en `VelocityChange`; **viseur** (*crosshair*) dans un Canvas; alignement personnage-caméra en TPS (`MatchCameraYaw`)
 
-**Bloc 2 - Caméra**
+**Bloc 2 - Interface et événements**
 
-* **Cinemachine** : démontage de la caméra utilisée sans le savoir depuis la S3
-    * *Virtual Camera*, priorités, *follow / look at*, *body* et *aim*
-    * *Damping*, *dead zone*, *soft zone* - pourquoi une caméra qui suit trop bien donne la nausée
-    * *Confiner* (Cinemachine Confiner) pour empêcher la caméra de traverser les murs
-    * Changement de caméra par CES (*priority blending*)
-* **Perspective vs orthographique**, et le **2.5D** comme cadrage du cours : un monde 3D, mais une caméra et un déplacement contraints sur un plan
-    * Trois cas montés en démo : *side-scroller* orthographique, vue de dessus, isométrique
-    * Verrouillage d'un axe de déplacement; *parallax* obtenu gratuitement en 3D
-    * Pourquoi presque tout ce qu'on appelle « 2D » dans l'industrie moderne est en fait du 2.5D
+* **9-slice** : étirer un sprite d'interface sans le déformer
+* **Condition Watcher** (CES) : un événement déclenché par une touche du clavier
 
-**Bloc 3 - Menu, transitions et mise en scène**
+**Bloc 3 - Animation du décor**
 
-* **Menu** titre → jeu → fin : boutons, navigation, `Time.timeScale` pour la pause *(déplacé de la S5)*
-* **Transitions de scènes** propres : `SceneManager`, écran de chargement, fondu
-* **Cinématique** : Timeline + Cinemachine, verrouillage des contrôles pendant la cutscene, *Signal Emitter*
-* Déclenchement du tout par CES
+* **Animation par *keyframe*** : fenêtre Animation, enregistrement, courbes; Animator réduit au strict nécessaire (vitesse, boucle)
+* **Splines** : création, route (*Loft Road*), objet qui suit un tracé (*Spline Animate*)
+
+**Rappel** : commit et push **avant** d'installer un asset de l'Asset Store.
 
 !!! note "Sur le savoir essentiel « caméra 2D »"
     Le cours est entièrement en 3D. Plutôt que de faire une parenthèse 2D artificielle, le savoir est couvert par le **2.5D** : caméra orthographique, contrainte d'axe, cadrage plat. L'élève sait configurer une caméra 2D à la fin de la séance - il l'a simplement fait dans un monde 3D, ce qui correspond à la pratique réelle.
+
+!!! note "Ce qui a été reporté"
+    La séance est déjà pleine. L'**Animator complet**, les **machines à états** et le **rigging Mixamo** passent en **S10**, avec le PNJ : même outil, même logique, une seule séance. Cinemachine avancé (priorités, *confiner*), Timeline et transitions avec fondu deviennent une **capsule d'enrichissement** en S13.
 
 ### S7 - Le son (et backlog de production)
 
@@ -287,7 +281,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 
 * **Particle System** : modules essentiels (emission, shape, over lifetime, collision), materials de particules
 * Recettes : poussière de pas, étincelles, fumée, ramassage d'objet, portail
-* **Projectiles** : `Instantiate` (reprise de S5), `Destroy`, `Rigidbody.AddForce`, détection d'impact, *object pooling* (mention)
+* **Projectiles** : le tir est en place depuis la S6; ici, la **détection d'impact** et sa rétroaction (particules, son, dégâts), *object pooling* (mention)
 * **Trails**, *decals*, mention de VFX Graph (sans l'enseigner)
 * **Game feel / juice** : *screen shake*, *hit stop*, mise à l'échelle au ramassage, courbes d'animation, cumul son + particule + UI sur un même événement
 * **Devoir** : premier build WebGL déposé sur une page itch.io privée (fonctionnel avant tout, pas beau) - les surprises de build WebGL ne doivent pas être découvertes la semaine de la remise finale
@@ -300,7 +294,10 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **NavMesh** : *baking*, `NavMeshAgent`, zones, obstacles
 * Patrouille par waypoints; poursuite; retour au poste
 * **Détection** : distance, cône de vision, `Raycast` (ligne de vue)
-* Machine à états simple du PNJ (patrouille → alerte → poursuite → perte de trace)
+* **Animator** *(reporté de la S6)* : contrôleur, états, paramètres (`bool`, `float`, `trigger`), transitions et conditions; **Blend Tree** simple (marche → course)
+* **Rigging du T-pose Synty via Mixamo** *(reporté de la S3)*, avatar **humanoïde** et *retargeting*
+* **Machine à états du personnage** : idle, marche, course, saut, action - détection et indication de l'état
+* Machine à états simple du PNJ (patrouille → alerte → poursuite → perte de trace) - même logique, appliquée à un personnage non jouable
 * PNJ non hostile : marchand, guide, dialogue déclenché par CES
 * Rétroaction du PNJ : animation, son, indicateur visuel
 
@@ -348,6 +345,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     * Localisation FR/EN
     * ScriptableObjects pour les données de jeu
     * [Recettes avancées](./extra/recettes-avancees.md)
+    * **Caméras et cinématique** *(reporté de la S6)* : Cinemachine (priorités, *confiner*, changement de caméra par CES), Timeline et *Signal Emitter*, transitions de scènes avec fondu
 
 ### S14 - Production et gel
 
@@ -486,7 +484,7 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Environnement navigable | S2, S3, S8 |
 | Intégration d'images et de médias visuels | S2, S8, S9 |
 | Sons et échantillons | S3 (survol), S7 (profondeur) |
-| Animation | S6 (rigging + Animator) |
+| Animation | S6 (*keyframe*, splines), S10 (rigging + Animator) |
 | Configuration d'une caméra 2D | S6, traité en **2.5D** : orthographique, contrainte d'axe, cadrage plat dans un monde 3D |
 | Compilation | S3, puis à chaque jalon; WebGL à partir de S11 |
 
@@ -496,15 +494,15 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 |--------|---------|
 | Notions d'interaction, affordance, agentivité | S1, S4 |
 | Collisions et déclenchement d'événements | S2, S3 |
-| Transitions de scènes | S2, S6 |
-| Interface virtuelle et menu | S5 (HUD), S6 (menu) |
+| Transitions de scènes | S2, S5 |
+| Interface virtuelle et menu | S5 (HUD, boutons, changement de scène), S6 (9-slice), S7 (pause) |
 | Environnement de programmation | S5 (script fourni, puis C#) |
-| Déplacement d'un personnage | S3 (sans code), S5 |
+| Déplacement d'un personnage | S3 (sans code), S5, S6 (réglages du contrôleur) |
 | Interactions virtuelles, système clé/porte | S3, S5 |
 | Progression selon la réussite ou l'échec | S3 (CES + variables), S6, S10 |
 | HUD, indication des réussites et échecs | S5, S9 |
 | Échantillons sonores déclenchés | S7 |
-| États du personnage détectés et animés | S6 |
+| États du personnage détectés et animés | S10 |
 
 Les deux activités de rétroaction exigées ont lieu aux jalons formatifs **F2 (S9, objectif 1)** et **F3 (S12, objectif 2)**, sous forme de rencontre individuelle avec avis écrit.
 
