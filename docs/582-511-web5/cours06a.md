@@ -1,6 +1,15 @@
 # Cours 6.1
 <!-- merc. 30 sept. -->
 
+<div class="class-content-link">
+  <img src="./projets/assets/icon-portfolio.svg">
+  <a href="./projets/portfolio//index-textuel.html#remise-2-version-beta-vendredi-2-octobre">Instructions de la <em>Remise 2 : BETA</em> 2 oct. avant votre cours.</a>
+</div>
+
+[:material-clipboard-check: Liste de vérification de la remise bêta](projets/portfolio/remise-beta.md){ .md-button .md-button--primary }
+
+
+
 ## Aujourd'hui
 
 - [ ] Où en êtes-vous?
