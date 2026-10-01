@@ -1,0 +1,125 @@
+# Contrôle de la qualité du portfolio : consignes
+
+!!! abstract "L'essentiel en 3 points"
+    1. **Trois personnes** testent votre portfolio : **vous** et **deux camarades**, chacun dans un **environnement différent** (navigateur ou appareil). Tous les tests se font sur votre **bêta en ligne**.
+    2. **Un seul fichier Excel**, `qa-prenom-nom.xlsx`, contient tout : les scénarios, les résultats des 3 testeurs, vos correctifs et leur validation, puis votre autoévaluation.
+    3. Les tests se font sur la branche **`beta`**. Une fois les 3 tests terminés, vous passez GitHub Pages sur **`main`**, vous corrigez, et vous **validez** chaque correctif en refaisant le scénario en ligne.
+
+C'est le **critère 3** de votre grille (015Q, /10) : la vérification auprès de 3 personnes, le rapport de tests et les correctifs validés. Les tests d'accessibilité et de médias servent aussi aux critères 1 et 2.
+
+[:material-magnify-scan: Le contrôle de la qualité : les notions](../../qa/controle-qualite.md){ .md-button }
+[:material-human: L'accessibilité : tester les 4 points de la grille](../../qa/accessibilite.md){ .md-button }
+
+## Les dates
+
+| Étape | Gr. Lora | Gr. Enric |
+|---|---|---|
+| Tests (vous + 2 camarades), sur `beta` | ven. 2 oct., en classe | ven. 2 oct., en classe |
+| **Date limite** : les 3 tests sont terminés | **lun. 5 oct.** | **mer. 7 oct.** |
+| Passer Pages sur `main`, corriger, valider | dès vos 3 tests terminés | dès vos 3 tests terminés |
+| Autoévaluation (à la maison) | avant le 8 oct. | avant le 15 oct. |
+| Remise finale et jury | **jeu. 8 oct.** | **jeu. 15 oct.** |
+
+!!! warning "Absent vendredi?"
+    Faites vos tests hors classe avec **deux camarades**, avant la date limite de votre groupe. Les règles sont les mêmes : chacun dans un environnement différent, directement dans votre fichier Excel.
+
+## Étape 1 : préparer votre fichier { #etape-1-preparer-votre-fichier }
+
+1. Ouvrez le dossier partagé sur OneDrive : <!-- MM : coller ici le lien du dossier OneDrive --> [dossier QA du portfolio](#){ :target="_blank" }.
+2. **Ne modifiez pas le gabarit.** Clic droit sur le gabarit → **Copier vers** → le même dossier.
+3. Renommez votre copie `qa-prenom-nom.xlsx` : **minuscules, sans accents, sans espaces**. Ex. `qa-helene-cote.xlsx`.
+4. Ouvrez votre copie (dans le navigateur, avec Excel en ligne) et remplissez l'onglet **Lisez-moi** : vos informations, l'adresse de votre bêta, et les 3 testeurs.
+5. Dans l'onglet **Scénarios**, ajoutez **2 ou 3 scénarios personnels** (scénarios 12 à 14) : les fonctions propres à votre site. Ex. « Filtrer les projets par catégorie », « Changer de thème clair/sombre », « Faire défiler le carrousel d'un projet ».
+
+!!! danger "Un fichier par personne, et on ne touche qu'au sien"
+    Tout le monde a accès au dossier. Écrivez **seulement** dans votre fichier, ou dans celui d'un camarade **quand vous le testez**, dans **votre** bloc. Si un fichier est écrasé par erreur, OneDrive garde les anciennes versions (clic droit → *Historique des versions*) : avertissez-moi.
+
+??? info "Si OneDrive ne fonctionne pas"
+    Téléchargez le gabarit, travaillez dans Excel sur votre poste, et déposez votre fichier dans le dossier partagé dès que possible.
+
+    [:material-microsoft-excel: Télécharger le gabarit](qa-gabarit-portfolio.xlsx){ .md-button }
+
+## Étape 2 : choisir 3 environnements différents
+
+La grille exige que chaque testeur utilise un **navigateur ou un appareil différent**. En classe, on travaille en **trios** : chaque personne garde **son** environnement pendant tout le cours.
+
+| Personne du trio | Son environnement (exemple) |
+|---|---|
+| A | Chrome ou Edge, sur ordinateur |
+| B | Firefox (ou Safari), sur ordinateur |
+| C | Son téléphone (Safari sur iPhone, Chrome sur Android) |
+
+A teste son propre site (auto-test), puis ceux de B et de C. Même chose pour B et C. Résultat : chaque site est testé 3 fois, dans 3 environnements différents. ✔️
+
+!!! tip "Vous comptez comme l'une des 3 personnes"
+    Votre **auto-test** est le testeur 1. Il suit **les mêmes scénarios**, avec la même rigueur, et il est consigné dans le même tableau que ceux de vos camarades.
+
+## Étape 3 : tester { #etape-3-tester }
+
+Chaque testeur fait **tous les scénarios**, dans **son bloc** de l'onglet **Tests**, sur l'**adresse de la bêta**.
+
+Pour chaque ligne :
+
+- **Résultat** : *Conforme* (le résultat attendu est obtenu) ou *Écart* (il ne l'est pas).
+- **Résultat observé** : seulement s'il y a un écart. Décrivez **ce que vous voyez**, précisément : où, quoi, comment le reproduire.
+- **Gravité** : *Bloquant*, *Majeur* ou *Mineur* (définitions dans l'onglet Lisez-moi).
+
+| Pas utile | Utile |
+|---|---|
+| « Le menu marche pas. » | « Sur téléphone (375 px), le bouton du menu ouvre le menu, mais il ne se referme pas après un clic sur un lien : il cache la section. » |
+| « Couleurs bof. » | « Le texte gris des descriptions de cartes (#999 sur blanc) a un ratio de 2,8:1. Il faut 4,5:1. » |
+| « Erreur. » | « Console : `GET .../images/Biome.jpg 404`. L'image du projet Biome ne s'affiche pas. » |
+
+!!! info "Règles du testeur"
+    - On teste, on ne corrige pas. On ne touche pas au code de l'autre.
+    - Un écart = une ligne. Si vous trouvez deux problèmes dans le même scénario, décrivez les deux dans la case.
+    - On décrit des faits observables, pas des goûts. « Je n'aime pas le vert » n'est pas un écart; « le texte vert sur fond vert pâle a un contraste de 2:1 » en est un.
+    - Firefox ne fait pas encore les animations au défilement : si le contenu s'affiche normalement sans animation, c'est **conforme**.
+
+Comptez environ **30 minutes par site**. Les scénarios 7 à 9 (clavier, contraste, WAVE) demandent les outils vus en classe : [page Accessibilité](../../qa/accessibilite.md).
+
+## Étape 4 : passer GitHub Pages sur `main` { #etape-4-passer-github-pages-sur-main }
+
+**Seulement quand vos 3 tests sont terminés.** Avant, vos testeurs doivent voir la bêta.
+
+1. Sur GitHub : votre dépôt → **Settings** → **Pages**.
+2. **Branch** : remplacez `beta` par **`main`**, dossier `/ (root)`, **Save**.
+3. Attendez une ou deux minutes, puis vérifiez que votre site s'affiche à la même adresse.
+4. Inscrivez l'adresse finale dans l'onglet **Lisez-moi** (c'est la même adresse que la bêta : seule la branche publiée change).
+
+La branche `beta` reste dans votre dépôt : c'est la trace de la version testée. Ne la supprimez pas, et ne travaillez jamais dessus.
+
+## Étape 5 : corriger et valider
+
+1. **Priorisez** : tous les bloquants, puis les majeurs, puis les mineurs si le temps le permet.
+2. Pour chaque écart corrigé, une ligne dans l'onglet **Correctifs** :
+    - l'**ID du test** (ex. `T-21`) : le scénario, l'écart et la gravité s'affichent seuls;
+    - le **correctif apporté**, dans vos mots;
+    - le **commit**, dont le message commence par l'ID : `T-21 : focus visible sur les cartes`.
+3. **Validez** : refaites le scénario **en ligne**, sur `main`, dans le même environnement que le testeur si possible. Inscrivez la date, *Oui* dans **Validé?**, et comment vous avez validé.
+
+!!! question "Un écart que vous ne corrigez pas?"
+    C'est permis, si c'est justifié. Choisissez *Pas corrigé (justifié)* et expliquez pourquoi dans **Comment j'ai validé** : ex. un mineur reporté faute de temps, ou un écart qui n'en est pas un après vérification. Un bloquant non corrigé, par contre, sera difficile à justifier devant le jury.
+
+## Étape 6 : l'autoévaluation (à la maison)
+
+Dans l'onglet **Autoévaluation**, pour chaque indicateur de la [grille critériée](index-textuel.md#criteres-devaluation) : votre niveau, et **la preuve** qui le justifie (un fichier, une ligne du tableau QA, un commit). C'est aussi votre meilleure préparation pour les questions du jury.
+
+## Ce que je regarde dans votre fichier
+
+| Indicateur du critère 3 | Où |
+|---|---|
+| Vérification auprès de 3 personnes, 3 environnements différents | Lisez-moi (les 3 testeurs) + Tests (les 3 blocs remplis) |
+| Rapport de tests : scénario, résultat observé, écart | Tests : des écarts décrits précisément, avec une gravité |
+| Correctifs adéquats, décrits et validés | Correctifs : le correctif, le commit, la validation en ligne |
+
+L'onglet **Synthèse** se calcule seul : vérifiez qu'il ne reste aucun « écart sans gravité » avant la remise.
+
+## Avant la remise finale
+
+- [ ] Les 3 blocs de l'onglet Tests sont remplis : aucune ligne vide.
+- [ ] Chaque écart a une gravité.
+- [ ] Chaque bloquant et chaque majeur a sa ligne dans Correctifs, validée ou justifiée.
+- [ ] GitHub Pages publie la branche `main`, et le site en ligne contient vos correctifs.
+- [ ] L'onglet Autoévaluation est rempli.
+- [ ] Le lien vers votre fichier `qa-prenom-nom.xlsx` est dans votre `README.md`.
