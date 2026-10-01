@@ -10,7 +10,11 @@
   <a href="./portfolio/index-textuel.html">Projet Portfolio : consignes complètes (en détail)</a>
 </div>
 
+<br>
+
 ---
+
+<br>
 
 
 <div class="class-content-link">
