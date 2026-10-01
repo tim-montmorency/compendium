@@ -19,7 +19,7 @@
 <figcaption class="small" markdown>Christine Fréchette (CAQ) (première ministre sortante), Charles Milliard (PLQ), Ruba Ghazal (QS), Paul St-Pierre Plamondon (PQ), Éric Duhaime (PCQ)</figcaption>
 </figure>
 
-[:simple-youtube:](https://youtube.com/shorts/zBaIvM0QPx8?si=FQUmcdKig23fpSo3)
+[:simple-youtube: C’est votre première élection provinciale? Voici ce qu’il faut savoir | Élections Québec 2026](https://youtube.com/shorts/zBaIvM0QPx8?si=FQUmcdKig23fpSo3)
 
 ### La Boussole électorale
 
@@ -196,13 +196,12 @@ public class Tir : MonoBehaviour
 
 1. Dans **Assets > _ > Scripts**, ajouter le script ci-dessus (**Create > Scripting > MonoBehaviour Script**)
 1. Créer un prefab pour le projectile
-  - Créer une Sphere (**GameObject > 3D Object > Sphere**)
-  - Réduire son échelle (ex. : `0.2`)
-  - Ajouter un Rigidbody : 
+  - Créer un Empty Object et le renommer « Bullet »
+  - Créer une Sphere (**GameObject > 3D Object > Sphere**) comme enfant de « Bullet »
+  - Réduire l'échelle de la sphère (ex. : `0.2`)
+  - Sur « Bullet » (l'Empty Object, pas la sphère), ajouter un Rigidbody : 
     - **Collision Detection** = **Continuous Dynamic**
     - Mass = Environ `0.1`
-  - Placer la sphère dans un Empty Object
-  - Renommer l'Empty Object « Bullet »
   - Glisser « Bullet » dans le dossier **Assets > _ > Prefabs** pour en faire un prefab
   - Supprimer « Bullet » du panneau _Hierarchy_
   - Appliquer un nouveau Tag au prefab (ex. : Projectile)
@@ -240,7 +239,7 @@ Qui dit tir, dit Viseur (_Crosshair_) ! Même sans tir, ça aide à orienter le 
 
 Pour un FPS, rien de nouveau. Il suffit d'ajouter un canvas avec au centre, ledit crosshair ! Voici plein d'images utiles pour cela : <https://kenney.nl/assets/crosshair-pack>.
 
-Pour un TPS, le crosshair est effectivement une option, mais il est alors préférable d'utiliser le script [MatchCameraYaw.cs](./extra/MatchCameraYaw.cs) (voir [Tir en TPS](#tir-en-tps)) pour que le personnage soit toujours orienté dans la même direction que la caméra.
+Pour un TPS, le crosshair est effectivement une option, mais il est alors préférable d'utiliser le script [MatchCameraYaw.cs](./extra/MatchCameraYaw.cs) pour que le personnage soit toujours orienté dans la même direction que la caméra.
 
 ## Retour sur les UI
 
