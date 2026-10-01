@@ -77,6 +77,8 @@ async function init() {
 init();
 ```
 
+Revoir : [Récap : `init()`](../../../js/recap-js.md#init)
+
 Pour l'étape 3, deux façons, déjà vues dans l'exercice :
 
 | Façon | Idée | Revoir |

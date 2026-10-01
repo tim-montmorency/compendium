@@ -82,7 +82,7 @@ Le même code, réparti dans 3 fichiers :
 |---|---|---|---|
 | `loadProjects()` | `js/data.js` | Aller chercher les données et les **retourner**. | [fetch et async](js/recap-js.md#async), [erreurs](js/recap-js.md#erreurs) |
 | `createProjectCard(project)` | `js/components/project-card.js` | **Un** projet → le HTML de **sa** carte. | [gabarits littéraux](js/recap-js.md#gabarits) |
-| `init()` | `js/main.js` | Attendre `loadProjects()`, puis insérer les cartes dans la page. Sans oublier d'appeler `init();`. | [forEach](js/recap-js.md#foreach), [map et join](js/recap-js.md#map-filter-find) |
+| `init()` | `js/main.js` | Attendre `loadProjects()`, puis insérer les cartes dans la page. Sans oublier d'appeler `init();`. | [init()](js/recap-js.md#init), [forEach](js/recap-js.md#foreach), [map et join](js/recap-js.md#map-filter-find) |
 
 Seules deux choses changent par rapport à l'exercice : l'adresse du `fetch()` (votre source) et la structure de la carte (votre design).
 

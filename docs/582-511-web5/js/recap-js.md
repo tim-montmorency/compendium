@@ -437,11 +437,66 @@ Les deux versions font exactement la même chose. Choisissez celle avec laquelle
 !!! warning "Une fonction `async` retourne toujours une promesse"
     `const projects = loadProjects();` ne donne **pas** les projets, mais une promesse. Il faut `await loadProjects()` (dans une autre fonction `async`) ou `loadProjects().then(...)` pour récupérer des valeurs, comme vos données de projets.
 
-## 16. Gérer les erreurs : `try` / `catch` et `.catch()` { #erreurs }
+## 16. Utiliser les données : `init()` { #init }
 
-Un chargement peut échouer : fichier introuvable, réseau coupé, jeton invalide. On attrape l'erreur pour afficher un message plutôt qu'une page vide. Chaque syntaxe a sa façon de faire.
+`loadProjects()` va **chercher** les données et les retourne, mais n'affiche rien. Il faut une deuxième fonction pour les **utiliser** : `init()`, le point de départ de la page. Elle attend `loadProjects()`, puis fait quelque chose avec les projets reçus.
 
 **Avec `async` / `await`**
+
+```js
+async function init() {
+  const projects = await loadProjects();  // attendre les données
+  console.log(projects);                  // les utiliser
+}
+
+init();  // lancer la fonction
+```
+
+**Avec `.then()`**
+
+```js
+function init() {
+  loadProjects()
+    .then(projects => console.log(projects));
+}
+
+init();
+```
+
+| Fonction | Fichier | Son travail |
+|---|---|---|
+| `loadProjects()` | `js/data.js` | Aller **chercher** les données et les **retourner**. |
+| `init()` | `js/main.js` | **Attendre** les données, puis les **utiliser** (afficher les cartes). |
+| `init();` | `js/main.js`, à la fin | **Lancer** `init()`. |
+
+!!! warning "Sans `init();` à la fin, rien ne se passe"
+    Déclarer une fonction (`function init() { ... }`) ne l'exécute pas. Il faut l'**appeler**, une fois, à la fin de `main.js`. Pas d'erreur dans la console, pas de cartes : vérifiez d'abord cette ligne.
+
+## 17. Gérer les erreurs : `throw`, `try` / `catch` et `.catch()` { #erreurs }
+
+Un chargement peut échouer : fichier introuvable, réseau coupé, jeton invalide. On veut afficher un message au visiteur plutôt qu'une page vide. Le travail se partage entre les deux fonctions : `loadProjects()` **signale** l'erreur, `init()` l'**attrape**.
+
+### Signaler : `throw` dans `loadProjects()`
+
+Piège : `fetch()` ne considère **pas** une erreur 404 (fichier introuvable) ou 401 (jeton invalide) comme un échec. Il reçoit une réponse, donc tout va bien pour lui. C'est à vous de vérifier `response.ok` (vrai seulement si le statut est 200 à 299) et de lancer l'erreur avec `throw` :
+
+```js
+async function loadProjects() {
+  const response = await fetch('data/projects.json');
+  if (!response.ok) {
+    throw new Error(`Erreur ${response.status}`);  // ex. "Erreur 404"
+  }
+  return await response.json();
+}
+```
+
+`throw` arrête la fonction et rompt la promesse : l'erreur remonte jusqu'à celui qui attend `loadProjects()`, donc `init()`.
+
+### Attraper : dans `init()`
+
+C'est le même `init()` qu'à la section précédente, avec une gestion d'erreur autour. Chaque syntaxe a sa façon de faire.
+
+**Avec `async` / `await`** : `try` / `catch`
 
 ```js
 async function init() {
@@ -454,9 +509,11 @@ async function init() {
       '<p>Les projets n’ont pas pu être chargés.</p>';
   }
 }
+
+init();
 ```
 
-**Avec `.then()`**
+**Avec `.then()`** : `.catch()`
 
 ```js
 function init() {
@@ -468,9 +525,14 @@ function init() {
         '<p>Les projets n’ont pas pu être chargés.</p>';
     });
 }
+
+init();
 ```
 
-## 17. Paramètres d'URL : `URLSearchParams` { #urlsearchparams }
+!!! info "Pas de `try` / `catch` dans `loadProjects()`"
+    Si `loadProjects()` attrapait elle-même l'erreur, elle ne retournerait rien, et `init()` planterait plus loin avec un message incompréhensible (`Cannot read properties of undefined`). La règle : on **signale** dans `data.js`, on **attrape** dans `main.js`.
+
+## 18. Paramètres d'URL : `URLSearchParams` { #urlsearchparams }
 
 Lire les informations après le `?` d'une adresse, comme `project.html?id=biome`.
 
@@ -479,7 +541,7 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get('id'); // "biome", ou null si absent
 ```
 
-## 18. Déboguer : la console
+## 19. Déboguer : la console
 
 ```js
 console.log(projects);     // afficher une valeur
@@ -500,9 +562,9 @@ Et dans l'inspecteur du navigateur (F12) :
 Les concepts de cette page, réunis dans le patron que vous allez coder pour votre portfolio :
 
 ```js
-async function init() {                                   // 15. async
+async function init() {                                   // 15. async, 16. init()
   const grid = document.querySelector('.projects__grid'); // 11. DOM
-  try {                                                   // 16. try / catch
+  try {                                                   // 17. try / catch
     const projects = await loadProjects();   // 15. fetch, 6. tableau d'objets
     grid.innerHTML = projects                             // 12. innerHTML
       .map(project => `
@@ -513,11 +575,11 @@ async function init() {                                   // 15. async
       `)                                   // 10. map, 3. gabarit, 8. ternaire
       .join('');                           // 10. join
   } catch (error) {
-    console.error(error);                  // 18. console
+    console.error(error);                  // 19. console
   }
 }
 
-init();
+init();                                    // 16. appeler init()
 ```
 
 La même chose avec `.then()` :
@@ -536,7 +598,7 @@ function init() {
         `)
         .join('');
     })
-    .catch(error => console.error(error));                // 16. .catch()
+    .catch(error => console.error(error));                // 17. .catch()
 }
 
 init();
