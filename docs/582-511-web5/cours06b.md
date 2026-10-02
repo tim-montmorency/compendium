@@ -8,6 +8,30 @@
 
 [:material-clipboard-check-multiple: Consignes QA du portfolio](projets/portfolio/qa-portfolio.md){ .md-button .md-button--primary }
 
+!!! danger "À faire en arrivant : `noindex` sur la branche `beta`"
+    Votre bêta est publique : sans cette ligne, Google peut l'indexer.
+    Ajoutez-la dans le `<head>` de **chaque** fichier HTML de la
+    branche `beta` (`index.html`, `project.html`...) :
+
+    ```html
+    <meta name="robots" content="noindex, nofollow">
+    ```
+
+    **Directement sur github.com**, pas dans VS Code :
+
+    1. Ouvrez votre dépôt. Dans le menu des branches (en haut à
+       gauche de la liste des fichiers), choisissez **`beta`**.
+    2. Cliquez sur `index.html`, puis sur le crayon ✏️ (*Edit this file*).
+    3. Collez la ligne dans le `<head>`, sous la balise `<title>`.
+    4. **Commit changes...** → vérifiez que **Commit directly to the
+       `beta` branch** est coché → **Commit changes**.
+    5. Refaites les étapes 2 à 4 pour chaque fichier HTML.
+
+    Vérification : 1 ou 2 minutes plus tard, sur votre site en ligne,
+    Ctrl + U (code source) : la ligne est dans le `<head>`.
+
+    Vous l'aviez déjà mise avant de créer `beta`? Rien à faire.
+
 ## Aujourd'hui
 
 - [ ] Remise bêta : tout est en ligne?
