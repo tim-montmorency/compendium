@@ -84,6 +84,8 @@ Un problème? On le règle maintenant : sans bêta en ligne, vos camarades ne pe
 
 ## Le contrôle de la qualité
 
+[:material-presentation: Présentation : QA et accessibilité (PowerPoint)](assets/documents/Web5_qa-accessibilite.pptx){ .md-button }
+
 Scénario, résultat attendu, résultat observé, écart, gravité, correctif, validation : le vocabulaire de votre grille, et la démarche qu'on applique aujourd'hui.
 
 [:material-magnify-scan: Le contrôle de la qualité : les notions](qa/controle-qualite.md){ .md-button .md-button--primary }
