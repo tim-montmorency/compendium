@@ -52,6 +52,13 @@ La grille exige que chaque testeur utilise un **navigateur ou un appareil diffé
 | B | Firefox, fenêtre **plein écran** sur l'écran large de la classe | Le cas limite : un très grand écran |
 | C | Son téléphone (Safari sur iPhone, Chrome sur Android) | Le mobile |
 
+!!! info "Pas de Mac ni d'iPhone? Aucun problème"
+    Safari n'est pas exigé : il faut seulement 3 environnements
+    **différents**. Un téléphone Android avec Chrome compte comme
+    un environnement à part entière. Pas de téléphone du tout? Le
+    3e testeur utilise Edge (si A est sur Chrome) en mode appareil
+    de l'inspecteur, à 375 px de large.
+
 Inscrivez la largeur dans l'onglet **Lisez-moi**, colonne *Appareil et largeur* : ex. « ordinateur, 1920 px ».
 
 !!! tip "Obtenir une fenêtre d'environ 1920 px sur l'écran large"

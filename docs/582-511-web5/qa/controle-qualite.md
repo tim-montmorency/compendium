@@ -99,7 +99,7 @@ Un **environnement**, c'est la combinaison d'un navigateur et d'un appareil. Les
 |---|---|
 | Chrome ou Edge, ordinateur | Votre environnement de développement : peu de surprises. |
 | Firefox | Les fonctions CSS récentes pas encore supportées (ex. animations au défilement). |
-| Safari (Mac ou iPhone) | Des différences de rendu (formulaires, `position: sticky`, vidéos). |
+| Safari (Mac ou iPhone, si vous y avez accès) | Des différences de rendu (formulaires, `position: sticky`, vidéos). |
 | Téléphone réel | Le tactile, la vraie taille du texte, le menu mobile, la vraie vitesse de chargement. |
 
 Le mode appareil de l'inspecteur **simule** la largeur d'un téléphone, mais pas son tactile ni sa vitesse. Rien ne remplace un vrai téléphone.
