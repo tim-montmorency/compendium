@@ -136,6 +136,8 @@ Prévoyez quand même un `<button>` de fermeture visible.
 
 ## Bonus : le mouvement
 
+<div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=67cf1a3d-0060-44c0-b289-a5f91aa47e9a&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="parametres-accessibilité-preferred-reduced-motion.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
 Vos animations au défilement respectent-elles `prefers-reduced-motion`? C'est vu dans la page [Animations pilotées par le défilement](../css/animations-scroll.md).
 
 ## Lighthouse : un point de départ

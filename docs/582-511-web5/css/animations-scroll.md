@@ -190,6 +190,8 @@ Sans support : pas d'animation, mais un contenu parfaitement visible. C'est le b
 
 ### 2. `prefers-reduced-motion` : respecter l'accessibilité
 
+<div style="max-width: 640px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=67cf1a3d-0060-44c0-b289-a5f91aa47e9a&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="parametres-accessibilité-preferred-reduced-motion.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
 Certaines personnes activent, dans leur système, l'option « réduire les animations » : le mouvement peut leur causer des nausées ou des maux de tête. On la respecte en n'activant les animations que si elle n'est **pas** demandée :
 
 ```css
