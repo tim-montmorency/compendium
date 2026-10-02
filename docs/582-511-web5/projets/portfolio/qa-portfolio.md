@@ -5,9 +5,12 @@
     2. **Un seul fichier Excel**, `qa-prenom-nom.xlsx`, contient tout : les scénarios, les résultats des 3 testeurs, vos correctifs et leur validation, puis votre autoévaluation.
     3. Les tests se font sur la branche **`beta`**. Une fois les 3 tests terminés, vous passez GitHub Pages sur **`main`**, vous corrigez, et vous **validez** chaque correctif en refaisant le scénario en ligne.
 
-C'est le **critère 3** de votre grille (015Q, /10) : la vérification auprès de 3 personnes, le rapport de tests et les correctifs validés. Les tests d'accessibilité et de médias servent aussi aux critères 1 et 2.
+<br>
+
+C'est le **critère 3** de votre grille d'évaluation *Contrôle rigoureux de la qualité du portfolio 015Q · vaut pour 10% de la note finale de la session* : la vérification auprès de 3 personnes, le rapport de tests et les correctifs validés. Les tests d'accessibilité et de médias servent aussi aux critères 1 et 2.
 
 [:material-magnify-scan: Le contrôle de la qualité : les notions](../../qa/controle-qualite.md){ .md-button }
+
 [:material-human: L'accessibilité : tester les 4 points de la grille](../../qa/accessibilite.md){ .md-button }
 
 ## Les dates
@@ -28,7 +31,7 @@ C'est le **critère 3** de votre grille (015Q, /10) : la vérification auprès d
 1. Ouvrez le dossier partagé sur OneDrive : <!-- MM : coller ici le lien du dossier OneDrive --> [dossier QA du portfolio](#){ :target="_blank" }.
 2. **Ne modifiez pas le gabarit.** Clic droit sur le gabarit → **Copier vers** → le même dossier.
 3. Renommez votre copie `qa-prenom-nom.xlsx` : **minuscules, sans accents, sans espaces**. Ex. `qa-helene-cote.xlsx`.
-4. Ouvrez votre copie (dans le navigateur, avec Excel en ligne) et remplissez l'onglet **Lisez-moi** : vos informations, l'adresse de votre bêta, et les 3 testeurs.
+4. Ouvrez votre copie (dans le navigateur, avec Excel en ligne) et remplissez l'onglet **Lisez-moi** : vos informations, l'adresse de votre site, et les 3 testeurs.
 5. Dans l'onglet **Scénarios**, ajoutez **2 ou 3 scénarios personnels** (scénarios 12 à 14) : les fonctions propres à votre site. Ex. « Filtrer les projets par catégorie », « Changer de thème clair/sombre », « Faire défiler le carrousel d'un projet ».
 
 !!! danger "Un fichier par personne, et on ne touche qu'au sien"
@@ -85,7 +88,6 @@ Comptez environ **30 minutes par site**. Les scénarios 7 à 9 (clavier, contras
 1. Sur GitHub : votre dépôt → **Settings** → **Pages**.
 2. **Branch** : remplacez `beta` par **`main`**, dossier `/ (root)`, **Save**.
 3. Attendez une ou deux minutes, puis vérifiez que votre site s'affiche à la même adresse.
-4. Inscrivez l'adresse finale dans l'onglet **Lisez-moi** (c'est la même adresse que la bêta : seule la branche publiée change).
 
 La branche `beta` reste dans votre dépôt : c'est la trace de la version testée. Ne la supprimez pas, et ne travaillez jamais dessus.
 
