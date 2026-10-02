@@ -78,7 +78,10 @@ Le Collège Montmorency encadre l'utilisation de l'IA générative selon une éc
 | 1 · Utilisation restreinte | L'IA est permise pour certaines tâches précisées par l'enseignante. |
 | **2 · Utilisation libre** | L'évaluation est réalisée sans restriction quant à l'utilisation de l'IA. |
 
-**Ce cours se situe au niveau 2.** L'IA est permise sans restriction, à une seule condition : **citer selon les normes** le contenu qui en provient.
+**Ce cours se situe au niveau 2.** L'IA est permise pour toutes les tâches, à deux conditions :
+
+1. **citer selon les normes** le contenu qui en provient (voir ci-dessous);
+2. **comprendre** tout le code que vous remettez : vous devez pouvoir l'expliquer et le modifier en direct. Le code généré par Figma Make ou Google Stitch peut servir de référence, mais il n'est jamais livré tel quel.
 
 ### Comment citer?
 

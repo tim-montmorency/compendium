@@ -107,23 +107,24 @@ Le code que tu remets est écrit et compris par toi. L'IA est un soutien, pas un
 
 L'IA est permise dans ce cours, mais son usage doit être **transparent et documenté**. Ne pas le faire est considéré comme du plagiat.
 
-Concrètement, tout contenu généré par une IA doit être cité en mentionnant :
+Concrètement, chaque question posée à l'IA doit être citée dans ton `JOURNAL.md` avec 4 éléments :
 
-- le **nom et la version** de l'IA utilisée;
-- la **requête** (le prompt) utilisée pour générer le contenu.
+- la **date**;
+- le **prompt**, en italique;
+- l'**outil** utilisé;
+- le **résultat** : ce que l'IA a généré, et ce que tu en as fait (accepté, modifié, rejeté).
 
 Pour le code, c'est ton `JOURNAL.md` qui tient ce rôle. Une entrée typique :
 
 ```markdown
 ## 2026-08-28 : navigation du portfolio
 
-- **Généré avec :** GitHub Copilot
-- **Intention :** menu qui se referme au clic à l'extérieur
-- **Prompt :** « ferme le menu quand on clique en dehors de .menu »
-- **Ce que j'ai modifié :** ajout d'une vérification pour le clavier (touche Échap),
-  renommé la fonction pour la cohérence avec le reste du code.
-- **Ce que j'ai compris :** l'écouteur est posé sur `document`, puis on teste si la
-  cible du clic est contenue dans le menu.
+- **Date :** 2026-08-28
+- **Prompt :** *« ferme le menu quand on clique en dehors de .menu »*
+- **Outil :** GitHub Copilot (VS Code)
+- **Résultat :** code accepté, puis modifié : ajout de la touche Échap,
+  fonction renommée. L'écouteur est posé sur `document`, puis on teste
+  si la cible du clic est contenue dans le menu.
 ```
 
 Ce réflexe te protège (tu démontres ta démarche) et il reflète les pratiques professionnelles : en entreprise aussi, on trace ce qui vient de l'IA.

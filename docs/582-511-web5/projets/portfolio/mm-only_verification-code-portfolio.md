@@ -1,6 +1,6 @@
 # Vérification formative : « explique et modifie ton code » (portfolio)
 
-Notes pour l'enseignante, pas une page à publier. À utiliser en circulant au cours 6.1 ou à la remise bêta. Environ 3 minutes par étudiant.
+Notes pour l'enseignante, pas une page à publier. À utiliser en circulant au cours 7.1 ou à la remise bêta. Environ 3 minutes par étudiant.
 
 ## Posture
 
