@@ -6,7 +6,6 @@
   <a href="./projets/portfolio/qa-portfolio.html">Contrôle de la qualité du portfolio : les consignes</a>
 </div>
 
-[:material-clipboard-check-multiple: Consignes QA du portfolio](projets/portfolio/qa-portfolio.md){ .md-button .md-button--primary }
 
 !!! danger "À faire en arrivant : `noindex` sur la branche `beta`"
     Votre bêta est publique : sans cette ligne, Google peut l'indexer.
@@ -32,6 +31,8 @@
 
     Vous l'aviez déjà mise avant de créer `beta`? Rien à faire.
 
+[:material-clipboard-check-multiple: Consignes QA du portfolio](projets/portfolio/qa-portfolio.md){ .md-button .md-button--primary }
+
 ## Aujourd'hui
 
 - [ ] Remise bêta : tout est en ligne?
@@ -52,7 +53,7 @@
 
 | Étape | Gr. Lora | Gr. Enric |
 |---|---|---|
-| Vos 3 tests terminés, sur `beta` | **lun. 5 oct.** | **mer. 7 oct.** |
+| Vos 3 tests terminés, sur `beta` | **lun. 5 oct. à 23h59** | **lun. 5 oct. à 23h59** |
 | Pages sur `main`, correctifs validés | avant le 8 oct. | avant le 15 oct. |
 | Autoévaluation (à la maison, en devoir) | avant le 8 oct. | avant le 15 oct. |
 
@@ -130,7 +131,7 @@ Avant de partir, dans votre fichier :
 
 ### Portfolio : tests, correctifs, validation
 
-- [ ] Terminer vos 3 tests si ce n'est pas fait : **gr. Lora avant lun. 5 oct.**, gr. Enric avant mer. 7 oct.
+- [ ] Terminer vos 3 tests si ce n'est pas fait : **lun. 5 oct. à 23h59**, pour les deux groupes.
 - [ ] Une fois les 3 tests terminés : passer GitHub Pages sur `main` ([étape 4](projets/portfolio/qa-portfolio.md#etape-4-passer-github-pages-sur-main)).
 - [ ] Corriger les bloquants, puis les majeurs, un commit par correctif (`T-21 : ...`).
 - [ ] Valider chaque correctif en ligne, dans l'onglet Correctifs.

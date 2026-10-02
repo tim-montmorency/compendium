@@ -34,8 +34,16 @@ C'est le **critère 3** de votre grille d'évaluation *Contrôle rigoureux de la
 4. Ouvrez votre copie (dans le navigateur, avec Excel en ligne) et remplissez l'onglet **Lisez-moi** : vos informations, l'adresse de votre site, et les 3 testeurs.
 5. Dans l'onglet **Scénarios**, ajoutez **2 ou 3 scénarios personnels** (scénarios 12 à 14) : les fonctions propres à votre site. Ex. « Filtrer les projets par catégorie », « Changer de thème clair/sombre », « Faire défiler le carrousel d'un projet ».
 
-!!! danger "Un fichier par personne, et on ne touche qu'au sien"
-    Tout le monde a accès au dossier. Écrivez **seulement** dans votre fichier, ou dans celui d'un camarade **quand vous le testez**, dans **votre** bloc. Si un fichier est écrasé par erreur, OneDrive garde les anciennes versions (clic droit → *Historique des versions*) : avertissez-moi.
+!!! danger "Dans le fichier d'un autre, on écrit seulement dans son bloc de testeur"
+    Tout le monde a accès au dossier. Vous écrivez dans **deux** situations :
+
+    - dans **votre** fichier : tous les onglets;
+    - dans le fichier d'un camarade **que vous testez** : seulement dans
+      **votre bloc** de l'onglet Tests (testeur 2 ou 3), rien d'autre.
+
+    N'ouvrez pas les autres fichiers. Si un fichier est écrasé par erreur,
+    OneDrive garde les anciennes versions (clic droit → *Historique des
+    versions*) : avertissez-moi.
 
 ??? info "Si OneDrive ne fonctionne pas"
     Téléchargez le gabarit, travaillez dans Excel sur votre poste, et déposez votre fichier dans le dossier partagé dès que possible.
