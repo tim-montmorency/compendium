@@ -25,7 +25,11 @@
 
     Vous l'aviez déjà mise avant de créer `beta`? Rien à faire.
 
+<br>
+
 ---
+
+<br>
 
 [:material-clipboard-check-multiple: Consignes QA du portfolio](projets/portfolio/qa-portfolio.md){ .md-button .md-button--primary }
 
