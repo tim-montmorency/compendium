@@ -8,6 +8,8 @@ Durée **2 h 45**
 
 ## Résultat attendu
 
+![](./preview.png)
+
 [Ouvrir dans le navigateur](https://tim-w3.github.io/dracula-solution/){ .md-button .md-button--primary }
 
 ## Consignes 
@@ -51,7 +53,7 @@ Le site utilise trois _packages_ supplémentaires : **Fontsource** (UnifrakturCo
   - [ ] Taille de texte `6xl` (pour les icônes)
 - [ ] Effectuer un commit et un push
 
-### Tic-tac-toe :coin::coin::coin::coin::coin:
+### Tic-tac-toe :coin::coin::coin::coin:
 
 - [ ] Dans la grille à 3 colonnes, ajouter 9 `div` carrées (ratio 1:1)
 - [ ] Dans chaque cellule, placer une icône Lucide : [`x`](https://lucide.dev/icons/x) ou [`circle-small`](https://lucide.dev/icons/circle-small)
@@ -72,6 +74,12 @@ Les animations proviennent d'Animate.css
 - [ ] Le titre apparaît en glissant du haut (`fadeInDown`)
 - [ ] La grille apparaît en glissant du bas (`fadeInUp`)
 - [ ] Chaque **✕** apparaît en tournant (`rotateIn`)
+- [ ] Effectuer un commit et un push
+
+### Responsive :coin:
+
+- [ ] Sous le breakpoint `md`, la grille de tic-tac-toe est cachée (seul le titre reste affiché)
+- [ ] À partir de `md`, la grille s'affiche normalement
 - [ ] Effectuer un commit et un push
 
 ### Finition :coin:
