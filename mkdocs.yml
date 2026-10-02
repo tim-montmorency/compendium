@@ -293,8 +293,8 @@ nav:
         - Portfolio consignes sommaires: 582-511-web5/projets/portfolio/index.md
         - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
         - Arborescence du dépôt git : 582-511-web5/projets/portfolio/arborescence-portfolio.md
-        - Gestions des données-projets:
-            - 582-511-web5/projets/portfolio/donnees/index.md
+        - Gestions des données de projets:
+            - Chargement des données projet: 582-511-web5/projets/portfolio/donnees/index.md
             - Afficher les projets: 582-511-web5/projets/portfolio/donnees/afficher-projets.md
             - Source JSON local: 582-511-web5/projets/portfolio/donnees/json-local.md
             - Source GoogleSheets+Opensheet: 582-511-web5/projets/portfolio/donnees/google-sheets-opensheet.md
@@ -310,9 +310,8 @@ nav:
         - 582-511-web5/ia/citer-utilisation-ia-journal.md
         - 582-511-web5/ia/parametrage-copilot.md
       - CSS:
-        - 582-211-web2/css/specificite-css.md
         - Général:
-            - 582-211-web2/css/resume-bases-css-web1.md
+            - Resummé CSS Web 1: 582-211-web2/css/resume-bases-css-web1.md
             - Spécificité CSS: 582-211-web2/css/specificite-css.md
             - Transitions CSS: 582-211-web2/css/transitions-css.md
             - Animations CSS: 582-511-web5/css/animations-css.md
@@ -320,12 +319,12 @@ nav:
             - Unités vw, vh, calc, clamp: 582-211-web2/css/unites-vw-vh-clamp-calc.md
             - Variab., unités, fonctions: 582-211-web2/css/variables-unites-fonctions.md
         - CSS Flexbox:
-            - 582-211-web2/css/flexbox01.md
+            - Direction, justify-c, align-items: 582-211-web2/css/flexbox01.md
             - Flex, grow, shrink, basis: 582-211-web2/css/flexbox02.md
             - Flexbox order: 582-211-web2/css/flexbox-order.md
             - gap et calc() largeur col: 582-211-web2/css/flexbox-gap-calc.md
         - CSS Grid:
-            - 582-511-web5/css/grid/intro.md
+            - Intro Grid: 582-511-web5/css/grid/intro.md
             - Conteneur template: 582-511-web5/css/grid/grid-template-cols-rows.md
             - Espacement: 582-511-web5/css/grid/gap.md
             - Unités: 582-511-web5/css/grid/unites.md
@@ -333,7 +332,7 @@ nav:
             - Placement area: 582-511-web5/css/grid/grid-area.md
             - Nommer espaces areas: 582-511-web5/css/grid/grid-template-areas.md
         - CSS responsive:
-            - 582-211-web2/css/mediaqueries-breakpoints.md
+            - Media queries, breakpoints: 582-211-web2/css/mediaqueries-breakpoints.md
             - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
       - Recap JavaScript: 582-511-web5/js/recap-js.md
       - Cours 1.1: 582-511-web5/cours01a.md
