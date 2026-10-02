@@ -28,14 +28,22 @@ C'est le **critère 3** de votre grille d'évaluation *Contrôle rigoureux de la
 
 ## Étape 1 : préparer votre fichier { #etape-1-preparer-votre-fichier }
 
-1. Ouvrez le dossier partagé sur OneDrive : [dossier QA du portfolio]([#](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/01-projet-portfolio/qa-2026?d=w4a3f50b34edd4cb1a4014fafe79b1ea2&csf=1&web=1&e=HML1yB)){ :target="_blank" }.
+1. Ouvrez le dossier partagé sur OneDrive : [dossier QA du portfolio](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/01-projet-portfolio/qa-2026?d=w4a3f50b34edd4cb1a4014fafe79b1ea2&csf=1&web=1&e=HML1yB){ :target="_blank" }.
 2. **Ne modifiez pas le gabarit.** Clic droit sur le gabarit → **Copier vers** → le même dossier.
 3. Renommez votre copie `qa-prenom-nom.xlsx` : **minuscules, sans accents, sans espaces**. Ex. `qa-helene-cote.xlsx`.
 4. Ouvrez votre copie (dans le navigateur, avec Excel en ligne) et remplissez l'onglet **Lisez-moi** : vos informations, l'adresse de votre site, et les 3 testeurs.
 5. Dans l'onglet **Scénarios**, ajoutez **2 ou 3 scénarios personnels** (scénarios 12 à 14) : les fonctions propres à votre site. Ex. « Filtrer les projets par catégorie », « Changer de thème clair/sombre », « Faire défiler le carrousel d'un projet ».
 
-!!! danger "Un fichier par personne, et on ne touche qu'au sien"
-    Tout le monde a accès au dossier. Écrivez **seulement** dans votre fichier, ou dans celui d'un camarade **quand vous le testez**, dans **votre** bloc. Si un fichier est écrasé par erreur, OneDrive garde les anciennes versions (clic droit → *Historique des versions*) : avertissez-moi.
+!!! danger "Dans le fichier d'un autre, on écrit seulement dans son bloc de testeur"
+    Tout le monde a accès au dossier. Vous écrivez dans **deux** situations :
+
+    - dans **votre** fichier : tous les onglets;
+    - dans le fichier d'un camarade **que vous testez** : seulement dans
+      **votre bloc** de l'onglet Tests (testeur 2 ou 3), rien d'autre.
+
+    N'ouvrez pas les autres fichiers. Si un fichier est écrasé par erreur,
+    OneDrive garde les anciennes versions (clic droit → *Historique des
+    versions*) : avertissez-moi.
 
 ??? info "Si OneDrive ne fonctionne pas"
     Téléchargez le gabarit, travaillez dans Excel sur votre poste, et déposez votre fichier dans le dossier partagé dès que possible.
@@ -51,6 +59,13 @@ La grille exige que chaque testeur utilise un **navigateur ou un appareil diffé
 | A | Chrome ou Edge, fenêtre **ancrée à la moitié de l'écran** (environ 1920 px) | L'écran d'ordinateur courant de vos visiteurs |
 | B | Firefox, fenêtre **plein écran** sur l'écran large de la classe | Le cas limite : un très grand écran |
 | C | Son téléphone (Safari sur iPhone, Chrome sur Android) | Le mobile |
+
+!!! info "Pas de Mac ni d'iPhone? Aucun problème"
+    Safari n'est pas exigé : il faut seulement 3 environnements
+    **différents**. Un téléphone Android avec Chrome compte comme
+    un environnement à part entière. Pas de téléphone du tout? Le
+    3e testeur utilise Edge (si A est sur Chrome) en mode appareil
+    de l'inspecteur, à 375 px de large.
 
 Inscrivez la largeur dans l'onglet **Lisez-moi**, colonne *Appareil et largeur* : ex. « ordinateur, 1920 px ».
 
@@ -90,6 +105,9 @@ Pour chaque ligne :
     - Firefox ne fait pas encore les animations au défilement : si le contenu s'affiche normalement sans animation, c'est **conforme**.
 
 Comptez environ **30 minutes par site**. Les scénarios 7 à 9 (clavier, contraste, WAVE) demandent les outils vus en classe : [page Accessibilité](../../qa/accessibilite.md).
+
+!!! warning "Vous êtes responsable de votre rapport"
+    Vos camarades écrivent dans votre fichier, mais c'est **votre** rapport qui est évalué. Si une description est vague (« le menu marche pas »), demandez des précisions au testeur et complétez-la : où, quoi, comment le reproduire.
 
 ## Étape 4 : passer GitHub Pages sur `main` { #etape-4-passer-github-pages-sur-main }
 

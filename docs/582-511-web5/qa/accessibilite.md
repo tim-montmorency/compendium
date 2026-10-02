@@ -9,14 +9,55 @@ Pour qui? Une personne aveugle qui utilise un lecteur d'écran, une personne qui
 
 [:material-clipboard-check-multiple: Retour aux consignes QA du portfolio](../projets/portfolio/qa-portfolio.md){ .md-button }
 
-## Installer WAVE (2 minutes)
+## WAVE en ligne (aucune installation)
 
-[Extension WAVE](https://wave.webaim.org/extension/){ :target="_blank" }, pour Chrome, Firefox ou Edge. Sur votre site en ligne : cliquez sur l'icône WAVE. Un panneau s'ouvre à gauche :
+Allez sur [wave.webaim.org](https://wave.webaim.org/){ :target="_blank" }, collez l'adresse de votre site en ligne (GitHub Pages), puis **Entrée**. Ça fonctionne dans tous les navigateurs, même sur un téléphone. Votre page s'affiche avec des icônes, et un panneau à gauche :
 
 - **Errors** (rouge) : à corriger, sans exception;
 - **Contrast Errors** : textes au contraste insuffisant;
 - **Alerts** (jaune) : à vérifier, pas toujours un problème;
 - l'onglet **Structure** : vos titres (`h1`, `h2`...) et vos régions (`header`, `nav`, `main`...).
+
+!!! info "Ce que WAVE ne voit pas"
+    WAVE analyse la page **telle qu'elle se charge**. Une modale fermée ou un menu replié n'est pas analysé : le test au clavier (point 4) s'en charge. En multipages, collez aussi l'adresse d'un détail de projet (ex. `.../project.html?id=biome`).
+
+??? info "Lexique WAVE : anglais → français"
+    **Le panneau de gauche**
+
+    | WAVE | En français | Quoi faire |
+    |---|---|---|
+    | *Errors* | Erreurs | À corriger, sans exception |
+    | *Contrast Errors* | Erreurs de contraste | À corriger |
+    | *Alerts* | Avertissements | À vérifier : pas toujours un problème |
+    | *Features* | Éléments d'accessibilité présents | Rien : c'est positif (ex. un `alt` présent) |
+    | *Structural Elements* | Éléments de structure | Vos titres et vos régions |
+    | *Details* / *Structure* / *Contrast* | Onglets : détail, plan, contraste | |
+
+    **Les erreurs les plus fréquentes**
+
+    | WAVE | En français |
+    |---|---|
+    | *Missing alternative text* | Image sans `alt` |
+    | *Linked image missing alternative text* | Image dans un lien, sans `alt` |
+    | *Empty link* | Lien sans texte (souvent une icône seule) |
+    | *Empty button* | Bouton sans texte (ex. le menu hamburger) |
+    | *Empty heading* | Titre vide |
+    | *Missing form label* | Champ de formulaire sans `<label>` |
+    | *Language missing or invalid* | `lang` absent ou invalide sur `<html>` |
+    | *Very low contrast* | Contraste insuffisant |
+
+    **Les avertissements les plus fréquents**
+
+    | WAVE | En français |
+    |---|---|
+    | *Skipped heading level* | Niveau de titre sauté (ex. `h2` → `h4`) |
+    | *Missing first level heading* | Aucun `h1` dans la page |
+    | *Redundant alternative text* | Le `alt` répète le texte voisin |
+    | *Suspicious alternative text* | `alt` douteux (ex. « image », « photo ») |
+    | *Redundant link* | Deux liens côte à côte vers la même adresse |
+
+    Pour le détail d'une erreur : cliquez sur son icône dans la page,
+    puis sur **Reference** (en anglais, mais avec un exemple de code).
 
 ## 1. La sémantique HTML5
 
@@ -34,7 +75,9 @@ Le bon élément pour le bon rôle. Un lecteur d'écran s'en sert pour annoncer 
     Un bouton qui ne contient qu'une icône n'a **pas de nom** pour un lecteur d'écran. Donnez-lui-en un :
 
     ```html
-    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+    <button class="menu-toggle"
+            aria-label="Ouvrir le menu"
+            aria-expanded="false">
       <svg aria-hidden="true">...</svg>
     </button>
     ```
@@ -84,7 +127,7 @@ WAVE liste aussi les erreurs de contraste, mais il ne peut pas mesurer un texte 
 
 ## 4. La navigation au clavier
 
-Débranchez la souris (pour vrai). Sur votre site :
+Mettez la souris de côté, hors de portée de la main, et ne la touchez plus. Cliquez une dernière fois dans la barre d'adresse, puis appuyez sur Tab pour entrer dans la page. Sur votre site :
 
 | Touche | Ce qu'elle doit faire |
 |---|---|
@@ -108,7 +151,8 @@ Le contour du focus est souvent retiré parce qu'on le trouve laid. C'est l'erre
 /* ✖️ À ne jamais faire seul : le focus devient invisible */
 button:focus { outline: none; }
 
-/* ✔️ Un focus visible, à vos couleurs, seulement pour la navigation au clavier */
+/* ✔️ Un focus visible, à vos couleurs,
+   seulement pour la navigation au clavier */
 :focus-visible {
   outline: 3px solid var(--color-accent);
   outline-offset: 3px;
@@ -142,7 +186,7 @@ Vos animations au défilement respectent-elles `prefers-reduced-motion`? C'est v
 
 ## Lighthouse : un point de départ
 
-Inspecteur Chrome → onglet **Lighthouse** → cochez **Accessibility** → *Analyze page load*. Utile pour un premier ménage, mais rappelez-vous : un score de 100 ne veut pas dire que votre site est accessible. Le test au clavier et la lecture des `alt` restent indispensables.
+Inspecteur de Chrome ou d'Edge → onglet **Lighthouse** → cochez **Accessibility** → *Analyze page load*. Firefox n'a pas Lighthouse, mais son inspecteur a un onglet **Accessibilité** → **Vérifier les problèmes** (contraste, clavier, libellés). Utile pour un premier ménage, mais rappelez-vous : un score de 100 ne veut pas dire que votre site est accessible. Le test au clavier et la lecture des `alt` restent indispensables.
 
 ## Références
 

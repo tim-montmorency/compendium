@@ -36,19 +36,56 @@ En entreprise, rien n'est mis en ligne sans passer par la QA. C'est la compéten
 
 On n'a jamais le temps de tout corriger. La gravité dit par où commencer.
 
+<div style="--sev-bloquant:#ff2b47; --sev-majeur:#ff8a1f; --sev-mineur:#ffc83d; margin:1.2em 0; overflow-x:auto;">
+  <table style="width:100%; border-collapse:separate; border-spacing:0 6px; font-size:.8rem;">
+    <thead>
+      <tr>
+        <th style="text-align:left; padding:.4em .8em; opacity:.7; font-weight:600;">Gravité</th>
+        <th style="text-align:left; padding:.4em .8em; opacity:.7; font-weight:600;">Définition</th>
+        <th style="text-align:left; padding:.4em .8em; opacity:.7; font-weight:600;">Exemples</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:color-mix(in srgb, var(--sev-bloquant) 14%, transparent);">
+        <td style="padding:.8em; border-left:5px solid var(--sev-bloquant); border-radius:4px 0 0 4px; white-space:nowrap;">
+          <span style="display:inline-block; padding:.2em .7em; border-radius:999px; background:var(--sev-bloquant); color:#0a0a0a; font-weight:700;">● Bloquant</span>
+        </td>
+        <td style="padding:.8em;">Empêche d'utiliser le site ou une fonction.</td>
+        <td style="padding:.8em; border-radius:0 4px 4px 0;">Les cartes de projets ne s'affichent pas en ligne. Le menu mobile ne s'ouvre pas.</td>
+      </tr>
+      <tr style="background:color-mix(in srgb, var(--sev-majeur) 14%, transparent);">
+        <td style="padding:.8em; border-left:5px solid var(--sev-majeur); border-radius:4px 0 0 4px; white-space:nowrap;">
+          <span style="display:inline-block; padding:.2em .7em; border-radius:999px; background:var(--sev-majeur); color:#0a0a0a; font-weight:700;">● Majeur</span>
+        </td>
+        <td style="padding:.8em;">Le site s'utilise, mais l'expérience est clairement dégradée.</td>
+        <td style="padding:.8em; border-radius:0 4px 4px 0;">Contraste insuffisant. Focus invisible. Image de 5 Mo. Texte qui déborde sur mobile.</td>
+      </tr>
+      <tr style="background:color-mix(in srgb, var(--sev-mineur) 14%, transparent);">
+        <td style="padding:.8em; border-left:5px solid var(--sev-mineur); border-radius:4px 0 0 4px; white-space:nowrap;">
+          <span style="display:inline-block; padding:.2em .7em; border-radius:999px; background:var(--sev-mineur); color:#0a0a0a; font-weight:700;">● Mineur</span>
+        </td>
+        <td style="padding:.8em;">Un détail.</td>
+        <td style="padding:.8em; border-radius:0 4px 4px 0;">Un alignement décalé de quelques pixels. Un espacement incohérent.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!--
 | Gravité | Définition | Exemples |
 |---|---|---|
 | **Bloquant** | Empêche d'utiliser le site ou une fonction. | Les cartes de projets ne s'affichent pas en ligne. Le menu mobile ne s'ouvre pas. |
 | **Majeur** | Le site s'utilise, mais l'expérience est clairement dégradée. | Contraste insuffisant. Focus invisible. Image de 5 Mo. Texte qui déborde sur mobile. |
 | **Mineur** | Un détail. | Un alignement décalé de quelques pixels. Un espacement incohérent. |
+-->
 
 Ordre de correction : **tous les bloquants, puis les majeurs, puis les mineurs** si le temps le permet.
 
 ## Le cycle complet
 
 ```text
-Scénario → Test → Écart? → Gravité → Correctif (commit) → Validation (même scénario)
-                    │
+Scénario → Test → Écart? → Gravité → Correctif (commit) → Validation
+                    │                                       (même scénario)
                     └── non : conforme ✔️
 ```
 
@@ -62,7 +99,7 @@ Un **environnement**, c'est la combinaison d'un navigateur et d'un appareil. Les
 |---|---|
 | Chrome ou Edge, ordinateur | Votre environnement de développement : peu de surprises. |
 | Firefox | Les fonctions CSS récentes pas encore supportées (ex. animations au défilement). |
-| Safari (Mac ou iPhone) | Des différences de rendu (formulaires, `position: sticky`, vidéos). |
+| Safari (Mac ou iPhone, si vous y avez accès) | Des différences de rendu (formulaires, `position: sticky`, vidéos). |
 | Téléphone réel | Le tactile, la vraie taille du texte, le menu mobile, la vraie vitesse de chargement. |
 
 Le mode appareil de l'inspecteur **simule** la largeur d'un téléphone, mais pas son tactile ni sa vitesse. Rien ne remplace un vrai téléphone.
@@ -74,8 +111,9 @@ Le mode appareil de l'inspecteur **simule** la largeur d'un téléphone, mais pa
 | **Console** (F12) | Les erreurs JavaScript et les ressources introuvables. | Inspecteur, onglet Console |
 | **Réseau** (F12) | Les 404, le poids des fichiers, la simulation d'une connexion lente. | Inspecteur, onglet Réseau |
 | **Mode appareil** | Simuler la largeur d'un téléphone ou d'une tablette. | Inspecteur, icône téléphone/tablette (Ctrl + Maj + M) |
-| **WAVE** | Les erreurs d'accessibilité : `alt`, titres, contraste, formulaires. | [Extension WAVE](https://wave.webaim.org/extension/){ :target="_blank" } (Chrome, Firefox, Edge) |
-| **Lighthouse** | Un rapport global : performance, accessibilité, bonnes pratiques. | Inspecteur Chrome, onglet Lighthouse |
+| **WAVE** | Les erreurs d'accessibilité : `alt`, titres, contraste, formulaires. | [wave.webaim.org](https://wave.webaim.org/){ :target="_blank" } : collez l'adresse du site (tous les navigateurs) |
+| **Lighthouse** | Un rapport global : performance, accessibilité, bonnes pratiques. | Inspecteur de Chrome ou d'Edge, onglet Lighthouse |
+| **Inspecteur d'accessibilité** | Contraste, clavier, libellés manquants. | Inspecteur de Firefox, onglet Accessibilité → *Vérifier les problèmes* |
 
 !!! warning "Un score n'est pas une preuve"
     Lighthouse à 100 en accessibilité ne veut pas dire que votre site est accessible : l'outil ne peut pas savoir si votre `alt` décrit vraiment l'image, ni si on peut fermer votre modale au clavier. Les outils trouvent une partie des problèmes; les **scénarios faits par des humains** trouvent le reste.

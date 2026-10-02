@@ -6,6 +6,31 @@
   <a href="./projets/portfolio/qa-portfolio.html">Contrôle de la qualité du portfolio : les consignes</a>
 </div>
 
+
+!!! danger "À faire en arrivant : `noindex` sur la branche `beta`"
+    Votre bêta est publique : sans cette ligne, Google peut l'indexer.
+    Ajoutez-la dans le `<head>` de **chaque** fichier HTML de la
+    branche `beta` (`index.html`, `project.html`...) :
+
+    ```html
+    <meta name="robots" content="noindex, nofollow">
+    ```
+
+    **Directement sur github.com**, pas dans VS Code :
+
+    1. Ouvrez votre dépôt. Dans le menu des branches (en haut à
+       gauche de la liste des fichiers), choisissez **`beta`**.
+    2. Cliquez sur `index.html`, puis sur le crayon ✏️ (*Edit this file*).
+    3. Collez la ligne dans le `<head>`, sous la balise `<title>`.
+    4. **Commit changes...** → vérifiez que **Commit directly to the
+       `beta` branch** est coché → **Commit changes**.
+    5. Refaites les étapes 2 à 4 pour chaque fichier HTML.
+
+    Vérification : 1 ou 2 minutes plus tard, sur votre site en ligne,
+    Ctrl + U (code source) : la ligne est dans le `<head>`.
+
+    Vous l'aviez déjà mise avant de créer `beta`? Rien à faire.
+
 [:material-clipboard-check-multiple: Consignes QA du portfolio](projets/portfolio/qa-portfolio.md){ .md-button .md-button--primary }
 
 ## Aujourd'hui
@@ -28,8 +53,9 @@
 
 | Étape | Gr. Lora | Gr. Enric |
 |---|---|---|
-| Vos 3 tests terminés, sur `beta` | **lun. 5 oct.** | **mer. 7 oct.** |
+| Vos 3 tests terminés, sur `beta` | **lun. 5 oct. à 23h59** | **lun. 5 oct. à 23h59** |
 | Pages sur `main`, correctifs validés | avant le 8 oct. | avant le 15 oct. |
+| Autoévaluation (à la maison, en devoir) | avant le 8 oct. | avant le 15 oct. |
 
 ### Tutorat
 
@@ -70,7 +96,7 @@ Scénario, résultat attendu, résultat observé, écart, gravité, correctif, v
 
 Les 4 points de la grille (sémantique, `alt`, contraste, clavier), et comment tester chacun en quelques minutes. Démo au projecteur sur une bêta volontaire.
 
-Installez d'abord l'extension [WAVE](https://wave.webaim.org/extension/){ :target="_blank" }.
+Aucune installation : on utilise [WAVE en ligne](https://wave.webaim.org/){ :target="_blank" }, en collant l'adresse du site.
 
 [:material-human: L'accessibilité : les 4 points de la grille](qa/accessibilite.md){ .md-button .md-button--primary }
 
@@ -105,7 +131,7 @@ Avant de partir, dans votre fichier :
 
 ### Portfolio : tests, correctifs, validation
 
-- [ ] Terminer vos 3 tests si ce n'est pas fait : **gr. Lora avant lun. 5 oct.**, gr. Enric avant mer. 7 oct.
+- [ ] Terminer vos 3 tests si ce n'est pas fait : **lun. 5 oct. à 23h59**, pour les deux groupes.
 - [ ] Une fois les 3 tests terminés : passer GitHub Pages sur `main` ([étape 4](projets/portfolio/qa-portfolio.md#etape-4-passer-github-pages-sur-main)).
 - [ ] Corriger les bloquants, puis les majeurs, un commit par correctif (`T-21 : ...`).
 - [ ] Valider chaque correctif en ligne, dans l'onglet Correctifs.

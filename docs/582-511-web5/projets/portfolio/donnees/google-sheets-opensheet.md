@@ -41,8 +41,8 @@ Pour la `gallery`, on écrit plusieurs URL dans la même cellule, **séparées p
 Dans l'adresse de votre feuille, l'ID est la longue chaîne entre `/d/` et `/edit` :
 
 ```text
-https://docs.google.com/spreadsheets/d/1AbC2dEf3GhI4jKl5MnO6pQr7StU8vWx9Yz/edit#gid=0
-                                       └──────────── ID de la feuille ────────┘
+https://docs.google.com/spreadsheets/d/1AbC2dEf3GhI4jKl5MnO6pQr/edit#gid=0
+                                       └── ID de la feuille ──┘
 ```
 
 ### Construire l'URL opensheet
@@ -62,7 +62,7 @@ C'est le même `loadProjects()` que pour le JSON local (voir l'[exercice « Du J
 C'est de la configuration : gardez l'ID et le nom de l'onglet dans des constantes en haut du fichier, faciles à retrouver.
 
 ```js
-const SHEET_ID = '1AbC2dEf3GhI4jKl5MnO6pQr7StU8vWx9Yz'; // votre ID
+const SHEET_ID = '1AbC2dEf3GhI4jKl5MnO6pQr'; // votre ID
 const SHEET_NAME = 'Projects';
 
 // l'adresse à passer à fetch() :

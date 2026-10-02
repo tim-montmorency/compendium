@@ -23,7 +23,12 @@ Copiez-collez ce tableau dans la console, puis appuyez sur Entrée :
 
 ```js
 const projects = [
-  { id: 'cafe-du-coin', title: 'Café du coin', category: 'Design web', year: '2025' },
+  {
+    id: 'cafe-du-coin',
+    title: 'Café du coin',
+    category: 'Design web',
+    year: '2025'
+  },
   { id: 'biome', title: 'Biome', category: '3D', year: '2025' },
   { id: 'echo', title: 'Écho', category: 'Interactivité', year: '2024' }
 ];
@@ -163,10 +168,14 @@ Dans `init()`, après le `console.table()`, parcourez `projects` avec `forEach` 
     function createProjectCard(project) {
       return `
         <article class="project-card">
-          <img class="project-card__image" src="${project.image}" alt="${project.title}">
+          <img class="project-card__image"
+               src="${project.image}"
+               alt="${project.title}">
           <div class="project-card__content">
             <h3 class="project-card__title">${project.title}</h3>
-            <p class="project-card__meta">${project.category} · ${project.year}</p>
+            <p class="project-card__meta">
+              ${project.category} · ${project.year}
+            </p>
             <p class="project-card__description">${project.description}</p>
           </div>
         </article>
@@ -217,7 +226,11 @@ Dans `createProjectCard()`, ajoutez le lien avec un **opérateur ternaire** : `c
 
 ??? success "Solution"
     ```js
-    ${project.link ? `<a class="project-card__link" href="${project.link}">Voir en ligne</a>` : ''}
+    ${project.link
+      ? `<a class="project-card__link" href="${project.link}">
+           Voir en ligne
+         </a>`
+      : ''}
     ```
 
     À placer dans le gabarit, sous la description.
