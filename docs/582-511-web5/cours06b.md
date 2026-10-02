@@ -1,12 +1,6 @@
 # Cours 6.2
 <!-- ven. 2 oct. -->
 
-<div class="class-content-link">
-  <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio/qa-portfolio.html">Contrôle de la qualité du portfolio : les consignes</a>
-</div>
-
-
 !!! danger "À faire en arrivant : `noindex` sur la branche `beta`"
     Votre bêta est publique : sans cette ligne, Google peut l'indexer.
     Ajoutez-la dans le `<head>` de **chaque** fichier HTML de la
@@ -30,6 +24,8 @@
     Ctrl + U (code source) : la ligne est dans le `<head>`.
 
     Vous l'aviez déjà mise avant de créer `beta`? Rien à faire.
+
+---
 
 [:material-clipboard-check-multiple: Consignes QA du portfolio](projets/portfolio/qa-portfolio.md){ .md-button .md-button--primary }
 
