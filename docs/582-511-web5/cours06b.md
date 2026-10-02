@@ -77,7 +77,7 @@ Installez d'abord l'extension [WAVE](https://wave.webaim.org/extension/){ :targe
 ## Votre fichier QA et vos trios
 
 1. Copiez le gabarit dans le dossier OneDrive et renommez-le `qa-prenom-nom.xlsx` ([étape 1 des consignes](projets/portfolio/qa-portfolio.md#etape-1-preparer-votre-fichier)).
-2. Formez un **trio**. Chaque personne choisit **son** environnement pour tout le cours : un navigateur d'ordinateur, un autre navigateur, un téléphone.
+2. Formez un **trio**. Chaque personne choisit **son** environnement pour tout le cours : ordinateur à environ 1920 px, écran large en plein écran, téléphone ([étape 2 des consignes](projets/portfolio/qa-portfolio.md#etape-2-choisir-3-environnements-differents)).
 3. Remplissez l'onglet **Lisez-moi** : l'adresse de votre site et vos 3 testeurs.
 4. Ajoutez 2 ou 3 scénarios personnels.
 

@@ -42,15 +42,25 @@ C'est le **critère 3** de votre grille d'évaluation *Contrôle rigoureux de la
 
     [:material-microsoft-excel: Télécharger le gabarit](qa-gabarit-portfolio.xlsx){ .md-button }
 
-## Étape 2 : choisir 3 environnements différents
+## Étape 2 : choisir 3 environnements différents { #etape-2-choisir-3-environnements-differents }
 
 La grille exige que chaque testeur utilise un **navigateur ou un appareil différent**. En classe, on travaille en **trios** : chaque personne garde **son** environnement pendant tout le cours.
 
-| Personne du trio | Son environnement (exemple) |
-|---|---|
-| A | Chrome ou Edge, sur ordinateur |
-| B | Firefox (ou Safari), sur ordinateur |
-| C | Son téléphone (Safari sur iPhone, Chrome sur Android) |
+| Personne du trio | Son environnement | Ce qu'il représente |
+|---|---|---|
+| A | Chrome ou Edge, fenêtre **ancrée à la moitié de l'écran** (environ 1920 px) | L'écran d'ordinateur courant de vos visiteurs |
+| B | Firefox, fenêtre **plein écran** sur l'écran large de la classe | Le cas limite : un très grand écran |
+| C | Son téléphone (Safari sur iPhone, Chrome sur Android) | Le mobile |
+
+Inscrivez la largeur dans l'onglet **Lisez-moi**, colonne *Appareil et largeur* : ex. « ordinateur, 1920 px ».
+
+!!! tip "Obtenir une fenêtre d'environ 1920 px sur l'écran large"
+    1. Dans le navigateur, faites **Windows + ←** : la fenêtre s'ancre sur la moitié gauche de l'écran.
+    2. Vérifiez la largeur réelle : dans la console (F12), tapez `window.innerWidth`. Si Windows applique une mise à l'échelle, le chiffre peut différer : ajustez la largeur de la fenêtre à la main jusqu'à environ 1920.
+    3. Plan B : le mode appareil de l'inspecteur (Ctrl + Maj + M) → **Responsive** → tapez `1920` × `1080`.
+
+!!! question "Pourquoi tester aussi le plein écran large?"
+    C'est un **cas limite**, et la grille les valorise. Sur 3840 px, votre contenu s'étire-t-il sur toute la largeur (lignes de texte interminables, images géantes), ou est-il contenu par un `max-width`?
 
 A teste son propre site (auto-test), puis ceux de B et de C. Même chose pour B et C. Résultat : chaque site est testé 3 fois, dans 3 environnements différents. ✔️
 
