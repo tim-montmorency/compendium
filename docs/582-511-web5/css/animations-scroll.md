@@ -128,13 +128,16 @@ Le **parallax**, c'est l'illusion de profondeur : l'arrière-plan défile **plus
 ```css
 .parallax {
   position: relative;
-  overflow: clip;                 /* surtout pas hidden (voir le piège ci-dessous) */
-  view-timeline-name: --parallax; /* on nomme la timeline de la section */
+  /* surtout pas hidden (voir le piège ci-dessous) */
+  overflow: clip;
+  /* on nomme la timeline de la section */
+  view-timeline-name: --parallax;
 }
 
 .parallax__bg {
   position: absolute;
-  inset: -25% 0;                  /* plus grand que la section : de la marge pour bouger */
+  /* plus grand que la section : de la marge pour bouger */
+  inset: -25% 0;
 }
 
 @keyframes parallax {
@@ -144,7 +147,8 @@ Le **parallax**, c'est l'illusion de profondeur : l'arrière-plan défile **plus
 
 .parallax__bg {
   animation: parallax linear both;
-  animation-timeline: --parallax; /* l'arrière-plan suit la visibilité de la SECTION */
+  /* l'arrière-plan suit la visibilité de la SECTION */
+  animation-timeline: --parallax;
 }
 ```
 

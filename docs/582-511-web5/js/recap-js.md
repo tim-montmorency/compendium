@@ -427,8 +427,10 @@ async function loadProjects() {
 
 ```js
 function loadProjects() {
-  return fetch('data/projects.json')  // 1. la réponse du serveur
-    .then(response => response.json()); // 2. le contenu, converti; 3. un tableau de projets
+  // 1. la réponse du serveur
+  return fetch('data/projects.json')
+    // 2. le contenu, converti; 3. un tableau de projets
+    .then(response => response.json());
 }
 ```
 
@@ -562,7 +564,7 @@ Et dans l'inspecteur du navigateur (F12) :
 Les concepts de cette page, réunis dans le patron que vous allez coder pour votre portfolio :
 
 ```js
-async function init() {                                   // 15. async, 16. init()
+async function init() {                       // 15. async, 16. init()
   const grid = document.querySelector('.projects__grid'); // 11. DOM
   try {                                                   // 17. try / catch
     const projects = await loadProjects();   // 15. fetch, 6. tableau d'objets
