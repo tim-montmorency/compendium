@@ -30,5 +30,15 @@
 
 <div class="class-content-link">
   <img src="./assets/icon-portfolio.svg">
-  <a href="./portfolio/index-textuel.html#remise-3-finale-portfolio-complet-et-presentation-devant-le-jury-gr-lora-8-oct-gr-enric-15-oct">Instructions de la <em>Remise FINALE : Portfolio complet et présentation devant le jury</em> (semaine 7 | gr. Lora 8 oct. | gr. Enric 15 oct.)</a>
+  <a href="./portfolio/qa-gabarit-portfolio.xlsx">Instructions pour le QA et correctifs</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./assets/icon-portfolio.svg">
+  <a href="./portfolio/presentation-jury.md">Instructions pour la <em>Préparation à la présentation devant le jury</em> (semaine 7 | gr. Lora 8 oct. | gr. Enric 15 oct.)</a>
+</div>
+
+<div class="class-content-link">
+  <img src="./assets/icon-portfolio.svg">
+  <a href="./portfolio/index-textuel.html#remise-3-finale-portfolio-complet-et-presentation-devant-le-jury-gr-lora-8-oct-gr-enric-15-oct"><em>Remise FINALE : Portfolio complet et présentation devant le jury</em> (semaine 7 | gr. Lora 8 oct. | gr. Enric 15 oct.)</a>
 </div>
