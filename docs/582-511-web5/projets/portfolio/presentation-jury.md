@@ -30,14 +30,14 @@
 
 ## Les questions du jury
 
-Après votre présentation, le jury peut vous demander de :
+Après votre présentation, le jury peut vous demander des questions techniques, par exemple :
 
-- **justifier** un choix : « Pourquoi cette palette? », « Pourquoi Airtable plutôt qu'un fichier JSON? »;
-- **montrer** dans le code : « Où sont chargés vos projets? », « Où est le style de vos cartes? »;
-- **modifier en direct** : « Changez la couleur d'accent », « Ajoutez l'année sur chaque carte de projet »;
-- **expliquer votre démarche** : « Comment avez-vous testé votre site? », « Qu'est-ce qu'un de vos testeurs a trouvé? ».
+- **justifier** un choix : «&nbsp;Pourquoi cette palette?&nbsp;», «&nbsp;Pourquoi Airtable plutôt qu'un fichier JSON?&nbsp;»;
+- **montrer** dans le code : «&nbsp;Où sont chargés vos projets?&nbsp;», «&nbsp;Où est le style de vos cartes?&nbsp;»;
+- **modifier en direct** : «&nbsp;Changez la couleur d'accent&nbsp;», «&nbsp;Ajoutez l'année sur chaque carte de projet&nbsp;»;
+- **expliquer votre démarche** : «&nbsp;Comment avez-vous testé votre site?&nbsp;», «&nbsp;Qu'est-ce qu'un de vos testeurs a trouvé?&nbsp;».
 
-C'est l'indicateur « Justification orale devant le jury » de votre [grille d'évaluation](index-textuel.md#criteres-devaluation) (critère 1). Au niveau Excellent, vous reliez vos choix aux besoins des personnes que vous visez, et vous expliquez aussi vos choix techniques **non évidents**.
+C'est l'indicateur «&nbsp;Justification orale devant le jury&nbsp;» de votre [grille d'évaluation](index-textuel.md#criteres-devaluation) (critère 1). Au niveau Excellent, vous reliez vos choix aux besoins des personnes que vous visez, et vous expliquez aussi vos choix techniques **non évidents**.
 
 !!! danger "Le code généré avec l'IA"
     Il est permis, mais vous devez pouvoir l'**expliquer** et le **modifier** comme le reste de votre code. Un code que vous ne comprenez pas se voit tout de suite devant un jury : c'est exactement ce que décrit le niveau Insuffisant de l'indicateur.
@@ -54,11 +54,11 @@ C'est l'indicateur « Justification orale devant le jury » de votre [grille d'�
   - votre fichier QA (`qa-prenom-nom.xlsx`);
   - votre maquette Figma.
 - [ ] Vous avez préparé **une phrase de départ** pour chaque partie. Le reste, dites-le avec vos mots, sans lire.
-- [ ] Vous savez répondre en une phrase à : « Quel est le choix dont vous êtes le plus fier ou la plus fière? » et « Si vous aviez une semaine de plus, que changeriez-vous? »
+- [ ] Vous savez répondre en une phrase à : «&nbsp;Quel est le choix dont vous êtes le plus fier ou la plus fière?&nbsp;» et «&nbsp;Si vous aviez une semaine de plus, que changeriez-vous?&nbsp;»
 
 ## Conseils
 
 - **Parlez à un employeur**, pas à votre enseignante : c'est le rôle que joue le jury.
-- **Montrez, ne décrivez pas** : « Regardez la carte quand je réduis la fenêtre » vaut mieux que « mon site est responsive ».
+- **Montrez, ne décrivez pas** : «&nbsp;Regardez la carte quand je réduis la fenêtre&nbsp;» vaut mieux que «&nbsp;mon site est responsive&nbsp;».
 - **Un écart trouvé en QA n'est pas un aveu d'échec** : c'est la preuve que votre démarche fonctionne. Présentez-le avec son correctif.
 - **Si quelque chose brise pendant la démo**, restez calme et expliquez ce qui devrait se passer. Savoir diagnostiquer, ça aussi, ça s'évalue.

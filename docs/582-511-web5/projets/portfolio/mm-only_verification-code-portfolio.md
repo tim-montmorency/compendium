@@ -1,3 +1,18 @@
+# Journée des présentations
+
+340 minutes divisées entre 17 étudiants, ça fait 20 minutes par étudiant.
+
+| Étape | Temps | Ce qui se passe |
+|---|---|---|
+| Mise en place | 2 min | Brancher l'ordinateur, ouvrir les onglets (site en ligne, page du projet vedette, VS Code, fichier QA, Figma) |
+| Présentation | 10 min | Les 5 parties des consignes, avec le projet vedette et son processus créatif au centre |
+| Questions du jury | 6 min | Justifier ses choix, montrer dans le code, modifier en direct |
+| Changement d'étudiant | 2 min | Débrancher, ranger, le suivant s'approche. Le jury note pendant ce temps. |
+| **Total** | **20 min** | |
+
+
+
+
 # Vérification formative : «&nbsp;explique et modifie ton code&nbsp;» (portfolio)
 
 Notes pour l'enseignante, pas une page à publier. À utiliser en circulant au cours 7.1 ou à la remise bêta. Environ 3 minutes par étudiant.
@@ -20,7 +35,7 @@ Ce qu'on attend :
 
 Signal d'alerte : ne trouve pas le fichier, ou décrit le code ligne par ligne sans pouvoir dire ce qu'il fait globalement.
 
-### 2. «&nbsp;Ajoute une propriété `tools` à un projet et affiche-la sur sa carte.&nbsp;»
+### 2. «&nbsp;Ajoute une propriété `logiciel` (logiciel utiulisé) à un projet et affiche-la sur sa carte.&nbsp;»
 
 Ce qu'on attend :
 
