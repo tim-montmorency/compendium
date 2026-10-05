@@ -1,16 +1,16 @@
-# Vérification formative : « explique et modifie ton code » (portfolio)
+# Vérification formative : «&nbsp;explique et modifie ton code&nbsp;» (portfolio)
 
 Notes pour l'enseignante, pas une page à publier. À utiliser en circulant au cours 7.1 ou à la remise bêta. Environ 3 minutes par étudiant.
 
 ## Posture
 
 - Formatif, sans note, sans enjeu. Le but : que l'étudiant découvre lui-même ce qu'il maîtrise ou non, **avant** le jury.
-- On ne demande jamais « qui a écrit ce code? ». On demande « montre-moi » et « modifie ».
+- On ne demande jamais «&nbsp;qui a écrit ce code?&nbsp;». On demande «&nbsp;montre-moi&nbsp;» et «&nbsp;modifie&nbsp;».
 - L'étudiant pilote le clavier. Copilot fermé pendant les 3 minutes.
 
 ## Les 3 questions
 
-### 1. « Montre-moi où tes projets sont chargés. »
+### 1. «&nbsp;Montre-moi où tes projets sont chargés.&nbsp;»
 
 Ce qu'on attend :
 
@@ -20,7 +20,7 @@ Ce qu'on attend :
 
 Signal d'alerte : ne trouve pas le fichier, ou décrit le code ligne par ligne sans pouvoir dire ce qu'il fait globalement.
 
-### 2. « Ajoute une propriété `tools` à un projet et affiche-la sur sa carte. »
+### 2. «&nbsp;Ajoute une propriété `tools` à un projet et affiche-la sur sa carte.&nbsp;»
 
 Ce qu'on attend :
 
@@ -30,9 +30,9 @@ Ce qu'on attend :
 
 Signal d'alerte : ne sait pas où la carte est générée, ou modifie le HTML statique au lieu du gabarit JS.
 
-Variante si c'est trop facile : « Affiche-la seulement si elle existe » (ternaire).
+Variante si c'est trop facile : «&nbsp;Affiche-la seulement si elle existe&nbsp;» (ternaire).
 
-### 3. « Que se passe-t-il si le chargement échoue? »
+### 3. «&nbsp;Que se passe-t-il si le chargement échoue?&nbsp;»
 
 Ce qu'on attend :
 
@@ -50,7 +50,7 @@ Signal d'alerte : ne connaît pas la notion d'erreur de chargement, ou n'a aucun
 | | ✓ / ~ / ✗ | ✓ / ~ / ✗ | ✓ / ~ / ✗ | Oui / Non | |
 
 - **3 ✓** : rien à faire.
-- **Un ou deux ~ ou ✗** : « Voici ce que le jury pourrait te demander. Relis [Afficher les projets] et refais cette partie toi-même d'ici la remise finale. »
+- **Un ou deux ~ ou ✗** : «&nbsp;Voici ce que le jury pourrait te demander. Relis [Afficher les projets] et refais cette partie toi-même d'ici la remise finale.&nbsp;»
 - **Code généré non maîtrisé** : proposer la réécriture guidée (`data.js` et `main.js` réécrits à partir des pages de cours, code généré ouvert à côté comme référence, entrée au journal qui explique la différence).
 
 ## Autres signaux à observer, sans en faire une preuve
@@ -58,6 +58,6 @@ Signal d'alerte : ne connaît pas la notion d'erreur de chargement, ou n'a aucun
 - Historique Git : un seul gros commit qui contient tout le JS.
 - Code en React, Tailwind ou autre cadriciel, alors que le portfolio est en JS vanilla.
 - Structure qui ne suit pas l'arborescence du cours (`data.js`, `main.js`, composants).
-- Commentaires très génériques ou en anglais « de générateur » que l'étudiant ne peut pas paraphraser.
+- Commentaires très génériques ou en anglais «&nbsp;de générateur&nbsp;» que l'étudiant ne peut pas paraphraser.
 
-Ce sont des occasions de dire « explique-moi comment tu as bâti ça », jamais des accusations.
+Ce sont des occasions de dire «&nbsp;explique-moi comment tu as bâti ça&nbsp;», jamais des accusations.
