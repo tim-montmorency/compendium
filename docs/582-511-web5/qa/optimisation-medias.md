@@ -42,9 +42,9 @@ Pour convertir et compresser, sans rien installer : [Squoosh](https://squoosh.ap
 
 ## 2. Les bonnes dimensions { #dimensions }
 
-Une image de 4000 px de large affichée dans une carte de 400 px : le navigateur télécharge 10 fois trop de pixels, puis les jette.
+Une image de 4000px de large affichée dans une carte de 400px : le navigateur télécharge 10 fois trop de pixels, puis les jette.
 
-**Règle simple** : environ **2 fois** la largeur d'affichage, pour rester net sur les écrans haute densité (ex. une carte affichée à 400 px → une image de 800 px).
+**Règle simple** : environ **2 fois** la largeur d'affichage, pour rester net sur les écrans haute densité (ex. une carte affichée à 400px → une image de 800px).
 
 Pour connaître la largeur d'affichage : inspecteur → survolez l'image dans l'onglet Éléments, sa taille s'affiche. Redimensionnez ensuite dans Squoosh (**Resize**), en même temps que la conversion.
 
@@ -121,7 +121,7 @@ Une vidéo longue ou très lourde? Hébergez-la sur YouTube ou Vimeo et intégre
 
 Refaites la mesure de la [première section](#mesurer). Dans l'onglet **Correctifs** de votre fichier QA :
 
-- **Correctif apporté** : « Images converties en WebP et redimensionnées à 800 px, `loading="lazy"` sur les cartes »;
+- **Correctif apporté** : « Images converties en WebP et redimensionnées à 800px, `loading="lazy"` sur les cartes »;
 - **Comment j'ai validé** : « Onglet Réseau (Network), filtre Img : 8,4 Mo → 620 Ko ».
 
 Un avant et un après chiffrés : c'est exactement la preuve qu'attend la grille.
