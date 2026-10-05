@@ -1,14 +1,13 @@
 # Journée des présentations
 
-340 minutes divisées entre 17 étudiants, ça fait 20 minutes par étudiant.
+210 minutes divisées entre 17 étudiants, ça fait 12 minutes par étudiant.
 
 | Étape | Temps | Ce qui se passe |
 |---|---|---|
 | Mise en place | 2 min | Brancher l'ordinateur, ouvrir les onglets (site en ligne, page du projet vedette, VS Code, fichier QA, Figma) |
-| Présentation | 10 min | Les 5 parties des consignes, avec le projet vedette et son processus créatif au centre |
-| Questions du jury | 6 min | Justifier ses choix, montrer dans le code, modifier en direct |
-| Changement d'étudiant | 2 min | Débrancher, ranger, le suivant s'approche. Le jury note pendant ce temps. |
-| **Total** | **20 min** | |
+| Présentation | 7 min | Les 5 parties des consignes, avec le projet vedette et son processus créatif au centre |
+| Questions du jury | 3 min | Justifier ses choix, montrer dans le code, modifier en direct |
+| **Total** | **12 min** | |
 
 
 
