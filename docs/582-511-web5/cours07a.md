@@ -36,7 +36,7 @@
     |---|---|---|---|---|
     | Mar. 13 oct., 19h10 à 20h | Alexis | 50min | En ligne Teams, équipe *Web5* : [canal « Tutorat Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Enric (15 oct.) |
 
-    Ce soir, mercredi : la période régulière d'Olivier (20h) est encore là pour le gr. Lora.
+Ce soir, mercredi : la période régulière d'Olivier (20h) est encore là pour le gr. Lora qui présente demain.
 
 ## Où en êtes-vous?
 
@@ -46,6 +46,7 @@ Levez la main pour chaque étape atteinte :
 2. GitHub Pages publie maintenant la branche **`main`**.
 3. Mes écarts **bloquants** sont corrigés et validés en ligne.
 4. Mes écarts **majeurs** sont corrigés et validés en ligne.
+5. Mon auto-évalutiion est remplie, avec preuve pour chaque indicateur (onglet du fichier QA).
 
 Bloqué à l'étape 1 ou 2? C'est la priorité, avant tout le reste. [Étape 4 des consignes QA : passer sur `main`](projets/portfolio/qa-portfolio.md#etape-4-passer-github-pages-sur-main)
 
