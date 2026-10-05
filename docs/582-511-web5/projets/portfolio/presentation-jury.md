@@ -1,6 +1,6 @@
 # Présentation devant le jury
 
-??? abstract Plan global pour la journée de présention
+??? example "Plan global pour la journée de présention"
 
     210 minutes divisées entre 17 étudiants, ça fait 12 minutes par étudiant (pause de 10 minutes après le 9e étudiant).
 
