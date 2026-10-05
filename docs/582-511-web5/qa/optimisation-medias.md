@@ -3,7 +3,9 @@
 !!! abstract "L'essentiel en 3 points"
     1. Les images et les vidéos pèsent presque toujours plus lourd que tout le reste du site réuni. Les optimiser, c'est le gain de vitesse le plus facile à obtenir.
     2. Quatre gestes : le **bon format**, les **bonnes dimensions**, le **chargement différé** (`loading="lazy"`) et la **place réservée** (`width` et `height`).
-    3. On **mesure avant et après** dans l'onglet Réseau : c'est la preuve à inscrire dans l'onglet Correctifs de votre fichier QA.
+    3. On **mesure avant et après** dans l'onglet Réseau (Network) : c'est la preuve à inscrire dans l'onglet Correctifs de votre fichier QA.
+
+<br>
 
 C'est un indicateur du **critère 1** de votre grille : « Traitement optimisé des médias pour le web : format adapté à l'usage, compression appropriée, dimensions adéquates ». Le scénario 11 du gabarit QA le teste.
 
@@ -11,14 +13,16 @@ C'est un indicateur du **critère 1** de votre grille : « Traitement optimisé 
 
 ## Mesurer d'abord { #mesurer }
 
-1. Ouvrez votre site en ligne, puis l'inspecteur (F12) → onglet **Réseau**.
-2. Cochez **Désactiver le cache**, puis filtrez sur **Img**.
+![Impression-écran de la console, onglet "Réseau/Network"](./assets/optim-media-console-onglet-reseau.png)
+
+1. Ouvrez votre site en ligne, puis l'inspecteur (F12) → onglet **Réseau** (Network).
+2. Cochez **Désactiver le cache** (Disable cache), puis filtrez sur **[Img]**.
 3. Rechargez la page (Ctrl + F5).
-4. En bas de l'onglet : le **nombre** d'images et le **poids total** transféré.
-5. Triez la colonne **Taille** : les plus lourdes en haut. Ce sont elles qu'on traite en premier.
+4. En bas de l'onglet : le **nombre *x*** d'images (*x* / y requests) et le **poids total *x*** transféré (*x* kB / y kB transferred).
+5. Triez la colonne **Taille** (Size) : les plus lourdes en haut. Ce sont elles qu'on traite en premier.
 
 !!! tip "Un repère"
-    Une image de carte de projet devrait peser **quelques dizaines de Ko**, et une grande image d'en-tête rarement plus de **200 à 300 Ko**. Une photo de 3 Mo sortie directement de l'appareil ou de Figma, c'est un écart **majeur**.
+    Une image de carte de projet devrait peser **quelques dizaines de Ko**, et une grande image d'en-tête rarement plus de **200 à 300 Ko**. Une photo de 3 Mo sortie directement de l'appareil ou de Figma, c'est un écart **majeur**. C'est trop lourd et ça ralentit le site. On peut facilement descendre à 100 à 200 Ko, voire moins, sans perte visible.
 
 Notez le poids total **avant** vos corrections : vous le comparerez après.
 
@@ -115,7 +119,7 @@ Une vidéo longue ou très lourde? Hébergez-la sur YouTube ou Vimeo et intégre
 Refaites la mesure de la [première section](#mesurer). Dans l'onglet **Correctifs** de votre fichier QA :
 
 - **Correctif apporté** : « Images converties en WebP et redimensionnées à 800 px, `loading="lazy"` sur les cartes »;
-- **Comment j'ai validé** : « Onglet Réseau, filtre Img : 8,4 Mo → 620 Ko ».
+- **Comment j'ai validé** : « Onglet Réseau (Network), filtre Img : 8,4 Mo → 620 Ko ».
 
 Un avant et un après chiffrés : c'est exactement la preuve qu'attend la grille.
 
