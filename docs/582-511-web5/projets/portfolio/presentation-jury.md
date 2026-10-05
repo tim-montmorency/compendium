@@ -32,11 +32,11 @@
 
 | Temps | Partie | Ce que le jury veut voir et entendre |
 |---|---|---|
-| 0:30 | **1. Qui et pour qui** | - Qui vous êtes, ce que vous aimez faire, le stage que vous visez. <br> - À **qui** s'adresse votre portfolio (votre persona, le type d'employeur visé). |
+| 0:30 | **1. Qui et pour qui** | - *Qui vous êtes*, ce que vous aimez faire, le stage que vous visez. <br> - *À qui s'adresse votre portfolio* (votre persona, le type d'employeur visé). |
 | 1:15 | **2. Le tour du site** | Un parcours rapide **sur l'adresse en ligne** : <br> - l'accueil, <br> - la *liste des projets*, <br> - la section *Compétences*, <br> - la section *À propos*. <br> - La section *Contactez-moi* <br> - Si applicable, montrez où on on accède à votre *CV* et votre *démo reel*. |
-| 0:45 | **3. Le tour du site version MOBILE** | Un parcours rapide du site en version mobile : <br> - l'accueil, <br> - la *liste des projets*, <br> - la section *Compétences*, <br> - la section *À propos*, <br> - La section *Contactez-moi*. |
-| 2:00 | **4. Le détail de votre projet vedette et son processus créatif** | Ouvrez la page de projet qui présente votre *processus complet*. Dans vos mot racontez-le (sans le lire intégralement): <br> - le point de départ, <br> - la recherche, <br> - les essais, <br> - les choix, <br> - le résultat. <br>C'est la partie la plus importante. |
-| 1:00 | **5. La conception du portfolio** | L'identité visuelle (couleurs, typographie, ambiance) et pourquoi elle vous représente. <br> Ce qui a changé entre la maquette Figma et le site, et pourquoi. |
+| 0:45 | **3. Le tour du site version MOBILE** | Un parcours rapide du site en version mobile : <br> - l'*accueil*, <br> - la *liste des projets*, <br> - la section *Compétences*, <br> - la section *À propos*, <br> - La section *Contactez-moi*. |
+| 2:00 | **4. Le détail de votre projet vedette et son processus créatif** | Ouvrez la page de projet qui présente votre *processus complet*. Dans vos mot racontez-le (sans le lire intégralement): <br> - le *point de départ*, <br> - la *recherche*, <br> - les *essais*, <br> - les *choix*, <br> - le *résultat*. <br>C'est la partie la plus importante. |
+| 1:00 | **5. La conception du portfolio** | - L'identité visuelle (couleurs, typographie, ambiance) et pourquoi elle vous représente. <br> - Ce qui a changé entre la maquette Figma et le site, et pourquoi. |
 | 1:00 | **6. La réalisation et la qualité** | - *Un choix technique justifié* (source de données, animations, structure de navigation ou hébergement). <br> - *Un défi* rencontré et comment vous l'avez résolu. <br> - *Un écart* trouvé par vos testeurs lors du QA, son correctif et sa validation. |
 | 0:30 | **7. Comment vous démarquez-vous** | Selon-vous, de quelle façon vous croyez vous démarquer avec ce portfolio, qu'est-ce qui captera l'oeil ou l'instinct de l'employeur potentiel? |
 
