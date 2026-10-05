@@ -301,6 +301,7 @@ nav:
         - Déployer sur GitHub Pages: 582-511-web5/projets/portfolio/deploiement-github-pages.md
         - Remise bêta, liste de vérification: 582-511-web5/projets/portfolio/remise-beta.md
         - Consignes QA du portfolio: 582-511-web5/projets/portfolio/qa-portfolio.md
+        - Présentation finale devant le jury: 582-511-web5/projets/portfolio/presentation-jury.md
       - Contrôle de la qualité:
         - Les notions QA: 582-511-web5/qa/controle-qualite.md
         - Accessibilité: 582-511-web5/qa/accessibilite.md
@@ -346,6 +347,7 @@ nav:
       - Cours 5.2: 582-511-web5/cours05b.md
       - Cours 6.1: 582-511-web5/cours06a.md
       - Cours 6.2: 582-511-web5/cours06b.md
+      - Cours 7.1: 582-511-web5/cours07a.md
   - Contrôle de la qualité:
       - 582-533-controle-qualite/index.md
       - Cours 1: 582-533-controle-qualite/cours01.md
