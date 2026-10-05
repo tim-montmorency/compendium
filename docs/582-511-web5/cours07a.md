@@ -12,10 +12,12 @@
 
 - [ ] Où en êtes-vous?
 - [ ] Optimiser les médias
-- [ ] Rendre votre portfolio trouvable (retirer `noindex` de `main`)
-- [ ] Le jury : à quoi s'attendre
-- [ ] Atelier : vos correctifs QA (et vérification du code, un à un)
-- [ ] Répétition en duo
+- [ ] Rendre votre portfolio trouvable par les moteurs de recherche (retirer `noindex` de `main`)
+- [ ] Le jury (présentations) : à quoi s'attendre
+- [ ] Atelier
+  - [ ] Vos correctifs QA
+  - [ ] Mon code, je le comprends et je l'assume : répétition un à un avant le jury
+- [ ] Répétition de la présentation en duo avec un camarade de classe
 - [ ] Devoir : autoévaluation, journal, remise finale
 
 ## Rappel et mise à jour
@@ -90,15 +92,35 @@ Votre fichier QA est votre liste de travail : **bloquants**, puis **majeurs**, p
 
 [:material-clipboard-check-multiple: Consignes QA : étape 5, corriger et valider](projets/portfolio/qa-portfolio.md){ .md-button }
 
-!!! question "Pendant l'atelier : je passe vous voir, un à un"
-    Environ 3 minutes chacun, **sans note** : vous me montrez votre code et vous faites une petite modification en direct, Copilot fermé. C'est une répétition des questions du jury, pour découvrir **aujourd'hui** ce que vous maîtrisez moins, pendant qu'il reste du temps. Le gr. Lora passe en premier.
+## Mon code, je le comprends et je l'assume
+
+Pendant l'atelier, je passe vous voir **un à un**, environ 3 minutes chacun. C'est une **répétition** des questions du jury, sans note : le but est de découvrir **aujourd'hui** ce que vous maîtrisez moins, pendant qu'il reste du temps pour le corriger.
+
+**Comment ça se passe**
+
+- Vous êtes aux commandes du clavier. Copilot est fermé.
+- Je vous pose 2 ou 3 questions, du même type que celles du jury.
+- On termine par **une** chose à retravailler avant le jury, s'il y a lieu. Prenez-la en note.
+
+**Le type de questions**
+
+| Je vous demande de... | Ce que ça vérifie |
+|---|---|
+| **Montrer** | Vous savez où se trouve chaque partie de votre code. |
+| **Expliquer** | Vous pouvez dire, en vos mots, ce que fait un bout de code et pourquoi il est là. |
+| **Modifier en direct** | Vous pouvez changer votre code vous-même, sans aide. |
+| **Prévoir** | Vous savez ce qui arrive quand quelque chose ne va pas comme prévu. |
+
+Le gr. Lora passe en premier : votre jury est demain.
+
+[:material-account-voice: Les questions du jury](projets/portfolio/presentation-jury.md#questions-jury){ .md-button }
 
 ## Répétition en duo
 
 Vous avez fini vos correctifs? Formez un duo et présentez-vous mutuellement votre portfolio, **chronométré** :
 
 1. Présentation complète, environ 7 minutes, sans interruption.
-2. Votre partenaire joue le jury : une question de justification, puis une demande de modification en direct (« Change la couleur d'accent », « Ajoute l'année sur les cartes »).
+2. Votre partenaire joue le jury : une question de justification, puis une demande de modification en direct.
 3. On inverse.
 
 ## Devoir

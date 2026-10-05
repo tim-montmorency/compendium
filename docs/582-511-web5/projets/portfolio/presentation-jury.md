@@ -43,7 +43,7 @@
 !!! tip "La page du processus créatif"
     C'est elle que le jury regarde le plus longtemps. Elle doit pouvoir se lire **seule**, comme si un employeur la découvrait sans vous : les étapes dans l'ordre, des images de travail (croquis, essais, versions), et quelques phrases qui expliquent vos décisions. <br> <br> Pendant la présentation, faites-la défiler en racontant : *ne lisez pas le texte affiché*.
 
-## Les questions du jury
+## Les questions du jury { #questions-jury }
 
 Après votre présentation, le jury peut vous demander des questions, ou demandes de précision, par exemple :
 
