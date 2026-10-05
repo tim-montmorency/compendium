@@ -21,9 +21,9 @@
 | 0:45 | **1. Qui et pour qui** | Qui vous êtes, ce que vous aimez faire, le stage que vous visez. À **qui** s'adresse votre portfolio (votre persona, le type d'employeur visé). |
 | 2:30 | **2. Votre projet vedette et son processus créatif** | Ouvrez la page de projet qui présente votre **processus complet**. Racontez-le : le point de départ, la recherche, les essais, les choix, le résultat. C'est la partie la plus importante. |
 | 1:00 | **3. La conception du portfolio** | L'identité visuelle (couleurs, typographie, ambiance) et pourquoi elle vous représente. Ce qui a changé entre la maquette Figma et le site, et pourquoi. |
-| 1:15 | **4. La réalisation et la qualité** | Un choix technique justifié (ex. votre source de données). **Un défi** rencontré et comment vous l'avez résolu. **Un écart** trouvé par vos testeurs, son correctif et sa validation. |
-| 1:00 | **5. Le tour du site** | Un parcours rapide **sur l'adresse en ligne** : l'accueil, la liste des projets, la section À propos, puis la **version mobile**. Votre CV et votre démo reel : montrez où on les trouve. |
-| 0:30 | **6. Comment vous démarquez-vous** | Selon-vous, d quelle façon vous croyez vous démarquer avec ce protfolio, qu'est-ce qui caprtera l'oeil de l'employeur potentiel? |
+| 1:00 | **4. La réalisation et la qualité** | Un choix technique justifié (ex. votre source de données). **Un défi** rencontré et comment vous l'avez résolu. **Un écart** trouvé par vos testeurs, son correctif et sa validation. |
+| 1:15 | **5. Le tour du site** | Un parcours rapide **sur l'adresse en ligne** : l'accueil, la liste des projets, la section compétences, la section À propos, puis la **version mobile**. Si applicable, montrez où on trouve votre CV et votre démo reel. |
+| 0:30 | **6. Comment vous démarquez-vous** | Selon-vous, de quelle façon vous croyez vous démarquer avec ce portfolio, qu'est-ce qui captera l'oeil de l'employeur potentiel? |
 
 !!! tip "La page du processus créatif"
     C'est elle que le jury regarde le plus longtemps. Elle doit pouvoir se lire **seule**, comme si un employeur la découvrait sans vous : les étapes dans l'ordre, des images de travail (croquis, essais, versions), et quelques phrases qui expliquent vos décisions. Pendant la présentation, faites-la défiler en racontant : ne lisez pas le texte affiché.
@@ -32,10 +32,11 @@
 
 Après votre présentation, le jury peut vous demander des questions techniques, par exemple :
 
-- **justifier** un choix : «&nbsp;Pourquoi cette palette?&nbsp;», «&nbsp;Pourquoi Airtable plutôt qu'un fichier JSON?&nbsp;»;
-- **montrer** dans le code : «&nbsp;Où sont chargés vos projets?&nbsp;», «&nbsp;Où est le style de vos cartes?&nbsp;»;
-- **modifier en direct** : «&nbsp;Changez la couleur d'accent&nbsp;», «&nbsp;Ajoutez l'année sur chaque carte de projet&nbsp;»;
-- **expliquer votre démarche** : «&nbsp;Comment avez-vous testé votre site?&nbsp;», «&nbsp;Qu'est-ce qu'un de vos testeurs a trouvé?&nbsp;».
+- **Justifier** un choix : «&nbsp;Pourquoi cette palette?&nbsp;», «&nbsp;Pourquoi Airtable plutôt qu'un fichier JSON?&nbsp;»;
+- **Montrer** dans le code : «&nbsp;Où sont chargés vos projets?&nbsp;», «&nbsp;Où est le style de vos cartes?&nbsp;»;
+- **Modifier en direct** : «&nbsp;Changez la couleur d'accent&nbsp;», «&nbsp;Ajoutez l'année sur chaque carte de projet&nbsp;»;
+- **Expliquer votre démarche** : «&nbsp;Comment avez-vous testé votre site?&nbsp;», «&nbsp;Qu'est-ce qu'un de vos testeurs a trouvé?&nbsp;».
+- Où se trouve votre objectif de carrière? Selon vous, est-il suffisemment mis en valeur?
 
 C'est l'indicateur «&nbsp;Justification orale devant le jury&nbsp;» de votre [grille d'évaluation](index-textuel.md#criteres-devaluation) (critère 1). Au niveau Excellent, vous reliez vos choix aux besoins des personnes que vous visez, et vous expliquez aussi vos choix techniques **non évidents**.
 
