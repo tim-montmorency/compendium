@@ -1,6 +1,6 @@
 # Journée des présentations
 
-210 minutes divisées entre 17 étudiants, ça fait 12 minutes par étudiant.
+210 minutes divisées entre 17 étudiants, ça fait 12 minutes par étudiant (pause de 10 minutes après le 9e étudiant).
 
 | Étape | Temps | Ce qui se passe |
 |---|---|---|
@@ -9,7 +9,8 @@
 | Questions du jury | 3 min | Justifier ses choix, montrer dans le code, modifier en direct |
 | **Total** | **12 min** | |
 
-
+!!! tip "Commentaires du jury : par écrit, après les présentations"
+    Par manque de temps, le jury ne donne pas de commentaires sur place. Vous les recevrez par écrit après les présentations.
 
 
 # Vérification formative : «&nbsp;explique et modifie ton code&nbsp;» (portfolio)

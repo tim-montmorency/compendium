@@ -1,6 +1,20 @@
 # Présentation devant le jury
 
-<!-- MM : version provisoire. Durée et partage Web 5 / Préparation au milieu du travail à confirmer avec Lora et Enric (rencontre du lundi 5 oct.). -->
+??? abstract Plan global pour la journée de présention
+
+    210 minutes divisées entre 17 étudiants, ça fait 12 minutes par étudiant (pause de 10 minutes après le 9e étudiant).
+
+    | Étape | Temps | Ce qui se passe |
+    |---|---|---|
+    | Mise en place | 2 min | Brancher l'ordinateur, ouvrir les onglets (site en ligne, page du projet vedette, VS Code, fichier QA, Figma) |
+    | Présentation | 7 min | Les 5 parties des consignes, avec le projet vedette et son processus créatif au centre |
+    | Questions du jury | 3 min | Justifier ses choix, montrer dans le code, modifier en direct |
+    | **Total** | **12 min** | |
+
+    !!! tip "Commentaires du jury : par écrit, après les présentations"
+        Par manque de temps, le jury ne donne pas de commentaires sur place. Vous les recevrez par écrit après les présentations.
+
+## Consignes pour chaque étudiant (pour vous préparer à la présentation)
 
 !!! abstract "L'essentiel en 3 points"
     1. **Environ 7 minutes** pour présenter votre portfolio, puis les questions du jury. Votre **site en ligne** est votre support: pas besoin de diapos.
@@ -32,11 +46,12 @@
 
 Après votre présentation, le jury peut vous demander des questions techniques, par exemple :
 
-- **Justifier** un choix : «&nbsp;Pourquoi cette palette?&nbsp;», «&nbsp;Pourquoi Airtable plutôt qu'un fichier JSON?&nbsp;»;
-- **Montrer** dans le code : «&nbsp;Où sont chargés vos projets?&nbsp;», «&nbsp;Où est le style de vos cartes?&nbsp;»;
-- **Modifier en direct** : «&nbsp;Changez la couleur d'accent&nbsp;», «&nbsp;Ajoutez l'année sur chaque carte de projet&nbsp;»;
+- **Montrer** dans le contenu: «&nbsp;Où se trouve votre objectif de carrière? Selon vous, est-il suffisemment mis en valeur?&nbsp;».
+- **Justifier** un choix : «&nbsp;Pourquoi cette palette de couleur?&nbsp;», «&nbsp;Pourquoi Airtable plutôt qu'un fichier JSON?&nbsp;».
+- **Montrer** dans le code : «&nbsp;Où sont chargés vos projets?&nbsp;», «&nbsp;Où est le style de vos cartes?&nbsp;».
+- **Modifier en direct** : «&nbsp;Changez la couleur d'accent&nbsp;», «&nbsp;Ajoutez l'année sur chaque carte de projet&nbsp;».
 - **Expliquer votre démarche** : «&nbsp;Comment avez-vous testé votre site?&nbsp;», «&nbsp;Qu'est-ce qu'un de vos testeurs a trouvé?&nbsp;».
-- Où se trouve votre objectif de carrière? Selon vous, est-il suffisemment mis en valeur?
+
 
 C'est l'indicateur «&nbsp;Justification orale devant le jury&nbsp;» de votre [grille d'évaluation](index-textuel.md#criteres-devaluation) (critère 1). Au niveau Excellent, vous reliez vos choix aux besoins des personnes que vous visez, et vous expliquez aussi vos choix techniques **non évidents**.
 
