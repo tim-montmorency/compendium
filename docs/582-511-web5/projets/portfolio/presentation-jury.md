@@ -3,7 +3,7 @@
 <!-- MM : version provisoire. Durée et partage Web 5 / Préparation au milieu du travail à confirmer avec Lora et Enric (rencontre du lundi 5 oct.). -->
 
 !!! abstract "L'essentiel en 3 points"
-    1. **Environ 7 minutes** pour présenter votre portfolio, puis les questions du jury. Votre **site en ligne** est votre support : pas besoin de diapos.
+    1. **Environ 7 minutes** pour présenter votre portfolio, puis les questions du jury. Votre **site en ligne** est votre support: pas besoin de diapos.
     2. Le jury évalue le **contenu** (vous, vos projets, votre processus créatif) et le **contenant** (le design, le code, la qualité du site). Votre **page de projet qui montre le processus créatif** est le cœur de la présentation.
     3. Préparez-vous à **ouvrir votre code et à le modifier en direct**, Copilot fermé.
 
@@ -21,8 +21,9 @@
 | 0:45 | **1. Qui et pour qui** | Qui vous êtes, ce que vous aimez faire, le stage que vous visez. À **qui** s'adresse votre portfolio (votre persona, le type d'employeur visé). |
 | 2:30 | **2. Votre projet vedette et son processus créatif** | Ouvrez la page de projet qui présente votre **processus complet**. Racontez-le : le point de départ, la recherche, les essais, les choix, le résultat. C'est la partie la plus importante. |
 | 1:00 | **3. La conception du portfolio** | L'identité visuelle (couleurs, typographie, ambiance) et pourquoi elle vous représente. Ce qui a changé entre la maquette Figma et le site, et pourquoi. |
-| 1:30 | **4. La réalisation et la qualité** | Un choix technique justifié (ex. votre source de données). **Un défi** rencontré et comment vous l'avez résolu. **Un écart** trouvé par vos testeurs, son correctif et sa validation. |
-| 1:15 | **5. Le tour du site** | Un parcours rapide **sur l'adresse en ligne** : l'accueil, la liste des projets, la section À propos, puis la **version mobile**. Votre CV et votre démo reel : montrez où on les trouve. |
+| 1:15 | **4. La réalisation et la qualité** | Un choix technique justifié (ex. votre source de données). **Un défi** rencontré et comment vous l'avez résolu. **Un écart** trouvé par vos testeurs, son correctif et sa validation. |
+| 1:00 | **5. Le tour du site** | Un parcours rapide **sur l'adresse en ligne** : l'accueil, la liste des projets, la section À propos, puis la **version mobile**. Votre CV et votre démo reel : montrez où on les trouve. |
+| 0:30 | **6. Comment vous démarquez-vous** | Selon-vous, d quelle façon vous croyez vous démarquer avec ce protfolio, qu'est-ce qui caprtera l'oeil de l'employeur potentiel? |
 
 !!! tip "La page du processus créatif"
     C'est elle que le jury regarde le plus longtemps. Elle doit pouvoir se lire **seule**, comme si un employeur la découvrait sans vous : les étapes dans l'ordre, des images de travail (croquis, essais, versions), et quelques phrases qui expliquent vos décisions. Pendant la présentation, faites-la défiler en racontant : ne lisez pas le texte affiché.
@@ -47,11 +48,11 @@ C'est l'indicateur « Justification orale devant le jury » de votre [grille d'�
 - [ ] Vous vous êtes **chronométré** au moins une fois, à voix haute : environ 7 minutes, pas 12.
 - [ ] Vous avez testé votre site sur un **poste de la classe**, pas seulement sur le vôtre.
 - [ ] Ces onglets sont ouverts et prêts :
-    - le site en ligne, sur la page d'accueil;
-    - la page de votre projet vedette;
-    - VS Code, avec votre dépôt;
-    - votre fichier QA (`qa-prenom-nom.xlsx`);
-    - votre maquette Figma.
+  - le site en ligne, sur la page d'accueil;
+  - la page de votre projet vedette;
+  - VS Code, avec votre dépôt;
+  - votre fichier QA (`qa-prenom-nom.xlsx`);
+  - votre maquette Figma.
 - [ ] Vous avez préparé **une phrase de départ** pour chaque partie. Le reste, dites-le avec vos mots, sans lire.
 - [ ] Vous savez répondre en une phrase à : « Quel est le choix dont vous êtes le plus fier ou la plus fière? » et « Si vous aviez une semaine de plus, que changeriez-vous? »
 
