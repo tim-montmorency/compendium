@@ -7,7 +7,9 @@
 
 <br>
 
-C'est un indicateur du **critère 1** de votre grille : « Traitement optimisé des médias pour le web : format adapté à l'usage, compression appropriée, dimensions adéquates ». Le scénario 11 du gabarit QA le teste.
+C'est un indicateur du **critère 1** de votre grille : [«Traitement optimisé des médias pour le web : format adapté à l'usage, compression appropriée, dimensions adéquates»](https://tim-montmorency.com/compendium/582-511-web5/projets/portfolio/index-textuel.html#critere-1-conception-structuree-et-complete-du-projet-015t-15). 
+
+Le [scénario 11 du gabarit QA](https://cmontmorency365-my.sharepoint.com/:x:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/01-projet-portfolio/qa-2026/_GABABIT-NE-PAS-MODIFIER%20Copier.xlsx?d=w073f93e8bd63477783fd8b9bbdc0cb6e&csf=1&web=1&e=5tfnUF&nav=MTJfQjE1X3swMDAwMDAwMC0wMDAxLTAwMDAtMDEwMC0wMDAwMDAwMDAwMDB9){ :target="_blank" } le teste.
 
 [:material-clipboard-check-multiple: Retour aux consignes QA du portfolio](../projets/portfolio/qa-portfolio.md){ .md-button }
 
@@ -24,7 +26,8 @@ C'est un indicateur du **critère 1** de votre grille : « Traitement optimisé 
 !!! tip "Un repère"
     Une image de carte de projet devrait peser **quelques dizaines de Ko**, et une grande image d'en-tête rarement plus de **200 à 300 Ko**. Une photo de 3 Mo sortie directement de l'appareil ou de Figma, c'est un écart **majeur**. C'est trop lourd et ça ralentit le site. On peut facilement descendre à 100 à 200 Ko, voire moins, sans perte visible.
 
-Notez le poids total **avant** vos corrections : vous le comparerez après.
+!!! warning "Important: Notez le poids total **avant** vos corrections"
+    <span class="label-important">IMPORTANT à cette étape</span>: Notez le poids total **avant** vos corrections : vous le comparerez après. Vous pouez déjà l'inscrire dans l'onglet **Correctifs** de [votre fichier QA](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/01-projet-portfolio/qa-2026?d=w4a3f50b34edd4cb1a4014fafe79b1ea2&csf=1&web=1&e=HML1yB){ :target="_blank" }, comme preuve de votre travail.
 
 ## 1. Le bon format { #format }
 
@@ -125,6 +128,6 @@ Un avant et un après chiffrés : c'est exactement la preuve qu'attend la grille
 
 ## Références
 
-- [Chargement différé des images (MDN, en anglais)](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Lazy_loading){ :target="_blank" }
-- [L'élément `<img>` (MDN, en français)](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/img){ :target="_blank" }
-- [Squoosh](https://squoosh.app/){ :target="_blank" } : convertir et compresser dans le navigateur
+- [Chargement différé des images (lazy loading) (MDN)](https://developer.mozilla.org/fr/docs/Web/Performance/Guides/Lazy_loading){ :target="_blank" }
+- [L'élément `<img>` (MDN)](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/img){ :target="_blank" }
+- [Squoosh: outil en ligne pour compresser vos images et vidéos](https://squoosh.app/){ :target="_blank" } : convertir et compresser dans le navigateur
