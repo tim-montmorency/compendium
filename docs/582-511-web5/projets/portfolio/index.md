@@ -266,7 +266,7 @@
       <li><span class="proj-num">1</span><span class="proj-q">Qu'est-ce que j'ai accompli depuis le dernier bloc?</span></li>
       <li><span class="proj-num">2</span><span class="proj-q">Quelle a été ma principale difficulté et comment je l'ai surmontée?</span></li>
       <li><span class="proj-num">3</span><span class="proj-q">Qu'est-ce que j'ai appris que je ne savais pas avant?</span></li>
-      <li><span class="proj-num">4</span><span class="proj-q">Quelle est ma prochaine étape concrète?</span></li>
+      <li><span class="proj-num">4</span><span class="proj-q">Quelle est ma prochaine étape concrète?<br><small>Dernier bloc, avant la remise finale : « Si j'avais une semaine de plus, qu'est-ce que je changerais? »</small></span></li>
       <li><span class="proj-num">5</span><span class="proj-q">Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?</span></li>
     </ol>
   </div>

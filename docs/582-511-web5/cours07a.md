@@ -13,6 +13,7 @@
   - [ ] Vos correctifs QA
   - [ ] Mon code, je le comprends et je l'assume : répétition un à un avant le jury
 - [ ] Répétition de la présentation en duo avec un camarade de classe
+- [ ] Autoévaluation : on la commence ensemble (10 min)
 - [ ] Devoir : autoévaluation, journal, remise finale
 
 ## Rappel et mise à jour
@@ -118,13 +119,46 @@ Vous avez fini vos correctifs? Formez un duo et présentez-vous mutuellement vot
 2. Votre partenaire joue le jury : une question de justification, puis une demande de modification en direct.
 3. On inverse.
 
+## Autoévaluation et journal de bord
+
+Deux éléments de la remise finale qui tombent facilement entre deux craques. On **commence l'autoévaluation ensemble, 10 minutes à la fin du cours**; vous la terminez à la maison, avec le journal.
+
+### L'autoévaluation, dans votre fichier QA
+
+Onglet **Autoévaluation** de votre `qa-prenom-nom.xlsx`. Pour chacun des 14 indicateurs de la [grille critériée](projets/portfolio/index-textuel.md#criteres-devaluation) :
+
+1. choisissez **votre niveau** (Insuffisant, Acceptable, Très bien, Excellent);
+2. écrivez **la preuve** qui le justifie : un fichier (ex. `PLANIFICATION.md`), un ID de test (ex. `T-21`), un commit.
+
+| Pas utile | Utile |
+|---|---|
+| « Excellent, mon site est accessible. » | « Très bien : WAVE sans erreur, contraste corrigé (T-21), mais le focus de la modale reste à améliorer. » |
+
+!!! tip "La meilleure préparation au jury"
+    Les questions du jury portent sur ces mêmes indicateurs. Si vous savez prouver votre niveau par écrit, vous saurez le justifier à voix haute. Un niveau sans preuve, ce n'est qu'une opinion.
+
+### Le journal de bord, dernier bloc
+
+Dans `documentation/JOURNAL.md`, un titre pour ce bloc, par exemple `## Bloc 3 : correctifs et finalisation`, puis les **5 questions** :
+
+1. Qu'est-ce que j'ai accompli depuis le dernier bloc? (Vous pouvez faire référence à vos *commits*.)
+2. Quelle a été ma principale difficulté et comment je l'ai surmontée?
+3. Qu'est-ce que j'ai appris que je ne savais pas avant?
+4. Si j'avais une semaine de plus, qu'est-ce que je changerais? *(remplace « Quelle est ma prochaine étape concrète? » pour ce dernier bloc)*
+5. Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
+
+N'oubliez pas : **chaque question posée à l'IA depuis la bêta**, avec la date, le prompt, l'outil et le résultat. [Comment citer l'IA](projets/portfolio/index-textuel.md#utilisation-de-lia)
+
 ## Devoir
 
 ### Portfolio : remise finale (gr. Lora jeu. 8 oct. · gr. Enric jeu. 15 oct.)
 
 - [ ] GitHub Pages publie `main`, sans la ligne `noindex`, et l'adresse est dans votre `README.md`.
 - [ ] Vos correctifs (au moins les bloquants et les majeurs) sont validés dans l'onglet **Correctifs**.
-- [ ] L'onglet **Autoévaluation** de votre fichier QA est rempli, avec une preuve pour chaque indicateur.
+- [ ] <span class="label-important">Important</span> : L'onglet **Autoévaluation** de votre fichier QA est rempli, avec une preuve pour chaque indicateur.
 - [ ] Le lien vers votre fichier `qa-prenom-nom.xlsx` est dans votre `README.md`.
 - [ ] `JOURNAL.md` : les 5 questions du dernier bloc, et chaque question posée à l'IA depuis la bêta.
 - [ ] Votre présentation est prête et chronométrée : [consignes du jury](projets/portfolio/presentation-jury.md).
+
+!!! warning "Autoévaluation à ne pas oublier"
+    L'autoévaluation est **obligatoire** pour que votre remise finale soit acceptée. C'est la preuve que vous avez compris les critères de qualité et que vous savez où vous en êtes.

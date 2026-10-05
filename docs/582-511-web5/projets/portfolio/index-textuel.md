@@ -76,7 +76,7 @@ Il n'y a pas de mauvais choix, mais tout choix doit être justifié au départ d
 1. Qu'est-ce que j'ai accompli depuis le dernier bloc? (Vous pouvez faire référence à vos *commits*).
 2. Quelle a été ma principale difficulté et comment je l'ai surmontée?
 3. Qu'est-ce que j'ai appris que je ne savais pas avant?
-4. Quelle est ma prochaine étape concrète?
+4. Quelle est ma prochaine étape concrète? *(Pour le dernier bloc, avant la remise finale : « Si j'avais une semaine de plus, qu'est-ce que je changerais? »)*
 5. Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
 
 #### Utilisation de l'IA
@@ -171,7 +171,7 @@ Vous devrez mener et documenter une démarche de contrôle de qualité dans un f
 - dépôt du site en ligne (déploiement sur un serveur web de votre choix),
 - justification des choix technologiques tel que présenté à la remise 1 (PLANIFICATION.md) et s'il y a eu des changements en cours de projet, justification de ces changements dans le journal de bord (JOURNAL.md),
 - journal de bord complété pour l'ensemble du projet (JOURNAL.md)
-  - 5 questions à répondre pour le dernier bloc du projet,
+  - 5 questions à répondre pour le dernier bloc du projet (la question 4 devient : « Si j'avais une semaine de plus, qu'est-ce que je changerais? »),
   - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
 - auto-évaluation à partir de la grille critériée,
 - **fichier QA complet** : tests, correctifs validés et autoévaluation,
