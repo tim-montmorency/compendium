@@ -14,16 +14,16 @@
 | Gr. Lora | **jeudi 8 octobre** |
 | Gr. Enric | **jeudi 15 octobre** |
 
-## La structure
+## La structure (7 min)
 
 | Temps | Partie | Ce que le jury veut voir et entendre |
 |---|---|---|
-| 0:45 | **1. Qui et pour qui** | Qui vous êtes, ce que vous aimez faire, le stage que vous visez. À **qui** s'adresse votre portfolio (votre persona, le type d'employeur visé). |
-| 2:30 | **2. Votre projet vedette et son processus créatif** | Ouvrez la page de projet qui présente votre **processus complet**. Racontez-le : le point de départ, la recherche, les essais, les choix, le résultat. C'est la partie la plus importante. |
-| 1:00 | **3. La conception du portfolio** | L'identité visuelle (couleurs, typographie, ambiance) et pourquoi elle vous représente. Ce qui a changé entre la maquette Figma et le site, et pourquoi. |
-| 1:00 | **4. La réalisation et la qualité** | Un choix technique justifié (ex. votre source de données). **Un défi** rencontré et comment vous l'avez résolu. **Un écart** trouvé par vos testeurs, son correctif et sa validation. |
-| 1:15 | **5. Le tour du site** | Un parcours rapide **sur l'adresse en ligne** : l'accueil, la liste des projets, la section compétences, la section À propos, puis la **version mobile**. Si applicable, montrez où on trouve votre CV et votre démo reel. |
-| 0:30 | **6. Comment vous démarquez-vous** | Selon-vous, de quelle façon vous croyez vous démarquer avec ce portfolio, qu'est-ce qui captera l'oeil de l'employeur potentiel? |
+| 0:45 | **1. Qui et pour qui** | - Qui vous êtes, ce que vous aimez faire, le stage que vous visez. <br> - À **qui** s'adresse votre portfolio (votre persona, le type d'employeur visé). |
+| 1:15 | **2. Le tour du site** | Un parcours rapide **sur l'adresse en ligne** : <br> - l'accueil, <br> - la *liste des projets*, <br> - la section *Compétences*, <br> - la section *À propos*. <br> - Si applicable, montrez où on on accède à votre *CV* et votre *démo reel*. |
+| 2:30 | **3. Le détail de votre projet vedette et son processus créatif** | Ouvrez la page de projet qui présente votre *processus complet*. Dans vos mot racontez-le (sans le lire intégralement): <br> - le point de départ, <br> - la recherche, <br> - les essais, <br> - les choix, <br> - le résultat. <br>C'est la partie la plus importante. |
+| 1:00 | **4. La conception du portfolio** | L'identité visuelle (couleurs, typographie, ambiance) et pourquoi elle vous représente. <br> Ce qui a changé entre la maquette Figma et le site, et pourquoi. |
+| 1:00 | **5. La réalisation et la qualité** | - *Un choix technique justifié* (ex. votre source de données). <br> - *Un défi* rencontré et comment vous l'avez résolu. <br> - *Un écart* trouvé par vos testeurs lors du QA, son correctif et sa validation. |
+| 0:30 | **6. Comment vous démarquez-vous** | Selon-vous, de quelle façon vous croyez vous démarquer avec ce portfolio, qu'est-ce qui captera l'oeil ou l'instinct de l'employeur potentiel? |
 
 !!! tip "La page du processus créatif"
     C'est elle que le jury regarde le plus longtemps. Elle doit pouvoir se lire **seule**, comme si un employeur la découvrait sans vous : les étapes dans l'ordre, des images de travail (croquis, essais, versions), et quelques phrases qui expliquent vos décisions. Pendant la présentation, faites-la défiler en racontant : ne lisez pas le texte affiché.
