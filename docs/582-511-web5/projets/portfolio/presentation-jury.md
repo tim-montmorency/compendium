@@ -41,7 +41,7 @@
 | 0:30 | **7. Comment vous démarquez-vous** | Selon-vous, de quelle façon vous croyez vous démarquer avec ce portfolio, qu'est-ce qui captera l'oeil ou l'instinct de l'employeur potentiel? |
 
 !!! tip "La page du processus créatif"
-    C'est elle que le jury regarde le plus longtemps. Elle doit pouvoir se lire **seule**, comme si un employeur la découvrait sans vous : les étapes dans l'ordre, des images de travail (croquis, essais, versions), et quelques phrases qui expliquent vos décisions. Pendant la présentation, faites-la défiler en racontant : ne lisez pas le texte affiché.
+    C'est elle que le jury regarde le plus longtemps. Elle doit pouvoir se lire **seule**, comme si un employeur la découvrait sans vous : les étapes dans l'ordre, des images de travail (croquis, essais, versions), et quelques phrases qui expliquent vos décisions. <br> <br> Pendant la présentation, faites-la défiler en racontant : *ne lisez pas le texte affiché*.
 
 ## Les questions du jury
 
