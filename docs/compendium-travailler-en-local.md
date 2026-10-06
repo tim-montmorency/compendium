@@ -56,9 +56,11 @@ exclude_docs: |
   !/index.md
   !/_/
   !/582-511-web5/
+  !/assets/
+  !/search/
 ```
 
-Il garde la page d'accueil, le dossier `_/` (la feuille de styles globale) et `582-511-web5/`. Pour l'aperçu :
+Il garde la page d'accueil, le dossier `_/` (la feuille de styles globale) et `582-511-web5/`. Les lignes `assets/` et `search/` gardent les fichiers du thème Material et de la recherche : sans elles, les pages s'affichent sans aucun style. Pour l'aperçu :
 
 ```
 python -m mkdocs serve -f mkdocs-web5.yml --dirty
