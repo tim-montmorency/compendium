@@ -1,18 +1,19 @@
 # Présentation du portfolio devant le jury
 
-!!! example "Plan global pour la journée de présention"
+!!! example "Plan global pour la journée de présentation"
 
     210 minutes divisées entre 17 étudiants, ça fait 12 minutes par étudiant (pause de 10 minutes après le 9e étudiant).
 
     | Étape | Temps | Ce qui se passe |
     |---|---|---|
-    | Mise en place | 2 min | Brancher l'ordinateur, ouvrir les onglets (site en ligne, page du projet vedette, VS Code, fichier QA, Figma) |
+    | Mise en place | 1:30 min | Brancher l'ordinateur, ouvrir les onglets (site en ligne, page du projet vedette, VS Code, fichier QA, Figma) |
     | Présentation | 7 min | Les 5 parties des consignes, avec le projet vedette et son processus créatif au centre |
-    | Questions du jury | 3 min | Justifier ses choix, montrer dans le code, modifier en direct |
+    | Questions du jury | 2:30 min | Justifier ses choix, montrer dans le code, modifier en direct |
+    | Commentaire du jury | 1 min | Recevoir les commentaires et critiques constructives du jury, les noter en vue d'améliorer le projet et de le peaufiner. |
     | **Total** | **12 min** | |
 
-    !!! tip "Commentaires du jury : par écrit, après les présentations"
-        Par manque de temps, le jury ne donne pas de commentaires sur place. Vous les recevrez par écrit après les présentations.
+    !!! tip "Commentaires du jury : sur place, puis par écrit"
+        Après la présentation, le jury peut ajouter des questions et des commentaires par écrit dans les jours qui suivent sur un **Devoir Teams** associé. Vous devez les consulter, répondre aux questions s'il y a lieu, puis confirmer que vous en avez pris connaissance. Plus de détails suivront...
 
 ## Consignes pour vous préparer à la présentation finale
 
