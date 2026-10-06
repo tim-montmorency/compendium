@@ -5,13 +5,15 @@ tags:
 
 # Opérateurs arithmétiques
 
-![](../assets/images/operateurs_banner.png)
+![](./operateurs_banner.png)
 
 ## Matière à connaître
 
 ??? example "Opérateur"
 
-    Un opérateur arithmétique effectue une opération mathématique entre deux valeurs. Les principaux opérateurs arithmétiques en JavaScript sont :
+    Un [opérateur arithmétique](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators#op%C3%A9rateurs_arithm%C3%A9tiques) effectue une opération mathématique entre deux valeurs. 
+    
+    Les principaux opérateurs arithmétiques en JavaScript sont :
 
     * **Addition (`+`)**
     * **Soustraction (`-`)**
@@ -31,7 +33,7 @@ Utiliser les **opérateurs arithmétiques** de base.
 
 ## Résultat attendu
 
-```console
+```txt title="Console"
 Première variable : 55
 Deuxième variable : 26
 Somme : 81
@@ -42,9 +44,16 @@ Quotient : 2.1153846153846154
 
 ## Instructions
 
-* [ ] Créez deux variables et attribuez un nombre différent à chacune d’elles. Ne prenez pas les mêmes nombres que dans le résultat attendu.
-* [ ] En utilisant vos deux variables, calculez leur somme (addition), leur différence (soustraction), leur produit (multiplication) et leur quotient (division). Créez une variable pour chaque opération afin de rendre le code plus propre et lisible.
-* [ ] Affichez les informations dans la console.
+Dans le fichier `script.js` :
+
+* [ ] Créer deux variables et attribuer un nombre différent à chacune d’elles. Ne pas prendre les mêmes nombres que dans le résultat attendu.
+* [ ] En utilisant les deux variables, calculer leur **somme** (addition), leur **différence** (soustraction), leur **produit** (multiplication) et leur **quotient** (division). Créer une variable pour chaque opération afin de rendre le code plus propre et lisible.
+* [ ] Afficher les informations dans la console.
+* [ ] Effectuer un `commit`, puis un `push`
+
+<figure markdown>
+![](./operator.gif){.w-50}
+</figure>
 
 [STOP]
 

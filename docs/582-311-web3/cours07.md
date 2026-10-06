@@ -2,16 +2,30 @@
 
 [STOP]
 
-## Post mortem
+## Retour sur l'examen
 
-- Commit + Push à chaque étape
+![](./assets/images/8ae8d8b08324a5a0a2ea5aca07ece84319df965330b94afa.avif)
+
+<!-- - Commit + Push à chaque étape -->
+
+## JavaScript
+
+![](./assets/images/javascript_banner.png)
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/js-bootcamp/gijane.jpg)
+
+  <small>Exercice - JavaScript</small><br>
+  **[Camp d'entrainement](./activite/js-bootcamp/index.md){.stretched-link .back}**
+</div>
 
 
 
-Lit
-Retour sur js
 
-https://lucide.dev/guide/lucide/getting-started
+
+
+Lit ?
+
 
 
 
