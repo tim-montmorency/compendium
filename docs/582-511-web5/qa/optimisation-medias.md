@@ -99,7 +99,7 @@ Optimiser les médias est crucial pour améliorer la performance d'un site web. 
 | Image avec transparence | **WebP** | Remplace le PNG, en plus léger. |
 | Vidéo | **MP4** (H.264) | Lu partout. |
 
-**Convertir et compresser : deux options**
+### Convertir et compresser : deux options
 
 === "Rapide : en ligne"
 
