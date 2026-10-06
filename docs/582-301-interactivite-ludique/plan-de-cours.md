@@ -232,7 +232,6 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **Audio Mixer** : la console de mixage intégrée de Unity
     * **Groupes** (bus) : musique / SFX / UI / ambiance - chaque `AudioSource` est routée vers un groupe, on règle 40 sons d'un coup
     * Effets par groupe : *lowpass*, *reverb*, *compressor*, *duck volume*
-    * **Paramètres exposés** : brancher un slider du menu Options sur le volume d'un groupe
     * **Snapshots** : un instantané de tous les réglages du mixeur, rappelable et *interpolable* dans le temps. Trois usages concrets - étouffer le jeu quand le menu pause s'ouvre, passer en « sous l'eau » en entrant dans une zone, baisser la musique pendant un dialogue. Le tout déclenchable par CES.
 * Déclenchement : par CES, par *Animation Event*, par script fourni
 * **Sources et licences** : freesound, Kenney, Pixabay - et l'obligation de créditer dans le README

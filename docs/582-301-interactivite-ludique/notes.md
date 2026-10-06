@@ -3,6 +3,11 @@
 !!! note "Note de planification"
     Commencer le cours avec le **GDD**. Comme ça, on enchaîne ensuite avec les sujets du GDD.
 
+CES : 
+
+- Nouvelle fonctionnalité. Activer les events à chaque x ms. (ex: dans la lave)
+- 2D, pas juste pour 3D
+
 ---
 
 ## Document de conception (GDD)

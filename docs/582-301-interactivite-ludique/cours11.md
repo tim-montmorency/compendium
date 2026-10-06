@@ -62,6 +62,61 @@ Piste — Package Recorder (Unity Registry)
 !!! warning "Critère de la grille finale"
     Tous les médias externes doivent être cités : source, auteur, licence. Les assets Synty aussi. C'est une exigence légale avant d'être une exigence de cours.
 
+La section `## Crédits` du README est amorcée depuis le [cours 7](./cours07.md#les-credits-des-assets) : modèle de tableau, colonnes et passage vers l'écran de crédits du jeu. Aujourd'hui, on la complète et on la reporte sur la page itch.io.
+
+## Le menu Options : le volume
+
+Le projet final exige un curseur de volume qui agit **en temps réel**. Il s'appuie sur l'Audio Mixer `MixerPrincipal` et ses groupes, montés au [cours 7](./cours07.md#laudio-mixer).
+
+### Exposer le volume d'un groupe
+
+1. Ouvrir `MixerPrincipal` et cliquer sur le groupe `Musique`
+1. Dans l'**Inspector**, clic-droit sur le mot **Volume** > **Expose 'Volume (of Musique)' to script**
+1. En haut à droite de la fenêtre **Audio Mixer**, menu **Exposed Parameters** : double-cliquer sur `MyExposedParam` et le renommer `VolumeMusique`
+1. Répéter pour `SFX` (`VolumeSFX`)
+
+### Le slider
+
+1. Dans le panneau Options, clic-droit **UI (Canvas) > Slider**
+1. Ajouter le script ci-dessous, glisser `MixerPrincipal` dans **Mixer**, **Parametre** = `VolumeMusique`
+
+```c# title="SliderVolume.cs"
+using UnityEngine;
+using UnityEngine.Audio;
+using UnityEngine.UI;
+
+[RequireComponent(typeof(Slider))]
+public class SliderVolume : MonoBehaviour
+{
+    public AudioMixer mixer;                  // Glisser MixerPrincipal ici
+    public string parametre = "VolumeMusique"; // Le nom exact du paramètre exposé
+
+    Slider slider;
+
+    void Start()
+    {
+        slider = GetComponent<Slider>();
+        slider.minValue = 0.0001f;            // Jamais 0 : Log10(0) n'existe pas
+        slider.maxValue = 1f;
+        slider.value = PlayerPrefs.GetFloat(parametre, 1f);  // Dernier réglage, sinon plein volume
+        slider.onValueChanged.AddListener(Changer);
+        Changer(slider.value);
+    }
+
+    void Changer(float valeur)
+    {
+        mixer.SetFloat(parametre, Mathf.Log10(valeur) * 20f);  // 0 à 1 → -80 dB à 0 dB
+        PlayerPrefs.SetFloat(parametre, valeur);
+    }
+}
+```
+
+!!! warning "Pourquoi `Log10` et pas la valeur directe"
+    Le mixer compte en **décibels** : `0 dB` = volume normal, `-80 dB` = silence. L'oreille n'entend pas le volume de façon linéaire : envoyer la valeur du slider telle quelle donnerait un curseur qui ne change presque rien sur 80 % de sa course, puis coupe tout d'un coup. `Log10(valeur) * 20` répartit le changement sur toute la course.
+
+!!! tip "Un son de test"
+    Sur le slider `SFX`, dans **On Value Changed**, cliquer **+**, glisser un objet qui porte une **Audio Source** (un son court, groupe **Output** = `SFX`) et choisir **AudioSource > Play ()**. Le joueur entend tout de suite le volume qu'il règle.
+
 ## La sauvegarde
 
 !!! info "Tu sauvegardes déjà, depuis le cours 3"
