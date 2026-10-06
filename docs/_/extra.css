@@ -554,7 +554,7 @@ body[data-md-color-scheme="slate"] img.invert {
 .md-typeset .grid.cards>ul>li,
 .md-typeset .grid>.card {
   border: 0.05rem solid var(--md-default-fg-color--lightest);
-  border-radius: 0.1rem;
+  border-radius: 0.2rem;
   padding: 0.8rem;
   display: flex;
   flex-direction: column;
@@ -570,15 +570,13 @@ body[data-md-color-scheme="slate"] img.invert {
   box-shadow: var(--md-shadow-z2);
 }
 
-/* Cartes (grid cards) : même hauteur partout, lien collé en bas */
-.md-typeset .grid.cards > ul {
+
+/* Cartes (div.grid > div.card) : même hauteur, lien collé en bas */
+.md-typeset .grid:has(> .card) {
   grid-auto-rows: 1fr;
+  align-items: stretch;
 }
-.md-typeset .grid.cards > ul > li {
-  display: flex;
-  flex-direction: column;
-}
-.md-typeset .grid.cards > ul > li > :last-child {
+.md-typeset .grid > .card > :last-child {
   margin-top: auto;
 }
 
