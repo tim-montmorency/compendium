@@ -12,8 +12,10 @@
     | Commentaire du jury | 1 min | Recevoir les commentaires et critiques constructives du jury, les noter en vue d'améliorer le projet et de le peaufiner. |
     | **Total** | **12 min** | |
 
-    !!! tip "Commentaires du jury : sur place, puis par écrit"
-        Après la présentation, le jury peut ajouter des questions et des commentaires par écrit dans les jours qui suivent sur un **Devoir Teams** associé. Vous devez les consulter, répondre aux questions s'il y a lieu, puis confirmer que vous en avez pris connaissance. Plus de détails suivront...
+    !!! danger "Commentaires du jury : sur place, puis par écrit"
+        IMPORTANT: Après la présentation, le jury peut ajouter des questions et des commentaires par écrit dans les jours qui suivent sur un *Devoir Teams* associé dans l'équipe Web 5.
+        
+        Vous devez les *consulter*, *répondre* aux questions s'il y a lieu, puis *confirmer* que vous en avez pris connaissance. Plus de détails suivront...
 
 ## Consignes pour vous préparer à la présentation finale
 
