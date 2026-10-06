@@ -207,14 +207,14 @@ Une vidéo pèse souvent plus lourd que tout le reste du site réuni. La règle 
     2. Copiez le code. Il ressemble à ceci :
 
     ```html
-    <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/ID_DE_LA_VIDEO"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write;
-             encrypted-media; gyroscope; picture-in-picture;
-             web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
+      <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/ID_DE_LA_VIDEO" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; 
+             encrypted-media; gyroscope; picture-in-picture; 
+             web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
       allowfullscreen></iframe>
     ```
 
@@ -230,13 +230,17 @@ Une vidéo pèse souvent plus lourd que tout le reste du site réuni. La règle 
       <iframe
         src="https://player.vimeo.com/video/ID_DE_LA_VIDEO"
         frameborder="0"
-        allow="autoplay; fullscreen; picture-in-picture"
+        allow="autoplay; fullscreen; picture-in-picture;
+               clipboard-write; encrypted-media; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
         style="position:absolute;top:0;left:0;
                width:100%;height:100%;"
         title="Titre de la vidéo"></iframe>
     </div>
     <script src="https://player.vimeo.com/api/player.js"></script>
     ```
+
+    Le `padding` en pourcentage donne la **proportion** de la vidéo : 56.25 % pour une vidéo 16:9 (le format courant), 75 % pour du 4:3, 177.78 % pour une vidéo verticale (9:16). Vimeo le calcule selon votre vidéo : le code copié directement de Vimeo est donc toujours juste.
 
     Vimeo n'affiche pas de publicité ni de vidéos suggérées : c'est souvent le choix des créatifs pour un portfolio.
 
@@ -266,6 +270,8 @@ Le code copié tel quel fonctionne, mais il n'est pas prêt pour votre portfolio
   border: 0;
 }
 ```
+
+Votre vidéo n'est pas en 16:9? Ajustez `aspect-ratio` : `4 / 3` pour du 4:3, `9 / 16` pour une vidéo verticale.
 
 !!! tip "Dans vos données : seulement l'ID"
     Dans votre source de données, la propriété `video` n'a besoin que de l'ID (ex. `dQw4w9WgXcQ`). Votre JavaScript construit l'adresse : `` `https://www.youtube.com/embed/${project.video}` ``. Un seul gabarit, toutes les vidéos de vos projets.

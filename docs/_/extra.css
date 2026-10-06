@@ -557,7 +557,7 @@ body[data-md-color-scheme="slate"] img.invert {
 .md-typeset .grid.cards>ol>li,
 .md-typeset .grid.cards>ul>li,
 .md-typeset .grid>.card {
-  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border: 0.05rem solid var(--md-default-fg-color--lighter);
   border-radius: 0.2rem;
   padding: 0.8rem;
   display: flex;
@@ -573,6 +573,7 @@ body[data-md-color-scheme="slate"] img.invert {
 .md-typeset .grid>.card:hover {
   box-shadow: var(--md-shadow-z2);
 }
+
 
 /* Carte cliquable en entier (lien avec .stretched-link) */
 .md-typeset .grid > .card:has(.stretched-link) {

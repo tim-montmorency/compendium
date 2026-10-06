@@ -1,0 +1,6 @@
+INHERIT: mkdocs.yml
+exclude_docs: |
+  /*
+  !/index.md
+  !/_/
+  !/582-511-web5/

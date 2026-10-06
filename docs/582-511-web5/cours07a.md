@@ -20,7 +20,7 @@ Mesurer, puis 4 gestes pour alléger votre site.
 
 ---
 
-Corriger, valider en ligne, documenter.
+Corriger, valider en ligne, documenter...
 
 [:octicons-arrow-right-24: Étape 5 des consignes](projets/portfolio/qa-portfolio.md){ .stretched-link }
 </div>
