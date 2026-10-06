@@ -6,6 +6,10 @@
     --md-primary-fg-color--dark: #e53734;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .md-logo img{
   border-radius: 0;
 }
