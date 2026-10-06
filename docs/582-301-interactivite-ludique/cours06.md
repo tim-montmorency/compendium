@@ -191,7 +191,6 @@ public class Tir : MonoBehaviour
         }
     }
 }
-
 ```
 
 1. Dans **Assets > _ > Scripts**, ajouter le script ci-dessus (**Create > Scripting > MonoBehaviour Script**)

@@ -2,6 +2,12 @@
 
 [STOP]
 
+## Post mortem
+
+- Commit + Push à chaque étape
+
+
+
 Lit
 Retour sur js
 
