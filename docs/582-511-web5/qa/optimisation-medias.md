@@ -1,9 +1,63 @@
 # Optimiser les médias
 
+![](assets/optimisation-medias-banniere.webp){.w-100}
+
 !!! abstract "L'essentiel en 3 points"
     1. Les images et les vidéos pèsent presque toujours plus lourd que tout le reste du site réuni. Les optimiser, c'est le gain de vitesse le plus facile à obtenir.
     2. Quatre gestes : le **bon format**, les **bonnes dimensions**, le **chargement différé** (`loading="lazy"`) et la **place réservée** (`width` et `height`).
     3. On **mesure avant et après** dans l'onglet Réseau (Network) : c'est la preuve à inscrire dans l'onglet Correctifs de votre fichier QA.
+
+<div class="grid cards" markdown>
+
+-   :material-speedometer: __Mesurer__
+
+    ---
+
+    Le poids total, avant et après, dans l'onglet Réseau.
+
+    [:octicons-arrow-right-24: Mesurer d'abord](#mesurer)
+
+-   :material-file-image-outline: __1. Le bon format__
+
+    ---
+
+    WebP pour les photos, SVG pour les logos.
+
+    [:octicons-arrow-right-24: Le format](#format)
+
+-   :material-resize: __2. Les bonnes dimensions__
+
+    ---
+
+    Environ 2 fois la largeur d'affichage, pas plus.
+
+    [:octicons-arrow-right-24: Les dimensions](#dimensions)
+
+-   :material-timer-sand: __3. Le chargement différé__
+
+    ---
+
+    `loading="lazy"` : seulement ce qui approche de l'écran.
+
+    [:octicons-arrow-right-24: Le chargement différé](#lazy)
+
+-   :material-crop-free: __4. La place réservée__
+
+    ---
+
+    `width` et `height` : la page ne saute plus.
+
+    [:octicons-arrow-right-24: Réserver la place](#dimensions-html)
+
+-   :material-video-outline: __Les vidéos__
+
+    ---
+
+    Hébergées sur YouTube ou Vimeo, ou un court MP4 compressé.
+
+    [:octicons-arrow-right-24: Les vidéos](#videos)
+
+</div>
 
 ## Pourquoi optimiser les médias ?
 
@@ -33,7 +87,7 @@ Optimiser les médias est crucial pour améliorer la performance d'un site web. 
     Une image de carte de projet devrait peser **quelques dizaines de Ko**, et une grande image d'en-tête rarement plus de **200 à 300 Ko**. Une photo de 3 Mo sortie directement de l'appareil ou de Figma, c'est un écart **majeur**. C'est trop lourd et ça ralentit le site. On peut facilement descendre à 100 à 200 Ko, voire moins, sans perte visible.
 
 !!! warning "Important: Notez le poids total **avant** vos corrections"
-    <span class="label-important">IMPORTANT à cette étape</span>: Notez le poids total **avant** vos corrections : vous le comparerez après. Vous pouez déjà l'inscrire dans l'onglet **Correctifs** de [votre fichier QA](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/01-projet-portfolio/qa-2026?d=w4a3f50b34edd4cb1a4014fafe79b1ea2&csf=1&web=1&e=HML1yB){ :target="_blank" }, comme preuve de votre travail.
+    <span class="label-important">IMPORTANT à cette étape</span>: Notez le poids total **avant** vos corrections : vous le comparerez après. Vous pouvez déjà l'inscrire dans l'onglet **Correctifs** de [votre fichier QA](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/01-projet-portfolio/qa-2026?d=w4a3f50b34edd4cb1a4014fafe79b1ea2&csf=1&web=1&e=HML1yB){ :target="_blank" }, comme preuve de votre travail.
 
 ## 1. Le bon format { #format }
 
@@ -67,9 +121,13 @@ Optimiser les médias est crucial pour améliorer la performance d'un site web. 
 
 ## 2. Les bonnes dimensions { #dimensions }
 
-Une image de 4000px de large affichée dans une carte de 400px : le navigateur télécharge 10 fois trop de pixels, puis les jette.
+<div class="grid grid-1-2" markdown>
+  ![Schéma : une image de 4000 px de large téléchargée pour une carte affichée à 400 px](./assets/optimisation-medias-dimensions.webp){ data-zoom-image }
 
-**Règle simple** : environ **2 fois** la largeur d'affichage, pour rester net sur les écrans haute densité (ex. une carte affichée à 400px → une image de 800px).
+  Une image de 4000px de large affichée dans une carte de 400px : le navigateur télécharge 10 fois trop de pixels en largeur (100 fois trop au total), puis les jette.
+
+  **Règle simple** : environ **2 fois** la largeur d'affichage, pour rester net sur les écrans haute densité (ex. une carte affichée à 400px → une image de 800px).
+</div>
 
 Pour connaître la largeur d'affichage : inspecteur → survolez l'image dans l'onglet Éléments, sa taille s'affiche. Redimensionnez ensuite avec l'une des deux options ci-dessus.
 
@@ -273,4 +331,4 @@ Un avant et un après chiffrés : c'est exactement la preuve qu'attend la grille
 
 - [Chargement différé des images (lazy loading) (MDN)](https://developer.mozilla.org/fr/docs/Web/Performance/Guides/Lazy_loading){ :target="_blank" }
 - [L'élément `<img>` (MDN)](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/img){ :target="_blank" }
-- [Squoosh: outil en ligne pour compresser vos images et vidéos](https://squoosh.app/){ :target="_blank" } : convertir et compresser dans le navigateur
+- [Squoosh: outil en ligne pour compresser vos images](https://squoosh.app/){ :target="_blank" } : convertir et compresser dans le navigateur

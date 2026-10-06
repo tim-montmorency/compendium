@@ -1,7 +1,43 @@
 # Cours 7.1
 <!-- mer. 7 oct. -->
 
-[:material-presentation-play: Présentation devant le jury](projets/portfolio/presentation-jury.md){ .md-button .md-button--primary }
+![](assets/cours07a-banniere.webp){.w-100}
+
+<div class="grid cards" markdown>
+
+-   :material-image-size-select-large: __Optimiser les médias__
+
+    ---
+
+    Mesurer, puis 4 gestes pour alléger votre site.
+
+    [:octicons-arrow-right-24: La page](qa/optimisation-medias.md)
+
+-   :material-clipboard-check-multiple: __Vos correctifs QA__
+
+    ---
+
+    Corriger, valider en ligne, documenter.
+
+    [:octicons-arrow-right-24: Étape 5 des consignes](projets/portfolio/qa-portfolio.md)
+
+-   :material-presentation-play: __Le jury__
+
+    ---
+
+    Environ 7 minutes, puis les questions. Copilot fermé.
+
+    [:octicons-arrow-right-24: Les consignes](projets/portfolio/presentation-jury.md)
+
+-   :material-clipboard-text-clock-outline: __Autoévaluation et journal__
+
+    ---
+
+    Une preuve pour chaque indicateur, et le dernier bloc du journal.
+
+    [:octicons-arrow-right-24: Dans cette page](#autoevaluation)
+
+</div>
 
 ## Aujourd'hui
 
@@ -46,7 +82,7 @@ Levez la main pour chaque étape atteinte :
 2. GitHub Pages publie maintenant la branche **`main`**.
 3. Mes écarts **bloquants** sont corrigés et validés en ligne.
 4. Mes écarts **majeurs** sont corrigés et validés en ligne.
-5. Mon auto-évalutiion est remplie, avec preuve pour chaque indicateur (onglet du fichier QA).
+5. Mon autoévaluation est remplie, avec preuve pour chaque indicateur (onglet du fichier QA).
 
 Bloqué à l'étape 1 ou 2? C'est la priorité, avant tout le reste. [Étape 4 des consignes QA : passer sur `main`](projets/portfolio/qa-portfolio.md#etape-4-passer-github-pages-sur-main)
 
@@ -120,13 +156,13 @@ Vous avez fini vos correctifs? Formez un duo et présentez-vous mutuellement vot
 2. Votre partenaire joue le jury : une question de justification, puis une demande de modification en direct.
 3. On inverse.
 
-## Autoévaluation et journal de bord
+## Autoévaluation et journal de bord { #autoevaluation }
 
 Deux éléments de la remise finale qui tombent facilement entre deux craques. On **commence l'autoévaluation ensemble, 10 minutes à la fin du cours**; vous la terminez à la maison, avec le journal.
 
 ### L'autoévaluation, dans votre fichier QA
 
-Onglet **Autoévaluation** de votre `qa-prenom-nom.xlsx`. Pour chacun des 14 indicateurs de la [grille critériée](projets/portfolio/index-textuel.md#criteres-devaluation) :
+Onglet *Autoévaluation* de votre `qa-prenom-nom.xlsx` qui [se trouve ici](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/01-projet-portfolio/qa-2026?d=w4a3f50b34edd4cb1a4014fafe79b1ea2&csf=1&web=1&e=HML1yB). Pour chacun des 14 indicateurs de la [grille critériée](projets/portfolio/index-textuel.md#criteres-devaluation) :
 
 1. choisissez **votre niveau** (Insuffisant, Acceptable, Très bien, Excellent);
 2. écrivez **la preuve** qui le justifie : un fichier (ex. `PLANIFICATION.md`), un ID de test (ex. `T-21`), un commit.
@@ -162,4 +198,4 @@ N'oubliez pas : **chaque question posée à l'IA depuis la bêta**, avec la date
 - [ ] Votre présentation est prête et chronométrée : [consignes du jury](projets/portfolio/presentation-jury.md).
 
 !!! warning "Autoévaluation à ne pas oublier"
-    L'autoévaluation est **obligatoire** pour que votre remise finale soit acceptée. C'est la preuve que vous avez compris les critères de qualité et que vous savez où vous en êtes.
+    L'autoévaluation est *obligatoire* pour que votre remise finale soit acceptée. C'est la preuve que vous avez compris les critères de qualité et que vous savez où vous en êtes. Vous devez le remplir via l'onglet *Autoévaluation* de votre `qa-prenom-nom.xlsx` qui [se trouve ici](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/01-projet-portfolio/qa-2026?d=w4a3f50b34edd4cb1a4014fafe79b1ea2&csf=1&web=1&e=HML1yB). 
