@@ -570,6 +570,19 @@ body[data-md-color-scheme="slate"] img.invert {
   box-shadow: var(--md-shadow-z2);
 }
 
+/* Carte cliquable en entier (lien avec .stretched-link) */
+.md-typeset .grid > .card:has(.stretched-link) {
+  position: relative;
+}
+
+/* Survol : seulement sur les cartes cliquables */
+.md-typeset .grid > .card:hover {
+  box-shadow: none;
+}
+.md-typeset .grid > .card:has(.stretched-link):hover {
+  box-shadow: var(--md-shadow-z2);
+  border-color: var(--md-accent-fg-color);
+}
 
 /* Cartes (div.grid > div.card) : même hauteur, lien collé en bas */
 .md-typeset .grid:has(> .card) {

@@ -16,7 +16,7 @@
 
 Le poids total, avant et après, dans l'onglet Réseau.
 
-[:octicons-arrow-right-24: Mesurer d'abord](#mesurer)
+[:octicons-arrow-right-24: Mesurer d'abord](#mesurer){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -26,7 +26,7 @@ Le poids total, avant et après, dans l'onglet Réseau.
 
 WebP pour les photos, SVG pour les logos.
 
-[:octicons-arrow-right-24: Le format](#format)
+[:octicons-arrow-right-24: Le format](#format){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -36,7 +36,7 @@ WebP pour les photos, SVG pour les logos.
 
 Environ 2 fois la largeur d'affichage, pas plus.
 
-[:octicons-arrow-right-24: Les dimensions](#dimensions)
+[:octicons-arrow-right-24: Les dimensions](#dimensions){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -46,7 +46,7 @@ Environ 2 fois la largeur d'affichage, pas plus.
 
 `loading="lazy"` : seulement ce qui approche de l'écran.
 
-[:octicons-arrow-right-24: Le chargement différé](#lazy)
+[:octicons-arrow-right-24: Le chargement différé](#lazy){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -56,7 +56,7 @@ Environ 2 fois la largeur d'affichage, pas plus.
 
 `width` et `height` : la page ne saute plus.
 
-[:octicons-arrow-right-24: Réserver la place](#dimensions-html)
+[:octicons-arrow-right-24: Réserver la place](#dimensions-html){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -66,7 +66,7 @@ Environ 2 fois la largeur d'affichage, pas plus.
 
 Hébergées sur YouTube ou Vimeo, ou un court MP4 compressé.
 
-[:octicons-arrow-right-24: Les vidéos](#videos)
+[:octicons-arrow-right-24: Les vidéos](#videos){ .stretched-link }
 </div>
 
 </div>

@@ -12,7 +12,7 @@
 
 Mesurer, puis 4 gestes pour alléger votre site.
 
-[:octicons-arrow-right-24: La page](qa/optimisation-medias.md)
+[:octicons-arrow-right-24: La page](qa/optimisation-medias.md){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -22,7 +22,7 @@ Mesurer, puis 4 gestes pour alléger votre site.
 
 Corriger, valider en ligne, documenter.
 
-[:octicons-arrow-right-24: Étape 5 des consignes](projets/portfolio/qa-portfolio.md)
+[:octicons-arrow-right-24: Étape 5 des consignes](projets/portfolio/qa-portfolio.md){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -32,7 +32,7 @@ Corriger, valider en ligne, documenter.
 
 Environ 7 minutes, puis les questions. Copilot fermé.
 
-[:octicons-arrow-right-24: Les consignes](projets/portfolio/presentation-jury.md)
+[:octicons-arrow-right-24: Les consignes](projets/portfolio/presentation-jury.md){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -42,7 +42,7 @@ Environ 7 minutes, puis les questions. Copilot fermé.
 
 Une preuve pour chaque indicateur, et le dernier bloc du journal.
 
-[:octicons-arrow-right-24: Dans cette page](#autoevaluation)
+[:octicons-arrow-right-24: Dans cette page](#autoevaluation){ .stretched-link }
 </div>
 
 </div>

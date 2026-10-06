@@ -21,7 +21,7 @@ Pour qui? Une personne aveugle qui utilise un lecteur d'écran, une personne qui
 
 Le bon élément HTML pour le bon rôle.
 
-[:octicons-arrow-right-24: La sémantique](#semantique)
+[:octicons-arrow-right-24: La sémantique](#semantique){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -31,7 +31,7 @@ Le bon élément HTML pour le bon rôle.
 
 Remplacer l'image pour qui ne la voit pas.
 
-[:octicons-arrow-right-24: Les attributs alt](#alt)
+[:octicons-arrow-right-24: Les attributs alt](#alt){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -41,7 +41,7 @@ Remplacer l'image pour qui ne la voit pas.
 
 4,5:1 pour le texte courant, 3:1 pour le gros texte.
 
-[:octicons-arrow-right-24: Le contraste](#contraste)
+[:octicons-arrow-right-24: Le contraste](#contraste){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -51,7 +51,7 @@ Remplacer l'image pour qui ne la voit pas.
 
 Tout faire sans souris, en voyant toujours le focus.
 
-[:octicons-arrow-right-24: La navigation au clavier](#clavier)
+[:octicons-arrow-right-24: La navigation au clavier](#clavier){ .stretched-link }
 </div>
 
 </div>
