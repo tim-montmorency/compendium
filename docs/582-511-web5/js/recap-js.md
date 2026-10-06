@@ -1,9 +1,13 @@
 # Récap JS : les concepts clés
 
-!!! abstract "L'essentiel en 3 points"
-    1. Vous avez déjà tout vu dans vos cours précédents : cette page réactive seulement ce qui sert à charger et afficher les données de votre portfolio.
-    2. Le fil conducteur : des **données** (un tableau d'objets) → du **HTML** généré (gabarits littéraux, `map()`) → une **page** qui réagit (DOM, événements).
-    3. Chaque concept a un exemple tiré d'un portfolio. Gardez cette page ouverte pendant que vous codez.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Vous avez déjà tout vu dans vos cours précédents : cette page réactive seulement ce qui sert à charger et afficher les données de votre portfolio.
+2. Le fil conducteur : des **données** (un tableau d'objets) → du **HTML** généré (gabarits littéraux, `map()`) → une **page** qui réagit (DOM, événements).
+3. Chaque concept a un exemple tiré d'un portfolio. Gardez cette page ouverte pendant que vous codez.
+
+</div>
 
 Pour aller plus loin sur chaque notion : [aide-mémoire JS](https://jfcmontmorency.github.io/aide-memoire/){ :target="_blank" } (celui de vos sessions précédentes) et [MDN en français](https://developer.mozilla.org/fr/docs/Web/JavaScript){ :target="_blank" }.
 

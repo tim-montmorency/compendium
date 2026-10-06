@@ -1,9 +1,13 @@
 # Charger les données du portfolio
 
-!!! abstract "L'essentiel en 3 points"
-    1. Vos projets ne sont pas écrits dans le HTML : ils vivent dans une **source de données** (JSON local, Google Sheets ou Airtable) et sont chargés en JavaScript avec `fetch()`.
-    2. Peu importe la source, `js/data.js` doit toujours retourner **la même chose** : un tableau de projets, avec les mêmes noms de propriétés.
-    3. Le code qui affiche vos projets (cartes, modale, `project.html`) est **identique pour tout le monde**. Changer de source plus tard ne demande de modifier que `data.js`.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Vos projets ne sont pas écrits dans le HTML : ils vivent dans une **source de données** (JSON local, Google Sheets ou Airtable) et sont chargés en JavaScript avec `fetch()`.
+2. Peu importe la source, `js/data.js` doit toujours retourner **la même chose** : un tableau de projets, avec les mêmes noms de propriétés.
+3. Le code qui affiche vos projets (cartes, modale, `project.html`) est **identique pour tout le monde**. Changer de source plus tard ne demande de modifier que `data.js`.
+
+</div>
 
 ## Le principe
 

@@ -1,9 +1,13 @@
 # Animations pilotées par le défilement (CSS)
 
-!!! abstract "L'essentiel en 3 points"
-    1. Une animation CSS normale avance avec le **temps** (`2s`, `500ms`). Avec `animation-timeline`, elle avance avec le **défilement** : on fait défiler, l'animation progresse; on remonte, elle recule.
-    2. Deux timelines à connaître : `scroll()` suit le défilement de **toute la page**, `view()` suit la visibilité d'**un élément** dans l'écran.
-    3. Toujours envelopper dans `@supports` (tous les navigateurs ne suivent pas encore) et dans `prefers-reduced-motion` (respecter les personnes qui demandent moins de mouvement).
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Une animation CSS normale avance avec le **temps** (`2s`, `500ms`). Avec `animation-timeline`, elle avance avec le **défilement** : on fait défiler, l'animation progresse; on remonte, elle recule.
+2. Deux timelines à connaître : `scroll()` suit le défilement de **toute la page**, `view()` suit la visibilité d'**un élément** dans l'écran.
+3. Toujours envelopper dans `@supports` (tous les navigateurs ne suivent pas encore) et dans `prefers-reduced-motion` (respecter les personnes qui demandent moins de mouvement).
+
+</div>
 
 [:material-play-circle: Voir la démo](demo-animations-scroll.html){ .md-button .md-button--primary :target="_blank" }
 

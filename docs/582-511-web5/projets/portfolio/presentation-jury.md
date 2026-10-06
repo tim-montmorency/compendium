@@ -19,10 +19,14 @@
 
 ## Consignes pour vous préparer à la présentation finale
 
-!!! abstract "L'essentiel en 3 points"
-    1. **Environ 7 minutes** pour présenter votre portfolio, puis les questions du jury. Votre **site en ligne** est votre support: pas besoin de diapos.
-    2. Le jury évalue le **contenu** (vous, vos projets, votre processus créatif) et le **contenant** (le design, le code, la qualité du site). Votre **page de projet qui montre le processus créatif** est le cœur de la présentation.
-    3. Préparez-vous à **ouvrir votre code et à le modifier en direct**, Copilot fermé.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. **Environ 7 minutes** pour présenter votre portfolio, puis les questions du jury. Votre **site en ligne** est votre support: pas besoin de diapos.
+2. Le jury évalue le **contenu** (vous, vos projets, votre processus créatif) et le **contenant** (le design, le code, la qualité du site). Votre **page de projet qui montre le processus créatif** est le cœur de la présentation.
+3. Préparez-vous à **ouvrir votre code et à le modifier en direct**, Copilot fermé.
+
+</div>
 
 ## Dates
 

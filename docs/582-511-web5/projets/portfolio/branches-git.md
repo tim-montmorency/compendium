@@ -1,9 +1,13 @@
 # Les branches Git, en 10 minutes
 
-!!! abstract "L'essentiel en 3 points"
-    1. Une **branche**, c'est une ligne de travail parallèle dans votre dépôt. `main` est votre ligne principale; une autre branche (ex. `beta`) peut garder une version à part, sans toucher à `main`.
-    2. Vous travaillez toujours **sur une** branche à la fois : la branche **active**. Ses fichiers sont ceux que vous voyez dans VS Code. Changer de branche change les fichiers affichés.
-    3. Pour la remise bêta : on crée `beta` à partir de `main`, on la publie sur GitHub, et on **revient sur `main`** pour continuer à travailler.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Une **branche**, c'est une ligne de travail parallèle dans votre dépôt. `main` est votre ligne principale; une autre branche (ex. `beta`) peut garder une version à part, sans toucher à `main`.
+2. Vous travaillez toujours **sur une** branche à la fois : la branche **active**. Ses fichiers sont ceux que vous voyez dans VS Code. Changer de branche change les fichiers affichés.
+3. Pour la remise bêta : on crée `beta` à partir de `main`, on la publie sur GitHub, et on **revient sur `main`** pour continuer à travailler.
+
+</div>
 
 ## Le principe, en une image
 

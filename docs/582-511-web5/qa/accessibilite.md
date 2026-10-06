@@ -5,10 +5,14 @@
 
 ![](assets/accessibilite-banniere.webp){.w-100}
 
-!!! abstract "L'essentiel en 3 points"
-    1. Un site accessible s'utilise **sans souris**, **sans voir les images** et **sans une vue parfaite**. La norme de référence s'appelle WCAG; votre grille exige le **niveau AA**.
-    2. La grille nomme **4 points** : la **sémantique** HTML5, les attributs **`alt`**, le **contraste** et la **navigation au clavier**. Chacun se teste en quelques minutes.
-    3. Les outils (WAVE, Lighthouse) trouvent une partie des problèmes. Le **test au clavier**, fait par un humain, trouve le reste.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Un site accessible s'utilise **sans souris**, **sans voir les images** et **sans une vue parfaite**. La norme de référence s'appelle WCAG; votre grille exige le **niveau AA**.
+2. La grille nomme **4 points** : la **sémantique** HTML5, les attributs **`alt`**, le **contraste** et la **navigation au clavier**. Chacun se teste en quelques minutes.
+3. Les outils (WAVE, Lighthouse) trouvent une partie des problèmes. Le **test au clavier**, fait par un humain, trouve le reste.
+
+</div>
 
 Pour qui? Une personne aveugle qui utilise un lecteur d'écran, une personne qui ne peut pas utiliser de souris, une personne âgée qui voit moins bien les contrastes, quelqu'un qui consulte votre site en plein soleil sur son téléphone... et le recruteur pressé qui navigue avec Tab. L'accessibilité améliore le site pour **tout le monde**.
 

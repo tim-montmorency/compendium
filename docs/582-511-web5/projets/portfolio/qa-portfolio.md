@@ -1,9 +1,13 @@
 # Contrôle de la qualité du portfolio : consignes
 
-!!! abstract "L'essentiel en 3 points"
-    1. **Trois personnes** testent votre portfolio : **vous** et **deux camarades**, chacun dans un **environnement différent** (navigateur ou appareil). Tous les tests se font sur votre **bêta en ligne**.
-    2. **Un seul fichier Excel**, `qa-prenom-nom.xlsx`, contient tout : les scénarios, les résultats des 3 testeurs, vos correctifs et leur validation, puis votre autoévaluation.
-    3. Les tests se font sur la branche **`beta`**. Une fois les 3 tests terminés, vous passez GitHub Pages sur **`main`**, vous corrigez, et vous **validez** chaque correctif en refaisant le scénario en ligne.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. **Trois personnes** testent votre portfolio : **vous** et **deux camarades**, chacun dans un **environnement différent** (navigateur ou appareil). Tous les tests se font sur votre **bêta en ligne**.
+2. **Un seul fichier Excel**, `qa-prenom-nom.xlsx`, contient tout : les scénarios, les résultats des 3 testeurs, vos correctifs et leur validation, puis votre autoévaluation.
+3. Les tests se font sur la branche **`beta`**. Une fois les 3 tests terminés, vous passez GitHub Pages sur **`main`**, vous corrigez, et vous **validez** chaque correctif en refaisant le scénario en ligne.
+
+</div>
 
 <br>
 

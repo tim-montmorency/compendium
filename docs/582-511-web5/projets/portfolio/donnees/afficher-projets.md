@@ -1,9 +1,13 @@
 # Afficher les projets
 
-!!! abstract "L'essentiel en 3 points"
-    1. `main.js` attend les données de `loadProjects()`, puis génère une carte par projet. Ce code est **le même pour toutes les sources** (JSON local, Google Sheets, Airtable).
-    2. Une fonction `createProjectCard(project)` transforme **un** projet en HTML. On l'applique ensuite à tout le tableau.
-    3. Pour une structure multipages, `project.html?id=cafe-du-coin` lit le paramètre `id` avec `URLSearchParams`, puis retrouve le bon projet avec `find()`.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. `main.js` attend les données de `loadProjects()`, puis génère une carte par projet. Ce code est **le même pour toutes les sources** (JSON local, Google Sheets, Airtable).
+2. Une fonction `createProjectCard(project)` transforme **un** projet en HTML. On l'applique ensuite à tout le tableau.
+3. Pour une structure multipages, `project.html?id=cafe-du-coin` lit le paramètre `id` avec `URLSearchParams`, puis retrouve le bon projet avec `find()`.
+
+</div>
 
 [:material-arrow-left: Retour : choisir sa source](index.md#choisir-sa-source){ .md-button }
 

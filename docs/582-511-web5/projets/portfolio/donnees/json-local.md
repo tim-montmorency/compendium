@@ -1,9 +1,13 @@
 # Source : JSON local
 
-!!! abstract "L'essentiel en 3 points"
-    1. Vos projets sont dans un fichier `data/projects.json`, directement dans votre dépôt. Aucun compte, aucun service externe.
-    2. Vous pouvez l'écrire à la main, ou le produire à partir d'un fichier Excel (Excel → CSV → convertisseur en ligne).
-    3. `fetch()` sur un fichier local ne fonctionne **pas** en ouvrant `index.html` en double-cliquant : il faut un serveur local, comme Live Server dans VS Code.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Vos projets sont dans un fichier `data/projects.json`, directement dans votre dépôt. Aucun compte, aucun service externe.
+2. Vous pouvez l'écrire à la main, ou le produire à partir d'un fichier Excel (Excel → CSV → convertisseur en ligne).
+3. `fetch()` sur un fichier local ne fonctionne **pas** en ouvrant `index.html` en double-cliquant : il faut un serveur local, comme Live Server dans VS Code.
+
+</div>
 
 [:material-arrow-left: Retour : choisir sa source](index.md){ .md-button }
 

@@ -1,9 +1,13 @@
 # Remettre la bêta et la mettre en ligne (GitHub Pages)
 
-!!! abstract "L'essentiel en 3 points"
-    1. Pour la remise bêta, vous « figez » votre portfolio dans une **branche `beta`**, et c'est **cette branche** que GitHub Pages met en ligne, à une adresse du type `https://votre-nom.github.io/nom-du-depot/`.
-    2. Votre dépôt devient **public** : c'est nécessaire pour la mise en ligne, et pour que vos pairs puissent tester votre bêta.
-    3. Après la remise, vous continuez à travailler sur **`main`**, jamais sur `beta`. La version en ligne reste la bêta remise, intacte, pendant les tests par les pairs.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Pour la remise bêta, vous « figez » votre portfolio dans une **branche `beta`**, et c'est **cette branche** que GitHub Pages met en ligne, à une adresse du type `https://votre-nom.github.io/nom-du-depot/`.
+2. Votre dépôt devient **public** : c'est nécessaire pour la mise en ligne, et pour que vos pairs puissent tester votre bêta.
+3. Après la remise, vous continuez à travailler sur **`main`**, jamais sur `beta`. La version en ligne reste la bêta remise, intacte, pendant les tests par les pairs.
+
+</div>
 
 !!! danger "Date limite : vendredi 2 octobre, avant le début du cours"
     La branche `beta` doit exister, le dépôt doit être public et le site doit être en ligne **avant le début du cours**.

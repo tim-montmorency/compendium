@@ -1,11 +1,15 @@
 # Remise 2 : version bêta (vendredi 2 octobre)
 
-!!! abstract "L'essentiel en 3 points"
-    1. La bêta, c'est votre portfolio **complet, en ligne et testable** : tout ce qui doit fonctionner fonctionne, sur desktop et sur mobile.
-    2. C'est une remise **formative** : elle sert à recevoir de la rétroaction et à lancer les **tests par les pairs**, qui porteront sur cette version.
-    3. **Comment remettre** : un *commit* et un *push* de tous les fichiers sur `main`, puis une branche `beta`, un dépôt **public** et la mise en ligne GitHub Pages **de la branche `beta`**. Au plus tard le **vendredi 2 octobre, avant le début du cours**.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
 
-    Cochez chaque élément ci-dessous avant la remise. Ce qui manque à la bêta devra être complété pour la remise finale, mais vos pairs ne pourront pas le tester.
+1. La bêta, c'est votre portfolio **complet, en ligne et testable** : tout ce qui doit fonctionner fonctionne, sur desktop et sur mobile.
+2. C'est une remise **formative** : elle sert à recevoir de la rétroaction et à lancer les **tests par les pairs**, qui porteront sur cette version.
+3. **Comment remettre** : un *commit* et un *push* de tous les fichiers sur `main`, puis une branche `beta`, un dépôt **public** et la mise en ligne GitHub Pages **de la branche `beta`**. Au plus tard le **vendredi 2 octobre, avant le début du cours**.
+
+Cochez chaque élément ci-dessous avant la remise. Ce qui manque à la bêta devra être complété pour la remise finale, mais vos pairs ne pourront pas le tester.
+
+</div>
 
 [:material-file-document-outline: Consignes complètes du portfolio](index-textuel.md#remise-2-version-beta-vendredi-2-octobre){ .md-button }
 

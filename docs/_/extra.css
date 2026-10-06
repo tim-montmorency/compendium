@@ -607,6 +607,50 @@ body[data-md-color-scheme="slate"] img.invert {
   margin-top: auto;
 }
 
+/* ====================================
+   L'ESSENTIEL (résumé en tête de page)
+   ================================== */
+
+.md-typeset .essentiel {
+  margin: 2rem 0 2.5rem;
+  padding: 1.4rem 1.6rem 0.6rem;
+  border-left: 0.25rem solid var(--md-primary-fg-color);
+  background-color: var(--md-code-bg-color);
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+.md-typeset .essentiel__titre {
+  margin: 0 0 1rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--md-primary-fg-color);
+}
+.md-typeset .essentiel ol {
+  list-style: none;
+  counter-reset: essentiel;
+  margin: 0;
+  padding: 0;
+}
+.md-typeset .essentiel ol li {
+  counter-increment: essentiel;
+  position: relative;
+  margin: 0 0 1rem;
+  padding-left: 2.6rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+.md-typeset .essentiel ol li::before {
+  content: counter(essentiel);
+  position: absolute;
+  left: 0;
+  top: -0.15rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--md-primary-fg-color);
+}
+
 /* =========================
    GALLERIE
    ========================= */

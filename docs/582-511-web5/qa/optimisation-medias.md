@@ -2,10 +2,14 @@
 
 ![](assets/optimisation-medias-banniere.webp){.w-100}
 
-!!! abstract "L'essentiel en 3 points"
-    1. Les images et les vidéos pèsent presque toujours plus lourd que tout le reste du site réuni. Les optimiser, c'est le gain de vitesse le plus facile à obtenir.
-    2. Quatre gestes : le **bon format**, les **bonnes dimensions**, le **chargement différé** (`loading="lazy"`) et la **place réservée** (`width` et `height`).
-    3. On **mesure avant et après** dans l'onglet Réseau (Network) : c'est la preuve à inscrire dans l'onglet Correctifs de votre fichier QA.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Les images et les vidéos pèsent presque toujours plus lourd que tout le reste du site réuni. Les optimiser, c'est le gain de vitesse le plus facile à obtenir.
+2. Quatre gestes : le **bon format**, les **bonnes dimensions**, le **chargement différé** (`loading="lazy"`) et la **place réservée** (`width` et `height`).
+3. On **mesure avant et après** dans l'onglet Réseau (Network) : c'est la preuve à inscrire dans l'onglet Correctifs de votre fichier QA.
+
+</div>
 
 <div class="grid" markdown>
 

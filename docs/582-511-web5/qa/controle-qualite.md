@@ -1,9 +1,13 @@
 # Le contrôle de la qualité (QA)
 
-!!! abstract "L'essentiel en 3 points"
-    1. On ne voit plus les défauts de son propre site : on sait où cliquer, on connaît le contenu, on utilise toujours le même navigateur. Le contrôle de la qualité (*QA*, *quality assurance*) sert à **voir son produit avec d'autres yeux**, de façon méthodique.
-    2. Un test, c'est un **scénario**, un **résultat attendu** et un **résultat observé**. S'ils diffèrent, il y a un **écart**, qu'on classe selon sa **gravité**.
-    3. Un correctif ne compte que s'il est **validé** : on refait le même scénario, et l'écart a disparu.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. On ne voit plus les défauts de son propre site : on sait où cliquer, on connaît le contenu, on utilise toujours le même navigateur. Le contrôle de la qualité (*QA*, *quality assurance*) sert à **voir son produit avec d'autres yeux**, de façon méthodique.
+2. Un test, c'est un **scénario**, un **résultat attendu** et un **résultat observé**. S'ils diffèrent, il y a un **écart**, qu'on classe selon sa **gravité**.
+3. Un correctif ne compte que s'il est **validé** : on refait le même scénario, et l'écart a disparu.
+
+</div>
 
 ## Pourquoi tester, si mon site fonctionne?
 

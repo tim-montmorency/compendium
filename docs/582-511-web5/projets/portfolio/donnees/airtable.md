@@ -1,9 +1,13 @@
 # Source : Airtable
 
-!!! abstract "L'essentiel en 3 points"
-    1. Airtable est une base de données en ligne avec une interface de tableur : vous gérez vos projets (textes, images, vidéos) sans toucher au code, et sans dépendre d'un compte Google ou Microsoft.
-    2. L'accès passe par un **jeton d'accès personnel** (PAT) : toujours **en lecture seule** et **limité à la base du portfolio**, parce qu'il sera visible dans votre code public.
-    3. La réponse d'Airtable n'a pas la même forme qu'un JSON local : quelques lignes dans `data.js` la ramènent au format commun, et le reste du code ne voit aucune différence.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Airtable est une base de données en ligne avec une interface de tableur : vous gérez vos projets (textes, images, vidéos) sans toucher au code, et sans dépendre d'un compte Google ou Microsoft.
+2. L'accès passe par un **jeton d'accès personnel** (PAT) : toujours **en lecture seule** et **limité à la base du portfolio**, parce qu'il sera visible dans votre code public.
+3. La réponse d'Airtable n'a pas la même forme qu'un JSON local : quelques lignes dans `data.js` la ramènent au format commun, et le reste du code ne voit aucune différence.
+
+</div>
 
 [:material-arrow-left: Retour : choisir sa source](index.md){ .md-button }
 

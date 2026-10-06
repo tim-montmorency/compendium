@@ -5,10 +5,14 @@
   <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
 </div>
 
-!!! abstract "L'essentiel en 3 points"
-    1. Avant de toucher à votre portfolio, on réactive les 5 notions JavaScript qui servent à afficher des projets : tableau d'objets, accès aux propriétés, `forEach`, gabarit littéral, `fetch`.
-    2. **Partie 1** : 5 petits défis dans la console du navigateur. **Partie 2** : un mini-projet guidé, en 4 étapes, qui affiche des cartes à partir d'un fichier JSON.
-    3. C'est exactement le mécanisme de votre portfolio, en miniature et sur des données neutres. Ensuite, vous le transposez chez vous.
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Avant de toucher à votre portfolio, on réactive les 5 notions JavaScript qui servent à afficher des projets : tableau d'objets, accès aux propriétés, `forEach`, gabarit littéral, `fetch`.
+2. **Partie 1** : 5 petits défis dans la console du navigateur. **Partie 2** : un mini-projet guidé, en 4 étapes, qui affiche des cartes à partir d'un fichier JSON.
+3. C'est exactement le mécanisme de votre portfolio, en miniature et sur des données neutres. Ensuite, vous le transposez chez vous.
+
+</div>
 
 ## Partie 1 : échauffement dans la console
 
