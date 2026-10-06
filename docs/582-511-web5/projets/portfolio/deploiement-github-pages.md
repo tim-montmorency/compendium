@@ -77,7 +77,8 @@ git checkout main          # IMPORTANT : revenir sur main
 ## Après la remise : continuer sur `main`
 
 - Vous continuez à travailler **sur `main`**, comme avant : *commit*, *push*, tout est normal.
-- Le site en ligne, lui, **ne change pas** : il affiche toujours la branche `beta`, telle que remise. C'est voulu : vos pairs testent la même version que celle que j'évalue.
+- Le site en ligne, lui, **ne change pas pendant les tests** : il affiche la branche `beta`, telle que remise. C'est voulu : vos trois testeurs testent tous la même version.
+- **Une fois vos 3 tests terminés**, vous passez GitHub Pages sur `main` : vos correctifs apparaissent alors en ligne. C'est cette version que le jury verra. [Procédure : étape 4 des consignes QA](qa-portfolio.md#etape-4-passer-github-pages-sur-main)
 - **Ne travaillez jamais sur `beta`**, et ne faites aucun *push* sur cette branche après la remise.
 
 !!! question "Comment savoir sur quelle branche je suis?"

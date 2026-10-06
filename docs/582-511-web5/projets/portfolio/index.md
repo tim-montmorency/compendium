@@ -266,7 +266,7 @@
       <li><span class="proj-num">1</span><span class="proj-q">Qu'est-ce que j'ai accompli depuis le dernier bloc?</span></li>
       <li><span class="proj-num">2</span><span class="proj-q">Quelle a été ma principale difficulté et comment je l'ai surmontée?</span></li>
       <li><span class="proj-num">3</span><span class="proj-q">Qu'est-ce que j'ai appris que je ne savais pas avant?</span></li>
-      <li><span class="proj-num">4</span><span class="proj-q">Quelle est ma prochaine étape concrète?</span></li>
+      <li><span class="proj-num">4</span><span class="proj-q">Quelle est ma prochaine étape concrète?<br><small>Dernier bloc, avant la remise finale : « Si j'avais une semaine de plus, qu'est-ce que je changerais? »</small></span></li>
       <li><span class="proj-num">5</span><span class="proj-q">Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?</span></li>
     </ol>
   </div>
@@ -423,6 +423,10 @@ table.proj-rubric th.lv-exc{color:var(--proj-teal);}
 .proj-rubric-note{font-size:12px;color:var(--proj-text-faint);margin:16px 0 0;}
 </style>
 <p class="proj-rubric-intro">Votre portfolio est évalué selon la grille critériée suivante. La qualité de la langue est évaluée séparément. Total : /40.</p>
+<div class="admonition danger">
+  <p class="admonition-title">IA utilisée sans respecter les consignes du cours</p>
+  <p>Usage non documenté dans le journal : plagiat, <strong>zéro</strong>. Code que vous ne pouvez pas expliquer au jury : <strong>Insuffisant</strong> au critère 1. <a href="index-textuel.html#ia-consequences">Les détails</a></p>
+</div>
 <div class="proj-rubric-crit">
   <div class="proj-rubric-crit-head"><span class="num">1</span><span class="title">Conception structurée et complète du projet</span><span class="meta">015T · /15</span></div>
   <div class="proj-rubric-scroll">

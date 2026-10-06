@@ -289,7 +289,6 @@ nav:
   - Web 5:
       - 582-511-web5/index.md
       - Projets:  
-        - 582-511-web5/projets/index.md
         - Portfolio consignes sommaires: 582-511-web5/projets/portfolio/index.md
         - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
         - Arborescence du dépôt git : 582-511-web5/projets/portfolio/arborescence-portfolio.md
@@ -302,9 +301,11 @@ nav:
         - Déployer sur GitHub Pages: 582-511-web5/projets/portfolio/deploiement-github-pages.md
         - Remise bêta, liste de vérification: 582-511-web5/projets/portfolio/remise-beta.md
         - Consignes QA du portfolio: 582-511-web5/projets/portfolio/qa-portfolio.md
+        - Présentation finale devant le jury: 582-511-web5/projets/portfolio/presentation-jury.md
       - Contrôle de la qualité:
         - Les notions QA: 582-511-web5/qa/controle-qualite.md
         - Accessibilité: 582-511-web5/qa/accessibilite.md
+        - Optimisaiton des médias: 582-511-web5/qa/optimisation-medias.md
       - I.A.:
         - 582-511-web5/ia/travail-assiste-ia.md
         - 582-511-web5/ia/citer-utilisation-ia-journal.md
@@ -335,18 +336,19 @@ nav:
             - Media queries, breakpoints: 582-211-web2/css/mediaqueries-breakpoints.md
             - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
       - Recap JavaScript: 582-511-web5/js/recap-js.md
-      - Cours 1.1: 582-511-web5/cours01a.md
-      - Cours 1.2: 582-511-web5/cours01b.md
-      - Cours 2.1: 582-511-web5/cours02a.md
-#     - Cours 2.2: 582-511-web5/cours02b.md
-      - Cours 3.1: 582-511-web5/cours03a.md
-      - Cours 3.2: 582-511-web5/cours03b.md
-      - Cours 4.1: 582-511-web5/cours04a.md
-      - Cours 4.2: 582-511-web5/cours04b.md
-      - Cours 5.1: 582-511-web5/cours05a.md
-      - Cours 5.2: 582-511-web5/cours05b.md
-      - Cours 6.1: 582-511-web5/cours06a.md
+      - Cours 7.1: 582-511-web5/cours07a.md
       - Cours 6.2: 582-511-web5/cours06b.md
+      - Cours 6.1: 582-511-web5/cours06a.md
+      - Cours 5.2: 582-511-web5/cours05b.md
+      - Cours 5.1: 582-511-web5/cours05a.md
+      - Cours 4.2: 582-511-web5/cours04b.md
+      - Cours 4.1: 582-511-web5/cours04a.md
+      - Cours 3.2: 582-511-web5/cours03b.md
+      - Cours 3.1: 582-511-web5/cours03a.md
+      # - Cours 2.2: 582-511-web5/cours02b.md
+      - Cours 2.1: 582-511-web5/cours02a.md
+      - Cours 1.2: 582-511-web5/cours01b.md
+      - Cours 1.1: 582-511-web5/cours01a.md
   - Contrôle de la qualité:
       - 582-533-controle-qualite/index.md
       - Cours 1: 582-533-controle-qualite/cours01.md
@@ -376,9 +378,9 @@ nav:
       - Cours 4: 582-541–preparation-milieu-travail/cours04.md
       - Cours 5: 582-541–preparation-milieu-travail/cours05.md
       - Cours 6: 582-541–preparation-milieu-travail/cours06.md
-      - 5 octobre: 582-541–preparation-milieu-travail/5octobre.md
-      - 12 octobre: 582-541–preparation-milieu-travail/12octobre.md      
+      - 5 octobre: 582-541–preparation-milieu-travail/5octobre.md        
       - Cours 7: 582-541–preparation-milieu-travail/cours07.md
+      - 12 octobre: 582-541–preparation-milieu-travail/12octobre.md    
       - Cours 8 - 14 octobre: 582-541–preparation-milieu-travail/cours08.md
       - Cours 9 - 14 octobre: 582-541–preparation-milieu-travail/cours09.md
       - Cours 10: 582-541–preparation-milieu-travail/cours10.md
@@ -386,6 +388,7 @@ nav:
       - Cours 12: 582-541–preparation-milieu-travail/cours12.md
       - Cours 13 - 9 novembre: 582-541–preparation-milieu-travail/cours13.md
       - Cours 14: 582-541–preparation-milieu-travail/cours14.md
+      - 17 novembre: 582-541–preparation-milieu-travail/17novembre.md   
       - Cours 15: 582-541–preparation-milieu-travail/cours15.md
       - 26 et 30 novembre: 582-541–preparation-milieu-travail/30novembre.md
       - 3 et 7 décembre: 582-541–preparation-milieu-travail/3decembre.md

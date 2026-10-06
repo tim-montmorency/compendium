@@ -76,7 +76,7 @@ Il n'y a pas de mauvais choix, mais tout choix doit être justifié au départ d
 1. Qu'est-ce que j'ai accompli depuis le dernier bloc? (Vous pouvez faire référence à vos *commits*).
 2. Quelle a été ma principale difficulté et comment je l'ai surmontée?
 3. Qu'est-ce que j'ai appris que je ne savais pas avant?
-4. Quelle est ma prochaine étape concrète?
+4. Quelle est ma prochaine étape concrète? *(Pour le dernier bloc, avant la remise finale : « Si j'avais une semaine de plus, qu'est-ce que je changerais? »)*
 5. Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
 
 #### Utilisation de l'IA
@@ -105,10 +105,13 @@ Vous ne devez pas inclure les autocomplétions de Copilot (VS Code) dans votre j
 
 ### Contrôle de qualité
 
-Vous devrez mener et documenter une démarche de contrôle de qualité en deux volets :
+Vous devrez mener et documenter une démarche de contrôle de qualité dans un fichier Excel (`qa-prenom-nom.xlsx`) :
 
-- **Auto-évaluation** : à l'aide de la grille critériée fournie, vous évaluez vous-même votre portfolio avant la remise 3.
-- **Tests par les pairs** : un·e collègue teste votre portfolio à partir d'une grille de tests guidés et vous remet ses observations écrites. Vous documentez ensuite les correctifs que vous avez apportés à la suite de ces tests.
+- **Tests** : trois personnes (vous et deux camarades) testent votre bêta en ligne, chacune dans un environnement différent, selon des scénarios guidés.
+- **Correctifs** : vous corrigez les écarts trouvés et vous validez chaque correctif en refaisant le scénario en ligne.
+- **Autoévaluation** : à l'aide de la grille critériée, vous évaluez votre portfolio avant la remise finale.
+
+[Consignes complètes du contrôle de la qualité](qa-portfolio.md)
 
 ## Modalités d'évaluation (formative et sommative) et dates de remise
 
@@ -165,19 +168,16 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 
 #### Remise 3 (FINALE) : Portfolio complet et présentation devant le jury *(gr Lora: 8 oct | gr Enric: 15 oct)*
 
-- dépôt du site en ligne (déploiment sur un serveur web de votre choix),
-- justification des choix technologiques tel que présenté à la remsie 1 (PLANIFICATION.md) et s'il y a eu des changements en cours de projet, justification de ces changements dans le journal de bord (JOURNAL.md),
+- dépôt du site en ligne (déploiement sur un serveur web de votre choix),
+- justification des choix technologiques tel que présenté à la remise 1 (PLANIFICATION.md) et s'il y a eu des changements en cours de projet, justification de ces changements dans le journal de bord (JOURNAL.md),
 - journal de bord complété pour l'ensemble du projet (JOURNAL.md)
-  - 5 questions à répondre pour le dernier bloc du projet,
+  - 5 questions à répondre pour le dernier bloc du projet (la question 4 devient : « Si j'avais une semaine de plus, qu'est-ce que je changerais? »),
   - inscription de toute question posée à l'IA, avec date, prompt, outil utilisé et résultat obtenu.
 - auto-évaluation à partir de la grille critériée,
-- résultats des tests par les pairs documentés et correctifs apportés,
+- **fichier QA complet** : tests, correctifs validés et autoévaluation,
 - présentation devant le jury (groupe de Lora le 8 octobre, groupe d'Enric le 15 octobre).
   
-*Durée approximative :*
-
-- 5 minutes de présentation par étudiant·e,
-- suivies de questions du jury.
+*Durée et déroulement :* voir les [consignes de la présentation devant le jury](presentation-jury.md).
   
 *L'évaluation porte sur :*
 
@@ -185,6 +185,9 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 - la démarche de contrôle de qualité,
 - le processus documenté (journal de bord, commits Git, commentaires dans le code, justification des choix technologiques),
 - et la capacité à justifier ses choix et son processus devant un employeur potentiel.
+
+!!! danger "IA utilisée sans respecter les consignes du cours"
+    Usage non documenté dans le journal : plagiat, **zéro**. Code que vous ne pouvez pas expliquer au jury : **Insuffisant** au critère 1. [Les détails](#ia-consequences)
 
 ## Sites de référence d'inspiration
 
@@ -226,6 +229,16 @@ Vous devrez mener et documenter une démarche de contrôle de qualité en deux v
 Ce projet compte pour **40 % de la note finale** du cours Web 5 et est évalué de façon individuelle (100 % de la note est individuelle).
 
 Votre portfolio est évalué selon la grille critériée suivante. La qualité de la langue est évaluée séparément. Total : /40.
+
+<a id="ia-consequences"></a>
+
+!!! danger "IA utilisée sans respecter les consignes du cours"
+    L'IA est permise, à deux conditions : **documenter** dans votre `JOURNAL.md` chaque question posée à l'IA (date, prompt, outil, résultat), et **comprendre** tout le code que vous remettez (travail par incrément, code de Figma Make ou de Google Stitch jamais livré tel quel).
+
+    | Situation | Conséquence |
+    |---|---|
+    | Usage de l'IA non documenté dans le journal | Plagiat : **zéro** pour le portfolio et rapport d'événement ([PIEA](https://www.cmontmorency.qc.ca/wp-content/uploads/images/college/regles-et-reglements/politique-institutionnelle-evaluation-apprentissages-piea.pdf){ :target="_blank" }, art. 6.1.2). En cas de récidive dans le cours : échec du cours. |
+    | Code que vous ne pouvez pas expliquer ou modifier devant le jury | Niveau **Insuffisant** à l'indicateur « Justification orale devant le jury » (critère 1). La grille le dit explicitement : « du code qu'elle ne comprend pas ». |
 
 ### Critère 1 : Conception structurée et complète du projet (015T, /15)
 

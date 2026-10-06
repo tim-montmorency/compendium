@@ -1,35 +1,6 @@
 # Cours 6.2
 <!-- ven. 2 oct. -->
 
-<div class="class-content-link">
-  <img src="./projets/assets/icon-portfolio.svg">
-  <a href="./projets/portfolio/qa-portfolio.html">Contrôle de la qualité du portfolio : les consignes</a>
-</div>
-
-
-!!! danger "À faire en arrivant : `noindex` sur la branche `beta`"
-    Votre bêta est publique : sans cette ligne, Google peut l'indexer.
-    Ajoutez-la dans le `<head>` de **chaque** fichier HTML de la
-    branche `beta` (`index.html`, `project.html`...) :
-
-    ```html
-    <meta name="robots" content="noindex, nofollow">
-    ```
-
-    **Directement sur github.com**, pas dans VS Code :
-
-    1. Ouvrez votre dépôt. Dans le menu des branches (en haut à
-       gauche de la liste des fichiers), choisissez **`beta`**.
-    2. Cliquez sur `index.html`, puis sur le crayon ✏️ (*Edit this file*).
-    3. Collez la ligne dans le `<head>`, sous la balise `<title>`.
-    4. **Commit changes...** → vérifiez que **Commit directly to the
-       `beta` branch** est coché → **Commit changes**.
-    5. Refaites les étapes 2 à 4 pour chaque fichier HTML.
-
-    Vérification : 1 ou 2 minutes plus tard, sur votre site en ligne,
-    Ctrl + U (code source) : la ligne est dans le `<head>`.
-
-    Vous l'aviez déjà mise avant de créer `beta`? Rien à faire.
 
 [:material-clipboard-check-multiple: Consignes QA du portfolio](projets/portfolio/qa-portfolio.md){ .md-button .md-button--primary }
 
@@ -61,16 +32,16 @@
 
 | 📅 Date | 👤 Tuteur | ⏱️ Durée | 📍 Où |
 |---|---|---|---|
-| Chaque mardi, 12 h 30 à 14 h 10 (8 sept. au 8 déc.) | Alexis Guilbault | 1 h 40 | 🏫 En personne au Centre d'aide C-1602 |
-| Chaque mercredi, 20 h à 21 h 15 (9 sept. au 9 déc.) | Olivier Laliberté | 1 h 15 | 💻 En ligne sur Teams : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) |
+| Chaque mardi, 12h30 à 14h10 (8 sept. au 8 déc.) | Alexis Guilbault | 1h40 | 🏫 En personne au Centre d'aide C-1602 |
+| Chaque mercredi, 20h à 21h15 (9 sept. au 9 déc.) | Olivier Laliberté | 1h15 | 💻 En ligne sur Teams : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) |
 
 !!! success "🆕 Tutorat supplémentaire réservé à Web 5"
 
     | 📅 Date | 👤 Tuteur | ⏱️ Durée | 📍 Où | 🎯 Avant |
     |---|---|---|---|---|
-    | Lun. 5 oct., 19 h 10 à 20 h | Olivier | 50 min | En ligne Teams, équipe *Web5* : [canal « Tutorat Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Lora (8 oct.) |
-    | Mar. 6 oct., 19 h 10 à 20 h | Alexis | 50 min | En ligne Teams, équipe *Web5* : [canal « Tutorat Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Lora (8 oct.) |
-    | Mar. 13 oct., 19 h 10 à 20 h | Alexis | 50 min | En ligne Teams, équipe *Web5* : [canal « Tutorat Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Enric (15 oct.) |
+    | Lun. 5 oct., 19h10 à 20h | Olivier | 50min | En ligne Teams, équipe *Web5* : [canal « Tutorat Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Lora (8 oct.) |
+    | Mar. 6 oct., 19h10 à 20h | Alexis | 50min | En ligne Teams, équipe *Web5* : [canal « Tutorat Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Lora (8 oct.) |
+    | Mar. 13 oct., 19h10 à 20h | Alexis | 50min | En ligne Teams, équipe *Web5* : [canal « Tutorat Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Remise finale gr. Enric (15 oct.) |
 
     👥 **Toutes les périodes sont ouvertes aux deux groupes.** Apportez votre fichier QA : on peut vous aider à corriger un écart précis.
 
@@ -87,6 +58,8 @@ Un problème? On le règle maintenant : sans bêta en ligne, vos camarades ne pe
 [:material-github: Remettre la bêta et la mettre en ligne](projets/portfolio/deploiement-github-pages.md){ .md-button }
 
 ## Le contrôle de la qualité
+
+[:material-presentation: Présentation : QA et accessibilité (PowerPoint)](assets/documents/Web5_qa-accessibilite.pptx){ .md-button }
 
 Scénario, résultat attendu, résultat observé, écart, gravité, correctif, validation : le vocabulaire de votre grille, et la démarche qu'on applique aujourd'hui.
 

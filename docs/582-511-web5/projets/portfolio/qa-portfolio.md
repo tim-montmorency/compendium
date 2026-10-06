@@ -103,6 +103,7 @@ Pour chaque ligne :
     - Un écart = une ligne. Si vous trouvez deux problèmes dans le même scénario, décrivez les deux dans la case.
     - On décrit des faits observables, pas des goûts. « Je n'aime pas le vert » n'est pas un écart; « le texte vert sur fond vert pâle a un contraste de 2:1 » en est un.
     - Firefox ne fait pas encore les animations au défilement : si le contenu s'affiche normalement sans animation, c'est **conforme**.
+    - Sur téléphone, suivez la colonne *Sur téléphone* de l'onglet Scénarios (scénarios 7, 8, 10 et 11). Un scénario non applicable : *Non testé*, avec la mention « non applicable sur mobile ». Le testeur sur téléphone aura donc 12 ou 13 tests faits au lieu de 14 : c'est normal.
 
 Comptez environ **30 minutes par site**. Les scénarios 7 à 9 (clavier, contraste, WAVE) demandent les outils vus en classe : [page Accessibilité](../../qa/accessibilite.md).
 

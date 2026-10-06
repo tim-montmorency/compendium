@@ -23,3 +23,6 @@ Vous ne devez pas inclure les autocomplétions de Copilot (VS Code) dans votre j
 !!! tip
     Voir aussi le modèle de citation détaillé sur la [page du projet portfolio](../projets/portfolio/index.md#utilisation-de-lia).
  
+
+!!! danger "IA utilisée sans respecter les consignes du cours"
+    Usage non documenté dans le journal : plagiat, **zéro**. Code que vous ne pouvez pas expliquer au jury : **Insuffisant** au critère 1. [Les détails](../projets/portfolio/index-textuel.md#ia-consequences)
