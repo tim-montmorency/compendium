@@ -3,39 +3,47 @@
 
 ![](assets/cours07a-banniere.webp){.w-100}
 
-<div class="grid cards" markdown>
+<div class="grid" markdown>
 
-- :material-image-size-select-large: __Optimiser les médias__
+<div class="card" markdown>
+:material-image-size-select-large: __Optimiser les médias__
 
-  ---
+---
 
-  Mesurer, puis 4 gestes pour alléger votre site.
+Mesurer, puis 4 gestes pour alléger votre site.
 
-  [:octicons-arrow-right-24: La page](qa/optimisation-medias.md)
+[:octicons-arrow-right-24: La page](qa/optimisation-medias.md)
+</div>
 
-- :material-clipboard-check-multiple: __Vos correctifs QA__
+<div class="card" markdown>
+:material-clipboard-check-multiple: __Vos correctifs QA__
 
-  ---
+---
 
-  Corriger, valider en ligne, documenter.
+Corriger, valider en ligne, documenter.
 
-  [:octicons-arrow-right-24: Étape 5 des consignes](projets/portfolio/qa-portfolio.md)
+[:octicons-arrow-right-24: Étape 5 des consignes](projets/portfolio/qa-portfolio.md)
+</div>
 
-- :material-presentation-play: __Le jury__
+<div class="card" markdown>
+:material-presentation-play: __Le jury__
 
-  ---
+---
 
-  Environ 7 minutes, puis les questions. Copilot fermé.
+Environ 7 minutes, puis les questions. Copilot fermé.
 
-  [:octicons-arrow-right-24: Les consignes](projets/portfolio/presentation-jury.md)
+[:octicons-arrow-right-24: Les consignes](projets/portfolio/presentation-jury.md)
+</div>
 
-- :material-clipboard-text-clock-outline: __Autoévaluation et journal__
+<div class="card" markdown>
+:material-clipboard-text-clock-outline: __Autoévaluation et journal__
 
-  ---
+---
 
-  Une preuve pour chaque indicateur, et le dernier bloc du journal.
+Une preuve pour chaque indicateur, et le dernier bloc du journal.
 
-  [:octicons-arrow-right-24: Dans cette page](#autoevaluation)
+[:octicons-arrow-right-24: Dans cette page](#autoevaluation)
+</div>
 
 </div>
 

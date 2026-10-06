@@ -7,55 +7,67 @@
     2. Quatre gestes : le **bon format**, les **bonnes dimensions**, le **chargement différé** (`loading="lazy"`) et la **place réservée** (`width` et `height`).
     3. On **mesure avant et après** dans l'onglet Réseau (Network) : c'est la preuve à inscrire dans l'onglet Correctifs de votre fichier QA.
 
-<div class="grid cards" markdown>
+<div class="grid" markdown>
 
--   :material-speedometer: __Mesurer__
+<div class="card" markdown>
+:material-speedometer: __Mesurer__
 
-    ---
+---
 
-    Le poids total, avant et après, dans l'onglet Réseau.
+Le poids total, avant et après, dans l'onglet Réseau.
 
-    [:octicons-arrow-right-24: Mesurer d'abord](#mesurer)
+[:octicons-arrow-right-24: Mesurer d'abord](#mesurer)
+</div>
 
--   :material-file-image-outline: __1. Le bon format__
+<div class="card" markdown>
+:material-file-image-outline: __1. Le bon format__
 
-    ---
+---
 
-    WebP pour les photos, SVG pour les logos.
+WebP pour les photos, SVG pour les logos.
 
-    [:octicons-arrow-right-24: Le format](#format)
+[:octicons-arrow-right-24: Le format](#format)
+</div>
 
--   :material-resize: __2. Les bonnes dimensions__
+<div class="card" markdown>
+:material-resize: __2. Les bonnes dimensions__
 
-    ---
+---
 
-    Environ 2 fois la largeur d'affichage, pas plus.
+Environ 2 fois la largeur d'affichage, pas plus.
 
-    [:octicons-arrow-right-24: Les dimensions](#dimensions)
+[:octicons-arrow-right-24: Les dimensions](#dimensions)
+</div>
 
--   :material-timer-sand: __3. Le chargement différé__
+<div class="card" markdown>
+:material-timer-sand: __3. Le chargement différé__
 
-    ---
+---
 
-    `loading="lazy"` : seulement ce qui approche de l'écran.
+`loading="lazy"` : seulement ce qui approche de l'écran.
 
-    [:octicons-arrow-right-24: Le chargement différé](#lazy)
+[:octicons-arrow-right-24: Le chargement différé](#lazy)
+</div>
 
--   :material-crop-free: __4. La place réservée__
+<div class="card" markdown>
+:material-crop-free: __4. La place réservée__
 
-    ---
+---
 
-    `width` et `height` : la page ne saute plus.
+`width` et `height` : la page ne saute plus.
 
-    [:octicons-arrow-right-24: Réserver la place](#dimensions-html)
+[:octicons-arrow-right-24: Réserver la place](#dimensions-html)
+</div>
 
--   :material-video-outline: __Les vidéos__
+<div class="card" markdown>
+:material-video-outline: __Les vidéos__
 
-    ---
+---
 
-    Hébergées sur YouTube ou Vimeo, ou un court MP4 compressé.
+Hébergées sur YouTube ou Vimeo, ou un court MP4 compressé.
 
-    [:octicons-arrow-right-24: Les vidéos](#videos)
+[:octicons-arrow-right-24: Les vidéos](#videos)
+</div>
 
 </div>
 

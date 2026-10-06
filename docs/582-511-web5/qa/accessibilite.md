@@ -12,39 +12,47 @@
 
 Pour qui? Une personne aveugle qui utilise un lecteur d'écran, une personne qui ne peut pas utiliser de souris, une personne âgée qui voit moins bien les contrastes, quelqu'un qui consulte votre site en plein soleil sur son téléphone... et le recruteur pressé qui navigue avec Tab. L'accessibilité améliore le site pour **tout le monde**.
 
-<div class="grid cards" markdown>
+<div class="grid" markdown>
 
--   :material-file-tree: __1. Sémantique__
+<div class="card" markdown>
+:material-file-tree: __1. Sémantique__
 
-    ---
+---
 
-    Le bon élément HTML pour le bon rôle.
+Le bon élément HTML pour le bon rôle.
 
-    [:octicons-arrow-right-24: La sémantique](#semantique)
+[:octicons-arrow-right-24: La sémantique](#semantique)
+</div>
 
--   :material-image-text: __2. Les `alt`__
+<div class="card" markdown>
+:material-image-text: __2. Les `alt`__
 
-    ---
+---
 
-    Remplacer l'image pour qui ne la voit pas.
+Remplacer l'image pour qui ne la voit pas.
 
-    [:octicons-arrow-right-24: Les attributs alt](#alt)
+[:octicons-arrow-right-24: Les attributs alt](#alt)
+</div>
 
--   :material-contrast-circle: __3. Le contraste__
+<div class="card" markdown>
+:material-contrast-circle: __3. Le contraste__
 
-    ---
+---
 
-    4,5:1 pour le texte courant, 3:1 pour le gros texte.
+4,5:1 pour le texte courant, 3:1 pour le gros texte.
 
-    [:octicons-arrow-right-24: Le contraste](#contraste)
+[:octicons-arrow-right-24: Le contraste](#contraste)
+</div>
 
--   :material-keyboard-outline: __4. Le clavier__
+<div class="card" markdown>
+:material-keyboard-outline: __4. Le clavier__
 
-    ---
+---
 
-    Tout faire sans souris, en voyant toujours le focus.
+Tout faire sans souris, en voyant toujours le focus.
 
-    [:octicons-arrow-right-24: La navigation au clavier](#clavier)
+[:octicons-arrow-right-24: La navigation au clavier](#clavier)
+</div>
 
 </div>
 
