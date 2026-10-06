@@ -216,11 +216,46 @@ iframe.center {
   aspect-ratio: 400 / calc(300 + 50 + 30 + 10);
 }
 
-
-
-
 img[class*="aspect"] {
   object-fit: cover;
+}
+
+/* Onglets (tabbed) : bordure arrondie, onglet actif accentué */
+.md-typeset .tabbed-labels {
+  gap: 0.25rem;
+  box-shadow: inset 0 -2px 0 var(--md-default-fg-color--lighter);
+}
+.js .md-typeset .tabbed-labels::before {
+  display: none; /* retire le soulignement animé de Material */
+}
+.md-typeset .tabbed-labels > label {
+  border: 2px solid var(--md-default-fg-color--lightest);
+  border-bottom: 0;
+  border-radius: 0.4rem 0.4rem 0 0;
+  padding: 0.7em 1.1em;
+  color: var(--md-default-fg-color--light);
+  opacity: 0.7;
+  transition: border-color 0.2s, color 0.2s, opacity 0.2s;
+}
+.md-typeset .tabbed-labels > label > a {
+  color: inherit;
+  text-decoration: none;
+}
+.md-typeset .tabbed-labels > label:hover {
+  opacity: 1;
+}
+/* Onglet actif */
+.md-typeset .tabbed-set > input:nth-child(1):checked ~ .tabbed-labels > label:nth-child(1),
+.md-typeset .tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > label:nth-child(2),
+.md-typeset .tabbed-set > input:nth-child(3):checked ~ .tabbed-labels > label:nth-child(3),
+.md-typeset .tabbed-set > input:nth-child(4):checked ~ .tabbed-labels > label:nth-child(4),
+.md-typeset .tabbed-set > input:nth-child(5):checked ~ .tabbed-labels > label:nth-child(5),
+.md-typeset .tabbed-set > input:nth-child(6):checked ~ .tabbed-labels > label:nth-child(6),
+.md-typeset .tabbed-set > input:nth-child(7):checked ~ .tabbed-labels > label:nth-child(7),
+.md-typeset .tabbed-set > input:nth-child(8):checked ~ .tabbed-labels > label:nth-child(8) {
+  border-color: var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color);
+  opacity: 1;
 }
 
 /* =========================
@@ -533,6 +568,18 @@ body[data-md-color-scheme="slate"] img.invert {
 .md-typeset .grid.cards>ul>li:hover,
 .md-typeset .grid>.card:hover {
   box-shadow: var(--md-shadow-z2);
+}
+
+/* Cartes (grid cards) : même hauteur partout, lien collé en bas */
+.md-typeset .grid.cards > ul {
+  grid-auto-rows: 1fr;
+}
+.md-typeset .grid.cards > ul > li {
+  display: flex;
+  flex-direction: column;
+}
+.md-typeset .grid.cards > ul > li > :last-child {
+  margin-top: auto;
 }
 
 /* =========================
