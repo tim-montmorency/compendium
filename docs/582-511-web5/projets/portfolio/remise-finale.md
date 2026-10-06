@@ -70,6 +70,9 @@ Cochez chaque élément ci-dessous avant la remise. C'est cette version qui est 
 
 Remettez ces liens dans le devoir Teams **avant votre présentation**. Le jour du jury, on ouvre votre remise sur le poste de l'enseignante et tout est là, en quelques clics.
 
+!!! warning "Le code évalué : celui de votre dernier *commit* avant l'heure de remise"
+    Les questions de code se font sur une copie de votre dépôt récupérée à l'heure de remise du devoir Teams. Tout *commit* poussé après cette heure ne sera pas vu.
+
 - [ ] Le lien vers votre **dépôt GitHub**.
 - [ ] Le lien vers votre **site en ligne**.
 - [ ] Le lien vers votre **fichier QA** sur OneDrive.
@@ -81,4 +84,5 @@ Remettez ces liens dans le devoir Teams **avant votre présentation**. Le jour d
 - [ ] J'ai testé sur mon téléphone (ou avec le mode appareil de l'inspecteur).
 - [ ] Ctrl + U sur mon site en ligne : la ligne `noindex` n'y est plus.
 - [ ] J'ai cliqué sur chacun de mes 4 liens **depuis ma remise Teams** : ils mènent tous au bon endroit.
+- [ ] **Airtable ou Google Sheets?** Mon téléphone est connecté à ma source de données, pour la modifier pendant les questions de code.
 - [ ] Ma présentation est prête et **chronométrée** : environ 7 minutes. [Consignes du jury](presentation-jury.md)

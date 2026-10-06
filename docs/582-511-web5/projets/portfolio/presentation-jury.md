@@ -2,15 +2,15 @@
 
 !!! example "Plan global pour la journée de présentation"
 
-    210 minutes divisées entre 17 étudiants, ça fait 12 minutes par étudiant (pause de 10 minutes après le 9e étudiant).
+    Pendant qu'un étudiant répond aux questions de code **en retrait**, avec Marie-Michelle, l'étudiant suivant se prépare **en avant**. Environ 11 min 30 par étudiant (pause de 10 minutes après le 9e étudiant).
 
-    | Étape | Temps | Ce qui se passe |
-    |---|---|---|
-    | Mise en place | 1:30 min | Brancher l'ordinateur, ouvrir les onglets (site en ligne, page du projet vedette, VS Code, fichier QA, Figma) |
-    | Présentation | 7 min | Les 5 parties des consignes, avec le projet vedette et son processus créatif au centre |
-    | Questions du jury | 2:30 min | Justifier ses choix, montrer dans le code, modifier en direct |
-    | Commentaire du jury | 1 min | Recevoir les commentaires et critiques constructives du jury, les noter en vue d'améliorer le projet et de le peaufiner. |
-    | **Total** | **12 min** | |
+    | Étape | Où | Temps | Ce qui se passe |
+    |---|---|---|---|
+    | Mise en place | En avant, poste de l'enseignante | 3 min | Pendant les questions de code de l'étudiant précédent : ouvrir les onglets (site en ligne, page du projet vedette, fichier QA, Figma) |
+    | Présentation | En avant, devant la classe | 7 min | Les parties des consignes, avec le projet vedette et son processus créatif au centre |
+    | Commentaires du jury | En avant, devant la classe | 1 min 30 | Recevoir les commentaires et critiques constructives du jury (Lora, Enric, Marie-Michelle), les noter en vue d'améliorer et de peaufiner le projet |
+    | Questions de code | **En retrait**, avec Marie-Michelle | 3 min | Pige aléatoire : montrer et expliquer, puis modifier en direct (une modification CSS et une modification JS) |
+    | **Total** | | **11 min 30** | La mise en place de l'étudiant suivant se fait pendant vos questions de code |
 
     !!! danger "Commentaires du jury : sur place, puis par écrit"
         IMPORTANT: Après la présentation, le jury peut ajouter des questions et des commentaires par écrit dans les jours qui suivent sur un *Devoir Teams* associé dans l'équipe Web 5.
@@ -61,6 +61,15 @@ Après votre présentation, le jury peut vous demander des questions, ou demande
 - **Expliquer votre démarche** : «&nbsp;Comment avez-vous testé votre site?&nbsp;», «&nbsp;Qu'est-ce qu'un de vos testeurs a trouvé?&nbsp;».
 
 
+!!! info "Les questions de code : en retrait, par pige"
+    Les demandes **montrer**, **expliquer** et **modifier en direct** se font **en retrait**, seul avec Marie-Michelle, pendant 3 minutes. Elles sont **pigées au hasard**, devant vous, dans trois banques de difficulté équivalente :
+
+    1. **Montrer et expliquer** une partie de votre code;
+    2. **Une modification CSS** (ex. changer l'espacement entre les cartes);
+    3. **Une modification JS ou des données** (ex. afficher une nouvelle propriété sur vos cartes).
+
+    Si une pige ne s'applique pas à votre portfolio, on repige. Vous pouvez consulter votre propre code, mais ni Copilot ni Internet. On évalue votre **compréhension**, pas votre vitesse : savoir où aller et quoi changer compte, même sans finir.
+
 C'est l'indicateur «&nbsp;Justification orale devant le jury&nbsp;» de votre [grille d'évaluation de Web 5](index-textuel.md#criteres-devaluation) (critère 1). Au niveau Excellent, vous reliez vos choix aux besoins des personnes que vous visez, et vous expliquez aussi vos choix techniques **non évidents**.
 
 !!! danger "Le code généré avec l'IA"
@@ -78,6 +87,8 @@ C'est l'indicateur «&nbsp;Justification orale devant le jury&nbsp;» de votre [
   - votre fichier QA (`qa-prenom-nom.xlsx`);
   - votre maquette Figma.
 - [ ] Vous avez préparé **une phrase de départ** pour chaque partie. Le reste, dites-le avec vos mots, sans lire.
+- [ ] Votre **dernier *commit*** est poussé **avant l'heure de remise du devoir Teams** : c'est cette version de votre code qui sera ouverte pour les questions.
+- [ ] **Airtable ou Google Sheets?** Ayez votre **téléphone**, connecté à votre source de données : c'est là que vous la modifierez pendant les questions de code.
 - [ ] Vous savez répondre en une phrase à : «&nbsp;Quel est le choix dont vous êtes le plus fier ou la plus fière?&nbsp;» et «&nbsp;Si vous aviez une semaine de plus, que changeriez-vous?&nbsp;»
 
 ## Conseils

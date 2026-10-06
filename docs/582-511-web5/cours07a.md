@@ -133,7 +133,9 @@ Votre fichier QA est votre liste de travail : **bloquants**, puis **majeurs**, p
 - [ ] le scénario refait **en ligne**, sur `main`;
 - [ ] la ligne remplie dans l'onglet **Correctifs** (validé, date, comment).
 
-[:material-clipboard-check-multiple: Consignes QA : étape 5, corriger et valider](projets/portfolio/qa-portfolio.md){ .md-button }
+D'abord: [Consignes QA : étape 4 : passer GitHub Pages sur main](projets/portfolio/qa-portfolio.md#etape-4-passer-github-pages-sur-main) et ensuite :
+
+[:material-clipboard-check-multiple: Consignes QA : étape 5, corriger et valider](projets/portfolio/qa-portfolio.md#etape-5-corriger-et-valider){ .md-button }
 
 ## Mon code, je le comprends et je l'assume
 
