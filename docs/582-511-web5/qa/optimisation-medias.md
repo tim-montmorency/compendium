@@ -73,14 +73,15 @@ Optimiser les médias est crucial pour améliorer la performance d'un site web. 
 
 ## Mesurer d'abord { #mesurer }
 
-<div class="grid grid-1-2" markdown>
-  ![Impression-écran de la console, onglet "Réseau/Network"](./assets/optim-media-console-onglet-reseau.png){ data-zoom-image }
-
-  1. Ouvrez votre site en ligne, puis l'inspecteur (F12) → onglet **Réseau** (Network).
-  2. Cochez **Désactiver le cache** (Disable cache), puis filtrez sur **[Img]**.
-  3. Rechargez la page (Ctrl + F5).
-  4. En bas de l'onglet : le **nombre *x*** d'images (*x* / y requests) et le **poids total *x*** transféré (*x* kB / y kB transferred).
-  5. Triez la colonne **Taille** (Size) : les plus lourdes en haut. Ce sont elles qu'on traite en premier.
+<div class="grid grid-1-2">
+  <img src="assets/optim-media-console-onglet-reseau.png" alt="Impression-écran de la console, onglet Réseau (Network)" data-zoom-image>
+  <ol>
+    <li>Ouvrez votre site en ligne, puis l'inspecteur (F12) → onglet <strong>Réseau</strong> (Network).</li>
+    <li>Cochez <strong>Désactiver le cache</strong> (Disable cache), puis filtrez sur <strong>[Img]</strong>.</li>
+    <li>Rechargez la page (Ctrl + F5).</li>
+    <li>En bas de l'onglet : le <strong>nombre <em>x</em></strong> d'images (<em>x</em> / y requests) et le <strong>poids total <em>x</em></strong> transféré (<em>x</em> kB / y kB transferred).</li>
+    <li>Triez la colonne <strong>Taille</strong> (Size) : les plus lourdes en haut. Ce sont elles qu'on traite en premier.</li>
+  </ol>
 </div>
 
 !!! tip "Un repère"
@@ -121,12 +122,12 @@ Optimiser les médias est crucial pour améliorer la performance d'un site web. 
 
 ## 2. Les bonnes dimensions { #dimensions }
 
-<div class="grid grid-1-2" markdown>
-  ![Schéma : une image de 4000 px de large téléchargée pour une carte affichée à 400 px](./assets/optimisation-medias-dimensions.webp){ data-zoom-image }
-
-  Une image de 4000px de large affichée dans une carte de 400px : le navigateur télécharge 10 fois trop de pixels en largeur (100 fois trop au total), puis les jette.
-
-  **Règle simple** : environ **2 fois** la largeur d'affichage, pour rester net sur les écrans haute densité (ex. une carte affichée à 400px → une image de 800px).
+<div class="grid grid-1-2">
+  <img src="assets/optimisation-medias-dimensions.webp" alt="Schéma : une image de 4000 px de large téléchargée pour une carte affichée à 400 px" data-zoom-image>
+  <div>
+    <p>Une image de 4000px de large affichée dans une carte de 400px : le navigateur télécharge 10 fois trop de pixels en largeur (100 fois trop au total), puis les jette.</p>
+    <p><strong>Règle simple</strong> : environ <strong>2 fois</strong> la largeur d'affichage, pour rester net sur les écrans haute densité (ex. une carte affichée à 400px → une image de 800px).</p>
+  </div>
 </div>
 
 Pour connaître la largeur d'affichage : inspecteur → survolez l'image dans l'onglet Éléments, sa taille s'affiche. Redimensionnez ensuite avec l'une des deux options ci-dessus.
