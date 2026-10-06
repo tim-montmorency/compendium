@@ -4,11 +4,9 @@
 docs/582-511-web5/CLAUDE.md
 docs/582-511-web5/**/*-a25*
 docs/582-511-web5/**/*530-tp*.docx
-
+mkdocs-web5.yml
 
 site
-
-
 
 node_modules
 
