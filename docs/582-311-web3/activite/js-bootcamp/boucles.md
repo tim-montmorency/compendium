@@ -5,7 +5,7 @@ tags:
 
 # Les boucles
 
-![](../assets/images/boucles_banner.png)
+![](./boucles_banner.png)
 
 ## Matière à connaître
 
@@ -106,36 +106,97 @@ Imaginez que vous devez envoyer un seul courriel à une liste de destinataires.
 
 L’exercice consiste à produire le champ « destinataires » du courriel à partir d’un tableau de courriels et d’une boucle `for` en JavaScript.
 
-Vous devez utiliser ce tableau :
-
-```js
-let courriels = [
-    "marie.tremblay@cmontmorency.qc.ca",
-    "jean.gagnon@cmontmorency.qc.ca",
-    "lucie.boucher@cmontmorency.qc.ca",
-    "maxime.dubois@cmontmorency.qc.ca",
-    "sophie.lemieux@cmontmorency.qc.ca",
-    "nicolas.fortier@cmontmorency.qc.ca",
-    "emma.caron@cmontmorency.qc.ca",
-    "olivier.mercier@cmontmorency.qc.ca",
-    "isabelle.bellefeuille@cmontmorency.qc.ca",
-    "quentin.bergeron@cmontmorency.qc.ca"
-];
-```
-
 Un destinataire multiple, c’est simplement une chaîne de caractères composée de courriels séparés par une virgule et une espace.
 
 ## Résultat attendu
 
-```console
-marie.tremblay@cmontmorency.qc.ca, jean.gagnon@cmontmorency.qc.ca, lucie.boucher@cmontmorency.qc.ca, maxime.dubois@cmontmorency.qc.ca, sophie.lemieux@cmontmorency.qc.ca, nicolas.fortier@cmontmorency.qc.ca, emma.caron@cmontmorency.qc.ca, olivier.mercier@cmontmorency.qc.ca, isabelle.bellefeuille@cmontmorency.qc.ca, quentin.bergeron@cmontmorency.qc.ca
+```text title="Console"
+sophie.lemieux@cmontmorency.qc.ca, nicolas.fortier@cmontmorency.qc.ca, emma.caron@cmontmorency.qc.ca, olivier.mercier@cmontmorency.qc.ca, isabelle.bellefeuille@cmontmorency.qc.ca, quentin.bergeron@cmontmorency.qc.ca
 ```
 
 ## Instructions
 
-* [ ] Ajoutez à votre code le tableau contenant une liste de courriels des destinataires.
-* [ ] Ajoutez une boucle `for` pour parcourir chaque courriel du tableau et construire une chaîne de caractères où les adresses sont séparées par une virgule et une espace. Attention, il ne doit pas y avoir de virgule après le dernier courriel. N'utilisez pas la méthode `join()`.
-* [ ] Affichez dans la console la chaîne de caractères des courriels séparés par une virgule.
+Dans le fichier `script.js` :
+
+* [ ] Ajouter le tableau des courriels : 
+
+  ```js
+  let courriels = [
+      "sophie.lemieux@cmontmorency.qc.ca",
+      "nicolas.fortier@cmontmorency.qc.ca",
+      "emma.caron@cmontmorency.qc.ca",
+      "olivier.mercier@cmontmorency.qc.ca",
+      "isabelle.bellefeuille@cmontmorency.qc.ca",
+      "quentin.bergeron@cmontmorency.qc.ca"
+  ];
+  ```
+
+### Étape 1
+
+* [ ] Ajouter une boucle `for` qui affiche chaque courriel du tableau dans la console, un par ligne
+* [ ] Vérifier dans la console :
+
+  ```txt title="Console"
+  sophie.lemieux@cmontmorency.qc.ca
+  nicolas.fortier@cmontmorency.qc.ca
+  emma.caron@cmontmorency.qc.ca
+  olivier.mercier@cmontmorency.qc.ca
+  isabelle.bellefeuille@cmontmorency.qc.ca
+  quentin.bergeron@cmontmorency.qc.ca
+  ```
+
+* [ ] Effectuer un `commit` avec le message « Parcourir le tableau »
+
+### Étape 2
+
+* [ ] Avant la boucle, déclarer une variable `destinataires` qui contient une string vide
+* [ ] Dans la boucle, remplacer le `console.log` par l'ajout du courriel à la fin de `destinataires`
+
+  ??? question "Comment ajouter du texte à la fin d'une variable ?"
+    
+      ```js
+      texte += "abc";
+      
+      // Équivaut à : texte = texte + "abc";
+      ```
+
+      Cette opération se nomme « une concaténation ».
+
+* [ ] **Après** la boucle, afficher `destinataires` dans la console
+* [ ] Vérifier dans la console (les courriels sont collés, c'est normal) :
+
+  ```txt title="Console"
+  sophie.lemieux@cmontmorency.qc.canicolas.fortier@cmontmorency.qc.caemma.caron@cmontmorency.qc.caolivier.mercier@cmontmorency.qc.caisabelle.bellefeuille@cmontmorency.qc.caquentin.bergeron@cmontmorency.qc.ca
+  ```
+
+* [ ] Effectuer un `commit` avec le message « Concaténation »
+
+### Étape 3
+
+* [ ] Dans la boucle, ajouter une virgule et une espace (`", "`) après chaque courriel
+* [ ] Vérifier dans la console (il reste une virgule de trop à la fin) :
+
+  ```txt title="Console"
+  sophie.lemieux@cmontmorency.qc.ca, nicolas.fortier@cmontmorency.qc.ca, emma.caron@cmontmorency.qc.ca, olivier.mercier@cmontmorency.qc.ca, isabelle.bellefeuille@cmontmorency.qc.ca, quentin.bergeron@cmontmorency.qc.ca, 
+  ```
+
+* [ ] Effectuer un `commit` avec le message « Séparateurs »
+
+### Étape 4
+
+* [ ] Ajouter une condition `if` dans la boucle pour ne pas ajouter de virgule après le **dernier** courriel
+* [ ] Ne pas utiliser la méthode `join()`
+
+  ??? tip "Indice"
+
+      Le dernier courriel se trouve à l'index `courriels.length - 1`.
+
+* [ ] Vérifier que la console affiche le résultat attendu
+* [ ] Effectuer un `commit` avec le message « Finition », puis un `push`
+
+<figure markdown>
+![](./meeseek.gif){.w-50}
+</figure>
 
 [STOP]
 
@@ -143,10 +204,6 @@ marie.tremblay@cmontmorency.qc.ca, jean.gagnon@cmontmorency.qc.ca, lucie.boucher
 
 ```js
 let courriels = [
-    "marie.tremblay@cmontmorency.qc.ca",
-    "jean.gagnon@cmontmorency.qc.ca",
-    "lucie.boucher@cmontmorency.qc.ca",
-    "maxime.dubois@cmontmorency.qc.ca",
     "sophie.lemieux@cmontmorency.qc.ca",
     "nicolas.fortier@cmontmorency.qc.ca",
     "emma.caron@cmontmorency.qc.ca",
@@ -155,14 +212,14 @@ let courriels = [
     "quentin.bergeron@cmontmorency.qc.ca"
 ];
 
-let listeDestinataires = "";
+let destinataires = "";
 
 for (let i = 0; i < courriels.length; i++) {
-    if (i !== 0) {
-        listeDestinataires += ", ";
+    destinataires += courriels[i];
+    if (i < courriels.length - 1) {
+        destinataires += ", ";
     }
-    listeDestinataires += courriels[i];
 }
 
-console.log(listeDestinataires);
+console.log(destinataires);
 ```

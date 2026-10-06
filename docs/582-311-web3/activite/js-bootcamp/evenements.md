@@ -5,7 +5,7 @@ tags:
 
 # Événements
 
-![](../assets/images/evenements_banner.png)
+![](./evenements_banner.png)
 
 ## Matière à connaître
 
@@ -52,29 +52,42 @@ tags:
 
 ## Objectif
 
-En cliquant sur le bouton, vous devez ajouter votre prénom et nom dans les balises `div`.
+Afficher votre prénom et votre nom sur la page lorsqu'on clique sur un bouton.
 
-Code de départ :
+## Résultat attendu
 
-```html
-<div class="prenom"></div>
-<div id="nom"></div>
-
-<button id="toto">Salut!</button>
-```
+![type:video](./event.webm){.h-auto}
 
 ## Instructions
 
-* [ ] Sélectionnez chacun des éléments du DOM, soit les balises `div` et le bouton.
-* [ ] Chaque sélection doit être placée dans une variable.
-* [ ] Ajoutez une gestion d'événement sur le bouton pour que lorsque vous le cliquez, il affiche votre prénom et nom dans les balises `div`.
+Dans le fichier `index.html` :
+
+* [ ] Ajouter le code HTML suivant :
+
+  ```html
+  <div class="prenom"></div>
+  <div id="nom"></div>
+
+  <button>Salut!</button>
+  ```
+
+Dans le fichier `script.js` :
+
+* [ ] Sélectionner chacun des éléments du DOM (les deux balises `div` et le bouton) et placer chaque sélection dans une variable
+* [ ] Ajouter une gestion d'événement `click` sur le bouton qui affiche votre prénom dans la première `div` et votre nom dans la deuxième
+* [ ] Vérifier dans le navigateur que le prénom et le nom apparaissent sur la page seulement après le clic
+* [ ] Effectuer un `commit`, puis un `push`
+
+<figure markdown>
+![](./swift.gif){.w-50}
+</figure>
 
 [STOP]
 
 ## Solution
 
-```js
-const bouton = document.getElementById('toto');
+```js title="script.js"
+const bouton = document.querySelector('button');
 const divPrenom = document.querySelector('.prenom');
 const divNom = document.getElementById('nom');
 

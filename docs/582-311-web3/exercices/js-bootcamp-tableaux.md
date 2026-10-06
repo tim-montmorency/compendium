@@ -9,7 +9,7 @@ tags:
 
 ## Matière à connaître
 
-!!! example "Tableau (array)"
+??? example "Tableau (array)"
 
     Un tableau, ou *array*, est une liste de valeurs qu'on place entre crochets `[]`. Chaque valeur est séparée par une virgule.
 
@@ -21,7 +21,7 @@ tags:
     ];
     ```
 
-!!! example "index"
+??? example "index"
 
     Dans un tableau, chaque valeur a une position appelée `index`. L’index commence toujours à `0`.
 
@@ -31,24 +31,32 @@ tags:
     // valeurB est affiché dans la console
     ```
 
-!!! example "Méthodes"
+??? example "Méthodes"
 
-    Lorsqu’on créé un tableau, des méthodes (ou fonctions) sont disponibles.  Voici quelques-unes des plus courantes :
+    Lorsqu’on crée un tableau, des méthodes (ou fonctions) sont disponibles.  Voici quelques-unes des plus courantes :
 
     * `push()` : Ajoute une valeur à la fin du tableau
     * `pop()` : Supprime le dernier élément du tableau.
     * `unshift()` : Ajoute un ou plusieurs éléments au début du tableau.
     * `shift()` : Supprime le premier élément du tableau.
 
-## Exercice
+## Objectif
 
 Ajoutez et manipulez les valeurs d’un tableau.
+
+## Résultat attendu
+
+```console
+['Mercure', 'Vénus', 'TERRE', 'Mars', 'Jupiter', 'Saturne', 'Uranus', 'Neptune']
+['Mercure', 'Vénus', 'TERRE', 'Mars', 'Jupiter', 'Saturne', 'Uranus', 'Neptune', 'Pluton']
+['Mercure', 'Vénus', 'TERRE', 'Mars', 'Jupiter', 'Saturne', 'Uranus', 'Neptune']
+```
 
 ## Instructions
 
 * [ ] Déclarez une variable de type tableau
 * [ ] Dans le tableau, ajoutez les noms de chaque planète de notre système solaire
-* [ ] Une fois la **définition** du tableau effectuée, sélectionnez la **Terre** dans le tableau et modifiez son nom pour qu'il soit écrit en majuscules.
+* [ ] Une fois la **définition** du tableau effectuée, sélectionnez la **Terre** dans le tableau et modifiez son nom pour qu'il soit écrit en majuscules à l'aide de la méthode `toUpperCase()`.
 * [ ] Affichez le tableau dans la console
 * [ ] Ajoutez "Pluton" à la fin du tableau à l'aide d'une **méthode** (choisissez la bonne)
 * [ ] Affichez le tableau dans la console

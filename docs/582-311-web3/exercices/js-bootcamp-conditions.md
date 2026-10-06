@@ -9,7 +9,7 @@ tags:
 
 ## Matière à connaître
 
-!!! example "Condition"
+??? example "Condition"
 
     Une **condition** permet de prendre des décisions. Le résultat d'une condition est soit **vrai** ou **faux**.
 
@@ -55,7 +55,7 @@ tags:
     }
     ```
 
-!!! example "Critères"
+??? example "Critères"
 
     Les **critères** définissent les conditions qui doivent être remplies.
 
@@ -74,7 +74,7 @@ tags:
     }
     ```
 
-## Exercice
+## Objectif
 
 Utiliser des **conditions** pour prendre des **décisions** dans votre code.
 
@@ -85,7 +85,7 @@ let age = 25;
 let estEtudiante = false;
 ```
 
-**Critères** d'admissibilité : Pour être admissible au programme, il faut être étudiante et être agée d'au moins 18 ans.
+**Critères** d'admissibilité : Pour être admissible au programme, il faut être étudiant(e) et être âgé(e) d'au moins 18 ans.
 
 ## Résultat attendu
 
@@ -99,9 +99,9 @@ N'est pas admissible au programme
 
 ## Instructions
 
-- [ ] Ajoutez une condition en utilisant les variables données. La condition doit valider les critères spécifiés.
-- [ ] Afficher dans la console un message pour chaque conditions.
-- [ ] Tester la condition en changeant la valeur des variables.
+* [ ] Ajoutez une condition en utilisant les variables données. La condition doit valider les critères spécifiés.
+* [ ] Affichez dans la console le message approprié selon que la condition est vraie ou fausse.
+* [ ] Testez la condition en changeant la valeur des variables.
 
 [STOP]
 

@@ -9,7 +9,7 @@ tags:
 
 ## Matière à connaître
 
-!!! example "Objet"
+??? example "Objet"
 
     Un objet en JavaScript est une liste de propriétés.
 
@@ -21,7 +21,7 @@ tags:
     };
     ```
 
-!!! example "Propriété"
+??? example "Propriété"
 
     Une propriété est composée d'un identifiant (appelé clé) et d'une valeur.
 
@@ -40,19 +40,29 @@ tags:
     delete monObjet.cleD;
     ```
 
-**Objectif**
+## Objectif
 
 Créez et manipulez un objet représentant une planète du système solaire.
 
-**Instructions**
+## Résultat attendu
 
-* [ ] Créez une variable «planete» de type objet.
-* [ ] Ajouter les propriétés  `nom`, `rayon` et `masse` d'une planète de [votre choix](https://sites.uni.edu/morgans/astro/course/Notes/section4/planets1.html).
-* [ ] Modifiez la valeur de la propriété nom pour qu’elle soit en majuscules.
+Avec la planète de votre choix :
+
+```console
+{nom: 'TERRE', rayon: 6378, masse: 6e+24}
+{nom: 'TERRE', rayon: 6378, masse: 6e+24, anneaux: false}
+{nom: 'TERRE', rayon: 6378, masse: 6e+24}
+```
+
+## Instructions
+
+* [ ] Créez une variable `planete` de type objet.
+* [ ] Ajoutez les propriétés `nom`, `rayon` et `masse` d'une planète de [votre choix](https://sites.uni.edu/morgans/astro/course/Notes/section4/planets1.html).
+* [ ] Modifiez la valeur de la propriété nom pour qu’elle soit en majuscules à l'aide de la méthode `toUpperCase()`.
 * [ ] Affichez l’objet dans la console.
-* [ ] **Ajoutez** une nouvelle propriété `anneaux` avec la valeur `true` ou `false` en fonctione de la planète choisie.
+* [ ] **Ajoutez** une nouvelle propriété `anneaux` avec la valeur `true` ou `false` en fonction de la planète choisie.
 * [ ] Affichez l’objet dans la console.
-* [ ] **Supprimez** la propriété anneaux de l’objet.
+* [ ] **Supprimez** la propriété `anneaux` de l’objet.
 * [ ] Affichez l’objet dans la console.
 
 [STOP]

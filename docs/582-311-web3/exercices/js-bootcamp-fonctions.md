@@ -9,13 +9,13 @@ tags:
 
 ## Matière à connaître
 
-!!! example "Fonction"
+??? example "Fonction"
 
     Une fonction c'est un bloc de code qu'on peut utiliser plusieurs fois.
 
     Le nom de la fonction doit idéalement contenir un verbe pour expliquer l'action qu'elle doit faire.
 
-    Elle recoit parfois des **paramètres** et **renvoie** (`return`) parfois une valeur. Ça dépend de ce qu'on veut en faire.
+    Elle reçoit parfois des **paramètres** et **renvoie** (`return`) parfois une valeur. Ça dépend de ce qu'on veut en faire.
 
     ```js
     function nomDeMaFonction(paramètres){
@@ -23,9 +23,9 @@ tags:
     }
     ```
 
-!!! example "Paramètres"
+??? example "Paramètres"
 
-    Les fonctions peuvent recevoir des données qu'on leur transmet. Ces données s'appellent des **paramètres** (ou arguments).
+    Les fonctions peuvent recevoir des données qu'on leur transmet. Dans la définition de la fonction, on les appelle des **paramètres**. Lors de l'appel, les valeurs qu'on transmet s'appellent des **arguments**.
 
     > On dit qu'on « appelle » une fonction lorsqu'on veut l'utiliser, puis on lui « passe » des arguments.
 
@@ -49,7 +49,7 @@ tags:
     let total2 = additionner(10, 20);
     ```
 
-!!! example "Fonction fléchée"
+??? example "Fonction fléchée"
 
     Une fonction fléchée c'est juste une manière plus contemporaine d’écrire des fonctions en JavaScript.
 
@@ -81,17 +81,17 @@ const facture = [
 Total de la facture : 389.17$
 ```
 
-Indice
+??? tip "Indice"
 
-Si votre résultat donne `Total de la facture : 389.16738000000004$` c'est que vous avez réussi l'exercice ! Pour conserver seulement 2 chiffres après la virgule, vous pouvez utiliser la méthode `toFixed(2)`. Par exemple : `totalFacture.toFixed(2)`;
+    Si votre résultat donne `Total de la facture : 389.16738000000004$` c'est que vous avez réussi l'exercice ! Pour conserver seulement 2 chiffres après la virgule, vous pouvez utiliser la méthode `toFixed(2)`. Par exemple : `totalFacture.toFixed(2)`.
 
 ## Instructions
 
-- [ ] Ajouter une fonction `calculerLesTaxes` qui recoit le paramètre `cout` et qui retourne un total (avec les taxes).
-- [ ] Commencez par calculer un à un les totaux pour chaque item de la facture, puis additionnez les pour obtenir le résultat attendu.
-- [ ] Afficher le total de la facture dans la console.
-- [ ] Maintenant, utilisez une boucle `for` pour effectuer l'addition des totaux.
-- [ ] Afficher le total de la facture dans la console.
+* [ ] Ajoutez une fonction `calculerLesTaxes` qui reçoit le paramètre `cout` et qui retourne un total (avec les taxes).
+* [ ] Commencez par calculer un à un les totaux pour chaque item de la facture, puis additionnez-les pour obtenir le résultat attendu.
+* [ ] Affichez le total de la facture dans la console.
+* [ ] Maintenant, utilisez une boucle `for` pour effectuer l'addition des totaux.
+* [ ] Affichez le total de la facture dans la console.
 
 [STOP]
 
