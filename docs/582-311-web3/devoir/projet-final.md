@@ -76,8 +76,8 @@ Votre site (une ou plusieurs pages) doit contenir au minimum&nbsp;:
 | **Intégration Tailwind + DaisyUI** | Composantes pertinentes et **adaptées** · thème personnalisé cohérent avec l'œuvre · mise en page responsive *(cours 2 à 4)* | 5 |
 | **Interactivité - Alpine.js** | Au moins deux comportements (menu mobile, onglets, galerie, filtre…), dont un **état persistant** `$persist` *(cours 7)* | 4 |
 | **Animation - GSAP** | Apparitions au défilement (ScrollTrigger) · une timeline **ou** un effet de parallaxe · adaptation `matchMedia()` *(cours 9 à 11)* | 5 |
-| **Médias** | Optimisation (WebP/AVIF, `<source>` de repli, `loading="lazy"`) · **contrôle par programmation** d'un média audio ou vidéo · classement et nomenclature · `CREDITS.md` complet *(cours 8)* | 5 |
-| **Librairie supplémentaire** | Intégration pertinente d'au moins une librairie vue en classe&nbsp;: Howler, Chart.js, Tone.js, Three.js *(cours 8, 12)* | 2 |
+| **Médias** | Optimisation (WebP/AVIF, `<source>` de repli, `loading="lazy"`) · **contrôle par programmation** d'un média audio ou vidéo · classement et nomenclature · `CREDITS.md` complet *(cours 8 et 12)* | 5 |
+| **Librairie supplémentaire** | Intégration pertinente d'au moins une librairie vue en classe&nbsp;: Howler, Chart.js, Tone.js, Three.js *(cours 12)* | 2 |
 | **Mise en ligne et validation** | Site publié (GitHub Pages ou cPanel) · dépôt GitHub public · validation W3C · test multinavigateurs *(cours 5, 8)* | 4 |
 | **Présentation orale** | Démonstration claire (3 min) et justification des choix techniques | 3 |
 | **Qualité et créativité** | Code lisible, sans bogue majeur · design soigné au service de l'œuvre | 2 |

@@ -16,9 +16,12 @@ tags:
 ---
 
 * [ ] Ajouter un fichier `script.js`
-* [ ] Lier le script au HTML dans la portion `<head>` avec `<script src="script.js" defer></script>`
+* [ ] Lier le script au HTML dans la portion `<head>` avec : 
+  ```html
+  <script src="script.js" defer></script>
+  ```
 
-  ??? question "Pourquoi ajouter `defer` ?"
+  ??? question "`defer` ?"
 
       Si un script JavaScript s'exécute avant le HTML, il ne trouvera pas les éléments qu'il cible. Il faut donc attendre que le HTML soit entièrement lu par le navigateur (ce que `defer` permet de faire).
 
