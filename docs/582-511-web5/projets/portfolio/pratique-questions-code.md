@@ -1,8 +1,8 @@
-# Pige : questions de code (jury du portfolio)
+# Pratique : « Mon code, je le comprends et je l'assume »
 
-<!-- MM : page pour l'enseignante, à ouvrir sur le portable, en retrait. Pas dans la navigation. -->
+En duo, chacun son tour : l'un **pige** et joue le jury, l'autre **répond** sur son propre portfolio, dans VS Code, **Copilot fermé**. Puis on inverse, et on recommence avec une nouvelle pige.
 
-Une pige par banque, devant l'étudiant. Si une pige ne s'applique pas à son portfolio, **Repiger** dans la même banque. Repères de temps : environ 45 s pour montrer, 45 s pour le CSS, 1 min 30 pour le JS.
+Ces demandes ne sont **pas** celles du jury : elles sont du même genre et du même niveau, pour vous habituer au format. Le jour du jury, vous aurez 3 minutes : environ 45 s pour montrer, 45 s pour le CSS, 1 min 30 pour le JS.
 
 <div class="pige" id="pige">
 
@@ -19,24 +19,35 @@ Une pige par banque, devant l'étudiant. Si une pige ne s'applique pas à son po
     <section class="pige__carte" data-banque="a">
       <p class="pige__etiquette">A · Montrer et expliquer</p>
       <p class="pige__question" data-pige-question>…</p>
-      <p class="pige__attendu" data-pige-attendu></p>
       <button type="button" class="md-button" data-pige-repiger>Repiger</button>
     </section>
     <section class="pige__carte" data-banque="css">
       <p class="pige__etiquette">B1 · Modifier en CSS</p>
       <p class="pige__question" data-pige-question>…</p>
-      <p class="pige__attendu" data-pige-attendu></p>
       <button type="button" class="md-button" data-pige-repiger>Repiger</button>
     </section>
     <section class="pige__carte" data-banque="js">
       <p class="pige__etiquette">B2 · Modifier en JS ou dans les données</p>
       <p class="pige__question" data-pige-question>…</p>
-      <p class="pige__attendu" data-pige-attendu></p>
       <button type="button" class="md-button" data-pige-repiger>Repiger</button>
     </section>
   </div>
 
 </div>
+
+
+## La grille du partenaire
+
+Pendant que votre partenaire répond, observez :
+
+- [ ] Il trouve le bon fichier en moins de 30 secondes.
+- [ ] Il explique ce que fait le code en ses mots, sans le lire ligne par ligne.
+- [ ] La modification fonctionne quand on recharge la page.
+- [ ] Il n'a utilisé ni Copilot ni Internet.
+
+Une case reste vide? Notez la notion à revoir, ou **levez la main** : Marie-Michelle vient vous voir.
+
+[:material-presentation-play: Présentation devant le jury : les consignes](presentation-jury.md#questions-jury){ .md-button }
 
 <style>
 .md-typeset .pige__barre {
@@ -104,28 +115,26 @@ Une pige par banque, devant l'étudiant. Si une pige ne s'applique pas à son po
 (function () {
   const BANQUES = {
     a: [
-      ["Où sont chargés vos projets?", "Ouvre le bon fichier sans chercher longtemps, pointe le fetch() et l'adresse de la source, dit ce que la fonction retourne."],
-      ["Où est générée une carte de projet? Montrez la ligne qui insère le titre.", "Trouve la fonction qui fabrique la carte et le gabarit littéral (${project.title} ou l'équivalent)."],
-      ["Comment le détail d'un projet sait-il quel projet afficher?", "Un id dans l'adresse, un paramètre ou un attribut data-, et le code qui le lit."],
-      ["Où le site change-t-il de mise en page pour le mobile? À quelle largeur?", "Pointe la ou les @media et dit la largeur de bascule."],
-      ["Où est défini le style de vos cartes de projets? Avec quel sélecteur?", "Ouvre le bon fichier CSS et nomme la classe."],
-      ["Comment s'ouvre votre menu (ou un autre élément interactif)? Montrez l'événement.", "Pointe l'addEventListener et ce qu'il change (classe ajoutée, attribut, style)."],
-      ["Que se passe-t-il si vos données ne se chargent pas?", "Pointe le try / catch ou le .catch(); sinon, dit ce qui arriverait et où le gérer."]
+      ["Montrez la première fonction qui s'exécute au chargement de la page. Qu'est-ce qui la déclenche?"],
+      ["Suivez un clic sur une carte de projet : quel code s'exécute, dans l'ordre?"],
+      ["Où sont définies vos couleurs et vos polices (variables CSS ou autre)?"],
+      ["Où l'image d'une carte reçoit-elle son texte alternatif (alt)?"],
+      ["Le contenu de votre section À propos est-il dans le HTML ou dans vos données? Pourquoi ce choix?"],
+      ["Montrez où est importée votre police de caractères."]
     ],
     css: [
-      ["Changez la couleur d'accent du site.", "Une variable CSS modifiée à un seul endroit, ou les bonnes règles trouvées rapidement."],
-      ["Changez le nombre de colonnes de la grille de projets sur desktop.", "grid-template-columns (ou l'équivalent en flexbox) sur le bon sélecteur."],
-      ["Changez l'espacement entre les cartes de projets.", "gap (ou les marges) sur le conteneur de la grille."],
-      ["Agrandissez les titres des cartes de projets.", "font-size sur le bon sélecteur, sans toucher aux autres titres."],
-      ["Arrondissez davantage les coins des cartes (ou retirez l'arrondi).", "border-radius sur la carte."],
-      ["Masquez un élément de votre choix, seulement sur mobile.", "display: none dans la bonne @media."]
+      ["Changez la couleur de fond du pied de page."],
+      ["Changez la police ou la graisse des titres de section."],
+      ["Ajoutez une ombre aux cartes au survol."],
+      ["Changez la largeur maximale du contenu de la page."],
+      ["Changez la couleur des liens au survol."]
     ],
     js: [
-      ["Ajoutez une propriété « logiciel utilisé » à 2 ou 3 projets et affichez-la sur leur carte, sans style.", "Ajoute la propriété dans la source, puis ${project.logiciel} (ou l'équivalent) dans le gabarit de la carte."],
-      ["Ajoutez un projet fictif dans votre source de données.", "Le projet apparaît sans toucher au HTML. Sait expliquer pourquoi."],
-      ["Affichez sur chaque carte une propriété déjà présente dans vos données, mais pas encore affichée (ex. l'année).", "Trouve le gabarit de la carte et y ajoute la propriété."],
-      ["Changez le texte du lien ou du bouton de chaque carte (ex. « Voir le projet » devient « Découvrir »).", "Modifie le gabarit JS, pas le HTML statique."],
-      ["Affichez le nombre de projets au-dessus de la grille (ex. « 6 projets »).", "Utilise la longueur du tableau (projects.length) une fois les données chargées."]
+      ["Changez le titre d'un projet dans votre source de données : il doit changer sur le site sans toucher au HTML."],
+      ["Affichez seulement les 3 premiers projets (indice : slice)."],
+      ["Ajoutez une propriété vedette: true à un projet, et une classe CSS spéciale sur sa carte seulement."],
+      ["Générez le alt de l'image de chaque carte à partir des données (ex. le titre du projet)."],
+      ["Défi : ajoutez une propriété « durée du projet » à un seul projet et affichez-la seulement si elle existe."]
     ]
   };
 
@@ -147,7 +156,6 @@ Une pige par banque, devant l'étudiant. Si une pige ne s'applique pas à son po
       } while (banque.length > 1 && i === dernier[cle]);
       dernier[cle] = i;
       carte.querySelector("[data-pige-question]").textContent = banque[i][0];
-      carte.querySelector("[data-pige-attendu]").textContent = "Attendu : " + banque[i][1];
     }
 
     const cartes = racine.querySelectorAll("[data-banque]");

@@ -55,7 +55,7 @@ Une preuve pour chaque indicateur, et le dernier bloc du journal.
 - [ ] Le jury (présentations) : à quoi s'attendre
 - [ ] Atelier
   - [ ] Vos correctifs QA
-  - [ ] Mon code, je le comprends et je l'assume : répétition un à un avant le jury
+  - [ ] Mon code, je le comprends et je l'assume : pratique en duo, avec pige
 - [ ] Répétition de la présentation en duo avec un camarade de classe
 - [ ] Autoévaluation : on la commence ensemble (10 min)
 - [ ] Devoir : autoévaluation, journal, remise finale
@@ -139,24 +139,26 @@ D'abord: [Consignes QA : étape 4 : passer GitHub Pages sur main](projets/portfo
 
 ## Mon code, je le comprends et je l'assume
 
-Pendant l'atelier, je passe vous voir **un à un**, environ 3 minutes chacun. C'est une **répétition** des questions du jury, sans note : le but est de découvrir **aujourd'hui** ce que vous maîtrisez moins, pendant qu'il reste du temps pour le corriger.
+Le jour du jury, après les commentaires, vous viendrez **en retrait** avec moi pour 3 minutes de questions sur votre code. Elles sont **pigées au hasard**, devant vous, dans trois banques :
 
-**Comment ça se passe**
+| Banque | Ce que je vous demande | Temps |
+|---|---|---|
+| **A** | **Montrer et expliquer** une partie de votre code | ~45 s |
+| **B1** | **Une modification en CSS** | ~45 s |
+| **B2** | **Une modification en JS ou dans vos données** | ~1 min 30 |
 
-- Vous êtes aux commandes du clavier. Copilot est fermé.
-- Je vous pose 2 ou 3 questions, du même type que celles du jury.
-- On termine par **une** chose à retravailler avant le jury, s'il y a lieu. Prenez-la en note.
+Aujourd'hui, on pratique ce format **en duo**, avec d'autres demandes du même genre et du même niveau.
 
-**Le type de questions**
+1. Formez un duo et ouvrez la page de pratique.
+2. L'un pige et joue le jury; l'autre répond, sur **son** portfolio, dans VS Code, **Copilot fermé**.
+3. Le partenaire observe avec la grille de la page. Puis on inverse, et on recommence avec une nouvelle pige.
 
-| Je vous demande de... | Ce que ça vérifie |
-|---|---|
-| **Montrer** | Vous savez où se trouve chaque partie de votre code. |
-| **Expliquer** | Vous pouvez dire, en vos mots, ce que fait un bout de code et pourquoi il est là. |
-| **Modifier en direct** | Vous pouvez changer votre code vous-même, sans aide. |
-| **Prévoir** | Vous savez ce qui arrive quand quelque chose ne va pas comme prévu. |
+[:material-dice-multiple: Pratique : piger une demande](projets/portfolio/pratique-questions-code.md){ .md-button .md-button--primary }
 
-Le gr. Lora passe en premier : votre jury est demain.
+**Vous bloquez, ou vous voulez faire valider une réponse?** Levez la main, je viens vous voir.
+
+!!! question "Je passe aussi voir chacun de vous"
+    Pendant l'atelier, je passe voir **chaque personne**, environ 2 minutes : une seule pige, sans note. Le but est de découvrir **aujourd'hui** ce que vous maîtrisez moins, pendant qu'il reste du temps pour le corriger. Le gr. Lora passe en premier : votre jury est demain.
 
 [:material-account-voice: Les questions du jury](projets/portfolio/presentation-jury.md#questions-jury){ .md-button }
 
@@ -165,7 +167,7 @@ Le gr. Lora passe en premier : votre jury est demain.
 Vous avez fini vos correctifs? Formez un duo et présentez-vous mutuellement votre portfolio, **chronométré** :
 
 1. Présentation complète, environ 7 minutes, sans interruption.
-2. Votre partenaire joue le jury : une question de justification, puis une demande de modification en direct.
+2. Votre partenaire joue le jury : une question de justification sur vos choix (les modifications en direct, vous les pratiquez avec la pige).
 3. On inverse.
 
 ## Autoévaluation et journal de bord { #autoevaluation }
