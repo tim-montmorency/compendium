@@ -9,9 +9,9 @@ docs/582-511-web5/**/*530-tp*.docx
 docs/582-511-web5/Claude outputs
 mkdocs-web5.yml
 
-
-
+# Ignorer le build local
 site
 
+# Ignorer les modules externes
 node_modules
 
