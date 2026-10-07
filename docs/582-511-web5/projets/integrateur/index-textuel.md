@@ -13,6 +13,9 @@
 
 </div>
 
+!!! danger "C'est votre processus qui est évalué"
+    Pas seulement le résultat final : **votre démarche, étape par étape**. Vous me présentez votre projet **à chaque étape**, au rythme du groupe. Si je constate qu'une étape a été sautée (un code généré d'un coup, sans planification ni compréhension), **je vous demanderai de la recommencer**. Pas de passe-droit.
+
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
 [:material-presentation-play: Présentation de lancement (PowerPoint)](../../assets/documents/Web5_integrateur-lancement.pptx){ .md-button }
 
@@ -114,9 +117,15 @@ Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`
 4. Quelle est ma prochaine étape concrète?
 5. Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
 
-### Utilisation de l'IA
+### Utilisation de l'IA : c'est le processus qui compte
 
-Les mêmes règles qu'au portfolio : l'IA est **permise**, à condition d'être **documentée** dans votre journal et **comprise**. Copilot est permis si vous travaillez par incréments et comprenez tout le code. Le code généré par Figma Make ou Google Stitch peut servir de référence, jamais être livré tel quel.
+**Ce qui est évalué, c'est votre processus.** Nul besoin de tout faire générer par l'IA sans vous questionner : un projet produit d'un coup ne montre rien de ce que vous savez faire.
+
+- Vous **suivez le groupe** : chaque étape vue en classe se fait dans votre projet, au même rythme.
+- Vous me **présentez votre projet à chaque étape** : cahier de charges, storyboard, animations, composant Vue, prototype, bêta.
+- **Une étape sautée est à recommencer.** Si je sens qu'une partie a été générée sans passer par les étapes (planifier, coder par incréments, comprendre), je vous demanderai de la refaire. Pas de passe-droit.
+
+L'IA reste **permise**, aux mêmes conditions qu'au portfolio : **documentée** dans votre journal et **comprise**. Copilot est permis si vous travaillez par incréments et comprenez tout le code. Le code généré par Figma Make ou Google Stitch peut servir de référence, jamais être livré tel quel.
 
 !!! danger "Le code que vous ne comprenez pas se voit à la défense"
     Le 9 décembre, en privé, vous devrez montrer, expliquer et modifier en direct le code de **vos** zones, avec des demandes pigées au hasard. Usage de l'IA non documenté : plagiat.

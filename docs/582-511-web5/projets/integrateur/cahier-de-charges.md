@@ -11,6 +11,9 @@
 
 [:material-file-document-outline: Consignes complètes du projet intégrateur](index-textuel.md){ .md-button }
 
+!!! warning "Le processus est évalué"
+    Le cahier de charges est la première étape de votre processus, et vous me le présenterez le 23 oct. Un cahier généré d'un coup par l'IA, que l'équipe ne peut pas expliquer, sera à recommencer.
+
 ## Comment s'y prendre
 
 Vous avez deux semaines sans cours. Voici un ordre qui fonctionne :
