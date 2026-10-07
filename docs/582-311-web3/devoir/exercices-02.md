@@ -13,13 +13,13 @@ Vous reprenez **le même dépôt** qu'au bloc 1 - `web3-exercices` - et vous y a
 
 !!! tip "Des points faciles"
 
-    Douze exercices, deux points chacun. Chaque exercice complété et fonctionnel vaut ses points.
+    Onze exercices, deux points chacun. Chaque exercice complété et fonctionnel vaut ses points.
 
 ## Ce qui change par rapport au bloc 1
 
 Rien dans la mécanique. Trois choses dans le contenu&nbsp;:
 
-* Les exercices des cours 7, 8 et 12 sont des **projets locaux** - ils vivent dans des dossiers du dépôt, pas sur CodePen.
+* Les exercices des cours 8 et 12 sont des **projets locaux** - ils vivent dans des dossiers du dépôt, pas sur CodePen.
 * Les exercices GSAP des cours 9 à 11 sont des **CodePen** - donc **forkés, sauvegardés et publics**.
 * L'exercice *Cure minceur* (cours 8) demande en plus un fichier `CREDITS.md` - le même réflexe que pour votre projet final.
 
@@ -36,18 +36,17 @@ Ajoutez ce tableau **sous** celui du bloc 1, dans le `README.md` de `web3-exerci
 
 | #  | Exercice | Cours | Type | Lien / dossier | Auto |
 |----|----------|:-----:|------|----------------|:----:|
-| 7  | Jour et nuit | 7 | Dossier | `07-jour-et-nuit/` | ✅ |
-| 8  | Poste restante | 7 | Dossier | `08-poste-restante/` | ✅ |
+| 7  | Jour et nuit | 8 | Dossier | `07-jour-et-nuit/` | ✅ |
+| 8  | Poste restante | 8 | Dossier | `08-poste-restante/` | ✅ |
 | 9  | Cure minceur | 8 | Dossier | `09-cure-minceur/` | 🟡 |
-| 10 | Salle de projection | 8 | Dossier | `10-salle-projection/` | ❌ |
-| 11 | Un, deux et trois | 9 | CodePen | https://codepen.io/… | ✅ |
-| 12 | Automobile jaune | 9 | CodePen | https://codepen.io/… | ✅ |
-| 13 | Animation en séquence | 9 | CodePen | https://codepen.io/… | 🟡 |
-| 14 | Scène animée réactive | 10 | CodePen | https://codepen.io/… | 🟡 |
-| 15 | Automobile turquoise | 11 | CodePen | https://codepen.io/… | ✅ |
-| 16 | Labyrinthe | 11 | CodePen | https://codepen.io/… | ❌ |
-| 17 | Bulletin de saison | 12 | Dossier | `17-bulletin/` | ✅ |
-| 18 | Boîte à musique | 12 | Dossier | `18-boite-a-musique/` | ✅ |
+| 10 | Un, deux et trois | 9 | CodePen | https://codepen.io/… | ✅ |
+| 11 | Automobile jaune | 9 | CodePen | https://codepen.io/… | ✅ |
+| 12 | Animation en séquence | 9 | CodePen | https://codepen.io/… | 🟡 |
+| 13 | Scène animée réactive | 10 | CodePen | https://codepen.io/… | 🟡 |
+| 14 | Automobile turquoise | 11 | CodePen | https://codepen.io/… | ✅ |
+| 15 | Labyrinthe | 11 | CodePen | https://codepen.io/… | ❌ |
+| 16 | Salle de projection | 12 | Dossier | `16-salle-projection/` | ✅ |
+| 17 | Boîte à musique | 12 | Dossier | `17-boite-a-musique/` | ✅ |
 ```
 
 La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réussi avec de l'aide, ❌ pas réussi. Elle n'est **pas notée**&nbsp;: remplissez-la honnêtement, c'est votre propre tableau de bord avant le projet final.
@@ -71,20 +70,19 @@ La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réuss
 
 | # | Exercice | Cours | Points |
 |:-:|---|:-:|:-:|
-| 7 | **Jour et nuit** — thème Alpine persistant via `$persist` | 7 | 2 |
-| 8 | **Poste restante** — `x-model`, `x-text`, `x-for` et liste dynamique | 7 | 2 |
+| 7 | **Jour et nuit** — thème Alpine persistant via `$persist` | 8 | 2 |
+| 8 | **Poste restante** — `x-model`, `x-text`, `x-for` et liste dynamique | 8 | 2 |
 | 9 | **Cure minceur** — médias optimisés, classés, nommés, `CREDITS.md` | 8 | 2 |
-| 10 | **Salle de projection** — lecteur maison en classe JS + Howler | 8 | 2 |
-| 11 | **Un, deux et trois** — trois effets de parallaxe | 9 | 2 |
-| 12 | **Automobile jaune** — premier tween `gsap.to()` | 9 | 2 |
-| 13 | **Animation en séquence** — timeline avec contrôles de lecture | 9 | 2 |
-| 14 | **Scène animée réactive** — ScrollTrigger et `matchMedia()` | 10 | 2 |
-| 15 | **Automobile turquoise** — boucles infinies, roues synchronisées | 11 | 2 |
-| 16 | **Labyrinthe** — MotionPath le long d'un tracé SVG | 11 | 2 |
-| 17 | **Bulletin de saison** — deux graphiques Chart.js | 12 | 2 |
-| 18 | **Boîte à musique** — mélodie et effets sonores Tone.js | 12 | 2 |
+| 10 | **Un, deux et trois** — trois effets de parallaxe | 9 | 2 |
+| 11 | **Automobile jaune** — premier tween `gsap.to()` | 9 | 2 |
+| 12 | **Animation en séquence** — timeline avec contrôles de lecture | 9 | 2 |
+| 13 | **Scène animée réactive** — ScrollTrigger et `matchMedia()` | 10 | 2 |
+| 14 | **Automobile turquoise** — boucles infinies, roues synchronisées | 11 | 2 |
+| 15 | **Labyrinthe** — MotionPath le long d'un tracé SVG | 11 | 2 |
+| 16 | **Salle de projection** — lecteur maison en classe JS + Howler | 12 | 2 |
+| 17 | **Boîte à musique** — mélodie et effets sonores Tone.js | 12 | 2 |
 | — | **Qualité générale** — indentation, nomenclature, arborescence, `.gitignore`, README complet | — | 2 |
-| | | **Total** | **/26** |
+| | | **Total** | **/24** |
 
 Pour chaque exercice&nbsp;:
 
