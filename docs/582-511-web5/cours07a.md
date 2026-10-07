@@ -160,7 +160,7 @@ Aujourd'hui, on pratique ce format **en duo**, avec d'autres demandes du même g
 !!! question "Je passe aussi voir chacun de vous"
     Pendant l'atelier, je passe voir **chaque personne**, environ 2 minutes : une seule pige, sans note. Le but est de découvrir **aujourd'hui** ce que vous maîtrisez moins, pendant qu'il reste du temps pour le corriger. Le gr. Lora passe en premier : votre jury est demain.
 
-[:material-account-voice: Les questions du jury](projets/portfolio/presentation-jury.md#questions-jury){ .md-button }
+[:material-account-voice: Des exemples de questions du jury](projets/portfolio/presentation-jury.md#questions-jury){ .md-button }
 
 ## Répétition en duo
 
