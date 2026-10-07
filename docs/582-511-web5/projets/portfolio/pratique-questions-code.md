@@ -47,7 +47,7 @@ Pendant que votre partenaire répond, observez :
 
 Une case reste vide? Notez la notion à revoir, ou **levez la main** : Marie-Michelle vient vous voir.
 
-[:material-presentation-play: Présentation devant le jury : les consignes](presentation-jury.md#questions-jury){ .md-button }
+[:material-presentation-play: Présentation devant le jury : les consignes](./presentation-jury.md#questions-jury){ .md-button }
 
 <style>
 .md-typeset .pige__barre {
