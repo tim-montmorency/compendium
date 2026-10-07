@@ -113,30 +113,17 @@ Une case reste vide? Notez la notion à revoir, ou **levez la main** : Marie-Mic
 
 <script>
 (function () {
-  const BANQUES = {
-    a: [
-      ["Montrez la première fonction qui s'exécute au chargement de la page. Qu'est-ce qui la déclenche?"],
-      ["Suivez un clic sur une carte de projet : quel code s'exécute, dans l'ordre?"],
-      ["Où sont définies vos couleurs et vos polices (variables CSS ou autre)?"],
-      ["Où l'image d'une carte reçoit-elle son texte alternatif (alt)?"],
-      ["Le contenu de votre section À propos est-il dans le HTML ou dans vos données? Pourquoi ce choix?"],
-      ["Montrez où est importée votre police de caractères."]
-    ],
-    css: [
-      ["Changez la couleur de fond du pied de page."],
-      ["Changez la police ou la graisse des titres de section."],
-      ["Ajoutez une ombre aux cartes au survol."],
-      ["Changez la largeur maximale du contenu de la page."],
-      ["Changez la couleur des liens au survol."]
-    ],
-    js: [
-      ["Changez le titre d'un projet dans votre source de données : il doit changer sur le site sans toucher au HTML."],
-      ["Affichez seulement les 3 premiers projets (indice : slice)."],
-      ["Ajoutez une propriété vedette: true à un projet, et une classe CSS spéciale sur sa carte seulement."],
-      ["Générez le alt de l'image de chaque carte à partir des données (ex. le titre du projet)."],
-      ["Défi : ajoutez une propriété « durée du projet » à un seul projet et affichez-la seulement si elle existe."]
-    ]
-  };
+  // Les demandes sont encodées pour ne pas se lire d'un coup d'oeil dans le code source.
+  const DONNEES = "eyJhIjogWyJNb250cmV6IGxhIHByZW1pw6hyZSBmb25jdGlvbiBxdWkgcydleMOpY3V0ZSBhdSBjaGFyZ2VtZW50IGRlIGxhIHBhZ2UuIFF1J2VzdC1jZSBxdWkgbGEgZMOpY2xlbmNoZT8iLCAiU3VpdmV6IHVuIGNsaWMgc3VyIHVuZSBjYXJ0ZSBkZSBwcm9qZXQgOiBxdWVsIGNvZGUgcydleMOpY3V0ZSwgZGFucyBsJ29yZHJlPyIsICJPw7kgc29udCBkw6lmaW5pZXMgdm9zIGNvdWxldXJzIGV0IHZvcyBwb2xpY2VzICh2YXJpYWJsZXMgQ1NTIG91IGF1dHJlKT8iLCAiT8O5IGwnaW1hZ2UgZCd1bmUgY2FydGUgcmXDp29pdC1lbGxlIHNvbiB0ZXh0ZSBhbHRlcm5hdGlmIChhbHQpPyIsICJMZSBjb250ZW51IGRlIHZvdHJlIHNlY3Rpb24gw4AgcHJvcG9zIGVzdC1pbCBkYW5zIGxlIEhUTUwgb3UgZGFucyB2b3MgZG9ubsOpZXM/IFBvdXJxdW9pIGNlIGNob2l4PyIsICJNb250cmV6IG/DuSBlc3QgaW1wb3J0w6llIHZvdHJlIHBvbGljZSBkZSBjYXJhY3TDqHJlcy4iXSwgImNzcyI6IFsiQ2hhbmdleiBsYSBjb3VsZXVyIGRlIGZvbmQgZHUgcGllZCBkZSBwYWdlLiIsICJDaGFuZ2V6IGxhIHBvbGljZSBvdSBsYSBncmFpc3NlIGRlcyB0aXRyZXMgZGUgc2VjdGlvbi4iLCAiQWpvdXRleiB1bmUgb21icmUgYXV4IGNhcnRlcyBhdSBzdXJ2b2wuIiwgIkNoYW5nZXogbGEgbGFyZ2V1ciBtYXhpbWFsZSBkdSBjb250ZW51IGRlIGxhIHBhZ2UuIiwgIkNoYW5nZXogbGEgY291bGV1ciBkZXMgbGllbnMgYXUgc3Vydm9sLiJdLCAianMiOiBbIkNoYW5nZXogbGUgdGl0cmUgZCd1biBwcm9qZXQgZGFucyB2b3RyZSBzb3VyY2UgZGUgZG9ubsOpZXMgOiBpbCBkb2l0IGNoYW5nZXIgc3VyIGxlIHNpdGUgc2FucyB0b3VjaGVyIGF1IEhUTUwuIiwgIkFmZmljaGV6IHNldWxlbWVudCBsZXMgMyBwcmVtaWVycyBwcm9qZXRzIChpbmRpY2UgOiBzbGljZSkuIiwgIkFqb3V0ZXogdW5lIHByb3ByacOpdMOpIHZlZGV0dGU6IHRydWUgw6AgdW4gcHJvamV0LCBldCB1bmUgY2xhc3NlIENTUyBzcMOpY2lhbGUgc3VyIHNhIGNhcnRlIHNldWxlbWVudC4iLCAiR8OpbsOpcmV6IGxlIGFsdCBkZSBsJ2ltYWdlIGRlIGNoYXF1ZSBjYXJ0ZSDDoCBwYXJ0aXIgZGVzIGRvbm7DqWVzIChleC4gbGUgdGl0cmUgZHUgcHJvamV0KS4iLCAiRMOpZmkgOiBham91dGV6IHVuZSBwcm9wcmnDqXTDqSDCqyBkdXLDqWUgZHUgcHJvamV0IMK7IMOgIHVuIHNldWwgcHJvamV0IGV0IGFmZmljaGV6LWxhIHNldWxlbWVudCBzaSBlbGxlIGV4aXN0ZS4iXX0=";
+  const BANQUES = (function () {
+    const octets = Uint8Array.from(atob(DONNEES), function (c) { return c.charCodeAt(0); });
+    const brut = JSON.parse(new TextDecoder().decode(octets));
+    const sortie = {};
+    Object.keys(brut).forEach(function (cle) {
+      sortie[cle] = brut[cle].map(function (q) { return [q]; });
+    });
+    return sortie;
+  })();
 
   const DUREE = 180;
 
