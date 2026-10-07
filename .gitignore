@@ -1,11 +1,15 @@
 .DS_Store
 .claude
 
+# Notes réservées à l'enseignante
+
 docs/582-511-web5/CLAUDE.md
 docs/582-511-web5/**/*-a25*
 docs/582-511-web5/**/*530-tp*.docx
 docs/582-511-web5/Claude outputs
 mkdocs-web5.yml
+
+
 
 site
 
