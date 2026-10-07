@@ -1,32 +1,32 @@
 # Présentation du portfolio devant le jury
 
-!!! example "Plan global pour la journée de présentation"
-
-    Pendant qu'un étudiant répond aux questions de code **en retrait**, avec Marie-Michelle, l'étudiant suivant se prépare **en avant**. Environ 11 min 30 par étudiant (pause de 10 minutes après le 9e étudiant).
-
-    | Étape | Où | Temps | Ce qui se passe |
-    |---|---|---|---|
-    | Mise en place | En avant, poste de l'enseignante | 3 min | Pendant les questions de code de l'étudiant précédent : ouvrir les onglets (site en ligne, page du projet vedette, fichier QA, Figma) |
-    | Présentation | En avant, devant la classe | 7 min | Les parties des consignes, avec le projet vedette et son processus créatif au centre |
-    | Commentaires du jury | En avant, devant la classe | 1 min 30 | Recevoir les commentaires et critiques constructives du jury (Lora, Enric, Marie-Michelle), les noter en vue d'améliorer et de peaufiner le projet |
-    | Questions de code | **En retrait**, avec Marie-Michelle | 3 min | Pige aléatoire : montrer et expliquer, puis modifier en direct (une modification CSS et une modification JS) |
-    | **Total** | | **11 min 30** | La mise en place de l'étudiant suivant se fait pendant vos questions de code |
-
-    !!! danger "Commentaires du jury : sur place, puis par écrit"
-        IMPORTANT: Après la présentation, le jury peut ajouter des questions et des commentaires par écrit dans les jours qui suivent sur un *Devoir Teams* associé dans l'équipe Web 5.
-        
-        Vous devez les *consulter*, *répondre* aux questions s'il y a lieu, puis *confirmer* que vous en avez pris connaissance. Plus de détails suivront...
-
-## Consignes pour vous préparer à la présentation finale
-
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. **Environ 7 minutes** pour présenter votre portfolio, puis les questions du jury. Votre **site en ligne** est votre support: pas besoin de diapos.
 2. Le jury évalue le **contenu** (vous, vos projets, votre processus créatif) et le **contenant** (le design, le code, la qualité du site). Votre **page de projet qui montre le processus créatif** est le cœur de la présentation.
-3. Préparez-vous à **ouvrir votre code et à le modifier en direct**, Copilot fermé.
+3. Après les commentaires, vous rejoignez Marie-Michelle **en retrait**, seul à seul, pour 3 minutes de questions sur votre code. Préparez-vous à le **montrer**, à l'**expliquer** et à le **modifier en direct**, Copilot fermé, à partir de demandes pigées au hasard.
 
 </div>
+
+## Plan global de la journée de présentation
+
+Pendant qu'un étudiant répond aux questions de code **en retrait**, avec Marie-Michelle, l'étudiant suivant se prépare **en avant**. Environ 11 min 30 par étudiant (pause de 10 minutes après le 9e étudiant).
+
+![Ligne du temps : pendant que l'étudiant A répond aux questions de code sur le portable de Marie-Michelle, l'étudiant B se met en place sur le poste en avant](assets/deroulement-jury.svg){ data-zoom-image }
+
+| Étape | Où | Temps | Ce qui se passe |
+|---|---|---|---|
+| Mise en place | En avant, poste de l'enseignante | 3 min | Pendant les questions de code de l'étudiant précédent : ouvrir les onglets (site en ligne, page du projet vedette, fichier QA, Figma) |
+| Présentation | En avant, devant la classe | 7 min | Les parties des consignes, avec le projet vedette et son processus créatif au centre |
+| Commentaires du jury | En avant, devant la classe | 1 min 30 | Recevoir les commentaires et critiques constructives du jury (Lora, Enric, Marie-Michelle), les noter en vue d'améliorer et de peaufiner le projet |
+| Questions de code | **En retrait**, avec Marie-Michelle | 3 min | Pige aléatoire : montrer et expliquer, puis modifier en direct (une modification CSS et une modification JS) |
+| **Total** | | **11 min 30** | La mise en place de l'étudiant suivant se fait pendant vos questions de code |
+
+!!! danger "Commentaires du jury : sur place, puis par écrit"
+    IMPORTANT: Après la présentation, le jury peut ajouter des questions et des commentaires par écrit dans les jours qui suivent sur un *Devoir Teams* associé dans l'équipe Web 5.
+
+    Vous devez les *consulter*, *répondre* aux questions s'il y a lieu, puis *confirmer* que vous en avez pris connaissance. Plus de détails suivront...
 
 ## Dates
 
