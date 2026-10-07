@@ -83,23 +83,22 @@ public class AudioCrossfader : MonoBehaviour
             t += Time.unscaledDeltaTime;
             float progress = Mathf.Clamp01(t / duration);
 
-            if (newSource != null)
+            if (oldSource != null && newSource != null)
             {
+                // Crossfade à puissance constante : pas de creux sonore au milieu
+                float angle = progress * Mathf.PI * 0.5f;
+                newSource.volume = Mathf.Lerp(newStart, target, Mathf.Sin(angle));
+                oldSource.volume = oldStart * Mathf.Cos(angle);
+            }
+            else if (newSource != null)
+            {
+                // Fondu depuis le silence
                 newSource.volume = ToLinear(Mathf.Lerp(ToPerceived(newStart), ToPerceived(target), progress));
             }
-
-            if (oldSource != null)
+            else if (oldSource != null)
             {
-                if (newSource != null)
-                {
-                    float inGain = ToLinear(progress);
-                    oldSource.volume = oldStart * Mathf.Sqrt(Mathf.Max(0f, 1f - inGain * inGain));
-                }
-                else
-                {
-                    // Fondu vers le silence
-                    oldSource.volume = ToLinear(Mathf.Lerp(ToPerceived(oldStart), 0f, progress));
-                }
+                // Fondu vers le silence
+                oldSource.volume = ToLinear(Mathf.Lerp(ToPerceived(oldStart), 0f, progress));
             }
 
             yield return null;

@@ -85,6 +85,16 @@ https://assetstore.unity.com/packages/vfx/particles/particle-pack-127325
 !!! tip "Un événement, trois canaux"
     Ramasser une pièce, ce n'est pas un son. C'est un son **plus** une particule **plus** un chiffre qui bouge dans le HUD **plus** un petit *pop* d'échelle. Séparément, chacun est anodin. Ensemble, c'est ce qui fait qu'on veut le refaire.
 
+## Trello
+
+### Nouvelles cartes
+
+> Sprint 3 : l'alpha (cours 12)
+
+**Assets et crédits**
+
+- `Must` Monter la scène Crédits, accessible depuis le menu titre, à partir de la section `## Crédits` du README
+
 ## Pratique
 
 ## Devoirs
