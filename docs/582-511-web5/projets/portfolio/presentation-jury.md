@@ -35,7 +35,7 @@ Pendant qu'un étudiant répond aux questions de code **en retrait**, avec Marie
 | Gr. Lora | **jeudi 8 octobre** |
 | Gr. Enric | **jeudi 15 octobre** |
 
-## La structure (7 min)
+## La structure de votre propre présentation (7 min)
 
 | Temps | Partie | Ce que le jury veut voir et entendre |
 |---|---|---|
