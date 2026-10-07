@@ -101,6 +101,9 @@ On se revoit le **ven. 23 oct.** D'ici là, vous travaillez en équipe, à votre
 6. **L'API de la dataviz** : trouvée et **testée** dans la console.
 7. **Votre journal** : chacun le sien, `documentation/JOURNAL-prenom.md`, avec les 5 questions.
 
+!!! danger "C'est votre processus qui est évalué"
+    Vous me présentez votre projet **à chaque étape**, au rythme du groupe. Une étape sautée (un code généré d'un coup, sans planification ni compréhension) est **à recommencer**. Pas de passe-droit.
+
 !!! info "Pas encore de code d'animation"
     GSAP, le CSS au défilement et Vue arrivent en classe à partir du 28 oct. D'ici là, c'est la **conception** : bien planifier maintenant, c'est coder plus vite ensuite.
 
