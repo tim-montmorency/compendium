@@ -1,15 +1,15 @@
-# Projet intégrateur : le récit défilant (consignes complètes)
+# Le récit défilant : consignes complètes
 
-![](assets/integrateur-banniere.webp){.w-100}
+![](assets/recit-defilant-banniere.webp){.w-100}
 
-<!-- MM : premier jet pour le lancement du ven. 9 oct. La grille critériée détaillée, les questions du journal propres à l'intégrateur et la liste d'API suggérées sont à compléter. -->
+<!-- MM : premier jet pour le lancement du ven. 9 oct. La grille critériée détaillée, les questions du journal propres au récit défilant et la liste d'API suggérées sont à compléter. -->
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. En **équipe de 2**, vous concevez et codez un **récit défilant** (*scrollytelling*) : une histoire en chapitres qui se déroule et s'anime au rythme du défilement. Thème au choix.
 2. Le travail se fait en équipe, mais **la note est surtout individuelle** (40&nbsp;% sur 60&nbsp;%) : chacun est responsable de ses chapitres, de son média animable, de sa QA et de sa défense.
-3. **Première étape : le cahier de charges**, à remettre **au début du cours du ven. 23 oct.** Vous avez tout ce qu'il faut pour le faire dès aujourd'hui.
+3. **Première étape : le cahier de charges**, à déposer **au plus tard le ven. 23 oct., 23 h 59**. Vous pouvez le commencer dès aujourd'hui, et on avance ensemble au cours du **mer. 21 oct.**
 
 </div>
 
@@ -18,7 +18,7 @@
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
 
-[:material-presentation-play: Présentation de lancement (PowerPoint)](../../assets/documents/Web5_integrateur-lancement.pptx){ .md-button }
+[:material-presentation-play: Présentation de lancement (PowerPoint)](../../assets/documents/Web5_recit-defilant-lancement.pptx){ .md-button }
 
 ## Mise en situation
 
@@ -29,7 +29,7 @@ C'est le format des grands récits interactifs des médias en ligne. Exemples à
 - [The Pudding](https://pudding.cool/){ :target="_blank" } : des essais visuels construits sur des données;
 - [Snow Fall (The New York Times, 2012)](https://www.nytimes.com/projects/2012/snow-fall/){ :target="_blank" } : un des premiers récits défilants célèbres.
 
-Ce projet est le **cours intégrateur** : vous y réunissez la conception, l'animation, les données, le contrôle de la qualité et le travail d'équipe. C'est aussi une pièce de choix pour votre portfolio.
+Ce projet réunit tout ce que vous avez appris : la conception, l'animation, les données, le contrôle de la qualité et le travail d'équipe. C'est aussi une pièce de choix pour votre portfolio.
 
 ## Le produit
 
@@ -149,9 +149,10 @@ La grille critériée détaillée sera publiée avant la remise du cahier de cha
 | Date | Étape |
 |---|---|
 | **ven. 9 oct.** | Lancement : équipes, thèmes, début du cahier de charges |
-| ven. 9 au jeu. 22 oct. | **Travail autonome** : cahier de charges et storyboard |
-| **ven. 23 oct.** | **Remise 1 : cahier de charges** (début du cours) et rétroaction |
-| mer. 28 oct. | Animations CSS : parallaxe, spritesheet. Préparer ses médias. Branches Git. |
+| 9 au 20 oct. | **Travail autonome** : concept, chapitres, début du storyboard |
+| **mer. 21 oct.** | Cours : storyboard, modèle de données, matrice de responsabilités. Vous me présentez votre avancement. |
+| **ven. 23 oct.** | Pas de cours. **Remise 1 : cahier de charges**, déposé au plus tard à 23 h 59 |
+| mer. 28 oct. | Rétroaction sur le cahier de charges. Animations CSS : parallaxe, spritesheet. Préparer ses médias. Branches Git. |
 | ven. 30 oct. | Animations CSS au défilement. Chargement des chapitres en JSON. |
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
 | ven. 6 nov. | Construction des chapitres, point de contrôle d'équipe |
@@ -164,7 +165,7 @@ La grille critériée détaillée sera publiée avant la remise du cahier de cha
 | **mer. 9 déc.** | **Défenses individuelles**, en privé |
 | **ven. 11 déc.** | **Remise finale et présentations d'équipe** devant la classe |
 
-## Remise 1 : le cahier de charges (ven. 23 oct., début du cours) { #remise-1 }
+## Remise 1 : le cahier de charges (ven. 23 oct., 23 h 59) { #remise-1 }
 
 - [ ] Le **dépôt GitHub de l'équipe** existe, avec votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
 - [ ] `README.md` : les noms de l'équipe, le titre et le thème du récit, le lien vers le Figma.

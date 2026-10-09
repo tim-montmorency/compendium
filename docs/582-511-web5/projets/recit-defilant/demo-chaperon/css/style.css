@@ -1,0 +1,362 @@
+/* =========================================================
+   Le Petit Chaperon rouge : démo de récit défilant (Web 5)
+   ========================================================= */
+
+:root {
+  --noir: #0A0A0A;
+  --nuit: #1A1B1F;
+  --blanc: #F2F2F2;
+  --creme: #E9E4D8;
+  --gris: #A8A8A8;
+  --rouge: #FF2B47;
+  --jaune: #FFC83D;
+  --largeur-texte: 38rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--noir);
+  color: var(--blanc);
+  font-family: "Poppins", system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+/* ---------- En-tête ---------- */
+
+.entete {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8vw;
+}
+
+.surtitre,
+.chapitre__numero {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gris);
+}
+
+h1 {
+  margin: 0.5rem 0 0;
+  font-size: clamp(2.8rem, 9vw, 7rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.point {
+  color: var(--rouge);
+}
+
+.consigne {
+  margin-top: 3rem;
+  color: var(--gris);
+}
+
+/* ---------- Chapitres ---------- */
+
+.chapitre {
+  position: relative;
+  min-height: 100vh;
+  padding: 20vh 8vw;
+}
+
+.chapitre__texte {
+  position: relative;
+  z-index: 2;
+  max-width: var(--largeur-texte);
+}
+
+.chapitre h2 {
+  margin: 0.4rem 0 1.5rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/* ---------- Chapitre 1 : parallaxe en calques (CSS au défilement) ---------- */
+
+.parallaxe {
+  position: relative;
+  height: 70vh;
+  margin-top: 4rem;
+  overflow: hidden;
+}
+
+.calque {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+/* Animation pilotée par le défilement : seulement si le navigateur la supporte */
+@supports (animation-timeline: view()) {
+  .calque {
+    animation: monter linear both;
+    animation-timeline: view();
+    animation-range: entry 0% exit 100%;
+  }
+  .calque--lente   { --distance: 4%; }
+  .calque--moyenne { --distance: 12%; }
+  .calque--rapide  { --distance: 24%; }
+}
+
+@keyframes monter {
+  from { transform: translateY(var(--distance)); }
+  to   { transform: translateY(calc(var(--distance) * -1)); }
+}
+
+/* ---------- Chapitre 2 : le panier (IntersectionObserver) ---------- */
+
+.panier {
+  list-style: none;
+  margin: 3rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+  max-width: var(--largeur-texte);
+}
+
+.panier li {
+  padding: 1rem 1.5rem;
+  border-left: 4px solid var(--rouge);
+  background: var(--nuit);
+  font-weight: 400;
+  opacity: 0;
+  transform: translateX(-2rem);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+.panier li:nth-child(2) { transition-delay: 0.2s; }
+.panier li:nth-child(3) { transition-delay: 0.4s; }
+
+/* Classe ajoutée par IntersectionObserver */
+.panier.est-visible li {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- Chapitre 3 : la forêt (GSAP, épinglé) + spritesheet ---------- */
+
+.foret {
+  position: relative;
+  height: 60vh;
+  margin-top: 3rem;
+  overflow: hidden;
+  background: linear-gradient(var(--noir), var(--nuit));
+}
+
+.yeux {
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  display: flex;
+  gap: 1.2rem;
+  opacity: 0;
+}
+
+.yeux span {
+  width: 18px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--jaune);
+  box-shadow: 0 0 12px var(--jaune);
+}
+
+/* La spritesheet : 8 images de 160 × 200 px sur une seule rangée */
+.marcheur {
+  position: absolute;
+  bottom: 6%;
+  left: 0;
+  width: 160px;
+  height: 200px;
+  background-image: url("../assets/images/chaperon-marche.webp");
+  background-repeat: no-repeat;
+  animation: marcher 0.8s steps(8) infinite;
+}
+
+@keyframes marcher {
+  from { background-position: 0 0; }
+  to   { background-position: -1280px 0; }
+}
+
+/* ---------- Chapitre 4 : la dataviz (fetch externe) ---------- */
+
+.meteo {
+  margin-top: 3rem;
+  max-width: 48rem;
+}
+
+.meteo__phrase {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.meteo__phrase strong {
+  color: var(--rouge);
+  font-weight: 700;
+}
+
+.meteo__graphique {
+  width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+.meteo__source {
+  font-size: 0.8rem;
+  color: var(--gris);
+}
+
+.meteo__source a {
+  color: inherit;
+}
+
+/* ---------- Chapitre 5 : la maison (SVG + GSAP) ---------- */
+
+.maison {
+  max-width: 34rem;
+  margin-top: 3rem;
+}
+
+.maison svg {
+  width: 100%;
+  height: auto;
+}
+
+/* ---------- Chapitre 6 : la morale ---------- */
+
+.chapitre--texte p:last-child {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--rouge);
+}
+
+/* ---------- Composant Vue : progression + navigation ---------- */
+
+.progression {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 4px;
+  background: var(--rouge);
+  transform-origin: left;
+}
+
+.chapitres-nav {
+  position: fixed;
+  top: 50%;
+  right: 1.5rem;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+.chapitres-nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.chapitres-nav a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.6rem;
+  color: var(--gris);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.chapitres-nav__numero {
+  display: grid;
+  place-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+}
+
+.chapitres-nav__titre {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.chapitres-nav a:hover .chapitres-nav__titre,
+.chapitres-nav a:focus-visible .chapitres-nav__titre {
+  opacity: 1;
+}
+
+.chapitres-nav a.actif {
+  color: var(--rouge);
+}
+
+.chapitres-nav a:focus-visible {
+  outline: 2px solid var(--rouge);
+  outline-offset: 4px;
+}
+
+/* ---------- Pied de page ---------- */
+
+.pied {
+  padding: 4rem 8vw;
+  font-size: 0.8rem;
+  color: var(--gris);
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 700px) {
+  .chapitres-nav {
+    display: none;
+  }
+  .chapitre {
+    padding: 15vh 6vw;
+  }
+}
+
+/* ---------- Accessibilité : moins de mouvement ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .calque,
+  .marcheur {
+    animation: none;
+  }
+  .panier li {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .yeux {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "il-etait-une-fois",
+    "numero": 1,
+    "titre": "Il était une fois",
+    "type": "parallaxe",
+    "texte": [
+      "Il était une fois, au bord d'une grande forêt, une petite fille que tout le monde aimait.",
+      "Sa mère-grand lui avait fait un petit chaperon rouge, qui lui allait si bien que partout on l'appelait le Petit Chaperon rouge."
+    ],
+    "medias": [
+      { "type": "calque", "src": "assets/images/foret-fond.svg", "alt": "", "vitesse": "lente" },
+      { "type": "calque", "src": "assets/images/foret-milieu.svg", "alt": "", "vitesse": "moyenne" },
+      { "type": "calque", "src": "assets/images/foret-avant.svg", "alt": "", "vitesse": "rapide" }
+    ],
+    "responsable": "Personne A"
+  },
+  {
+    "id": "le-panier",
+    "numero": 2,
+    "titre": "Le panier",
+    "type": "panier",
+    "texte": [
+      "Un jour, sa mère lui dit : « Va voir comment se porte ta mère-grand, car on m'a dit qu'elle était malade. »",
+      "Dans son panier, elle dépose ce qu'il faut pour le voyage."
+    ],
+    "objets": ["Une galette", "Un petit pot de beurre", "Un bouquet de noisettes"],
+    "responsable": "Personne A"
+  },
+  {
+    "id": "la-foret",
+    "numero": 3,
+    "titre": "Dans la forêt",
+    "type": "foret",
+    "texte": [
+      "Le Petit Chaperon rouge part aussitôt. En passant dans le bois, elle ne voit pas qu'on l'observe.",
+      "Entre les arbres, deux yeux la suivent."
+    ],
+    "medias": [
+      { "type": "spritesheet", "src": "assets/images/chaperon-marche.webp", "images": 8, "alt": "Le Petit Chaperon rouge marche, son panier à la main" }
+    ],
+    "responsable": "Personne B"
+  },
+  {
+    "id": "deux-chemins",
+    "numero": 4,
+    "titre": "Deux chemins",
+    "type": "dataviz",
+    "texte": [
+      "Le loup lui demande où elle va. « Je vais chez ma mère-grand. » Le loup prend le chemin le plus court; elle prend le plus long.",
+      "Et le jour, lui, ne l'attend pas."
+    ],
+    "lieu": { "nom": "la forêt de Fontainebleau", "latitude": 48.40, "longitude": 2.70, "fuseau": "Europe/Paris" },
+    "responsable": "Personne B"
+  },
+  {
+    "id": "chez-la-mere-grand",
+    "numero": 5,
+    "titre": "Chez la mère-grand",
+    "type": "maison",
+    "texte": [
+      "Le loup arrive le premier. Il frappe. « Tire la chevillette, la bobinette cherra. »",
+      "La porte s'ouvre."
+    ],
+    "medias": [
+      { "type": "svg", "src": "assets/images/maison.svg", "alt": "La maison de la mère-grand, toit rouge et cheminée qui fume" }
+    ],
+    "responsable": "Personne A"
+  },
+  {
+    "id": "la-morale",
+    "numero": 6,
+    "titre": "La morale",
+    "type": "texte",
+    "texte": [
+      "Charles Perrault termine son conte, en 1697, par une mise en garde : les loups les plus dangereux ne sont pas toujours ceux qui en ont l'air.",
+      "Méfiez-vous des inconnus trop aimables."
+    ],
+    "responsable": "Personne B"
+  }
+]

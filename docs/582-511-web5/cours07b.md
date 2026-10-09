@@ -12,7 +12,7 @@
 
 Le projet au complet : produit, bornes, évaluation, calendrier.
 
-[:octicons-arrow-right-24: Consignes complètes](projets/integrateur/index-textuel.md){ .stretched-link }
+[:octicons-arrow-right-24: Consignes complètes](projets/recit-defilant/index-textuel.md){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -20,16 +20,16 @@ Le projet au complet : produit, bornes, évaluation, calendrier.
 
 ---
 
-Le gabarit à remplir d'ici le ven. 23 oct.
+Le gabarit à remplir d'ici le ven. 23 oct. (23 h 59).
 
-[:octicons-arrow-right-24: Gabarit et consignes](projets/integrateur/cahier-de-charges.md){ .stretched-link }
+[:octicons-arrow-right-24: Gabarit et consignes](projets/recit-defilant/cahier-de-charges.md){ .stretched-link }
 </div>
 
 </div>
 
 ## Aujourd'hui
 
-- [ ] Lancement du projet intégrateur : le récit défilant
+- [ ] Lancement du projet : le récit défilant
 - [ ] Former les équipes de 2
 - [ ] Choisir un thème
 - [ ] Commencer le cahier de charges, en équipe
@@ -40,7 +40,7 @@ Le gabarit à remplir d'ici le ven. 23 oct.
 ### Projet portfolio
 
 !!! danger "Gr. Enric : remise finale et jury jeu. 15 oct."
-    Votre priorité de la semaine prochaine reste le portfolio. Le cahier de charges de l'intégrateur est dû le **ven. 23 oct.** : planifiez votre temps en conséquence.
+    Votre priorité de la semaine prochaine reste le portfolio. Le cahier de charges du récit défilant est dû le **ven. 23 oct., 23 h 59** : planifiez votre temps en conséquence.
 
 ### Tutorat
 
@@ -61,7 +61,7 @@ Le gabarit à remplir d'ici le ven. 23 oct.
 
 Ce qu'on construit, comment on est évalué, et le calendrier jusqu'au 11 décembre.
 
-[:material-presentation-play: Présentation de lancement (PowerPoint)](assets/documents/Web5_integrateur-lancement.pptx){ .md-button .md-button--primary }
+[:material-presentation-play: Présentation de lancement (PowerPoint)](assets/documents/Web5_recit-defilant-lancement.pptx){ .md-button .md-button--primary }
 
 ## Former les équipes
 
@@ -87,11 +87,11 @@ Avant la fin du cours, chaque équipe a :
 - [ ] copié le **gabarit** dans `documentation/CAHIER-DE-CHARGES.md`;
 - [ ] rempli la **section 1** (le concept) et commencé le **découpage en chapitres**.
 
-[:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](projets/integrateur/cahier-de-charges.md){ .md-button }
+[:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](projets/recit-defilant/cahier-de-charges.md){ .md-button }
 
 ## Devoir : vos deux semaines
 
-On se revoit le **ven. 23 oct.** D'ici là, vous travaillez en équipe, à votre rythme. Un ordre qui fonctionne :
+On se revoit le **mer. 21 oct.** Arrivez avec votre concept et vos chapitres (étapes 1 et 2) : vous me présenterez votre avancement, et on avancera ensemble le storyboard et la matrice. D'ici là, vous travaillez en équipe, à votre rythme. Un ordre qui fonctionne :
 
 1. **Le concept et les chapitres** : ce que chaque chapitre raconte.
 2. **Le storyboard dans Figma** : un cadre par chapitre, annoté (ce qui bouge, ce qui le déclenche, la technique).
@@ -107,5 +107,5 @@ On se revoit le **ven. 23 oct.** D'ici là, vous travaillez en équipe, à votre
 !!! info "Pas encore de code d'animation"
     GSAP, le CSS au défilement et Vue arrivent en classe à partir du 28 oct. D'ici là, c'est la **conception** : bien planifier maintenant, c'est coder plus vite ensuite.
 
-!!! warning "Remise 1 : début du cours du ven. 23 oct."
-    Cahier de charges complet dans le dépôt, storyboard dans Figma, un journal par personne. [Liste de vérification de la remise 1](projets/integrateur/index-textuel.md#remise-1)
+!!! warning "Remise 1 : ven. 23 oct., 23 h 59 (pas de cours ce jour-là)"
+    Cahier de charges complet dans le dépôt, storyboard dans Figma, un journal par personne. [Liste de vérification de la remise 1](projets/recit-defilant/index-textuel.md#remise-1)

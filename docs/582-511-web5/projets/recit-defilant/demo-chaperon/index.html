@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Petit Chaperon rouge | Récit défilant (démo Web 5)</title>
+  <meta name="description" content="Démo de récit défilant pour le projet Récit défilant du cours Web 5.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Composant Vue : barre de progression + navigateur de chapitres -->
+  <div id="navigation" v-cloak>
+    <div class="progression" :style="{ transform: 'scaleX(' + progression + ')' }"></div>
+    <nav class="chapitres-nav" aria-label="Chapitres">
+      <ol>
+        <li v-for="(chapitre, index) in chapitres" :key="chapitre.id">
+          <a :href="'#' + chapitre.id"
+             :class="{ actif: index === actif }"
+             :aria-current="index === actif ? 'step' : null"
+             @click.prevent="aller(chapitre.id)">
+            <span class="chapitres-nav__numero">{{ chapitre.numero }}</span>
+            <span class="chapitres-nav__titre">{{ chapitre.titre }}</span>
+          </a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+
+  <header class="entete">
+    <p class="surtitre">Un conte de Charles Perrault · 1697</p>
+    <h1>Le Petit Chaperon rouge<span class="point">.</span></h1>
+    <p class="consigne">Faites défiler pour commencer</p>
+  </header>
+
+  <!-- Les chapitres sont générés en JavaScript à partir de data/chapitres.json -->
+  <main id="recit" aria-live="polite"></main>
+
+  <footer class="pied">
+    <p>Démo du projet Récit défilant · Web 5 · Collège Montmorency</p>
+    <p>Texte librement adapté du conte de Charles Perrault (domaine public). Crédits dans le README.</p>
+  </footer>
+
+  <!-- Librairies par CDN, sans build -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+
+  <script src="js/meteo.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
