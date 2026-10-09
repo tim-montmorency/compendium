@@ -12,7 +12,7 @@
 [:material-file-document-outline: Consignes complètes du récit défilant](index-textuel.md){ .md-button }
 
 !!! warning "Le processus est évalué"
-    Le cahier de charges est la première étape de votre processus. Au cours du **mer. 21 oct.**, vous me présenterez votre avancement (concept, chapitres, début du storyboard). Un cahier généré d'un coup par l'IA, que l'équipe ne peut pas expliquer, sera à recommencer.
+    Le cahier de charges est la première étape de votre processus. Au cours du **mer. 21 oct.**, vous me présenterez votre avancement (concept, chapitres, début du storyboard). Le cahier et le storyboard se font **sans IA** : c'est votre réflexion que je veux voir.
 
 ## Comment s'y prendre
 
@@ -43,7 +43,7 @@ Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le
 - Les **médias** peuvent être des boîtes grises ou des croquis : ce qui compte, c'est le déroulement.
 - Repérez votre **moment dataviz** et votre **composant Vue** (navigateur de chapitres ou barre de progression).
 
-Les outils IA de Figma peuvent vous aider à explorer des directions visuelles. Notez-le dans votre journal.
+Pas d'outils IA de Figma pour le storyboard : dans ce projet, l'IA sert **seulement à créer vos médias**, jusqu'à nouvel ordre.
 
 ## Le moment dataviz
 

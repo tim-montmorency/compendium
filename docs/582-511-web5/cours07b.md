@@ -115,6 +115,9 @@ On se revoit le **mer. 21 oct.** Arrivez avec votre concept et vos chapitres (é
 !!! danger "C'est votre processus qui est évalué"
     Vous me présentez votre projet **à chaque étape**, au rythme du groupe. Une étape sautée (un code généré d'un coup, sans planification ni compréhension) est **à recommencer**. Pas de passe-droit.
 
+!!! warning "L'IA : pour vos médias seulement, jusqu'à nouvel ordre"
+    Cette fois, vous codez **par vous-mêmes** : pas de Copilot, pas d'IA pour le code, le cahier de charges ou le storyboard. L'IA est permise seulement pour créer vos médias. [Tous les détails](projets/recit-defilant/index.md#ia)
+
 !!! info "Pas encore de code d'animation"
     GSAP, le CSS au défilement et Vue arrivent en classe à partir du 28 oct. D'ici là, c'est la **conception** : bien planifier maintenant, c'est coder plus vite ensuite.
 

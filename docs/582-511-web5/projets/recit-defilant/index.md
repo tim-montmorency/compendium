@@ -16,6 +16,9 @@
 !!! danger "C'est votre processus qui est évalué"
     Pas seulement le résultat final : **votre démarche, étape par étape**. Vous me présentez votre projet **à chaque étape**, au rythme du groupe. Si je constate qu'une étape a été sautée (un code généré d'un coup, sans planification ni compréhension), **je vous demanderai de la recommencer**. Pas de passe-droit.
 
+!!! warning "L'IA : pour vos médias seulement, jusqu'à nouvel ordre"
+    Dans ce projet, **vous codez par vous-mêmes, sans IA** : pas de Copilot, pas de ChatGPT, Claude ou Gemini pour le code, pas de Figma Make. L'IA est permise **seulement pour créer vos médias**. [Tous les détails](#ia)
+
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
 [:material-lightbulb-on-outline: Exemples et inspirations](inspirations.md){ .md-button }
 
@@ -111,26 +114,47 @@ Dès le cahier de charges, une **matrice de responsabilités** dit qui possède 
 
 ### Journal de bord individuel
 
-Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`. Comme au portfolio, à chaque bloc, vous répondez aux 5 questions et vous inscrivez **chaque question posée à l'IA** (date, prompt, outil, résultat).
+Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`. Comme au portfolio, à chaque bloc, vous répondez aux 5 questions. Si vous avez utilisé l'IA pour un média, inscrivez-le (date, prompt, outil, résultat).
 
 1. Qu'est-ce que j'ai accompli depuis le dernier bloc? (Vous pouvez faire référence à vos *commits*.)
 2. Quelle a été ma principale difficulté et comment je l'ai surmontée?
 3. Qu'est-ce que j'ai appris que je ne savais pas avant?
 4. Quelle est ma prochaine étape concrète?
-5. Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
+5. Est-ce que j'ai utilisé l'IA pour un média? Si oui, lequel, avec quel outil, et qu'est-ce que j'ai préparé moi-même?
 
-### Utilisation de l'IA : c'est le processus qui compte
+### L'IA dans ce projet : pour vos médias seulement { #ia }
 
-**Ce qui est évalué, c'est votre processus.** Nul besoin de tout faire générer par l'IA sans vous questionner : un projet produit d'un coup ne montre rien de ce que vous savez faire.
+**Cette fois, on code sans IA.** Au portfolio, l'IA était permise, documentée et comprise. Pour le récit défilant, on fait un essai différent : je veux que vous puissiez coder **par vous-mêmes**, et que demander à l'IA ne soit pas un réflexe. Chercher, essayer, se tromper, déboguer : c'est comme ça qu'on devient autonome.
+
+Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de projet, je l'annoncerai en classe et sur cette page.
+
+| Permis | Pas permis |
+|---|---|
+| Générer une **image source** pour votre média animable, puis la préparer vous-même (voir plus haut) | Copilot dans VS Code : complétions, chat, suggestions |
+| La **documentation** : MDN, GSAP, Vue | ChatGPT, Claude, Gemini ou autre pour écrire, corriger ou expliquer votre code |
+| Les **notes du cours**, la **démo du Petit Chaperon rouge** et ses commentaires | Figma Make, Google Stitch ou autre générateur de code ou de maquette |
+| **Vos collègues** : on s'explique, on ne copie pas | L'IA pour rédiger le cahier de charges, le storyboard ou le journal |
+| **Moi**, en classe et au tutorat | |
+
+!!! tip "Désactiver Copilot dans votre projet"
+    Créez le fichier `.vscode/settings.json` à la racine de votre dépôt, et *commitez*-le :
+
+    ```json
+    {
+      "github.copilot.enable": { "*": false }
+    }
+    ```
+
+    Les complétions de Copilot sont alors désactivées dans ce projet seulement. Vos autres projets ne changent pas. N'utilisez pas non plus le chat de Copilot.
+
+**Ce qui est évalué, c'est votre processus.** Un projet produit d'un coup ne montre rien de ce que vous savez faire.
 
 - Vous **suivez le groupe** : chaque étape vue en classe se fait dans votre projet, au même rythme.
 - Vous me **présentez votre projet à chaque étape** : cahier de charges, storyboard, animations, composant Vue, prototype, bêta.
 - **Une étape sautée est à recommencer.** Si je sens qu'une partie a été générée sans passer par les étapes (planifier, coder par incréments, comprendre), je vous demanderai de la refaire. Pas de passe-droit.
 
-L'IA reste **permise**, aux mêmes conditions qu'au portfolio : **documentée** dans votre journal et **comprise**. Copilot est permis si vous travaillez par incréments et comprenez tout le code. Le code généré par Figma Make ou Google Stitch peut servir de référence, jamais être livré tel quel.
-
 !!! danger "Le code que vous ne comprenez pas se voit à la défense"
-    Le 9 décembre, en privé, vous devrez montrer, expliquer et modifier en direct le code de **vos** zones, avec des demandes pigées au hasard. Usage de l'IA non documenté : plagiat.
+    Le 9 décembre, en privé, vous devrez montrer, expliquer et modifier en direct le code de **vos** zones, avec des demandes pigées au hasard. Du code produit par l'IA dans votre projet : plagiat.
 
 ## Évaluation : 60&nbsp;% de la note finale
 
