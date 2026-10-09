@@ -121,7 +121,11 @@ h1 {
   position: relative;
   height: 90vh;
   margin-top: 4rem;
-  overflow: hidden;
+  /* clip, pas hidden : overflow: hidden crée un conteneur de défilement,
+     et view() suivrait alors ce conteneur (qui ne défile pas) au lieu de la page */
+  overflow: clip;
+  /* La boîte donne son nom à sa ligne du temps : les 3 calques la partagent */
+  view-timeline-name: --foret;
 }
 
 .calque {
@@ -136,19 +140,21 @@ h1 {
 /* Animation pilotée par le défilement : seulement si le navigateur la supporte */
 @supports (animation-timeline: view()) {
   .calque {
-    animation: monter linear both;
-    animation-timeline: view();
-    animation-range: entry 0% exit 100%;
+    animation: entrer-foret linear both;
+    animation-timeline: --foret;              /* la ligne du temps de la boîte .parallaxe */
+    animation-range: entry 40% exit 80%;      /* dès que la boîte est à moitié entrée, jusqu'à sa sortie par le haut */
+    transform-origin: center bottom;
   }
-  /* Des écarts de vitesse très marqués : c'est ce qui donne la profondeur */
-  .calque--lente   { --distance: 5%;  --zoom: 1; }
-  .calque--moyenne { --distance: 35%; --zoom: 1.1; }
-  .calque--rapide  { --distance: 90%; --zoom: 1.5; }
+  /* Le fond descend (il semble plus lent que la page), l'avant-plan monte et grossit (plus rapide) :
+     ces écarts très marqués donnent la profondeur, et on a l'impression d'entrer dans la forêt */
+  .calque--lente   { --deplacement: 30%;  --zoom: 1.1; }
+  .calque--moyenne { --deplacement: 0%;   --zoom: 1.35; }
+  .calque--rapide  { --deplacement: -60%; --zoom: 2; }
 }
 
-@keyframes monter {
-  from { transform: translateY(var(--distance)) scale(var(--zoom)); }
-  to   { transform: translateY(calc(var(--distance) * -1)) scale(var(--zoom)); }
+@keyframes entrer-foret {
+  from { transform: translateY(0) scale(1); }
+  to   { transform: translateY(var(--deplacement)) scale(var(--zoom)); }
 }
 
 /* ---------- Chapitre 2 : le panier (IntersectionObserver) ---------- */
