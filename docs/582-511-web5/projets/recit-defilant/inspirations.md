@@ -194,5 +194,16 @@ Des démos des animations CSS pilotées par le défilement (`animation-timeline`
 
 </div>
 
+## Démo ancien étudiants présentés en classe
+
+### Lilo
+
+[Lilo](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQA5NPFFkjFgTr9QNkn2yV1aAccrS5dJDtznjA9LfrGWfgE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0VNkqU)
+
+
+<iframe src="https://cmontmorency365-my.sharepoint.com/personal/mariem_ouellet_cmontmorency_qc_ca/_layouts/15/embed.aspx?UniqueId=45f13439-3192-4e60-bf50-3649f6c95d5a&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="demo-ancien-projet-lilo.mp4"></iframe>
+
+
+
 !!! tip "Dans votre journal"
     Notez **2 ou 3 inspirations** : le lien, ce que vous en retenez, et comment vous l'adapterez à **votre** histoire. S'inspirer, ce n'est pas copier : on emprunte une idée de mise en scène, pas le contenu ni le design.
