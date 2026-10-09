@@ -2,7 +2,7 @@
 
 ![](assets/recit-defilant-banniere.webp){.w-100}
 
-<!-- MM : premier jet pour le lancement du ven. 9 oct. La grille critériée détaillée, les questions du journal propres au récit défilant et la liste d'API suggérées sont à compléter. -->
+<!-- MM : premier jet pour le lancement du ven. 9 oct. La grille critériée détaillée, les questions du journal propres au récit défilant sont à compléter. -->
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
@@ -17,6 +17,7 @@
     Pas seulement le résultat final : **votre démarche, étape par étape**. Vous me présentez votre projet **à chaque étape**, au rythme du groupe. Si je constate qu'une étape a été sautée (un code généré d'un coup, sans planification ni compréhension), **je vous demanderai de la recommencer**. Pas de passe-droit.
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
+[:material-lightbulb-on-outline: Exemples et inspirations](inspirations.md){ .md-button }
 
 [:material-presentation-play: Présentation de lancement (PowerPoint)](../../assets/documents/Web5_recit-defilant-lancement.pptx){ .md-button }
 
@@ -48,7 +49,7 @@ Un récit sur un thème de votre choix, par exemple :
 |---|---|
 | **Chapitres** | 6 à 8 chapitres, environ 100 à 250 mots chacun. Au moins 3 chapitres par personne. |
 | **Données** | Les chapitres et leurs médias sont chargés avec `fetch()` depuis un fichier JSON. |
-| **Dataviz** | Au moins un `fetch()` vers une **API externe gratuite**, pour un moment de visualisation de données ou un élément « vivant ». |
+| **Dataviz** | Au moins un `fetch()` vers une **API externe gratuite**, pour un moment de visualisation de données ou un élément « vivant ». Au cahier de charges, vous décrivez seulement l'idée et le genre de données : l'API se choisit après le cours du mer. 11 nov. |
 | **Animations** | Au moins une animation de chaque technique : **CSS au défilement** (`animation-timeline`), **GSAP + ScrollTrigger**, et un déclencheur **IntersectionObserver**. |
 | **Vue.js** | Un composant imposé : le **navigateur de chapitres** ou la **barre de progression**. Vue est chargé par CDN, sans *build*. |
 | **Média animable** | Un par personne, préparé pour l'animation (voir plus bas). |
@@ -56,9 +57,9 @@ Un récit sur un thème de votre choix, par exemple :
 | **Accessibilité** | Le récit reste lisible **sans animation**, avec `prefers-reduced-motion`. |
 | **Déploiement** | En ligne sur GitHub Pages. |
 
-### Les bornes
+### Les garde-fous
 
-Elles existent pour que le projet reste faisable en 8 semaines, à deux.
+Ils existent pour que le projet reste faisable en 8 semaines, à deux.
 
 - **Au plus 1 animation « signature » par chapitre**, et **au plus 2 sections épinglées** (*pin*) dans tout le récit.
 - **Médias légers** : images en WebP, vidéos de 30 secondes au plus (ou hébergées sur YouTube ou Vimeo), **10 Mo au plus** pour tout le récit.
@@ -156,7 +157,7 @@ La grille critériée détaillée sera publiée avant la remise du cahier de cha
 | ven. 30 oct. | Animations CSS au défilement. Chargement des chapitres en JSON. |
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
 | ven. 6 nov. | Construction des chapitres, point de contrôle d'équipe |
-| mer. 11 nov. | Initiation à Vue.js : le composant imposé. Le *fetch* externe. |
+| mer. 11 nov. | Initiation à Vue.js : le composant imposé. Le *fetch* externe : choisir et tester votre API. |
 | **ven. 13 nov.** | **Prototype** (formatif) : navigable et animé |
 | mer. 18 nov. | Responsive, `prefers-reduced-motion`, performance |
 | **ven. 20 nov.** | **Bêta** : médias finaux intégrés, prête pour la QA |

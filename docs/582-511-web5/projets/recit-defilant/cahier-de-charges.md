@@ -21,7 +21,7 @@ Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec 
 1. **Le thème et le concept** (section 1). Discutez-en à deux jusqu'à pouvoir le résumer en une phrase.
 2. **Le découpage en chapitres** (section 3) : ce que chaque chapitre raconte, avant de penser aux animations.
 3. **Le storyboard dans Figma** (section 2) : à quoi ressemble chaque chapitre, et ce qui bouge quand on défile.
-4. **Les animations** de chaque chapitre, en respectant les bornes (section 3).
+4. **Les animations** de chaque chapitre, en respectant les garde-fous (section 3).
 5. **La matrice de responsabilités** (section 4) : qui possède quoi. À faire **ensemble**, et à prendre au sérieux : c'est la base de votre note individuelle.
 6. **Le reste** : données, dataviz, médias, technologies, calendrier, risques.
 
@@ -39,17 +39,22 @@ Un storyboard de défilement n'est pas une maquette de chaque pixel. C'est **la 
 
 Les outils IA de Figma peuvent vous aider à explorer des directions visuelles. Notez-le dans votre journal.
 
-## Trouver l'API de la dataviz
+## Le moment dataviz
 
-Votre *fetch* externe doit viser une API :
+Votre récit doit contenir au moins un moment où des **données réelles** apparaissent : un graphique, un chiffre qui bouge, un élément « vivant » (la météo du jour, l'heure du coucher du soleil, etc.). Ces données viendront d'une **API**, un service en ligne qui renvoie des données en JSON quand on lui envoie une requête avec `fetch()`.
 
-- **gratuite**, sans clé ou avec une clé gratuite;
-- **accessible depuis le navigateur** : testez-la tôt, avec un `fetch()` dans la console. Si une erreur CORS apparaît, elle ne conviendra pas;
-- **liée à votre récit** : les données doivent raconter quelque chose dans votre histoire.
+**Au cahier de charges, pas besoin de trouver l'API.** On apprend à interroger une API externe au cours du **mer. 11 nov.**, et c'est là que vous la choisirez et la testerez. Pour l'instant, décrivez seulement :
 
-Exemple : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo et climat, sans clé). Notez dans le cahier de charges l'adresse exacte que vous avez testée, et ce que les données montreront.
+- **le moment** : dans quel chapitre, et ce que les données apportent à votre histoire;
+- **le genre de données** que vous aimeriez montrer (ex. « la température dans une ville », « le nombre de séismes cette semaine », « des œuvres d'un musée »).
 
-<!-- MM : compléter avec d'autres API suggérées (données ouvertes, etc.) après vérification. -->
+Restez souple : si aucune API ne fournit exactement vos données, on ajustera l'idée ensemble.
+
+!!! tip "Pour explorer, si vous êtes curieux (facultatif)"
+
+    - [**Public APIs**](https://github.com/public-apis/public-apis){ :target="_blank" } : une grande liste d'API gratuites, classées par thème. Visez les colonnes **Auth : `No`** (sans clé) et **CORS : `Yes`** (utilisable depuis le navigateur).
+    - [**Données Québec**](https://www.donneesquebec.ca/){ :target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ :target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
+    - Quelques API sans clé, à tester le 11 nov. : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Art Institute of Chicago](https://api.artic.edu/docs/){ :target="_blank" } (œuvres d'art), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
 
 ## Le gabarit
 
@@ -121,11 +126,12 @@ Un exemple d'objet chapitre, tel qu'il sera dans votre fichier JSON :
 
 ## 6. La dataviz
 
-- **API** : [nom et adresse exacte testée]
-- **Données utilisées** : [ex. températures moyennes de 1950 à aujourd'hui]
-- **Ce qu'elles racontent dans le récit** : [1 ou 2 phrases]
+L'API sera choisie au cours du mer. 11 nov. Pour l'instant, décrivez l'idée.
+
 - **Chapitre** : [numéro]
-- **Test fait dans la console** : [oui / non, et le résultat]
+- **Genre de données souhaitées** : [ex. la température heure par heure dans une ville]
+- **Ce qu'elles racontent dans le récit** : [1 ou 2 phrases]
+- **Pistes d'API, si vous en avez trouvé** : [facultatif]
 
 ## 7. L'inventaire des médias
 
@@ -166,6 +172,6 @@ Médias animables choisis :
 - [ ] Toutes les sections sont remplies : aucun crochet ne reste.
 - [ ] Chaque personne a au moins 3 chapitres et un média animable dans la matrice.
 - [ ] Chaque technique d'animation apparaît au moins une fois dans le tableau des chapitres.
-- [ ] L'API de la dataviz a été **testée** dans la console.
+- [ ] Le moment dataviz est décrit : chapitre, genre de données, ce qu'elles racontent.
 - [ ] Le lien Figma fonctionne, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`.
 - [ ] Le tout est poussé sur GitHub **au plus tard le ven. 23 oct., 23 h 59**.

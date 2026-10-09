@@ -10,9 +10,9 @@
 
 ---
 
-Le projet au complet : produit, bornes, évaluation, calendrier.
+Le projet au complet : produit, garde-fous, évaluation, calendrier.
 
-[:octicons-arrow-right-24: Consignes complètes](projets/recit-defilant/index-textuel.md){ .stretched-link }
+[:octicons-arrow-right-24: Consignes complètes](projets/recit-defilant/index.md){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -25,11 +25,22 @@ Le gabarit à remplir d'ici le ven. 23 oct. (23 h 59).
 [:octicons-arrow-right-24: Gabarit et consignes](projets/recit-defilant/cahier-de-charges.md){ .stretched-link }
 </div>
 
+<div class="card" markdown>
+:material-lightbulb-on-outline: __Exemples et inspirations__
+
+---
+
+Des récits défilants à décortiquer, avec une grille d'observation.
+
+[:octicons-arrow-right-24: Exemples et inspirations](projets/recit-defilant/inspirations.md){ .stretched-link }
+</div>
+
 </div>
 
 ## Aujourd'hui
 
 - [ ] Lancement du projet : le récit défilant
+- [ ] Exemples et inspirations : décortiquer quelques récits défilants
 - [ ] Former les équipes de 2
 - [ ] Choisir un thème
 - [ ] Commencer le cahier de charges, en équipe
@@ -95,10 +106,10 @@ On se revoit le **mer. 21 oct.** Arrivez avec votre concept et vos chapitres (é
 
 1. **Le concept et les chapitres** : ce que chaque chapitre raconte.
 2. **Le storyboard dans Figma** : un cadre par chapitre, annoté (ce qui bouge, ce qui le déclenche, la technique).
-3. **Les animations** de chaque chapitre, dans les bornes.
+3. **Les animations** de chaque chapitre, dans les garde-fous.
 4. **La matrice de responsabilités** : qui possède quoi. Ensemble.
 5. **Votre média animable** : chacun choisit son format (calques, spritesheet ou SVG).
-6. **L'API de la dataviz** : trouvée et **testée** dans la console.
+6. **Le moment dataviz** : dans quel chapitre, et quel genre de données. L'API se choisit au cours du 11 nov.
 7. **Votre journal** : chacun le sien, `documentation/JOURNAL-prenom.md`, avec les 5 questions.
 
 !!! danger "C'est votre processus qui est évalué"
@@ -108,4 +119,4 @@ On se revoit le **mer. 21 oct.** Arrivez avec votre concept et vos chapitres (é
     GSAP, le CSS au défilement et Vue arrivent en classe à partir du 28 oct. D'ici là, c'est la **conception** : bien planifier maintenant, c'est coder plus vite ensuite.
 
 !!! warning "Remise 1 : ven. 23 oct., 23 h 59 (pas de cours ce jour-là)"
-    Cahier de charges complet dans le dépôt, storyboard dans Figma, un journal par personne. [Liste de vérification de la remise 1](projets/recit-defilant/index-textuel.md#remise-1)
+    Cahier de charges complet dans le dépôt, storyboard dans Figma, un journal par personne. [Liste de vérification de la remise 1](projets/recit-defilant/index.md#remise-1)
