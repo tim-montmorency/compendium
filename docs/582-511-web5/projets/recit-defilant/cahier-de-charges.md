@@ -75,7 +75,7 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 # Cahier de charges : [Titre du récit]
 
 **Équipe** : [Prénom Nom], [Prénom Nom]
-**Thème** : [une cause / un mini-documentaire / une vitrine / un explicatif]
+**Thème** : [une cause / un mini-documentaire / une vitrine / un explicatif / une fiction]
 **Storyboard Figma** : [lien]
 
 ## 1. Le concept

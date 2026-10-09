@@ -78,17 +78,17 @@ Ce qu'on construit, comment on est évalué, et le calendrier jusqu'au 11 décem
 
 - **Équipes de 2.** Choisissez quelqu'un avec qui vous pouvez travailler **à distance** pendant deux semaines : échangez vos coordonnées (Teams, téléphone) avant de partir.
 - Une compétence complémentaire aide : l'un plus à l'aise en design, l'autre en code, par exemple. Mais **chacun code ses propres chapitres**.
-- Inscrivez votre équipe : <!-- MM : coller ici le lien du fichier d'inscription des équipes --> [liste des équipes](#){ :target="_blank" }
+- Inscrivez votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" } : les deux noms, puis le thème dès qu'il est validé.
 
 ## Choisir un thème
 
 En équipe, 20 minutes :
 
-1. Chacun propose **3 idées** de récit : une cause, un mini-documentaire, une vitrine, un explicatif.
-2. Pour chaque idée, vérifiez : **ça se raconte en 4 à 6 chapitres?** Il y a des **images** à trouver ou à produire? Une **donnée** à aller chercher pour la dataviz?
+1. Chacun propose **3 idées** de récit : une cause, un mini-documentaire, une vitrine, un explicatif, une fiction.
+2. Pour chaque idée, vérifiez : **ça se raconte en 6 à 8 chapitres?** Il y a des **images** à trouver ou à produire? Une **donnée** à aller chercher pour la dataviz?
 3. Gardez **une** idée, et résumez-la en une phrase.
 
-Validez votre thème avec moi avant de partir.
+Validez votre thème avec moi avant de partir, puis inscrivez-le dans le [fichier des équipes](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" }.
 
 ## Commencer le cahier de charges
 

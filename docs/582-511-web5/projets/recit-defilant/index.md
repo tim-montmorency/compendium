@@ -46,7 +46,8 @@ Un récit sur un thème de votre choix, par exemple :
 - **une cause** (environnement, santé, société);
 - **un mini-documentaire** (un lieu, un événement, une personne);
 - **une vitrine** (un produit, une œuvre, un artiste);
-- **un explicatif** (comment fonctionne quelque chose).
+- **un explicatif** (comment fonctionne quelque chose);
+- **une fiction** (un conte, une légende, une histoire inventée).
 
 ### Ce qui est obligatoire
 
@@ -103,6 +104,10 @@ On verra en classe comment préparer chacun de ces formats. D'ici là, choisisse
 ```
 
 ## Travailler en équipe, être évalué individuellement
+
+### Inscrire votre équipe
+
+Inscrivez les deux noms de votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" }. Ajoutez le thème dès que je l'ai validé.
 
 ### Vos zones de responsabilité
 
