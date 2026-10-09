@@ -290,12 +290,10 @@ nav:
       - 582-511-web5/index.md
       - Projets:
         - Récit défilant:
-            - 582-511-web5/projets/recit-defilant/index.md
             - Consignes complètes: 582-511-web5/projets/recit-defilant/index.md
             - Cahier de charges: 582-511-web5/projets/recit-defilant/cahier-de-charges.md 
             - Exemples et inspirations: 582-511-web5/projets/recit-defilant/inspirations.md
-        - Portfolio:
-          - 582-511-web5/projets/portfolio/index.md 
+        - Portfolio: 
           - Portfolio consignes sommaires: 582-511-web5/projets/portfolio/index.md
           - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
           - Arborescence du dépôt git : 582-511-web5/projets/portfolio/arborescence-portfolio.md
