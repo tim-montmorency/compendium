@@ -205,5 +205,7 @@ Des démos des animations CSS pilotées par le défilement (`animation-timeline`
 
 
 
-!!! tip "Dans votre journal"
-    Notez **2 ou 3 inspirations** : le lien, ce que vous en retenez, et comment vous l'adapterez à **votre** histoire. S'inspirer, ce n'est pas copier : on emprunte une idée de mise en scène, pas le contenu ni le design.
+!!! tip "Dans votre journal, seul d'abord"
+    **Individuellement**, notez **2 ou 3 animations** qui vous inspirent : le lien, ce qui bouge, ce que vous en retenez, et comment vous l'adapterez à **votre** histoire. S'inspirer, ce n'est pas copier : on emprunte une idée de mise en scène, pas le contenu ni le design.
+
+    Ensuite, **en équipe**, apportez vos inspirations dans votre brainstorm FigJam.

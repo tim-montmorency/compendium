@@ -41,8 +41,10 @@ Des récits défilants à décortiquer, avec une grille d'observation.
 
 - [ ] Lancement du projet : le récit défilant
 - [ ] Exemples et inspirations : décortiquer quelques récits défilants
+- [ ] **Seul** : noter 2 ou 3 animations qui vous inspirent dans votre journal
 - [ ] Former les équipes de 2
-- [ ] Choisir un thème
+- [ ] **En équipe** : brainstorm dans FigJam, puis choisir un thème
+- [ ] Ajouter le lien du FigJam dans votre journal (chacun)
 - [ ] Commencer le cahier de charges, en équipe
 - [ ] Devoir : vos deux semaines, jusqu'au ven. 23 oct.
 
@@ -80,13 +82,24 @@ Ce qu'on construit, comment on est évalué, et le calendrier jusqu'au 11 décem
 - Une compétence complémentaire aide : l'un plus à l'aise en design, l'autre en code, par exemple. Mais **chacun code ses propres chapitres**.
 - Inscrivez votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" } : les deux noms, puis le thème dès qu'il est validé.
 
-## Choisir un thème
+## S'inspirer, seul
 
-En équipe, 20 minutes :
+Parcourez les [exemples et inspirations](projets/recit-defilant/inspirations.md). **Individuellement**, notez dans votre journal **2 ou 3 animations** qui vous inspirent :
 
-1. Chacun propose **3 idées** de récit : une cause, un mini-documentaire, une vitrine, un explicatif, une fiction.
-2. Pour chaque idée, vérifiez : **ça se raconte en 6 à 8 chapitres?** Il y a des **images** à trouver ou à produire? Une **donnée** à aller chercher pour la dataviz?
-3. Gardez **une** idée, et résumez-la en une phrase.
+- le lien de l'exemple;
+- ce qui bouge, et ce qui le déclenche;
+- ce que vous aimeriez emprunter pour votre récit.
+
+## Choisir un thème : brainstorm en équipe dans FigJam
+
+On veut voir votre **processus créatif**, pas seulement l'idée finale. En équipe :
+
+1. **Ouvrez un tableau FigJam** et partagez-le avec votre coéquipier ou coéquipière.
+2. **Divergez** : chacun y dépose au moins **3 idées** de récit (une cause, un mini-documentaire, une vitrine, un explicatif, une fiction). Ajoutez vos inspirations, des mots-clés, des images, des pistes de chapitres. On ne juge pas encore : la quantité d'abord.
+3. **Convergez** : pour chaque idée, vérifiez : **ça se raconte en 6 à 8 chapitres?** Il y a des **images** à trouver ou à produire? Une **donnée** à aller chercher pour la dataviz? Gardez **une** idée, et résumez-la en une phrase.
+4. **Chacun ajoute le lien du FigJam dans son journal**, même si c'est le même tableau pour les deux.
+
+Ne nettoyez pas le tableau après coup : les idées écartées font partie de votre processus.
 
 Validez votre thème avec moi avant de partir, puis inscrivez-le dans le [fichier des équipes](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" }.
 

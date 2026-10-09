@@ -14,7 +14,7 @@
 
 </div>
 
-[:material-file-document-outline: Consignes complètes du récit défilant](index-textuel.md){ .md-button }
+[:material-file-document-outline: Consignes complètes du récit défilant](index.md){ .md-button }
 
 !!! warning "Le processus est évalué"
     Le cahier de charges est la première étape de votre processus. Au cours du **mer. 21 oct.**, vous me présenterez votre avancement (concept, chapitres, début du storyboard). Le cahier et le storyboard se font **sans IA** : c'est votre réflexion que je veux voir.
@@ -23,7 +23,7 @@
 
 Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec votre concept et vos chapitres (étapes 1 et 2); on avance ensemble le storyboard et la matrice. Voici un ordre qui fonctionne :
 
-1. **Le thème et le concept** (section 1). Discutez-en à deux jusqu'à pouvoir le résumer en une phrase.
+1. **Le thème et le concept** (section 1). Partez de votre brainstorm FigJam, et discutez-en à deux jusqu'à pouvoir le résumer en une phrase.
 2. **Le découpage en chapitres** (section 3) : ce que chaque chapitre raconte, avant de penser aux animations.
 3. **Le storyboard dans Figma** (section 2) : à quoi ressemble chaque chapitre, et ce qui bouge quand on défile.
 4. **Les animations** de chaque chapitre, en respectant les garde-fous (section 3).
@@ -76,6 +76,7 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 
 **Équipe** : [Prénom Nom], [Prénom Nom]
 **Thème** : [une cause / un mini-documentaire / une vitrine / un explicatif / une fiction]
+**Brainstorm FigJam** : [lien]
 **Storyboard Figma** : [lien]
 
 ## 1. Le concept
@@ -184,5 +185,5 @@ Médias animables choisis :
 - [ ] Chaque personne a au moins 3 chapitres et un média animable dans la matrice.
 - [ ] Chaque technique d'animation apparaît au moins une fois dans le tableau des chapitres.
 - [ ] Le moment dataviz est décrit : chapitre, genre de données, ce qu'elles racontent.
-- [ ] Le lien Figma fonctionne, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`.
+- [ ] Les liens FigJam (brainstorm) et Figma (storyboard) fonctionnent, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`.
 - [ ] Le tout est poussé sur GitHub **au plus tard le ven. 23 oct., 23 h 59**.

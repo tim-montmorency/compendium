@@ -123,6 +123,11 @@ Dès le cahier de charges, une **matrice de responsabilités** dit qui possède 
 
 Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`. Comme au portfolio, à chaque bloc, vous répondez aux 5 questions. Si vous avez utilisé l'IA pour un média, inscrivez-le (date, prompt, outil, résultat).
 
+Votre **première entrée** contient aussi votre processus créatif :
+
+- **2 ou 3 animations qui vous inspirent**, notées seul : le lien, ce qui bouge, ce que vous aimeriez emprunter;
+- **le lien du brainstorm FigJam** de votre équipe. Chacun l'ajoute dans son propre journal, même si c'est le même tableau.
+
 1. Qu'est-ce que j'ai accompli depuis le dernier bloc? (Vous pouvez faire référence à vos *commits*.)
 2. Quelle a été ma principale difficulté et comment je l'ai surmontée?
 3. Qu'est-ce que j'ai appris que je ne savais pas avant?
@@ -185,7 +190,7 @@ La grille critériée détaillée sera publiée avant la remise du cahier de cha
 
 | Date | Étape |
 |---|---|
-| **ven. 9 oct.** | Lancement : équipes, thèmes, début du cahier de charges |
+| **ven. 9 oct.** | Lancement : inspirations (seul), équipes, brainstorm FigJam et thème (en équipe), début du cahier de charges |
 | 9 au 20 oct. | **Travail autonome** : concept, chapitres, début du storyboard |
 | **mer. 21 oct.** | Cours : storyboard, modèle de données, matrice de responsabilités. Vous me présentez votre avancement. |
 | **ven. 23 oct.** | Pas de cours. **Remise 1 : cahier de charges**, déposé au plus tard à 23 h 59 |
@@ -208,6 +213,6 @@ La grille critériée détaillée sera publiée avant la remise du cahier de cha
 - [ ] `README.md` : les noms de l'équipe, le titre et le thème du récit, le lien vers le Figma.
 - [ ] `documentation/CAHIER-DE-CHARGES.md` est **complet**, à partir du gabarit.
 - [ ] Le **storyboard** du défilement est dans Figma, et le lien fonctionne (accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`).
-- [ ] Chaque personne a son `documentation/JOURNAL-prenom.md`, avec les 5 questions de ce premier bloc.
+- [ ] Chaque personne a son `documentation/JOURNAL-prenom.md`, avec les 5 questions de ce premier bloc, ses 2 ou 3 inspirations et le lien du brainstorm FigJam.
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
