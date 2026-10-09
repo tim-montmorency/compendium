@@ -105,7 +105,7 @@ Avant la fin du cours, chaque équipe a :
 On se revoit le **mer. 21 oct.** Arrivez avec votre concept et vos chapitres (étapes 1 et 2) : vous me présenterez votre avancement, et on avancera ensemble le storyboard et la matrice. D'ici là, vous travaillez en équipe, à votre rythme. Un ordre qui fonctionne :
 
 1. **Le concept et les chapitres** : ce que chaque chapitre raconte.
-2. **Le storyboard dans Figma** : un cadre par chapitre, annoté (ce qui bouge, ce qui le déclenche, la technique).
+2. **Le storyboard dans Figma** : un cadre par chapitre, annoté (ce qui bouge, ce qui le déclenche, la technique). Partez du [gabarit de storyboard](assets/documents/Storyboard_Gabarit_Mobile_Desktop.fig){ download }.
 3. **Les animations** de chaque chapitre, dans les garde-fous.
 4. **La matrice de responsabilités** : qui possède quoi. Ensemble.
 5. **Votre média animable** : chacun choisit son format (calques, spritesheet ou SVG).

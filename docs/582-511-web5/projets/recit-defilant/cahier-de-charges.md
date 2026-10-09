@@ -29,6 +29,12 @@ Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec 
 
 Un storyboard de défilement n'est pas une maquette de chaque pixel. C'est **la suite des moments** que vit le visiteur.
 
+**Partez du gabarit** : il contient des cadres desktop et mobile, prêts à dupliquer pour chacun de vos chapitres.
+
+[:material-download: Télécharger le gabarit de storyboard (Figma)](../../assets/documents/Storyboard_Gabarit_Mobile_Desktop.fig){ .md-button .md-button--primary download }
+
+Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le fichier `.fig` dans la fenêtre), puis partagez le fichier avec votre coéquipier ou coéquipière.
+
 - **Un cadre (*frame*) par chapitre**, en format desktop. Ajoutez un ou deux cadres mobiles pour les chapitres les plus animés.
 - Sur chaque cadre, **annotez** :
     - ce qui **apparaît**, **bouge** ou **reste épinglé**;
