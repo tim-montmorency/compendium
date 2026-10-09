@@ -5,18 +5,18 @@
 
 1. Le cahier de charges fixe **ce que votre équipe va construire, et qui fait quoi**, avant d'écrire une ligne de code.
 2. Vous partez du **gabarit** ci-dessous : copiez-le dans `documentation/CAHIER-DE-CHARGES.md`, puis remplissez chaque section, en équipe.
-3. À remettre **au début du cours du ven. 23 oct.**, avec le storyboard dans Figma. C'est la remise 1 (5 %, note d'équipe).
+3. À déposer **au plus tard le ven. 23 oct., 23 h 59**, avec le storyboard dans Figma. C'est la remise 1 (5 %, note d'équipe).
 
 </div>
 
-[:material-file-document-outline: Consignes complètes du projet intégrateur](index-textuel.md){ .md-button }
+[:material-file-document-outline: Consignes complètes du récit défilant](index-textuel.md){ .md-button }
 
 !!! warning "Le processus est évalué"
-    Le cahier de charges est la première étape de votre processus, et vous me le présenterez le 23 oct. Un cahier généré d'un coup par l'IA, que l'équipe ne peut pas expliquer, sera à recommencer.
+    Le cahier de charges est la première étape de votre processus. Au cours du **mer. 21 oct.**, vous me présenterez votre avancement (concept, chapitres, début du storyboard). Un cahier généré d'un coup par l'IA, que l'équipe ne peut pas expliquer, sera à recommencer.
 
 ## Comment s'y prendre
 
-Vous avez deux semaines sans cours. Voici un ordre qui fonctionne :
+Vous avez deux semaines, avec un cours en chemin : le **mer. 21 oct.**, arrivez avec votre concept et vos chapitres (étapes 1 et 2); on avance ensemble le storyboard et la matrice. Voici un ordre qui fonctionne :
 
 1. **Le thème et le concept** (section 1). Discutez-en à deux jusqu'à pouvoir le résumer en une phrase.
 2. **Le découpage en chapitres** (section 3) : ce que chaque chapitre raconte, avant de penser aux animations.
@@ -164,4 +164,4 @@ Médias animables choisis :
 - [ ] Chaque technique d'animation apparaît au moins une fois dans le tableau des chapitres.
 - [ ] L'API de la dataviz a été **testée** dans la console.
 - [ ] Le lien Figma fonctionne, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`.
-- [ ] Le tout est poussé sur GitHub **avant le début du cours du ven. 23 oct.**
+- [ ] Le tout est poussé sur GitHub **au plus tard le ven. 23 oct., 23 h 59**.

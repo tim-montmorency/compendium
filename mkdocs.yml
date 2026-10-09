@@ -288,22 +288,27 @@ nav:
       - Cours 15: 582-411-web4/cours15/index.md
   - Web 5:
       - 582-511-web5/index.md
-      - Projets: 
-        - 582-511-web5/projets/portfolio/index.md 
-        - Portfolio consignes sommaires: 582-511-web5/projets/portfolio/index.md
-        - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
-        - Arborescence du dépôt git : 582-511-web5/projets/portfolio/arborescence-portfolio.md
-        - Gestions des données de projets:
-            - Chargement des données projet: 582-511-web5/projets/portfolio/donnees/index.md
-            - Afficher les projets: 582-511-web5/projets/portfolio/donnees/afficher-projets.md
-            - Source JSON local: 582-511-web5/projets/portfolio/donnees/json-local.md
-            - Source GoogleSheets+Opensheet: 582-511-web5/projets/portfolio/donnees/google-sheets-opensheet.md
-            - Source Airtable: 582-511-web5/projets/portfolio/donnees/airtable.md
-        - Déployer sur GitHub Pages: 582-511-web5/projets/portfolio/deploiement-github-pages.md
-        - Remise bêta, liste de vérification: 582-511-web5/projets/portfolio/remise-beta.md
-        - Consignes QA du portfolio: 582-511-web5/projets/portfolio/qa-portfolio.md
-        - Présentation finale devant le jury: 582-511-web5/projets/portfolio/presentation-jury.md
-        - Remise FINALE, liste de vérification: 582-511-web5/projets/portfolio/remise-finale.md
+      - Projets:
+        - Récit défilant:
+            - 582-511-web5/projets/recit-defilant/index.md
+            - Consignes complètes: 582-511-web5/projets/recit-defilant/index.md
+            - Cahier de charges: 582-511-web5/projets/recit-defilant/cahier-de-charges.md 
+        - Portfolio:
+          - 582-511-web5/projets/portfolio/index.md 
+          - Portfolio consignes sommaires: 582-511-web5/projets/portfolio/index.md
+          - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
+          - Arborescence du dépôt git : 582-511-web5/projets/portfolio/arborescence-portfolio.md
+          - Gestions des données de projets:
+              - Chargement des données projet: 582-511-web5/projets/portfolio/donnees/index.md
+              - Afficher les projets: 582-511-web5/projets/portfolio/donnees/afficher-projets.md
+              - Source JSON local: 582-511-web5/projets/portfolio/donnees/json-local.md
+              - Source GoogleSheets+Opensheet: 582-511-web5/projets/portfolio/donnees/google-sheets-opensheet.md
+              - Source Airtable: 582-511-web5/projets/portfolio/donnees/airtable.md
+          - Déployer sur GitHub Pages: 582-511-web5/projets/portfolio/deploiement-github-pages.md
+          - Remise bêta, liste de vérification: 582-511-web5/projets/portfolio/remise-beta.md
+          - Consignes QA du portfolio: 582-511-web5/projets/portfolio/qa-portfolio.md
+          - Présentation finale devant le jury: 582-511-web5/projets/portfolio/presentation-jury.md
+          - Remise FINALE, liste de vérification: 582-511-web5/projets/portfolio/remise-finale.md
       - Contrôle de la qualité:
         - Les notions QA: 582-511-web5/qa/controle-qualite.md
         - Accessibilité: 582-511-web5/qa/accessibilite.md
