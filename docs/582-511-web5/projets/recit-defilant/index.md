@@ -2,6 +2,11 @@
 
 ![](assets/recit-defilant-banniere.webp){.w-100}
 
+<div class="class-content-link">
+  <img src="../../assets/IA-restreinte.png">
+  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a href="#ia">Détails</a></span>
+</div>
+
 <!-- MM : premier jet pour le lancement du ven. 9 oct. La grille critériée détaillée, les questions du journal propres au récit défilant sont à compléter. -->
 
 <div class="essentiel" markdown>
@@ -15,9 +20,6 @@
 
 !!! danger "C'est votre processus qui est évalué"
     Pas seulement le résultat final : **votre démarche, étape par étape**. Vous me présentez votre projet **à chaque étape**, au rythme du groupe. Si je constate qu'une étape a été sautée (un code généré d'un coup, sans planification ni compréhension), **je vous demanderai de la recommencer**. Pas de passe-droit.
-
-!!! warning "L'IA : pour vos médias seulement, jusqu'à nouvel ordre"
-    Dans ce projet, **vous codez par vous-mêmes, sans IA** : pas de Copilot, pas de ChatGPT, Claude ou Gemini pour le code, pas de Figma Make. L'IA est permise **seulement pour créer vos médias**. [Tous les détails](#ia)
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
 [:material-lightbulb-on-outline: Exemples et inspirations](inspirations.md){ .md-button }
@@ -123,6 +125,11 @@ Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`
 5. Est-ce que j'ai utilisé l'IA pour un média? Si oui, lequel, avec quel outil, et qu'est-ce que j'ai préparé moi-même?
 
 ### L'IA dans ce projet : pour vos médias seulement { #ia }
+
+<div class="class-content-link">
+  <img src="../../assets/IA-restreinte.png">
+  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous!</span>
+</div>
 
 **Cette fois, on code sans IA.** Au portfolio, l'IA était permise, documentée et comprise. Pour le récit défilant, on fait un essai différent : je veux que vous puissiez coder **par vous-mêmes**, et que demander à l'IA ne soit pas un réflexe. Chercher, essayer, se tromper, déboguer : c'est comme ça qu'on devient autonome.
 
