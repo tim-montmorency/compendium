@@ -61,7 +61,7 @@ const donnees = {
 ### Pour aller plus loin (optionnel)
 
 - [ ] Ajoutez un troisième type (`line`, `radar` ou `polarArea`) et un bouton qui bascule d'un type à l'autre
-- [ ] Animez l'apparition des graphiques au défilement avec **ScrollTrigger** (cours 10)
+- [ ] Animez l'apparition des graphiques au défilement avec **ScrollTrigger** (cours 9)
 
 [STOP]
 

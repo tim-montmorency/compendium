@@ -613,3 +613,12 @@ Si ce n'est pas encore déjà en place, il faudra maintenant prioriser les tâch
   - Ajouter une section `## Crédits`
   - Noter la source de chaque asset importé (modèles, textures, audio, polices, packs, scripts)
 - `Must` Chercher les assets visuels manquants (modèles, textures, polices)
+
+[STOP]
+
+Prochaine fois : 
+
+- Préparer des pistes audio pré-téléchargées pour la demo en cours
+- Ajouter des exemples vidéo avec de l'audio / mieux faire les vidéo (ex.: tir est trop fort et le son pas intéressant)
+- Je n'ai pas fait de démo pour les scripts du HUD, mais il manquait tout de même des screenshots des options.
+  - Montrer peut-être un script et dire que les autres suivent la même logique.

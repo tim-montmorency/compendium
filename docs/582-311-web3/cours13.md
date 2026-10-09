@@ -16,11 +16,11 @@ Place à la pratique&nbsp;! Cette séance et la suivante sont des **ateliers enc
 
 ## Objectifs de l'atelier
 
-- [ ] Rassembler et **optimiser les médias du jeu** (logo, captures, bande-annonce, sons - cours 8).
+- [ ] Rassembler et **optimiser les médias du jeu** (logo, captures, bande-annonce, sons - cours 7).
 - [ ] Assembler l'interface avec **Tailwind + DaisyUI**&nbsp;: hero d'accueil, galerie de captures, section fonctionnalités (cours 2 à 4).
-- [ ] Ajouter de l'**interactivité** avec Alpine.js - menu, onglets, sélecteur de thème (cours 7).
-- [ ] **Animer** l'ambiance avec GSAP&nbsp;: apparition au défilement, parallaxe, bande-annonce mise en valeur (cours 9 à 11).
-- [ ] Intégrer une **librairie** pertinente pour un site de jeu (ex.&nbsp;: **Howler** pour les effets sonores - cours 8&nbsp;; ou une librairie du cours 12).
+- [ ] Ajouter de l'**interactivité** avec JavaScript ou Alpine.js - menu, onglets, sélecteur de thème (cours 7 et 12).
+- [ ] **Animer** l'ambiance avec GSAP&nbsp;: apparition au défilement, parallaxe, bande-annonce mise en valeur (cours 8 à 10).
+- [ ] Intégrer une **librairie** pertinente pour un site de jeu (ex.&nbsp;: **Howler** ou **Tone.js** - cours 11&nbsp;; ou une librairie bonus du cours 12).
 
 !!! tip "Travaillez par composantes"
 

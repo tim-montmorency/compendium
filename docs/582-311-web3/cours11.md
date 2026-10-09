@@ -1,157 +1,297 @@
-# Cours 11 | GSAP - parallaxe, MotionPath & SVG
+# Cours 11 | Audio et vidéo par programmation
 
 [STOP]
 
-<!-- **Savoirs :** #10 Programmation événementielle · #15 Interactivité · #16 Animation via librairie -->
+<!-- **Savoirs :** #3 Contrôle audio et vidéo · #13 Classe JavaScript · #14 Classes sur mesure · #12 Repérage d'erreur (DevTools) · #15 Interactivité -->
 
-*[GSAP]: GreenSock Animation Platform
-*[SVG]: Scalable Vector Graphics
+*[CDN]: Content Delivery Network
+*[npm]: Node Package Manager
+*[API]: Application Programming Interface
 
-![](./assets/images/gsap-banner.jpg){.w-100}
+![](./assets/images/js-banner.png){.w-100}
 
-Vous maîtrisez les tweens, les timelines et ScrollTrigger. Ce dernier cours GSAP pousse plus loin&nbsp;: **épingler** des sections, créer de la **parallaxe**, faire voyager un élément le long d'un **tracé** (MotionPath) et **dessiner** des SVG (DrawSVG) 🎨.
+Ce cours s'appelle « Web **audiovisuel** »&nbsp;: au cours 7, les médias ont été **optimisés**. Aujourd'hui, on les **contrôle par programmation** 🎬🔊, juste à temps pour le projet final.
 
-## Épingler une section (`pin`)
+<div class="grid grid-1-4" markdown>
+  ![](./assets/images/javascript_banner.png){.aspect-4-3 .w-100}
 
-L'option `pin` **fige** un élément à l'écran pendant que le reste de la page continue de défiler. C'est la base des « scènes » narratives.
-
-```js
-gsap.to(".contenu", {
-  x: -1000,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".section",
-    start: "top top",
-    end: "+=2000",   // dure sur 2000 px de défilement
-    pin: true,       // fige la section pendant ce temps
-    scrub: 1
-  }
-})
-```
-
-!!! tip "`pin` + `scrub` = défilement horizontal"
-
-    Combiner `pin` (fige) et `scrub` (lie au défilement) est la recette classique du **défilement horizontal** ou des scènes qui se déroulent sur place.
-
-<!-- CODEPEN: section épinglée avec défilement horizontal (pin + scrub) -->
-
-## La parallaxe multicouches
-
-La **parallaxe**, c'est l'illusion de profondeur créée quand les plans lointains bougent **plus lentement** que les plans proches. Avec ScrollTrigger, il suffit de donner à chaque couche une amplitude de déplacement différente, en `scrub`.
-
-```js
-// L'arrière-plan bouge peu (lointain)
-gsap.to(".fond", {
-  y: 100,
-  ease: "none",
-  scrollTrigger: { trigger: ".scene", start: "top bottom", end: "bottom top", scrub: true }
-})
-
-// Le premier plan bouge beaucoup (proche)
-gsap.to(".avant-plan", {
-  y: 400,
-  ease: "none",
-  scrollTrigger: { trigger: ".scene", start: "top bottom", end: "bottom top", scrub: true }
-})
-```
-
-!!! note "Le secret : `ease: none` + `scrub`"
-
-    Pour une parallaxe crédible, le mouvement doit être **linéaire** (`ease: "none"`) et **lié au défilement** (`scrub`). Ce sont les différences d'amplitude (`y: 100` vs `y: 400`) qui créent la profondeur.
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
-
-  <small>Exercice - GSAP</small><br>
-  **[Combinaison parallaxe et MotionPath](./exercices/gsap-motionpath-parallax.md){.stretched-link .back}**
+  :material-play-circle: **Audio et vidéo** - API native, classes JavaScript et Howler.js
 </div>
 
-## Suivre un tracé : MotionPathPlugin
+<div class="grid grid-1-4" markdown>
+  ![](./assets/images/tonejs-adsr.png){.aspect-4-3 .w-100}
 
-[MotionPathPlugin](https://gsap.com/docs/v3/Plugins/MotionPathPlugin/) fait voyager un élément le long d'un **chemin** - souvent un tracé SVG. Idéal pour une fusée qui suit une courbe, un point sur une carte, etc.
-
-```js title="src/main.js"
-import gsap from "gsap"
-import { MotionPathPlugin } from "gsap/MotionPathPlugin"
-
-gsap.registerPlugin(MotionPathPlugin)
-
-gsap.to(".fusee", {
-  duration: 4,
-  ease: "none",
-  motionPath: {
-    path: "#trace",       // un <path> SVG
-    align: "#trace",      // aligne l'élément sur le tracé
-    autoRotate: true      // oriente l'élément selon la direction
-  }
-})
-```
-
-!!! tip "`autoRotate`"
-
-    `autoRotate: true` fait pivoter l'élément pour qu'il « regarde » toujours vers l'avant du tracé - indispensable pour une voiture ou une flèche.
-
-<!-- CODEPEN: élément qui suit un tracé SVG (motionPath + autoRotate) -->
-
-## Dessiner un SVG : DrawSVGPlugin
-
-[DrawSVGPlugin](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/) anime le **tracé** d'un SVG, comme si un stylo le dessinait en direct. (Ce plugin, autrefois payant, est désormais **gratuit** 🎉.)
-
-```js title="src/main.js"
-import gsap from "gsap"
-import { DrawSVGPlugin } from "gsap/DrawSVGPlugin"
-
-gsap.registerPlugin(DrawSVGPlugin)
-
-gsap.from("#signature path", {
-  drawSVG: "0%",      // part d'un tracé invisible
-  duration: 2,
-  stagger: 0.2
-})
-```
-
-!!! warning "Ça marche sur les tracés, pas les remplissages"
-
-    DrawSVG anime le **contour** (`stroke`) d'un `<path>`, `<line>`, `<circle>`… Assurez-vous que vos formes SVG ont un `stroke` visible et pensez à animer depuis `"0%"` (invisible) vers `"100%"` (complet).
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
-
-  <small>Exercice - GSAP</small><br>
-  **[Animation SVG avec DrawSVG, ScrollTrigger et Parallaxe](./exercices/gsap-drawsvg.md){.stretched-link .back}**
+  :material-music: **Tone.js** - du son et de la musique
 </div>
 
-## Aller plus loin : `snap`
+Chart.js et Three.js, en bonus, sont présentés au cours 12.
 
-L'option `snap` de ScrollTrigger « aimante » le défilement vers des positions précises - pratique pour un carrousel plein écran ou des sections qui se calent d'elles-mêmes.
+---
+
+# Partie 1 - Contrôler les médias par programmation
+
+Les balises `<video>` et `<audio>` viennent avec des contrôles par défaut. Mais dès qu'on veut un **lecteur sur mesure** (boutons stylisés, barre de progression maison, effets sonores au clic), on passe par le JavaScript.
+
+## L'API native `<video>` / `<audio>`
+
+Tout élément média expose des **propriétés**, des **méthodes** et des **événements** qu'on manipule en JS.
+
+| Propriété | Rôle |
+| :--- | :--- |
+| `currentTime` | Position de lecture (en secondes) |
+| `duration` | Durée totale |
+| `volume` | Volume (0 à 1) |
+| `muted` | Sourdine (booléen) |
+| `paused` | En pause ? (booléen) |
+| `playbackRate` | Vitesse de lecture |
+
+| Méthode | Effet |
+| :--- | :--- |
+| `.play()` | Lance la lecture |
+| `.pause()` | Met en pause |
+| `.load()` | Recharge la source |
+
+| Événement | Se déclenche… |
+| :--- | :--- |
+| `play` / `pause` | À la lecture / pause |
+| `timeupdate` | À chaque avancée de lecture (pour une barre de progression) |
+| `ended` | À la fin |
+| `loadedmetadata` | Quand la durée est connue |
+
+```js title="Bouton lecture/pause maison"
+const video = document.querySelector("#film")
+const bouton = document.querySelector("#lecture")
+
+bouton.addEventListener("click", () => {
+  video.paused ? video.play() : video.pause()
+})
+
+// Barre de progression
+video.addEventListener("timeupdate", () => {
+  const pourcent = (video.currentTime / video.duration) * 100
+  document.querySelector("#barre").style.width = pourcent + "%"
+})
+```
+
+<!-- CODEPEN: lecteur vidéo maison (play/pause + barre de progression) -->
+
+## Petit détour : les classes JavaScript
+
+Les librairies (GSAP depuis le cours 8, Howler et Tone.js aujourd'hui) nous donnent des **objets** créés avec le mot-clé `new`. Trois notions suffisent pour s'y retrouver&nbsp;:
+
+- une **classe** est un *moule* (ex.&nbsp;: `Howl`)&nbsp;;
+- `new` fabrique une **instance** à partir du moule&nbsp;;
+- une **méthode** est une action de l'instance (ex.&nbsp;: `.play()`).
 
 ```js
-scrollTrigger: {
-  trigger: ".galerie",
-  start: "top top",
-  end: "+=3000",
-  pin: true,
-  scrub: 1,
-  snap: 1 / 4   // s'aimante à chacune des 4 étapes
+const son = new Howl({ src: ["saut.mp3"] })  // une instance de la classe Howl
+son.play()                                    // une méthode de cette instance
+```
+
+!!! note "On les utilise plus qu'on les écrit"
+
+    À ce stade, l'important est de **savoir lire et utiliser** une classe fournie par une librairie, pas d'écrire les vôtres. Vous reconnaîtrez ce motif `new Quelquechose({...})` partout&nbsp;: Howler, Chart.js, Tone.js, GSAP…
+
+### Écrire sa propre classe (aperçu)
+
+Rien ne vous empêche d'écrire la vôtre. La structure minimale regroupe des **données** (dans le `constructor`) et des **méthodes** (des actions)&nbsp;:
+
+```js
+class Personnage {
+  constructor(nom, pv) {
+    this.nom = nom      // une propriété
+    this.pv = pv
+  }
+  saluer() {           // une méthode
+    console.log(`${this.nom} entre en scène !`)
+  }
 }
+
+const heros = new Personnage("Digger", 100)
+heros.saluer()   // "Digger entre en scène !"
 ```
 
-## Exercices
+!!! note "À garder simple"
+
+    Écrire ses propres classes devient utile quand on gère **plusieurs objets du même type**. Pour un site promotionnel, l'usage des classes **fournies par les librairies** suffit largement&nbsp;: retenez surtout comment les **lire et les instancier**.
+
+## Une librairie audio : Howler.js
+
+L'`<audio>` natif suffit pour lire un fichier, mais dès qu'on veut des **effets sonores** fiables (jeu, interactions), des **sprites audio** ou un contrôle multiplateforme, **[Howler.js](https://howlerjs.com/)** est la référence.
+
+=== ":material-flash: CDN"
+
+    ```html
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+    ```
+
+=== ":simple-vite: npm"
+
+    ```bash
+    npm install howler
+    ```
+
+    ```js title="src/main.js"
+    import { Howl, Howler } from "howler"
+    ```
+
+```js title="Un son avec repli de format"
+const son = new Howl({
+  src: ["bruit.webm", "bruit.mp3"],  // le navigateur prend le 1er compatible
+  volume: 0.8,
+  loop: false
+})
+
+son.play()
+```
+
+| Méthode | Effet |
+| :--- | :--- |
+| `son.play()` / `son.pause()` / `son.stop()` | Contrôle de lecture |
+| `son.volume(0.5)` | Règle le volume de ce son |
+| `son.rate(1.5)` | Change la vitesse |
+| `Howler.volume(0.5)` | Volume **global** de tous les sons |
+| `Howler.mute(true)` | Coupe tout |
+
+!!! tip "Les sprites audio"
+
+    Comme les sprites d'image (cours 9), un **sprite audio** regroupe plusieurs sons dans un seul fichier - idéal pour les effets d'un jeu.
+
+    ```js
+    const fx = new Howl({
+      src: ["fx.webm"],
+      sprite: { saut: [0, 300], piece: [400, 150] }
+    })
+    fx.play("saut")
+    ```
+
+<!-- CODEPEN: effets sonores au clic avec Howler -->
+
+### Autres librairies (survol)
+
+- **[Video.js](https://videojs.com/)** - un lecteur **vidéo** entièrement habillable (thèmes, sous-titres, qualité).
+
+## Déboguer : les DevTools
+
+Quand un média ne réagit pas, ouvrez les **DevTools** (++f12++)&nbsp;:
+
+- la **Console** affiche les erreurs et vos `console.log(...)`&nbsp;;
+- l'onglet **Réseau** montre si le fichier média se charge (ou renvoie une erreur 404)&nbsp;;
+- un **point d'arrêt** (_breakpoint_) met le code en pause pour l'inspecter ligne par ligne.
+
+```js
+console.log("durée :", video.duration)   // vérifier une valeur au vol
+```
+
+## Exercice - Médias
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
+  ![](./assets/images/javascript_banner.png){.aspect-4-3}
 
-  <small>Exercice - GSAP</small><br>
-  **[Automobile jaune 2](./exercices/gsap-auto2.md){.stretched-link .back}**
+  <small>Exercice - Médias</small><br>
+  **[Salle de projection](./exercices/medias-salle-projection.md){.stretched-link .back}**
 </div>
+
+---
+
+# Partie 2 - Tone.js
+
+![](./assets/images/tonejs-adsr.png){data-zoom-image .w-75}
+
+**[Tone.js](https://tonejs.github.io/)** est un cadre audio pour **créer du son et de la musique** dans le navigateur. Pour un site de jeu, c'est parfait&nbsp;: une ambiance sonore, un thème musical, ou des effets aux interactions.
+
+## Installation
+
+=== ":material-flash: CDN (rapide)"
+
+    ```html
+    <script src="https://unpkg.com/tone"></script>
+    ```
+
+=== ":simple-vite: npm (projet Vite)"
+
+    ```bash
+    npm install tone
+    ```
+
+    ```js title="src/main.js"
+    import * as Tone from "tone"
+    ```
+
+!!! danger "Le son exige un clic d'abord"
+
+    Les navigateurs **bloquent** tout son tant que l'utilisateur n'a pas interagi avec la page. Il faut donc appeler **`Tone.start()`** depuis un événement déclenché par l'utilisateur (un clic), sinon&nbsp;: silence.
+
+    ```js
+    document.querySelector("#demarrer").addEventListener("click", async () => {
+      await Tone.start()   // débloque l'audio
+      // … le son peut jouer maintenant …
+    })
+    ```
+
+## Jouer une note
+
+L'objet de base est le **synthétiseur**. On le crée, on le branche aux haut-parleurs avec `.toDestination()`, puis on joue une note.
+
+```js
+const synth = new Tone.Synth().toDestination()
+
+// note "Do 4", tenue pendant une croche ("8n")
+synth.triggerAttackRelease("C4", "8n")
+```
+
+| Argument | Signifie |
+| :--- | :--- |
+| `"C4"` | La note (nom + octave), ou une fréquence en Hz (`440`) |
+| `"8n"` | La durée&nbsp;: `"4n"` = noire, `"8n"` = croche, `"1m"` = une mesure |
+
+## Enchaîner des notes
+
+Le 3ᵉ argument planifie **quand** jouer, en secondes à partir de maintenant (`Tone.now()`).
+
+```js
+const synth = new Tone.Synth().toDestination()
+const t = Tone.now()
+
+synth.triggerAttackRelease("C4", "8n", t)
+synth.triggerAttackRelease("E4", "8n", t + 0.5)
+synth.triggerAttackRelease("G4", "8n", t + 1)
+```
+
+## Jouer un fichier audio
+
+Pour une **musique** ou un effet à partir d'un fichier, on utilise `Tone.Player`.
+
+```js
+const musique = new Tone.Player({
+  url: "./assets/audio/theme.mp3",
+  loop: true,
+  autostart: false
+}).toDestination()
+
+// après Tone.start() :
+musique.start()
+```
+
+!!! tip "Idées pour votre site de jeu"
+
+    Un thème musical en boucle dans le hero, un « bip » à chaque survol de bouton, un son de validation à l'envoi du formulaire… petit détail, grande immersion 🎧.
+
+<!-- CODEPEN: clavier de quelques notes + bouton Tone.start() -->
+
+## Exercice - Tone.js
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
+  ![](./assets/images/tonejs-adsr.png){.aspect-4-3}
 
-  <small>Exercice - GSAP</small><br>
-  **[Labyrinthe](./exercices/gsap-maze.md){.stretched-link .back}**
+  <small>Exercice - Tone.js</small><br>
+  **[Boîte à musique](./exercices/tonejs-boite-a-musique.md){.stretched-link .back}**
 </div>
 
-!!! success "Fin du bloc GSAP"
+---
 
-    Vous savez maintenant animer (tweens, timelines), déclencher au défilement (ScrollTrigger), créer de la profondeur (parallaxe) et exploiter des plugins (MotionPath, DrawSVG). De quoi donner vie à n'importe quelle interface 🚀.
+## Projet final
+
+L'énoncé du projet final est présenté aujourd'hui&nbsp;: les médias du jeu (ou de l'œuvre choisie) seront contrôlés avec les outils vus dans ce cours.
+
+[Énoncé du projet final](./devoir/projet-final.md){ .md-button .md-button--primary }

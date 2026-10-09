@@ -14,7 +14,7 @@ Un site promotionnel superbe qui met douze secondes à charger est un site que p
 
     Pas besoin des médias de votre projet&nbsp;: à ce stade de la session, votre jeu est encore en **greybox** et votre œuvre culturelle n'est peut-être même pas choisie.
 
-    Tout le monde part donc du **même dossier de médias**, volontairement mal optimisé et mal nommé. C'est la **méthode** que vous apprenez ici. Vous l'appliquerez à vos vrais médias au cours 12-13, quand vous en aurez.
+    Tout le monde part donc du **même dossier de médias**, volontairement mal optimisé et mal nommé. C'est la **méthode** que vous apprenez ici. Vous l'appliquerez à vos vrais médias aux cours 12-13, quand vous en aurez.
 
 ## Résultat attendu
 

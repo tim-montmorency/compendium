@@ -12,7 +12,7 @@ Dernière ligne droite&nbsp;! Cette séance sert à **finaliser, valider et publ
 
 - [ ] Terminer l'intégration des dernières sections et médias.
 - [ ] Vérifier que le site est **responsive** (mobile, tablette, bureau).
-- [ ] Passer le HTML et le CSS au [validateur du W3C](https://validator.w3.org/) et corriger les erreurs (cours 8).
+- [ ] Passer le HTML et le CSS au [validateur du W3C](https://validator.w3.org/) et corriger les erreurs (cours 7).
 - [ ] Tester dans **plusieurs navigateurs** (Chrome, Firefox, Safari).
 - [ ] Retirer les traces de débogage (`console.log`, `markers: true` de GSAP…).
 
