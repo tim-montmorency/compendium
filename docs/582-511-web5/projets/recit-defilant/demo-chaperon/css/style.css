@@ -380,7 +380,7 @@ h1 {
   .replique {
     animation: grossir linear both;
     animation-timeline: view();
-    animation-range: entry 0% cover 45%;
+    animation-range: entry 0% cover 25%; /* finie bien avant d'atteindre le haut de l'écran */
     transform-origin: left center;
   }
   .replique:last-child {

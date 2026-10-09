@@ -23,16 +23,18 @@ function observerUneFois(element, action, marge = "0px 0px -20% 0px") {
 function observerPanier() {
   const panier = document.querySelector(".panier");
   if (!panier) return;
-  observerUneFois(panier, (el) => el.classList.add("est-visible"));
+  // Marge de -5 % : ça part dès que le panier entre dans le bas de l'écran
+  observerUneFois(panier, (el) => el.classList.add("est-visible"), "0px 0px -5% 0px");
 }
 
 // Chapitre 8 : toute la page vire au rouge pendant la morale, et revient en remontant
 function observerMorale() {
   const morale = document.querySelector("#la-morale");
   if (!morale) return;
+  // Marge de -30 % en bas : la page vire au rouge dès que le chapitre atteint le bas du tiers inférieur
   const observateur = new IntersectionObserver(([entree]) => {
     document.body.classList.toggle("fin-rouge", entree.isIntersecting);
-  }, { threshold: 0.35 });
+  }, { rootMargin: "0px 0px -30% 0px" });
   observateur.observe(morale);
 }
 
@@ -52,23 +54,39 @@ function animerForet() {
   const foret = document.querySelector(".foret");
   if (!foret) return;
 
+  // 1. L'entrée : dès que la forêt apparaît au bas de l'écran, le Chaperon entre en scène
+  const entree = gsap.timeline({
+    scrollTrigger: {
+      trigger: foret,
+      start: "top bottom",    // le haut de la forêt touche le bas de l'écran...
+      end: "center center",   // ...jusqu'à ce qu'elle soit au centre
+      scrub: 1,               // 1 seconde de « retard » : le mouvement glisse au lieu de suivre sec
+    },
+  });
+  entree
+    .fromTo(".marcheur",
+      { x: -200, scale: 0.8 },
+      { x: () => foret.offsetWidth * 0.3, scale: 1.1, ease: "none" }, 0)
+    .fromTo(".foret__arbres", { xPercent: 30 }, { xPercent: 0, ease: "none" }, 0);
+
+  // 2. La traversée : la forêt reste épinglée au centre pendant 2,5 écrans de défilement
   const traversee = gsap.timeline({
     scrollTrigger: {
       trigger: foret,
-      start: "center center", // quand la forêt est au centre de l'écran...
-      end: "+=250%",          // ...elle reste épinglée pendant 2,5 écrans de défilement
-      scrub: 1,               // 1 seconde de « retard » : le mouvement glisse au lieu de suivre sec
+      start: "center center",
+      end: "+=250%",
+      scrub: 1,
       pin: true,
     },
   });
 
   traversee
-    // Le Chaperon traverse tout l'écran, en grandissant (elle s'approche de nous)
+    // immediateRender: false : on laisse la timeline d'entrée placer les éléments au départ
     .fromTo(".marcheur",
-      { x: -200, scale: 0.8 },
-      { x: () => foret.offsetWidth, scale: 1.6, ease: "none", duration: 1 }, 0)
+      { x: () => foret.offsetWidth * 0.3, scale: 1.1 },
+      { x: () => foret.offsetWidth, scale: 1.6, ease: "none", duration: 1, immediateRender: false }, 0)
     // Les arbres de l'avant-plan défilent beaucoup plus vite : effet de profondeur
-    .fromTo(".foret__arbres", { xPercent: 20 }, { xPercent: -45, ease: "none", duration: 1 }, 0)
+    .fromTo(".foret__arbres", { xPercent: 0 }, { xPercent: -45, ease: "none", duration: 1, immediateRender: false }, 0)
     // La forêt s'assombrit
     .fromTo(".foret__ombre", { opacity: 0 }, { opacity: 0.85, ease: "none", duration: 0.6 }, 0.2)
     // Les yeux s'allument, une paire à la fois, en rebondissant
@@ -85,8 +103,8 @@ function animerLoup() {
   const dessin = gsap.timeline({
     scrollTrigger: {
       trigger: ".loup",
-      start: "top 85%",
-      end: "bottom 35%",
+      start: "top 95%",     // le dessin commence dès que le loup apparaît...
+      end: "center 55%",    // ...et se termine quand il est au milieu de l'écran
       scrub: 1,
     },
   });
@@ -107,8 +125,8 @@ function animerChemins() {
   const course = gsap.timeline({
     scrollTrigger: {
       trigger: ".chemins",
-      start: "top 75%",
-      end: "bottom 30%",
+      start: "top 95%",
+      end: "center 55%",
       scrub: 1,
     },
   });
@@ -126,6 +144,18 @@ function animerChemins() {
 function animerMaison() {
   if (!document.querySelector("#porte")) return;
 
+  // 1. L'arrivée : la maison grossit pendant que la section monte dans l'écran
+  gsap.from(".maison svg", {
+    scale: 0.3, rotation: -8, opacity: 0, transformOrigin: "center bottom", ease: "none",
+    scrollTrigger: {
+      trigger: "#chez-la-mere-grand",
+      start: "top 90%",
+      end: "top top",
+      scrub: 1,
+    },
+  });
+
+  // 2. La section épinglée : la fumée, la lumière, la porte
   const maison = gsap.timeline({
     scrollTrigger: {
       trigger: "#chez-la-mere-grand",
@@ -137,8 +167,6 @@ function animerMaison() {
   });
 
   maison
-    // La maison arrive de loin et grossit
-    .from(".maison svg", { scale: 0.3, rotation: -8, opacity: 0, transformOrigin: "center bottom", duration: 0.3 })
     // La fumée monte et gonfle
     .from(".bouffee", { y: 60, scale: 0, opacity: 0, transformOrigin: "center", stagger: 0.06, duration: 0.2 })
     .to(".bouffee", { y: -120, scale: 2.5, opacity: 0, transformOrigin: "center", stagger: 0.06, duration: 0.3 })
