@@ -17,6 +17,7 @@
     Pas seulement le résultat final : **votre démarche, étape par étape**. Vous me présentez votre projet **à chaque étape**, au rythme du groupe. Si je constate qu'une étape a été sautée (un code généré d'un coup, sans planification ni compréhension), **je vous demanderai de la recommencer**. Pas de passe-droit.
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
+
 [:material-presentation-play: Présentation de lancement (PowerPoint)](../../assets/documents/Web5_integrateur-lancement.pptx){ .md-button }
 
 ## Mise en situation
