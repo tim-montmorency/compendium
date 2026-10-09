@@ -69,7 +69,7 @@ Placez-le dans le **premier clic** de la page, pas au chargement. Sans ça, rien
 
 - [ ] Chargez un vrai fichier audio avec `Tone.Player` et jouez-le au clic
 - [ ] Ajoutez un effet avec `Tone.Reverb` ou `Tone.Distortion` inséré dans la chaîne
-- [ ] Synchronisez une animation GSAP avec chaque note de la mélodie (cours 9)
+- [ ] Synchronisez une animation GSAP avec chaque note de la mélodie (cours 8)
 
 [STOP]
 

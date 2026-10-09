@@ -1,296 +1,334 @@
-# Cours 12 | Audio et vidéo par programmation
+# Cours 12 | Alpine.js et librairies bonus
 
 [STOP]
 
-<!-- **Savoirs :** #3 Contrôle audio et vidéo · #13 Classe JavaScript · #14 Classes sur mesure · #12 Repérage d'erreur (DevTools) · #15 Interactivité · #16 Visualisation via librairie (bonus) -->
+<!-- **Savoirs :** #1 Programmation fonctionnelle · #11 Sauvegarde côté client · #15 Interactivité · #18 Introduction à un cadriciel JavaScript · #16 Visualisation via librairie (bonus) -->
 
-*[CDN]: Content Delivery Network
+*[DOM]: Document Object Model
 *[npm]: Node Package Manager
-*[API]: Application Programming Interface
 
-![](./assets/images/js-banner.png){.w-100}
-
-Ce cours s'appelle « Web **audiovisuel** »&nbsp;: au cours 8, les médias ont été **optimisés**. Aujourd'hui, on les **contrôle par programmation** 🎬🔊, juste à temps pour le projet final.
+Deux parties aujourd'hui&nbsp;:
 
 <div class="grid grid-1-4" markdown>
-  ![](./assets/images/javascript_banner.png){.aspect-4-3 .w-100}
+  ![](./assets/images/alpinejs-banner.jpg){.aspect-4-3 .w-100}
 
-  :material-play-circle: **Audio et vidéo** - API native, classes JavaScript et Howler.js
+  :material-gesture-tap: **Alpine.js** - de l'interactivité directement dans le HTML
 </div>
 
 <div class="grid grid-1-4" markdown>
-  ![](./assets/images/tonejs-adsr.png){.aspect-4-3 .w-100}
+  ![](./assets/images/chartjs-type-bar.png){.aspect-4-3 .w-100}
 
-  :material-music: **Tone.js** - du son et de la musique
-</div>
-
-…et deux **bonus optionnels**&nbsp;: **Chart.js** (graphiques) et **Three.js** (3D).
-
----
-
-# Partie 1 - Contrôler les médias par programmation
-
-Les balises `<video>` et `<audio>` viennent avec des contrôles par défaut. Mais dès qu'on veut un **lecteur sur mesure** (boutons stylisés, barre de progression maison, effets sonores au clic), on passe par le JavaScript.
-
-## L'API native `<video>` / `<audio>`
-
-Tout élément média expose des **propriétés**, des **méthodes** et des **événements** qu'on manipule en JS.
-
-| Propriété | Rôle |
-| :--- | :--- |
-| `currentTime` | Position de lecture (en secondes) |
-| `duration` | Durée totale |
-| `volume` | Volume (0 à 1) |
-| `muted` | Sourdine (booléen) |
-| `paused` | En pause ? (booléen) |
-| `playbackRate` | Vitesse de lecture |
-
-| Méthode | Effet |
-| :--- | :--- |
-| `.play()` | Lance la lecture |
-| `.pause()` | Met en pause |
-| `.load()` | Recharge la source |
-
-| Événement | Se déclenche… |
-| :--- | :--- |
-| `play` / `pause` | À la lecture / pause |
-| `timeupdate` | À chaque avancée de lecture (pour une barre de progression) |
-| `ended` | À la fin |
-| `loadedmetadata` | Quand la durée est connue |
-
-```js title="Bouton lecture/pause maison"
-const video = document.querySelector("#film")
-const bouton = document.querySelector("#lecture")
-
-bouton.addEventListener("click", () => {
-  video.paused ? video.play() : video.pause()
-})
-
-// Barre de progression
-video.addEventListener("timeupdate", () => {
-  const pourcent = (video.currentTime / video.duration) * 100
-  document.querySelector("#barre").style.width = pourcent + "%"
-})
-```
-
-<!-- CODEPEN: lecteur vidéo maison (play/pause + barre de progression) -->
-
-## Petit détour : les classes JavaScript
-
-Les librairies (GSAP depuis le cours 9, Howler et Tone.js aujourd'hui) nous donnent des **objets** créés avec le mot-clé `new`. Trois notions suffisent pour s'y retrouver&nbsp;:
-
-- une **classe** est un *moule* (ex.&nbsp;: `Howl`)&nbsp;;
-- `new` fabrique une **instance** à partir du moule&nbsp;;
-- une **méthode** est une action de l'instance (ex.&nbsp;: `.play()`).
-
-```js
-const son = new Howl({ src: ["saut.mp3"] })  // une instance de la classe Howl
-son.play()                                    // une méthode de cette instance
-```
-
-!!! note "On les utilise plus qu'on les écrit"
-
-    À ce stade, l'important est de **savoir lire et utiliser** une classe fournie par une librairie, pas d'écrire les vôtres. Vous reconnaîtrez ce motif `new Quelquechose({...})` partout&nbsp;: Howler, Chart.js, Tone.js, GSAP…
-
-### Écrire sa propre classe (aperçu)
-
-Rien ne vous empêche d'écrire la vôtre. La structure minimale regroupe des **données** (dans le `constructor`) et des **méthodes** (des actions)&nbsp;:
-
-```js
-class Personnage {
-  constructor(nom, pv) {
-    this.nom = nom      // une propriété
-    this.pv = pv
-  }
-  saluer() {           // une méthode
-    console.log(`${this.nom} entre en scène !`)
-  }
-}
-
-const heros = new Personnage("Digger", 100)
-heros.saluer()   // "Digger entre en scène !"
-```
-
-!!! note "À garder simple"
-
-    Écrire ses propres classes devient utile quand on gère **plusieurs objets du même type**. Pour un site promotionnel, l'usage des classes **fournies par les librairies** suffit largement&nbsp;: retenez surtout comment les **lire et les instancier**.
-
-## Une librairie audio : Howler.js
-
-L'`<audio>` natif suffit pour lire un fichier, mais dès qu'on veut des **effets sonores** fiables (jeu, interactions), des **sprites audio** ou un contrôle multiplateforme, **[Howler.js](https://howlerjs.com/)** est la référence.
-
-=== ":material-flash: CDN"
-
-    ```html
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
-    ```
-
-=== ":simple-vite: npm"
-
-    ```bash
-    npm install howler
-    ```
-
-    ```js title="src/main.js"
-    import { Howl, Howler } from "howler"
-    ```
-
-```js title="Un son avec repli de format"
-const son = new Howl({
-  src: ["bruit.webm", "bruit.mp3"],  // le navigateur prend le 1er compatible
-  volume: 0.8,
-  loop: false
-})
-
-son.play()
-```
-
-| Méthode | Effet |
-| :--- | :--- |
-| `son.play()` / `son.pause()` / `son.stop()` | Contrôle de lecture |
-| `son.volume(0.5)` | Règle le volume de ce son |
-| `son.rate(1.5)` | Change la vitesse |
-| `Howler.volume(0.5)` | Volume **global** de tous les sons |
-| `Howler.mute(true)` | Coupe tout |
-
-!!! tip "Les sprites audio"
-
-    Comme les sprites d'image (cours 10), un **sprite audio** regroupe plusieurs sons dans un seul fichier - idéal pour les effets d'un jeu.
-
-    ```js
-    const fx = new Howl({
-      src: ["fx.webm"],
-      sprite: { saut: [0, 300], piece: [400, 150] }
-    })
-    fx.play("saut")
-    ```
-
-<!-- CODEPEN: effets sonores au clic avec Howler -->
-
-### Autres librairies (survol)
-
-- **[Video.js](https://videojs.com/)** - un lecteur **vidéo** entièrement habillable (thèmes, sous-titres, qualité).
-
-## Déboguer : les DevTools
-
-Quand un média ne réagit pas, ouvrez les **DevTools** (++f12++)&nbsp;:
-
-- la **Console** affiche les erreurs et vos `console.log(...)`&nbsp;;
-- l'onglet **Réseau** montre si le fichier média se charge (ou renvoie une erreur 404)&nbsp;;
-- un **point d'arrêt** (_breakpoint_) met le code en pause pour l'inspecter ligne par ligne.
-
-```js
-console.log("durée :", video.duration)   // vérifier une valeur au vol
-```
-
-## Exercice - Médias
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/javascript_banner.png){.aspect-4-3}
-
-  <small>Exercice - Médias</small><br>
-  **[Salle de projection](./exercices/medias-salle-projection.md){.stretched-link .back}**
+  :material-star-plus: **Bonus** - Chart.js (graphiques) et Three.js (3D)
 </div>
 
 ---
 
-# Partie 2 - Tone.js
+# Partie 1 - Alpine.js
 
-![](./assets/images/tonejs-adsr.png){data-zoom-image .w-75}
 
-**[Tone.js](https://tonejs.github.io/)** est un cadre audio pour **créer du son et de la musique** dans le navigateur. Pour un site de jeu, c'est parfait&nbsp;: une ambiance sonore, un thème musical, ou des effets aux interactions.
+![](./assets/images/alpinejs-banner.jpg){.w-100}
+
+[Alpine.js](https://alpinejs.dev/) est un petit framework JavaScript qui permet d'intégrer des comportements réactifs directement dans le HTML. Son objectif est de rendre les tâches courantes en JavaScript plus simple à gérer.
+
+## Composantes Web
+
+![](./assets/images/web-components.png){.w-100}
+
+Règle général, un site Web se segmente en plusieurs partie. La première est la structure, celle qui défini l'emplacemennt de l'entête, de la navigation, du contenu principal, etc. et la seconde en plusieur c'est la façon dont on affiche l'information. Quand un type d'affichage revient plusieurs fois à travers les pages, on tente d'éviter de copier coller sa structure à chaque page. On fait alors des modèles réutilisables nommées composantes (_components_).
+
+
+Une page Web se construit à partir de blocs : un en-tête, une navigation, une liste d'articles, une carte de produit, un pied de page. 
+
+Plusieurs de ces blocs reviennent d'une page à l'autre, souvent avec la même apparence mais un contenu différent. Plutôt que d'en recopier le code à chaque endroit, on en fait un modèle réutilisable auquel on fournit des données. C'est ce qu'on appelle une composante (_component_).
+
+La page devient alors un assemblage de composantes plutôt qu'un long document HTML.
+
+[Exemples de composantes Web](https://ui.shadcn.com/docs/components){ .md-button .md-button--primary }
+
+
+## Cadriciel ou librairie ?
+
+Depuis le début de la session, vous utilisez des **cadriciels** (Tailwind, DaisyUI). Alpine en est un aussi, mais côté JavaScript. En quoi est-ce différent d'une simple **librairie**&nbsp;?
+
+| | Librairie | Cadriciel (_framework_) |
+| :--- | :--- | :--- |
+| **Qui appelle qui** | *Vous* appelez son code quand vous voulez | *Lui* appelle votre code selon ses règles |
+| **Analogie** | Une boîte à outils | Un plan de maison |
+| **Exemple** | `Math.random()`, `fetch()` (on les appelle) | Tailwind, DaisyUI, Alpine |
+
 
 ## Installation
 
-=== ":material-flash: CDN (rapide)"
+Alpine s'installe comme les autres paquets vus depuis le cours 3, dans un projet **Vite**.
 
-    ```html
-    <script src="https://unpkg.com/tone"></script>
-    ```
+```bash
+npm install alpinejs
+```
 
-=== ":simple-vite: npm (projet Vite)"
+Puis, dans le fichier JavaScript principal du projet :
 
-    ```bash
-    npm install tone
-    ```
+```js title="src/main.js"
+import Alpine from 'alpinejs'
 
-    ```js title="src/main.js"
-    import * as Tone from "tone"
-    ```
+window.Alpine = Alpine
+Alpine.start()
+```
 
-!!! danger "Le son exige un clic d'abord"
+## Premier composant
 
-    Les navigateurs **bloquent** tout son tant que l'utilisateur n'a pas interagi avec la page. Il faut donc appeler **`Tone.start()`** depuis un événement déclenché par l'utilisateur (un clic), sinon&nbsp;: silence.
+Quatre directives suffisent pour commencer&nbsp;:
+
+| Directive | Rôle |
+| :--- | :--- |
+| `x-data` | Déclare un composant et son **état** (un objet JavaScript) |
+| `x-text` | Affiche une valeur de l'état dans l'élément |
+| `@click` | Exécute une expression au clic |
+| `x-show` | Affiche l'élément seulement si l'expression est vraie |
+
+```html
+<div x-data="{ compteur: 0 }">
+  <button @click="compteur++">+1</button>
+  <button @click="compteur = 0">Remettre à zéro</button>
+
+  <p>Valeur : <span x-text="compteur"></span></p>
+  <p x-show="compteur >= 10">Dix clics, bravo 🎉</p>
+</div>
+```
+
+1. `x-data` crée l'état&nbsp;: une variable `compteur` qui vaut `0`.
+2. Chaque `@click` modifie cette variable avec du **JavaScript ordinaire** (`compteur++`, `compteur = 0`).
+3. `x-text` et `x-show` relisent la variable et se mettent à jour **tout seuls**. Aucun `querySelector`, aucun `addEventListener`.
+
+!!! tip "Tout se passe à l'intérieur du `x-data`"
+
+    Les directives ne voient que l'état de l'élément qui porte le `x-data` et de ses enfants. Un bouton placé en dehors de la `<div>` ne connaît pas `compteur`.
+
+## Les directives essentielles
+
+Une **directive** est un attribut HTML qui commence par `x-`. En voici le tableau de référence&nbsp;:
+
+| Directive | Rôle |
+| :--- | :--- |
+| [`x-data`](https://alpinejs.dev/directives/data) | Déclare un composant et son état (objet) |
+| [`x-text`](https://alpinejs.dev/directives/text) | Insère du **texte** dans l'élément |
+| [`x-html`](https://alpinejs.dev/directives/html) | Insère du **HTML** dans l'élément |
+| [`x-bind`](https://alpinejs.dev/directives/bind) (`:`) | Lie un **attribut** à une expression |
+| [`x-on`](https://alpinejs.dev/directives/on) (`@`) | Écoute un **événement** |
+| [`x-model`](https://alpinejs.dev/directives/model) | Liaison **bidirectionnelle** sur un champ |
+| [`x-show`](https://alpinejs.dev/directives/show) | Affiche / masque (via `display`) |
+| [`x-if`](https://alpinejs.dev/directives/if) | Ajoute / retire du DOM (sur `<template>`) |
+| [`x-for`](https://alpinejs.dev/directives/for) | Boucle sur une liste (sur `<template>`) |
+| [`x-init`](https://alpinejs.dev/directives/init) | Exécute du code à l'initialisation |
+| [`x-transition`](https://alpinejs.dev/directives/transition) | Anime l'apparition / la disparition |
+| [`x-ref`](https://alpinejs.dev/directives/ref) | Nomme un élément pour y accéder via `$refs` |
+| [`x-cloak`](https://alpinejs.dev/directives/cloak) | Cache l'élément tant qu'Alpine n'est pas prêt |
+
+### `x-text` et `x-html`
+
+Affichent une valeur dans l'élément.
+
+```html
+<div x-data="{ nom: 'Digger' }">
+  <p>Bonjour <span x-text="nom"></span> !</p>
+</div>
+```
+
+!!! warning "`x-html` = danger potentiel"
+
+    `x-html` injecte du HTML brut. Ne l'utilisez **jamais** avec du contenu venant de l'utilisateur&nbsp;: c'est une porte d'entrée aux attaques XSS. Dans le doute, `x-text`.
+
+### `x-on` (`@`) - les événements
+
+Écoute un événement et exécute une expression. `x-on:click` s'écrit aussi `@click` (raccourci).
+
+```html
+<div x-data="{ compteur: 0 }">
+  <button @click="compteur++">+1</button>
+  <span x-text="compteur"></span>
+</div>
+```
+
+On peut écouter n'importe quel événement (`@input`, `@submit`, `@keyup`…) et ajouter des **modificateurs**&nbsp;:
+
+| Modificateur | Effet |
+| :--- | :--- |
+| `@submit.prevent` | Annule le comportement par défaut (`preventDefault`) |
+| `@click.outside` | Se déclenche au clic **hors** de l'élément |
+| `@keyup.enter` | Uniquement sur la touche Entrée |
+| `@click.once` | Une seule fois |
+
+### `x-model` - la liaison bidirectionnelle
+
+Synchronise un champ de formulaire avec l'état, dans les **deux sens**&nbsp;: on tape, l'état change; l'état change, le champ suit.
+
+```html
+<div x-data="{ message: '' }">
+  <input type="text" x-model="message" class="input" placeholder="Écrivez…">
+  <p>Aperçu en direct : <span x-text="message"></span></p>
+  <p x-text="message.length + ' caractères'"></p>
+</div>
+```
+
+<!-- CODEPEN: x-model, aperçu en direct + compteur de caractères -->
+
+### `x-show` ou `x-if` ?
+
+Les deux gèrent l'affichage conditionnel, mais **différemment** - une distinction classique en entrevue 😉.
+
+| | `x-show` | `x-if` |
+| :--- | :--- | :--- |
+| Mécanisme | Bascule `display: none` | Ajoute/retire du DOM |
+| L'élément existe dans le DOM | Toujours | Seulement si vrai |
+| S'utilise sur | N'importe quel élément | Une balise `<template>` |
+| Idéal pour | Ce qu'on montre/cache souvent | Ce qui est lourd ou rarement affiché |
+
+```html title="x-if exige un <template>"
+<div x-data="{ connecte: false }">
+  <template x-if="connecte">
+    <p>Bienvenue !</p>
+  </template>
+</div>
+```
+
+### `x-bind` (`:`) - lier un attribut
+
+Rend n'importe quel attribut dynamique. `x-bind:class` s'écrit `:class`.
+
+```html
+<div x-data="{ actif: true }">
+  <button :class="actif ? 'btn btn-primary' : 'btn btn-ghost'">
+    État
+  </button>
+</div>
+```
+
+!!! tip "Combo avec DaisyUI"
+
+    `:class` est parfait pour basculer les **classes sémantiques** DaisyUI (`btn-primary`, `badge-error`…) selon l'état. C'est là qu'Alpine et DaisyUI brillent ensemble.
+
+### `x-for` - répéter une liste
+
+Boucle sur un tableau, toujours sur une balise `<template>` avec une clé `:key`.
+
+```html
+<ul x-data="{ fruits: ['Pomme', 'Kiwi', 'Mangue'] }">
+  <template x-for="fruit in fruits" :key="fruit">
+    <li x-text="fruit"></li>
+  </template>
+</ul>
+```
+
+## Les propriétés magiques
+
+En plus des directives, Alpine offre des **magies** (préfixe `$`) accessibles dans les expressions.
+
+| Magie | Rôle |
+| :--- | :--- |
+| [`$el`](https://alpinejs.dev/magics/el) | L'élément DOM courant |
+| [`$refs`](https://alpinejs.dev/magics/refs) | Les éléments marqués `x-ref` |
+| [`$event`](https://alpinejs.dev/directives/on#accessing-the-event-object) | L'objet événement natif |
+| [`$watch`](https://alpinejs.dev/magics/watch) | Observe une propriété et réagit |
+| [`$store`](https://alpinejs.dev/magics/store) | Accès à un état **global** partagé |
+| [`$dispatch`](https://alpinejs.dev/magics/dispatch) | Émet un événement personnalisé |
+| [`$persist`](https://alpinejs.dev/plugins/persist) | Sauvegarde une valeur dans `localStorage` (plugin) |
+
+## Sauvegarder l'état : `localStorage` et `$persist`
+
+Voici le chaînon manquant du cours 4&nbsp;: le bouton `theme-controller` changeait le thème, mais **oubliait** le choix au rechargement. Pour s'en souvenir, il faut écrire dans le **`localStorage`** du navigateur.
+
+Le `localStorage`, c'est un petit espace de stockage clé/valeur qui **survit** aux rechargements et à la fermeture de l'onglet.
+
+=== "À la main (JavaScript pur)"
 
     ```js
-    document.querySelector("#demarrer").addEventListener("click", async () => {
-      await Tone.start()   // débloque l'audio
-      // … le son peut jouer maintenant …
-    })
+    // Écrire
+    localStorage.setItem('theme', 'dark')
+    // Lire
+    const theme = localStorage.getItem('theme')
     ```
 
-## Jouer une note
+=== "Avec le plugin $persist (Alpine)"
 
-L'objet de base est le **synthétiseur**. On le crée, on le branche aux haut-parleurs avec `.toDestination()`, puis on joue une note.
+    ```html
+    <div x-data="{ compteur: $persist(0) }">
+      <button @click="compteur++" x-text="compteur"></button>
+    </div>
+    ```
 
-```js
-const synth = new Tone.Synth().toDestination()
+    Rechargez la page&nbsp;: le compteur garde sa valeur 🎉. Alpine s'occupe de tout.
 
-// note "Do 4", tenue pendant une croche ("8n")
-synth.triggerAttackRelease("C4", "8n")
+### Installer le plugin Persist
+
+```bash
+npm install @alpinejs/persist
 ```
 
-| Argument | Signifie |
-| :--- | :--- |
-| `"C4"` | La note (nom + octave), ou une fréquence en Hz (`440`) |
-| `"8n"` | La durée&nbsp;: `"4n"` = noire, `"8n"` = croche, `"1m"` = une mesure |
+```js title="src/main.js"
+import Alpine from 'alpinejs'
+import persist from '@alpinejs/persist'
 
-## Enchaîner des notes
-
-Le 3ᵉ argument planifie **quand** jouer, en secondes à partir de maintenant (`Tone.now()`).
-
-```js
-const synth = new Tone.Synth().toDestination()
-const t = Tone.now()
-
-synth.triggerAttackRelease("C4", "8n", t)
-synth.triggerAttackRelease("E4", "8n", t + 0.5)
-synth.triggerAttackRelease("G4", "8n", t + 1)
+Alpine.plugin(persist)
+window.Alpine = Alpine
+Alpine.start()
 ```
 
-## Jouer un fichier audio
 
-Pour une **musique** ou un effet à partir d'un fichier, on utilise `Tone.Player`.
+!!! tip "Nommer la clé de stockage"
 
-```js
-const musique = new Tone.Player({
-  url: "./assets/audio/theme.mp3",
-  loop: true,
-  autostart: false
-}).toDestination()
+    Par défaut, la clé du `localStorage` reprend le nom de la variable. Pour éviter les collisions, on la nomme avec `.as()`&nbsp;:
 
-// après Tone.start() :
-musique.start()
+    ```html
+    <div x-data="{ compteur: $persist(0).as('digger-compteur') }"></div>
+    ```
+
+### Exemple complet : un sélecteur de thème persistant
+
+On réunit tout&nbsp;: état (`x-data`), liaison d'attribut (`:data-theme`), événement (`@click`) et persistance (`$persist`). Le thème DaisyUI choisi est **retenu** d'une visite à l'autre.
+
+```html
+<html x-data="{ theme: $persist('light') }" :data-theme="theme">
+  <body>
+    <button class="btn" @click="theme = (theme === 'light' ? 'dark' : 'light')">
+      Thème : <span x-text="theme"></span>
+    </button>
+  </body>
+</html>
 ```
 
-!!! tip "Idées pour votre site de jeu"
+<!-- CODEPEN: Sélecteur de thème DaisyUI persistant avec Alpine ($persist) -->
 
-    Un thème musical en boucle dans le hero, un « bip » à chaque survol de bouton, un son de validation à l'envoi du formulaire… petit détail, grande immersion 🎧.
+!!! success "Ce qu'on vient de faire"
 
-<!-- CODEPEN: clavier de quelques notes + bouton Tone.start() -->
+    On a couvert l'**interactivité** (savoir #15), l'**introduction à un cadriciel JS** (savoir #18) et la **sauvegarde côté client** (savoir #11) - le tout en restant proche du HTML. Exactement ce que le cours exige, sans la lourdeur d'un gros _framework_.
 
-## Exercice - Tone.js
+## Exercices - Alpine
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/tonejs-adsr.png){.aspect-4-3}
+  ![](./assets/images/alpinejs-banner.jpg){.aspect-4-3}
 
-  <small>Exercice - Tone.js</small><br>
-  **[Boîte à musique](./exercices/tonejs-boite-a-musique.md){.stretched-link .back}**
+  <small>Exercice - Alpine</small><br>
+  **[Pot à biscuits](./exercices/alpine-pot-biscuits.md){.stretched-link .back}**
 </div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/alpinejs-banner.jpg){.aspect-4-3}
+
+  <small>Exercice - Alpine</small><br>
+  **[Jour et nuit](./exercices/alpine-jour-nuit.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/alpinejs-banner.jpg){.aspect-4-3}
+
+  <small>Exercice - Alpine</small><br>
+  **[Poste restante](./exercices/alpine-poste-restante.md){.stretched-link .back}**
+</div>
+
+*Pot à biscuits* est un exercice de réchauffement&nbsp;; *Jour et nuit* et *Poste restante* font partie de la remise *Exercices 02*.
 
 ---
 
-# Partie 3 - Chart.js (bonus, optionnel)
+# Partie 2 - Chart.js (bonus, optionnel)
 
 !!! info "Pour les curieux - non obligatoire"
 
@@ -447,7 +485,7 @@ options: {
 
 ---
 
-# Partie 4 - Three.js (bonus, optionnel)
+# Partie 3 - Three.js (bonus, optionnel)
 
 !!! info "Pour les curieux - non obligatoire"
 
@@ -497,3 +535,10 @@ Ce code affiche un **cube vert qui tourne**. À partir de là, on peut charger d
 !!! success "Ce qu'il faut retenir"
 
     Chaque librairie suit le même rituel&nbsp;: **installer → préparer un conteneur (`<canvas>` ou `<div>`) → appeler la librairie avec une configuration**. Une fois ce réflexe acquis, vous pouvez apprivoiser **n'importe quelle** nouvelle librairie à partir de sa documentation. C'est l'autonomie visée par le cours 🎓.
+
+
+---
+
+## Remise Exercices 02
+
+[Énoncé de la remise Exercices 02](./devoir/exercices-02.md){ .md-button .md-button--primary }

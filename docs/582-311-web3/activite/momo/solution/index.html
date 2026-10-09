@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momo</title>
+  </head>
+  <body>
+    <!-- Structure « Texte sur image » (cours 3), avec une vidéo à la place de l'image -->
+    <section class="relative min-h-dvh grid place-items-center overflow-hidden">
+      <video autoplay muted loop playsinline class="absolute inset-0 size-full object-cover">
+        <source src="./src/assets/videos/fond-momo.webm" type="video/webm" />
+        <source src="./src/assets/videos/fond-momo.mp4" type="video/mp4" />
+      </video>
+
+      <div class="absolute inset-0 bg-black/50"></div>
+
+      <div class="relative text-center text-white px-4">
+        <img src="./src/assets/images/logo-momo.png" alt="Logo du Collège Montmorency" width="160" class="mx-auto mb-6 w-40" />
+        <h1 class="text-4xl md:text-6xl font-bold"><span id="titre"></span></h1>
+      </div>
+    </section>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

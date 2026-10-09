@@ -19,9 +19,9 @@ Vous reprenez **le même dépôt** qu'au bloc 1 - `web3-exercices` - et vous y a
 
 Rien dans la mécanique. Trois choses dans le contenu&nbsp;:
 
-* Les exercices des cours 8 et 12 sont des **projets locaux** - ils vivent dans des dossiers du dépôt, pas sur CodePen.
-* Les exercices GSAP des cours 9 à 11 sont des **CodePen** - donc **forkés, sauvegardés et publics**.
-* L'exercice *Cure minceur* (cours 8) demande en plus un fichier `CREDITS.md` - le même réflexe que pour votre projet final.
+* Les exercices des cours 7, 11 et 12 sont des **projets locaux** - ils vivent dans des dossiers du dépôt, pas sur CodePen.
+* Les exercices GSAP des cours 8 à 10 sont des **CodePen** - donc **forkés, sauvegardés et publics**.
+* L'exercice *Momo* (cours 7) se fait dans un devoir Classroom 50&nbsp;: on y indique simplement l'adresse de son répertoire.
 
 !!! danger "Les CodePen doivent être forkés"
 
@@ -36,17 +36,17 @@ Ajoutez ce tableau **sous** celui du bloc 1, dans le `README.md` de `web3-exerci
 
 | #  | Exercice | Cours | Type | Lien / dossier | Auto |
 |----|----------|:-----:|------|----------------|:----:|
-| 7  | Jour et nuit | 8 | Dossier | `07-jour-et-nuit/` | ✅ |
-| 8  | Poste restante | 8 | Dossier | `08-poste-restante/` | ✅ |
-| 9  | Cure minceur | 8 | Dossier | `09-cure-minceur/` | 🟡 |
-| 10 | Un, deux et trois | 9 | CodePen | https://codepen.io/… | ✅ |
-| 11 | Automobile jaune | 9 | CodePen | https://codepen.io/… | ✅ |
-| 12 | Animation en séquence | 9 | CodePen | https://codepen.io/… | 🟡 |
-| 13 | Scène animée réactive | 10 | CodePen | https://codepen.io/… | 🟡 |
-| 14 | Automobile turquoise | 11 | CodePen | https://codepen.io/… | ✅ |
-| 15 | Labyrinthe | 11 | CodePen | https://codepen.io/… | ❌ |
-| 16 | Salle de projection | 12 | Dossier | `16-salle-projection/` | ✅ |
-| 17 | Boîte à musique | 12 | Dossier | `17-boite-a-musique/` | ✅ |
+| 7  | Momo | 7 | Classroom | https://github.com/… | 🟡 |
+| 8  | Un, deux et trois | 8 | CodePen | https://codepen.io/… | ✅ |
+| 9  | Automobile jaune | 8 | CodePen | https://codepen.io/… | ✅ |
+| 10 | Animation en séquence | 8 | CodePen | https://codepen.io/… | 🟡 |
+| 11 | Scène animée réactive | 9 | CodePen | https://codepen.io/… | 🟡 |
+| 12 | Automobile turquoise | 10 | CodePen | https://codepen.io/… | ✅ |
+| 13 | Labyrinthe | 10 | CodePen | https://codepen.io/… | ❌ |
+| 14 | Salle de projection | 11 | Dossier | `14-salle-projection/` | ✅ |
+| 15 | Boîte à musique | 11 | Dossier | `15-boite-a-musique/` | ✅ |
+| 16 | Jour et nuit | 12 | Dossier | `16-jour-et-nuit/` | ✅ |
+| 17 | Poste restante | 12 | Dossier | `17-poste-restante/` | ✅ |
 ```
 
 La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réussi avec de l'aide, ❌ pas réussi. Elle n'est **pas notée**&nbsp;: remplissez-la honnêtement, c'est votre propre tableau de bord avant le projet final.
@@ -60,7 +60,7 @@ La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réuss
 - [ ] Ouvrez votre dépôt en **navigation privée**&nbsp;: tout doit être visible
 - [ ] Cliquez sur **chacun** de vos liens CodePen&nbsp;: aucun ne doit tomber sur une page 404
 - [ ] Pour chaque dossier de projet, vérifiez qu'un `npm install && npm run dev` suffirait à le faire fonctionner
-- [ ] Pour *Cure minceur*, vérifiez que `CREDITS.md` est présent et rempli
+- [ ] Pour *Momo*, vérifiez que les médias d'origine ont été supprimés et que `npm run build` fonctionne
 
 !!! info "Les preuves de type capture"
 
@@ -70,17 +70,17 @@ La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réuss
 
 | # | Exercice | Cours | Points |
 |:-:|---|:-:|:-:|
-| 7 | **Jour et nuit** — thème Alpine persistant via `$persist` | 8 | 2 |
-| 8 | **Poste restante** — `x-model`, `x-text`, `x-for` et liste dynamique | 8 | 2 |
-| 9 | **Cure minceur** — médias optimisés, classés, nommés, `CREDITS.md` | 8 | 2 |
-| 10 | **Un, deux et trois** — trois effets de parallaxe | 9 | 2 |
-| 11 | **Automobile jaune** — premier tween `gsap.to()` | 9 | 2 |
-| 12 | **Animation en séquence** — timeline avec contrôles de lecture | 9 | 2 |
-| 13 | **Scène animée réactive** — ScrollTrigger et `matchMedia()` | 10 | 2 |
-| 14 | **Automobile turquoise** — boucles infinies, roues synchronisées | 11 | 2 |
-| 15 | **Labyrinthe** — MotionPath le long d'un tracé SVG | 11 | 2 |
-| 16 | **Salle de projection** — lecteur maison en classe JS + Howler | 12 | 2 |
-| 17 | **Boîte à musique** — mélodie et effets sonores Tone.js | 12 | 2 |
+| 7 | **Momo** — projet Vite + Tailwind, vidéo et logo optimisés, Typed.js | 7 | 2 |
+| 8 | **Un, deux et trois** — trois effets de parallaxe | 8 | 2 |
+| 9 | **Automobile jaune** — premier tween `gsap.to()` | 8 | 2 |
+| 10 | **Animation en séquence** — timeline avec contrôles de lecture | 8 | 2 |
+| 11 | **Scène animée réactive** — ScrollTrigger et `matchMedia()` | 9 | 2 |
+| 12 | **Automobile turquoise** — boucles infinies, roues synchronisées | 10 | 2 |
+| 13 | **Labyrinthe** — MotionPath le long d'un tracé SVG | 10 | 2 |
+| 14 | **Salle de projection** — lecteur maison en classe JS + Howler | 11 | 2 |
+| 15 | **Boîte à musique** — mélodie et effets sonores Tone.js | 11 | 2 |
+| 16 | **Jour et nuit** — thème Alpine persistant via `$persist` | 12 | 2 |
+| 17 | **Poste restante** — `x-model`, `x-text`, `x-for` et liste dynamique | 12 | 2 |
 | — | **Qualité générale** — indentation, nomenclature, arborescence, `.gitignore`, README complet | — | 2 |
 | | | **Total** | **/24** |
 
