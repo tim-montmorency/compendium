@@ -8,7 +8,7 @@
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. En **équipe de 2**, vous concevez et codez un **récit défilant** (*scrollytelling*) : une histoire en chapitres qui se déroule et s'anime au rythme du défilement. Thème au choix.
-2. Le travail se fait en équipe, mais **la note est surtout individuelle** (40 % sur 60 %) : chacun est responsable de ses chapitres, de son média animable, de sa QA et de sa défense.
+2. Le travail se fait en équipe, mais **la note est surtout individuelle** (40&nbsp;% sur 60&nbsp;%) : chacun est responsable de ses chapitres, de son média animable, de sa QA et de sa défense.
 3. **Première étape : le cahier de charges**, à remettre **au début du cours du ven. 23 oct.** Vous avez tout ce qu'il faut pour le faire dès aujourd'hui.
 
 </div>
@@ -130,7 +130,7 @@ L'IA reste **permise**, aux mêmes conditions qu'au portfolio : **documentée** 
 !!! danger "Le code que vous ne comprenez pas se voit à la défense"
     Le 9 décembre, en privé, vous devrez montrer, expliquer et modifier en direct le code de **vos** zones, avec des demandes pigées au hasard. Usage de l'IA non documenté : plagiat.
 
-## Évaluation : 60 % de la note finale
+## Évaluation : 60&nbsp;% de la note finale
 
 | Volet | % | Type | Quand |
 |---|---|---|---|
