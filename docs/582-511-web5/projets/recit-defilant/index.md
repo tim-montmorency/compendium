@@ -46,7 +46,7 @@ Un récit sur un thème de votre choix, par exemple :
 
 | Élément | Exigence |
 |---|---|
-| **Chapitres** | 4 à 6 chapitres, environ 100 à 250 mots chacun. Au moins 2 chapitres par personne. |
+| **Chapitres** | 6 à 8 chapitres, environ 100 à 250 mots chacun. Au moins 3 chapitres par personne. |
 | **Données** | Les chapitres et leurs médias sont chargés avec `fetch()` depuis un fichier JSON. |
 | **Dataviz** | Au moins un `fetch()` vers une **API externe gratuite**, pour un moment de visualisation de données ou un élément « vivant ». |
 | **Animations** | Au moins une animation de chaque technique : **CSS au défilement** (`animation-timeline`), **GSAP + ScrollTrigger**, et un déclencheur **IntersectionObserver**. |
@@ -64,7 +64,7 @@ Elles existent pour que le projet reste faisable en 8 semaines, à deux.
 - **Médias légers** : images en WebP, vidéos de 30 secondes au plus (ou hébergées sur YouTube ou Vimeo), **10 Mo au plus** pour tout le récit.
 - **Animer seulement `transform` et `opacity`** : ce sont les propriétés que le navigateur anime sans ralentir la page.
 
-Mieux vaut 4 chapitres soignés que 6 chapitres bâclés.
+Mieux vaut 6 chapitres soignés que 8 chapitres bâclés.
 
 ### Un média animable par personne
 

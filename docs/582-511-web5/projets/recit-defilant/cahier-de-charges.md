@@ -16,7 +16,7 @@
 
 ## Comment s'y prendre
 
-Vous avez deux semaines, avec un cours en chemin : le **mer. 21 oct.**, arrivez avec votre concept et vos chapitres (étapes 1 et 2); on avance ensemble le storyboard et la matrice. Voici un ordre qui fonctionne :
+Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec votre concept et vos chapitres (étapes 1 et 2); on avance ensemble le storyboard et la matrice. Voici un ordre qui fonctionne :
 
 1. **Le thème et le concept** (section 1). Discutez-en à deux jusqu'à pouvoir le résumer en une phrase.
 2. **Le découpage en chapitres** (section 3) : ce que chaque chapitre raconte, avant de penser aux animations.
@@ -74,7 +74,7 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 
 ## 3. Les chapitres
 
-4 à 6 chapitres, environ 100 à 250 mots chacun. Au plus 1 animation signature par chapitre, et au plus 2 sections épinglées dans tout le récit.
+6 à 8 chapitres, environ 100 à 250 mots chacun. Au plus 1 animation signature par chapitre, et au plus 2 sections épinglées dans tout le récit.
 
 | # | Titre | Ce que le chapitre raconte | Animation signature | Technique | Médias | Responsable |
 |---|---|---|---|---|---|---|
@@ -82,6 +82,10 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 | 2 | | | | | | |
 | 3 | | | | | | |
 | 4 | | | | | | |
+| 5 | | | | | | |
+| 6 | | | | | | |
+| 7 | | | | | | |
+| 8 | | | | | | |
 
 Vérification : chaque technique (CSS au défilement, GSAP + ScrollTrigger, IntersectionObserver) apparaît au moins une fois.
 
@@ -160,7 +164,7 @@ Médias animables choisis :
 ## Avant de remettre
 
 - [ ] Toutes les sections sont remplies : aucun crochet ne reste.
-- [ ] Chaque personne a au moins 2 chapitres et un média animable dans la matrice.
+- [ ] Chaque personne a au moins 3 chapitres et un média animable dans la matrice.
 - [ ] Chaque technique d'animation apparaît au moins une fois dans le tableau des chapitres.
 - [ ] L'API de la dataviz a été **testée** dans la console.
 - [ ] Le lien Figma fonctionne, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`.

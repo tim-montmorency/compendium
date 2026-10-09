@@ -33,29 +33,47 @@
     "titre": "Dans la forêt",
     "type": "foret",
     "texte": [
-      "Le Petit Chaperon rouge part aussitôt. En passant dans le bois, elle ne voit pas qu'on l'observe.",
-      "Entre les arbres, deux yeux la suivent."
+      "Le Petit Chaperon rouge part aussitôt. En passant dans le bois, elle ne voit pas que la forêt s'assombrit.",
+      "Entre les arbres, des yeux la suivent."
     ],
     "medias": [
-      { "type": "spritesheet", "src": "assets/images/chaperon-marche.webp", "images": 8, "alt": "Le Petit Chaperon rouge marche, son panier à la main" }
+      { "type": "spritesheet", "src": "assets/images/chaperon-marche.webp", "images": 8, "alt": "Le Petit Chaperon rouge marche, son panier à la main" },
+      { "type": "calque", "src": "assets/images/foret-avant.svg", "alt": "" }
+    ],
+    "responsable": "Personne B"
+  },
+  {
+    "id": "la-rencontre",
+    "numero": 4,
+    "titre": "La rencontre",
+    "type": "loup",
+    "texte": [
+      "Au détour d'un sentier, elle croise compère le Loup. Il a bien envie de la manger, mais il n'ose pas : des bûcherons travaillent tout près.",
+      "« Où allez-vous donc, ma belle? » demande-t-il, de sa voix la plus douce."
+    ],
+    "medias": [
+      { "type": "svg", "src": "assets/images/loup.svg", "alt": "Le loup, dessiné trait par trait" }
     ],
     "responsable": "Personne B"
   },
   {
     "id": "deux-chemins",
-    "numero": 4,
+    "numero": 5,
     "titre": "Deux chemins",
     "type": "dataviz",
     "texte": [
-      "Le loup lui demande où elle va. « Je vais chez ma mère-grand. » Le loup prend le chemin le plus court; elle prend le plus long.",
+      "« Je vais chez ma mère-grand. » Le loup prend le chemin le plus court; elle prend le plus long, en cueillant des noisettes.",
       "Et le jour, lui, ne l'attend pas."
+    ],
+    "medias": [
+      { "type": "svg", "src": "assets/images/chemins.svg", "alt": "Les deux chemins vers la maison de la mère-grand" }
     ],
     "lieu": { "nom": "la forêt de Fontainebleau", "latitude": 48.40, "longitude": 2.70, "fuseau": "Europe/Paris" },
     "responsable": "Personne B"
   },
   {
     "id": "chez-la-mere-grand",
-    "numero": 5,
+    "numero": 6,
     "titre": "Chez la mère-grand",
     "type": "maison",
     "texte": [
@@ -68,11 +86,28 @@
     "responsable": "Personne A"
   },
   {
-    "id": "la-morale",
-    "numero": 6,
-    "titre": "La morale",
-    "type": "texte",
+    "id": "grandes-dents",
+    "numero": 7,
+    "titre": "Que vous avez de grandes dents",
+    "type": "dialogue",
     "texte": [
+      "Quand le Petit Chaperon rouge arrive enfin, quelqu'un l'attend dans le lit de la mère-grand."
+    ],
+    "repliques": [
+      { "question": "Ma mère-grand, que vous avez de grands bras!", "reponse": "C'est pour mieux t'embrasser, ma fille." },
+      { "question": "Ma mère-grand, que vous avez de grandes oreilles!", "reponse": "C'est pour mieux écouter, mon enfant." },
+      { "question": "Ma mère-grand, que vous avez de grands yeux!", "reponse": "C'est pour mieux voir, mon enfant." },
+      { "question": "Ma mère-grand, que vous avez de grandes dents!", "reponse": "C'est pour te manger!" }
+    ],
+    "responsable": "Personne A"
+  },
+  {
+    "id": "la-morale",
+    "numero": 8,
+    "titre": "La morale",
+    "type": "morale",
+    "texte": [
+      "Et en disant ces mots, le méchant loup se jette sur le Petit Chaperon rouge, et la mange.",
       "Charles Perrault termine son conte, en 1697, par une mise en garde : les loups les plus dangereux ne sont pas toujours ceux qui en ont l'air.",
       "Méfiez-vous des inconnus trop aimables."
     ],

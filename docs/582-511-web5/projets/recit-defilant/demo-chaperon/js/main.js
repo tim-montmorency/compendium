@@ -42,21 +42,41 @@ function creerMedia(chapitre) {
     }
     case "foret": {
       const sprite = chapitre.medias[0];
+      const arbres = chapitre.medias[1];
       return `
         <div class="foret">
-          <div class="yeux" aria-hidden="true"><span></span><span></span></div>
+          <div class="foret__ombre" aria-hidden="true"></div>
+          <div class="yeux yeux--1" aria-hidden="true"><span></span><span></span></div>
+          <div class="yeux yeux--2" aria-hidden="true"><span></span><span></span></div>
+          <div class="yeux yeux--3" aria-hidden="true"><span></span><span></span></div>
           <div class="marcheur" role="img" aria-label="${sprite.alt}"></div>
+          <img class="foret__arbres" src="${arbres.src}" alt="${arbres.alt}">
         </div>
       `;
     }
+    case "loup":
+      // SVG injecté dans la page : DrawSVG doit pouvoir atteindre ses traits
+      return `<div class="loup" data-svg="${chapitre.medias[0].src}"></div>`;
     case "dataviz":
-      // Rempli plus tard par meteo.js, quand le chapitre approche
-      return `<div class="meteo" data-latitude="${chapitre.lieu.latitude}"
-        data-longitude="${chapitre.lieu.longitude}" data-fuseau="${chapitre.lieu.fuseau}"
-        data-lieu="${chapitre.lieu.nom}"><p>Chargement des données de la forêt...</p></div>`;
+      // Les deux chemins (SVG + DrawSVG), puis la météo, remplie plus tard par meteo.js
+      return `
+        <div class="chemins" data-svg="${chapitre.medias[0].src}"></div>
+        <div class="meteo" data-latitude="${chapitre.lieu.latitude}"
+          data-longitude="${chapitre.lieu.longitude}" data-fuseau="${chapitre.lieu.fuseau}"
+          data-lieu="${chapitre.lieu.nom}"><p>Chargement des données de la forêt...</p></div>
+      `;
     case "maison":
       // Le SVG est injecté dans la page (voir injecterSVG) pour que GSAP puisse cibler ses id
       return `<div class="maison" data-svg="${chapitre.medias[0].src}"></div>`;
+    case "dialogue": {
+      // Chaque réplique grossit au défilement (CSS seulement, voir style.css)
+      const repliques = chapitre.repliques.map((r) => `
+        <li class="replique">
+          <p class="replique__question">${r.question}</p>
+          <p class="replique__reponse">${r.reponse}</p>
+        </li>`).join("");
+      return `<ol class="dialogue">${repliques}</ol>`;
+    }
     default:
       return "";
   }
@@ -89,6 +109,7 @@ async function init() {
 
     creerNavigation(chapitres);   // navigation.js (Vue)
     observerPanier();             // animations.js (IntersectionObserver)
+    observerMorale();             // animations.js (IntersectionObserver)
     observerMeteo();              // meteo.js (fetch externe au défilement)
     initAnimationsGSAP();         // animations.js (GSAP + ScrollTrigger)
   } catch (erreur) {

@@ -23,6 +23,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Les objets qui arrivent de très loin ne doivent pas créer de défilement horizontal */
+html,
+body {
+  overflow-x: clip;
+}
+
 body {
   margin: 0;
   background: var(--noir);
@@ -31,6 +37,7 @@ body {
   font-weight: 300;
   font-size: 1.125rem;
   line-height: 1.7;
+  transition: background-color 0.8s, color 0.8s;
 }
 
 [v-cloak] {
@@ -73,6 +80,20 @@ h1 {
   color: var(--gris);
 }
 
+/* Le titre explose en quittant l'écran (CSS au défilement) */
+@supports (animation-timeline: view()) {
+  .entete h1 {
+    animation: titre-sortie linear both;
+    animation-timeline: view();
+    animation-range: exit 0% exit 80%;
+    transform-origin: left center;
+  }
+}
+
+@keyframes titre-sortie {
+  to { transform: scale(2.6) translateY(-20%); opacity: 0; }
+}
+
 /* ---------- Chapitres ---------- */
 
 .chapitre {
@@ -98,7 +119,7 @@ h1 {
 
 .parallaxe {
   position: relative;
-  height: 70vh;
+  height: 90vh;
   margin-top: 4rem;
   overflow: hidden;
 }
@@ -119,14 +140,15 @@ h1 {
     animation-timeline: view();
     animation-range: entry 0% exit 100%;
   }
-  .calque--lente   { --distance: 4%; }
-  .calque--moyenne { --distance: 12%; }
-  .calque--rapide  { --distance: 24%; }
+  /* Des écarts de vitesse très marqués : c'est ce qui donne la profondeur */
+  .calque--lente   { --distance: 5%;  --zoom: 1; }
+  .calque--moyenne { --distance: 35%; --zoom: 1.1; }
+  .calque--rapide  { --distance: 90%; --zoom: 1.5; }
 }
 
 @keyframes monter {
-  from { transform: translateY(var(--distance)); }
-  to   { transform: translateY(calc(var(--distance) * -1)); }
+  from { transform: translateY(var(--distance)) scale(var(--zoom)); }
+  to   { transform: translateY(calc(var(--distance) * -1)) scale(var(--zoom)); }
 }
 
 /* ---------- Chapitre 2 : le panier (IntersectionObserver) ---------- */
@@ -145,13 +167,16 @@ h1 {
   border-left: 4px solid var(--rouge);
   background: var(--nuit);
   font-weight: 400;
+  font-size: 1.4rem;
   opacity: 0;
-  transform: translateX(-2rem);
-  transition: opacity 0.6s, transform 0.6s;
+  /* Départ : loin à gauche, renversé */
+  transform: translateX(-100vw) rotate(-35deg);
+  /* La courbe dépasse 1 : l'objet va trop loin, puis revient (rebond) */
+  transition: opacity 0.4s, transform 0.9s cubic-bezier(0.34, 1.8, 0.64, 1);
 }
 
-.panier li:nth-child(2) { transition-delay: 0.2s; }
-.panier li:nth-child(3) { transition-delay: 0.4s; }
+.panier li:nth-child(2) { transition-delay: 0.3s; }
+.panier li:nth-child(3) { transition-delay: 0.6s; }
 
 /* Classe ajoutée par IntersectionObserver */
 .panier.est-visible li {
@@ -163,33 +188,60 @@ h1 {
 
 .foret {
   position: relative;
-  height: 60vh;
+  height: 75vh;
   margin-top: 3rem;
   overflow: hidden;
-  background: linear-gradient(var(--noir), var(--nuit));
+  /* Fond : les arbres gris du chapitre 1, sur un ciel plus clair */
+  background:
+    url("../assets/images/foret-milieu.svg") center bottom / cover no-repeat,
+    linear-gradient(#3A3D45, var(--nuit));
+}
+
+/* L'ombre qui tombe sur la forêt (animée en opacité par GSAP) */
+.foret__ombre {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: #000;
+  opacity: 0;
+}
+
+/* Les arbres de l'avant-plan, plus larges que la scène : ils défilent vite */
+.foret__arbres {
+  position: absolute;
+  bottom: -12%;
+  left: 0;
+  z-index: 4;
+  width: 130%;
+  max-width: none;
+  pointer-events: none;
 }
 
 .yeux {
   position: absolute;
-  top: 30%;
-  right: 15%;
+  z-index: 2;
   display: flex;
-  gap: 1.2rem;
-  opacity: 0;
+  gap: 1.4rem;
 }
 
+.yeux--1 { top: 22%; right: 12%; }
+.yeux--2 { top: 45%; right: 34%; transform: scale(0.7); }
+.yeux--3 { top: 14%; left: 30%; transform: scale(0.5); }
+
 .yeux span {
-  width: 18px;
-  height: 10px;
+  width: 28px;
+  height: 14px;
   border-radius: 50%;
   background: var(--jaune);
-  box-shadow: 0 0 12px var(--jaune);
+  box-shadow: 0 0 24px 6px var(--jaune);
 }
 
 /* La spritesheet : 8 images de 160 × 200 px sur une seule rangée */
 .marcheur {
   position: absolute;
+  z-index: 3;
   bottom: 6%;
+  transform-origin: left bottom;
   left: 0;
   width: 160px;
   height: 200px;
@@ -203,7 +255,34 @@ h1 {
   to   { background-position: -1280px 0; }
 }
 
-/* ---------- Chapitre 4 : la dataviz (fetch externe) ---------- */
+/* ---------- Chapitre 4 : le loup (SVG + DrawSVG) ---------- */
+
+.loup {
+  max-width: 28rem;
+  margin: 4rem auto 0;
+}
+
+.loup svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.loup-oeil {
+  filter: drop-shadow(0 0 10px var(--jaune));
+}
+
+/* ---------- Chapitre 5 : deux chemins (DrawSVG) et dataviz (fetch externe) ---------- */
+
+.chemins {
+  max-width: 52rem;
+  margin-top: 3rem;
+}
+
+.chemins svg {
+  width: 100%;
+  height: auto;
+}
 
 .meteo {
   margin-top: 3rem;
@@ -237,9 +316,22 @@ h1 {
 
 /* ---------- Chapitre 5 : la maison (SVG + GSAP) ---------- */
 
+/* La section est épinglée : elle doit tenir dans un écran */
+.chapitre--maison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4vw;
+  height: 100vh;
+  min-height: 0;
+  padding: 0 8vw;
+  overflow: hidden;
+}
+
 .maison {
+  position: relative;
+  z-index: 3; /* la maison passe devant le texte quand elle grossit */
   max-width: 34rem;
-  margin-top: 3rem;
 }
 
 .maison svg {
@@ -247,12 +339,100 @@ h1 {
   height: auto;
 }
 
-/* ---------- Chapitre 6 : la morale ---------- */
+/* ---------- Chapitre 7 : le dialogue (CSS au défilement) ---------- */
 
-.chapitre--texte p:last-child {
-  font-size: 1.6rem;
+.dialogue {
+  list-style: none;
+  margin: 4rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 18vh;
+}
+
+.replique__question {
+  margin: 0;
+  font-size: clamp(1.4rem, 3.5vw, 2.4rem);
   font-weight: 700;
+  line-height: 1.15;
+}
+
+.replique__reponse {
+  margin: 0.6rem 0 0;
+  color: var(--gris);
+  font-style: italic;
+}
+
+/* La dernière réplique : énorme, en rouge */
+.replique:last-child .replique__question {
+  font-size: clamp(2.4rem, 8vw, 6rem);
   color: var(--rouge);
+}
+
+.replique:last-child .replique__reponse {
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--blanc);
+}
+
+/* Chaque réplique part minuscule et grossit en entrant dans l'écran */
+@supports (animation-timeline: view()) {
+  .replique {
+    animation: grossir linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 45%;
+    transform-origin: left center;
+  }
+  .replique:last-child {
+    animation-name: grossir-fort;
+  }
+}
+
+@keyframes grossir {
+  from { transform: scale(0.3); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+@keyframes grossir-fort {
+  0%   { transform: scale(0.1) rotate(-6deg); opacity: 0; }
+  80%  { transform: scale(1.15) rotate(2deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0); opacity: 1; }
+}
+
+/* ---------- Chapitre 8 : la morale (IntersectionObserver) ---------- */
+
+.chapitre--morale p:last-child {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--rouge);
+}
+
+/* Classe ajoutée sur <body> par IntersectionObserver : toute la page vire au rouge */
+body.fin-rouge {
+  background-color: var(--rouge);
+  color: var(--noir);
+}
+
+body.fin-rouge .chapitre--morale p:last-child {
+  color: var(--blanc);
+}
+
+body.fin-rouge .chapitre__numero,
+body.fin-rouge .pied {
+  color: var(--noir);
+}
+
+body.fin-rouge .progression {
+  background: var(--noir);
+}
+
+body.fin-rouge .chapitres-nav a {
+  color: var(--noir);
+}
+
+body.fin-rouge .chapitres-nav a.actif {
+  color: var(--blanc);
 }
 
 /* ---------- Composant Vue : progression + navigation ---------- */
@@ -303,7 +483,15 @@ h1 {
   border-radius: 50%;
 }
 
+/* Le titre est positionné à gauche du numéro : les numéros restent alignés */
+.chapitres-nav a {
+  position: relative;
+}
+
 .chapitres-nav__titre {
+  position: absolute;
+  right: calc(100% + 0.6rem);
+  white-space: nowrap;
   opacity: 0;
   transition: opacity 0.2s;
 }
@@ -339,6 +527,18 @@ h1 {
   .chapitre {
     padding: 15vh 6vw;
   }
+  .chapitre--maison {
+    grid-template-columns: 1fr;
+    align-content: center;
+    gap: 1rem;
+    padding: 0 6vw;
+  }
+  .chapitre--maison h2 {
+    margin-bottom: 0.5rem;
+  }
+  .maison {
+    max-width: 70vw;
+  }
 }
 
 /* ---------- Accessibilité : moins de mouvement ---------- */
@@ -347,16 +547,21 @@ h1 {
   html {
     scroll-behavior: auto;
   }
+  body {
+    transition: none;
+  }
   .calque,
-  .marcheur {
+  .marcheur,
+  .entete h1,
+  .replique {
     animation: none;
+  }
+  .marcheur {
+    left: 40%; /* sans animation, le Chaperon reste visible au centre de la forêt */
   }
   .panier li {
     opacity: 1;
     transform: none;
     transition: none;
-  }
-  .yeux {
-    opacity: 1;
   }
 }
