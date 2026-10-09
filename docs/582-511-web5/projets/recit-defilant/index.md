@@ -139,7 +139,7 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 |---|---|
 | Générer une **image source** pour votre média animable, puis la préparer vous-même (voir plus haut) | Copilot dans VS Code : complétions, chat, suggestions |
 | La **documentation** : MDN, GSAP, Vue | ChatGPT, Claude, Gemini ou autre pour écrire, corriger ou expliquer votre code |
-| Les **notes du cours**, la **démo du Petit Chaperon rouge** et ses commentaires | Figma Make, Google Stitch ou autre générateur de code ou de maquette |
+| Les **notes du cours** et les **démos présentées en classe** | Figma Make, Google Stitch ou autre générateur de code ou de maquette |
 | **Vos collègues** : on s'explique, on ne copie pas | L'IA pour rédiger le cahier de charges, le storyboard ou le journal |
 | **Moi**, en classe et au tutorat | |
 

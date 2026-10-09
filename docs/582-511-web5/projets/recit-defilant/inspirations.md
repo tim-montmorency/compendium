@@ -59,13 +59,13 @@ Une histoire illustrée, simple et touchante. **Très proche de ce que vous pouv
 </div>
 
 <div class="card" markdown>
-:material-music: __Daft Punk, Pitchfork__
+:material-fire: __Firestorm, The Guardian__
 
 ---
 
-Un long article de magazine mis en scène au défilement. À observer : comment de grandes images et des transitions soutiennent un texte long sans le noyer.
+L'histoire d'une famille réfugiée sous un quai pendant un feu de forêt en Tasmanie (2013), racontée en chapitres avec photos, vidéo et son. À observer : comment le récit est découpé en chapitres, et comment chaque média ouvre une nouvelle étape.
 
-[:octicons-arrow-right-24: pitchfork.com](http://pitchfork.com/features/cover-story/reader/daft-punk/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: theguardian.com](https://www.theguardian.com/world/interactive/2013/may/26/firestorm-bushfire-dunalley-holmes-family){ .stretched-link :target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -163,13 +163,13 @@ Un paysage animé au défilement, **avec son code ouvert**. À observer : ouvrez
 </div>
 
 <div class="card" markdown>
-:material-timeline-clock-outline: __The Weirdos__
+:material-star-shooting-outline: __La vitrine de GSAP__
 
 ---
 
-Une ligne du temps qui avance au défilement. À observer : comment on structure un récit en étapes datées.
+Des sites primés faits avec GSAP, la librairie que vous utiliserez. À observer : choisissez un site, défilez lentement, et repérez les sections épinglées et les animations liées au défilement (ScrollTrigger).
 
-[:octicons-arrow-right-24: the-weirdos.netlify.app](https://the-weirdos.netlify.app/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: gsap.com/showcase](https://gsap.com/showcase/){ .stretched-link :target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -187,18 +187,12 @@ Un récit défilant qui explique les récits défilants. À observer : les grand
 
 ---
 
-Des démos des animations CSS pilotées par le défilement (`animation-timeline`, `scroll()`, `view()`), par l'équipe de Chrome. **La technique de notre chapitre 1.**
+Des démos des animations CSS pilotées par le défilement (`animation-timeline`, `scroll()`, `view()`), par l'équipe de Chrome. **La technique de la parallaxe en CSS, sans librairie.**
 
 [:octicons-arrow-right-24: scroll-driven-animations.style](https://scroll-driven-animations.style/){ .stretched-link :target="_blank" }
 </div>
 
 </div>
-
-## Et notre démo
-
-La démo du Petit Chaperon rouge montre **chaque technique du projet**, dans un récit de 8 chapitres. Son `README.md` indique où trouver chaque exigence dans le code.
-
-[:material-play-circle-outline: Voir la démo du Petit Chaperon rouge](demo-chaperon/index.html){ .md-button .md-button--primary :target="_blank" }
 
 !!! tip "Dans votre journal"
     Notez **2 ou 3 inspirations** : le lien, ce que vous en retenez, et comment vous l'adapterez à **votre** histoire. S'inspirer, ce n'est pas copier : on emprunte une idée de mise en scène, pas le contenu ni le design.
