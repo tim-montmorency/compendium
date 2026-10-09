@@ -115,7 +115,8 @@ Rappel des prérequis (_gating_) :
 
 - [ ] **Ambiances** | Une ambiance sonore par zone, en boucle, sans coupure audible | Volume équilibré avec les effets; aucune coupure au changement de zone |
 - [ ] **Effets sonores** | Au moins cinq sons déclenchés par des événements, dont un spatialisé en 3D | Variation de hauteur ou sons multiples pour ce qui se répète |
-- [ ] **Volume** | Audio Mixer à deux groupes, et un curseur de volume dans les options | Le curseur agit en temps réel, avec un son de test |
+- [ ] **Sons d'interface** | Les boutons des menus produisent un son | Sons cohérents avec le thème; survol et clic distincts |
+- [ ] **Volume** | Audio Mixer dont les groupes sont organisés selon leur usage, et un curseur de volume dans les options | Le curseur agit en temps réel, avec un son de test |
 
 #### Personnage non joueur
 
@@ -128,7 +129,7 @@ Rappel des prérequis (_gating_) :
 Ces éléments sont **présents ou absents** : ils ne se raffinent pas.
 
 - [ ] Jeu publié en **WebGL sur itch.io**
-- [ ] **README** : concept, commandes, et **crédits de tous les médias externes avec leur licence** — tenu au fil de la session, pas reconstitué à la fin
+- [ ] **README** : concept et commandes (les crédits sont évalués en [Rigueur](#rigueur))
 - [ ] **Arborescence du projet** vue en classe, respectée tout au long de la session
 - [ ] **Aucun défaut de finition** : pas de magenta, pas d'objet flottant, pas de texte provisoire, pas de collider manquant
 
@@ -142,9 +143,10 @@ Ces éléments sont **présents ou absents** : ils ne se raffinent pas.
 - Un élément conceptuel du GDD tenu jusqu'au bout
 - Trois zones qui se distinguent par leur style
 
-### Rigeur
+### Rigueur
 
 - Gestion du projet effectuée dans Trello
+- **Crédits complets dans le README** : chaque média externe (son, musique, modèle 3D, texture, police, pack, script) y figure avec son auteur, le lien direct vers sa source, sa licence exacte et son usage dans le jeu. Les médias gratuits et CC0 sont aussi notés. Les crédits sont tenus au fil de la session : l'historique des commits GitHub doit le montrer
 - Les recommandations faites par l'enseignant lors des rencontres individuelles ont été considérés et traités
 
 ## La carte de preuves
@@ -174,7 +176,7 @@ Ces éléments sont **présents ou absents** : ils ne se raffinent pas.
 | **6** | Le personnage et les menus | 3 états du personnage visibles · caméra réglée · menus titre et fin · cinématique déclenchée |
 | **7** | **Prototype jouable — premier jalon** | Les 3 zones parcourables · les 3 passages fonctionnent · début et fin · 3 ambiances, 5 sons, Audio Mixer |
 | **8** | Habiller et éclairer | La **zone 1 est finie** : habillée, éclairée, animée, sonorisée |
-| **9** | La tranche verticale **deuxième jalon** | 3 systèmes de particules · signaux de réussite et d'échec · script C# écrit et branché · premier build WebGL |
+| **9** | La tranche verticale **deuxième jalon** | 3 systèmes de particules · signaux de réussite et d'échec · script C# écrit et branché · build Windows |
 | **10** | Le PNJ | Le PNJ patrouille, détecte, réagit |
 | **11** | Publier | Page itch.io en ligne · README et crédits · PlayerPrefs · carte de preuves amorcée |
 | **12** | **Alpha — troisième jalon** | Les 3 zones habillées · build en ligne · 3 tests de jeu reçus |
@@ -189,12 +191,13 @@ Séance 5
   Créer le projet Unity et appliquer l'arborescence
   Créer le répertoire GitHub, le .gitignore Unity et le tableau de tâches
   Monter la zone 1 en greybox, parcourable de bout en bout
+  Créer la section Crédits du README et y noter les assets déjà importés
   Ancrer le HUD et le tester à deux résolutions
 
 Séance 6
   Monter au moins 3 états du personnage et les rendre visibles
   Régler la caméra Cinemachine
-  Monter les menus titre, pause et fin
+  Monter les menus titre et fin
   Monter la cinématique et la déclencher par une action
 
 Séance 7
@@ -205,17 +208,20 @@ Séance 7
   Brancher la victoire et la défaite
   Poser les 3 ambiances sonores et les 5 sons déclenchés
   Ajouter un son spatialisé et configurer l'Audio Mixer
+  Noter la source et la licence de chaque son dans les crédits du README
 
 Séance 8
   Habiller la zone 1 (prefabs, matériaux, image importée)
+  Noter la source et la licence de chaque asset importé dans les crédits du README
   Éclairer la zone 1 et régler le post-traitement
   Animer un élément de décor
+  Monter le menu pause
 
 Séance 9
   Créer le signal de réussite (son, particule, HUD)
   Créer le signal d'échec (son, particule, HUD)
   Écrire le script C# et le brancher
-  Publier un premier build WebGL sur une page privée
+  Exporter un build Windows
 
 Séance 10
   Préparer le NavMesh
@@ -223,7 +229,7 @@ Séance 10
 
 Séance 11
   Créer la page itch.io et publier le build
-  Rédiger le README et les crédits des médias
+  Rédiger le README (concept, commandes) et vérifier que les crédits sont complets
   Brancher PlayerPrefs (volume et progression)
   Amorcer la carte de preuves
 
@@ -252,8 +258,8 @@ Séance 15
 | **Intégration des médias** | Médias visuels et son, sur l'échelle de raffinement | **22 %** |
 | **Actions et progression** | Structure et progression, personnage et interactions, rétroaction et interface, PNJ, sur l'échelle de raffinement | **22 %** |
 | **Créativité** | Parti pris nommé et tenu, zones distinctes, prérequis cohérents, détournement d'un outil, décisions justifiées | **12 %** |
-| **Rigueur** | Les tâches exigées aux quatre jalons sont réalisées, et démontrées à l'oral | **12 %** |
-| **Publication et finition** | Build en ligne, README et crédits, arborescence, carte de preuves, aucun défaut visible | **7 %** |
+| **Rigueur** | Les tâches exigées aux quatre jalons sont réalisées, et démontrées à l'oral · gestion dans Trello · crédits complets et tenus au fil de la session dans le README | **12 %** |
+| **Publication et finition** | Build en ligne, README (concept, commandes), arborescence, carte de preuves, aucun défaut visible | **7 %** |
 | **Oral** | Concept, tâches reçues et ce qui en a été fait, une difficulté technique et sa résolution, ce qui serait fait autrement | **5 %** |
 | | | **80 %** |
 

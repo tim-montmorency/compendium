@@ -191,7 +191,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     Les *materials* sont partis en S9 avec la passe visuelle - cette séance est déjà bien assez chargée.
 
 !!! note "Pourquoi le menu n'est plus ici"
-    Canvas, TextMeshPro, HUD, premier script, C# de survie, prefabs **et** un menu complet dans une seule séance, c'était trop d'un coup - surtout une séance déjà amputée par la rotation de validation. La S5 garde le strict nécessaire : des boutons et un changement de scène par `SceneManager`. Le **menu pause** (`Time.timeScale`) part en **S7**.
+    Canvas, TextMeshPro, HUD, premier script, C# de survie, prefabs **et** un menu complet dans une seule séance, c'était trop d'un coup - surtout une séance déjà amputée par la rotation de validation. La S5 garde le strict nécessaire : des boutons et un changement de scène par `SceneManager`. Le **menu pause** (`Time.timeScale`) part en **S8**.
 
     Le **HUD**, lui, reste ici : il se monte en même temps que le greybox, et il n'a besoin d'aucune transition de scène pour exister.
 
@@ -494,7 +494,7 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Notions d'interaction, affordance, agentivité | S1, S4 |
 | Collisions et déclenchement d'événements | S2, S3 |
 | Transitions de scènes | S2, S5 |
-| Interface virtuelle et menu | S5 (HUD, boutons, changement de scène), S6 (9-slice), S7 (pause) |
+| Interface virtuelle et menu | S5 (HUD, boutons, changement de scène), S6 (9-slice), S8 (pause) |
 | Environnement de programmation | S5 (script fourni, puis C#) |
 | Déplacement d'un personnage | S3 (sans code), S5, S6 (réglages du contrôleur) |
 | Interactions virtuelles, système clé/porte | S3, S5 |
