@@ -34,8 +34,11 @@ Voici les tâches que vous devez faire pour le cours avec les dates associées.
 - [ ] Vous aimeriez avoir des rétroactions formatives pour votre **CV**? Vous avez jusqu'au 22 octobre pour m'envoyer votre CV en message sur Teams. Je vous transmettrai ensuite mes commentaires pour de possibles améliorations.
 
 
-## 29 octobre
+## 26 octobre
 - [ ] Remise du **CV**. [Consignes](https://tim-montmorency.com/compendium/582-541%E2%80%93preparation-milieu-travail/evaluations/cv.html).
+
+
+## 29 octobre
 - [ ] Vous aimeriez avoir des rétroactions formatives pour votre **lettre**? Vous avez jusqu'au 29 octobre pour m'envoyer votre lettre en message sur Teams. Je vous transmettrai ensuite mes commentaires pour de possibles améliorations.
 
 
