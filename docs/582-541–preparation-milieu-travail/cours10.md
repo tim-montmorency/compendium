@@ -2,8 +2,11 @@
 
 !!! info "Dates"
 
-    - Groupe Enric : 19 octobre.
+    - Groupe Enric : 26 octobre.
     - Groupe Lora : 22 octobre.
+
+## 🚨 Remise des cartes d'affaires
+
 
 ## Présentation sur la recherche de stage ou d'emploi
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETvq2rTn-T9KpJk9dKvXONABSBXblf_OXaQ3etOj--gWRw?e=MiTjMX){ .md-button }         
