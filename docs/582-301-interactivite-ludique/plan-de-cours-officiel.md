@@ -65,8 +65,8 @@ Les deux sont **évaluées**, à même le projet final : elles pèsent 24 de ses
 | 6 | [Animation, caméra et états](./cours06.md) | Animator, machine à états, rigging, Cinemachine, 2.5D, **menu**, transitions, cinématique | |
 | 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; backlog MoSCoW | :material-comment-check: **F1 — Prototype jouable** |
 | 8 | [Lumière et level design](./cours08.md) | Lumières, *baking*, post-traitement, greyboxing → dressing, guidage | |
-| 9 | [Particules, VFX et *game feel*](./cours09.md) | Particle System, projectiles, *juice* | :material-comment-check: **F2 — Tranche verticale**<br>+ rétroaction **objectif 1** |
-| 10 | [PNJ et intelligence artificielle](./cours10.md) | NavMesh, patrouille, détection, machine à états simple | |
+| 9 | [PNJ et intelligence artificielle](./cours09.md) | NavMesh, patrouille, détection, machine à états simple, dialogue | :material-comment-check: **F2 — Tranche verticale**<br>+ rétroaction **objectif 1** |
+| 10 | [Particules, VFX et *game feel*](./cours10.md) | Particle System, projectiles, *juice* | |
 | 11 | [Publication et persistance](./cours11.md) | Build WebGL, itch.io, README et crédits, sauvegarde, performance | |
 | | **Phase 4 — Production** | | |
 | 12 | [Tests utilisateurs et plan de production](./cours12.md) | Heuristiques, protocole de playtest, *issues* et priorisation | :material-comment-check: **F3 — Alpha**<br>+ rétroaction **objectif 2** |
@@ -154,22 +154,23 @@ Les deux sont **évaluées**, à même le projet final : elles pèsent 24 de ses
 * Level design : du greybox au décor final, métriques, lisibilité, guidage du joueur, rythme
 * Shader Graph : une recette montée en direct
 
-**S9 — Particules, VFX et *game feel***
+**S9 — PNJ et intelligence artificielle**
+
+* NavMesh : *baking*, `NavMeshAgent`, zones et obstacles
+* Patrouille par waypoints, poursuite, retour au poste
+* Détection : distance, cône de vision, `Raycast`
+* Machine à états du PNJ : patrouille → alerte → poursuite → perte de trace
+* PNJ non hostile (marchand, guide); dialogue linéaire avec le package Dialogue System
+* Rétroaction du PNJ : animée, sonore et visuelle
+* Devoir : premier build WebGL sur une page itch.io privée
+
+**S10 — Particules, VFX et *game feel***
 
 * Particle System : modules essentiels, materials de particules
 * Recettes : poussière de pas, étincelles, fumée, ramassage, portail
 * Projectiles : `Instantiate`, `Destroy`, `AddForce`, détection d'impact
 * *Trails*, *decals*, mention de VFX Graph
 * *Game feel* : *screen shake*, *hit stop*, courbes, cumul son + particule + UI sur un même événement
-* Devoir : premier build WebGL sur une page itch.io privée
-
-**S10 — PNJ et intelligence artificielle**
-
-* NavMesh : *baking*, `NavMeshAgent`, zones et obstacles
-* Patrouille par waypoints, poursuite, retour au poste
-* Détection : distance, cône de vision, `Raycast`
-* Machine à états du PNJ : patrouille → alerte → poursuite → perte de trace
-* PNJ non hostile (marchand, guide, dialogue par CES); rétroaction animée, sonore et visuelle
 
 **S11 — Publication et persistance**
 
@@ -397,7 +398,7 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Création d'un environnement virtuel navigable | S2, S3, S9 | Jeu express · Projet final |
 | Configuration de la caméra virtuelle 2D | S6 *(traité en 2.5D)* | Projet final |
 | Classement des fichiers et des médias | S2, S4, S11 | Jeu express · Projet final *(critère finition)* |
-| Intégration d'images dans l'environnement virtuel | S2, S8, S9 | Jeu express · Projet final |
+| Intégration d'images dans l'environnement virtuel | S2, S8, S10 | Jeu express · Projet final |
 | Intégration de médias sonores dans l'environnement virtuel | S3 *(survol)*, S7 | Jeu express · Projet final |
 | Animation d'éléments visuels | S6, S8 | Projet final |
 | Compilation de l'application | S3, S11 *(WebGL)* | Jeu express · Projet final |
@@ -415,12 +416,12 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Interactions virtuelles | S2, S3, S5 | Jeu express · Projet final |
 | Détection de collisions pour le déclenchement d'évènements | S2, S3 | Jeu express · Projet final |
 | Transitions de scènes | S2, S6 | Jeu express · Projet final |
-| Progression en fonction de la réussite d'une action | S3, S6, S10 | Jeu express · GDD · Projet final |
+| Progression en fonction de la réussite d'une action | S3, S6, S9 | Jeu express · GDD · Projet final |
 | Programmation d'un système de clé et de porte | S3, S5 | Jeu express · Projet final |
 | Intégration d'une interface graphique HUD | S5, S8 | Projet final |
 | Indication visuelle et sonore des réussites et échecs | S5, S7, S8 | Projet final |
 | Déclenchement d'échantillons sonores | S3 *(survol)*, S7 | Jeu express · Projet final |
-| Détection de l'état du personnage | S6, S10 | Projet final |
+| Détection de l'état du personnage | S6, S9 | Projet final |
 | Indication visuelle et animation de l'état du personnage | S6 | Projet final |
 
 :material-comment-check: **Activité de rétroaction — objectif 2 :** jalon **F3** (S12), rencontre individuelle avec avis écrit sur l'alpha.

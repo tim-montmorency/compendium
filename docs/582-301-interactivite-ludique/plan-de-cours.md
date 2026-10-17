@@ -49,11 +49,11 @@ Certains sujets sont ouverts sans être approfondis. C'est délibéré : chacun 
 
 | Sujet | Ce qu'on fait | Ce qu'on ne fait pas | Séance |
 |-------|---------------|----------------------|--------|
-| **IA / PNJ** | NavMesh, patrouille par waypoints, détection par distance et cône de vision, machine à états simple | Arbres de comportement, systèmes de dialogue à embranchements, combat à états multiples | S10 |
+| **IA / PNJ** | NavMesh, patrouille par waypoints, détection par distance et cône de vision, machine à états simple, dialogue linéaire (package Dialogue System) | Arbres de comportement, systèmes de dialogue à embranchements, combat à états multiples | S9 |
 | **Shader Graph** | Une seule recette montée en direct (dissolution ou eau), copiable telle quelle | Théorie des nœuds, mathématiques de shader, exercice noté | S8 |
 | **Sauvegarde** | `PlayerPrefs` : progression, options, meilleur score | Sérialisation JSON, chemins de fichiers, versionnage et corruption des sauvegardes | S11 |
 | **Middleware audio** | Démo de 15 min (FMOD, Wwise) pour le vocabulaire | Installation, intégration, banques - incompatible avec la contrainte WebGL | S7 |
-| **VFX Graph** | Mention de son existence | Enseignement; le Particle System couvre tous les besoins du cours | S9 |
+| **VFX Graph** | Mention de son existence | Enseignement; le Particle System couvre tous les besoins du cours | S10 |
 
 Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à quoi servent les capsules de la S13. Mais aucune évaluation n'en dépend.
 
@@ -83,8 +83,8 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 | 6 | [Contrôles, caméra et animation](./cours06.md) | Réglages du contrôleur, 2.5D / vue de dessus / isométrique, **tir** et viseur, 9-slice, Condition Watcher, animation par *keyframe*, splines | |
 | 7 | [Le son et le backlog](./cours07.md) | Sources 2D/3D, spatialisation, Audio Mixer, licences; **backlog MoSCoW** | :material-comment-check: **F1 - Prototype jouable** |
 | 8 | [Lumière et level design](./cours08.md) | Materials, lumières, *baking*, post-traitement, greyboxing → dressing, guidage | |
-| 9 | [Particules, VFX et *game feel*](./cours09.md) | Particle System, impacts de projectiles, *juice* | :material-comment-check: **F2 - Tranche verticale** + rétroaction objectif 1 |
-| 10 | [PNJ et intelligence artificielle](./cours10.md) | NavMesh, patrouille, détection, **Animator et machines à états** (joueur et PNJ), Mixamo | |
+| 9 | [PNJ et intelligence artificielle](./cours09.md) | NavMesh, patrouille, détection, **Animator et machines à états** (joueur et PNJ), Mixamo, dialogue | :material-comment-check: **F2 - Tranche verticale** + rétroaction objectif 1 |
+| 10 | [Particules, VFX et *game feel*](./cours10.md) | Particle System, impacts de projectiles, *juice* | |
 | 11 | [Publication et persistance](./cours11.md) | Build WebGL, itch.io, README/crédits, sauvegarde, performance | |
 
 ### Phase 4 - Production (S12–S15)
@@ -129,7 +129,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     * Notion d'**Input System** (survol : où sont les touches, comment en ajouter une)
 * Le tag `Player` et pourquoi tout en dépend
 * **Gating** (rappel S1) mis en œuvre concrètement avec le CES : clé → porte, zone bloquée, variable custom vérifiée plus loin
-* **Habiller le personnage** : substitution du mannequin gris par un personnage **T-pose Synty** dans le Third Person Controller — sans *rigging*, donc sans animation pour l'instant. L'auto-rigger **Mixamo** et l'avatar humanoïde sont reportés à la **S10**, avec l'Animator et les machines à états, où ils servent enfin à quelque chose
+* **Habiller le personnage** : substitution du mannequin gris par un personnage **T-pose Synty** dans le Third Person Controller — sans *rigging*, donc sans animation pour l'instant. L'auto-rigger **Mixamo** et l'avatar humanoïde sont reportés à la **S9**, avec l'Animator et les machines à états, où ils servent enfin à quelque chose
 * Premier build local
 
 !!! tip "Ajout recommandé"
@@ -220,7 +220,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     Le cours est entièrement en 3D. Plutôt que de faire une parenthèse 2D artificielle, le savoir est couvert par le **2.5D** : caméra orthographique, contrainte d'axe, cadrage plat. L'élève sait configurer une caméra 2D à la fin de la séance - il l'a simplement fait dans un monde 3D, ce qui correspond à la pratique réelle.
 
 !!! note "Ce qui a été reporté"
-    La séance est déjà pleine. L'**Animator complet**, les **machines à états** et le **rigging Mixamo** passent en **S10**, avec le PNJ : même outil, même logique, une seule séance. Cinemachine avancé (priorités, *confiner*), Timeline et transitions avec fondu deviennent une **capsule d'enrichissement** en S13.
+    La séance est déjà pleine. L'**Animator complet**, les **machines à états** et le **rigging Mixamo** passent en **S9**, avec le PNJ : même outil, même logique, une seule séance. Cinemachine avancé (priorités, *confiner*), Timeline et transitions avec fondu deviennent une **capsule d'enrichissement** en S13.
 
 ### S7 - Le son (et backlog de production)
 
@@ -276,19 +276,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 !!! note "Contenir l'ambition - Shader Graph"
     **Une** recette, montée en direct, du début à la fin. Pas de théorie des nœuds, pas de mathématiques de shader, pas d'exercice noté. L'objectif est que l'élève sache que l'outil existe et qu'il puisse copier la recette dans son jeu. Shader Graph est un cours à lui seul; s'y engager ici, c'est perdre la passe d'éclairage et de level design, qui rapporte dix fois plus visuellement.
 
-### S9 - Particules, VFX et *game feel*
-
-* **Particle System** : modules essentiels (emission, shape, over lifetime, collision), materials de particules
-* Recettes : poussière de pas, étincelles, fumée, ramassage d'objet, portail
-* **Projectiles** : le tir est en place depuis la S6; ici, la **détection d'impact** et sa rétroaction (particules, son, dégâts), *object pooling* (mention)
-* **Trails**, *decals*, mention de VFX Graph (sans l'enseigner)
-* **Game feel / juice** : *screen shake*, *hit stop*, mise à l'échelle au ramassage, courbes d'animation, cumul son + particule + UI sur un même événement
-* **Devoir** : premier build WebGL déposé sur une page itch.io privée (fonctionnel avant tout, pas beau) - les surprises de build WebGL ne doivent pas être découvertes la semaine de la remise finale
-
-!!! abstract "Jalon formatif F2 - Tranche verticale"
-    Rotation individuelle en deuxième partie. Attendu : **un segment court mais fini** - habillé, animé, sonorisé, éclairé. Pas le jeu au complet : l'échantillon qui prouve le niveau de qualité visé. C'est aussi la **rétroaction sur l'objectif 1**, tous les savoirs de médias visuels et sonores étant maintenant enseignés.
-
-### S10 - PNJ et intelligence artificielle
+### S9 - PNJ et intelligence artificielle
 
 * **NavMesh** : *baking*, `NavMeshAgent`, zones, obstacles
 * Patrouille par waypoints; poursuite; retour au poste
@@ -297,11 +285,23 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **Rigging du T-pose Synty via Mixamo** *(reporté de la S3)*, avatar **humanoïde** et *retargeting*
 * **Machine à états du personnage** : idle, marche, course, saut, action - détection et indication de l'état
 * Machine à états simple du PNJ (patrouille → alerte → poursuite → perte de trace) - même logique, appliquée à un personnage non jouable
-* PNJ non hostile : marchand, guide, dialogue déclenché par CES
+* PNJ non hostile : marchand, guide; **dialogue linéaire** avec le package gratuit Dialogue System (HeneGames) - répliques, portraits, Unity Event par réplique
 * Rétroaction du PNJ : animation, son, indicateur visuel
+* **Devoir** : premier build WebGL déposé sur une page itch.io privée (fonctionnel avant tout, pas beau) - les surprises de build WebGL ne doivent pas être découvertes la semaine de la remise finale
+
+!!! abstract "Jalon formatif F2 - Tranche verticale"
+    Rotation individuelle en deuxième partie. Attendu : **un segment court mais fini** - habillé, animé, sonorisé, éclairé. Pas le jeu au complet : l'échantillon qui prouve le niveau de qualité visé. C'est aussi la **rétroaction sur l'objectif 1** (intégration des médias visuels et sonores).
 
 !!! note "Contenir l'ambition - IA"
     **NavMesh + patrouille + détection, point.** Pas d'arbre de comportement, pas de *behavior tree* d'asset store, pas de système de dialogue à embranchements, pas de combat à états multiples. Un PNJ qui patrouille, qui voit le joueur et qui le poursuit produit déjà 90 % de la tension recherchée - et c'est faisable en une séance. Tout ce qui va au-delà est un piège à scope, autant pour l'enseignant que pour l'élève : ça mange trois semaines de production et ça finit rarement dans le build final.
+
+### S10 - Particules, VFX et *game feel*
+
+* **Particle System** : modules essentiels (emission, shape, over lifetime, collision), materials de particules
+* Recettes : poussière de pas, étincelles, fumée, ramassage d'objet, portail
+* **Projectiles** : le tir est en place depuis la S6; ici, la **détection d'impact** et sa rétroaction (particules, son, dégâts), *object pooling* (mention)
+* **Trails**, *decals*, mention de VFX Graph (sans l'enseigner)
+* **Game feel / juice** : *screen shake*, *hit stop*, mise à l'échelle au ramassage, courbes d'animation, cumul son + particule + UI sur un même événement
 
 ### S11 - Publication et persistance
 
@@ -481,9 +481,9 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Logiciels et installation | S1 |
 | Classement des fichiers et des médias | S2, S5 (dépôt), S11 (crédits) - évalué au jeu express et au projet final (critère *finition*), vérifié sans note à chaque jalon |
 | Environnement navigable | S2, S3, S8 |
-| Intégration d'images et de médias visuels | S2, S8, S9 |
+| Intégration d'images et de médias visuels | S2, S8, S10 |
 | Sons et échantillons | S3 (survol), S7 (profondeur) |
-| Animation | S6 (*keyframe*, splines), S10 (rigging + Animator) |
+| Animation | S6 (*keyframe*, splines), S9 (rigging + Animator) |
 | Configuration d'une caméra 2D | S6, traité en **2.5D** : orthographique, contrainte d'axe, cadrage plat dans un monde 3D |
 | Compilation | S3, puis à chaque jalon; WebGL à partir de S11 |
 
@@ -498,10 +498,10 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Environnement de programmation | S5 (script fourni, puis C#) |
 | Déplacement d'un personnage | S3 (sans code), S5, S6 (réglages du contrôleur) |
 | Interactions virtuelles, système clé/porte | S3, S5 |
-| Progression selon la réussite ou l'échec | S3 (CES + variables), S6, S10 |
-| HUD, indication des réussites et échecs | S5, S9 |
+| Progression selon la réussite ou l'échec | S3 (CES + variables), S6, S9 |
+| HUD, indication des réussites et échecs | S5, S10 |
 | Échantillons sonores déclenchés | S7 |
-| États du personnage détectés et animés | S10 |
+| États du personnage détectés et animés | S9 |
 
 Les deux activités de rétroaction exigées ont lieu aux jalons formatifs **F2 (S9, objectif 1)** et **F3 (S12, objectif 2)**, sous forme de rencontre individuelle avec avis écrit.
 
