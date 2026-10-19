@@ -55,6 +55,11 @@ Photo pro pour votre Linkedin.
 
 ## Groupe de Lora
 
+## Temps libre - 45 minutes
+- [ ] Avancer le cv
+- [ ] Avancer les comités
+- [ ] Corriger les cartes d'affaire si nécessaire
+
 
 ### Présentation sur la recherche de stage ou d'emploi
 [📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETvq2rTn-T9KpJk9dKvXONABSBXblf_OXaQ3etOj--gWRw?e=MiTjMX){ .md-button }         
