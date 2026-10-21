@@ -180,7 +180,7 @@ Seule l'adresse dans `fetch()` change. On reverra ce mécanisme en détail au bl
 
 Avec ces 4 choix plus clairs, terminez vos maquettes Figma et complétez `PLANIFICATION.md`. Je circule pour répondre aux questions.
 
-## Devoirs 📓
+## Devoirs
 
 ### Portfolio : remise 1
 

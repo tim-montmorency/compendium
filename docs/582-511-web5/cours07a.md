@@ -200,7 +200,7 @@ Dans `documentation/JOURNAL.md`, un titre pour ce bloc, par exemple `## Bloc 3 :
 
 N'oubliez pas : **chaque question posée à l'IA depuis la bêta**, avec la date, le prompt, l'outil et le résultat. [Comment citer l'IA](projets/portfolio/index-textuel.md#utilisation-de-lia)
 
-## Devoir
+## Devoirs
 
 ### Portfolio : remise finale (gr. Lora jeu. 8 oct. · gr. Enric jeu. 15 oct.)
 

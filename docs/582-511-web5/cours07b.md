@@ -113,7 +113,7 @@ Avant la fin du cours, chaque équipe a :
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](projets/recit-defilant/cahier-de-charges.md){ .md-button }
 
-## Devoir : vos deux semaines
+## Devoirs
 
 On se revoit le **mer. 21 oct.** Arrivez avec votre concept et vos chapitres (étapes 1 et 2) : vous me présenterez votre avancement, et on avancera ensemble le storyboard et la matrice. D'ici là, vous travaillez en équipe, à votre rythme. Un ordre qui fonctionne :
 

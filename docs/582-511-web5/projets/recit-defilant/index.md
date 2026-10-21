@@ -199,8 +199,6 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 | Défense individuelle | 10 | **individuel** | mer. 9 déc. |
 | **Total** | **60** | **20 équipe, 40 individuel** | |
 
-La grille critériée détaillée sera publiée avant la remise du cahier de charges.
-
 ## Calendrier
 
 | Date | Étape |

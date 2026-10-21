@@ -139,7 +139,7 @@ Dans `JOURNAL.md` :
 
 Commit final avant de partir.
 
-## Devoir
+## Devoirs
 
 ### Portfolio, pour le cours 6.1 (mercredi 30 sept.)
 
