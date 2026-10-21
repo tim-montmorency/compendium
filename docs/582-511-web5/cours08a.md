@@ -150,3 +150,10 @@ Pendant les temps de travail, je rencontre chaque équipe, **5 minutes**. Ayez �
 
 - Entrée au **journal de bord** : les 5 questions.
 - D'ici vendredi 23 h 59 : terminez le cahier, le storyboard et le journal, puis poussez le tout sur GitHub.
+
+!!! tip "Rappel : ce que votre journal personnel doit contenir"
+    Chacun dans **son propre journal** (`documentation/JOURNAL-prenom.md`) :
+
+    - **Toute utilisation de l'IA pour créer un média**, citée : la date, le prompt, l'outil et le résultat, et ce que vous avez préparé vous-même.
+    - **2 ou 3 animations qui vous inspirent**, notées personnellement au [cours 7.2](cours07b.md#sinspirer-seul) : pour chacune, le lien de l'exemple, ce qui bouge, ce qui le déclenche, et ce que vous aimeriez emprunter pour votre récit.
+    - **Un lien vers le brainstorm de votre équipe**, fait au [cours 7.2](cours07b.md#choisir-un-theme-brainstorm-en-equipe) : le lien FigJam, ou un lien vers les photos dans `documentation/brainstorm/`.
