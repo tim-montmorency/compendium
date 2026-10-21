@@ -48,6 +48,7 @@ Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le
 - **Au moins un cadre (*frame*) par chapitre**, en format desktop. Un chapitre où plusieurs animations se produisent, en même temps ou l'une après l'autre, peut avoir **plusieurs cadres** : un par moment important.
 - Ajoutez des cadres mobiles pour les chapitres les plus animés.
 - Dans la description de **chaque** cadre, **indiquez le numéro du chapitre** (ex. « Ch. 3 »), puis annotez :
+
     - ce qui **apparaît**, **bouge** ou **reste épinglé**;
     - **ce qui le déclenche** : l'entrée dans l'écran, la progression du défilement, un clic;
     - **la technique** prévue : CSS au défilement, GSAP + ScrollTrigger ou IntersectionObserver.
