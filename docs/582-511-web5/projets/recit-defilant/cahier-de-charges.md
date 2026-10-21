@@ -10,7 +10,7 @@
 
 1. Le cahier de charges fixe **ce que votre équipe va construire, et qui fait quoi**, avant d'écrire une ligne de code.
 2. Vous partez du **gabarit** ci-dessous : copiez-le dans `documentation/CAHIER-DE-CHARGES.md`, puis remplissez chaque section, en équipe.
-3. À déposer **au plus tard le ven. 23 oct., 23 h 59**, avec le storyboard dans Figma. C'est la remise 1 (5 %, note d'équipe).
+3. À déposer **au plus tard le ven. 23 oct., 23 h 59**, avec le storyboard (lien Figma et export PDF). C'est la remise 1 (5 %, note d'équipe).
 
 </div>
 
@@ -54,6 +54,15 @@ Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le
 - Les **médias** peuvent être des boîtes grises ou des croquis : ce qui compte, c'est le déroulement.
 - Repérez votre **moment dataviz** et votre **composant Vue** (navigateur de chapitres ou barre de progression).
 
+### Remettre le storyboard : le lien et le PDF
+
+Vous remettez votre storyboard **de deux façons** :
+
+- **Le lien Figma**, dans le `README.md` et dans le cahier (section 2), avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`. C'est la version vivante : je pourrai y laisser des commentaires.
+- **Un export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf`. C'est la version **figée au moment de la remise** : elle montre ce qui était fait à l'échéance.
+
+Pour exporter : dans Figma, menu principal → *File* → *Export frames to PDF*. Vérifiez que tous vos cadres y sont, dans l'ordre du récit.
+
 Pas d'outils IA de Figma pour le storyboard : dans ce projet, l'IA sert **seulement à créer vos médias**, jusqu'à nouvel ordre.
 
 ## Le moment dataviz
@@ -84,6 +93,7 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 **Thème** : [une cause / un mini-documentaire / une vitrine / un explicatif / une fiction]
 **Brainstorm** : [lien FigJam, ou lien vers les photos dans `documentation/brainstorm/`]
 **Storyboard Figma** : [lien]
+**Storyboard PDF** : [documentation/storyboard.pdf](storyboard.pdf)
 
 ## 1. Le concept
 
@@ -195,4 +205,5 @@ Médias animables choisis :
 - [ ] Le moment dataviz est décrit : chapitre, genre de données, ce qu'elles racontent.
 - [ ] La trace du brainstorm est accessible : lien FigJam partagé, ou photos lisibles dans `documentation/brainstorm/`.
 - [ ] Le lien Figma du storyboard fonctionne, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`.
+- [ ] Le storyboard est exporté en PDF dans `documentation/storyboard.pdf`, avec tous les cadres.
 - [ ] Le tout est poussé sur GitHub **au plus tard le ven. 23 oct., 23 h 59**.

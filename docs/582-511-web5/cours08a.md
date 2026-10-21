@@ -31,7 +31,7 @@ Les ingrédients, des exemples à décortiquer et une démo avec des données r�
 </div>
 
 <div class="card" markdown>
-:material-book-open-page-variant-outline: __Les consign du récit défilant__
+:material-book-open-page-variant-outline: __Les consignes du récit défilant__
 
 ---
 
@@ -62,7 +62,7 @@ Le projet au complet : produit, garde-fous, évaluation, calendrier.
 - [ ] Entrée au journal de bord
 
 !!! warning "Remise 1 : ven. 23 oct., 23 h 59 (pas de cours ce jour-là)"
-    Cahier de charges complet dans le dépôt, storyboard dans Figma, un journal par personne. [Liste de vérification de la remise 1](projets/recit-defilant/index.md#remise-1)
+    Cahier de charges complet dans le dépôt, storyboard (lien Figma et `documentation/storyboard.pdf`), un journal par personne. [Liste de vérification de la remise 1](projets/recit-defilant/index.md#remise-1)
 
 !!! danger "Remises formatives : l'échéance compte"
     Même si une remise est dite « formative », **son échéance compte**. Le respect des échéances de **toutes** les remises du projet (cahier de charges, point de contrôle, prototype, bêta) aura un **impact sur votre note finale**.

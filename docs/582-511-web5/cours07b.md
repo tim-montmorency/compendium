@@ -137,4 +137,4 @@ On se revoit le **mer. 21 oct.** Arrivez avec votre concept et vos chapitres (é
     GSAP, le CSS au défilement et Vue arrivent en classe à partir du 28 oct. D'ici là, c'est la **conception** : bien planifier maintenant, c'est coder plus vite ensuite.
 
 !!! warning "Remise 1 : ven. 23 oct., 23 h 59 (pas de cours ce jour-là)"
-    Cahier de charges complet dans le dépôt, storyboard dans Figma, un journal par personne. [Liste de vérification de la remise 1](projets/recit-defilant/index.md#remise-1)
+    Cahier de charges complet dans le dépôt, storyboard (lien Figma et `documentation/storyboard.pdf`), un journal par personne. [Liste de vérification de la remise 1](projets/recit-defilant/index.md#remise-1)
