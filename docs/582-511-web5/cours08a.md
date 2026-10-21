@@ -97,6 +97,8 @@ Un storyboard de défilement montre **la suite des moments** que vit le visiteur
 
 Vos chapitres seront chargés avec `fetch()` depuis un fichier JSON, comme les projets de votre portfolio. Avant de coder, on décide **la forme d'un chapitre** : quelles propriétés, et pour quoi faire.
 
+**Exemple 1 : un chapitre simple**, avec un texte et un média.
+
 ```json
 {
   "id": "la-foret",
@@ -110,11 +112,67 @@ Vos chapitres seront chargés avec `fetch()` depuis un fichier JSON, comme les p
 }
 ```
 
+**Exemple 2 : un chapitre en plusieurs plans.** Quand un chapitre est une **séquence** de moments animés, chacun avec son média et son animation, on ajoute un tableau `plans`. Le JavaScript boucle sur les plans d'un chapitre, exactement comme il boucle sur les chapitres.
+
+```json
+{
+  "id": "la-tempete",
+  "numero": 4,
+  "titre": "La tempête",
+  "type": "sequence",
+  "plans": [
+    {
+      "id": "ciel-calme",
+      "texte": "La mer est calme. Trop calme.",
+      "media": {
+        "type": "calques",
+        "calques": [
+          { "src": "assets/images/ciel-fond.webp", "vitesse": "lente" },
+          { "src": "assets/images/vagues.webp", "vitesse": "rapide" }
+        ],
+        "alt": ""
+      },
+      "animation": { "technique": "css", "declencheur": "defilement" }
+    },
+    {
+      "id": "eclair",
+      "texte": "Un éclair déchire le ciel.",
+      "media": {
+        "type": "svg",
+        "src": "assets/images/eclair.svg",
+        "alt": "Un éclair zèbre le ciel"
+      },
+      "animation": { "technique": "gsap", "declencheur": "epingle" }
+    },
+    {
+      "id": "bateau",
+      "texte": "Le bateau tangue, puis disparaît.",
+      "media": {
+        "type": "spritesheet",
+        "src": "assets/images/bateau.webp",
+        "images": 12,
+        "alt": "Un bateau secoué par les vagues"
+      },
+      "animation": { "technique": "observer", "declencheur": "entree" }
+    }
+  ],
+  "responsable": "Prénom"
+}
+```
+
+Ce qui change par rapport à l'exemple 1 :
+
+- `"type": "sequence"` indique au JavaScript de construire plusieurs plans plutôt qu'un seul bloc.
+- Chaque plan a **son propre** `id`, `texte`, `media` et `animation` : c'est le même découpage que vos cadres de storyboard.
+- Les propriétés du média dépendent de son type : une liste de `calques` avec leur vitesse, un nombre d'`images` pour une spritesheet, un simple `src` pour un SVG.
+- L'objet `animation` documente vos choix (technique, déclencheur). Le JavaScript peut s'en servir, ou ce peut être un simple aide-mémoire pour l'équipe.
+
 Questions à vous poser :
 
 - Le texte : une seule chaîne, ou un tableau de paragraphes?
 - Les médias : de quels types (image, calque, spritesheet, SVG, vidéo)? Chacun a-t-il un `alt`?
 - Un chapitre a-t-il besoin d'un `type`, pour que le JavaScript sache quoi afficher?
+- Un de vos chapitres contient-il plusieurs moments animés? Si oui, est-ce un chapitre en `plans`?
 
 **À faire (20 min)** : section 5 du cahier, avec l'objet d'**un** de vos vrais chapitres.
 
