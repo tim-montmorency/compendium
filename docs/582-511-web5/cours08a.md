@@ -206,12 +206,16 @@ Pendant les temps de travail, je rencontre chaque équipe, **5 minutes**. Ayez �
 
 ## Devoirs
 
-- Entrée au **journal de bord** : les 5 questions.
-- D'ici vendredi 23 h 59 : terminez le cahier, le storyboard et le journal, puis poussez le tout sur GitHub.
+- Entrée au **journal de bord** : 
+  - les [5 questions](projets/recit-defilant/index.html#journal-de-bord-individuel) et vos réponses
+  - **2 ou 3 animations qui vous inspirent**, notées personnellement au [cours 7.2](cours07b.md#sinspirer-seul) : pour chacune, le lien de l'exemple, ce qui bouge, ce qui le déclenche, et ce que vous aimeriez emprunter pour votre récit.
+  - **Un lien vers le brainstorm de votre équipe**, fait au [cours 7.2](cours07b.md#choisir-un-theme-brainstorm-en-equipe) : le lien FigJam, ou un lien vers les photos dans `documentation/brainstorm/`.
+- Terminez 
+  - le cahier de charge (excepté section 8), 
+  - le storyboard 
+  - et votre journal personnel, 
+- puis poussez le tout sur GitHub avant vendredi 23 octobre, 23 h 59. [Liste de vérification de la remise 1](projets/recit-defilant/index.md#remise-1)
 
-!!! tip "Rappel : ce que votre journal personnel doit contenir"
-    Chacun dans **son propre journal** (`documentation/JOURNAL-prenom.md`) :
+!!! tip "Rappel : où créditer vos médias"
+    **Tous vos médias sont crédités dans le `README.md`** de l'équipe, dans le tableau des crédits : la source, l'auteur, la licence, et si vous l'avez modifié. **Les médias générés par l'IA aussi** : indiquez l'outil utilisé comme source. Les crédits ne vont **pas** dans le journal.
 
-    - **Toute utilisation de l'IA pour créer un média**, citée : la date, le prompt, l'outil et le résultat, et ce que vous avez préparé vous-même.
-    - **2 ou 3 animations qui vous inspirent**, notées personnellement au [cours 7.2](cours07b.md#sinspirer-seul) : pour chacune, le lien de l'exemple, ce qui bouge, ce qui le déclenche, et ce que vous aimeriez emprunter pour votre récit.
-    - **Un lien vers le brainstorm de votre équipe**, fait au [cours 7.2](cours07b.md#choisir-un-theme-brainstorm-en-equipe) : le lien FigJam, ou un lien vers les photos dans `documentation/brainstorm/`.
