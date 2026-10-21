@@ -26,6 +26,52 @@ Piste — Package Recorder (Unity Registry)
 | 2h45 – 3h10 | Performance et Profiler |
 | 3h10 – 3h35 | Atelier | -->
 
+
+## Shader Graph
+
+!!! note "Une seule recette"
+    On monte **une** recette en direct, du début à la fin — dissolution ou eau — à copier ensuite dans son propre jeu. Pas de théorie des nœuds, pas de mathématiques de shader. Shader Graph est un cours à lui seul; s'y engager ici coûterait la passe d'éclairage, qui rapporte dix fois plus.
+
+### Recette : la dissolution
+
+Un objet qui se désintègre avec un bord lumineux : un ennemi vaincu, un mur magique qui disparaît, un objet ramassé.
+
+**Créer le shader**
+
+1. Dans le panneau **Project**, dossier **Assets > _ > Materials** : clic-droit **Create > Shader Graph > URP > Lit Shader Graph**, le nommer `SG_Dissolution`
+1. Double-cliquer : la fenêtre **Shader Graph** s'ouvre
+1. Dans le **Graph Inspector** (en haut à droite), onglet **Graph Settings** : cocher **Alpha Clipping**
+
+**Les propriétés** (panneau **Blackboard**, bouton **+**)
+
+| Propriété | Type | Valeur |
+|---|---|---|
+| `BaseMap` | Texture2D | La texture de l'objet |
+| `Dissolve` | Float, **Mode** `Slider` (0 à 1) | `0` |
+| `EdgeWidth` | Float | `0.05` |
+| `EdgeColor` | Color, **Mode** `HDR` | Orange vif, intensité `3` |
+
+**Les nœuds** (clic-droit dans la grille **Create Node**, puis relier les ports)
+
+1. `BaseMap` → **Sample Texture 2D** → **Base Color** du *Fragment*
+1. **Simple Noise** (**Scale** `30`) → **Alpha** du *Fragment*
+1. `Dissolve` → **Alpha Clip Threshold** du *Fragment*
+1. **Add** (`Dissolve` + `EdgeWidth`) → entrée **Edge** d'un nœud **Step**; **Simple Noise** → entrée **In** du même **Step**
+1. **Step** → **One Minus** → **Multiply** avec `EdgeColor` → **Emission** du *Fragment*
+1. Cliquer **Save Asset** (en haut à gauche)
+
+**L'utiliser**
+
+1. Dans le panneau **Project**, clic-droit sur `SG_Dissolution` : **Create > Material**
+1. Dans l'**Inspector** du material, glisser la texture de l'objet dans **BaseMap**
+1. Glisser le material sur l'objet, puis faire glisser **Dissolve** de `0` à `1` pour voir l'effet
+1. Pour le déclencher en jeu : animer **Material._Dissolve** dans la fenêtre **Animation** (voir le cours 6), puis lancer l'animation avec le CES
+
+!!! info "Avec un modèle Synty"
+    Glisser la texture atlas du pack (ex. : `PolygonAdventure_Texture_01_A`) dans **BaseMap** : l'objet garde ses couleurs.
+
+
+
 ## Compiler
 
 ### Pourquoi publier (vraiment)

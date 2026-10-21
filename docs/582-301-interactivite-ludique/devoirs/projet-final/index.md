@@ -1,6 +1,6 @@
 # Projet final
 
-![](./preview.jpg){.w-100}
+![](./tgyah.gif){.w-100}
 
 *[GDD]: Game Design Document
 *[CES]: Collider Event System
@@ -15,13 +15,13 @@ Ce qui est imposé :
 - **Forme** : trois zones séparées en différentes scènes.
 - **Mise en place des notions apprises en classe** selon un gabarit qualitatif.
 
-> Changer de zone est facile : un CES et un chargement de scène suffisent. Ce qui compte, c'est le chemin pour y arriver, le soin apporté à chaque technique apprise en classe, la qualité du produit fini et la créativité démontrée. Mieux vaut miser sur la qualité que sur la quantité.
+<!-- > Changer de zone est facile : un CES et un chargement de scène suffisent. Ce qui compte, c'est le chemin pour y arriver, le soin apporté à chaque technique apprise en classe, la qualité du produit fini et la créativité démontrée.  -->
 
 **80% de la note finale**
 
 ## Exigences
 
-La plupart des techniques vues en classe doit se retrouver dans le jeu. Toutefois, leur présence ne suffit pas. C'est surtout la qualité de leur implémentation sera évalué. Voici l'échelle de l'évaluation : 
+Vous devrez intégrer au jeu la plupart des techniques vues en cours. L'évaluation portera davantage sur la qualité de leur implémentation que sur leur simple présence.
 
 | Niveau | Description |
 |--------|-------------|
@@ -30,10 +30,12 @@ La plupart des techniques vues en classe doit se retrouver dans le jeu. Toutefoi
 | **Intégrée**      | Son usage est cohérent avec le jeu |
 | **Raffinée**      | Son usage est cohérent avec le jeu, créatif et bien fait |
 
-!!! example "Un bouton en quatre niveaux"
+!!! example "Exemple"
 
-    * **Absent :** aucun menu. 
-    * **Fonctionnel :** un bouton Unity blanc de base. 
+    Un bouton sur le menu principal : 
+
+    * **Absent**
+    * **Fonctionnel :** un bouton Unity blanc de base qui fait ce qu'il doit faire.
     * **Intégré :** un bouton aux couleurs, à la police et aux sprites de l'univers. 
     * **Raffiné :** il est intégré et en plus, il réagit au survol et au clic, émet un son et le menu apparaît par une transition.
 
