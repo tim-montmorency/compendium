@@ -6,7 +6,7 @@
 <div class="grid" markdown>
 
 <div class="card" markdown>
-:material-book-open-page-variant-outline: __Les consignes__
+:material-book-open-page-variant-outline: __Les consignes du récit défilant__
 
 ---
 

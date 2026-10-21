@@ -31,7 +31,7 @@ Les ingrédients, des exemples à décortiquer et une démo avec des données r�
 </div>
 
 <div class="card" markdown>
-:material-book-open-page-variant-outline: __Les consignes__
+:material-book-open-page-variant-outline: __Les consign du récit défilant__
 
 ---
 
