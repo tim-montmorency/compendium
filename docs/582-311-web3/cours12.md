@@ -338,25 +338,17 @@ On réunit tout&nbsp;: état (`x-data`), liaison d'attribut (`:data-theme`), év
 
 ## Installation
 
-=== ":material-flash: CDN (rapide)"
+```bash
+npm install chart.js
+```
 
-    ```html
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    ```
+```js title="src/main.js"
+import Chart from 'chart.js/auto'
+```
 
-=== ":simple-vite: npm (projet Vite)"
+!!! note "`chart.js/auto`"
 
-    ```bash
-    npm install chart.js
-    ```
-
-    ```js title="src/main.js"
-    import Chart from 'chart.js/auto'
-    ```
-
-    !!! note "`chart.js/auto`"
-
-        L'import `chart.js/auto` enregistre automatiquement tous les types de graphiques. Pratique pour apprendre&nbsp;; en production, on peut n'importer que ce qu'on utilise pour alléger le _build_.
+    L'import `chart.js/auto` enregistre automatiquement tous les types de graphiques. Pratique pour apprendre&nbsp;; en production, on peut n'importer que ce qu'on utilise pour alléger le _build_.
 
 ## Un conteneur `<canvas>`
 

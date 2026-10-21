@@ -1,7 +1,9 @@
-# Cours 8 | GSAP - les bases
+# Cours 8
 
 [STOP]
 
+*[GSAP]: GreenSock Animation Platform
+*[npm]: Node Package Manager
 
 ## Vite
 
@@ -56,16 +58,23 @@ Le serveur Vite parti, vous devriez voir ceci dans le navigateur :
 └── 📄 package-lock.json
 ```
 
-!!! example "DEMO : Nouveau paradigme 🧠"
+!!! example "DEMO | Le nouveau paradigme 🧠"
 
     1. Regardons ensemble ce qui se passe dans le code initial et retirons ce qui ne nous intéresse pas
     1. Installons Taiwind et DaisyUi dans ce nouveau contexte.
       - Nouveauté 1 : `vite.config.js` et non `vite.config.mjs`
       - Nouveauté 2 : fichier css est chargé en javascript 🤯
 
+<div class="grid grid-1-2" markdown>
+  ![](./activite/vite-default/The-Luxury-of-Vanilla.jpg){.aspect-4-3}
+
+  <small>Exercice - Vite</small><br>
+  **[Vite Vanille](./activite/vite-default/index.md){.stretched-link .back}**
+</div>
+
 ## Optimiser les médias 🎬
 
-<!-- ![](./assets/images/squoosh.png){.w-100} -->
+![](./assets/images/compress.gif){.w-100}
 
 En Web, si on ne prépare pas les médias, ceux-ci rendent la page lente et font fuir les visiteurs.
 
@@ -99,6 +108,8 @@ Chaque format a son usage. La règle d'or&nbsp;: **le plus léger qui fait le tr
 
 ### Chargement « paresseux » d'une image
 
+![](./assets/images/laxyloading.png){.w-50 data-zoom-image}
+
 L'attribut `loading="lazy"` diffère le chargement des images **hors écran** jusqu'à ce qu'on approche par le défilement. Gratuit et efficace.
 
 ```html
@@ -106,6 +117,8 @@ L'attribut `loading="lazy"` diffère le chargement des images **hors écran** ju
 ```
 
 ### La vidéo
+
+![](./assets/images/ovide.gif){.w-50}
 
 **MP4** et **WebM** sont les deux standards Web. 
 
@@ -135,7 +148,8 @@ L'attribut `loading="lazy"` diffère le chargement des images **hors écran** ju
 Une vidéo sortie d'un téléphone ou d'un logiciel de montage pèse souvent plusieurs centaines de Mo. Pour le Web, une vidéo de fond de 10 à 20 secondes devrait peser **moins de 5 Mo**.
 
 1. **Compresser et redimensionner**
-  - [HandBrake](https://handbrake.fr/) (gratuit, Windows et macOS)
+  - [HandBrake](https://handbrake.fr/)
+  - [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve)
   - [ezgif : vidéo vers WebM](https://ezgif.com/video-to-webm)
 2. **Choisir le bon format**
   - **MP4** (codec H.264)&nbsp;: lu partout, y compris sur les vieux appareils.
@@ -148,6 +162,8 @@ Une vidéo sortie d'un téléphone ou d'un logiciel de montage pèse souvent plu
     Mieux vaut intégrer la vidéo depuis **YouTube** ou **Vimeo** avec un `<iframe>`. Ces plateformes adaptent la qualité à la connexion de chaque visiteur et n'utilise pas la bande passante de votre serveur.
 
 ### L'audio
+
+![](./assets/images/audio-cassette.gif){.w-50}
 
 Mêmes principes&nbsp;: **MP3** (universel) et **OGG/Opus** ou **WebM** (plus légers). On peut aussi offrir plusieurs sources.
 
@@ -167,7 +183,7 @@ Mêmes principes&nbsp;: **MP3** (universel) et **OGG/Opus** ou **WebM** (plus l�
 | Pas d'accents ni d'espaces | `plan-cegep.svg` (pas `plán cégep.svg`) |
 | Noms descriptifs | `equipe-2026.webp` (pas `IMG_2381.jpg`) |
 
-### Exercices - Médias
+---
 
 <div class="grid grid-1-2" markdown>
   ![](./activite/momo/momo.jpg){.aspect-4-3}
@@ -176,53 +192,42 @@ Mêmes principes&nbsp;: **MP3** (universel) et **OGG/Opus** ou **WebM** (plus l�
   **[Momo](./activite/momo/index.md){.stretched-link .back}**
 </div>
 
-<!-- **Savoirs :** #10 Programmation événementielle · #16 Animation via librairie -->
+## GSAP
 
-*[GSAP]: GreenSock Animation Platform
-*[CDN]: Content Delivery Network
-*[npm]: Node Package Manager
+<!-- ![](./assets/images/gsap-banner.jpg){.w-100} -->
+![type:video](./assets/videos/gsap-website.webm){.h-auto}
 
-![](./assets/images/gsap-banner.jpg){.w-100}
+**[GSAP](https://gsap.com/)** est une bibliothèque JavaScript dédiée à l'animation Web. 
 
-Jusqu'ici, vos pages sont belles et interactives, mais **statiques**. Aujourd'hui, on leur donne vie avec **[GSAP](https://gsap.com/)** (GreenSock Animation Platform), la librairie d'animation la plus utilisée du Web professionnel 🎬.
+<!-- !!! note "GSAP, c'est une librairie"
 
-!!! note "GSAP, c'est une librairie"
+    Contrairement à Tailwind ou DaisyUI (des **cadriciels** qui imposent leur façon de faire), GSAP est une **librairie**&nbsp;: *vous* l'appelez quand vous voulez, avec des fonctions comme `gsap.to(...)`. C'est une boîte à outils d'animation. -->
 
-    Contrairement à Tailwind ou DaisyUI (des **cadriciels** qui imposent leur façon de faire), GSAP est une **librairie**&nbsp;: *vous* l'appelez quand vous voulez, avec des fonctions comme `gsap.to(...)`. C'est une boîte à outils d'animation.
+<!-- !!! success "100 % gratuit depuis 2025"
 
-!!! success "100 % gratuit depuis 2025"
-
-    Depuis que Webflow a racheté GreenSock, **tout GSAP est gratuit**, y compris les plugins autrefois payants (ScrollTrigger, SplitText, MorphSVG, DrawSVG…). Aucune barrière pour vos projets, même commerciaux.
+    Depuis que Webflow a racheté GreenSock, **tout GSAP est gratuit**, y compris les plugins autrefois payants (ScrollTrigger, SplitText, MorphSVG, DrawSVG…). Aucune barrière pour vos projets, même commerciaux. -->
 
 ## Installation
 
-=== ":material-flash: CDN (rapide)"
+```bash
+npm install gsap
+```
 
-    ```html title="index.html"
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
-    ```
+```js title="src/main.js"
+import gsap from "gsap"
+```
 
-=== ":simple-vite: npm (projet Vite)"
+### _Tween_
 
-    ```bash
-    npm install gsap
-    ```
+Le mot **_tween_** (vient de « be**twee**n ») c'est une animation qui calcule toutes les valeurs **entre** un point de départ et un point d'arrivée. GSAP se base sur cette notion.
 
-    ```js title="src/main.js"
-    import gsap from "gsap"
-    ```
+On crée une animation (_tween_) avec l'une de ces trois méthodes&nbsp;:
 
-## Le _tween_
-
-Le mot **_tween_** vient de « be**twee**n »&nbsp;: c'est une animation qui calcule toutes les valeurs **entre** un point de départ et un point d'arrivée. C'est l'unité de base de GSAP.
-
-On crée un tween avec l'une de ces trois méthodes&nbsp;:
-
-| Méthode | Anime… | Exemple |
-| :--- | :--- | :--- |
-| [`gsap.to()`](https://gsap.com/docs/v3/GSAP/gsap.to()) | de l'état **actuel** → vers les valeurs données | « va vers là » |
-| [`gsap.from()`](https://gsap.com/docs/v3/GSAP/gsap.from()) | des valeurs données → vers l'état **actuel** | « viens de là » |
-| [`gsap.fromTo()`](https://gsap.com/docs/v3/GSAP/gsap.fromTo()) | d'un état de départ → vers un état de fin (les deux définis) | « de là à là » |
+| Méthode | Autrement dit |
+| --- | --- |
+| [`gsap.to()`](https://gsap.com/docs/v3/GSAP/gsap.to()) | « va vers là » |
+| [`gsap.from()`](https://gsap.com/docs/v3/GSAP/gsap.from()) | « viens de là » |
+| [`gsap.fromTo()`](https://gsap.com/docs/v3/GSAP/gsap.fromTo()) | « de là à là » |
 
 ```js title="Anatomie d'un tween"
 gsap.to(".boite", {   // 1. la cible (sélecteur CSS)
