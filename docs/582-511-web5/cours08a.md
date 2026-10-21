@@ -53,6 +53,7 @@ Le projet au complet : produit, garde-fous, évaluation, calendrier.
 ## Aujourd'hui
 
 - [ ] **Avant tout** : dépôt GitHub privé, et `marie-michelle-ouellet` invitée comme collaboratrice
+- [ ] Faire approuver votre thème avec moi, en équipe
 - [ ] Le storyboard du défilement : plusieurs cadres par chapitre au besoin
 - [ ] Le modèle de données JSON : votre objet « chapitre »
 - [ ] La matrice de responsabilités : qui possède quoi
@@ -84,6 +85,11 @@ Un storyboard de défilement montre **la suite des moments** que vit le visiteur
 - Les médias peuvent être des boîtes grises ou des croquis.
 
 [:material-file-document-edit-outline: Consignes du storyboard](projets/recit-defilant/cahier-de-charges.md#le-storyboard-dans-figma){ .md-button }
+
+!!! warning "Faites approuver votre thème"
+    **Dès que possible pendant l'atelier**, venez me voir **en équipe** (2 minutes) pour faire approuver votre thème, verbalement.
+
+    Apportez votre idée résumée en **une phrase**, et votre brainstorm (FigJam ou photos). Une fois le thème approuvé, inscrivez-le dans le [fichier des équipes](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" }.
 
 **À faire (25 min)** : avancez vos cadres dans Figma, à partir du gabarit.
 
@@ -131,6 +137,8 @@ Une question, une donnée réelle, une forme simple, une révélation au défile
 **À faire (15 min)** : section 6 du cahier. Décrivez l'idée, pas encore l'API.
 
 ## Rencontres d'équipe
+
+L'approbation du thème (2 min) se fait dès que possible pendant l'atelier storyboard. La rencontre d'avancement (5 min) a lieu plus tard, pendant les temps de travail.
 
 Pendant les temps de travail, je rencontre chaque équipe, **5 minutes**. Ayez à l'écran :
 
