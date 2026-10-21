@@ -84,14 +84,14 @@ Chaque personne produit **un** média préparé pour l'animation, intégré dans
 | **SVG préparé pour GSAP** | Un SVG dont les parties sont regroupées et nommées avec des `id` | 3 parties animées séparément |
 
 !!! info "L'IA comme source, la préparation par vous"
-    Une image générée par IA peut servir de point de départ. Mais **la préparation pour l'animation est votre travail** : découpage des plans, assemblage et retouche des images de la séquence, vectorisation et nommage des groupes. Citez l'outil dans votre journal et créditez le média dans le `README.md`.
+    Une image générée par IA peut servir de point de départ. Mais **la préparation pour l'animation est votre travail** : découpage des plans, assemblage et retouche des images de la séquence, vectorisation et nommage des groupes. Créditez le média dans le `README.md`, en indiquant l'outil d'IA comme source. Dans votre journal, réfléchissez à ce que vous avez préparé vous-même.
 
 On verra en classe comment préparer chacun de ces formats. D'ici là, choisissez le vôtre et inscrivez-le dans le cahier de charges.
 
 ### Les médias et les crédits
 
 - **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ :target="_blank" }, [Pexels](https://www.pexels.com/){ :target="_blank" }), selon leur licence.
-- **Images générées par IA permises**, si elles sont citées dans votre journal.
+- **Images générées par IA permises**, si elles sont créditées dans le `README.md`, avec l'outil comme source.
 - **Tous les médias sont crédités** dans le `README.md`, dans un tableau : média, chapitre, source, auteur, licence, modifié ou non.
 
 ```markdown
@@ -121,13 +121,13 @@ Dès le cahier de charges, une **matrice de responsabilités** dit qui possède 
 
 ### Journal de bord individuel
 
-Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`. Comme au portfolio, à chaque bloc, vous répondez aux 5 questions. Si vous avez utilisé l'IA pour un média, inscrivez-le (date, prompt, outil, résultat).
+Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`. Comme au portfolio, à chaque bloc, vous répondez aux 5 questions. Les crédits des médias, y compris ceux générés par IA, vont dans le `README.md`, pas dans le journal.
 
 1. Qu'est-ce que j'ai accompli depuis le dernier bloc? (Vous pouvez faire référence à vos *commits*.)
 2. Quelle a été ma principale difficulté et comment je l'ai surmontée?
 3. Qu'est-ce que j'ai appris que je ne savais pas avant?
 4. Quelle est ma prochaine étape concrète?
-5. Est-ce que j'ai utilisé l'IA pour un média? Si oui, lequel, avec quel outil, et qu'est-ce que j'ai préparé moi-même?
+5. Si j'ai utilisé l'IA comme source pour un média : qu'est-ce que j'ai préparé moi-même, et qu'est-ce que ça m'a appris?
 
 Votre **première entrée** contient aussi votre processus créatif :
 
@@ -231,9 +231,8 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 - [ ] `README.md` : les noms de l'équipe, le titre et le thème du récit, le lien vers le Figma.
 - [ ] `documentation/CAHIER-DE-CHARGES.md` est **complet**, à partir du gabarit.
 - [ ] Le **storyboard** du défilement est remis de deux façons :
-
-    - le **lien Figma**, dans le `README.md` et le cahier, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`;
-    - un **export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf`.
+  - le **lien Figma**, dans le `README.md` et le cahier, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`;
+  - un **export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf`.
 - [ ] Chaque personne a son `documentation/JOURNAL-prenom.md`, avec les 5 questions de ce premier bloc, ses 2 ou 3 inspirations et la trace du brainstorm (lien FigJam, ou lien vers les photos dans `documentation/brainstorm/`).
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }

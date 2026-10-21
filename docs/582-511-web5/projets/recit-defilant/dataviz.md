@@ -56,7 +56,7 @@ On descend au fond de l'océan en défilant, avec la profondeur affichée en con
 
 La fortune des milliardaires, à l'échelle : un pixel vaut 1 000 dollars, et on défile, longtemps. À observer : comment une **comparaison** rend un chiffre impossible à imaginer enfin concret.
 
-[:octicons-arrow-right-24: mkorostoff.github.io](https://mkorostoff.github.io/1-pixel-wealth/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: eattherichtextformat.github.io](https://eattherichtextformat.github.io/1-pixel-wealth/){ .stretched-link :target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -66,7 +66,7 @@ La fortune des milliardaires, à l'échelle : un pixel vaut 1 000 dollars, et on
 
 Un classique primé : des centaines de points qui se déplacent et se trient au fil du défilement. À observer : **les mêmes données** changent de forme à chaque étape de l'explication.
 
-[:octicons-arrow-right-24: r2d3.us](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: narrative-flow.github.io](https://narrative-flow.github.io/exploratory-study-2/){ .stretched-link :target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -116,6 +116,12 @@ Le code est commenté dans `js/dataviz.js`. Il suit toujours les mêmes 4 étape
 
 !!! info "Pas besoin de tout comprendre aujourd'hui"
     `fetch` vers une API externe et `IntersectionObserver` seront vus en classe en novembre. Aujourd'hui, regardez **ce que fait** la démo, pas encore comment.
+
+!!! tip "Pour explorer, si vous êtes curieux (facultatif)"
+
+    - [**Public APIs**](https://github.com/public-apis/public-apis){ :target="_blank" } : une grande liste d'API gratuites, classées par thème. Visez les colonnes **Auth : `No`** (sans clé) et **CORS : `Yes`** (utilisable depuis le navigateur).
+    - [**Données Québec**](https://www.donneesquebec.ca/){ :target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ :target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
+    - Quelques API sans clé, à tester le 11 nov. : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Art Institute of Chicago](https://api.artic.edu/docs/){ :target="_blank" } (œuvres d'art), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
 
 ## Pour votre cahier de charges
 

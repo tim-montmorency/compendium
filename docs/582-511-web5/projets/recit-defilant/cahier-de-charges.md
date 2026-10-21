@@ -48,10 +48,9 @@ Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le
 - **Au moins un cadre (*frame*) par chapitre**, en format desktop. Un chapitre où plusieurs animations se produisent, en même temps ou l'une après l'autre, peut avoir **plusieurs cadres** : un par moment important.
 - Ajoutez des cadres mobiles pour les chapitres les plus animés.
 - Dans la description de **chaque** cadre, **indiquez le numéro du chapitre** (ex. « Ch. 3 »), puis annotez :
-
-    - ce qui **apparaît**, **bouge** ou **reste épinglé**;
-    - **ce qui le déclenche** : l'entrée dans l'écran, la progression du défilement, un clic;
-    - **la technique** prévue : CSS au défilement, GSAP + ScrollTrigger ou IntersectionObserver.
+  - ce qui **apparaît**, **bouge** ou **reste épinglé**;
+  - **ce qui le déclenche** : l'entrée dans l'écran, la progression du défilement, un clic;
+  - **la technique** prévue : CSS au défilement, GSAP + ScrollTrigger ou IntersectionObserver.
 - Les **médias** peuvent être des boîtes grises ou des croquis : ce qui compte, c'est le déroulement.
 - Repérez votre **moment dataviz** et votre **composant Vue** (navigateur de chapitres ou barre de progression).
 
@@ -66,6 +65,108 @@ Pour exporter : dans Figma, menu principal → *File* → *Export frames to PDF*
 
 Pas d'outils IA de Figma pour le storyboard : dans ce projet, l'IA sert **seulement à créer vos médias**, jusqu'à nouvel ordre.
 
+## Le modèle de données JSON { #le-modele-de-donnees-json }
+
+Vos chapitres seront chargés avec `fetch()` depuis un fichier JSON, comme les projets de votre portfolio. Avant de coder, on décide **la forme d'un chapitre** : quelles propriétés, et pour quoi faire.
+
+**Exemple 1 : un chapitre simple**, avec un texte et un média.
+
+```json
+{
+  "id": "la-foret",
+  "numero": 3,
+  "titre": "Dans la forêt",
+  "texte": ["Premier paragraphe...", "Deuxième paragraphe..."],
+  "medias": [
+    { "type": "calque", "src": "assets/images/foret-avant.webp", "alt": "" }
+  ],
+  "responsable": "Prénom"
+}
+```
+
+**Exemple 2 : un chapitre en plusieurs plans.** Quand un chapitre est une **séquence** de moments animés, chacun avec son média et son animation, on ajoute un tableau `plans`. Le JavaScript boucle sur les plans d'un chapitre, exactement comme il boucle sur les chapitres.
+
+```json
+{
+  "id": "la-tempete",
+  "numero": 4,
+  "titre": "La tempête",
+  "type": "sequence",
+  "plans": [
+    {
+      "id": "ciel-calme",
+      "texte": "La mer est calme. Trop calme.",
+      "media": {
+        "type": "calques",
+        "calques": [
+          { "src": "assets/images/ciel-fond.webp", "vitesse": "lente" },
+          { "src": "assets/images/vagues.webp", "vitesse": "rapide" }
+        ],
+        "alt": ""
+      },
+      "animation": { "technique": "css", "declencheur": "defilement" }
+    },
+    {
+      "id": "eclair",
+      "texte": "Un éclair déchire le ciel.",
+      "media": {
+        "type": "svg",
+        "src": "assets/images/eclair.svg",
+        "alt": "Un éclair zèbre le ciel"
+      },
+      "animation": { "technique": "gsap", "declencheur": "epingle" }
+    },
+    {
+      "id": "bateau",
+      "texte": "Le bateau tangue, puis disparaît.",
+      "media": {
+        "type": "spritesheet",
+        "src": "assets/images/bateau.webp",
+        "images": 12,
+        "alt": "Un bateau secoué par les vagues"
+      },
+      "animation": { "technique": "observer", "declencheur": "entree" }
+    }
+  ],
+  "responsable": "Prénom"
+}
+```
+
+Ce qui change par rapport à l'exemple 1 :
+
+- `"type": "sequence"` indique au JavaScript de construire plusieurs plans plutôt qu'un seul bloc.
+- Chaque plan a **son propre** `id`, `texte`, `media` et `animation` : c'est le même découpage que vos cadres de storyboard.
+- Les propriétés du média dépendent de son type : une liste de `calques` avec leur vitesse, un nombre d'`images` pour une spritesheet, un simple `src` pour un SVG.
+- L'objet `animation` documente vos choix (technique, déclencheur). Le JavaScript peut s'en servir, ou ce peut être un simple aide-mémoire pour l'équipe.
+
+Questions à vous poser :
+
+- Le texte : une seule chaîne, ou un tableau de paragraphes?
+- Les médias : de quels types (image, calque, spritesheet, SVG, vidéo)? Chacun a-t-il un `alt`?
+- Vos chapitres affichent-ils des médias différents? Si oui, ajoutez une propriété `type` (ex. `"parallaxe"`, `"dataviz"`) : le JavaScript la lira pour savoir quel HTML construire (voir plus bas).
+- Un de vos chapitres contient-il plusieurs moments animés? Si oui, est-ce un chapitre en `plans`?
+
+### À quoi sert la propriété `type`?
+
+Ce n'est pas un type de donnée JavaScript (`string`, `number`) : c'est une **étiquette que vous inventez** dans votre JSON pour dire au JavaScript **quel genre de chapitre** construire.
+
+Le texte se construit toujours de la même façon, mais le média, lui, demande un HTML différent : une parallaxe en calques, une spritesheet, une dataviz. Une seule boucle passe sur tous les chapitres, et pour chacun, un `switch` lit le `type` et choisit le bon gabarit HTML :
+
+```js
+function createMedia(chapter) {
+  switch (chapter.type) {
+    case "parallaxe":
+      return `<div class="parallaxe">...</div>`;
+    case "dataviz":
+      return `<div class="dataviz">...</div>`;
+    default:
+      return "";
+  }
+}
+```
+
+Sans `type`, il faudrait deviner à partir des autres propriétés (fragile), ou tester l'`id` de chaque chapitre (il faudrait modifier le code chaque fois qu'on renomme un chapitre). C'est le même principe pour `"type": "sequence"` dans l'exemple 2 : il dit au JavaScript de construire plusieurs plans.
+
 ## Le moment dataviz
 
 Votre récit doit contenir au moins un moment où des **données réelles** apparaissent : un graphique, un chiffre qui bouge, un élément « vivant » (la météo du jour, l'heure du coucher du soleil, etc.). Ces données viendront d'une **API**, un service en ligne qui renvoie des données en JSON quand on lui envoie une requête avec `fetch()`.
@@ -74,6 +175,8 @@ Votre récit doit contenir au moins un moment où des **données réelles** appa
 
 - **le moment** : dans quel chapitre, et ce que les données apportent à votre histoire;
 - **le genre de données** que vous aimeriez montrer (ex. « la température dans une ville », « le nombre de séismes cette semaine », « des œuvres d'un musée »).
+
+[:material-chart-bar: Le moment dataviz : exemples et démo](projets/recit-defilant/dataviz.md){ .md-button .md-button--primary }
 
 Restez souple : si aucune API ne fournit exactement vos données, on ajustera l'idée ensemble.
 
@@ -86,6 +189,9 @@ Restez souple : si aucune API ne fournit exactement vos données, on ajustera l'
 ## Le gabarit
 
 Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documentation/CAHIER-DE-CHARGES.md`. Remplacez les indications entre crochets.
+
+!!! tip "la section 8 n'est pas à remplir pour le 23 oct."
+    La section 8 n'est pas à remplir pour le 23 oct. vous choisirez vos technologies plus tard.
 
 ````markdown
 # Cahier de charges : [Titre du récit]
@@ -138,7 +244,7 @@ Vérification : chaque technique (CSS au défilement, GSAP + ScrollTrigger, Inte
 
 ## 5. Le modèle de données
 
-Un exemple d'objet chapitre, tel qu'il sera dans votre fichier JSON :
+Un exemple d'objet chapitre, tel qu'il sera dans votre fichier JSON (inspirez-vous des [deux exemples plus haut](#le-modele-de-donnees-json)) :
 
 ```json
 {
@@ -175,7 +281,7 @@ Médias animables choisis :
 - [Prénom] : [image en calques / spritesheet / SVG préparé pour GSAP], pour le chapitre [numéro]
 - [Prénom] : [image en calques / spritesheet / SVG préparé pour GSAP], pour le chapitre [numéro]
 
-## 8. Les choix technologiques
+## 8. Les choix technologiques (NE PAS REMPLIR TOUT DE SUITE)
 
 [Pour chaque outil, 1 ou 2 phrases : pourquoi lui, pour ce projet.]
 
