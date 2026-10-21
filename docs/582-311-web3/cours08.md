@@ -207,21 +207,26 @@ Mêmes principes&nbsp;: **MP3** (universel) et **OGG/Opus** ou **WebM** (plus l�
 
     Depuis que Webflow a racheté GreenSock, **tout GSAP est gratuit**, y compris les plugins autrefois payants (ScrollTrigger, SplitText, MorphSVG, DrawSVG…). Aucune barrière pour vos projets, même commerciaux. -->
 
-## Installation
+### Animer, mais animer quoi ?
 
-```bash
-npm install gsap
-```
+GSAP peut animer presque n'importe quelle propriété CSS :
 
-```js title="src/main.js"
-import gsap from "gsap"
-```
+| Propriété GSAP | Effet |
+| :--- | :--- |
+| `x`, `y` | Déplacement horizontal / vertical (via `transform`) |
+| `rotation` | Rotation en degrés |
+| `scale` | Mise à l'échelle |
+| `opacity` | Transparence |
+| `backgroundColor` | Couleur de fond |
+| `width` / `height` | Dimensions |
 
-### _Tween_
+??? question "`x` plutôt que `left` ?"
 
-Le mot **_tween_** (vient de « be**twee**n ») c'est une animation qui calcule toutes les valeurs **entre** un point de départ et un point d'arrivée. GSAP se base sur cette notion.
+    Oui. Pour déplacer un élément, c'est mieux `x`/`y` (qui utilisent `transform`) que `left`/`top` pour la fluidité et la performance.
 
-On crée une animation (_tween_) avec l'une de ces trois méthodes&nbsp;:
+### Comment animer ?
+
+Avec ce qu'on appelle un **_tween_** (vient de « be **tween** »). C'est une animation qui calcule toutes les valeurs **entre** deux points.
 
 | Méthode | Autrement dit |
 | --- | --- |
@@ -229,36 +234,79 @@ On crée une animation (_tween_) avec l'une de ces trois méthodes&nbsp;:
 | [`gsap.from()`](https://gsap.com/docs/v3/GSAP/gsap.from()) | « viens de là » |
 | [`gsap.fromTo()`](https://gsap.com/docs/v3/GSAP/gsap.fromTo()) | « de là à là » |
 
+<p class="codepen" data-theme-id="50173" data-height="300" data-pen-title="gsap.to()" data-version="2" data-default-tab="result" data-slug-hash="ZYeRMag" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/01a16019-91ca-7bbc-936d-0c10c14f71f9">
+  gsap.to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
 ```js title="Anatomie d'un tween"
-gsap.to(".boite", {   // 1. la cible (sélecteur CSS)
-  x: 300,             // 2. les propriétés à animer
-  rotation: 360,
-  duration: 2         // 3. les paramètres du tween
+gsap.to(".boite", {   
+  x: 200,             
+  rotation: 90,
+  duration: 1.5         
 })
 ```
 
-<!-- CODEPEN: to() vs from() vs fromTo() côte à côte -->
+## Installation
 
-### La cible
+```bash title="Terminal"
+npm install gsap
+```
 
-Le premier argument est une **cible**&nbsp;: un sélecteur CSS (`".boite"`), un élément du DOM, ou un tableau d'éléments. GSAP anime **tout** ce qui correspond.
+Créer le fichier suivant : 
 
-### Les propriétés animables
+```js title="src/gsap.js"
+import gsap from "gsap"
 
-GSAP peut animer presque n'importe quelle propriété CSS. Les plus courantes&nbsp;:
+export function lancerAnimations() {
 
-| Propriété GSAP | Effet |
-| :--- | :--- |
-| `x` / `y` | Déplacement horizontal / vertical (via `transform`, performant) |
-| `rotation` | Rotation en degrés |
-| `scale` | Mise à l'échelle |
-| `opacity` | Transparence |
-| `backgroundColor` | Couleur de fond |
-| `width` / `height` | Dimensions |
+  // Code GSAP ici
 
-!!! tip "`x` plutôt que `left`"
+  // Exemple : 
+  // gsap.from(".boite", { x: 200, rotation: 90, duration: 1.5 })
+  
+}
+```
 
-    Pour déplacer un élément, préférez `x`/`y` (qui utilisent `transform`) à `left`/`top`. C'est beaucoup plus fluide, car le navigateur les traite sur le processeur graphique.
+Importer notre fichier gsap dans le main :
+
+```js title="src/main.js"
+import "./style.css"
+import { lancerAnimations } from "./gsap.js"
+
+lancerAnimations()
+```
+
+Le HTML à animer, lui, peut aller soit dans `index.html` ou dans `main.js` (avec `innerHTML`, comme dans le projet de départ de Vite). Ça revient au même.
+
+=== "⭐️ src/main.js"
+
+    ```js title="src/main.js"
+    import "./style.css"
+    import { lancerAnimations } from "./gsap.js"
+
+    document.querySelector('#app').innerHTML = `
+    <div class="boite"></div>
+    `
+
+    lancerAnimations()
+    ```
+
+=== "index.html (fonctionne aussi)"
+
+    ```html title="index.html"
+    <body>
+      <div class="boite"></div>
+      <script type="module" src="/src/main.js"></script>
+    </body>
+    ```
+
+---
+@todo réévaluer la suite.
+---
+
 
 ## Les paramètres d'un tween
 
