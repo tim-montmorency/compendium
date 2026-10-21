@@ -293,6 +293,7 @@ nav:
             - Consignes complètes: 582-511-web5/projets/recit-defilant/index.md
             - Cahier de charges: 582-511-web5/projets/recit-defilant/cahier-de-charges.md 
             - Exemples et inspirations: 582-511-web5/projets/recit-defilant/inspirations.md
+            - Data visualisation: 582-511-web5/projets/recit-defilant/dataviz.md
         - Portfolio: 
           - Portfolio consignes sommaires: 582-511-web5/projets/portfolio/index.md
           - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
@@ -342,6 +343,7 @@ nav:
             - Media queries, breakpoints: 582-211-web2/css/mediaqueries-breakpoints.md
             - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
       - Recap JavaScript: 582-511-web5/js/recap-js.md
+      - Cours 8.1: 582-511-web5/cours08a.md
       - Cours 7.2: 582-511-web5/cours07b.md
       - Cours 7.1: 582-511-web5/cours07a.md
       - Cours 6.2: 582-511-web5/cours06b.md

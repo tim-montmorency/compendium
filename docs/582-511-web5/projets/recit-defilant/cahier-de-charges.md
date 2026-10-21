@@ -2,7 +2,7 @@
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a href="index.html#ia">Détails</a></span>
+  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a class="lien-details" href="index.html#ia">Détails</a></span>
 </div>
 
 <div class="essentiel" markdown>
@@ -10,7 +10,7 @@
 
 1. Le cahier de charges fixe **ce que votre équipe va construire, et qui fait quoi**, avant d'écrire une ligne de code.
 2. Vous partez du **gabarit** ci-dessous : copiez-le dans `documentation/CAHIER-DE-CHARGES.md`, puis remplissez chaque section, en équipe.
-3. À déposer **au plus tard le ven. 23 oct., 23 h 59**, avec le storyboard dans Figma. C'est la remise 1 (5 %, note d'équipe).
+3. À déposer **au plus tard le ven. 23 oct., 23 h 59**, avec le storyboard (lien Figma et export PDF). C'est la remise 1 (5 %, note d'équipe).
 
 </div>
 
@@ -19,11 +19,16 @@
 !!! warning "Le processus est évalué"
     Le cahier de charges est la première étape de votre processus. Au cours du **mer. 21 oct.**, vous me présenterez votre avancement (concept, chapitres, début du storyboard). Le cahier et le storyboard se font **sans IA** : c'est votre réflexion que je veux voir.
 
+!!! danger "Remises formatives : l'échéance compte"
+    Même si une remise est dite « formative », **son échéance compte**. Le respect des échéances de **toutes** les remises du projet (cahier de charges, point de contrôle, prototype, bêta) aura un **impact sur votre note finale**.
+
+    Comme dans le monde professionnel : quand une étape est en retard, c'est toute l'équipe, et tout le projet, qui en souffre.
+
 ## Comment s'y prendre
 
 Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec votre concept et vos chapitres (étapes 1 et 2); on avance ensemble le storyboard et la matrice. Voici un ordre qui fonctionne :
 
-1. **Le thème et le concept** (section 1). Partez de votre brainstorm FigJam, et discutez-en à deux jusqu'à pouvoir le résumer en une phrase.
+1. **Le thème et le concept** (section 1). Partez de votre brainstorm (FigJam ou papier), et discutez-en à deux jusqu'à pouvoir le résumer en une phrase.
 2. **Le découpage en chapitres** (section 3) : ce que chaque chapitre raconte, avant de penser aux animations.
 3. **Le storyboard dans Figma** (section 2) : à quoi ressemble chaque chapitre, et ce qui bouge quand on défile.
 4. **Les animations** de chaque chapitre, en respectant les garde-fous (section 3).
@@ -34,19 +39,30 @@ Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec 
 
 Un storyboard de défilement n'est pas une maquette de chaque pixel. C'est **la suite des moments** que vit le visiteur.
 
-**Partez du gabarit** : il contient des cadres desktop et mobile, prêts à dupliquer pour chacun de vos chapitres.
+**Partez du gabarit** : il contient des cadres desktop et mobile, prêts à dupliquer autant de fois que nécessaire.
 
 [:material-download: Télécharger le gabarit de storyboard (Figma)](../../assets/documents/Storyboard_Gabarit_Mobile_Desktop.fig){ .md-button .md-button--primary download }
 
 Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le fichier `.fig` dans la fenêtre), puis partagez le fichier avec votre coéquipier ou coéquipière.
 
-- **Un cadre (*frame*) par chapitre**, en format desktop. Ajoutez un ou deux cadres mobiles pour les chapitres les plus animés.
-- Sur chaque cadre, **annotez** :
+- **Au moins un cadre (*frame*) par chapitre**, en format desktop. Un chapitre où plusieurs animations se produisent, en même temps ou l'une après l'autre, peut avoir **plusieurs cadres** : un par moment important.
+- Ajoutez des cadres mobiles pour les chapitres les plus animés.
+- Dans la description de **chaque** cadre, **indiquez le numéro du chapitre** (ex. « Ch. 3 »), puis annotez :
+
     - ce qui **apparaît**, **bouge** ou **reste épinglé**;
     - **ce qui le déclenche** : l'entrée dans l'écran, la progression du défilement, un clic;
     - **la technique** prévue : CSS au défilement, GSAP + ScrollTrigger ou IntersectionObserver.
 - Les **médias** peuvent être des boîtes grises ou des croquis : ce qui compte, c'est le déroulement.
 - Repérez votre **moment dataviz** et votre **composant Vue** (navigateur de chapitres ou barre de progression).
+
+### Remettre le storyboard : le lien et le PDF
+
+Vous remettez votre storyboard **de deux façons** :
+
+- **Le lien Figma**, dans le `README.md` et dans le cahier (section 2), avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`. C'est la version vivante : je pourrai y laisser des commentaires.
+- **Un export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf`. C'est la version **figée au moment de la remise** : elle montre ce qui était fait à l'échéance.
+
+Pour exporter : dans Figma, menu principal → *File* → *Export frames to PDF*. Vérifiez que tous vos cadres y sont, dans l'ordre du récit.
 
 Pas d'outils IA de Figma pour le storyboard : dans ce projet, l'IA sert **seulement à créer vos médias**, jusqu'à nouvel ordre.
 
@@ -76,8 +92,9 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 
 **Équipe** : [Prénom Nom], [Prénom Nom]
 **Thème** : [une cause / un mini-documentaire / une vitrine / un explicatif / une fiction]
-**Brainstorm FigJam** : [lien]
+**Brainstorm** : [lien FigJam, ou lien vers les photos dans `documentation/brainstorm/`]
 **Storyboard Figma** : [lien]
+**Storyboard PDF** : [documentation/storyboard.pdf](storyboard.pdf)
 
 ## 1. Le concept
 
@@ -141,8 +158,10 @@ Un exemple d'objet chapitre, tel qu'il sera dans votre fichier JSON :
 L'API sera choisie au cours du mer. 11 nov. Pour l'instant, décrivez l'idée.
 
 - **Chapitre** : [numéro]
+- **La question** à laquelle le moment répond : [ex. combien de fois la Terre a-t-elle tremblé cette semaine?]
 - **Genre de données souhaitées** : [ex. la température heure par heure dans une ville]
-- **Ce qu'elles racontent dans le récit** : [1 ou 2 phrases]
+- **La forme imaginée** : [chiffre géant / une unité par donnée / barres / échelle / ligne du temps / autre]
+- **Ce qu'elles racontent dans le récit** : [1 ou 2 phrases : la chute]
 - **Pistes d'API, si vous en avez trouvé** : [facultatif]
 
 ## 7. L'inventaire des médias
@@ -185,5 +204,7 @@ Médias animables choisis :
 - [ ] Chaque personne a au moins 3 chapitres et un média animable dans la matrice.
 - [ ] Chaque technique d'animation apparaît au moins une fois dans le tableau des chapitres.
 - [ ] Le moment dataviz est décrit : chapitre, genre de données, ce qu'elles racontent.
-- [ ] Les liens FigJam (brainstorm) et Figma (storyboard) fonctionnent, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`.
+- [ ] La trace du brainstorm est accessible : lien FigJam partagé, ou photos lisibles dans `documentation/brainstorm/`.
+- [ ] Le lien Figma du storyboard fonctionne, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`.
+- [ ] Le storyboard est exporté en PDF dans `documentation/storyboard.pdf`, avec tous les cadres.
 - [ ] Le tout est poussé sur GitHub **au plus tard le ven. 23 oct., 23 h 59**.

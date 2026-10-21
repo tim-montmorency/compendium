@@ -102,7 +102,7 @@ Avant de partir, dans votre fichier :
 
 **Ne passez pas Pages sur `main`** tant que vos 3 tests ne sont pas terminés.
 
-## Devoir
+## Devoirs
 
 ### Portfolio : tests, correctifs, validation
 

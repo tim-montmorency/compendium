@@ -6,7 +6,7 @@
 <div class="grid" markdown>
 
 <div class="card" markdown>
-:material-book-open-page-variant-outline: __Les consignes__
+:material-book-open-page-variant-outline: __Les consignes du récit défilant__
 
 ---
 
@@ -43,8 +43,8 @@ Des récits défilants à décortiquer, avec une grille d'observation.
 - [ ] Exemples et inspirations : décortiquer quelques récits défilants
 - [ ] **Seul** : noter 2 ou 3 animations qui vous inspirent dans votre journal
 - [ ] Former les équipes de 2
-- [ ] **En équipe** : brainstorm dans FigJam, puis choisir un thème
-- [ ] Ajouter le lien du FigJam dans votre journal (chacun)
+- [ ] **En équipe** : brainstorm (FigJam ou papier), puis choisir un thème
+- [ ] Ajouter la trace du brainstorm dans votre journal (chacun)
 - [ ] Commencer le cahier de charges, en équipe
 - [ ] Devoir : vos deux semaines, jusqu'au ven. 23 oct.
 
@@ -90,16 +90,16 @@ Parcourez les [exemples et inspirations](projets/recit-defilant/inspirations.md)
 - ce qui bouge, et ce qui le déclenche;
 - ce que vous aimeriez emprunter pour votre récit.
 
-## Choisir un thème : brainstorm en équipe dans FigJam
+## Choisir un thème : brainstorm en équipe
 
 On veut voir votre **processus créatif**, pas seulement l'idée finale. En équipe :
 
-1. **Ouvrez un tableau FigJam** et partagez-le avec votre coéquipier ou coéquipière.
+1. **Ouvrez un tableau FigJam** et partagez-le avec votre coéquipier ou coéquipière. Vous préférez le papier? Prenez une grande feuille.
 2. **Divergez** : chacun y dépose au moins **3 idées** de récit (une cause, un mini-documentaire, une vitrine, un explicatif, une fiction). Ajoutez vos inspirations, des mots-clés, des images, des pistes de chapitres. On ne juge pas encore : la quantité d'abord.
 3. **Convergez** : pour chaque idée, vérifiez : **ça se raconte en 6 à 8 chapitres?** Il y a des **images** à trouver ou à produire? Une **donnée** à aller chercher pour la dataviz? Gardez **une** idée, et résumez-la en une phrase.
-4. **Chacun ajoute le lien du FigJam dans son journal**, même si c'est le même tableau pour les deux.
+4. **Chacun ajoute la trace dans son journal**, même si c'est la même pour les deux : le lien du FigJam, ou un lien vers les photos lisibles de vos feuilles, déposées dans `documentation/brainstorm/`.
 
-Ne nettoyez pas le tableau après coup : les idées écartées font partie de votre processus.
+Ne nettoyez pas le tableau après coup : les idées écartées font partie de votre processus. Cette trace est **obligatoire** pour la remise 1. [Ce qu'elle doit montrer](projets/recit-defilant/index.md#brainstorm)
 
 Validez votre thème avec moi avant de partir, puis inscrivez-le dans le [fichier des équipes](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" }.
 
@@ -113,12 +113,12 @@ Avant la fin du cours, chaque équipe a :
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](projets/recit-defilant/cahier-de-charges.md){ .md-button }
 
-## Devoir : vos deux semaines
+## Devoirs
 
 On se revoit le **mer. 21 oct.** Arrivez avec votre concept et vos chapitres (étapes 1 et 2) : vous me présenterez votre avancement, et on avancera ensemble le storyboard et la matrice. D'ici là, vous travaillez en équipe, à votre rythme. Un ordre qui fonctionne :
 
 1. **Le concept et les chapitres** : ce que chaque chapitre raconte.
-2. **Le storyboard dans Figma** : un cadre par chapitre, annoté (ce qui bouge, ce qui le déclenche, la technique). Partez du [gabarit de storyboard](assets/documents/Storyboard_Gabarit_Mobile_Desktop.fig){ download }.
+2. **Le storyboard dans Figma** : au moins un cadre par chapitre, et plusieurs si un chapitre contient plusieurs animations. Chaque cadre est annoté : numéro du chapitre, ce qui bouge, ce qui le déclenche, la technique. Partez du [gabarit de storyboard](assets/documents/Storyboard_Gabarit_Mobile_Desktop.fig){ download }.
 3. **Les animations** de chaque chapitre, dans les garde-fous.
 4. **La matrice de responsabilités** : qui possède quoi. Ensemble.
 5. **Votre média animable** : chacun choisit son format (calques, spritesheet ou SVG).
@@ -130,11 +130,11 @@ On se revoit le **mer. 21 oct.** Arrivez avec votre concept et vos chapitres (é
 
 <div class="class-content-link">
   <img src="assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
 </div>
 
 !!! info "Pas encore de code d'animation"
     GSAP, le CSS au défilement et Vue arrivent en classe à partir du 28 oct. D'ici là, c'est la **conception** : bien planifier maintenant, c'est coder plus vite ensuite.
 
 !!! warning "Remise 1 : ven. 23 oct., 23 h 59 (pas de cours ce jour-là)"
-    Cahier de charges complet dans le dépôt, storyboard dans Figma, un journal par personne. [Liste de vérification de la remise 1](projets/recit-defilant/index.md#remise-1)
+    Cahier de charges complet dans le dépôt, storyboard (lien Figma et `documentation/storyboard.pdf`), un journal par personne. [Liste de vérification de la remise 1](projets/recit-defilant/index.md#remise-1)

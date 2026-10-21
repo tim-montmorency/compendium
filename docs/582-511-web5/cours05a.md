@@ -151,7 +151,7 @@ Chacun remplit le formulaire avant de partir (2 minutes, individuel) :
 
 Entrée au journal de bord avant de partir.
 
-## Devoir
+## Devoirs
 
 ### Portfolio
 

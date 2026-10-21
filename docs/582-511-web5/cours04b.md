@@ -119,7 +119,7 @@ Entrée au journal de bord : quels prompts Copilot avez-vous utilisés pendant l
 
 Commit final avant de partir.
 
-## Devoir
+## Devoirs
 
 Afin de s'assurer d'arriver à livrer le prochain à temps, mercredi prochain, vous devrez avoir intégré au moins :
 

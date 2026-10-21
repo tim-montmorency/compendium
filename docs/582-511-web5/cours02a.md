@@ -269,7 +269,7 @@ En dyade ou petit groupe, présentez vos directions et recevez une critique selo
 
 À la fin de l'atelier, chacun repart avec **une direction retenue**, et une phrase qui justifie pourquoi.
 
-## Devoirs 📓
+## Devoirs
 
 - Réaliser les maquettes Figma pour les directions retenues. Si vous utilisez l'IA de Figma, citez vos prompts dans le [journal de bord](projets/portfolio/index.md#journal-de-bord-journalmd)..
 - **Rappel : vendredi 4 sept, pas de cours.** Travail autonome : avancer les maquettes Figma et justifier vos choix technos dans `PLANIFICATION.md`.

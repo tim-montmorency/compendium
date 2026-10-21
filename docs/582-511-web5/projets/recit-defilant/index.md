@@ -4,7 +4,7 @@
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a href="#ia">Détails</a></span>
+  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a class="lien-details" href="#ia">Détails</a></span>
 </div>
 
 <!-- MM : premier jet pour le lancement du ven. 9 oct. La grille critériée détaillée, les questions du journal propres au récit défilant sont à compléter. -->
@@ -123,16 +123,31 @@ Dès le cahier de charges, une **matrice de responsabilités** dit qui possède 
 
 Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`. Comme au portfolio, à chaque bloc, vous répondez aux 5 questions. Si vous avez utilisé l'IA pour un média, inscrivez-le (date, prompt, outil, résultat).
 
-Votre **première entrée** contient aussi votre processus créatif :
-
-- **2 ou 3 animations qui vous inspirent**, notées seul : le lien, ce qui bouge, ce que vous aimeriez emprunter;
-- **le lien du brainstorm FigJam** de votre équipe. Chacun l'ajoute dans son propre journal, même si c'est le même tableau.
-
 1. Qu'est-ce que j'ai accompli depuis le dernier bloc? (Vous pouvez faire référence à vos *commits*.)
 2. Quelle a été ma principale difficulté et comment je l'ai surmontée?
 3. Qu'est-ce que j'ai appris que je ne savais pas avant?
 4. Quelle est ma prochaine étape concrète?
 5. Est-ce que j'ai utilisé l'IA pour un média? Si oui, lequel, avec quel outil, et qu'est-ce que j'ai préparé moi-même?
+
+Votre **première entrée** contient aussi votre processus créatif :
+
+- **2 ou 3 animations qui vous inspirent**, notées seul : le lien, ce qui bouge, ce que vous aimeriez emprunter;
+- **la trace du brainstorm** de votre équipe (voir ci-dessous). Chacun l'ajoute dans son propre journal, même si c'est la même trace pour les deux.
+
+### Votre brainstorm : une trace claire, exigée { #brainstorm }
+
+**C'est votre processus qui est évalué, pas seulement l'idée finale.** Je veux voir comment votre équipe est arrivée à son thème. Cette trace est **obligatoire** pour la remise 1.
+
+Elle peut prendre deux formes :
+
+- **Numérique** : un tableau **FigJam**, partagé avec `marie-michelle.ouellet@cmontmorency.qc.ca`. Mettez son **lien** dans votre journal.
+- **Papier** : prenez des **photos lisibles** de vos feuilles, déposez-les dans le dépôt sous `documentation/brainstorm/`, et mettez un **lien vers ces photos** dans votre journal.
+
+Une trace claire montre :
+
+- **les idées de départ** : au moins 3 idées par personne;
+- **les idées écartées** : ne nettoyez pas, elles font partie du processus;
+- **le choix final**, identifié clairement (encerclé, surligné, déplacé à part).
 
 ### L'IA dans ce projet : pour vos médias seulement { #ia }
 
@@ -184,13 +199,11 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 | Défense individuelle | 10 | **individuel** | mer. 9 déc. |
 | **Total** | **60** | **20 équipe, 40 individuel** | |
 
-La grille critériée détaillée sera publiée avant la remise du cahier de charges.
-
 ## Calendrier
 
 | Date | Étape |
 |---|---|
-| **ven. 9 oct.** | Lancement : inspirations (seul), équipes, brainstorm FigJam et thème (en équipe), début du cahier de charges |
+| **ven. 9 oct.** | Lancement : inspirations (seul), équipes, brainstorm et thème (en équipe), début du cahier de charges |
 | 9 au 20 oct. | **Travail autonome** : concept, chapitres, début du storyboard |
 | **mer. 21 oct.** | Cours : storyboard, modèle de données, matrice de responsabilités. Vous me présentez votre avancement. |
 | **ven. 23 oct.** | Pas de cours. **Remise 1 : cahier de charges**, déposé au plus tard à 23 h 59 |
@@ -209,10 +222,18 @@ La grille critériée détaillée sera publiée avant la remise du cahier de cha
 
 ## Remise 1 : le cahier de charges (ven. 23 oct., 23 h 59) { #remise-1 }
 
+!!! danger "Remises formatives : l'échéance compte"
+    Même si une remise est dite « formative », **son échéance compte**. Le respect des échéances de **toutes** les remises du projet (cahier de charges, point de contrôle, prototype, bêta) aura un **impact sur votre note finale**.
+
+    Comme dans le monde professionnel : quand une étape est en retard, c'est toute l'équipe, et tout le projet, qui en souffre.
+
 - [ ] Le **dépôt GitHub de l'équipe** existe, avec votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
 - [ ] `README.md` : les noms de l'équipe, le titre et le thème du récit, le lien vers le Figma.
 - [ ] `documentation/CAHIER-DE-CHARGES.md` est **complet**, à partir du gabarit.
-- [ ] Le **storyboard** du défilement est dans Figma, et le lien fonctionne (accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`).
-- [ ] Chaque personne a son `documentation/JOURNAL-prenom.md`, avec les 5 questions de ce premier bloc, ses 2 ou 3 inspirations et le lien du brainstorm FigJam.
+- [ ] Le **storyboard** du défilement est remis de deux façons :
+
+    - le **lien Figma**, dans le `README.md` et le cahier, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`;
+    - un **export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf`.
+- [ ] Chaque personne a son `documentation/JOURNAL-prenom.md`, avec les 5 questions de ce premier bloc, ses 2 ou 3 inspirations et la trace du brainstorm (lien FigJam, ou lien vers les photos dans `documentation/brainstorm/`).
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }

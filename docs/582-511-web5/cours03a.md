@@ -192,7 +192,7 @@ Documentez votre idée dans `PLANIFICATION.md` :
 - **Documenter** chaque changement substantiel dans `JOURNAL.md`.
 
 
-## Devoirs 📓
+## Devoirs
 
 ### Portfolio : remise 1
 

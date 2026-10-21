@@ -158,7 +158,7 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 
 [:simple-figma: Figma Éducation](ia/Guide_Figma_Education.md){ .md-button .md-button--primary :target="_blank" }
 
-## Devoirs 📓
+## Devoirs
 
 Faire (à ton rythme) le quiz diagnostique JavaScript
 

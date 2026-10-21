@@ -116,7 +116,7 @@ C'est la fin du bloc 2 : dans `documentation/JOURNAL.md`, répondez aux 5 questi
 
 Commit final avant de partir.
 
-## Devoir
+## Devoirs
 
 ### Portfolio: remise bêta (vend. 2 octobre)
 
