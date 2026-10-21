@@ -130,7 +130,7 @@ On se revoit le **mer. 21 oct.** Arrivez avec votre concept et vos chapitres (é
 
 <div class="class-content-link">
   <img src="assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
 </div>
 
 !!! info "Pas encore de code d'animation"

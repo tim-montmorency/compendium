@@ -884,7 +884,8 @@ stop:before {
   border-radius: 100%;
 }
 
-.class-content-link a,
+
+.class-content-link a:not(.lien-details),
 .class-content-link .sidetext {
   font-size: 140%;
   text-decoration: none !important;
@@ -901,6 +902,11 @@ stop:before {
 
 .class-content-link .sidetext ul li {
   margin-bottom: 0 !important;
+}
+
+.class-content-link .lien-details {
+  font-size: 0.8em;
+  text-decoration: underline;
 }
 
 .important-label {
