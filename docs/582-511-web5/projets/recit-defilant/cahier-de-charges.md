@@ -33,7 +33,7 @@ Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec 
 3. **Le storyboard dans Figma** (section 2) : à quoi ressemble chaque chapitre, et ce qui bouge quand on défile.
 4. **Les animations** de chaque chapitre, en respectant les garde-fous (section 3).
 5. **La matrice de responsabilités** (section 4) : qui possède quoi. À faire **ensemble**, et à prendre au sérieux : c'est la base de votre note individuelle.
-6. **Le reste** : données, dataviz, médias, technologies, calendrier, risques.
+6. **Le reste** : données, dataviz, médias, technologies, prochaines étapes, risques.
 
 ## Le storyboard dans Figma
 
@@ -290,14 +290,19 @@ Médias animables choisis :
 - **Hébergement** : [...]
 - **Autres** (Anime.js, Chart.js, etc., s'il y a lieu) : [...]
 
-## 9. Le calendrier de l'équipe (jusqu'au prototype du 13 nov.)
+## 9. Vos prochaines étapes (d'ici le mer. 28 oct.)
 
-| Semaine | [Prénom] | [Prénom] |
-|---|---|---|
-| 23 oct. | | |
-| 28 oct. | | |
-| 4 nov. | | |
-| 11 nov. | | |
+Ce que chacun aura fait d'ici le cours du mer. 28 oct. : 2 ou 3 lignes par personne, sans code. Ex. trouver ou produire les images sources de ses chapitres, commencer à préparer son média animable, écrire le texte d'un chapitre.
+
+**[Prénom]**
+
+- [...]
+- [...]
+
+**[Prénom]**
+
+- [...]
+- [...]
 
 ## 10. Les risques et le plan B
 
