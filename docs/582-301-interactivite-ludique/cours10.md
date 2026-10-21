@@ -1,9 +1,6 @@
 <!--
-Piste — Package Behavior (Unity 6, Unity Registry)
-- Arbres de comportement visuels, nœuds en langage naturel, Blackboard, débogage en temps réel.
-- Complète le NavMesh : NavMesh = comment se déplacer, Behavior = quoi faire.
-- Hors matière ici (voir l'avertissement « ça suffit ») : à mentionner seulement; démo possible en capsule d'enrichissement au cours 13.
-- Limites : package récent, API changeante, peu de tutoriels — vérifier la version installée au labo.
+Piste — Packages en lien avec le feedback
+- DOTween (Asset Store, gratuit) : animations par code en une ligne (échelle, secousse, fondu) — utile pour le game feel d'un ramassage ou d'un bouton.
 -->
 
 # Cours 10
@@ -11,77 +8,89 @@ Piste — Package Behavior (Unity 6, Unity Registry)
 [STOP]
 
 !!! tip "Où tu devrais être rendu"
-    Ta zone 1 est finie, et ton premier build WebGL est en ligne sur une page privée.
+    Ta zone 1 est finie, ton PNJ patrouille, et ton premier build WebGL est en ligne sur une page privée.
 
-    **Cette semaine :** ton PNJ.
+    **Cette semaine :** les particules, les projectiles et le *game feel*.
 
-    ⏭️ **Le jalon 3 est dans deux séances**, et c'est un dépôt : toutes les mécaniques branchées, les trois zones parcourables **et habillées**, build WebGL en ligne. L'habillage des zones 2 et 3 ne se fait pas en une soirée — commence-le cette semaine, en parallèle du PNJ.
+    ⏭️ **Le jalon 3 est dans deux séances**, et c'est un dépôt : toutes les mécaniques branchées, les trois zones parcourables **et habillées**, build WebGL en ligne. L'habillage des zones 2 et 3 ne se fait pas en une soirée — commence-le cette semaine, en parallèle.
 
 <!-- ## Déroulement de la séance
 
 | Temps | Activité |
 |---|---|
-| 0h00 – 0h50 | NavMesh et NavMeshAgent |
-| 0h50 – 1h20 | Patrouille par waypoints |
+| 0h00 – 0h50 | Le Particle System |
+| 0h50 – 1h20 | Recettes de particules |
 | 1h20 – 1h35 | Pause |
-| 1h35 – 2h20 | Détection : distance, cône de vision, Raycast |
-| 2h20 – 2h50 | La machine à états du PNJ |
-| 2h50 – 3h35 | Atelier | -->
+| 1h35 – 2h20 | Projectiles : Instantiate, AddForce, impact |
+| 2h20 – 3h00 | Game feel : la boîte à outils |
+| 3h00 – 3h35 | Atelier | -->
 
-## Le NavMesh
+## Le Particle System
 
-### Ce que c'est : une carte de ce qui est marchable
+https://assetstore.unity.com/packages/vfx/particles/particle-pack-127325
 
-### Le *baking* du NavMesh
+### Les modules essentiels
 
-### Le `NavMeshAgent`
+### Le Particle System en 5 réglages
 
-### Zones et obstacles
+### Les materials de particules
 
-## Faire bouger un PNJ
+### Recettes
 
-### La patrouille par waypoints
+#### Poussière de pas
 
-### La poursuite
+#### Étincelles
 
-### Le retour au poste
+#### Fumée
 
-## La détection
+#### Ramassage d'objet
 
-### Par distance : simple et souvent suffisant
+#### Portail
 
-### Le cône de vision
+### Trails et decals
 
-### Le `Raycast` : la ligne de vue
+### VFX Graph : ce que c'est, et pourquoi on ne l'ouvre pas
 
-!!! tip "L'ordre des tests compte"
-    Distance, puis angle, puis ligne de vue. Un `Raycast` coûte plus cher qu'une soustraction — inutile de le lancer si le joueur est à cinquante mètres.
+## Les projectiles
 
-## La machine à états du PNJ
+### `Instantiate` : le retour
 
-### Patrouille → alerte → poursuite → perte de trace
+### `Destroy` et la durée de vie
 
-### Les temporisations : pourquoi un PNJ ne doit pas réagir instantanément
+### `Rigidbody.AddForce`
 
-## Le PNJ non hostile
+### Détecter l'impact
 
-### Le marchand, le guide
+### L'*object pooling*, en une phrase
 
-### Le dialogue déclenché par CES
+## Le *game feel*
 
-## La rétroaction du PNJ
+### Pourquoi ça marche
 
-### L'animation
+### La boîte à outils
 
-!!! tip "Habiller et animer un PNJ"
-    Un personnage **T-pose Synty** passé dans [Mixamo](https://www.mixamo.com) pour le squelette, **Animation Type: Humanoid**, puis les animations de marche et de course récupérées directement sur Mixamo. Un PNJ qui patrouille avec une vraie animation de marche vaut dix lignes de code de plus.
+#### Le *screen shake*
 
-### Le son
+#### Le *hit stop*
 
-### L'indicateur visuel
+#### La mise à l'échelle au ramassage
 
-!!! note "Contenir l'ambition"
-    NavMesh, patrouille et détection : **ça suffit**. Pas d'arbre de comportement, pas de *behavior tree* d'asset store, pas de dialogue à embranchements, pas de combat à états multiples. Un PNJ qui patrouille, qui te voit et qui te poursuit produit déjà 90 % de la tension recherchée — et c'est faisable en une séance. Tout ce qui va au-delà mange trois semaines de production et finit rarement dans le build final.
+#### Les courbes d'animation
+
+### La règle du cumul
+
+!!! tip "Un événement, trois canaux"
+    Ramasser une pièce, ce n'est pas un son. C'est un son **plus** une particule **plus** un chiffre qui bouge dans le HUD **plus** un petit *pop* d'échelle. Séparément, chacun est anodin. Ensemble, c'est ce qui fait qu'on veut le refaire.
+
+## Trello
+
+### Nouvelles cartes
+
+**Rétroaction**
+
+- `Must` Créer le signal de réussite (son, particule, HUD)
+- `Must` Créer le signal d'échec (son, particule, HUD)
+- `Must` Lier trois systèmes de particules à des événements du jeu
 
 ## Pratique
 
@@ -95,9 +104,17 @@ Piste — Package Behavior (Unity 6, Unity Registry)
 ================================================================
 NOTES DE RÉDACTION — à supprimer une fois la séance écrite
 ================================================================
-SÉANCE ENTIÈREMENT À ÉCRIRE — aucune source dans l'ancien plan.
+À rapatrier depuis .archive/ (voir .archive/MIGRATION.md) :
+  - .archive/cours13.md  § Capsule 2 - Game feel
+                         § Pourquoi ça marche
+                         § La boîte à outils
+                         § Le Particle System en 5 réglages
+  - .archive/exercices/cours13-publication-et-game-feel.md (partie game feel)
 
-Prévoir : exercices/cours10-pnj-et-navmesh.md
-Prévoir : un ou deux scripts pour le kit (PatrolAgent, VisionCone).
+À écrire à neuf : les recettes de particules, tout le bloc projectiles
+(Instantiate, AddForce, impact, pooling), trails et decals.
+
+Rappel : Instantiate a été introduit au cours 5 (générer des GameObjects).
+C'est ici qu'il trouve son usage.
 ================================================================
 -->

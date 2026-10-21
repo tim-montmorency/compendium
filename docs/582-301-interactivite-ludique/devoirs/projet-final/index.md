@@ -176,8 +176,8 @@ Ces éléments sont **présents ou absents** : ils ne se raffinent pas.
 | **6** | Le personnage et les menus | 3 états du personnage visibles · caméra réglée · menus titre et fin · cinématique déclenchée |
 | **7** | **Prototype jouable — premier jalon** | Les 3 zones parcourables · les 3 passages fonctionnent · début et fin · 3 ambiances, 5 sons, Audio Mixer |
 | **8** | Habiller et éclairer | La **zone 1 est finie** : habillée, éclairée, animée, sonorisée |
-| **9** | La tranche verticale **deuxième jalon** | 3 systèmes de particules · signaux de réussite et d'échec · script C# écrit et branché · build Windows |
-| **10** | Le PNJ | Le PNJ patrouille, détecte, réagit |
+| **9** | La tranche verticale **deuxième jalon** | Le PNJ patrouille, détecte, réagit · script C# écrit et branché · build Windows |
+| **10** | Particules et *game feel* | 3 systèmes de particules · signaux de réussite et d'échec |
 | **11** | Publier | Page itch.io en ligne · README et crédits · PlayerPrefs · carte de preuves amorcée |
 | **12** | **Alpha — troisième jalon** | Les 3 zones habillées · build en ligne · 3 tests de jeu reçus |
 | **13** | Corriger | Les problèmes relevés aux tests sont réglés ou reportés |
@@ -218,14 +218,14 @@ Séance 8
   Monter le menu pause
 
 Séance 9
-  Créer le signal de réussite (son, particule, HUD)
-  Créer le signal d'échec (son, particule, HUD)
+  Préparer le NavMesh
+  Monter le PNJ : patrouille, détection, réaction
   Écrire le script C# et le brancher
   Exporter un build Windows
 
 Séance 10
-  Préparer le NavMesh
-  Monter le PNJ : patrouille, détection, réaction
+  Créer le signal de réussite (son, particule, HUD)
+  Créer le signal d'échec (son, particule, HUD)
 
 Séance 11
   Créer la page itch.io et publier le build

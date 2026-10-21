@@ -2,10 +2,11 @@
 
 !!! info "Dates"
 
-    - Groupe Enric : 26 octobre.
+    - Groupe Enric : 19 octobre.
     - Groupe Lora : 29 octobre.
 
-## 🚨 Remise des CV
+## 🚨 Remise des CV 
+(Le 22 pour le groupe d'Enric)
 
 ## Évaluation formative du CV par les pairs
 
@@ -14,17 +15,10 @@
 
 ## Tâches
 
-- [ ] Inviter de nouvelles entreprises
 - [ ] Prendre photos pro
 - [ ] Avancer les comités
 - [ ] Simuler votre entrevue
 - [ ] Remplir l'activité après l'entrevue
-
-## Dernières invitations
-[🛠️ Modèle courriel](./evaluations/journee-carriere.md){ .md-button }    
-
-Vous devez inviter les entreprises à votre nom qui sont encore en blanc dans la section à contacter:  
-[🛠️ Liste collaborative](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/lora_boisvert_cmontmorency_qc_ca/IQBCeJRk6J9dRYj76ftCL2zWAd54HmA0TUSsbk_12fmJaCM?e=HMRu8D){ .md-button }    
 
 
 ## Simulations d'entrevues
