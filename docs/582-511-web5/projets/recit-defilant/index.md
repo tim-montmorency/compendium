@@ -224,6 +224,11 @@ La grille critériée détaillée sera publiée avant la remise du cahier de cha
 
 ## Remise 1 : le cahier de charges (ven. 23 oct., 23 h 59) { #remise-1 }
 
+!!! danger "Remises formatives : l'échéance compte"
+    Même si une remise est dite « formative », **son échéance compte**. Le respect des échéances de **toutes** les remises du projet (cahier de charges, point de contrôle, prototype, bêta) aura un **impact sur votre note finale**.
+
+    Comme dans le monde professionnel : quand une étape est en retard, c'est toute l'équipe, et tout le projet, qui en souffre.
+
 - [ ] Le **dépôt GitHub de l'équipe** existe, avec votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
 - [ ] `README.md` : les noms de l'équipe, le titre et le thème du récit, le lien vers le Figma.
 - [ ] `documentation/CAHIER-DE-CHARGES.md` est **complet**, à partir du gabarit.

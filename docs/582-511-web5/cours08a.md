@@ -64,6 +64,11 @@ Le projet au complet : produit, garde-fous, évaluation, calendrier.
 !!! warning "Remise 1 : ven. 23 oct., 23 h 59 (pas de cours ce jour-là)"
     Cahier de charges complet dans le dépôt, storyboard dans Figma, un journal par personne. [Liste de vérification de la remise 1](projets/recit-defilant/index.md#remise-1)
 
+!!! danger "Remises formatives : l'échéance compte"
+    Même si une remise est dite « formative », **son échéance compte**. Le respect des échéances de **toutes** les remises du projet (cahier de charges, point de contrôle, prototype, bêta) aura un **impact sur votre note finale**.
+
+    Comme dans le monde professionnel : quand une étape est en retard, c'est toute l'équipe, et tout le projet, qui en souffre.
+
 <!-- MM : ajouter le tutorat de la semaine, s'il y a lieu. -->
 
 ## Déroulement
@@ -133,7 +138,7 @@ Pendant les temps de travail, je rencontre chaque équipe, **5 minutes**. Ayez �
 - vos **chapitres** : ce que chacun raconte;
 - votre **storyboard**, même commencé.
 
-## Clôture
+## Devoirs
 
 - Entrée au **journal de bord** : les 5 questions.
 - D'ici vendredi 23 h 59 : terminez le cahier, le storyboard et le journal, puis poussez le tout sur GitHub.
