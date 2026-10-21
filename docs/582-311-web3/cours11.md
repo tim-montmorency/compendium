@@ -4,7 +4,6 @@
 
 <!-- **Savoirs :** #3 Contrôle audio et vidéo · #13 Classe JavaScript · #14 Classes sur mesure · #12 Repérage d'erreur (DevTools) · #15 Interactivité -->
 
-*[CDN]: Content Delivery Network
 *[npm]: Node Package Manager
 *[API]: Application Programming Interface
 
@@ -119,21 +118,13 @@ heros.saluer()   // "Digger entre en scène !"
 
 L'`<audio>` natif suffit pour lire un fichier, mais dès qu'on veut des **effets sonores** fiables (jeu, interactions), des **sprites audio** ou un contrôle multiplateforme, **[Howler.js](https://howlerjs.com/)** est la référence.
 
-=== ":material-flash: CDN"
+```bash
+npm install howler
+```
 
-    ```html
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
-    ```
-
-=== ":simple-vite: npm"
-
-    ```bash
-    npm install howler
-    ```
-
-    ```js title="src/main.js"
-    import { Howl, Howler } from "howler"
-    ```
+```js title="src/main.js"
+import { Howl, Howler } from "howler"
+```
 
 ```js title="Un son avec repli de format"
 const son = new Howl({
@@ -202,21 +193,13 @@ console.log("durée :", video.duration)   // vérifier une valeur au vol
 
 ## Installation
 
-=== ":material-flash: CDN (rapide)"
+```bash
+npm install tone
+```
 
-    ```html
-    <script src="https://unpkg.com/tone"></script>
-    ```
-
-=== ":simple-vite: npm (projet Vite)"
-
-    ```bash
-    npm install tone
-    ```
-
-    ```js title="src/main.js"
-    import * as Tone from "tone"
-    ```
+```js title="src/main.js"
+import * as Tone from "tone"
+```
 
 !!! danger "Le son exige un clic d'abord"
 

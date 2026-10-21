@@ -14,21 +14,12 @@ Au dernier cours, vos animations se lançaient au chargement de la page. Aujourd
 
 ScrollTrigger est un **plugin** de GSAP. Il faut l'importer et l'**enregistrer** une fois.
 
-=== ":material-flash: CDN"
+```js title="src/main.js"
+import gsap from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
 
-    ```html
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
-    ```
-
-=== ":simple-vite: npm"
-
-    ```js title="src/main.js"
-    import gsap from "gsap"
-    import { ScrollTrigger } from "gsap/ScrollTrigger"
-
-    gsap.registerPlugin(ScrollTrigger)
-    ```
+gsap.registerPlugin(ScrollTrigger)
+```
 
 !!! warning "Le piège du `registerPlugin`"
 
