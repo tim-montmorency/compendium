@@ -176,6 +176,8 @@ Votre récit doit contenir au moins un moment où des **données réelles** appa
 - **le moment** : dans quel chapitre, et ce que les données apportent à votre histoire;
 - **le genre de données** que vous aimeriez montrer (ex. « la température dans une ville », « le nombre de séismes cette semaine », « des œuvres d'un musée »).
 
+[:material-chart-bar: Le moment dataviz : exemples et démo](projets/recit-defilant/dataviz.md){ .md-button .md-button--primary }
+
 Restez souple : si aucune API ne fournit exactement vos données, on ajustera l'idée ensemble.
 
 !!! tip "Pour explorer, si vous êtes curieux (facultatif)"
@@ -187,6 +189,9 @@ Restez souple : si aucune API ne fournit exactement vos données, on ajustera l'
 ## Le gabarit
 
 Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documentation/CAHIER-DE-CHARGES.md`. Remplacez les indications entre crochets.
+
+!!! tip "la section 8 n'est pas à remplir pour le 23 oct."
+    La section 8 n'est pas à remplir pour le 23 oct. vous choisirez vos technologies plus tard.
 
 ````markdown
 # Cahier de charges : [Titre du récit]
@@ -276,7 +281,7 @@ Médias animables choisis :
 - [Prénom] : [image en calques / spritesheet / SVG préparé pour GSAP], pour le chapitre [numéro]
 - [Prénom] : [image en calques / spritesheet / SVG préparé pour GSAP], pour le chapitre [numéro]
 
-## 8. Les choix technologiques
+## 8. Les choix technologiques (NE PAS REMPLIR TOUT DE SUITE)
 
 [Pour chaque outil, 1 ou 2 phrases : pourquoi lui, pour ce projet.]
 
