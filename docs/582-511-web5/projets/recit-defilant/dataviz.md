@@ -56,7 +56,7 @@ On descend au fond de l'océan en défilant, avec la profondeur affichée en con
 
 La fortune des milliardaires, à l'échelle : un pixel vaut 1 000 dollars, et on défile, longtemps. À observer : comment une **comparaison** rend un chiffre impossible à imaginer enfin concret.
 
-[:octicons-arrow-right-24: mkorostoff.github.io](https://mkorostoff.github.io/1-pixel-wealth/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: eattherichtextformat.github.io](https://eattherichtextformat.github.io/1-pixel-wealth/){ .stretched-link :target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -66,7 +66,7 @@ La fortune des milliardaires, à l'échelle : un pixel vaut 1 000 dollars, et on
 
 Un classique primé : des centaines de points qui se déplacent et se trient au fil du défilement. À observer : **les mêmes données** changent de forme à chaque étape de l'explication.
 
-[:octicons-arrow-right-24: r2d3.us](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: narrative-flow.github.io](https://narrative-flow.github.io/exploratory-study-2/){ .stretched-link :target="_blank" }
 </div>
 
 <div class="card" markdown>
