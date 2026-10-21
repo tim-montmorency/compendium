@@ -171,7 +171,7 @@ Questions à vous poser :
 
 - Le texte : une seule chaîne, ou un tableau de paragraphes?
 - Les médias : de quels types (image, calque, spritesheet, SVG, vidéo)? Chacun a-t-il un `alt`?
-- Un chapitre a-t-il besoin d'un `type`, pour que le JavaScript sache quoi afficher?
+- Vos chapitres affichent-ils des médias différents? Si oui, ajoutez une propriété `type` (ex. `"parallaxe"`, `"dataviz"`) : le JavaScript la lira pour savoir quel HTML construire (voir le [cahier de charges](projets/recit-defilant/cahier-de-charges.md#le-modele-de-donnees-json)).
 - Un de vos chapitres contient-il plusieurs moments animés? Si oui, est-ce un chapitre en `plans`?
 
 **À faire (20 min)** : section 5 du cahier, avec l'objet d'**un** de vos vrais chapitres.

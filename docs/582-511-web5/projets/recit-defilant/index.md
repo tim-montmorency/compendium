@@ -231,9 +231,8 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 - [ ] `README.md` : les noms de l'équipe, le titre et le thème du récit, le lien vers le Figma.
 - [ ] `documentation/CAHIER-DE-CHARGES.md` est **complet**, à partir du gabarit.
 - [ ] Le **storyboard** du défilement est remis de deux façons :
-
-    - le **lien Figma**, dans le `README.md` et le cahier, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`;
-    - un **export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf`.
+  - le **lien Figma**, dans le `README.md` et le cahier, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`;
+  - un **export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf`.
 - [ ] Chaque personne a son `documentation/JOURNAL-prenom.md`, avec les 5 questions de ce premier bloc, ses 2 ou 3 inspirations et la trace du brainstorm (lien FigJam, ou lien vers les photos dans `documentation/brainstorm/`).
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
