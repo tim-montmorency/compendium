@@ -142,8 +142,10 @@ Un exemple d'objet chapitre, tel qu'il sera dans votre fichier JSON :
 L'API sera choisie au cours du mer. 11 nov. Pour l'instant, décrivez l'idée.
 
 - **Chapitre** : [numéro]
+- **La question** à laquelle le moment répond : [ex. combien de fois la Terre a-t-elle tremblé cette semaine?]
 - **Genre de données souhaitées** : [ex. la température heure par heure dans une ville]
-- **Ce qu'elles racontent dans le récit** : [1 ou 2 phrases]
+- **La forme imaginée** : [chiffre géant / une unité par donnée / barres / échelle / ligne du temps / autre]
+- **Ce qu'elles racontent dans le récit** : [1 ou 2 phrases : la chute]
 - **Pistes d'API, si vous en avez trouvé** : [facultatif]
 
 ## 7. L'inventaire des médias

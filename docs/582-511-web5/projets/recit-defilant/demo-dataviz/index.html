@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Terre bouge | Démo de moment dataviz (Web 5)</title>
+  <meta name="description" content="Démo de moments dataviz au défilement : des données réelles chargées avec fetch, révélées quand on les atteint.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="entete">
+    <p class="surtitre">Démo · Le moment dataviz</p>
+    <h1>La Terre bouge<span class="point">.</span></h1>
+    <p class="intro">Deux moments dataviz, avec des données réelles chargées au moment où vous les atteignez. Faites défiler.</p>
+  </header>
+
+  <main>
+
+    <!-- Moment 1 : un chiffre géant, puis une unité par donnée -->
+    <section class="moment" id="seismes" data-moment="seismes">
+      <p class="moment__numero">Moment 1 · Un chiffre, puis une unité par donnée</p>
+      <h2>Cette semaine, la Terre a tremblé…</h2>
+
+      <p class="grand-chiffre"><span class="compteur" data-cible="0">0</span> <span class="grand-chiffre__unite">fois</span></p>
+      <p class="moment__sous-titre">Séismes de magnitude 2,5 et plus, dans le monde, ces 7 derniers jours.</p>
+
+      <!-- Un point par séisme : la taille suit la magnitude -->
+      <div class="points" aria-hidden="true"></div>
+
+      <p class="moment__chute"></p>
+      <p class="source">Données : <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_blank" rel="noopener">USGS</a>, mises à jour chaque minute.</p>
+    </section>
+
+    <!-- Moment 2 : des barres qui poussent -->
+    <section class="moment" id="meteo" data-moment="meteo">
+      <p class="moment__numero">Moment 2 · Des barres qui poussent</p>
+      <h2>Et à Montréal, cette semaine?</h2>
+      <p class="moment__sous-titre">Température maximale des 7 prochains jours.</p>
+
+      <div class="barres" role="img" aria-label="Température maximale à Montréal pour les 7 prochains jours"></div>
+
+      <p class="moment__chute"></p>
+      <p class="source">Données : <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>.</p>
+    </section>
+
+    <section class="moment moment--fin">
+      <h2>Ce qu'il faut retenir</h2>
+      <ol class="retenir">
+        <li><strong>Une question</strong> d'abord : « combien de fois la Terre a-t-elle tremblé? »</li>
+        <li><strong>Une donnée réelle</strong>, chargée avec <code>fetch()</code>.</li>
+        <li><strong>Une forme simple</strong> : un chiffre géant, des points, des barres.</li>
+        <li><strong>Une révélation</strong> au bon moment du défilement, avec <code>IntersectionObserver</code>.</li>
+        <li><strong>Une chute</strong> : une phrase qui dit ce que la donnée raconte.</li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer class="pied">
+    <p>Démo du cours Web 5 · Collège Montmorency · Code commenté dans <code>js/dataviz.js</code></p>
+  </footer>
+
+  <script src="js/dataviz.js"></script>
+</body>
+</html>

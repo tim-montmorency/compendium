@@ -1,0 +1,129 @@
+# Le récit défilant : le moment dataviz
+
+<!-- MM : vérifier chaque lien avant le cours. -->
+
+<div class="essentiel" markdown>
+<p class="essentiel__titre">L'essentiel en 3 points</p>
+
+1. Votre récit contient au moins un **moment dataviz** : des **données réelles** qui apparaissent au bon moment et font avancer l'histoire.
+2. Une bonne dataviz de récit, c'est **une question, une donnée, une forme simple, une révélation au défilement, une chute**.
+3. Pour le cahier de charges, décrivez seulement **l'idée** (section 6). L'API se choisit et se teste au cours du **mer. 11 nov.**
+
+</div>
+
+## Ce qui fait un bon moment dataviz
+
+Une dataviz de récit n'est pas un tableau de bord. Elle ne montre pas *toutes* les données : elle en montre **une**, au moment où le lecteur en a besoin.
+
+| Ingrédient | La question à se poser | Exemple |
+|---|---|---|
+| **Une question** | Qu'est-ce que le lecteur se demande à ce moment du récit? | « Combien de fois la Terre a-t-elle tremblé cette semaine? » |
+| **Une donnée** | Quelle donnée réelle y répond? | Les séismes des 7 derniers jours |
+| **Une forme simple** | Quelle forme se comprend en 2 secondes? | Un chiffre géant, puis un point par séisme |
+| **Une révélation** | Qu'est-ce qui bouge, et quand? | Le chiffre compte jusqu'à sa valeur quand on l'atteint |
+| **Une chute** | Quelle phrase dit ce que la donnée raconte? | « Le plus fort : magnitude 6,8 » |
+
+## Des formes simples qui marchent
+
+Pas besoin de librairie de graphiques : ces formes se font en HTML, en CSS et avec un peu de JavaScript.
+
+- **Le chiffre géant** : une seule valeur, très grande, qui compte jusqu'à sa valeur finale.
+- **Une unité par donnée** : un point, une icône ou un carré par élément. Le nombre devient visible.
+- **Les barres** : comparer quelques valeurs. Elles poussent quand on les atteint.
+- **L'échelle** : comparer une valeur à quelque chose de connu (la hauteur d'un immeuble, la taille d'un terrain de soccer).
+- **La ligne du temps** : une valeur qui change avec les années, révélée au fil du défilement.
+
+## Des exemples à décortiquer
+
+Ouvrez-les sur un ordinateur, défilez lentement, et repérez les 5 ingrédients.
+
+<div class="grid" markdown>
+
+<div class="card" markdown>
+:material-waves: __The Deep Sea, Neal Agarwal__
+
+---
+
+On descend au fond de l'océan en défilant, avec la profondeur affichée en continu. **Le défilement lui-même devient la donnée.** À observer : à quel moment apparaissent les repères qui nous font réaliser la profondeur.
+
+[:octicons-arrow-right-24: neal.fun/deep-sea](https://neal.fun/deep-sea/){ .stretched-link :target="_blank" }
+</div>
+
+<div class="card" markdown>
+:material-cash-multiple: __Wealth, Shown to Scale__
+
+---
+
+La fortune des milliardaires, à l'échelle : un pixel vaut 1 000 dollars, et on défile, longtemps. À observer : comment une **comparaison** rend un chiffre impossible à imaginer enfin concret.
+
+[:octicons-arrow-right-24: mkorostoff.github.io](https://mkorostoff.github.io/1-pixel-wealth/){ .stretched-link :target="_blank" }
+</div>
+
+<div class="card" markdown>
+:material-school-outline: __A Visual Introduction to Machine Learning, R2D3__
+
+---
+
+Un classique primé : des centaines de points qui se déplacent et se trient au fil du défilement. À observer : **les mêmes données** changent de forme à chaque étape de l'explication.
+
+[:octicons-arrow-right-24: r2d3.us](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/){ .stretched-link :target="_blank" }
+</div>
+
+<div class="card" markdown>
+:material-microphone-variant: __The Largest Vocabulary in Hip Hop, The Pudding__
+
+---
+
+Des rappeurs classés selon le nombre de mots différents dans leurs textes. À observer : un graphique qui **se construit étape par étape**, avec une phrase pour chaque étape.
+
+[:octicons-arrow-right-24: pudding.cool](https://pudding.cool/projects/vocabulary/){ .stretched-link :target="_blank" }
+</div>
+
+<div class="card" markdown>
+:material-account-group-outline: __The Fallen of World War II__
+
+---
+
+Un documentaire interactif sur les victimes de la Seconde Guerre mondiale, où les données sont racontées comme un film. À observer : **une unité par personne**, et l'effet des chiffres qui s'empilent.
+
+[:octicons-arrow-right-24: fallen.io](https://www.fallen.io/ww2/){ .stretched-link :target="_blank" }
+</div>
+
+<div class="card" markdown>
+:material-earth: __Our World in Data__
+
+---
+
+Des milliers de graphiques sur la santé, l'environnement, la société. **Une mine d'idées et de données** pour votre thème. À observer : le titre de chaque graphique est une phrase qui dit ce qu'il montre.
+
+[:octicons-arrow-right-24: ourworldindata.org](https://ourworldindata.org/){ .stretched-link :target="_blank" }
+</div>
+
+</div>
+
+Vous trouverez d'autres exemples, dont The Pudding et Pixel Space, dans la page [exemples et inspirations](inspirations.md).
+
+## La démo : la Terre bouge
+
+Une petite démo avec **deux moments dataviz** et des données réelles, chargées au moment où on les atteint :
+
+1. **Un chiffre géant, puis une unité par donnée** : le nombre de séismes de la semaine (API USGS), puis un point par séisme, dont la taille suit la magnitude.
+2. **Des barres qui poussent** : la température maximale des 7 prochains jours à Montréal (API Open-Meteo).
+
+Le code est commenté dans `js/dataviz.js`. Il suit toujours les mêmes 4 étapes : **attendre** que le moment approche (`IntersectionObserver`), **charger** les données (`fetch`), **construire** la forme, puis **révéler** avec une classe CSS.
+
+[:material-chart-bar: Voir la démo](demo-dataviz/index.html){ .md-button .md-button--primary :target="_blank" }
+
+!!! info "Pas besoin de tout comprendre aujourd'hui"
+    `fetch` vers une API externe et `IntersectionObserver` seront vus en classe en novembre. Aujourd'hui, regardez **ce que fait** la démo, pas encore comment.
+
+## Pour votre cahier de charges
+
+Dans la **section 6** du gabarit, décrivez votre idée :
+
+- **dans quel chapitre** arrive le moment dataviz;
+- **la question** à laquelle il répond, et **le genre de données** que vous aimeriez montrer;
+- **la forme** que vous imaginez (chiffre géant, unités, barres, échelle, ligne du temps);
+- **la chute** : ce que la donnée raconte dans votre histoire.
+
+Ajoutez un cadre pour ce moment dans votre storyboard. L'API se choisit au cours du **mer. 11 nov.** : des pistes pour explorer sont dans le [cahier de charges](cahier-de-charges.md#le-moment-dataviz).

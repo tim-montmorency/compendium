@@ -1,0 +1,250 @@
+/* =========================================================
+   Démo : le moment dataviz (Web 5)
+   ========================================================= */
+
+:root {
+  --noir: #0A0A0A;
+  --nuit: #1A1B1F;
+  --blanc: #F2F2F2;
+  --creme: #E9E4D8;
+  --gris: #A8A8A8;
+  --rouge: #FF2B47;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--noir);
+  color: var(--blanc);
+  font-family: "Poppins", system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+a {
+  color: inherit;
+}
+
+code {
+  font-size: 0.9em;
+  color: var(--rouge);
+}
+
+/* ---------- En-tête ---------- */
+
+.entete {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8vw;
+}
+
+.surtitre,
+.moment__numero {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gris);
+}
+
+h1 {
+  margin: 0.5rem 0 0;
+  font-size: clamp(2.8rem, 9vw, 7rem);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.point {
+  color: var(--rouge);
+}
+
+.intro {
+  max-width: 34rem;
+  color: var(--gris);
+}
+
+/* ---------- Les moments ---------- */
+
+.moment {
+  min-height: 100vh;
+  padding: 18vh 8vw;
+}
+
+.moment h2 {
+  margin: 0.4rem 0 1rem;
+  font-size: clamp(1.8rem, 4.5vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.moment__sous-titre {
+  margin: 0;
+  color: var(--gris);
+}
+
+.moment__chute {
+  max-width: 40rem;
+  margin-top: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: 0;
+  transform: translateY(1.5rem);
+  transition: opacity 0.8s 1.2s, transform 0.8s 1.2s;
+}
+
+.moment__chute strong {
+  color: var(--rouge);
+  font-weight: 700;
+}
+
+.source {
+  font-size: 0.8rem;
+  color: var(--gris);
+}
+
+/* ---------- Moment 1 : le chiffre géant ---------- */
+
+.grand-chiffre {
+  margin: 1rem 0 0.5rem;
+  font-size: clamp(5rem, 20vw, 14rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--rouge);
+  font-variant-numeric: tabular-nums;
+}
+
+.grand-chiffre__unite {
+  font-size: 0.25em;
+  color: var(--blanc);
+}
+
+/* Un point par séisme */
+.points {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  max-width: 60rem;
+  margin-top: 2.5rem;
+}
+
+.points span {
+  /* --taille et --i sont fixés en JavaScript pour chaque point */
+  width: var(--taille);
+  height: var(--taille);
+  border-radius: 50%;
+  background: var(--creme);
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.4s, transform 0.4s cubic-bezier(0.34, 1.8, 0.64, 1);
+  transition-delay: calc(var(--i) * 6ms); /* les points apparaissent un à la suite de l'autre */
+}
+
+.points span.fort {
+  background: var(--rouge);
+}
+
+/* ---------- Moment 2 : les barres ---------- */
+
+.barres {
+  display: flex;
+  align-items: flex-end;
+  gap: clamp(0.5rem, 2vw, 1.5rem);
+  height: 50vh;
+  max-width: 48rem;
+  margin-top: 2.5rem;
+  border-bottom: 1px solid var(--gris);
+}
+
+.barre {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.barre__valeur {
+  font-weight: 700;
+  opacity: 0;
+  transition: opacity 0.4s;
+  transition-delay: calc(var(--i) * 150ms + 0.6s);
+}
+
+.barre__colonne {
+  width: 100%;
+  height: var(--hauteur); /* fixée en JavaScript */
+  background: var(--creme);
+  border-radius: 6px 6px 0 0;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.9s cubic-bezier(0.34, 1.4, 0.64, 1);
+  transition-delay: calc(var(--i) * 150ms);
+}
+
+.barre--max .barre__colonne {
+  background: var(--rouge);
+}
+
+.barre__jour {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--gris);
+}
+
+/* ---------- La révélation : classe ajoutée par IntersectionObserver ---------- */
+
+.est-visible .points span,
+.est-visible .barre__colonne {
+  opacity: 1;
+  transform: none;
+}
+
+.est-visible .barre__valeur,
+.est-visible .moment__chute {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- Fin ---------- */
+
+.moment--fin {
+  min-height: auto;
+}
+
+.retenir {
+  max-width: 40rem;
+  padding-left: 1.2rem;
+}
+
+.retenir li {
+  margin-bottom: 0.6rem;
+}
+
+.pied {
+  padding: 3rem 8vw;
+  font-size: 0.8rem;
+  color: var(--gris);
+}
+
+/* ---------- Moins de mouvement : tout est affiché, sans animation ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .points span,
+  .barre__colonne,
+  .barre__valeur,
+  .moment__chute {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
