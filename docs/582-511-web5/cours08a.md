@@ -129,7 +129,7 @@ Une question, une donnée réelle, une forme simple, une révélation au défile
 
 Pendant les temps de travail, je rencontre chaque équipe, **5 minutes**. Ayez à l'écran :
 
-- votre **brainstorm FigJam** et le thème choisi;
+- la **trace de votre brainstorm** (FigJam ou photos) et le thème choisi;
 - vos **chapitres** : ce que chacun raconte;
 - votre **storyboard**, même commencé.
 
