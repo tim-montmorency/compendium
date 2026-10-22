@@ -1,4 +1,4 @@
-# Cours 9 | GSAP - ScrollTrigger & sprites
+# Cours 9 | GSAP - ScrollTrigger, timelines & sprites
 
 [STOP]
 
@@ -8,7 +8,7 @@
 
 ![](./assets/images/gsap-banner.jpg){.w-100}
 
-Au dernier cours, vos animations se lançaient au chargement de la page. Aujourd'hui, on les déclenche **au défilement** - l'effet vedette des sites modernes - grâce au plugin **[ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)**. On terminera avec l'**animation de sprite** et le **responsive**.
+Au dernier cours, vos animations se lançaient au chargement de la page. Aujourd'hui, on les déclenche **au défilement** - l'effet vedette des sites modernes - grâce au plugin **[ScrollTrigger](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)**, puis on enchaînera plusieurs tweens avec les **timelines**. On terminera avec l'**animation de sprite** et le **responsive**.
 
 ## Activer un plugin
 
@@ -102,6 +102,61 @@ gsap.to(".barre", {
 ```
 
 <!-- CODEPEN: barre de progression liée au scroll (scrub) -->
+
+## Les _timelines_
+
+Un tween anime une chose. Une **[timeline](https://gsap.com/docs/v3/GSAP/Timeline)** enchaîne **plusieurs** tweens, comme un scénario. Par défaut, chaque tween attend la fin du précédent.
+
+```js
+gsap.timeline()
+  .to(".boite", { x: 100, duration: 1 })        // démarre à 0 s
+  .to(".boite", { rotation: 360, duration: 1 }) // démarre après le premier
+  .to(".boite", { y: 100, duration: 1 })        // démarre après le deuxième
+```
+
+### Le paramètre de position
+
+Un 3<sup>e</sup> argument ajuste le moment où un tween démarre dans la timeline&nbsp;:
+
+| Position | Signifie |
+| :--- | :--- |
+| _(rien)_ | À la suite du tween précédent |
+| `"+=0.5"` | 0,5 s **après** la fin du précédent |
+| `"-=0.5"` | 0,5 s **avant** la fin du précédent (chevauchement) |
+| `"<"` | En même temps que le **début** du précédent |
+
+```js
+gsap.timeline()
+  .to(".boite", { x: 100, duration: 1 })
+  .to(".boite", { rotation: 360, duration: 1 }, "-=0.5")
+  .to(".ombre", { opacity: 0, duration: 1 }, "<")
+  .to(".boite", { y: 100, duration: 1 }, "+=0.2")
+```
+
+### Une timeline pilotée par le défilement
+
+C'est ici que les deux notions se rejoignent&nbsp;: le `scrollTrigger` se place **sur la timeline** plutôt que sur chaque tween. Avec `scrub`, le défilement fait avancer **toute la séquence**.
+
+```js
+gsap.timeline({
+  scrollTrigger: {
+    trigger: ".scene",
+    start: "top top",
+    end: "+=1000",   // la séquence s'étale sur 1000 px de défilement
+    scrub: 1,
+    markers: true
+  }
+})
+  .to(".boite", { x: 300 })
+  .to(".cercle", { scale: 2 }, "<")   // en même temps que la boîte
+  .to(".triangle", { rotation: 360 }) // ensuite
+```
+
+!!! info "La durée devient relative"
+
+    Avec `scrub`, ce n'est plus le temps qui fait avancer l'animation, mais le défilement. Les `duration` servent alors à définir les **proportions** entre les tweens&nbsp;: un tween de `duration: 2` occupe deux fois plus de défilement qu'un tween de `duration: 1`.
+
+<!-- CODEPEN: timeline + scrollTrigger + scrub -->
 
 ## Animation de sprite
 
