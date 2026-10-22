@@ -1,6 +1,6 @@
 # Cours 1
 
-<style>.md-sidebar--secondary .md-nav .md-nav { display: none; }</style>
+<!-- <style>.md-sidebar--secondary .md-nav .md-nav { display: none; }</style> -->
 
 *[LTS] : Long-Term Support
 *[UX] : User Experience

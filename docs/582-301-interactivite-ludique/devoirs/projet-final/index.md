@@ -6,262 +6,127 @@
 *[CES]: Collider Event System
 *[PNJ]: Personnage non joueur
 
-L'objectif est de concevoir et réaliser une expérience ludique en **trois niveaux** (3 scènes), dans laquelle l'interacteur progresse en accomplissant des actions. Le tout devra être publié en ligne.
-
-Le thème, le genre et l'univers sont libres. 
-
-Ce qui est imposé :
-
-- **Forme** : trois zones séparées en différentes scènes.
-- **Mise en place des notions apprises en classe** selon un gabarit qualitatif.
-
-<!-- > Changer de zone est facile : un CES et un chargement de scène suffisent. Ce qui compte, c'est le chemin pour y arriver, le soin apporté à chaque technique apprise en classe, la qualité du produit fini et la créativité démontrée.  -->
+L'objectif est de concevoir et réaliser une expérience ludique en **trois niveaux**, dans laquelle l'interacteur progresse en accomplissant des actions.
 
 **80% de la note finale**
 
 ## Exigences
 
-Vous devrez intégrer au jeu la plupart des techniques vues en cours. L'évaluation portera davantage sur la qualité de leur implémentation que sur leur simple présence.
+Vous devrez intégrer au jeu la plupart des techniques vues en cours. Toutefois, l'évaluation portera davantage sur la **qualité de leur implémentation** que sur leur simple présence.
 
-| Niveau | Description |
-|--------|-------------|
-| **Absente**       | La technique n'apparaît pas, ou ne fonctionne pas |
-| **Fonctionnelle** | La technique est présente |
-| **Intégrée**      | Son usage est cohérent avec le jeu |
-| **Raffinée**      | Son usage est cohérent avec le jeu, créatif et bien fait |
+| Critère            | Description |
+| ------------------ | ----------- |
+| **Absent** ❌      | La technique n'apparaît pas, ou ne fonctionne pas |
+| **Fonctionnel** 👍 | La technique est présente |
+| **Intégré** 👌     | Son usage est cohérent ou comble les attentes |
+| **Raffiné** 🤯     | Son usage est complet ou dépasse les attentes |
 
-!!! example "Exemple"
+Chaque élément est évalué sur cette échelle qualitative :level_slider: (0 à 3) ou en « fait » / « pas fait » :material-circle-half-full:
+
+??? example "Exemple"
 
     Un bouton sur le menu principal : 
 
     * **Absent**
-    * **Fonctionnel :** un bouton Unity blanc de base qui fait ce qu'il doit faire.
-    * **Intégré :** un bouton aux couleurs, à la police et aux sprites de l'univers. 
-    * **Raffiné :** il est intégré et en plus, il réagit au survol et au clic, émet un son et le menu apparaît par une transition.
+    * **Fonctionnel :** un bouton Unity blanc de base qui fait ce qu'il doit faire
+    * **Intégré :** un bouton aux couleurs, à la police et aux sprites de l'univers
+    * **Raffiné :** il est intégré et en plus, il réagit au survol et au clic, émet un son et le menu apparaît par une transition
 
 ### 3 zones en 3 scènes
 
-On ne change de scène que lorsqu'on a accompli une suite d'actions (_gating_).
+On ne change de scène que lorsqu'on a accompli une suite d'actions qu'on appelle des prérequis ou _gating_ (voir [Cours 1](../../cours01.md#types-de-gating)).
 
-Rappel des prérequis (_gating_) : 
+Pour chaque zone, ces critères seront évalués :
 
-| Prérequis | L'interacteur doit |
-|------|---------------------|
-| **Clé / serrure** | Trouver un objet quelque part et l'utiliser ailleurs |
-| **Adresse** | Réussir une action physique : saut, parcours, timing |
-| **Connaissance** | Comprendre ou observer : un code, un indice, un ordre |
-| **Collecte** | Réunir un nombre d'éléments dispersés |
-| **Confrontation** | Vaincre, éviter ou semer un PNJ |
-| **Mécanisme** | Manipuler le monde : levier, pont, plateforme, eau |
-| **Découverte** | Trouver un chemin qui ne se voit pas au premier regard |
-| **Négociation** | Obtenir quelque chose d'un PNJ |
+- [ ] :level_slider: **Environnement** : 
+  - Construit avec les assets Synty (ou autres assets validés)
+  - Rien en magenta
+  - On ne traverse pas le décor 
+  - On ne tombe pas éternellement
+  - Aucun objet flottant ni raccord visible (fente entre deux prefabs, surfaces qui scintillent, texture étirée)
+- [ ] :level_slider: **Éclairage** : 
+  - Éclairage propre à la zone
+  - La lumière guide le regard vers ce qui est important
+- [ ] :level_slider: **Prérequis** : Les prérequis de la zone font partie du système de _gating_ du jeu et contribuent au plaisir de jouer
+- [ ] :material-circle-half-full: **Récompense** : L'accomplissement du prérequis est récompensé
+- [ ] :material-circle-half-full: **Clarté** : L'interacteur sait quoi faire
+- [ ] :material-circle-half-full: **Transition** : Le changement vers la scène suivante se fait sans erreur
+- [ ] :level_slider: **Créativité**
 
-#### Zone 1
+### Structure et progression
 
-- [ ] L'obstacle qui empêche l'accès à la scène suivante doit faire partie de la thématique choisie
-- [ ] Les prérequis constituants l'objectif du niveau sont réfléchis et contiennent des conditions
-- [ ] L'interacteur doit savoir quoi faire (ne pas comprendre n'est pas un niveau de difficulté)
-- [ ] Le passage à la scène suivante doit être précédé d'une récompense
-- [ ] Au moins 1 minute de jeu
+- [ ] :level_slider: **Accueil** : Écran titre qui lance le jeu et donne accès aux crédits
+- [ ] :level_slider: **Fin** : Écran de fin, avec la possibilité de recommencer sans relancer le jeu
+- [ ] :level_slider: **Crédits** : Écran des crédits et retour à l'accueil
 
-#### Zone 2
+### Personnage et interactions
 
-- [ ] L'obstacle qui empêche l'accès à la scène suivante doit faire partie de la thématique choisie
-- [ ] Les prérequis constituants l'objectif du niveau sont réfléchis et contiennent des conditions
-- [ ] L'interacteur doit savoir quoi faire (ne pas comprendre n'est pas un niveau de difficulté)
-- [ ] Le passage à la scène suivante doit être précédé d'une récompense
-- [ ] Au moins 1 minute de jeu
+- [ ] :level_slider: **Contrôle et caméra** : Personnage contrôlable et usage efficace de la caméra
+- [ ] :level_slider: **Rétroactions** : surbrillance à l'approche, son, animation
+- [ ] :level_slider: **Affordance** : On comprend où aller et sur quoi agir
+- [ ] :material-circle-half-full: **CES** : Les interactions sont montées avec le Collider Event System vu en classe
 
-#### Zone 3 
+### Rétroaction et interface
 
-- [ ] L'obstacle qui empêche l'accès à la scène suivante doit faire partie de la thématique choisie
-- [ ] Les prérequis constituants l'objectif du niveau sont réfléchis et contiennent des conditions
-- [ ] L'interacteur doit savoir quoi faire (ne pas comprendre n'est pas un niveau de difficulté)
-- [ ] Le passage à la scène suivante doit être précédé d'une récompense
-- [ ] Au moins 1 minute de jeu
+- [ ] :level_slider: **Réussite et échec** : Chaque action réussie et chaque effet néfaste produisent un signal visuel et sonore approprié
+- [ ] :material-circle-half-full: **HUD** : Au moins un indicateur de progression
+- [ ] :material-circle-half-full: **HUD** : Le positionnement des éléments résiste bien à un changement de résolution
+- [ ] :material-circle-half-full: **Police** : Une police personnalisée remplace la police par défaut de Unity
 
-### Les techniques
+### Médias visuels
 
-#### Structure et progression
+- [ ] :level_slider: **Images intégrées** : Au moins une image ajoutée au projet et configurée en **Sprite (2D and UI)** dans le HUD
+- [ ] :level_slider: **Animation** : Au moins un élément du jeu animé manuellement avec un **Animator**
+- [ ] :level_slider: **Particules** : Au moins un système de particules créé et lié à un événement du jeu
 
-- [ ] **Environnement** : On ne traverse pas à travers le décor, on ne tombe pas éternellement
-- [ ] **Transitions de scènes** | Transitions sans erreur
-- [ ] **Menus** | Menu titre, menu pause, écran de fin et crédits. Possibilité de recommencer sans relancer le jeu
-- [ ] Scène menu, scène victoire, scène défaite (s'il y en a)
+### Son
 
-#### Personnage et interactions
+- [ ] :level_slider: **Ambiances** : Une ambiance sonore par zone
+- [ ] :level_slider: **Effets sonores** : Au moins cinq sons déclenchés par des événements. Une variation des sons répétitifs est configurée
+- [ ] :level_slider: **Sons d'interface** : Les boutons des menus produisent un son au clic. Sons cohérents avec le thème
+- [ ] :level_slider: **Volume** : 
+  - Usage de l'Audio Mixer et des groupes
+  - Volumes des sources audio équilibrés (ni trop forts, ni trop faibles)
 
-- [ ] **Contrôle et caméra** : Personnage contrôlable et usage efficace de la caméra
-- [ ] Rétrocations : surbrillance à l'approche, son, animation
-- [ ] **Affordance** : On comprend où aller et sur quoi agir
-- [ ] **Script C#** : Au moins un script personnalisé dont chaque ligne peut être expliquée
+### Rigueur et finition
 
-#### Rétroaction et interface
+#### Unity
 
-- [ ] **Réussite et échec** : Chaque action réussies et chaque effets néfastes produisent un signal visuel et sonore approprié
-- [ ] **HUD** : Au moins un indicateur de progression
-- [ ] **HUD** : Le positionnement des éléments résistent bien à un changement de résolution
+- [ ] :level_slider: **Arborescence** : Le contenu propre au projet est classé dans le dossier `Assets/_/`, réparti en sous-dossiers (prefab, audio, font, etc.); les packages importés restent hors de `_`. Le classement est tenu tout au long de la session
+- [ ] :material-circle-half-full: **Build Windows** : Le build Windows se lance et le jeu se joue du début à la fin sans erreur
 
-#### Médias visuels
+#### Gestion de projet
 
-- [ ] Narration environmentale : 
+- [ ] :level_slider: **Trello** : Gestion du projet tenue dans Trello tout au long de la session
 
-- [ ] **Environnement** | Construit avec les assets Synty ou validés, rien en magenta | Aucun objet flottant ni raccord visible; l'image importée semble faire partie du monde |
-- [ ] 
-- [ ] **Éclairage** | Éclairage et post-traitement propres à chaque zone | La lumière guide le regard vers ce qui compte |
-- [ ] **Décor animé** | Au moins un élément de décor animé : plateforme, mécanisme, porte | Mouvement travaillé (accélération, ralentissement) et son synchronisé |
-- [ ] **Particules** | Au moins trois systèmes de particules liés à des événements du jeu | Durée, quantité et son accordés à l'événement |
-- [ ] **Cinématique** | Une modeste cinématique déclenchée par une action, contrôles verrouillés pendant sa durée | Entrée et sortie sans à-coup; son ou musique accordé |
+#### Github
 
-#### Son
+- [ ] :level_slider: **README** : Description, commandes et lien vers la page itch.io
+- [ ] :level_slider: **README** : Crédits complets (nom des _assets_, type, URL et licence pour chacun)
 
-- [ ] **Ambiances** | Une ambiance sonore par zone, en boucle, sans coupure audible | Volume équilibré avec les effets; aucune coupure au changement de zone |
-- [ ] **Effets sonores** | Au moins cinq sons déclenchés par des événements, dont un spatialisé en 3D | Variation de hauteur ou sons multiples pour ce qui se répète |
-- [ ] **Sons d'interface** | Les boutons des menus produisent un son | Sons cohérents avec le thème; survol et clic distincts |
-- [ ] **Volume** | Audio Mixer dont les groupes sont organisés selon leur usage, et un curseur de volume dans les options | Le curseur agit en temps réel, avec un son de test |
+#### Itch.io
 
-#### Personnage non joueur
+- [ ] :level_slider: **itch.io** : Jeu publié en WebGL sur itch.io, jouable dans le navigateur. La page est soignée : captures d'écran, description et commandes
 
-- [ ] **PNJ** (NPC) | Au moins un PNJ qui se déplace sur NavMesh (hostile, guide ou marchand), dont l'état se voit ou s'entend | Ses changements d'état se lisent de loin : posture, son, lumière |
+### Oral (_post mortem_)
 
+- [ ] :level_slider: **Concept** : Le concept et la boucle de jeu sont présentés clairement
+- [ ] :level_slider: **Tâches reçues** : Les tâches reçues en cours de session et ce qui en a été fait
+- [ ] :level_slider: **Difficulté technique** : Une difficulté technique rencontrée et sa résolution
+- [ ] :level_slider: **Recul** : Ce qui serait fait autrement
 
+## Remise
 
-### Publication et finition
+À remettre la veille du Cours 15
 
-Ces éléments sont **présents ou absents** : ils ne se raffinent pas.
-
-- [ ] Jeu publié en **WebGL sur itch.io**
-- [ ] **README** : concept et commandes (les crédits sont évalués en [Rigueur](#rigueur))
-- [ ] **Arborescence du projet** vue en classe, respectée tout au long de la session
-- [ ] **Aucun défaut de finition** : pas de magenta, pas d'objet flottant, pas de texte provisoire, pas de collider manquant
-
-
-<!-- - **Journal de bord** (*devlog*) : une entrée par séance, à partir de la séance 5 -->
-
-
-
-### Créativité
-
-- Un élément conceptuel du GDD tenu jusqu'au bout
-- Trois zones qui se distinguent par leur style
-
-### Rigueur
-
-- Gestion du projet effectuée dans Trello
-- **Crédits complets dans le README** : chaque média externe (son, musique, modèle 3D, texture, police, pack, script) y figure avec son auteur, le lien direct vers sa source, sa licence exacte et son usage dans le jeu. Les médias gratuits et CC0 sont aussi notés. Les crédits sont tenus au fil de la session : l'historique des commits GitHub doit le montrer
-- Les recommandations faites par l'enseignant lors des rencontres individuelles ont été considérés et traités
-
-## La carte de preuves
-
-À la remise, le README.md sur GitHub doit contenir : 
-
-- [ ] Le Walkthrough complet pour finir le jeu (solution des prérequis). Important pour la correction
-- [ ] La liste des techniques et comment ils sont traités dans le jeu. Important pour la correction 
-
-!!! warning "Ce qui n'est pas déclaré n'est pas corrigé"
-
-    La correction ne cherche pas les fonctionnalités dans le jeu : elle va où la carte l'indique. Une technique réalisée mais non déclarée est traitée comme absente.
-
-<!-- | Technique | Où (scène et objet) | Comment y arriver en jouant |
-|-----------|---------------------|-----------------------------|
-| Clé et serrure | `Zone2` · `Cle_Manivelle` → `Porte_Atelier` | Ramasser la manivelle sur l'établi, revenir à la porte rouge |
-| Cinématique | `Zone3` · `Timeline_Reacteur` | Actionner le levier final au fond de la salle de contrôle |
-| Son spatialisé | `Zone1` · `AudioSource_Generatrice` | S'approcher de la génératrice à gauche du départ |
-| … | … | … | -->
-
-
-## Le calendrier
-
-| Séance | Étape | À la fin de la séance |
-|--------|-------|-----------------------|
-| **5** | Ouvrir le chantier | GDD validé · projet Unity créé et rangé · répertoire GitHub et tableau de tâches en place · zone 1 parcourable en *greybox* · HUD en place |
-| **6** | Le personnage et les menus | 3 états du personnage visibles · caméra réglée · menus titre et fin · cinématique déclenchée |
-| **7** | **Prototype jouable — premier jalon** | Les 3 zones parcourables · les 3 passages fonctionnent · début et fin · 3 ambiances, 5 sons, Audio Mixer |
-| **8** | Habiller et éclairer | La **zone 1 est finie** : habillée, éclairée, animée, sonorisée |
-| **9** | La tranche verticale **deuxième jalon** | Le PNJ patrouille, détecte, réagit · script C# écrit et branché · build Windows |
-| **10** | Particules et *game feel* | 3 systèmes de particules · signaux de réussite et d'échec |
-| **11** | Publier | Page itch.io en ligne · README et crédits · PlayerPrefs · carte de preuves amorcée |
-| **12** | **Alpha — troisième jalon** | Les 3 zones habillées · build en ligne · 3 tests de jeu reçus |
-| **13** | Corriger | Les problèmes relevés aux tests sont réglés ou reportés |
-| **14** | **Gel — quatrième jalon** | Contenu complet · vérification de la finition · build de validation publié |
-| **15** | Version finale | Version finale publiée · carte de preuves complète · oral de 10 minutes |
-
-## Tâches
+Un seul fichier `.zip`, nommé et organisé ainsi :
 
 ```txt
-Séance 5
-  Créer le projet Unity et appliquer l'arborescence
-  Créer le répertoire GitHub, le .gitignore Unity et le tableau de tâches
-  Monter la zone 1 en greybox, parcourable de bout en bout
-  Créer la section Crédits du README et y noter les assets déjà importés
-  Ancrer le HUD et le tester à deux résolutions
-
-Séance 6
-  Monter au moins 3 états du personnage et les rendre visibles
-  Régler la caméra Cinemachine
-  Monter les menus titre et fin
-  Monter la cinématique et la déclencher par une action
-
-Séance 7
-  Monter les zones 2 et 3 en greybox
-  Construire le passage 1 et vérifier les trois règles
-  Construire le passage 2 et vérifier les trois règles
-  Construire le passage 3 et vérifier les trois règles
-  Brancher la victoire et la défaite
-  Poser les 3 ambiances sonores et les 5 sons déclenchés
-  Ajouter un son spatialisé et configurer l'Audio Mixer
-  Noter la source et la licence de chaque son dans les crédits du README
-
-Séance 8
-  Habiller la zone 1 (prefabs, matériaux, image importée)
-  Noter la source et la licence de chaque asset importé dans les crédits du README
-  Éclairer la zone 1 et régler le post-traitement
-  Animer un élément de décor
-  Monter le menu pause
-
-Séance 9
-  Préparer le NavMesh
-  Monter le PNJ : patrouille, détection, réaction
-  Écrire le script C# et le brancher
-  Exporter un build Windows
-
-Séance 10
-  Créer le signal de réussite (son, particule, HUD)
-  Créer le signal d'échec (son, particule, HUD)
-
-Séance 11
-  Créer la page itch.io et publier le build
-  Rédiger le README (concept, commandes) et vérifier que les crédits sont complets
-  Brancher PlayerPrefs (volume et progression)
-  Amorcer la carte de preuves
-
-Séance 12
-  Habiller et éclairer les zones 2 et 3
-  Comparer 3 captures côte à côte : les zones sont-elles distinctes ?
-  Chronométrer chaque zone (1 min minimum, 10 min au total)
-  Publier l'alpha et la faire tester par 3 camarades
-
-Séance 13
-  Régler les problèmes relevés aux tests
-
-Séance 14
-  Vérifier la finition (magenta, objets flottants, textes provisoires)
-  Publier le build de validation
-
-Séance 15
-  Compléter la carte de preuves
-  Publier la version finale et préparer l'oral
+NOMDEFAMILLE-final-IL.zip
+ ├── 📁 build-windows        Dossier du build Windows
+ └── 📄 liens.txt            Lien du repo GitHub (public) + lien itch.io
 ```
 
-## La grille d'évaluation
+Remplacer `NOMDEFAMILLE` par son propre nom de famille (ex. : `TREMBLAY-final-IL.zip`).
 
-| Critère | Ce qui est regardé | Pondération |
-|---------|--------------------|-------------|
-| **Intégration des médias** | Médias visuels et son, sur l'échelle de raffinement | **22 %** |
-| **Actions et progression** | Structure et progression, personnage et interactions, rétroaction et interface, PNJ, sur l'échelle de raffinement | **22 %** |
-| **Créativité** | Parti pris nommé et tenu, zones distinctes, prérequis cohérents, détournement d'un outil, décisions justifiées | **12 %** |
-| **Rigueur** | Les tâches exigées aux quatre jalons sont réalisées, et démontrées à l'oral · gestion dans Trello · crédits complets et tenus au fil de la session dans le README | **12 %** |
-| **Publication et finition** | Build en ligne, README (concept, commandes), arborescence, carte de preuves, aucun défaut visible | **7 %** |
-| **Oral** | Concept, tâches reçues et ce qui en a été fait, une difficulté technique et sa résolution, ce qui serait fait autrement | **5 %** |
-| | | **80 %** |
-
+[Dossier de remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/jfcartier_cmontmorency_qc_ca/IgBd2_u8Wb4hRpJRkhFM4MfuARrNUq45PoiRrtrpLlB4QfM?e=Zpinwg){ .md-button .md-button--primary }

@@ -592,9 +592,6 @@ Nouvelles cartes :
 
 - Terminer la tranche verticale : la zone 1 habillée, éclairée, animée et sonorisée
 - Préparer un **build Windows** qui se lance sans erreur
-
-[STOP]
-
 - Lire l'énoncé du projet final
 
 [Énoncé du projet final](./devoirs/projet-final/index.md){ .md-button .md-button--primary .back}
