@@ -4,6 +4,8 @@
 
 ## Retour sur les exercices
 
+* Note sur le HTML dans le HTML, ca marche, mais ça ne permet pas d'ajouter des variables
+
 ## GSAP
 
 ![type:video](./assets/videos/gsap-website.webm){.h-auto}
