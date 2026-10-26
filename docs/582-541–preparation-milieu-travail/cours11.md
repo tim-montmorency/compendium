@@ -92,6 +92,10 @@ Courriel: lora.boisvert@cmontmorency.qc.ca ou EGLlagostera@cmontmorency.qc.ca
 
 
 ### Simulations d'entrevues
+Voici l'horaire des simulations d'entrevues: 
+
+![image](image/HoraireEntrevues.png)
+
 Après votre entrevue, répondez aux questions de l'activité suivante: 
 
 [🛠️ Retour sur la simulation d'entrevue](./activites/apres-simulation.md){ .md-button }   
