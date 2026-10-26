@@ -24,7 +24,9 @@
 * Démonstration de Antidote
 
 ### Présentation sur la recherche de stage ou d'emploi
-[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETvq2rTn-T9KpJk9dKvXONABSBXblf_OXaQ3etOj--gWRw?e=MiTjMX){ .md-button }         
+[📁 Voir la présentation](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/ETvq2rTn-T9KpJk9dKvXONABSBXblf_OXaQ3etOj--gWRw?e=MiTjMX){ .md-button }
+
+[📖 Quels sont mes droits ? Un guide legal pour les travailleu.ses.rs de l'industrie du jeu vidéo au Québec](https://gwumtl.com/kyr/KYR_Pamphlet_FR.pdf){ .md-button }
 
 
 #### Atelier sur la recherche d'emploi
