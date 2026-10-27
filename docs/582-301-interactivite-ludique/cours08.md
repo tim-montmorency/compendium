@@ -581,20 +581,17 @@ Nouvelles cartes :
 - `Must` Ajuster la qualité des ombres (URP Asset et/ou lumière clé)
 - `Must` Guider vers un objectif, sans flèche, ni texte
 - `Must` Ajouter un Global Volume pour un post-traitement simple
+- `Must` Remplacer le ciel (skybox)
 
 - `Should` Ajouter un Volume à une zone qui change d'ambiance
 - `Should` Ajouter un brouillard dont la couleur s'accorde à l'horizon du skybox
-- `Could` Faire un bake de l'éclairage du décor statique
-- `Could` Remplacer le ciel par un HDRI de Poly Haven
+- `Should` Faire un bake de l'éclairage du décor statique
 - `Could` Ajouter une lumière qui vacille (torche, bougie, néon)
 
 ## Devoirs
 
 - Terminer la tranche verticale : la zone 1 habillée, éclairée, animée et sonorisée
 - Préparer un **build Windows** qui se lance sans erreur
-
-[STOP]
-
 - Lire l'énoncé du projet final
 
 [Énoncé du projet final](./devoirs/projet-final/index.md){ .md-button .md-button--primary .back}

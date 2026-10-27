@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("./assets/background.jpg");
+  background-size: auto 100%;
+  overflow: hidden;
+}
+
+.car {
+  position: absolute;
+  bottom: 28%;
+  transform: scale(2);
+}
+
+.roue1,
+.roue2 {
+  position: absolute;
+  top: 45%;
+}
+
+.roue1 {
+  left: -13%;
+}
+
+.roue2 {
+  left: 58%;
+}

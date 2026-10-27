@@ -5,7 +5,7 @@
 !!! abstract ":material-comment-check: Jalon formatif F3 — Alpha (*feature complete*)"
     **Dépôt en début de séance :** build WebGL publié en ligne. **Attendu :** toutes les mécaniques du GDD branchées, niveau complet parcourable. Après ce point, plus aucune fonctionnalité nouvelle.
 
-    C'est le jalon le plus déterminant — la liste de tâches qui en sort est celle sur laquelle se joue la finition. C'est aussi la **rétroaction sur l'objectif 2**.
+    C'est le jalon le plus déterminant — la liste de tâches qui en sort guide toute la finition. C'est aussi la **rétroaction sur l'objectif 2**.
 
     Les observations recueillies pendant les tests du jour alimentent directement la rencontre : tu arrives avec des données, pas avec tes impressions.
 

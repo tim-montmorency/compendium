@@ -12,9 +12,9 @@
 !!! abstract ":material-comment-check: Jalon formatif F4 — Bêta / *release candidate*"
     Dernière rotation individuelle. **Attendu :** contenu complet, fonctionnalités gelées, build de validation publié en ligne.
 
-    On passe ensemble les *issues* `must` encore ouvertes. **Ce qui reste à la fin de cette rencontre est exactement ce qui sera vérifié au cours 15** — aucune surprise possible à la remise.
+    On passe ensemble les *issues* `must` encore ouvertes. **Ce qui sera évalué au cours 15 est entièrement dans la grille de l'énoncé** — aucune surprise possible à la remise.
 
-    **Dernier coup d'œil au suivi**, sans note : un devlog par séance depuis la S5, les *issues* des jalons F1 à F3 traitées, l'arborescence tenue, et surtout les **crédits des médias complets** au README — c'est la dernière occasion de les compléter avant qu'ils comptent au critère *finition*. [La liste complète](./plan-de-cours.md#le-suivi-de-production-formatif)
+    **Dernier coup d'œil au suivi**, sans note : l'arborescence tenue, le tableau Trello à jour, et surtout les **crédits des médias complets** au README — c'est la dernière occasion de les compléter avant qu'ils comptent au critère *Rigueur*.
 
 <!-- ## Déroulement de la séance
 
@@ -51,14 +51,17 @@
 - [ ] Le joueur ne peut pas tomber hors du monde
 - [ ] Le son ne sature pas et ne coupe pas
 - [ ] Le HUD reste lisible à toutes les résolutions
-- [ ] Le README est à jour et les médias sont cités
+- [ ] Le README est à jour, avec le lien vers la page itch.io, et les médias sont cités
+- [ ] Le build Windows se lance et le jeu se joue du début à la fin
+- [ ] La page itch.io a ses captures, sa description et ses commandes
+- [ ] La carte de preuves du README indique où trouver chaque élément évalué
 - [ ] Le build WebGL charge en moins d'une minute
 
 ## Le build de validation
 
 ## Préparer l'oral
 
-### Les cinq minutes
+### Les dix minutes
 
 ### Montrer ses *issues* fermées
 

@@ -440,12 +440,19 @@ C'est le type de passage **Négociation** de l'énoncé du projet final : obteni
 
 > Sprint 3 : l'alpha (cours 12)
 
-**PNJ**
+**Zones 2 et 3**
 
-- `Must` Préparer le NavMesh de la zone du PNJ
-- `Must` Monter le PNJ : patrouille, détection, réaction
-- `Should` Animer le PNJ avec Mixamo : repos et marche
-- `Should` Monter un dialogue avec un PNJ (package Dialogue System)
+- `Must` Habiller la zone 2 : aucun objet flottant ni raccord visible
+- `Must` Éclairer la zone 2
+- `Must` Habiller la zone 3 : aucun objet flottant ni raccord visible
+- `Must` Éclairer la zone 3
+
+**PNJ** (facultatif : une initiative possible au critère créativité)
+
+- `Could` Préparer le NavMesh de la zone du PNJ
+- `Could` Monter le PNJ : patrouille, détection, réaction
+- `Could` Animer le PNJ avec Mixamo : repos et marche
+- `Could` Monter un dialogue avec un PNJ (package Dialogue System)
 
 **Assets et crédits**
 

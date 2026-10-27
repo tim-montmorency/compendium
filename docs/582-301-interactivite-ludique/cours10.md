@@ -10,7 +10,7 @@ Piste — Packages en lien avec le feedback
 
 
 !!! tip "Où tu devrais être rendu"
-    Ta zone 1 est finie, ton PNJ patrouille, et ton premier build WebGL est en ligne sur une page privée.
+    Ta zone 1 est finie et ton premier build WebGL est en ligne sur une page privée.
 
     **Cette semaine :** les particules, les projectiles et le *game feel*.
 
@@ -155,15 +155,8 @@ public class GestionPause : MonoBehaviour
         SceneManager.LoadScene(sceneAccueil);
     }
 }
-
-
-### Trello
-
-- `Must` Monter le menu pause (Échap, `timeScale`, boutons Reprendre et Quitter)
-- `Should` Ajouter un panneau Options au menu pause
-- `Could` Créer un snapshot pour le menu pause (son étouffé)
-
 ```
+
 
 <!-- #### Étouffer le jeu en pause
 
@@ -197,7 +190,19 @@ Dans l'**Inspector** du Canvas, déplier `MixerPrincipal` dans le panneau **Proj
 
 - `Must` Créer le signal de réussite (son, particule, HUD)
 - `Must` Créer le signal d'échec (son, particule, HUD)
-- `Must` Lier trois systèmes de particules à des événements du jeu
+- `Must` Créer un système de particules lié à un événement du jeu (pas celui d'un asset importé)
+- `Must` Ajouter une rétroaction à l'approche des objets interactifs (surbrillance, son ou animation)
+
+**Interface**
+
+- `Must` Remplacer la police par défaut d'Unity par une police personnalisée
+- `Must` Intégrer une image configurée en Sprite (2D and UI), dans l'interface ou dans le jeu
+
+**Menu pause**
+
+- `Could` Monter le menu pause (Échap, `timeScale`, boutons Reprendre et Accueil)
+- `Could` Ajouter un panneau Options au menu pause
+- `Could` Créer un snapshot pour le menu pause (son étouffé)
 
 ## Pratique
 

@@ -1,10 +1,17 @@
 # Création d'une scène animée réactive
 
-Nous allons animer une scène où :
+Nous allons animer une scène où, au fil du défilement&nbsp;:
 
-- [ ] Une boîte se déplace en fonction du scroll avec un effet de “scrub” progressif.
-- [ ] Un cercle réagit dynamiquement en changeant de taille en fonction de la progression du scroll.
-- [ ] Un triangle tourne lentement avec un effet “scrub” plus important.
+- [ ] Une boîte se déplace de gauche à droite.
+- [ ] **En même temps**, un cercle grossit progressivement.
+- [ ] **Ensuite**, un triangle fait un tour complet.
+
+## Contraintes
+
+- [ ] Les trois animations font partie d'**une seule timeline** (`gsap.timeline()`)
+- [ ] La timeline est pilotée par un `scrollTrigger` avec `scrub`
+- [ ] Le paramètre de position `"<"` est utilisé pour synchroniser la boîte et le cercle
+- [ ] En remontant la page, la scène se rembobine
 
 !!! warning "N'oubliez pas le fork"
 

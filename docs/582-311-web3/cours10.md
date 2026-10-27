@@ -142,13 +142,6 @@ scrollTrigger: {
   ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
 
   <small>Exercice - GSAP</small><br>
-  **[Automobile jaune 2](./exercices/gsap-auto2.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
-
-  <small>Exercice - GSAP</small><br>
   **[Labyrinthe](./exercices/gsap-maze.md){.stretched-link .back}**
 </div>
 

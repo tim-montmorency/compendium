@@ -8,7 +8,7 @@ Piste — Package Recorder (Unity Registry)
 [STOP]
 
 !!! tip "Où tu devrais être rendu"
-    Ton PNJ patrouille, détecte et réagit. Tes zones 2 et 3 sont en cours d'habillage.
+    Tes signaux de réussite et d'échec sont en place. Tes zones 2 et 3 sont en cours d'habillage.
 
     **Cette semaine :** la mise en ligne pour de vrai — page itch.io, README, crédits des médias, sauvegarde.
 
@@ -112,7 +112,7 @@ La section `## Crédits` du README est amorcée depuis le [cours 7](./cours07.md
 
 ## Le menu Options : le volume
 
-Le projet final exige un curseur de volume qui agit **en temps réel**. Il s'appuie sur l'Audio Mixer `MixerPrincipal` et ses groupes, montés au [cours 7](./cours07.md#laudio-mixer).
+Le projet final n'exige pas de curseur de volume, mais c'est un réglage que les joueurs apprécient. Il s'appuie sur l'Audio Mixer `MixerPrincipal` et ses groupes, montés au [cours 7](./cours07.md#laudio-mixer).
 
 ### Exposer le volume d'un groupe
 
@@ -181,18 +181,6 @@ public class SliderVolume : MonoBehaviour
 !!! note "Contenir l'ambition"
     `PlayerPrefs` suffit. Ton jeu a un niveau et une mécanique — il n'y a rien à sérialiser qui ne tienne pas dans trois clés. JSON existe pour les états complexes, les chemins de fichiers, les versions de sauvegarde et la corruption de données. C'est un sujet de session avancée.
 
-!!! important "Ton script custom — exigence B6 du projet"
-    Ton jeu doit contenir **au moins un script C# écrit par toi**, dont tu peux expliquer chaque ligne à l'oral du cours 15. Pas un script du kit branché : un que **tu** as écrit.
-
-    Il n'a pas besoin d'être gros — une quinzaine de lignes suffisent. Ce qui compte, c'est qu'il fasse quelque chose que **ni le kit ni le CES ne savent faire** dans ton jeu. Quelques candidats raisonnables :
-
-    * un meilleur score sauvegardé avec `PlayerPrefs`, affiché au menu
-    * un compteur qui calcule quelque chose (temps restant, distance parcourue, précision)
-    * une petite règle propre à ton jeu : « si le joueur a les trois fragments **et** qu'il est de nuit, alors… »
-    * un effet que tu déclenches depuis une action **Invoke Events** du CES
-
-    Si tu n'as toujours pas d'idée à ce stade de la session, **le meilleur score est le bon choix** : c'est court, c'est utile, et ça te fait pratiquer `PlayerPrefs` pour de vrai.
-
 ## La performance
 
 ### Le Profiler, en survol
@@ -204,6 +192,16 @@ public class SliderVolume : MonoBehaviour
 ### La taille des textures
 
 ## Pratique
+
+## Trello
+
+### Nouvelles cartes
+
+**Publication**
+
+- `Must` Compléter le README : concept du jeu, commandes et lien vers la page itch.io
+- `Must` Exporter un build Windows et vérifier qu'il se lance
+- `Must` Monter la page itch.io : captures d'écran, description et commandes
 
 ## Devoirs
 
