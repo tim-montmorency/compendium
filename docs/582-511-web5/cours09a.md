@@ -9,6 +9,12 @@
 !!! success "Sondage: TUTORAT"
     Quels seraient le moment le plus utile ? [Remplir le formulaire](https://forms.cloud.microsoft/r/147C3TKbpC)
 
+<br><br>
+
+---
+
+<br><br>
+
 ![](assets/cours09a-banniere.webp){.w-100}
 
 <div class="class-content-link">
