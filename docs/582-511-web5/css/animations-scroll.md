@@ -127,6 +127,8 @@ Pour tester différentes plages visuellement : [View Progress Timeline : Ranges 
 
 ## Un classique : le parallax
 
+C'est quoi, d'où ça vient, et de beaux exemples : [La parallaxe](parallaxe.md).
+
 Le **parallax**, c'est l'illusion de profondeur : l'arrière-plan défile **plus lentement** que le contenu, comme un paysage au loin vu d'une voiture. En CSS, on anime l'arrière-plan dans le **même sens** que le défilement : il « recule » à l'écran, donc il semble plus lent.
 
 ```css
@@ -162,6 +164,10 @@ Nouveauté ici : `view-timeline-name`. Au lieu que l'arrière-plan suive sa prop
     Un parent avec `overflow: hidden` (ou `auto`, `scroll`) devient un **conteneur de défilement**. `view()` et `scroll()` suivent alors ce conteneur, qui ne défile pas, au lieu de la page : l'animation reste figée, sans message d'erreur.
 
     Si vous devez couper ce qui dépasse (un arrière-plan de parallax, un grand texte qui glisse), utilisez **`overflow: clip`** : même effet visuel, sans créer de conteneur de défilement.
+
+Pour pratiquer, avec une scène de 5 calques :
+
+[:material-pencil-ruler: Exercice : la parallaxe en calques](exercice-parallaxe.md){ .md-button }
 
 ## Quoi animer? La performance
 

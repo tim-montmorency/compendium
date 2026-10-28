@@ -140,7 +140,8 @@ Deux des trois formats de **média animable** se jouent en CSS.
 
 **La parallaxe en calques** : des plans qui défilent à des vitesses différentes, pour donner de la profondeur.
 
-[:material-layers-outline: La parallaxe](css/animations-scroll.md#un-classique-le-parallax){ .md-button }
+[:material-layers-outline: La parallaxe : définition et exemples](css/parallaxe.md){ .md-button }
+[:material-pencil-ruler: Exercice : la parallaxe en calques](css/exercice-parallaxe.md){ .md-button }
 
 **À faire** : chacun commence la préparation de **son** média animable (calques, spritesheet ou SVG), sur **sa** branche.
 

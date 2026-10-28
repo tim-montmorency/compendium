@@ -112,7 +112,7 @@ Partie 3 : règle la vitesse, la pause et le mouvement réduit
 Défi : anime la marche au défilement
 ```
 
-C'est un exercice de pratique, non noté. Je vois votre dépôt dans Classroom 50, et je peux y laisser des commentaires. Gardez-le : il vous servira de référence pour votre média animable.
+C'est un exercice de pratique, non noté. Je vois votre dépôt et vos *commits* dans Classroom 50. Gardez-le : il vous servira de référence pour votre média animable.
 
 !!! info "Pas d'IA"
     Comme dans votre projet, Copilot est désactivé dans ce dépôt (`.vscode/settings.json`). Le code, c'est vous!
