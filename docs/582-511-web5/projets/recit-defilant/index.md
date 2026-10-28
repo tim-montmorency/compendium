@@ -21,7 +21,7 @@
 !!! danger "C'est votre processus qui est évalué"
     Pas seulement le résultat final : **votre démarche, étape par étape**. Vous me présentez votre projet **à chaque étape**, au rythme du groupe. Si je constate qu'une étape a été sautée (un code généré d'un coup, sans planification ni compréhension), **je vous demanderai de la recommencer**. Pas de passe-droit.
 
-[:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
+[:material-file-document-edit-outline: Le cahier de charges et le scénarimage (storyboard)](cahier-de-charges.md){ .md-button .md-button--primary }
 [:material-lightbulb-on-outline: Exemples et inspirations](inspirations.md){ .md-button }
 
 [:material-presentation-play: Présentation de lancement (PowerPoint)](../../assets/documents/Web5_recit-defilant-lancement.pptx){ .md-button }
@@ -73,6 +73,7 @@ Ce que je regarde :
 - **Une identité visuelle** : une palette, une typographie et un style d'images choisis **pour votre histoire**, cohérents du début à la fin.
 - **Des animations qui racontent** : chaque animation signature dit quelque chose de l'histoire. Elle n'est pas là pour décorer.
 - **Au moins un moment surprenant** : un passage que le visiteur n'attend pas d'une page Web.
+- **Une dataviz qui fait partie du récit** : pas un graphique de rapport, mais une donnée qui prend la forme de votre histoire (voir [le moment dataviz](dataviz.md#plus-loin)).
 
 Être créatif, ce n'est pas ajouter des animations : les garde-fous ci-dessous s'appliquent toujours. C'est faire des **choix**, et les assumer.
 
@@ -271,7 +272,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
   - un **export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf`.
 - [ ] Chaque personne a son `documentation/JOURNAL-prenom.md`, avec les 5 questions de ce premier bloc, ses 2 ou 3 inspirations et la trace du brainstorm (lien FigJam, ou lien vers les photos dans `documentation/brainstorm/`).
 
-[:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
+[:material-file-document-edit-outline: Le cahier de charges et le scénarimage (storyboard)](cahier-de-charges.md){ .md-button .md-button--primary }
 
 ## Storyboard v2 (ven. 30 oct., 23 h 59) { #storyboard-v2 }
 

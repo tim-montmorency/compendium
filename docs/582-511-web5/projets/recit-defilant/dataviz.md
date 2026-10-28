@@ -29,9 +29,29 @@ Pas besoin de librairie de graphiques : ces formes se font en HTML, en CSS et av
 
 - **Le chiffre géant** : une seule valeur, très grande, qui compte jusqu'à sa valeur finale.
 - **Une unité par donnée** : un point, une icône ou un carré par élément. Le nombre devient visible.
-- **Les barres** : comparer quelques valeurs. Elles poussent quand on les atteint.
+- **Les barres** : comparer quelques valeurs. Elles poussent quand on les atteint. Attention : c'est la forme la plus courante, donc la moins mémorable (voir plus bas).
 - **L'échelle** : comparer une valeur à quelque chose de connu (la hauteur d'un immeuble, la taille d'un terrain de soccer).
 - **La ligne du temps** : une valeur qui change avec les années, révélée au fil du défilement.
+
+## Visez plus loin que le graphique à barres { #plus-loin }
+
+Un graphique à barres ou en pointe de tarte, c'est la forme **par défaut** : il informe, mais il ne raconte rien, et il ressemble à tous les rapports. Dans un récit défilant, la donnée doit **prendre la forme de votre histoire**.
+
+Le graphique à barres n'est pas interdit, mais c'est **le minimum**. La [créativité compte](index.md#creativite) aussi pour votre moment dataviz.
+
+| Idée | Le principe | Par exemple |
+|---|---|---|
+| **La donnée change le décor** | La donnée ne s'affiche pas : elle **modifie la scène**. | La météo réelle d'un lieu change le ciel de votre illustration : pluie, neige, nuages. S'il pleut aujourd'hui dans la forêt du Chaperon, il pleut dans le chapitre. |
+| **Des unités à l'image de votre sujet** | Une icône **de votre univers** par donnée, plutôt qu'un point ou une barre. | Une goutte par litre, un arbre par hectare, une silhouette par personne. |
+| **La donnée pilote une animation** | La valeur règle la **vitesse**, la **taille** ou l'**intensité** d'une animation. | La magnitude du plus gros séisme fait trembler l'écran plus ou moins fort; la vitesse du vent pousse les nuages. |
+| **L'échelle au défilement** | Le défilement **devient la mesure**. | Comme The Deep Sea : la profondeur, une distance, une durée qu'on parcourt en défilant. |
+| **Le lieu, dans votre style** | Les données placées sur une illustration ou une carte **dessinée dans votre style**. | Les séismes de la semaine sur un globe dessiné à la main. |
+| **Le temps réel** | La page change selon **le moment de la visite**. | L'heure du coucher du soleil règle la lumière de la page. |
+
+!!! tip "Le test du rapport annuel"
+    Si votre dataviz pourrait se retrouver telle quelle dans le rapport annuel d'une entreprise, poussez-la plus loin. Elle doit avoir **le style de votre récit** : votre palette, votre typographie, vos images.
+
+Une seule idée, bien réalisée, suffit. Et aucune de ces idées n'a besoin d'une librairie de graphiques.
 
 ## Des exemples à décortiquer
 
@@ -129,7 +149,7 @@ Dans la **section 6** du gabarit, décrivez votre idée :
 
 - **dans quel chapitre** arrive le moment dataviz;
 - **la question** à laquelle il répond, et **le genre de données** que vous aimeriez montrer;
-- **la forme** que vous imaginez (chiffre géant, unités, barres, échelle, ligne du temps);
+- **la forme** que vous imaginez : une donnée qui change le décor, des unités à l'image de votre sujet, une donnée qui pilote une animation, une échelle au défilement… (voir [plus haut](#plus-loin));
 - **la chute** : ce que la donnée raconte dans votre histoire.
 
 Ajoutez un cadre pour ce moment dans votre storyboard. L'API se choisit au cours du **mer. 11 nov.** : des pistes pour explorer sont dans le [cahier de charges](cahier-de-charges.md#le-moment-dataviz).

@@ -1,4 +1,4 @@
-# Le cahier de charges : gabarit et consignes
+# Le cahier de charges et le scénarimage (storyboard)
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
@@ -240,7 +240,7 @@ Votre récit doit contenir au moins un moment où des **données réelles** appa
 - **le moment** : dans quel chapitre, et ce que les données apportent à votre histoire;
 - **le genre de données** que vous aimeriez montrer (ex. « la température dans une ville », « le nombre de séismes cette semaine », « des œuvres d'un musée »).
 
-[:material-chart-bar: Le moment dataviz : exemples et démo](projets/recit-defilant/dataviz.md){ .md-button .md-button--primary }
+[:material-chart-bar: Le moment dataviz : exemples et démo](dataviz.md){ .md-button .md-button--primary }
 
 Restez souple : si aucune API ne fournit exactement vos données, on ajustera l'idée ensemble.
 
@@ -336,7 +336,7 @@ L'API sera choisie au cours du mer. 11 nov. Pour l'instant, décrivez l'idée.
 - **Chapitre** : [numéro]
 - **La question** à laquelle le moment répond : [ex. combien de fois la Terre a-t-elle tremblé cette semaine?]
 - **Genre de données souhaitées** : [ex. la température heure par heure dans une ville]
-- **La forme imaginée** : [chiffre géant / une unité par donnée / barres / échelle / ligne du temps / autre]
+- **La forme imaginée** : [une donnée qui change le décor / des unités à l'image de votre sujet / une donnée qui pilote une animation / une échelle au défilement / autre. Un graphique à barres est le minimum : visez plus loin.]
 - **Ce qu'elles racontent dans le récit** : [1 ou 2 phrases : la chute]
 - **Pistes d'API, si vous en avez trouvé** : [facultatif]
 

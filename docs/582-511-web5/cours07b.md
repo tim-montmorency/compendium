@@ -111,7 +111,7 @@ Avant la fin du cours, chaque équipe a :
 - [ ] copié le **gabarit** dans `documentation/CAHIER-DE-CHARGES.md`;
 - [ ] rempli la **section 1** (le concept) et commencé le **découpage en chapitres**.
 
-[:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](projets/recit-defilant/cahier-de-charges.md){ .md-button }
+[:material-file-document-edit-outline: Le cahier de charges et le scénarimage (storyboard)](projets/recit-defilant/cahier-de-charges.md){ .md-button }
 
 ## Devoirs
 
