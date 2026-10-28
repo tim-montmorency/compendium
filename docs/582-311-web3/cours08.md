@@ -108,7 +108,7 @@ Chaque format a son usage. La règle d'or&nbsp;: **le plus léger qui fait le tr
 
 ![](./assets/images/laxyloading.png){.w-50 data-zoom-image}
 
-L'attribut `loading="lazy"` diffère le chargement des images **hors écran** jusqu'à ce qu'on approche par le défilement. Gratuit et efficace.
+L'attribut [`loading="lazy"`](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Lazy_loading) diffère le chargement des images **hors écran** jusqu'à ce qu'on approche par le défilement. Gratuit et efficace.
 
 ```html
 <img src="./assets/images/chat.webp" alt="Chat" loading="lazy">

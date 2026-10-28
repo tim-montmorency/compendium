@@ -398,6 +398,7 @@ Objectifs du prototype (8 oct) :
 Exemples de cartes : 
 
 - Configurer un repertoire GitHub avec le bon `.gitignore`
+- Créer un projet Unity avec la version installée au collège
 - Créer les scènes Accueil, Niveau 1, Niveau 2, Niveau 3 et Game Over, puis les ajouter à la Scene List
 - Greyboxing | Zone 1
 - Greyboxing | Zone 2 
