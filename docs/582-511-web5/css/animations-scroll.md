@@ -142,8 +142,13 @@ Le **parallax**, c'est l'illusion de profondeur : l'arrière-plan défile **plus
 
 .parallax__bg {
   position: absolute;
-  /* plus grand que la section : de la marge pour bouger */
-  inset: -25% 0;
+  /* plus grand que la section : il dépasse de 25 %
+     en haut et en bas, ce qui lui laisse de la marge
+     pour bouger sans laisser de trou */
+  top: -25%;
+  bottom: -25%;
+  left: 0;
+  right: 0;
 }
 
 @keyframes parallax {

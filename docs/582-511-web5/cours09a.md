@@ -73,7 +73,7 @@ Le projet au complet : produit, garde-fous, évaluation, calendrier.
 - [ ] Exercice en duo : provoquer et régler un conflit
 - [ ] Dans votre projet : la structure commune sur `main`, puis une branche chacun
 - [ ] Animations CSS : la spritesheet et la parallaxe
-- [ ] Entrée au journal de bord
+- [ ] Noter dans votre journal les commentaires reçus à la rencontre
 
 <!-- MM : ajouter le tutorat de la semaine, s'il y a lieu. -->
 
@@ -149,7 +149,16 @@ Deux des trois formats de **média animable** se jouent en CSS.
 
 ## Devoirs
 
-- Entrée au **journal de bord** : les 5 questions, et les commentaires reçus à la rencontre.
-- **Storyboard v2**, en équipe : exporté dans `documentation/storyboard-v2.pdf`, au plus tard le **ven. 30 oct., 23 h 59**.
-- Sur **votre** branche : commencez la préparation de votre média animable.
-- Faites votre premier *commit* selon la convention de l'équipe : `Zone : ce qui a changé`.
+### D'ici le ven. 30 oct., 23 h 59 (cours 9.2)
+
+- **Storyboard v2**, en équipe : sur une nouvelle page Figma, exporté dans `documentation/storyboard-v2.pdf`.
+- **La section 1 du cahier de charges**, en équipe : votre angle, votre identité visuelle et votre moment surprenant.
+- Sur **votre** branche : commencez la préparation de votre média animable, et faites votre premier *commit* selon la convention de l'équipe (`Zone : ce qui a changé`).
+
+### D'ici le mer. 4 nov. (cours 10.1)
+
+Terminez les **3 exercices**, chacun dans son dépôt Classroom 50 :
+
+- [Exercice : un conflit](projets/recit-defilant/exercice-conflit.md) (en duo);
+- [Exercice : le monstre responsive](css/exercice-spritesheet.md);
+- [Exercice : la parallaxe en calques](css/exercice-parallaxe.md).

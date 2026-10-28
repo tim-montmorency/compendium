@@ -53,12 +53,12 @@ On rencontre surtout trois formes :
 
 - [Firewatch](https://www.firewatchgame.com/){ :target="_blank" } : le site du jeu. Défilez au tout début : six calques de paysage, du ciel jusqu'aux arbres du premier plan. Un classique de la scène en calques.
 - [Paysage en parallaxe, de isladjan](https://codepen.io/isladjan/pen/abdyPBw){ :target="_blank" } (CodePen) : une scène de paysage animée au défilement, avec le code à côté.
-- [Les montgolfières](https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/gsap-scrollTrigger-parallax/images/ballons-parallax.mp4){ :target="_blank" } (vidéo) : un ancien exercice du programme, des ballons et des nuages à des vitesses différentes. Le même principe que votre exercice.
+- [Ballons dans le ciel](https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/gsap-scrollTrigger-parallax/images/ballons-parallax.mp4){ :target="_blank" } (vidéo) : un ancien exercice du programme, des ballons et des nuages à des vitesses différentes. Le même principe que votre exercice.
 - [The Goonies](https://the-goonies.webflow.io/){ :target="_blank" } : un hommage au film. On plonge vers la côte, entre des plans qui défilent à des vitesses différentes.
 - [Montagnes, forêt et nuages](https://parallax-bgsprod.webflow.io/){ :target="_blank" } : un exemple simple et très propre de scène en calques. Proche de ce que vous ferez.
 - [The Boat](https://www.sbs.com.au/theboat/){ :target="_blank" } (SBS, Australie) : un roman graphique interactif, avec du son. Les dessins sont découpés en plans qui glissent à des vitesses différentes : la parallaxe au service d'un récit défilant.
 - [Une parallaxe en CSS pur, de Keith Clark](https://keithclark.co.uk/articles/pure-css-parallax-websites/demo3/){ :target="_blank" } : une démo sans JavaScript. Ouvrez les outils de développement pour voir les calques.
-- [Chercher « parallax » sur CodePen](https://codepen.io/search/pens?q=parallax){ :target="_blank" } : des centaines de démos, avec le code. Comparez les techniques : CSS, GSAP, JavaScript.
+
 
 ## Le faire en CSS
 
