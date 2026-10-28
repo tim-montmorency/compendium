@@ -34,10 +34,12 @@ Votre dépôt est créé pour vous par **Classroom 50**, avec le fichier `index.
 **[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exercice-conflit-git/accept?k=rthn1z36){ :target="_blank" }**
 
 1. :material-school-outline: **Avant tout** : vous devez avoir accepté l'invitation à l'organisation GitHub du cours (courriel de GitHub). Sinon, Classroom 50 affiche « Not a member yet » : venez me voir.
-2. :material-school-outline: **Personne A** : ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis **Accept assignment**. Choisissez de **créer un groupe**.
-3. :material-school-outline: **Personne B** : ouvrez le même lien, et **rejoignez le groupe** de la personne A. Ne créez pas un deuxième groupe!
-4. :material-school-outline: Quand le dépôt est prêt, cliquez sur **Open repository** : vous arrivez sur :material-github: github.com. Vérifiez que vous voyez **le même dépôt** tous les deux. **Gardez cet onglet ouvert** : vous y reviendrez pour les *pull requests*.
-5. Chacun **clone** le dépôt sur son poste. Sur github.com, le bouton vert **Code** donne l'adresse du dépôt à copier.
+2. :material-school-outline: **Personne A** : ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**. Dans **Group name**, écrivez vos deux prénoms (ex. `zoe-leo`), puis **Create group**, et acceptez l'exercice.
+3. :material-school-outline: **Personne A ajoute la personne B** : sur la même page, cliquez sur **Manage my group**. Écrivez l'**identifiant GitHub** de la personne B, puis **Add**. C'est la personne qui a créé le groupe qui ajoute l'autre : B n'a rien à demander.
+4. :material-school-outline: **Personne B**, une fois ajoutée : ouvrez le même lien (ou rechargez la page) et connectez-vous. Vous êtes déjà dans le groupe : acceptez l'exercice. Si la page ne vous voit pas encore dans le groupe, cliquez sur **Check again**. **Ne créez pas de groupe, et n'utilisez pas Ask to join** (une demande à approuver ailleurs, sur GitHub) : attendez simplement que A vous ajoute.
+
+5. :material-school-outline: Quand le dépôt est prêt, cliquez sur **Open repository** : vous arrivez sur :material-github: github.com. Vérifiez que vous voyez **le même dépôt** tous les deux. **Gardez cet onglet ouvert** : vous y reviendrez pour les *pull requests*.
+6. Chacun **clone** le dépôt sur son poste. Sur github.com, le bouton vert **Code** donne l'adresse du dépôt à copier.
 
 === ":material-microsoft-visual-studio-code: VS Code"
 
