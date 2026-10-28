@@ -55,7 +55,7 @@ Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le
 
 - **Une rangée par moment**, comme dans le modèle : le cadre **desktop**, le cadre **mobile** à côté, puis la **fiche d'annotation**. Tout est visible d'un coup d'œil.
 - **Au moins une rangée par chapitre.** Un chapitre où plusieurs animations se produisent, en même temps ou l'une après l'autre, peut avoir **plusieurs rangées** : une par moment important.
-- **Le cadre mobile** montre ce qui change sur un petit écran : la place du texte, une animation simplifiée ou retirée. Sous le cadre mobile, une ligne : ce qui change sur mobile, ou « Comme desktop ».
+- **Le cadre mobile** montre ce qui change sur un petit écran : la place du texte, une animation simplifiée ou retirée.
 - **Le texte du chapitre placé dans chaque cadre** : un titre et un petit paragraphe de *lorem ipsum*, à la taille et à l'endroit où il apparaîtra à l'écran. C'est là que le visiteur lit votre récit : le texte doit avoir sa place dans la composition, pas être ajouté à la fin.
 - **La fiche d'annotation complète**, à droite des deux cadres (voir ci-dessous).
 - **Des images qui montrent ce qu'on doit voir**, pas des boîtes grises : un croquis, ou une image trouvée ou générée, collée dans le cadre pour représenter chaque élément (le décor, le personnage, l'objet). Ce n'est pas l'image finale, c'est une **référence**. Avec des boîtes grises, personne ne sait ce qui est quoi dans le cadre.
@@ -72,11 +72,13 @@ Texte : où est-il placé?
 Ce qui bouge ou ce qui est animé, et comment? :
 Déclencheur :
 Technique :
+Mobile :
 ```
 
 - **Ce qui bouge** : l'élément, le type d'animation (tableau ci-dessous), et son départ → son arrivée.
 - **Déclencheur** : l'entrée dans l'écran, la progression du défilement, une section épinglée, un clic.
 - **Technique** : CSS au défilement, GSAP + ScrollTrigger ou IntersectionObserver.
+- **Mobile** : ce qui est différent sur mobile (la place du texte, une animation simplifiée ou retirée). Si rien ne change, écrivez « Comme desktop ».
 
 ### Nommer le « comment »
 
@@ -112,7 +114,7 @@ Vous ne repartez pas de zéro : vous réutilisez les cadres de votre v1.
 2. Pour chaque moment, créez un grand cadre qui servira de **rangée**, nommé comme le moment (ex. `Ch. 4 · Moment 2`).
 3. **Copiez-collez** dans la rangée votre cadre desktop de la v1, et son cadre mobile à côté. S'il n'existe pas encore, créez le cadre mobile.
 4. Complétez les deux cadres : le texte en *lorem ipsum*, des images de référence, des étiquettes au besoin.
-5. Ajoutez la **fiche d'annotation** à droite, et la ligne « sur mobile » sous le cadre mobile.
+5. Ajoutez la **fiche d'annotation** à droite, jusqu'à la ligne « Mobile ».
 6. Placez les rangées dans l'ordre du récit, l'une sous l'autre.
 
 ### Remettre le storyboard : le lien et le PDF
