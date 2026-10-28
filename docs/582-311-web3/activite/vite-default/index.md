@@ -36,9 +36,9 @@ L'objectif de cet exercice est d'introduire la méthode d'installation d'un proj
       ![](./ignore.png)
 
 - [ ] Répondre aux questions suivantes :
-    - Framework : **Vanilla**
-    - Variante : **JavaScript**
-    - Install with npm and start now&nbsp;? **Yes**
+  - Framework : **Vanilla**
+  - Variante : **JavaScript**
+  - Install with npm and start now&nbsp;? **Yes**
 - [ ] Confirmer que la page par défaut de Vite s'affiche dans le navigateur
 
 ### Le ménage 🧹
