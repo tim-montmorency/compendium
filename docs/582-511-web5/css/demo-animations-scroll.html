@@ -201,7 +201,9 @@
       display: grid;
       place-items: center;
       padding: 0;
-      /* clip et non hidden : hidden créerait un conteneur de défilement */
+      /* coupe ce qui dépasse de la section : les calques sont plus
+         grands qu'elle, on ne doit pas les voir déborder.
+         clip et non hidden : hidden créerait un conteneur de défilement */
       overflow: clip;
       /* On nomme la timeline de la section pour que ses enfants l'utilisent */
       view-timeline-name: --parallax;

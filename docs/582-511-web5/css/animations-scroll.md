@@ -134,7 +134,9 @@ Le **parallax**, c'est l'illusion de profondeur : l'arrière-plan défile **plus
 ```css
 .parallax {
   position: relative;
-  /* surtout pas hidden (voir le piège ci-dessous) */
+  /* coupe ce qui dépasse de la section : l'arrière-plan
+     est plus grand qu'elle, on ne doit pas le voir déborder.
+     clip, et surtout pas hidden (voir le piège ci-dessous) */
   overflow: clip;
   /* on nomme la timeline de la section */
   view-timeline-name: --parallax;
