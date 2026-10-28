@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Démo : animation par spritesheet (Web 5)</title>
+  <style>
+    /* ---------- Mise en page de la démo ---------- */
+    body {
+      margin: 0;
+      padding: 6vh 6vw;
+      background: #0A0A0A;
+      color: #F2F2F2;
+      font-family: "Poppins", system-ui, sans-serif;
+      line-height: 1.6;
+    }
+
+    h1 { margin-top: 0; }
+    h2 { margin-top: 3.5rem; color: #FF2B47; }
+    code { color: #FF2B47; }
+    p { max-width: 42rem; color: #C8C8C8; }
+
+    .sheet {
+      max-width: 100%;
+      background: #1A1B1F;
+      border: 1px solid #2E3036;
+    }
+
+    .frame {
+      background: #1A1B1F;
+      border: 1px solid #2E3036;
+    }
+
+    /* =========================================================
+       Version 1 : la méthode classique
+       La planche est en arrière-plan, et on déplace sa position.
+       8 images de 200 x 200 px = une planche de 1600 x 200 px.
+       ========================================================= */
+    .ball-classic {
+      width: 200px;               /* la taille d'UNE image */
+      height: 200px;
+      background-image: url("assets/ball-spritesheet.webp");
+      background-repeat: no-repeat;
+      animation: classic-frames 0.8s steps(8) infinite;
+    }
+
+    @keyframes classic-frames {
+      from { background-position: 0 0; }
+      to   { background-position: -1600px 0; } /* toute la largeur */
+    }
+
+    /* Le piège : la même chose, mais sans steps() */
+    .ball-slide {
+      width: 200px;
+      height: 200px;
+      background-image: url("assets/ball-spritesheet.webp");
+      background-repeat: no-repeat;
+      animation: classic-frames 0.8s linear infinite;
+    }
+
+    /* =========================================================
+       Version 2 : responsive et performante (recommandée)
+       La planche est une vraie image <img>, dans une fenêtre
+       qui cache tout sauf une image. On la déplace avec
+       transform : la taille s'adapte à l'écran, et le
+       navigateur l'anime sans ralentir la page.
+       ========================================================= */
+    .sprite {
+      width: min(40vw, 300px);   /* n'importe quelle taille */
+      aspect-ratio: 1 / 1;       /* même ratio qu'UNE image */
+      overflow: hidden;          /* la fenêtre : on ne voit qu'une image */
+    }
+
+    .sprite img {
+      display: block;
+      width: 800%;               /* 8 images = 8 fois la fenêtre */
+      max-width: none;
+      height: 100%;
+      animation: sprite-frames 0.8s steps(8) infinite;
+    }
+
+    @keyframes sprite-frames {
+      to { transform: translateX(-100%); } /* -100 % de la largeur de l'image */
+    }
+
+    /* ---------- Accessibilité : moins de mouvement ---------- */
+    @media (prefers-reduced-motion: reduce) {
+      .ball-classic,
+      .ball-slide,
+      .sprite img {
+        animation-play-state: paused;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Animation par spritesheet</h1>
+  <p>Ouvrez l'inspecteur : tout le CSS est dans cette page, commenté.</p>
+
+  <h2>1. La planche (spritesheet)</h2>
+  <p>8 images de 200 × 200 px, côte à côte, sur une seule rangée : une planche de 1600 × 200 px. Les numéros sont dessinés dans l'image pour la démo.</p>
+  <img class="sheet" src="assets/ball-spritesheet.webp" alt="Planche de 8 images d'une balle qui rebondit">
+
+  <h2>2. Version classique : <code>background-position</code> + <code>steps(8)</code></h2>
+  <p>Une fenêtre de la taille d'une image. On déplace l'arrière-plan d'un coup sec, image par image.</p>
+  <div class="ball-classic frame" role="img" aria-label="Une balle qui rebondit"></div>
+
+  <h2>3. Le piège : sans <code>steps()</code></h2>
+  <p>Même animation, en <code>linear</code> : la planche glisse au lieu de sauter d'une image à l'autre.</p>
+  <div class="ball-slide frame" role="img" aria-label="Une balle qui glisse au lieu de rebondir"></div>
+
+  <h2>4. Version responsive et performante : <code>&lt;img&gt;</code> + <code>transform</code></h2>
+  <p>Redimensionnez la fenêtre : la balle suit. Et on n'anime que <code>transform</code>, comme le demandent les garde-fous du récit défilant.</p>
+  <div class="sprite frame">
+    <img src="assets/ball-spritesheet.webp" alt="Une balle qui rebondit">
+  </div>
+
+</body>
+</html>

@@ -1,6 +1,242 @@
-# Cours 9 | GSAP - ScrollTrigger, timelines & sprites
+# Cours 9
 
 [STOP]
+
+## Retour sur les exercices
+
+* Note sur le HTML dans le HTML, ça fonctionne, mais ça ne permet pas d'ajouter des variables
+
+## GSAP
+
+![type:video](./assets/videos/gsap-website.webm){.h-auto}
+
+**[GSAP](https://gsap.com/)** est une bibliothèque JavaScript dédiée à l'animation Web. 
+
+### Animer, mais animer quoi ?
+
+GSAP peut animer presque n'importe quelle propriété CSS :
+
+| Propriété GSAP | Effet |
+| :--- | :--- |
+| `x`, `y` | Déplacement horizontal / vertical (via `transform`) |
+| `rotation` | Rotation en degrés |
+| `scale` | Mise à l'échelle |
+| `opacity` | Transparence |
+| `backgroundColor` | Couleur de fond |
+| `width` / `height` | Dimensions |
+
+??? question "`x` plutôt que `left` ?"
+
+    Oui. Pour déplacer un élément, c'est mieux `x`/`y` (qui utilisent `transform`) que `left`/`top` pour la fluidité et la performance.
+
+### Comment animer ?
+
+Avec ce qu'on appelle un **_tween_** (vient de « be **tween** »). C'est une animation qui calcule toutes les valeurs **entre** deux points.
+
+| Méthode | Autrement dit |
+| --- | --- |
+| [`gsap.to()`](https://gsap.com/docs/v3/GSAP/gsap.to()) | « va vers là » |
+| [`gsap.from()`](https://gsap.com/docs/v3/GSAP/gsap.from()) | « viens de là » |
+| [`gsap.fromTo()`](https://gsap.com/docs/v3/GSAP/gsap.fromTo()) | « de là à là » |
+
+<p class="codepen" data-theme-id="50173" data-height="300" data-pen-title="gsap.to()" data-version="2" data-default-tab="result" data-slug-hash="ZYeRMag" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/01a16019-91ca-7bbc-936d-0c10c14f71f9">
+  gsap.to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+```js title="Anatomie d'un tween"
+gsap.to(".boite", {   
+  x: 200,             
+  rotation: 90,
+  duration: 1.5         
+})
+```
+
+## Installation
+
+```bash title="Terminal"
+npm install gsap
+```
+
+Créer le fichier suivant : 
+
+```js title="src/gsap.js"
+import gsap from "gsap"
+
+export function lancerAnimations() {
+
+  // Code GSAP ici
+
+  // Exemple : 
+  // gsap.from(".boite", { x: 200, rotation: 90, duration: 1.5 })
+  
+}
+```
+
+Importer notre fichier gsap dans le main :
+
+```js title="src/main.js"
+import "./style.css"
+import { lancerAnimations } from "./gsap.js"
+
+lancerAnimations()
+```
+
+Le HTML à animer, lui, peut aller soit dans `index.html` ou dans `main.js` (avec `innerHTML`, comme dans le projet de départ de Vite). Ça revient au même.
+
+=== "⭐️ src/main.js"
+
+    ```js title="src/main.js"
+    import "./style.css"
+    import { lancerAnimations } from "./gsap.js"
+
+    document.querySelector('#app').innerHTML = `
+    <div class="boite"></div>
+    `
+
+    lancerAnimations()
+    ```
+
+=== "index.html (fonctionne aussi)"
+
+    ```html title="index.html"
+    <body>
+      <div class="boite"></div>
+      <script type="module" src="/src/main.js"></script>
+    </body>
+    ```
+
+## `from()`, `fromTo()` et `set()`
+
+`to()` part de l'état actuel de l'élément. Les autres méthodes changent le point de départ.
+
+### `from()`
+
+Les propriétés **commencent** à la valeur indiquée, puis reviennent vers leur état final (tel qu'il est dans le CSS). Idéal pour faire **apparaître** un élément.
+
+<div class="grid" markdown>
+```js title="Syntaxe"
+gsap.from(".rond", {
+  x: -300,
+  duration: 1
+})
+```
+
+<iframe class="aspect-3-2" height="300" style="width: 100%;" scrolling="no" title="GSAP - from()" src="https://codepen.io/tim-momo/embed/WNVOoLK/087c8d54f40078d64a89bf64eade1d2f?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/WNVOoLK/087c8d54f40078d64a89bf64eade1d2f">
+  GSAP - from()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+</div>
+
+### `fromTo()`
+
+On définit **les deux** extrémités&nbsp;: un premier objet pour le départ, un second pour l'arrivée (c'est aussi lui qui reçoit `duration`, `ease`, etc.).
+
+<div class="grid" markdown>
+```js title="Syntaxe"
+gsap.fromTo(".barre",
+  { x: 0, rotation: 0 },              // départ
+  { x: 300, rotation: 90, duration: 2 } // arrivée
+)
+```
+
+<iframe class="aspect-3-2" height="300" style="width: 100%;" scrolling="no" title="GSAP - fromTo()" src="https://codepen.io/tim-momo/embed/ExqXNrx/7f1f9010b174671e88f5f671802891a4?default-tab=result&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/ExqXNrx/7f1f9010b174671e88f5f671802891a4">
+  GSAP - fromTo()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+</div>
+
+### [`set()`](https://gsap.com/docs/v3/GSAP/gsap.set())
+
+Un `to()` **instantané**, sans animation 😜. Pratique pour placer un élément avant de l'animer.
+
+```js
+gsap.set(".voiture", { x: -400 })
+```
+
+!!! info "Les unités"
+
+    Un nombre (`x: 400`) est interprété en **pixels**. Pour une autre unité, on utilise une chaîne de caractères&nbsp;: `x: "50%"`, `rotation: "1turn"`, `width: "20vw"`.
+
+## Les paramètres d'un tween
+
+Le deuxième argument est un **objet de configuration** (du JavaScript, comme ceux vus dans le camp d'entraînement 😉). En plus des propriétés animées, il accepte des paramètres&nbsp;:
+
+| Paramètre | Rôle |
+| :--- | :--- |
+| `duration` | Durée en secondes (`0.5` par défaut) |
+| `delay` | Attente avant de démarrer |
+| `repeat` | Nombre de répétitions (`-1` = infini) |
+| `repeatDelay` | Pause entre chaque répétition |
+| `yoyo` | Repart en sens inverse à chaque répétition |
+| `ease` | Courbe d'accélération (voir plus bas) |
+| `onComplete` | Fonction appelée à la fin |
+
+```js title="Exemple complet"
+gsap.to(".carte", {
+  // Propriétés animées
+  y: -20,
+  rotation: 5,
+
+  // Paramètres
+  duration: 0.6,
+  delay: 1,
+  repeat: -1,
+  yoyo: true,
+  ease: "power1.inOut",
+
+  // Fonction de rappel
+  onComplete: () => console.log("Terminé !")
+})
+```
+
+??? question "Pourquoi le `onComplete` ne s'affiche jamais ici ?"
+
+    Avec `repeat: -1`, l'animation ne se termine… jamais. Le `onComplete` n'est donc jamais appelé.
+
+## Les courbes d'accélération
+
+Le lissage (_ease_) décrit **comment** l'animation accélère et ralentit. C'est ce qui distingue une animation robotique d'une animation vivante.
+
+<iframe class="aspect-1-1" height="300" style="width: 100%;" scrolling="no" title="GSAP - ease" src="https://codepen.io/tim-momo/embed/QWeOrgo/9db303ae98b0cef97b5d8e699930c6e6?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/tim-momo/pen/QWeOrgo/9db303ae98b0cef97b5d8e699930c6e6">
+  GSAP - ease</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+[GSAP | Easing tool](https://gsap.com/docs/v3/Eases)
+
+<!-- !!! tip "Une boucle sans à-coups"
+
+    Pour un mouvement qui tourne en boucle à vitesse régulière (une roue, un défilement continu), utilisez `ease: "none"`. Sinon, l'élément ralentit et repart à chaque répétition. -->
+
+## Exercices
+
+<!-- <div class="grid grid-1-2" markdown>
+  ![](./assets/images/auto-yellow.png){.aspect-4-3}
+
+  <small>Exercice - GSAP</small><br>
+  **[Automobile jaune](./exercices/gsap-auto1.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/auto-teal.png){.aspect-4-3}
+
+  <small>Exercice - GSAP</small><br>
+  **[Automobile turquoise](./exercices/gsap-auto2.md){.stretched-link .back}**
+</div> -->
+
+
+<div class="grid grid-1-2" markdown>
+  ![](./exercices/monster-truck/giphy.gif){.aspect-4-3}
+
+  <small>Exercice - GSAP</small><br>
+  **[Truck](./exercices/monster-truck/index.md){.stretched-link .back}**
+</div>
 
 <!-- **Savoirs :** #10 Programmation événementielle · #16 Animation via librairie · #17 Réactivité -->
 
