@@ -24,6 +24,16 @@ Votre dépôt est créé pour vous par **Classroom 50**, avec le fichier `index.
 4. Quand le dépôt est prêt, cliquez sur **Open repository**. Vérifiez que vous voyez **le même dépôt** tous les deux.
 5. Chacun **clone** le dépôt sur son poste et l'ouvre dans VS Code.
 
+??? warning "Plan B : si Classroom 50 ne fonctionne pas"
+    Ouvrez cet encadré seulement si je vous le demande, ou si votre duo reste bloqué. On crée le même dépôt, directement sur GitHub.
+
+    1. **Personne A** : ouvrez le [dépôt modèle](https://github.com/apprendre-avec-mariemi/gabarit-exercice-conflit-git){ :target="_blank" }, puis **Use this template** → **Create a new repository**. Créez-le dans **votre compte**, en **privé**, sous le nom `exercice-conflit-git`.
+    2. **Personne A** : dans le nouveau dépôt, **Settings** → **Collaborators** → **Add people**. Ajoutez la personne B, et `marie-michelle-ouellet` (c'est votre remise).
+    3. **Personne B** : acceptez l'invitation, reçue par courriel ou dans les notifications de github.com.
+    4. Chacun **clone** le dépôt sur son poste et l'ouvre dans VS Code.
+
+    La suite de l'exercice est identique. C'est d'ailleurs exactement comme ça que fonctionne le dépôt de votre vrai projet.
+
 Le dépôt est **privé** : seuls vous deux et moi y avons accès. Ouvrez `index.html` : il contient ceci.
 
 ```html

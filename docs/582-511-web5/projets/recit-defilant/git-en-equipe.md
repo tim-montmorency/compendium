@@ -65,6 +65,35 @@ Une branche à **votre prénom**, en minuscules, sans accents : `zoe`, `leo`, `m
 
 Vous travaillez comme d'habitude : de petits *commits* fréquents, puis *push*. Vos *commits* vont sur votre branche, et `main` ne bouge pas.
 
+## C'est quoi, une *pull request*?
+
+Une *pull request* (PR), c'est une **demande** faite sur GitHub : « J'ai fait des changements sur ma branche. Je propose de les intégrer dans `main`. » Le nom vient du point de vue de l'équipe : vous lui demandez de **tirer** (*pull*) vos changements dans la version commune.
+
+Pensez au **mode suggestion** dans Word ou Google Docs : vous proposez des modifications, quelqu'un les relit, puis les accepte. Tant que personne n'accepte, le document de référence ne change pas. Ici, le document de référence, c'est `main`.
+
+### Ce qu'on trouve dans une PR
+
+Une PR est une page de votre dépôt sur github.com, avec :
+
+- **la direction** : quelle branche on fusionne, dans laquelle (`main` ← `zoe`);
+- **les *commits*** de la branche qui seront ajoutés à `main`;
+- **les différences** (onglet **Files changed**) : chaque ligne ajoutée en vert, chaque ligne retirée en rouge;
+- **une conversation** : on peut commenter, poser une question, demander une correction, même sur une ligne précise;
+- **le bouton de fusion** (*Merge pull request*). GitHub vous avertit si la fusion crée un conflit.
+
+### Ce qu'il faut retenir
+
+- **Une PR n'est pas une copie figée.** Si on vous demande une correction, faites-la sur votre branche, *commit*, *push* : la PR se met à jour toute seule.
+- **Tant que la PR n'est pas fusionnée, `main` ne bouge pas.** C'est ce qui protège la version de l'équipe.
+- **Une PR fusionnée reste dans l'historique** (onglet **Pull requests** → **Closed**) : c'est la trace de qui a proposé quoi, et de qui l'a accepté.
+
+| Action | Où | Ce que ça fait |
+|---|---|---|
+| *Commit* | Votre poste | Enregistre une étape de votre travail, sur votre branche |
+| *Push* | Votre poste → GitHub | Envoie vos *commits* sur GitHub, toujours sur votre branche |
+| *Pull request* | GitHub | Propose d'intégrer votre branche dans `main` |
+| *Merge* | GitHub | Accepte la proposition : vos *commits* entrent dans `main` |
+
 ## Étape 4 : fusionner dans `main` avec une *pull request*
 
 Une partie de votre travail fonctionne (ex. le chapitre 3 s'affiche et s'anime)? Proposez-la à l'équipe :
@@ -75,10 +104,13 @@ Une partie de votre travail fonctionne (ex. le chapitre 3 s'affiche et s'anime)?
 4. Donnez un titre clair (ex. `Ch. 3 : parallaxe de la forêt`) et décrivez en une ou deux phrases ce que la PR ajoute. **Create pull request**.
 5. Votre coéquipier ou coéquipière y jette un œil (onglet **Files changed**), puis **Merge pull request** → **Confirm merge**.
 
+!!! warning "« This branch has conflicts » : on règle localement"
+    Si GitHub affiche ce message dans votre PR, le bouton de fusion est grisé. N'utilisez pas le bouton **Resolve conflicts** de GitHub : réglez le conflit **sur votre poste**. Sur votre branche, faites l'[étape 5](#etape-5) (*fetch*, puis *merge* de `origin/main`), [réglez le conflit](#les-conflits) dans VS Code, testez avec Live Server, puis *commit* et *push*. La PR se met à jour toute seule, et le bouton redevient vert.
+
 !!! tip "Petites PR, souvent"
     Une PR par partie terminée (un chapitre, un média intégré), pas une énorme PR la veille de la remise. Plus elle est petite, moins il y a de risques de conflit.
 
-## Étape 5 : mettre sa branche à jour avec `main`
+## Étape 5 : mettre sa branche à jour avec `main` { #etape-5 }
 
 Après la fusion d'une PR, `main` contient du nouveau travail. Avant de continuer, **chacun récupère `main` dans sa branche** :
 
@@ -90,7 +122,7 @@ Après la fusion d'une PR, `main` contient du nouveau travail. Avant de continue
 
 Puis *push*. Faites-le **souvent** : au début de chaque séance de travail, et après chaque PR fusionnée.
 
-## Les conflits
+## Les conflits { #les-conflits }
 
 ### Pourquoi un conflit?
 

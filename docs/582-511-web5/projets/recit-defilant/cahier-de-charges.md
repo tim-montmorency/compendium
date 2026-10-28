@@ -17,7 +17,7 @@
 [:material-file-document-outline: Consignes complètes du récit défilant](index.md){ .md-button }
 
 !!! warning "Le processus est évalué"
-    Le cahier de charges est la première étape de votre processus. Au cours du **mer. 21 oct.**, vous me présenterez votre avancement (concept, chapitres, début du storyboard). Le cahier et le storyboard se font **sans IA** : c'est votre réflexion que je veux voir.
+    Le cahier de charges est la première étape de votre processus. Au cours du **mer. 21 oct.**, vous me présenterez votre avancement (concept, chapitres, début du storyboard). Le cahier et le storyboard se font **sans IA** : c'est votre réflexion que je veux voir. Seule exception : une image générée pour illustrer un cadre du storyboard.
 
 !!! danger "Remises formatives : l'échéance compte"
     Même si une remise est dite « formative », **son échéance compte**. Le respect des échéances de **toutes** les remises du projet (cahier de charges, storyboard v2, point de contrôle, prototype, bêta) aura un **impact sur votre note finale**. [Voir les 4 niveaux](index.md#echeances).
@@ -39,27 +39,32 @@ Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec 
 
 Un storyboard de défilement n'est pas une maquette de chaque pixel. C'est **la suite des moments** que vit le visiteur.
 
-**Partez du gabarit** : il contient des cadres desktop et mobile, prêts à dupliquer autant de fois que nécessaire.
+**Partez du gabarit** : il contient **deux pages**, une pour le storyboard **desktop** (cadres en format paysage) et une pour le storyboard **mobile** (cadres en format portrait). Dupliquez les cadres autant de fois que nécessaire.
 
 [:material-download: Télécharger le gabarit de storyboard (Figma)](../../assets/documents/Storyboard_Gabarit_Mobile_Desktop.fig){ .md-button .md-button--primary download }
 
 Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le fichier `.fig` dans la fenêtre), puis partagez le fichier avec votre coéquipier ou coéquipière.
 
 !!! warning "Storyboard v2 : à remettre le ven. 30 oct., 23 h 59"
-    Les exigences ci-dessous ont été précisées après la première remise. Reprenez votre storyboard pour qu'il les respecte toutes, puis remettez-le comme la première fois, avec un nouvel export PDF : `documentation/storyboard-v2.pdf`. **Gardez** `storyboard.pdf` : c'est la trace de votre première version.
+    Les exigences ci-dessous ont été précisées après la première remise. Vous montez une **v2** de votre storyboard, sur le modèle des cadres du Chaperon (plus bas).
+
+!!! danger "Ne touchez pas à votre v1"
+    Dans votre fichier Figma, **ne modifiez pas et ne supprimez pas** les pages de votre première version : c'est la trace de votre processus. Créez une **nouvelle page**, nommée `Storyboard V2`, et travaillez seulement là. Dans le dépôt, gardez aussi `documentation/storyboard.pdf` tel quel.
 
 ### Ce que votre storyboard doit contenir
 
-- **Au moins un cadre (*frame*) par chapitre**, en format desktop. Un chapitre où plusieurs animations se produisent, en même temps ou l'une après l'autre, peut avoir **plusieurs cadres** : un par moment important.
-- **Un cadre mobile à côté de chaque cadre desktop.** Il montre ce qui change sur un petit écran : la place du texte, une animation simplifiée ou retirée.
-- **La zone de texte dessinée dans chaque cadre** : un rectangle identifié « Texte ». C'est là que le visiteur lit votre récit; elle doit avoir sa place dans la composition, pas être ajoutée à la fin.
-- **La fiche d'annotation complète**, dans la zone d'annotation de chaque cadre (voir ci-dessous).
-- Les **médias** peuvent être des boîtes grises ou des croquis, mais **lisibles** : quelqu'un d'autre doit comprendre ce qu'il voit.
+- **Une rangée par moment**, comme dans le modèle : le cadre **desktop**, le cadre **mobile** à côté, puis la **fiche d'annotation**. Tout est visible d'un coup d'œil.
+- **Au moins une rangée par chapitre.** Un chapitre où plusieurs animations se produisent, en même temps ou l'une après l'autre, peut avoir **plusieurs rangées** : une par moment important.
+- **Le cadre mobile** montre ce qui change sur un petit écran : la place du texte, une animation simplifiée ou retirée. Sous le cadre mobile, une ligne : ce qui change sur mobile, ou « Comme desktop ».
+- **Le texte du chapitre placé dans chaque cadre** : un titre et un petit paragraphe de *lorem ipsum*, à la taille et à l'endroit où il apparaîtra à l'écran. C'est là que le visiteur lit votre récit : le texte doit avoir sa place dans la composition, pas être ajouté à la fin.
+- **La fiche d'annotation complète**, à droite des deux cadres (voir ci-dessous).
+- **Des images qui montrent ce qu'on doit voir**, pas des boîtes grises : un croquis, ou une image trouvée ou générée, collée dans le cadre pour représenter chaque élément (le décor, le personnage, l'objet). Ce n'est pas l'image finale, c'est une **référence**. Avec des boîtes grises, personne ne sait ce qui est quoi dans le cadre.
+- Si un élément n'est pas évident, **nommez-le** avec une petite étiquette (« loup », « calque avant »).
 - Repérez votre **moment dataviz** et votre **composant Vue** (navigateur de chapitres ou barre de progression).
 
 ### La fiche d'annotation
 
-Copiez ces amorces dans la zone d'annotation de **chaque** cadre, et complétez-les :
+Dans **chaque** rangée, copiez ces amorces dans une zone de texte, à droite des cadres, et complétez-les :
 
 ```text
 Ch. # · Moment # :
@@ -67,7 +72,6 @@ Texte : où est-il placé?
 Ce qui bouge ou ce qui est animé, et comment? :
 Déclencheur :
 Technique :
-Sur mobile :
 ```
 
 - **Ce qui bouge** : l'élément, le type d'animation (tableau ci-dessous), et son départ → son arrivée.
@@ -96,20 +100,31 @@ L'histoire, elle est déjà dans votre tableau des chapitres. La fiche décrit *
 | Le Chaperon rencontre le loup dans la forêt. | Le loup : déplacement sur l'axe X, de hors écran à droite → au centre, pendant le défilement. Le texte reste épinglé à gauche. |
 | La forêt devient de plus en plus sombre. | Le fond : fondu du vert vers le noir (`opacity` d'un calque sombre de 0 à 0,8), selon la progression du défilement. |
 
-### Deux cadres modèles
+### Le modèle : deux rangées
 
-![Deux cadres de storyboard modèles : chaque cadre desktop avec son cadre mobile et sa fiche d'annotation remplie](assets/storyboard-modele.webp)
+![Deux rangées de storyboard modèles : pour chaque moment, le cadre desktop, le cadre mobile et la fiche d'annotation](assets/storyboard-modele.webp)
+
+### Monter votre v2, étape par étape
+
+Vous ne repartez pas de zéro : vous réutilisez les cadres de votre v1.
+
+1. Dans Figma, créez une nouvelle page : `Storyboard V2`.
+2. Pour chaque moment, créez un grand cadre qui servira de **rangée**, nommé comme le moment (ex. `Ch. 4 · Moment 2`).
+3. **Copiez-collez** dans la rangée votre cadre desktop de la v1, et son cadre mobile à côté. S'il n'existe pas encore, créez le cadre mobile.
+4. Complétez les deux cadres : le texte en *lorem ipsum*, des images de référence, des étiquettes au besoin.
+5. Ajoutez la **fiche d'annotation** à droite, et la ligne « sur mobile » sous le cadre mobile.
+6. Placez les rangées dans l'ordre du récit, l'une sous l'autre.
 
 ### Remettre le storyboard : le lien et le PDF
 
 Vous remettez votre storyboard **de deux façons** :
 
 - **Le lien Figma**, dans le `README.md` et dans le cahier (section 2), avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`. C'est la version vivante : je pourrai y laisser des commentaires.
-- **Un export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf`. C'est la version **figée au moment de la remise** : elle montre ce qui était fait à l'échéance.
+- **Un export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf` pour la v1, `documentation/storyboard-v2.pdf` pour la v2. C'est la version **figée au moment de la remise** : elle montre ce qui était fait à l'échéance.
 
-Pour exporter : dans Figma, menu principal → *File* → *Export frames to PDF*. Vérifiez que tous vos cadres y sont, dans l'ordre du récit.
+Pour exporter la v2 : ouvrez la page `Storyboard V2`, puis menu principal → *File* → *Export frames to PDF*. Chaque rangée devient une page du PDF. Vérifiez qu'elles y sont toutes, dans l'ordre du récit.
 
-Pas d'outils IA de Figma pour le storyboard : dans ce projet, l'IA sert **seulement à créer vos médias**, jusqu'à nouvel ordre.
+Pas d'outils IA de Figma pour composer le storyboard ni pour rédiger les annotations. Vous pouvez par contre **générer une image de référence** pour illustrer un cadre : dans ce projet, l'IA sert **seulement à créer des images**, jusqu'à nouvel ordre.
 
 ## Le modèle de données JSON { #le-modele-de-donnees-json }
 
@@ -364,5 +379,5 @@ Ce que chacun aura fait d'ici le cours du mer. 28 oct. : 2 ou 3 lignes par perso
 - [ ] La trace du brainstorm est accessible : lien FigJam partagé, ou photos lisibles dans `documentation/brainstorm/`.
 - [ ] Le lien Figma du storyboard fonctionne, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`.
 - [ ] Le storyboard est exporté en PDF dans `documentation/storyboard.pdf`, avec tous les cadres.
-- [ ] **Storyboard v2** (ven. 30 oct.) : chaque cadre desktop a son cadre mobile, sa zone de texte et sa fiche d'annotation complète. Exporté dans `documentation/storyboard-v2.pdf`.
+- [ ] **Storyboard v2** (ven. 30 oct.) : sur une nouvelle page Figma (la v1 intacte), une rangée par moment : cadre desktop, cadre mobile, fiche. Le texte en *lorem ipsum*, des images de référence (pas de boîtes grises), une fiche complète. Exporté dans `documentation/storyboard-v2.pdf`.
 - [ ] Le tout est poussé sur GitHub **au plus tard le ven. 23 oct., 23 h 59**.

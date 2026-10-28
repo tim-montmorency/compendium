@@ -92,7 +92,10 @@ En attendant votre tour, relisez la **section 9** de votre cahier : **vos procha
 
 ### Le storyboard v2 : pour le ven. 30 oct., 23 h 59
 
-Les exigences du storyboard sont maintenant précisées : un **cadre mobile** pour chaque cadre desktop, la **zone de texte** dessinée, et une **fiche d'annotation** qui décrit l'animation, pas l'histoire. Deux cadres modèles vous montrent le résultat attendu.
+Les exigences du storyboard sont maintenant précisées. Vous montez une v2 sur le modèle du Chaperon : **une rangée par moment**, avec le cadre **desktop**, le cadre **mobile** et la **fiche d'annotation**, qui décrit l'animation, pas l'histoire. Vous réutilisez vos cadres de la v1 par copier-coller.
+
+!!! danger "Ne touchez pas à votre v1"
+    Dans Figma, ne modifiez pas et ne supprimez pas les pages de votre première version. Créez une **nouvelle page** `Storyboard V2`, et travaillez seulement là. Dans le dépôt, `storyboard.pdf` reste tel quel; la v2 va dans `storyboard-v2.pdf`.
 
 [:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](projets/recit-defilant/cahier-de-charges.md#storyboard){ .md-button .md-button--primary }
 
@@ -100,7 +103,13 @@ Les exigences du storyboard sont maintenant précisées : un **cadre mobile** po
 
 À deux dans le même dépôt, on ne travaille plus comme au portfolio. Aujourd'hui : une branche par personne, la fusion par *pull request*, les conflits, et une façon commune de nommer vos *commits*.
 
-[:material-source-branch: Git en équipe](projets/recit-defilant/git-en-equipe.md){ .md-button .md-button--primary }
+**D'abord, un rappel** : c'est quoi une branche, la branche active, créer, changer et publier une branche. Vous l'avez vu au portfolio.
+
+[:material-source-branch: Les branches Git, en 10 minutes](projets/portfolio/branches-git.md){ .md-button }
+
+**Puis, le travail à deux** : la *pull request*, la mise à jour de sa branche, les conflits et la convention de *commits*.
+
+[:material-account-multiple-outline: Git en équipe](projets/recit-defilant/git-en-equipe.md){ .md-button .md-button--primary }
 [:material-presentation-play: Présentation (PowerPoint)](assets/documents/Web5_git-en-equipe.pptx){ .md-button }
 
 ## 3. Exercice : provoquer et régler un conflit
@@ -127,6 +136,7 @@ Deux des trois formats de **média animable** se jouent en CSS.
 **La spritesheet** : toutes les images d'une animation côte à côte dans un seul fichier, montrées une à la fois avec `steps()`. Pour votre projet, la version responsive, avec `transform`.
 
 [:material-filmstrip: Animation par spritesheet](css/animation-spritesheet.md){ .md-button .md-button--primary }
+[:material-pencil-ruler: Exercice : le monstre responsive](css/exercice-spritesheet.md){ .md-button }
 
 **La parallaxe en calques** : des plans qui défilent à des vitesses différentes, pour donner de la profondeur.
 

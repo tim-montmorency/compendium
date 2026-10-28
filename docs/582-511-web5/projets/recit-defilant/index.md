@@ -167,6 +167,7 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 | Les **notes du cours** et les **démos présentées en classe** | Figma Make, Google Stitch ou autre générateur de code ou de maquette |
 | **Vos collègues** : on s'explique, on ne copie pas | L'IA pour rédiger le cahier de charges, le storyboard ou le journal |
 | **Moi**, en classe et au tutorat | |
+| Générer une **image de référence** pour illustrer un cadre du storyboard | |
 
 !!! tip "Désactiver Copilot dans votre projet"
     Créez le fichier `.vscode/settings.json` à la racine de votre dépôt, et *commitez*-le :
@@ -259,6 +260,6 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ## Storyboard v2 (ven. 30 oct., 23 h 59) { #storyboard-v2 }
 
-Après nos rencontres du mer. 28 oct., vous reprenez votre storyboard avec les exigences précisées : un cadre mobile pour chaque cadre desktop, la zone de texte dessinée, et la fiche d'annotation complète.
+Après nos rencontres du mer. 28 oct., vous reprenez votre storyboard avec les exigences précisées : un cadre mobile pour chaque cadre desktop, le texte de chaque chapitre placé dans le cadre (en *lorem ipsum*), et la fiche d'annotation complète.
 
 [:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](cahier-de-charges.md#storyboard){ .md-button .md-button--primary }
