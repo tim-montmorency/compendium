@@ -3,8 +3,16 @@
 
 ## Annonces
 
+!!! warning "Dès votre arrivée : votre identifiant GitHub pour Classroom 50"
+    Une seule question, 30 secondes : [Inscription à ma classe GitHub Classroom 50 – Remplir le formulaire](https://forms.cloud.microsoft/r/Fa0X0aXWm8){ :target="_blank" }
+
+    Écrivez votre identifiant **exactement** comme sur GitHub. Ensuite, surveillez vos courriels : vous recevrez une **invitation à l'organisation GitHub du cours**. Acceptez-la avant l'exercice de la section 3, sinon vous ne pourrez pas y accéder.
+
 !!! danger "Le centre d'aide C-1602 n'est pas un lieu pour jouer à des jeux vidéo"
     Le local du Centre d'aide est un lieu de travail. Silencieux, comme dans une bibliothèque. On y travaille, c'est la priorité de ce local.
+
+!!! info "Récit défilant : la répartition de l'évaluation a changé"
+    Équipe 25 %, individuel 35 %. Le cahier de charges et le storyboard sont notés dans leur **version finale**, à la fin du projet. Le **respect des échéances** devient un volet à part : une remise bâclée vaut presque autant qu'une remise absente. [Voir l'évaluation](projets/recit-defilant/index.md#echeances)
 
 !!! success "Sondage: TUTORAT"
     Quels seraient le moment le plus utile ? [Remplir le formulaire](https://forms.cloud.microsoft/r/147C3TKbpC)
@@ -58,7 +66,9 @@ Le projet au complet : produit, garde-fous, évaluation, calendrier.
 
 ## Aujourd'hui
 
-- [ ] Retour sur le cahier de charges, et vos prochaines étapes
+- [ ] Remplir le formulaire Classroom 50 (votre identifiant GitHub), puis accepter l'invitation reçue par courriel
+- [ ] Rencontre éclair avec moi : votre storyboard et votre cahier de charges
+- [ ] Le storyboard v2 : les exigences précisées, à remettre ven. 30 oct.
 - [ ] Git en équipe : branches, *pull requests*, conflits, convention de *commits*
 - [ ] Exercice en duo : provoquer et régler un conflit
 - [ ] Dans votre projet : la structure commune sur `main`, puis une branche chacun
@@ -67,11 +77,24 @@ Le projet au complet : produit, garde-fous, évaluation, calendrier.
 
 <!-- MM : ajouter le tutorat de la semaine, s'il y a lieu. -->
 
-## 1. Retour sur le cahier de charges
+## 1. Rencontre éclair : storyboard et cahier de charges
 
-Je vous remets vos commentaires sur le cahier de charges. Prenez 10 minutes en équipe pour les lire et noter ce que vous ajusterez.
+Pendant les périodes de travail d'aujourd'hui (l'exercice, puis le travail dans votre projet), **je passe voir chaque équipe**, environ 5 minutes. Je survole votre storyboard et votre cahier, et je vous dis à première vue ce qui est incomplet ou à clarifier.
 
-Puis, relisez la **section 9** de votre cahier : **vos prochaines étapes**. Ce que vous aviez prévu pour aujourd'hui, est-ce fait? Notez-le dans votre journal.
+Quand j'arrive à votre poste, ayez **déjà ouverts** :
+
+- votre **storyboard** dans Figma;
+- votre **cahier de charges** sur github.com (`documentation/CAHIER-DE-CHARGES.md`).
+
+En attendant votre tour, relisez la **section 9** de votre cahier : **vos prochaines étapes**. Ce que vous aviez prévu pour aujourd'hui, est-ce fait?
+
+**Après la rencontre**, chacun note dans son **journal de bord** les commentaires reçus et ce que l'équipe va corriger.
+
+### Le storyboard v2 : pour le ven. 30 oct., 23 h 59
+
+Les exigences du storyboard sont maintenant précisées : un **cadre mobile** pour chaque cadre desktop, la **zone de texte** dessinée, et une **fiche d'annotation** qui décrit l'animation, pas l'histoire. Deux cadres modèles vous montrent le résultat attendu.
+
+[:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](projets/recit-defilant/cahier-de-charges.md#storyboard){ .md-button .md-button--primary }
 
 ## 2. Git en équipe
 
@@ -113,6 +136,7 @@ Deux des trois formats de **média animable** se jouent en CSS.
 
 ## Devoirs
 
-- Entrée au **journal de bord** : les 5 questions.
+- Entrée au **journal de bord** : les 5 questions, et les commentaires reçus à la rencontre.
+- **Storyboard v2**, en équipe : exporté dans `documentation/storyboard-v2.pdf`, au plus tard le **ven. 30 oct., 23 h 59**.
 - Sur **votre** branche : commencez la préparation de votre média animable.
 - Faites votre premier *commit* selon la convention de l'équipe : `Zone : ce qui a changé`.

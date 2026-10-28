@@ -13,7 +13,7 @@
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. En **équipe de 2**, vous concevez et codez un **récit défilant** (*scrollytelling*) : une histoire en chapitres qui se déroule et s'anime au rythme du défilement. Thème au choix.
-2. Le travail se fait en équipe, mais **la note est surtout individuelle** (40&nbsp;% sur 60&nbsp;%) : chacun est responsable de ses chapitres, de son média animable, de sa QA et de sa défense.
+2. Le travail se fait en équipe, mais **la note est surtout individuelle** (35&nbsp;% sur 60&nbsp;%) : chacun est responsable de ses chapitres, de son média animable, de sa QA et de sa défense.
 3. **Première étape : le cahier de charges**, à déposer **au plus tard le ven. 23 oct., 23 h 59**. Vous pouvez le commencer dès aujourd'hui, et on avance ensemble au cours du **mer. 21 oct.**
 
 </div>
@@ -192,12 +192,32 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 
 | Volet | % | Type | Quand |
 |---|---|---|---|
-| Planification et cahier de charges | 5 | équipe | ven. 23 oct. |
+| Planification : cahier de charges et storyboard (version finale) | 5 | équipe | ven. 11 déc. |
+| Respect des échéances (toutes les remises) | 5 | équipe | à chaque remise |
 | Produit final et présentation | 15 | équipe | ven. 11 déc. |
-| Réalisation de vos zones (chapitres, média animable, code) | 20 | **individuel** | ven. 11 déc. |
+| Réalisation de vos zones (chapitres, média animable, code) | 15 | **individuel** | ven. 11 déc. |
 | Contrôle de la qualité croisé (tester une autre équipe, corriger vos écarts) | 10 | **individuel** | 25 nov. au 4 déc. |
 | Défense individuelle | 10 | **individuel** | mer. 9 déc. |
-| **Total** | **60** | **20 équipe, 40 individuel** | |
+| **Total** | **60** | **25 équipe, 35 individuel** | |
+
+Le cahier de charges et le storyboard sont **notés dans leur version finale**, à la fin du projet, comme au portfolio. D'ici là, ils évoluent avec mes rétroactions.
+
+### Le respect des échéances { #echeances }
+
+À chaque remise du projet (cahier de charges et storyboard, storyboard v2, point de contrôle, prototype, bêta), votre équipe obtient l'un de ces 4 niveaux :
+
+| Niveau | Ce que ça veut dire |
+|---|---|
+| **Absent** | Rien remis, gabarit vide, ou remis en retard sans entente préalable. |
+| **Bâclé** | Remis à temps, mais je ne peux rien en tirer pour vous donner une rétroaction : parties manquantes, croquis illisibles, rien d'écrit. |
+| **De bonne foi** | Un vrai travail, même incomplet ou mal compris : je peux vous donner une rétroaction utile. |
+| **Complet** | Tout ce qui était demandé est là. |
+
+**Une remise bâclée vaut presque autant qu'une remise absente.** Déposer « quelque chose » pour respecter l'heure ne suffit pas.
+
+Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ven. 30 oct.) fait remonter le niveau de la remise du 23 oct. jusqu'à « De bonne foi », jamais jusqu'à « Complet ».
+
+<!-- MM : barème interne par remise : Absent 0, Bâclé 0,5, De bonne foi 2, Complet 3. -->
 
 ## Calendrier
 
@@ -207,8 +227,8 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 | 9 au 20 oct. | **Travail autonome** : concept, chapitres, début du storyboard |
 | **mer. 21 oct.** | Cours : storyboard, modèle de données, matrice de responsabilités. Vous me présentez votre avancement. |
 | **ven. 23 oct.** | Pas de cours. **Remise 1 : cahier de charges**, déposé au plus tard à 23 h 59 |
-| mer. 28 oct. | Rétroaction sur le cahier de charges. Animations CSS : parallaxe, spritesheet. Préparer ses médias. Branches Git. |
-| ven. 30 oct. | Animations CSS au défilement. Chargement des chapitres en JSON. |
+| mer. 28 oct. | Rencontres éclair : rétroaction sur votre storyboard et votre cahier. Branches Git. Animations CSS : parallaxe, spritesheet. |
+| **ven. 30 oct.** | **Storyboard v2**, déposé au plus tard à 23 h 59. Animations CSS au défilement. Chargement des chapitres en JSON. |
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
 | ven. 6 nov. | Construction des chapitres, point de contrôle d'équipe |
 | mer. 11 nov. | Initiation à Vue.js : le composant imposé. Le *fetch* externe : choisir et tester votre API. |
@@ -223,7 +243,7 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 ## Remise 1 : le cahier de charges (ven. 23 oct., 23 h 59) { #remise-1 }
 
 !!! danger "Remises formatives : l'échéance compte"
-    Même si une remise est dite « formative », **son échéance compte**. Le respect des échéances de **toutes** les remises du projet (cahier de charges, point de contrôle, prototype, bêta) aura un **impact sur votre note finale**.
+    Même si une remise est dite « formative », **son échéance compte**. Le respect des échéances de **toutes** les remises du projet (cahier de charges, storyboard v2, point de contrôle, prototype, bêta) aura un **impact sur votre note finale**. [Voir les 4 niveaux](#echeances).
 
     Comme dans le monde professionnel : quand une étape est en retard, c'est toute l'équipe, et tout le projet, qui en souffre.
 
@@ -236,3 +256,9 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 - [ ] Chaque personne a son `documentation/JOURNAL-prenom.md`, avec les 5 questions de ce premier bloc, ses 2 ou 3 inspirations et la trace du brainstorm (lien FigJam, ou lien vers les photos dans `documentation/brainstorm/`).
 
 [:material-file-document-edit-outline: Le cahier de charges : gabarit et consignes](cahier-de-charges.md){ .md-button .md-button--primary }
+
+## Storyboard v2 (ven. 30 oct., 23 h 59) { #storyboard-v2 }
+
+Après nos rencontres du mer. 28 oct., vous reprenez votre storyboard avec les exigences précisées : un cadre mobile pour chaque cadre desktop, la zone de texte dessinée, et la fiche d'annotation complète.
+
+[:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](cahier-de-charges.md#storyboard){ .md-button .md-button--primary }

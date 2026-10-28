@@ -16,8 +16,7 @@
 
 Votre dépôt est créé pour vous par **Classroom 50**, avec le fichier `index.html` de départ déjà dedans.
 
-**[Accepter l'exercice dans Classroom 50](#){ :target="_blank" }**
-<!-- MM : remplacer # par le lien d'acceptation (Share → Copy accept link) -->
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exercice-conflit-git/accept?k=rthn1z36){ :target="_blank" }**
 
 1. **Avant tout** : vous devez avoir accepté l'invitation à l'organisation GitHub du cours (courriel de GitHub). Sinon, Classroom 50 affiche « Not a member yet » : venez me voir.
 2. **Personne A** : ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis **Accept assignment**. Choisissez de **créer un groupe**.

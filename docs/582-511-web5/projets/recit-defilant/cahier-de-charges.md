@@ -10,7 +10,7 @@
 
 1. Le cahier de charges fixe **ce que votre équipe va construire, et qui fait quoi**, avant d'écrire une ligne de code.
 2. Vous partez du **gabarit** ci-dessous : copiez-le dans `documentation/CAHIER-DE-CHARGES.md`, puis remplissez chaque section, en équipe.
-3. À déposer **au plus tard le ven. 23 oct., 23 h 59**, avec le storyboard (lien Figma et export PDF). C'est la remise 1 (5 %, note d'équipe).
+3. À déposer **au plus tard le ven. 23 oct., 23 h 59**, avec le storyboard (lien Figma et export PDF). C'est la remise 1, formative. Le cahier et le storyboard sont **notés dans leur version finale**, à la fin du projet (5 %, note d'équipe).
 
 </div>
 
@@ -20,7 +20,7 @@
     Le cahier de charges est la première étape de votre processus. Au cours du **mer. 21 oct.**, vous me présenterez votre avancement (concept, chapitres, début du storyboard). Le cahier et le storyboard se font **sans IA** : c'est votre réflexion que je veux voir.
 
 !!! danger "Remises formatives : l'échéance compte"
-    Même si une remise est dite « formative », **son échéance compte**. Le respect des échéances de **toutes** les remises du projet (cahier de charges, point de contrôle, prototype, bêta) aura un **impact sur votre note finale**.
+    Même si une remise est dite « formative », **son échéance compte**. Le respect des échéances de **toutes** les remises du projet (cahier de charges, storyboard v2, point de contrôle, prototype, bêta) aura un **impact sur votre note finale**. [Voir les 4 niveaux](index.md#echeances).
 
     Comme dans le monde professionnel : quand une étape est en retard, c'est toute l'équipe, et tout le projet, qui en souffre.
 
@@ -35,7 +35,7 @@ Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec 
 5. **La matrice de responsabilités** (section 4) : qui possède quoi. À faire **ensemble**, et à prendre au sérieux : c'est la base de votre note individuelle.
 6. **Le reste** : données, dataviz, médias, technologies, prochaines étapes, risques.
 
-## Le storyboard dans Figma
+## Le storyboard dans Figma { #storyboard }
 
 Un storyboard de défilement n'est pas une maquette de chaque pixel. C'est **la suite des moments** que vit le visiteur.
 
@@ -45,14 +45,60 @@ Un storyboard de défilement n'est pas une maquette de chaque pixel. C'est **la 
 
 Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le fichier `.fig` dans la fenêtre), puis partagez le fichier avec votre coéquipier ou coéquipière.
 
+!!! warning "Storyboard v2 : à remettre le ven. 30 oct., 23 h 59"
+    Les exigences ci-dessous ont été précisées après la première remise. Reprenez votre storyboard pour qu'il les respecte toutes, puis remettez-le comme la première fois, avec un nouvel export PDF : `documentation/storyboard-v2.pdf`. **Gardez** `storyboard.pdf` : c'est la trace de votre première version.
+
+### Ce que votre storyboard doit contenir
+
 - **Au moins un cadre (*frame*) par chapitre**, en format desktop. Un chapitre où plusieurs animations se produisent, en même temps ou l'une après l'autre, peut avoir **plusieurs cadres** : un par moment important.
-- Ajoutez des cadres mobiles pour les chapitres les plus animés.
-- Dans la description de **chaque** cadre, **indiquez le numéro du chapitre** (ex. « Ch. 3 »), puis annotez :
-  - ce qui **apparaît**, **bouge** ou **reste épinglé**;
-  - **ce qui le déclenche** : l'entrée dans l'écran, la progression du défilement, un clic;
-  - **la technique** prévue : CSS au défilement, GSAP + ScrollTrigger ou IntersectionObserver.
-- Les **médias** peuvent être des boîtes grises ou des croquis : ce qui compte, c'est le déroulement.
+- **Un cadre mobile à côté de chaque cadre desktop.** Il montre ce qui change sur un petit écran : la place du texte, une animation simplifiée ou retirée.
+- **La zone de texte dessinée dans chaque cadre** : un rectangle identifié « Texte ». C'est là que le visiteur lit votre récit; elle doit avoir sa place dans la composition, pas être ajoutée à la fin.
+- **La fiche d'annotation complète**, dans la zone d'annotation de chaque cadre (voir ci-dessous).
+- Les **médias** peuvent être des boîtes grises ou des croquis, mais **lisibles** : quelqu'un d'autre doit comprendre ce qu'il voit.
 - Repérez votre **moment dataviz** et votre **composant Vue** (navigateur de chapitres ou barre de progression).
+
+### La fiche d'annotation
+
+Copiez ces amorces dans la zone d'annotation de **chaque** cadre, et complétez-les :
+
+```text
+Ch. # · Moment # :
+Texte : où est-il placé?
+Ce qui bouge ou ce qui est animé, et comment? :
+Déclencheur :
+Technique :
+Sur mobile :
+```
+
+- **Ce qui bouge** : l'élément, le type d'animation (tableau ci-dessous), et son départ → son arrivée.
+- **Déclencheur** : l'entrée dans l'écran, la progression du défilement, une section épinglée, un clic.
+- **Technique** : CSS au défilement, GSAP + ScrollTrigger ou IntersectionObserver.
+
+### Nommer le « comment »
+
+| Type | À préciser |
+|---|---|
+| **Déplacement** | L'axe (X ou Y) et le sens : « de la droite vers le centre », « monte de 200 px » |
+| **Rotation** | Le sens et l'amplitude : « tourne d'un demi-tour » |
+| **Échelle** | « grossit de 50 % à 100 % » |
+| **Apparition, disparition** | Un fondu, ou une entrée par un côté |
+| **Tracé SVG** | « la ligne se dessine de gauche à droite » |
+| **Image par image** | Spritesheet : combien d'images, en boucle ou une seule fois |
+| **Parallaxe** | Les calques et leur vitesse relative : « l'avant-plan va plus vite » |
+| **Épinglé** | Ce qui reste fixe, et pendant combien de défilement |
+
+### Décrire l'animation, pas l'histoire
+
+L'histoire, elle est déjà dans votre tableau des chapitres. La fiche décrit **ce que le visiteur voit bouger**, assez précisément pour que quelqu'un d'autre puisse le coder.
+
+| L'histoire (à éviter) | L'animation (ce qu'on veut) |
+|---|---|
+| Le Chaperon rencontre le loup dans la forêt. | Le loup : déplacement sur l'axe X, de hors écran à droite → au centre, pendant le défilement. Le texte reste épinglé à gauche. |
+| La forêt devient de plus en plus sombre. | Le fond : fondu du vert vers le noir (`opacity` d'un calque sombre de 0 à 0,8), selon la progression du défilement. |
+
+### Deux cadres modèles
+
+![Deux cadres de storyboard modèles : chaque cadre desktop avec son cadre mobile et sa fiche d'annotation remplie](assets/storyboard-modele.webp)
 
 ### Remettre le storyboard : le lien et le PDF
 
@@ -318,4 +364,5 @@ Ce que chacun aura fait d'ici le cours du mer. 28 oct. : 2 ou 3 lignes par perso
 - [ ] La trace du brainstorm est accessible : lien FigJam partagé, ou photos lisibles dans `documentation/brainstorm/`.
 - [ ] Le lien Figma du storyboard fonctionne, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`.
 - [ ] Le storyboard est exporté en PDF dans `documentation/storyboard.pdf`, avec tous les cadres.
+- [ ] **Storyboard v2** (ven. 30 oct.) : chaque cadre desktop a son cadre mobile, sa zone de texte et sa fiche d'annotation complète. Exporté dans `documentation/storyboard-v2.pdf`.
 - [ ] Le tout est poussé sur GitHub **au plus tard le ven. 23 oct., 23 h 59**.
