@@ -15,8 +15,7 @@
 
 Votre dépôt est créé pour vous par **Classroom 50**, avec les fichiers de départ.
 
-**[Accepter l'exercice dans Classroom 50](#){ :target="_blank" }**
-<!-- MM : remplacer # par le lien d'acceptation. -->
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-test00000001/accept?k=rthn1z36){ :target="_blank" }**
 
 1. Ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis acceptez l'exercice.
 2. Quand le dépôt est prêt, ouvrez-le, puis **clonez**-le sur votre poste et ouvrez-le dans VS Code.

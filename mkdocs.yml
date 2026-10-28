@@ -294,6 +294,8 @@ nav:
             - Cahier de charges: 582-511-web5/projets/recit-defilant/cahier-de-charges.md 
             - Exemples et inspirations: 582-511-web5/projets/recit-defilant/inspirations.md
             - Data visualisation: 582-511-web5/projets/recit-defilant/dataviz.md
+            - Git en équipe: 582-511-web5/projets/recit-defilant/git-en-equipe.md
+            - "Exerc : un conflit git": 582-511-web5/projets/recit-defilant/exercice-conflit.md
         - Portfolio: 
           - Portfolio consignes sommaires: 582-511-web5/projets/portfolio/index.md
           - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
@@ -304,6 +306,7 @@ nav:
               - Source JSON local: 582-511-web5/projets/portfolio/donnees/json-local.md
               - Source GoogleSheets+Opensheet: 582-511-web5/projets/portfolio/donnees/google-sheets-opensheet.md
               - Source Airtable: 582-511-web5/projets/portfolio/donnees/airtable.md
+          - Les branches Git: 582-511-web5/projets/portfolio/branches-git.md
           - Déployer sur GitHub Pages: 582-511-web5/projets/portfolio/deploiement-github-pages.md
           - Remise bêta, liste de vérification: 582-511-web5/projets/portfolio/remise-beta.md
           - Consignes QA du portfolio: 582-511-web5/projets/portfolio/qa-portfolio.md
@@ -324,6 +327,11 @@ nav:
             - Transitions CSS: 582-211-web2/css/transitions-css.md
             - Animations CSS: 582-211-web2/css/animations-css.md
             - Animation au scroll CSS: 582-511-web5/css/animations-scroll.md
+            - Animations du récit défilant:
+              - La parallaxe: 582-511-web5/css/parallaxe.md
+              - "Exerc : la parallaxe en calques": 582-511-web5/css/exercice-parallaxe.md
+              - Animation par spritesheet: 582-511-web5/css/animation-spritesheet.md
+              - "Exerc : le monstre responsive": 582-511-web5/css/exercice-spritesheet.md
             - Unités vw, vh, calc, clamp: 582-211-web2/css/unites-vw-vh-clamp-calc.md
             - Variab., unités, fonctions: 582-211-web2/css/variables-unites-fonctions.md
         - CSS Flexbox:
@@ -343,6 +351,7 @@ nav:
             - Media queries, breakpoints: 582-211-web2/css/mediaqueries-breakpoints.md
             - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
       - Recap JavaScript: 582-511-web5/js/recap-js.md
+      - Cours 9.1: 582-511-web5/cours09a.md
       - Cours 8.1: 582-511-web5/cours08a.md
       - Cours 7.2: 582-511-web5/cours07b.md
       - Cours 7.1: 582-511-web5/cours07a.md

@@ -13,8 +13,7 @@
 
 ## Obtenir votre dépôt (5 min)
 
-**[Accepter l'exercice dans Classroom 50](#){ :target="_blank" }**
-<!-- MM : remplacer # par le lien d'acceptation. -->
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exercice-parallaxe/accept?k=rthn1z36){ :target="_blank" }**
 
 1. Ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis acceptez l'exercice.
 2. Quand le dépôt est prêt, **clonez**-le sur votre poste et ouvrez-le dans VS Code.
