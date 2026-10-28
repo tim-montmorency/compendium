@@ -79,7 +79,7 @@ Le projet au complet : produit, garde-fous, évaluation, calendrier.
 
 ## 1. Rencontre éclair : storyboard et cahier de charges
 
-Pendant les périodes de travail d'aujourd'hui (l'exercice, puis le travail dans votre projet), **je passe voir chaque équipe**, environ 5 minutes. Je survole votre storyboard et votre cahier, et je vous dis à première vue ce qui est incomplet ou à clarifier.
+Pendant les périodes de travail d'aujourd'hui (l'exercice, puis le travail dans votre projet), **je passe voir chaque équipe**, environ 5 minutes. Je survole votre storyboard et votre cahier, et je vous dis à première vue ce qui est incomplet ou à clarifier. Je vous dirai aussi si votre **concept** doit être poussé davantage : la [créativité compte](projets/recit-defilant/index.md#creativite).
 
 Quand j'arrive à votre poste, ayez **déjà ouverts** :
 
@@ -93,6 +93,8 @@ En attendant votre tour, relisez la **section 9** de votre cahier : **vos procha
 ### Le storyboard v2 : pour le ven. 30 oct., 23 h 59
 
 Les exigences du storyboard sont maintenant précisées. Vous montez une v2 sur le modèle du Chaperon : **une rangée par moment**, avec le cadre **desktop**, le cadre **mobile** et la **fiche d'annotation**, qui décrit l'animation, pas l'histoire. Vous réutilisez vos cadres de la v1 par copier-coller.
+
+Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **angle**, votre **identité visuelle** et votre **moment surprenant**. Le gabarit a trois nouvelles lignes pour ça.
 
 !!! danger "Ne touchez pas à votre v1"
     Dans Figma, ne modifiez pas et ne supprimez pas les pages de votre première version. Créez une **nouvelle page** `Storyboard V2`, et travaillez seulement là. Dans le dépôt, `storyboard.pdf` reste tel quel; la v2 va dans `storyboard-v2.pdf`.

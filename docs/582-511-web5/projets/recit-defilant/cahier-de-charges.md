@@ -61,6 +61,7 @@ Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le
 - **Des images qui montrent ce qu'on doit voir**, pas des boîtes grises : un croquis, ou une image trouvée ou générée, collée dans le cadre pour représenter chaque élément (le décor, le personnage, l'objet). Ce n'est pas l'image finale, c'est une **référence**. Avec des boîtes grises, personne ne sait ce qui est quoi dans le cadre.
 - Si un élément n'est pas évident, **nommez-le** avec une petite étiquette (« loup », « calque avant »).
 - Repérez votre **moment dataviz** et votre **composant Vue** (navigateur de chapitres ou barre de progression).
+- **Poussez votre concept** : la v2 est le moment d'aller plus loin que le minimum. Votre angle, votre identité visuelle et votre moment surprenant doivent se voir dans les cadres (voir [La créativité compte](index.md#creativite)).
 
 ### La fiche d'annotation
 
@@ -271,6 +272,12 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 
 **En une phrase** : [votre récit résumé en une seule phrase]
 
+**Notre angle** : [le point de vue qui rend votre récit unique. Ex. pas « les abeilles », mais « une journée dans la vie d'une abeille ouvrière, racontée par elle ».]
+
+**Notre identité visuelle** : [palette, typographie, style d'images, et pourquoi ils conviennent à votre histoire]
+
+**Notre moment surprenant** : [le chapitre, et ce qui s'y passe que le visiteur n'attend pas]
+
 ## 2. Le storyboard
 
 [Le lien Figma, et 2 ou 3 phrases sur le déroulement général : comment le récit commence, où est le point culminant, comment il se termine.]
@@ -374,6 +381,7 @@ Ce que chacun aura fait d'ici le cours du mer. 28 oct. : 2 ou 3 lignes par perso
 
 ## Avant de remettre
 
+- [ ] La section 1 décrit votre **angle**, votre **identité visuelle** et votre **moment surprenant**.
 - [ ] Toutes les sections sont remplies : aucun crochet ne reste.
 - [ ] Chaque personne a au moins 3 chapitres et un média animable dans la matrice.
 - [ ] Chaque technique d'animation apparaît au moins une fois dans le tableau des chapitres.

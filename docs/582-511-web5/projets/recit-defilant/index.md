@@ -63,6 +63,19 @@ Un récit sur un thème de votre choix, par exemple :
 | **Accessibilité** | Le récit reste lisible **sans animation**, avec `prefers-reduced-motion`. |
 | **Déploiement** | En ligne sur GitHub Pages. |
 
+### La créativité compte { #creativite }
+
+Le cours vise un produit Web **créatif** et **original** : c'est écrit dans ses objectifs. Un récit qui coche toutes les exigences, mais qui ressemble à une page Web ordinaire, ne suffit pas.
+
+Ce que je regarde :
+
+- **Un angle** : votre récit a un point de vue. « Les abeilles », c'est un sujet; « une journée dans la vie d'une abeille ouvrière, racontée par elle », c'est un angle.
+- **Une identité visuelle** : une palette, une typographie et un style d'images choisis **pour votre histoire**, cohérents du début à la fin.
+- **Des animations qui racontent** : chaque animation signature dit quelque chose de l'histoire. Elle n'est pas là pour décorer.
+- **Au moins un moment surprenant** : un passage que le visiteur n'attend pas d'une page Web.
+
+Être créatif, ce n'est pas ajouter des animations : les garde-fous ci-dessous s'appliquent toujours. C'est faire des **choix**, et les assumer.
+
 ### Les garde-fous
 
 Ils existent pour que le projet reste faisable en 8 semaines, à deux.
@@ -202,6 +215,8 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 | **Total** | **60** | **25 équipe, 35 individuel** | |
 
 Le cahier de charges et le storyboard sont **notés dans leur version finale**, à la fin du projet, comme au portfolio. D'ici là, ils évoluent avec mes rétroactions.
+
+La [créativité](#creativite) compte dans deux volets : la **planification** (votre concept, votre angle) et le **produit final** (sa réalisation).
 
 ### Le respect des échéances { #echeances }
 
