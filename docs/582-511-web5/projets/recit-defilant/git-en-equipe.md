@@ -193,4 +193,4 @@ Comme au portfolio : en français, à l'impératif, précis. Jamais `update`, `f
 
 Avant de toucher à votre projet, provoquez un conflit volontairement, dans un petit dépôt d'exercice créé par Classroom 50, et réglez-le à deux.
 
-[:material-source-merge: Exercice : provoquer et régler un conflit](exercice-conflit.md){ .md-button .md-button--primary }
+[:material-source-merge: Exercice : provoquer et régler un conflit](../../exercices/ex-conflit-git/index.md){ .md-button .md-button--primary }

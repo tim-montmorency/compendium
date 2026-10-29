@@ -10,7 +10,7 @@
 </div>
 
 !!! info "Avant de commencer"
-    Gardez ouverte la page [Git en équipe](git-en-equipe.md) : chaque étape y est expliquée en détail. Ici, on parle de **personne A** et **personne B** : décidez qui est qui. Dans les schémas, la personne A s'appelle Zoé (branche `zoe`) et la personne B, Léo (branche `leo`).
+    Gardez ouverte la page [Git en équipe](../../projets/recit-defilant/git-en-equipe.md) : chaque étape y est expliquée en détail. Ici, on parle de **personne A** et **personne B** : décidez qui est qui. Dans les schémas, la personne A s'appelle Zoé (branche `zoe`) et la personne B, Léo (branche `leo`).
 
 ## Où se passe chaque étape
 

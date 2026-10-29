@@ -65,7 +65,7 @@ Vous avez vu ces notions pour le portfolio. Aujourd'hui, **vous les tapez vous-m
 3. Un texte qui glisse, et le piège de `overflow: hidden`.
 4. Les deux règles obligatoires : `@supports` et `prefers-reduced-motion`.
 
-[:material-pencil-ruler: Exercice : animer au défilement](css/exercice-scroll.md){ .md-button .md-button--primary }
+[:material-pencil-ruler: Exercice : animer au défilement](exercices/ex-scroll/index.md){ .md-button .md-button--primary }
 [:material-gesture-swipe-vertical: La référence](css/animations-scroll.md){ .md-button }
 
 ## 3. La parallaxe en calques :material-layers-outline:
@@ -73,7 +73,7 @@ Vous avez vu ces notions pour le portfolio. Aujourd'hui, **vous les tapez vous-m
 Un des trois formats de **média animable** : une scène découpée en plans, chacun à sa vitesse. Techniquement, c'est une animation au défilement de plus : `view-timeline-name` sur la scène, une animation par calque.
 
 [:material-layers-outline: La parallaxe : définition et exemples](css/parallaxe.md){ .md-button }
-[:material-pencil-ruler: Exercice : la parallaxe en calques](css/exercice-parallaxe.md){ .md-button }
+[:material-pencil-ruler: Exercice : la parallaxe en calques](exercices/ex-parallaxe/index.md){ .md-button }
 
 ## 4. Dans votre projet : du JSON aux chapitres
 
@@ -96,9 +96,9 @@ Le storyboard v2 et la section 1 du cahier, pour ce soir.
 
 Terminez les exercices, chacun dans son dépôt Classroom 50 :
 
-- [Exercice : un conflit](projets/recit-defilant/exercice-conflit.md), s'il n'est pas terminé;
-- [Exercice : le monstre responsive](css/exercice-spritesheet.md);
-- [Exercice : animer au défilement](css/exercice-scroll.md);
-- [Exercice : la parallaxe en calques](css/exercice-parallaxe.md).
+- [Exercice : un conflit](exercices/ex-conflit-git/index.md), s'il n'est pas terminé;
+- [Exercice : le monstre responsive](exercices/ex-spritesheet/index.md);
+- [Exercice : animer au défilement](exercices/ex-scroll/index.md);
+- [Exercice : la parallaxe en calques](exercices/ex-parallaxe/index.md).
 
 Et dans votre projet : vos chapitres s'affichent depuis `data.json`, sur `main`.

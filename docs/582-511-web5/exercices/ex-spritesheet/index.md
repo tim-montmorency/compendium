@@ -11,7 +11,7 @@
 
 </div>
 
-**Seul, environ 40 minutes.** Gardez la page [Animation par spritesheet](animation-spritesheet.md) ouverte à côté.
+**Seul, environ 40 minutes.** Gardez la page [Animation par spritesheet](../../css/animation-spritesheet.md) ouverte à côté.
 
 ## Obtenir votre dépôt (5 min)
 
@@ -93,7 +93,7 @@ Pour tester `prefers-reduced-motion` sans changer les réglages de votre ordinat
 Dans votre récit défilant, c'est le visiteur qui fait avancer l'animation. Faites la même chose ici : **le monstre fait ses pas quand on défile**, et s'arrête quand on arrête de défiler.
 
 - [ ] Ajoutez de l'espace avant et après le monstre (ex. deux `div` de `150vh`), pour qu'on puisse défiler.
-- [ ] Liez l'animation de l'image à sa visibilité dans l'écran, avec `animation-timeline` (voir [Animations pilotées par le défilement](animations-scroll.md)).
+- [ ] Liez l'animation de l'image à sa visibilité dans l'écran, avec `animation-timeline` (voir [Animations pilotées par le défilement](../../css/animations-scroll.md)).
 - [ ] Pendant la traversée de l'écran, le monstre fait **3 cycles** de marche.
 - [ ] Protégez le tout avec `@supports`.
 

@@ -63,4 +63,4 @@ On rencontre surtout trois formes :
 ## Le faire en CSS
 
 [:material-code-tags: La technique : un classique, le parallax](animations-scroll.md#un-classique-le-parallax){ .md-button .md-button--primary }
-[:material-pencil-ruler: Exercice : la parallaxe en calques](exercice-parallaxe.md){ .md-button }
+[:material-pencil-ruler: Exercice : la parallaxe en calques](../exercices/ex-parallaxe/index.md){ .md-button }

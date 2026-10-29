@@ -111,7 +111,7 @@ Le `switch` est expliqué dans le [cahier de charges](cahier-de-charges.md#le-mo
 ## Les *pull requests*
 
 1. Chacun fait un *commit* et un *push* sur sa branche (ex. `Données : remplit les chapitres 3 et 4`, `Commun : charge les chapitres avec fetch`).
-2. :material-github: Chacun ouvre une *pull request* vers `main`, comme à la partie 4 de l'[exercice du conflit](exercice-conflit.md).
+2. :material-github: Chacun ouvre une *pull request* vers `main`, comme à la partie 4 de l'[exercice du conflit](../../exercices/ex-conflit-git/index.md).
 3. La première PR passe. Pour la deuxième, si GitHub signale un conflit : réglez-le **sur votre poste**, en mettant votre branche à jour avec `main` ([étape 5 de Git en équipe](git-en-equipe.md#etape-5)).
 4. Chacun met ensuite sa branche à jour avec `main`.
 

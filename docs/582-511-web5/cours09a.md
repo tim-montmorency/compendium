@@ -49,7 +49,7 @@ Une branche par personne, les *pull requests*, les conflits et la convention de 
 
 En duo, dans un dépôt d'exercice Classroom 50 : provoquer un conflit exprès, puis le régler.
 
-[:octicons-arrow-right-24: L'exercice](projets/recit-defilant/exercice-conflit.md){ .stretched-link }
+[:octicons-arrow-right-24: L'exercice](exercices/ex-conflit-git/index.md){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -118,7 +118,7 @@ Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **
 
 **En duo, 25 minutes.** Dans un petit dépôt d'exercice créé par Classroom 50, vous allez provoquer un conflit exprès, et le régler. Chacun en règle un.
 
-[:material-source-merge: L'exercice, étape par étape](projets/recit-defilant/exercice-conflit.md){ .md-button }
+[:material-source-merge: L'exercice, étape par étape](exercices/ex-conflit-git/index.md){ .md-button }
 
 ## 4. Dans votre projet
 
@@ -138,7 +138,7 @@ Un des trois formats de **média animable**. La parallaxe, un autre format, sera
 **La spritesheet** : toutes les images d'une animation côte à côte dans un seul fichier, montrées une à la fois avec `steps()`. Pour votre projet, la version responsive, avec `transform`.
 
 [:material-filmstrip: Animation par spritesheet](css/animation-spritesheet.md){ .md-button .md-button--primary }
-[:material-pencil-ruler: Exercice : le monstre responsive](css/exercice-spritesheet.md){ .md-button }
+[:material-pencil-ruler: Exercice : le monstre responsive](exercices/ex-spritesheet/index.md){ .md-button }
 
 **À faire** : chacun commence la préparation de **son** média animable (calques, spritesheet ou SVG), sur **sa** branche.
 
@@ -154,5 +154,5 @@ Un des trois formats de **média animable**. La parallaxe, un autre format, sera
 
 Terminez les **2 exercices** commencés en classe, chacun dans son dépôt Classroom 50 :
 
-- [Exercice : un conflit](projets/recit-defilant/exercice-conflit.md) (en duo), s'il n'est pas terminé;
-- [Exercice : le monstre responsive](css/exercice-spritesheet.md).
+- [Exercice : un conflit](exercices/ex-conflit-git/index.md) (en duo), s'il n'est pas terminé;
+- [Exercice : le monstre responsive](exercices/ex-spritesheet/index.md).

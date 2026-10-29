@@ -222,6 +222,6 @@ C'est l'un des trois formats de **média animable** du récit défilant : **6 à
 
 ## Pour pratiquer
 
-[:material-pencil-ruler: Exercice : le monstre responsive](exercice-spritesheet.md){ .md-button .md-button--primary }
+[:material-pencil-ruler: Exercice : le monstre responsive](../exercices/ex-spritesheet/index.md){ .md-button .md-button--primary }
 
 <!-- Contenu adapté des pages « Animation Sprite Sheet » (582-211) et « Animation sprite sheet intermédiaire » (582-424MO), inspirées du travail de Simon Arnold. -->

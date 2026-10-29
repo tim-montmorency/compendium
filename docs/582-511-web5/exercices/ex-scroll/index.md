@@ -1,7 +1,7 @@
 # :material-pencil-ruler:  Exercice : animer au défilement
 
 <div class="class-content-link">
-  <img src="../assets/IA-interdite.png">
+  <img src="../../assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
 </div>
 
@@ -14,7 +14,7 @@
 
 </div>
 
-**Seul, environ 40 minutes.** Gardez la page [Animations pilotées par le défilement](animations-scroll.md) ouverte à côté : tout y est expliqué.
+**Seul, environ 40 minutes.** Gardez la page [Animations pilotées par le défilement](../../css/animations-scroll.md) ouverte à côté : tout y est expliqué.
 
 ## Obtenir votre dépôt (5 min)
 

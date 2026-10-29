@@ -174,7 +174,7 @@ Nouveauté ici : `view-timeline-name`. Au lieu que l'arrière-plan suive sa prop
 
 Pour pratiquer, avec une scène de 5 calques :
 
-[:material-pencil-ruler: Exercice : la parallaxe en calques](exercice-parallaxe.md){ .md-button }
+[:material-pencil-ruler: Exercice : la parallaxe en calques](../exercices/ex-parallaxe/index.md){ .md-button }
 
 ## Quoi animer? La performance
 

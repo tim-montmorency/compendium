@@ -9,7 +9,7 @@
 
 </div>
 
-**Seul, environ 40 minutes.** Pour le principe et des exemples, voyez [La parallaxe](parallaxe.md). Gardez aussi la section [Un classique : le parallax](animations-scroll.md#un-classique-le-parallax) ouverte à côté.
+**Seul, environ 40 minutes.** Pour le principe et des exemples, voyez [La parallaxe](../../css/parallaxe.md). Gardez aussi la section [Un classique : le parallax](../../css/animations-scroll.md#un-classique-le-parallax) ouverte à côté.
 
 ## Obtenir votre dépôt (5 min)
 
