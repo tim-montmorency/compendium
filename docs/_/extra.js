@@ -510,6 +510,10 @@ function runFunctions() {
       // On les laisse donc tels quels (texte brut, non coloré).
       if (codeEl.children.length === 0) return;
 
+      // hljs réécrit tout le HTML du bloc et effacerait les <span class="hll">
+      // générés par Pygments pour hl_lines. On garde donc la coloration Pygments.
+      if (codeEl.querySelector(".hll")) return;
+
       try {
         hljs.highlightElement(codeEl);
       } catch (e) {

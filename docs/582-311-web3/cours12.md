@@ -1,334 +1,456 @@
-# Cours 12 | Alpine.js et librairies bonus
+# Cours 12 | 3D sur le Web et sauvegarde côté client
 
 [STOP]
 
-<!-- **Savoirs :** #1 Programmation fonctionnelle · #11 Sauvegarde côté client · #15 Interactivité · #18 Introduction à un cadriciel JavaScript · #16 Visualisation via librairie (bonus) -->
+<!-- **Savoirs :** #1 Programmation fonctionnelle · #11 Sauvegarde côté client · #15 Interactivité · Intégration, classement et optimisation des médias · #16 Visualisation via librairie (bonus) -->
 
 *[DOM]: Document Object Model
 *[npm]: Node Package Manager
+*[AR]: Augmented Reality (réalité augmentée)
+*[glTF]: GL Transmission Format
+*[GLB]: glTF Binary
 
-Deux parties aujourd'hui&nbsp;:
+Vos modèles Maya méritent mieux qu'un rendu figé&nbsp;: aujourd'hui, ils entrent **dans le navigateur**, en 3D temps réel, manipulables à la souris et même posables dans votre salon en réalité augmentée 🪄. Au menu&nbsp;:
 
 <div class="grid grid-1-4" markdown>
-  ![](./assets/images/alpinejs-banner.jpg){.aspect-4-3 .w-100}
-
-  :material-gesture-tap: **Alpine.js** - de l'interactivité directement dans le HTML
+  :material-cube-outline: **Partie 1** - De Maya au navigateur&nbsp;: exporter et optimiser un modèle
 </div>
 
 <div class="grid grid-1-4" markdown>
-  ![](./assets/images/chartjs-type-bar.png){.aspect-4-3 .w-100}
+  :material-rotate-3d-variant: **Partie 2** - `<model-viewer>`&nbsp;: une vitrine 3D en une balise HTML
+</div>
 
-  :material-star-plus: **Bonus** - Chart.js (graphiques) et Three.js (3D)
+<div class="grid grid-1-4" markdown>
+  :material-content-save-outline: **Partie 3** - Personnaliser et **mémoriser** les choix du visiteur avec `localStorage`
+</div>
+
+<div class="grid grid-1-4" markdown>
+  :material-star-plus: **Bonus** - Chart.js (graphiques) et Three.js (3D sur mesure)
 </div>
 
 ---
 
-# Partie 1 - Alpine.js
+# Partie 1 - De Maya au navigateur
 
+## Le format de la 3D sur le Web : glTF
 
-![](./assets/images/alpinejs-banner.jpg){.w-100}
+Le Web a ses formats d'image (JPEG, WebP, AVIF). Pour la 3D, le standard s'appelle **glTF**, surnommé le «&nbsp;JPEG de la 3D&nbsp;». Il existe en deux saveurs&nbsp;:
 
-[Alpine.js](https://alpinejs.dev/) est un petit framework JavaScript qui permet d'intégrer des comportements réactifs directement dans le HTML. Son objectif est de rendre les tâches courantes en JavaScript plus simple à gérer.
-
-## Composantes Web
-
-![](./assets/images/web-components.png){.w-100}
-
-Règle général, un site Web se segmente en plusieurs partie. La première est la structure, celle qui défini l'emplacemennt de l'entête, de la navigation, du contenu principal, etc. et la seconde en plusieur c'est la façon dont on affiche l'information. Quand un type d'affichage revient plusieurs fois à travers les pages, on tente d'éviter de copier coller sa structure à chaque page. On fait alors des modèles réutilisables nommées composantes (_components_).
-
-
-Une page Web se construit à partir de blocs : un en-tête, une navigation, une liste d'articles, une carte de produit, un pied de page. 
-
-Plusieurs de ces blocs reviennent d'une page à l'autre, souvent avec la même apparence mais un contenu différent. Plutôt que d'en recopier le code à chaque endroit, on en fait un modèle réutilisable auquel on fournit des données. C'est ce qu'on appelle une composante (_component_).
-
-La page devient alors un assemblage de composantes plutôt qu'un long document HTML.
-
-[Exemples de composantes Web](https://ui.shadcn.com/docs/components){ .md-button .md-button--primary }
-
-
-## Cadriciel ou librairie ?
-
-Depuis le début de la session, vous utilisez des **cadriciels** (Tailwind, DaisyUI). Alpine en est un aussi, mais côté JavaScript. En quoi est-ce différent d'une simple **librairie**&nbsp;?
-
-| | Librairie | Cadriciel (_framework_) |
+| Format | Contenu | Usage |
 | :--- | :--- | :--- |
-| **Qui appelle qui** | *Vous* appelez son code quand vous voulez | *Lui* appelle votre code selon ses règles |
-| **Analogie** | Une boîte à outils | Un plan de maison |
-| **Exemple** | `Math.random()`, `fetch()` (on les appelle) | Tailwind, DaisyUI, Alpine |
+| `.gltf` | Un fichier texte (JSON) + des fichiers séparés (géométrie `.bin`, textures `.png`/`.jpg`) | Pratique pour inspecter ou modifier |
+| `.glb` | **Tout** dans un seul fichier binaire | ⭐️ Le format à utiliser sur un site |
 
+Un `.glb` contient la géométrie, les matériaux (PBR), les textures et même les **animations**. Un seul fichier à placer dans le projet, comme une image.
+
+!!! question "Et le `.fbx` ou le `.obj` ?"
+
+    Ce sont des formats d'**échange** entre logiciels 3D, pas des formats de diffusion. Ils sont lourds, et les navigateurs ne les lisent pas directement. Sur le Web, on livre du `.glb`.
+
+## Le pipeline : Maya → FBX → Blender → GLB
+
+Maya n'offre pas (encore) d'export glTF natif. Le chemin le plus simple et gratuit passe par **Blender**, qui sert ici de convertisseur&nbsp;:
+
+```txt
+Maya ──(FBX)──▶ Blender ──(glTF 2.0)──▶ .glb ──(optimisation)──▶ .glb léger ──▶ site Vite
+```
+
+### 1. Préparer la scène dans Maya
+
+Quelques minutes de ménage évitent bien des surprises à l'arrivée&nbsp;:
+
+- [ ] **Centrer** le modèle à l'origine, pivot à la base (les pieds d'un personnage, le dessous d'un objet)
+- [ ] **Freeze Transformations** et **Delete History** sur les objets à exporter
+- [ ] Vérifier les **normales** (faces inversées = trous dans le modèle)
+- [ ] Utiliser des matériaux **Standard Surface** plutôt que Lambert / Phong, et des textures en `.png` ou `.jpg`
+- [ ] Animations&nbsp;: **cuire** (_bake_) les clés, et ne garder que les animations utiles
+
+### 2. Exporter en FBX
+
+**File → Export Selection…** → type **FBX export**. Dans les options&nbsp;: cocher **Smoothing Groups**, **Embed Media** (textures incluses) et, s'il y a lieu, **Animation**.
+
+### 3. Convertir dans Blender
+
+1. **File → Import → FBX (.fbx)**, puis vérifier visuellement le modèle (échelle, matériaux, textures).
+2. Si une texture manque, la reconnecter dans l'onglet **Shading**.
+3. **File → Export → glTF 2.0 (.glb/.gltf)** avec&nbsp;:
+    * **Format**&nbsp;: _glTF Binary (.glb)_
+    * **Include → Limit to**&nbsp;: _Selected Objects_ (si la scène contient autre chose)
+    * **Animation**&nbsp;: cochée si le modèle est animé
+
+!!! warning "L'échelle"
+
+    Maya travaille en **centimètres**, glTF en **mètres**. Un personnage peut arriver 100 fois trop grand. Pour une simple vitrine, ce n'est pas grave (la caméra s'ajuste toute seule), mais en **réalité augmentée**, l'objet apparaîtra à cette échelle dans la pièce. Vérifiez les dimensions dans Blender avant l'export.
+
+## Optimiser le modèle
+
+Comme pour les images et les vidéos du cours 7, un modèle 3D se **compresse**. Un `.glb` de 40&nbsp;Mo, c'est une page qui charge pendant de longues secondes sur un cellulaire.
+
+**[gltf.report](https://gltf.report/)** permet de glisser-déposer un `.glb` pour l'inspecter&nbsp;: poids, nombre de triangles, taille des textures. C'est le réflexe de base pour comprendre **ce qui pèse**.
+
+Pour compresser, l'outil en ligne de commande **gltf-transform** fait tout en une passe&nbsp;:
+
+```bash title="Terminal"
+npx @gltf-transform/cli optimize perso.glb perso-opt.glb --compress draco --texture-compress webp --texture-size 1024
+```
+
+| Option | Effet |
+| :--- | :--- |
+| `--compress draco` | Compresse la **géométrie** |
+| `--texture-compress webp` | Convertit les textures en **WebP** |
+| `--texture-size 1024` | Limite les textures à 1024&nbsp;×&nbsp;1024&nbsp;px |
+
+!!! tip "Repères de poids"
+
+    Pour un modèle vedette sur une page d'accueil, visez **quelques mégaoctets au maximum**. Ce sont presque toujours les **textures** qui pèsent le plus&nbsp;: une texture 4096&nbsp;px est rarement justifiée sur un écran de cellulaire.
+
+## Où placer le fichier ?
+
+Dans un projet Vite, les modèles vont dans `public/`, classés comme les autres médias&nbsp;:
+
+```txt
+public/
+└── modeles/
+    ├── perso.glb
+    └── perso-poster.webp
+```
+
+Le fichier est alors accessible à l'adresse `/modeles/perso.glb`.
+
+!!! info "Pas de modèle sous la main ?"
+
+    Le répertoire **[glTF Sample Assets](https://github.com/KhronosGroup/glTF-Sample-Assets)** de Khronos offre des dizaines de modèles d'exemple libres, animés ou non, pour tester en attendant.
+
+---
+
+# Partie 2 - Une vitrine 3D avec `<model-viewer>`
+
+**[`<model-viewer>`](https://modelviewer.dev/)**, développé par Google, affiche un modèle 3D interactif avec **une seule balise HTML**. Rotation à la souris, éclairage réaliste, animations, réalité augmentée&nbsp;: tout est inclus.
+
+!!! note "Une composante Web"
+
+    `<model-viewer>` n'est pas une balise standard du HTML&nbsp;: c'est une **composante Web** (_Web Component_), une balise «&nbsp;maison&nbsp;» créée en JavaScript. Une fois la librairie importée, elle s'écrit dans `index.html` comme n'importe quelle autre balise, avec l'autocomplétion habituelle pour son contenu.
 
 ## Installation
 
-Alpine s'installe comme les autres paquets vus depuis le cours 3, dans un projet **Vite**.
-
-```bash
-npm install alpinejs
+```bash title="Terminal"
+npm install @google/model-viewer three
 ```
-
-Puis, dans le fichier JavaScript principal du projet :
 
 ```js title="src/main.js"
-import Alpine from 'alpinejs'
-
-window.Alpine = Alpine
-Alpine.start()
+import "./style.css"
+import "@google/model-viewer"
 ```
 
-## Premier composant
+C'est tout. L'import enregistre la balise `<model-viewer>` dans le navigateur.
 
-Quatre directives suffisent pour commencer&nbsp;:
+## Premier modèle
 
-| Directive | Rôle |
+```html title="index.html"
+<model-viewer
+  src="/modeles/perso.glb"
+  alt="Le héros du jeu, tenant son épée"
+  camera-controls
+  auto-rotate
+  shadow-intensity="1"
+  class="w-full h-[60vh]">
+</model-viewer>
+```
+
+!!! warning "Donner une taille"
+
+    Par défaut, `<model-viewer>` est minuscule (300&nbsp;×&nbsp;150&nbsp;px). Il faut **toujours** lui donner une largeur et une hauteur, ici avec Tailwind (`w-full h-[60vh]`).
+
+!!! tip "L'attribut `alt`"
+
+    Comme pour une image, `alt` décrit le modèle pour les lecteurs d'écran. Sans lui, un visiteur non voyant ne sait pas ce que la vitrine présente.
+
+## Les attributs essentiels
+
+| Attribut | Rôle |
 | :--- | :--- |
-| `x-data` | Déclare un composant et son **état** (un objet JavaScript) |
-| `x-text` | Affiche une valeur de l'état dans l'élément |
-| `@click` | Exécute une expression au clic |
-| `x-show` | Affiche l'élément seulement si l'expression est vraie |
+| `src` | Le fichier `.glb` |
+| `alt` | Description pour l'accessibilité |
+| `camera-controls` | Permet de tourner autour du modèle (souris, doigt) |
+| `disable-zoom` | Désactive le zoom à la molette |
+| `auto-rotate` | Rotation automatique lente |
+| `camera-orbit` | Angle de départ de la caméra (`"45deg 75deg 105%"`) |
+| `shadow-intensity` | Ombre portée au sol (`0` à `1`) |
+| `exposure` | Luminosité générale |
+| `environment-image` | Éclairage d'ambiance (`"neutral"` ou une image HDR) |
+| `poster` | Image affichée pendant le chargement |
+| `autoplay` | Joue l'animation au chargement |
+| `animation-name` | Choisit **quelle** animation jouer |
+| `ar` | Active le bouton de réalité augmentée |
+
+Tous les attributs sont documentés, avec exemples interactifs, sur **[modelviewer.dev](https://modelviewer.dev/docs/)**.
+
+!!! warning "`camera-controls` et défilement"
+
+    Sur une page qui défile (scrollytelling, ScrollTrigger), la molette risque de **zoomer** dans le modèle au lieu de faire défiler la page. Ajoutez `disable-zoom` dans ce cas.
+
+## Une vitrine soignée : `poster` et chargement
+
+Un modèle 3D prend un moment à charger. Une image `poster` (une capture du modèle, en WebP) s'affiche en attendant, comme le `poster` d'une `<video>`&nbsp;:
 
 ```html
-<div x-data="{ compteur: 0 }">
-  <button @click="compteur++">+1</button>
-  <button @click="compteur = 0">Remettre à zéro</button>
-
-  <p>Valeur : <span x-text="compteur"></span></p>
-  <p x-show="compteur >= 10">Dix clics, bravo 🎉</p>
-</div>
+<model-viewer
+  src="/modeles/perso.glb"
+  poster="/modeles/perso-poster.webp"
+  loading="lazy"
+  alt="Le héros du jeu"
+  camera-controls
+  class="w-full h-[60vh]">
+</model-viewer>
 ```
 
-1. `x-data` crée l'état&nbsp;: une variable `compteur` qui vaut `0`.
-2. Chaque `@click` modifie cette variable avec du **JavaScript ordinaire** (`compteur++`, `compteur = 0`).
-3. `x-text` et `x-show` relisent la variable et se mettent à jour **tout seuls**. Aucun `querySelector`, aucun `addEventListener`.
+`loading="lazy"` attend que le modèle approche de l'écran pour le télécharger, exactement comme pour les images.
 
-!!! tip "Tout se passe à l'intérieur du `x-data`"
+## Jouer les animations de Maya
 
-    Les directives ne voient que l'état de l'élément qui porte le `x-data` et de ses enfants. Un bouton placé en dehors de la `<div>` ne connaît pas `compteur`.
-
-## Les directives essentielles
-
-Une **directive** est un attribut HTML qui commence par `x-`. En voici le tableau de référence&nbsp;:
-
-| Directive | Rôle |
-| :--- | :--- |
-| [`x-data`](https://alpinejs.dev/directives/data) | Déclare un composant et son état (objet) |
-| [`x-text`](https://alpinejs.dev/directives/text) | Insère du **texte** dans l'élément |
-| [`x-html`](https://alpinejs.dev/directives/html) | Insère du **HTML** dans l'élément |
-| [`x-bind`](https://alpinejs.dev/directives/bind) (`:`) | Lie un **attribut** à une expression |
-| [`x-on`](https://alpinejs.dev/directives/on) (`@`) | Écoute un **événement** |
-| [`x-model`](https://alpinejs.dev/directives/model) | Liaison **bidirectionnelle** sur un champ |
-| [`x-show`](https://alpinejs.dev/directives/show) | Affiche / masque (via `display`) |
-| [`x-if`](https://alpinejs.dev/directives/if) | Ajoute / retire du DOM (sur `<template>`) |
-| [`x-for`](https://alpinejs.dev/directives/for) | Boucle sur une liste (sur `<template>`) |
-| [`x-init`](https://alpinejs.dev/directives/init) | Exécute du code à l'initialisation |
-| [`x-transition`](https://alpinejs.dev/directives/transition) | Anime l'apparition / la disparition |
-| [`x-ref`](https://alpinejs.dev/directives/ref) | Nomme un élément pour y accéder via `$refs` |
-| [`x-cloak`](https://alpinejs.dev/directives/cloak) | Cache l'élément tant qu'Alpine n'est pas prêt |
-
-### `x-text` et `x-html`
-
-Affichent une valeur dans l'élément.
+Si le `.glb` contient des animations, `autoplay` lance la première. `animation-name` permet de choisir laquelle&nbsp;:
 
 ```html
-<div x-data="{ nom: 'Digger' }">
-  <p>Bonjour <span x-text="nom"></span> !</p>
-</div>
+<model-viewer src="/modeles/perso.glb" autoplay animation-name="Idle" camera-controls></model-viewer>
 ```
 
-!!! warning "`x-html` = danger potentiel"
+Pour connaître le nom des animations disponibles, on peut les afficher en console une fois le modèle chargé&nbsp;:
 
-    `x-html` injecte du HTML brut. Ne l'utilisez **jamais** avec du contenu venant de l'utilisateur&nbsp;: c'est une porte d'entrée aux attaques XSS. Dans le doute, `x-text`.
+```js
+const vitrine = document.querySelector("model-viewer")
 
-### `x-on` (`@`) - les événements
+vitrine.addEventListener("load", () => {
+  console.log(vitrine.availableAnimations) // ["Idle", "Run", "Attack"]
+})
+```
 
-Écoute un événement et exécute une expression. `x-on:click` s'écrit aussi `@click` (raccourci).
+## Les points d'intérêt (_hotspots_)
+
+Un point d'intérêt est un élément HTML **accroché** à un endroit précis du modèle. Il suit le modèle quand on le fait tourner. Parfait pour présenter l'équipement d'un personnage ou les détails d'un objet.
 
 ```html
-<div x-data="{ compteur: 0 }">
-  <button @click="compteur++">+1</button>
-  <span x-text="compteur"></span>
-</div>
-```
+<model-viewer src="/modeles/perso.glb" camera-controls class="w-full h-[60vh]">
 
-On peut écouter n'importe quel événement (`@input`, `@submit`, `@keyup`…) et ajouter des **modificateurs**&nbsp;:
-
-| Modificateur | Effet |
-| :--- | :--- |
-| `@submit.prevent` | Annule le comportement par défaut (`preventDefault`) |
-| `@click.outside` | Se déclenche au clic **hors** de l'élément |
-| `@keyup.enter` | Uniquement sur la touche Entrée |
-| `@click.once` | Une seule fois |
-
-### `x-model` - la liaison bidirectionnelle
-
-Synchronise un champ de formulaire avec l'état, dans les **deux sens**&nbsp;: on tape, l'état change; l'état change, le champ suit.
-
-```html
-<div x-data="{ message: '' }">
-  <input type="text" x-model="message" class="input" placeholder="Écrivez…">
-  <p>Aperçu en direct : <span x-text="message"></span></p>
-  <p x-text="message.length + ' caractères'"></p>
-</div>
-```
-
-<!-- CODEPEN: x-model, aperçu en direct + compteur de caractères -->
-
-### `x-show` ou `x-if` ?
-
-Les deux gèrent l'affichage conditionnel, mais **différemment** - une distinction classique en entrevue 😉.
-
-| | `x-show` | `x-if` |
-| :--- | :--- | :--- |
-| Mécanisme | Bascule `display: none` | Ajoute/retire du DOM |
-| L'élément existe dans le DOM | Toujours | Seulement si vrai |
-| S'utilise sur | N'importe quel élément | Une balise `<template>` |
-| Idéal pour | Ce qu'on montre/cache souvent | Ce qui est lourd ou rarement affiché |
-
-```html title="x-if exige un <template>"
-<div x-data="{ connecte: false }">
-  <template x-if="connecte">
-    <p>Bienvenue !</p>
-  </template>
-</div>
-```
-
-### `x-bind` (`:`) - lier un attribut
-
-Rend n'importe quel attribut dynamique. `x-bind:class` s'écrit `:class`.
-
-```html
-<div x-data="{ actif: true }">
-  <button :class="actif ? 'btn btn-primary' : 'btn btn-ghost'">
-    État
+  <button class="badge badge-primary"
+          slot="hotspot-epee"
+          data-position="0.35 1.1 0.1"
+          data-normal="0 0 1">
+    Épée légendaire
   </button>
-</div>
+
+</model-viewer>
 ```
 
-!!! tip "Combo avec DaisyUI"
+| Attribut | Rôle |
+| :--- | :--- |
+| `slot="hotspot-…"` | Déclare l'élément comme point d'intérêt (le nom après `hotspot-` est libre) |
+| `data-position` | Coordonnées x y z sur le modèle |
+| `data-normal` | Direction de la surface (sert à masquer le point quand il passe derrière) |
 
-    `:class` est parfait pour basculer les **classes sémantiques** DaisyUI (`btn-primary`, `badge-error`…) selon l'état. C'est là qu'Alpine et DaisyUI brillent ensemble.
+!!! tip "Trouver les coordonnées sans calcul"
 
-### `x-for` - répéter une liste
+    L'**[éditeur de model-viewer](https://modelviewer.dev/editor/)** permet de glisser son `.glb`, de cliquer sur le modèle pour placer un point d'intérêt, puis de copier le code généré.
 
-Boucle sur un tableau, toujours sur une balise `<template>` avec une clé `:key`.
+Et comme le point d'intérêt est un élément HTML ordinaire, il se stylise avec Tailwind et DaisyUI (`badge`, `tooltip`, `btn`…).
+
+## La réalité augmentée
+
+Trois attributs suffisent pour qu'un bouton «&nbsp;Voir dans votre espace&nbsp;» apparaisse sur cellulaire&nbsp;:
 
 ```html
-<ul x-data="{ fruits: ['Pomme', 'Kiwi', 'Mangue'] }">
-  <template x-for="fruit in fruits" :key="fruit">
-    <li x-text="fruit"></li>
-  </template>
-</ul>
+<model-viewer src="/modeles/perso.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls></model-viewer>
 ```
 
-## Les propriétés magiques
+Sur Android comme sur iPhone, le visiteur peut alors poser le modèle dans la pièce, à travers la caméra 📱. Sur ordinateur, le bouton n'apparaît tout simplement pas.
 
-En plus des directives, Alpine offre des **magies** (préfixe `$`) accessibles dans les expressions.
+!!! info "Tester la réalité augmentée"
 
-| Magie | Rôle |
-| :--- | :--- |
-| [`$el`](https://alpinejs.dev/magics/el) | L'élément DOM courant |
-| [`$refs`](https://alpinejs.dev/magics/refs) | Les éléments marqués `x-ref` |
-| [`$event`](https://alpinejs.dev/directives/on#accessing-the-event-object) | L'objet événement natif |
-| [`$watch`](https://alpinejs.dev/magics/watch) | Observe une propriété et réagit |
-| [`$store`](https://alpinejs.dev/magics/store) | Accès à un état **global** partagé |
-| [`$dispatch`](https://alpinejs.dev/magics/dispatch) | Émet un événement personnalisé |
-| [`$persist`](https://alpinejs.dev/plugins/persist) | Sauvegarde une valeur dans `localStorage` (plugin) |
+    L'AR exige un **vrai cellulaire** et une page servie en **HTTPS**. Le plus simple&nbsp;: tester sur la version en ligne du site (GitHub Pages ou cPanel, cours 5).
 
-## Sauvegarder l'état : `localStorage` et `$persist`
+## Animer la vitrine avec GSAP
 
-Voici le chaînon manquant du cours 4&nbsp;: le bouton `theme-controller` changeait le thème, mais **oubliait** le choix au rechargement. Pour s'en souvenir, il faut écrire dans le **`localStorage`** du navigateur.
-
-Le `localStorage`, c'est un petit espace de stockage clé/valeur qui **survit** aux rechargements et à la fermeture de l'onglet.
-
-=== "À la main (JavaScript pur)"
-
-    ```js
-    // Écrire
-    localStorage.setItem('theme', 'dark')
-    // Lire
-    const theme = localStorage.getItem('theme')
-    ```
-
-=== "Avec le plugin $persist (Alpine)"
-
-    ```html
-    <div x-data="{ compteur: $persist(0) }">
-      <button @click="compteur++" x-text="compteur"></button>
-    </div>
-    ```
-
-    Rechargez la page&nbsp;: le compteur garde sa valeur 🎉. Alpine s'occupe de tout.
-
-### Installer le plugin Persist
-
-```bash
-npm install @alpinejs/persist
-```
+`<model-viewer>` se pilote aussi en JavaScript. Sa propriété `cameraOrbit` contrôle l'angle de la caméra&nbsp;: en la liant au défilement avec ScrollTrigger, le modèle **tourne sur lui-même pendant qu'on fait défiler la page**.
 
 ```js title="src/main.js"
-import Alpine from 'alpinejs'
-import persist from '@alpinejs/persist'
+import gsap from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+import "@google/model-viewer"
 
-Alpine.plugin(persist)
-window.Alpine = Alpine
-Alpine.start()
+gsap.registerPlugin(ScrollTrigger)
+
+const vitrine = document.querySelector("#vitrine")
+const camera = { angle: 0 }
+
+gsap.to(camera, {
+  angle: 360,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".scene-3d",
+    start: "top top",
+    end: "+=1500",
+    pin: true,
+    scrub: 1
+  },
+  onUpdate: () => {
+    vitrine.cameraOrbit = `${camera.angle}deg 75deg 105%`
+  }
+})
 ```
 
+!!! note "Animer un objet ordinaire"
 
-!!! tip "Nommer la clé de stockage"
-
-    Par défaut, la clé du `localStorage` reprend le nom de la variable. Pour éviter les collisions, on la nomme avec `.as()`&nbsp;:
-
-    ```html
-    <div x-data="{ compteur: $persist(0).as('digger-compteur') }"></div>
-    ```
-
-### Exemple complet : un sélecteur de thème persistant
-
-On réunit tout&nbsp;: état (`x-data`), liaison d'attribut (`:data-theme`), événement (`@click`) et persistance (`$persist`). Le thème DaisyUI choisi est **retenu** d'une visite à l'autre.
-
-```html
-<html x-data="{ theme: $persist('light') }" :data-theme="theme">
-  <body>
-    <button class="btn" @click="theme = (theme === 'light' ? 'dark' : 'light')">
-      Thème : <span x-text="theme"></span>
-    </button>
-  </body>
-</html>
-```
-
-<!-- CODEPEN: Sélecteur de thème DaisyUI persistant avec Alpine ($persist) -->
-
-!!! success "Ce qu'on vient de faire"
-
-    On a couvert l'**interactivité** (savoir #15), l'**introduction à un cadriciel JS** (savoir #18) et la **sauvegarde côté client** (savoir #11) - le tout en restant proche du HTML. Exactement ce que le cours exige, sans la lourdeur d'un gros _framework_.
-
-## Exercices - Alpine
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/alpinejs-banner.jpg){.aspect-4-3}
-
-  <small>Exercice - Alpine</small><br>
-  **[Pot à biscuits](./exercices/alpine-pot-biscuits.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/alpinejs-banner.jpg){.aspect-4-3}
-
-  <small>Exercice - Alpine</small><br>
-  **[Jour et nuit](./exercices/alpine-jour-nuit.md){.stretched-link .back}**
-</div>
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/alpinejs-banner.jpg){.aspect-4-3}
-
-  <small>Exercice - Alpine</small><br>
-  **[Poste restante](./exercices/alpine-poste-restante.md){.stretched-link .back}**
-</div>
-
-*Pot à biscuits* est un exercice de réchauffement&nbsp;; *Jour et nuit* et *Poste restante* font partie de la remise *Exercices 02*.
+    GSAP n'anime pas seulement du CSS&nbsp;: il peut animer **n'importe quelle propriété d'un objet JavaScript** (ici `camera.angle`). À chaque image, `onUpdate` recopie la valeur dans le modèle. Cette astuce fonctionne avec presque toutes les librairies.
 
 ---
 
-# Partie 2 - Chart.js (bonus, optionnel)
+# Partie 3 - Personnaliser et mémoriser avec `localStorage`
+
+## Changer la couleur d'un matériau
+
+Une fois le modèle chargé, ses matériaux sont accessibles en JavaScript. On peut en changer la couleur à la volée, pour créer un petit **configurateur**&nbsp;: couleur d'armure, variante d'un objet, édition spéciale...
+
+```html title="index.html"
+<model-viewer id="vitrine" src="/modeles/perso.glb" camera-controls class="w-full h-[60vh]"></model-viewer>
+
+<div class="flex gap-2">
+  <button class="btn btn-circle bg-[#e63946]" data-couleur="#e63946" aria-label="Rouge"></button>
+  <button class="btn btn-circle bg-[#2a9d8f]" data-couleur="#2a9d8f" aria-label="Turquoise"></button>
+  <button class="btn btn-circle bg-[#f4a261]" data-couleur="#f4a261" aria-label="Orange"></button>
+</div>
+```
+
+```js title="src/main.js"
+const vitrine = document.querySelector("#vitrine")
+const pastilles = document.querySelectorAll("[data-couleur]")
+
+vitrine.addEventListener("load", () => {
+  const materiau = vitrine.model.materials[0]
+
+  pastilles.forEach((pastille) => {
+    pastille.addEventListener("click", () => {
+      materiau.pbrMetallicRoughness.setBaseColorFactor(pastille.dataset.couleur)
+    })
+  })
+})
+```
+
+!!! info "Matériau texturé"
+
+    Si le matériau a une texture de couleur, `setBaseColorFactor` la **teinte** au lieu de la remplacer (la couleur est multipliée par la texture). Pour un changement franc, prévoir dans Maya un matériau sans texture de couleur pour la partie personnalisable.
+
+!!! tip "Trouver le bon matériau"
+
+    `vitrine.model.materials` est un tableau. Pour viser un matériau précis, nommez-le clairement dans Maya (`armure`, `cape`…) et utilisez `vitrine.model.getMaterialByName("armure")`.
+
+Problème&nbsp;: au rechargement de la page, la couleur choisie est **oubliée**. C'est ici qu'intervient la sauvegarde côté client.
+
+## Le `localStorage`
+
+Le `localStorage` est un petit espace de stockage **clé / valeur** offert par le navigateur. Ce qu'on y écrit **survit** au rechargement et à la fermeture de l'onglet, pour ce site seulement.
+
+```js
+// Écrire
+localStorage.setItem("couleur-perso", "#e63946")
+
+// Lire (null si la clé n'existe pas)
+const couleur = localStorage.getItem("couleur-perso")
+
+// Effacer
+localStorage.removeItem("couleur-perso")
+```
+
+!!! warning "Seulement du texte"
+
+    Le `localStorage` ne stocke que des **chaînes de caractères**. Pour un objet ou un tableau, on le convertit avec `JSON.stringify()` à l'écriture, et `JSON.parse()` à la lecture&nbsp;:
+
+    ```js
+    localStorage.setItem("reglages", JSON.stringify({ couleur: "#e63946", animation: "Idle" }))
+
+    const reglages = JSON.parse(localStorage.getItem("reglages")) ?? {}
+    ```
+
+!!! tip "Voir le contenu du `localStorage`"
+
+    DevTools → onglet **Application** → **Local Storage**. On y voit chaque clé, on peut les modifier ou les supprimer à la main pour tester.
+
+## Le configurateur qui se souvient
+
+Le principe tient en deux temps&nbsp;: **au clic**, on applique et on sauvegarde&nbsp;; **au chargement**, on relit et on réapplique.
+
+```js title="src/main.js"
+const vitrine = document.querySelector("#vitrine")
+const pastilles = document.querySelectorAll("[data-couleur]")
+
+vitrine.addEventListener("load", () => {
+  const materiau = vitrine.model.materials[0]
+
+  function appliquerCouleur(couleur) {
+    materiau.pbrMetallicRoughness.setBaseColorFactor(couleur)
+    localStorage.setItem("couleur-perso", couleur)
+  }
+
+  // 1. Au chargement : relire le choix précédent
+  const couleurSauvegardee = localStorage.getItem("couleur-perso")
+  if (couleurSauvegardee) {
+    appliquerCouleur(couleurSauvegardee)
+  }
+
+  // 2. Au clic : appliquer et sauvegarder
+  pastilles.forEach((pastille) => {
+    pastille.addEventListener("click", () => appliquerCouleur(pastille.dataset.couleur))
+  })
+})
+```
+
+Rechargez la page&nbsp;: le personnage garde sa couleur 🎉.
+
+## Retour sur le thème DaisyUI
+
+Voici le chaînon manquant du cours 4&nbsp;: le `theme-controller` changeait le thème, mais **l'oubliait** au rechargement. Même recette&nbsp;:
+
+```html title="index.html"
+<input type="checkbox" value="dark" class="toggle theme-controller" />
+```
+
+```js title="src/main.js"
+const interrupteur = document.querySelector(".theme-controller")
+
+// Au chargement : remettre l'interrupteur dans l'état sauvegardé
+interrupteur.checked = localStorage.getItem("theme") === interrupteur.value
+
+// Au changement : sauvegarder
+interrupteur.addEventListener("change", () => {
+  localStorage.setItem("theme", interrupteur.checked ? interrupteur.value : "light")
+})
+```
+
+DaisyUI applique le thème dès que la case est cochée&nbsp;; il suffit donc de **remettre la case** dans le bon état au chargement.
+
+!!! success "Ce qu'on vient de faire"
+
+    Un modèle conçu dans Maya, exporté et optimisé comme n'importe quel média (cours 7), présenté dans une vitrine interactive, animé au défilement avec GSAP (cours 9 et 10), et personnalisable avec une **mémoire** côté client (savoir #11). Exactement le genre de pièce vedette qui distingue un site promotionnel.
+
+## Exercices - 3D et `localStorage`
+
+<div class="grid grid-1-2" markdown>
+  <!-- ![](./assets/images/3d-vitrine.png){.aspect-4-3} -->
+
+  <small>Exercice - model-viewer</small><br>
+  **[Vitrine 3D](./exercices/3d-vitrine.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  <!-- ![](./assets/images/3d-atelier.png){.aspect-4-3} -->
+
+  <small>Exercice - model-viewer et localStorage</small><br>
+  **[Atelier de personnalisation](./exercices/3d-atelier.md){.stretched-link .back}**
+</div>
+
+*Vitrine 3D* et *Atelier de personnalisation* font partie de la remise *Exercices 02*.
+
+---
+
+# Bonus 1 - Chart.js (optionnel)
 
 !!! info "Pour les curieux - non obligatoire"
 
@@ -477,11 +599,11 @@ options: {
 
 ---
 
-# Partie 3 - Three.js (bonus, optionnel)
+# Bonus 2 - Three.js (optionnel)
 
 !!! info "Pour les curieux - non obligatoire"
 
-    **[Three.js](https://threejs.org/)** permet d'afficher de la **3D** dans le navigateur (WebGL). C'est spectaculaire, mais plus **avancé** que les autres librairies. Cette partie est un **survol facultatif**&nbsp;: elle n'est pas requise pour le projet final. Explorez-la si le cœur vous en dit&nbsp;!
+    **[Three.js](https://threejs.org/)** permet d'afficher de la **3D** dans le navigateur (WebGL). C'est d'ailleurs le moteur sur lequel repose `<model-viewer>`. Là où `<model-viewer>` présente **un** modèle, Three.js permet de construire une **scène complète** sur mesure (lumières, caméras, effets), mais il est nettement plus **avancé**. Cette partie est un **survol facultatif**&nbsp;: elle n'est pas requise pour le projet final. Explorez-la si le cœur vous en dit&nbsp;!
 
 Toute scène 3D repose sur **trois objets**&nbsp;: une **scène** (le monde), une **caméra** (le point de vue) et un **renderer** (qui dessine).
 

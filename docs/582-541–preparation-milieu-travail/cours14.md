@@ -29,7 +29,7 @@
 * Activité facture dans excel 
 
 ## Salaire
-* Inforoute: 33,23$
+* Inforoute: 37,36$
 * Montmorency: 28,73$
 * Finissants: 30,24$
 * Travailleur autonome: + 15 à 20%
@@ -47,15 +47,9 @@
 * En équipe de 2, choisir une des capsules de formation.
 * Retour en groupe sur votre capsule.
 
-* Jeu Aléa   
-
-## Conférence de Synthèse
-
-[📁 PowerPoint de présentation](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/lora_boisvert_cmontmorency_qc_ca/Evmp73TYRLZFnm9JEVbh124B8doIfBtGoQ5gDgX3NJ3j8Q?e=csXy7j){ .md-button }    
+## Ressources de Synthèse
 
 [📁 Informations sur le programme de stages](https://polesynthese.com/arrimage/arristage){ .md-button }    
-
-[📁 Explorer les métiers](https://polesynthese.com/boussole){ .md-button }     
 
 [📁 Capsules vidéo](https://polesynthese.com/boussole/fiches-metiers-numerique){ .md-button }     
 

@@ -74,10 +74,10 @@ Votre site (une ou plusieurs pages) doit contenir au minimum&nbsp;:
 | --- | --- | :--: |
 | **Environnement et structure** | Projet Vite fonctionnel (`npm`, `build`), `.gitignore`, arborescence claire *(cours 3)* | 2 |
 | **Intégration Tailwind + DaisyUI** | Composantes pertinentes et **adaptées** · thème personnalisé cohérent avec l'œuvre · mise en page responsive *(cours 2 à 4)* | 5 |
-| **Interactivité - JavaScript ou Alpine.js** | Au moins deux comportements (menu mobile, onglets, galerie, filtre…), dont un **état persistant** (`localStorage` ou `$persist`) *(cours 7 et 12)* | 4 |
+| **Interactivité - JavaScript** | Au moins deux comportements (menu mobile, onglets, galerie, filtre, configurateur 3D…), dont un **état persistant** avec `localStorage` *(cours 7 et 12)* | 4 |
 | **Animation - GSAP** | Apparitions au défilement (ScrollTrigger) · une timeline **ou** un effet de parallaxe · adaptation `matchMedia()` *(cours 8 à 10)* | 5 |
 | **Médias** | Optimisation (WebP/AVIF, `<source>` de repli, `loading="lazy"`) · **contrôle par programmation** d'un média audio ou vidéo · classement et nomenclature · `CREDITS.md` complet *(cours 7 et 11)* | 5 |
-| **Librairie supplémentaire** | Intégration pertinente d'au moins une librairie vue en classe&nbsp;: Howler, Chart.js, Tone.js, Three.js *(cours 11 et 12)* | 2 |
+| **Librairie supplémentaire** | Intégration pertinente d'au moins une librairie vue en classe&nbsp;: Howler, Tone.js, model-viewer (3D), Chart.js, Three.js *(cours 11 et 12)* | 2 |
 | **Mise en ligne et validation** | Site publié (GitHub Pages ou cPanel) · dépôt GitHub public · validation W3C · test multinavigateurs *(cours 5, 7)* | 4 |
 | **Présentation orale** | Démonstration claire (3 min) et justification des choix techniques | 3 |
 | **Qualité et créativité** | Code lisible, sans bogue majeur · design soigné au service de l'œuvre | 2 |

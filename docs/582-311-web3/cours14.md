@@ -36,4 +36,4 @@ Le cours 15 est consacré aux présentations. Profitez de la fin de l'atelier po
 
 !!! success "Bravo 🎉"
 
-    Vous avez parcouru tout le pipeline moderne&nbsp;: outillage (CLI, Git, Vite), intégration (Tailwind, DaisyUI), interactivité (Alpine), animation (GSAP), librairies spécialisées et mise en ligne. C'est exactement ce qu'on attend d'un intégrateur Web en 2026.
+    Vous avez parcouru tout le pipeline moderne&nbsp;: outillage (CLI, Git, Vite), intégration (Tailwind, DaisyUI), interactivité (JavaScript), animation (GSAP), 3D, librairies spécialisées et mise en ligne. C'est exactement ce qu'on attend d'un intégrateur Web en 2026.
