@@ -72,7 +72,7 @@ Le projet au complet : produit, garde-fous, évaluation, calendrier.
 - [ ] Git en équipe : branches, *pull requests*, conflits, convention de *commits*
 - [ ] Exercice en duo : provoquer et régler un conflit
 - [ ] Dans votre projet : la structure commune sur `main`, puis une branche chacun
-- [ ] Animations CSS : la spritesheet et la parallaxe
+- [ ] Animation CSS : la spritesheet
 - [ ] Noter dans votre journal les commentaires reçus à la rencontre
 
 <!-- MM : ajouter le tutorat de la semaine, s'il y a lieu. -->
@@ -131,19 +131,14 @@ Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **
 
 À partir de maintenant : **plus personne ne code sur `main`**.
 
-## 5. Animations CSS : parallaxe et spritesheet
+## 5. Animation CSS : la spritesheet
 
-Deux des trois formats de **média animable** se jouent en CSS.
+Un des trois formats de **média animable**. La parallaxe, un autre format, sera vue au cours 9.2.
 
 **La spritesheet** : toutes les images d'une animation côte à côte dans un seul fichier, montrées une à la fois avec `steps()`. Pour votre projet, la version responsive, avec `transform`.
 
 [:material-filmstrip: Animation par spritesheet](css/animation-spritesheet.md){ .md-button .md-button--primary }
 [:material-pencil-ruler: Exercice : le monstre responsive](css/exercice-spritesheet.md){ .md-button }
-
-**La parallaxe en calques** : des plans qui défilent à des vitesses différentes, pour donner de la profondeur.
-
-[:material-layers-outline: La parallaxe : définition et exemples](css/parallaxe.md){ .md-button }
-[:material-pencil-ruler: Exercice : la parallaxe en calques](css/exercice-parallaxe.md){ .md-button }
 
 **À faire** : chacun commence la préparation de **son** média animable (calques, spritesheet ou SVG), sur **sa** branche.
 
@@ -157,8 +152,7 @@ Deux des trois formats de **média animable** se jouent en CSS.
 
 ### D'ici le mer. 4 nov. (cours 10.1)
 
-Terminez les **3 exercices**, chacun dans son dépôt Classroom 50 :
+Terminez les **2 exercices** commencés en classe, chacun dans son dépôt Classroom 50 :
 
-- [Exercice : un conflit](projets/recit-defilant/exercice-conflit.md) (en duo);
-- [Exercice : le monstre responsive](css/exercice-spritesheet.md);
-- [Exercice : la parallaxe en calques](css/exercice-parallaxe.md).
+- [Exercice : un conflit](projets/recit-defilant/exercice-conflit.md) (en duo), s'il n'est pas terminé;
+- [Exercice : le monstre responsive](css/exercice-spritesheet.md).

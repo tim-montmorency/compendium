@@ -1,5 +1,7 @@
 # Exercice : le monstre responsive
 
+<video class="w-100" src="assets/exercice-spritesheet-apercu.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : le monstre magenta qui marche"></video>
+
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
