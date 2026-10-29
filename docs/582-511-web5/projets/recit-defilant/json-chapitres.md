@@ -1,4 +1,4 @@
-# Du JSON aux chapitres : dans votre projet
+# :material-code-json:  Du JSON aux chapitres : dans votre projet
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">

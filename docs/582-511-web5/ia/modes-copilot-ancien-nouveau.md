@@ -1,4 +1,4 @@
-# Modes du chat Copilot
+# :material-swap-horizontal:  Modes du chat Copilot
 
 ## Le principe, peu importe l'interface
 

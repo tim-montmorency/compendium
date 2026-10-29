@@ -1,4 +1,4 @@
-# Exercice : la parallaxe en calques
+# :material-pencil-ruler:  Exercice : la parallaxe en calques
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
@@ -66,7 +66,9 @@ Dans le commentaire prévu en haut de `css/style.css`, répondez :
 
 Pour tester `prefers-reduced-motion` : dans Chrome, inspecteur → menu **⋮** → **More tools** → **Rendering** → *Emulate CSS media feature prefers-reduced-motion*.
 
-## Défi : les montgolfières décollent (10 min)
+## Bonus : les montgolfières décollent (10 min)
+
+*Facultatif, pour ceux qui veulent aller plus loin.*
 
 Le texte dit que les montgolfières « quittent le sol ». Faites-le voir :
 
@@ -84,8 +86,10 @@ Un *commit* à la **fin de chaque partie**, puis *push* :
 Partie 1 : répond aux questions
 Partie 2 : anime les calques au défilement
 Partie 3 : ajoute @supports et le mouvement réduit
-Défi : fait monter les montgolfières
+Bonus : fait monter les montgolfières
 ```
+
+La dernière ligne est **facultative** : seulement si vous avez fait le bonus.
 
 C'est un exercice de pratique, non noté. Je vois votre dépôt et vos *commits* dans Classroom 50. Gardez-le : il vous servira de référence pour votre média animable.
 

@@ -1,4 +1,4 @@
-# Le récit défilant : Git en équipe
+# :material-account-multiple-outline:  Le récit défilant : Git en équipe
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

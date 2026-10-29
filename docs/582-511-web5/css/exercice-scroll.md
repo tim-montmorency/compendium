@@ -1,4 +1,4 @@
-# Exercice : animer au défilement
+# :material-pencil-ruler:  Exercice : animer au défilement
 
 <div class="class-content-link">
   <img src="../assets/IA-interdite.png">
@@ -67,7 +67,9 @@ Le grand texte du bandeau (`.bandeau__texte`) **glisse vers la gauche** pendant 
 
 Pour tester `prefers-reduced-motion` : dans Chrome, inspecteur → menu **⋮** → **More tools** → **Rendering** → *Emulate CSS media feature prefers-reduced-motion*.
 
-## Défi : la sortie des cartes
+## Bonus : la sortie des cartes
+
+*Facultatif, pour ceux qui veulent aller plus loin.*
 
 Les cartes **disparaissent aussi** en sortant par le haut de l'écran : elles pâlissent et rapetissent légèrement.
 
@@ -83,7 +85,9 @@ Partie 1 : anime la barre de progression
 Partie 2 : fait apparaître les cartes
 Partie 3 : fait glisser le bandeau
 Partie 4 : ajoute @supports et le mouvement réduit
-Défi : anime aussi la sortie des cartes
+Bonus : anime aussi la sortie des cartes
 ```
+
+La dernière ligne est **facultative** : seulement si vous avez fait le bonus.
 
 C'est un exercice de pratique, non noté. Je vois votre dépôt et vos *commits* dans Classroom 50. Gardez-le : il vous servira de référence pour votre récit.

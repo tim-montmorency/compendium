@@ -1,4 +1,4 @@
-# Contrôle de la qualité du portfolio : consignes
+# :material-clipboard-check-multiple:  Contrôle de la qualité du portfolio : consignes
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

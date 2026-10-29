@@ -33,7 +33,7 @@
 <div class="grid" markdown>
 
 <div class="card" markdown>
-:material-source-branch: __Git en équipe__
+:material-account-multiple-outline: __Git en équipe__
 
 ---
 

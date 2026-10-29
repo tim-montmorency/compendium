@@ -1,4 +1,4 @@
-# Le récit défilant : consignes complètes
+# :material-book-open-page-variant-outline:  Le récit défilant : consignes complètes
 
 ![](assets/recit-defilant-banniere.webp){.w-100}
 

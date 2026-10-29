@@ -1,4 +1,4 @@
-# Afficher les projets
+# :material-cards-outline:  Afficher les projets
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

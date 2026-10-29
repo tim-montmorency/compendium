@@ -1,4 +1,4 @@
-# Figma pour l'éducation
+# :simple-figma:  Figma pour l'éducation
 
 Ce guide te mène de la création (ou la réactivation) de ton accès Figma jusqu'à l'activation du forfait **Éducation** gratuit, qui débloque les fonctions professionnelles dont tu auras besoin dans le cours.
 

@@ -1,4 +1,4 @@
-# Charger les données du portfolio
+# :material-database:  Charger les données du portfolio
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

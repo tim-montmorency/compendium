@@ -68,7 +68,7 @@ Vous avez vu ces notions pour le portfolio. Aujourd'hui, **vous les tapez vous-m
 [:material-pencil-ruler: Exercice : animer au défilement](css/exercice-scroll.md){ .md-button .md-button--primary }
 [:material-gesture-swipe-vertical: La référence](css/animations-scroll.md){ .md-button }
 
-## 3. La parallaxe en calques
+## 3. La parallaxe en calques :material-layers-outline:
 
 Un des trois formats de **média animable** : une scène découpée en plans, chacun à sa vitesse. Techniquement, c'est une animation au défilement de plus : `view-timeline-name` sur la scène, une animation par calque.
 

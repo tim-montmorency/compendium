@@ -60,7 +60,7 @@
 
     /* =========================================================
        Version 2 : responsive et performante (recommandée)
-       La planche est une vraie image <img>, dans une fenêtre
+       La planche est une vraie image <img>, dans un conteneur
        qui cache tout sauf une image. On la déplace avec
        transform : la taille s'adapte à l'écran, et le
        navigateur l'anime sans ralentir la page.
@@ -68,12 +68,12 @@
     .sprite {
       width: min(40vw, 300px);   /* n'importe quelle taille */
       aspect-ratio: 1 / 1;       /* même ratio qu'UNE image */
-      overflow: clip;            /* la fenêtre : on ne voit qu'une image */
+      overflow: clip;            /* le conteneur : on ne voit qu'une image */
     }
 
     .sprite img {
       display: block;
-      width: 800%;               /* 8 images = 8 fois la fenêtre */
+      width: 800%;               /* 8 images = 8 fois le conteneur */
       max-width: none;
       height: 100%;
       animation: sprite-frames 0.8s steps(8) infinite;
@@ -103,7 +103,7 @@
   <img class="sheet" src="assets/ball-spritesheet.webp" alt="Planche de 8 images d'une balle qui rebondit">
 
   <h2>2. Version classique : <code>background-position</code> + <code>steps(8)</code></h2>
-  <p>Une fenêtre de la taille d'une image. On déplace l'arrière-plan d'un coup sec, image par image.</p>
+  <p>Un conteneur de la taille d'une image. On déplace l'arrière-plan d'un coup sec, image par image.</p>
   <div class="ball-classic frame" role="img" aria-label="Une balle qui rebondit"></div>
 
   <h2>3. Le piège : sans <code>steps()</code></h2>
@@ -111,7 +111,7 @@
   <div class="ball-slide frame" role="img" aria-label="Une balle qui glisse au lieu de rebondir"></div>
 
   <h2>4. Version responsive et performante : <code>&lt;img&gt;</code> + <code>transform</code></h2>
-  <p>Redimensionnez la fenêtre : la balle suit. Et on n'anime que <code>transform</code>, comme le demandent les garde-fous du récit défilant.</p>
+  <p>Redimensionnez la fenêtre du navigateur : la balle suit. Et on n'anime que <code>transform</code>, comme le demandent les garde-fous du récit défilant.</p>
   <div class="sprite frame">
     <img src="assets/ball-spritesheet.webp" alt="Une balle qui rebondit">
   </div>

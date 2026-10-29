@@ -1,4 +1,4 @@
-# La parallaxe
+# :material-layers-outline:  L'effet parallaxe
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

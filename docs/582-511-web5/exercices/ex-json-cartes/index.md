@@ -1,4 +1,4 @@
-# Exercice : du JSON à la carte
+# :material-code-json:  Exercice : du JSON à la carte
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">

@@ -1,4 +1,4 @@
-# Animations pilotées par le défilement (CSS)
+# :material-gesture-swipe-vertical:  Animations pilotées par le défilement (CSS)
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
@@ -32,7 +32,7 @@ Ici, l'animation dure 1 seconde et démarre au chargement de la page, que la car
 
 Pour déclencher une animation au défilement, vous avez peut-être déjà utilisé du JavaScript : un écouteur `scroll`, ou un `IntersectionObserver`, puis une classe ajoutée à l'élément. Le CSS moderne fait maintenant ça **seul**, sans une ligne de JavaScript.
 
-## Le principe : remplacer le temps par le défilement
+## Le principe : remplacer le temps par le défilement :material-gesture-swipe-vertical: 
 
 On garde exactement les mêmes `@keyframes`. On change seulement ce qui fait avancer l'animation :
 
@@ -125,9 +125,9 @@ Les pourcentages précisent le début et la fin : `entry 0% entry 100%` = du tou
 
 Pour tester différentes plages visuellement : [View Progress Timeline : Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/){ :target="_blank" }.
 
-## Un classique : le parallax
+## Un classique : le parallax :material-layers-outline: 
 
-C'est quoi, d'où ça vient, et de beaux exemples : [La parallaxe](parallaxe.md).
+C'est quoi, d'où ça vient, et de beaux exemples : [L'effet parallaxe](parallaxe.md).
 
 Le **parallax**, c'est l'illusion de profondeur : l'arrière-plan défile **plus lentement** que le contenu, comme un paysage au loin vu d'une voiture. En CSS, on anime l'arrière-plan dans le **même sens** que le défilement : il « recule » à l'écran, donc il semble plus lent.
 

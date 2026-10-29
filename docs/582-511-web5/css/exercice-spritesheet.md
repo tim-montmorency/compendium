@@ -1,4 +1,4 @@
-# Exercice : le monstre responsive
+# :material-pencil-ruler:  Exercice : le monstre responsive
 
 <video class="w-100" src="assets/exercice-spritesheet-apercu.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : le monstre magenta qui marche"></video>
 
@@ -7,7 +7,7 @@
 
 1. Vous partez d'un monstre animé avec la **méthode classique** (arrière-plan + `background-position`), et vous le convertissez à la **version responsive et performante** : une `<img>` déplacée avec `transform`.
 2. Puis vous réglez la vitesse, la pause et `prefers-reduced-motion`.
-3. Défi : faire **marcher le monstre au défilement**. Vous retrouverez un piège que vous connaissez déjà.
+3. Enfin, vous faites **marcher le monstre au défilement**. Vous retrouverez un piège que vous connaissez déjà. En bonus : l'épingler au centre de l'écran.
 
 </div>
 
@@ -71,14 +71,14 @@ Avant de toucher au code, répondez dans le commentaire prévu en haut de `css/s
 Transformez le code pour utiliser la méthode **responsive et performante** :
 
 - [ ] Dans le HTML, la planche devient une vraie image `<img>`, avec un `alt`, à l'intérieur de la `div`.
-- [ ] La `div` devient la **fenêtre** : la taille d'**une** image, et elle cache tout ce qui dépasse.
-- [ ] L'image fait **19 fois** la largeur de la fenêtre.
+- [ ] La `div` devient le **conteneur** : la taille d'**une** image, et elle cache tout ce qui dépasse.
+- [ ] L'image fait **19 fois** la largeur du conteneur.
 - [ ] L'animation déplace l'image avec **`transform`**, et plus avec `background-position`.
 
 **Vérifiez** : redimensionnez la fenêtre du navigateur. Le monstre suit, et il marche sans trembler ni glisser.
 
 !!! tip "Si le monstre glisse ou tremble"
-    Ajoutez temporairement une bordure à la fenêtre (`outline: 2px solid red`) et mettez l'animation en pause (`animation-play-state: paused`). Changez la valeur de `transform` à la main dans l'inspecteur : chaque image doit remplir exactement la fenêtre.
+    Ajoutez temporairement une bordure au conteneur (`outline: 2px solid red`) et mettez l'animation en pause (`animation-play-state: paused`). Changez la valeur de `transform` à la main dans l'inspecteur : chaque image doit remplir exactement le conteneur.
 
 ## Partie 3 : régler (10 min)
 
@@ -88,7 +88,7 @@ Transformez le code pour utiliser la méthode **responsive et performante** :
 
 Pour tester `prefers-reduced-motion` sans changer les réglages de votre ordinateur : dans Chrome, inspecteur → menu **⋮** → **More tools** → **Rendering** → *Emulate CSS media feature prefers-reduced-motion*.
 
-## Défi : le monstre marche au défilement (10 min)
+## Partie 4 : le monstre marche au défilement (10 min)
 
 Dans votre récit défilant, c'est le visiteur qui fait avancer l'animation. Faites la même chose ici : **le monstre fait ses pas quand on défile**, et s'arrête quand on arrête de défiler.
 
@@ -98,9 +98,40 @@ Dans votre récit défilant, c'est le visiteur qui fait avancer l'animation. Fai
 - [ ] Protégez le tout avec `@supports`.
 
 !!! warning "Le monstre reste figé?"
-    Ce n'est pas votre animation. Relisez le piège de la page sur les animations au défilement, à propos d'une propriété de la fenêtre.
+    Ce n'est pas votre animation. Relisez le piège de la page sur les animations au défilement, à propos d'une propriété du conteneur.
 
-**Pour aller plus loin** : faites aussi **traverser l'écran** au monstre, de gauche à droite, pendant qu'il marche. Indice : deux animations, sur deux éléments différents.
+## Bonus : le monstre reste au centre (15 min)
+
+*Facultatif, pour ceux qui veulent aller plus loin. L'épinglage reviendra au cours 10.1, avec GSAP.*
+
+À la partie 4, le monstre traverse l'écran assez vite : on voit à peine un cycle complet. Cette fois, **quand il arrive au centre de l'écran, il s'y fixe**. On continue de défiler : il marche sur place. On arrête : il s'arrête. Puis il repart avec la page.
+
+C'est l'**épinglage** (*pin*), en CSS pur, avec `position: sticky`. Remplacez vos deux `div` d'espace par cette structure :
+
+```html
+<div class="espace"></div>
+
+<section class="scene">
+  <div class="scene__ecran">
+    <div class="monstre">
+      <img src="..." alt="Un monstre magenta qui marche">
+    </div>
+  </div>
+</section>
+
+<div class="espace"></div>
+```
+
+- [ ] **La scène** est très haute : `300vh`. C'est elle qui donne la durée de l'épinglage.
+- [ ] **L'écran** (`.scene__ecran`) est **collant** : `position: sticky`, `top: 0`, `height: 100vh`. Il centre le monstre (une grille avec `place-items: center`).
+- [ ] La marche suit la timeline **de la scène**, pas celle de l'image : donnez-lui un nom avec `view-timeline-name`, et utilisez ce nom dans `animation-timeline`.
+- [ ] La marche joue **seulement pendant que le monstre est fixé** : `animation-range: contain`.
+- [ ] Pendant ce temps, le monstre fait **6 cycles** de marche.
+
+!!! tip "Pourquoi pas `view()` sur l'image?"
+    Pendant l'épinglage, l'image ne bouge plus dans l'écran : sa visibilité ne change pas, donc une timeline `view()` sur l'image n'avance plus. La **scène**, elle, continue de défiler derrière : c'est sa timeline qu'on suit.
+
+**Pour aller plus loin** : pendant qu'il marche sur place, faites aussi **traverser l'écran** au monstre, de gauche à droite. Indice : une deuxième animation, sur le conteneur (`.monstre`), avec la même timeline et la même plage.
 
 ## Vos *commits* et la remise
 
@@ -110,8 +141,11 @@ Un *commit* à la **fin de chaque partie**, puis *push* :
 Partie 1 : répond aux questions
 Partie 2 : convertit à la version responsive
 Partie 3 : règle la vitesse, la pause et le mouvement réduit
-Défi : anime la marche au défilement
+Partie 4 : anime la marche au défilement
+Bonus : épingle le monstre au centre
 ```
+
+La dernière ligne est **facultative** : seulement si vous avez fait le bonus.
 
 C'est un exercice de pratique, non noté. Je vois votre dépôt et vos *commits* dans Classroom 50. Gardez-le : il vous servira de référence pour votre média animable.
 
