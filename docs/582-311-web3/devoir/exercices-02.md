@@ -45,8 +45,8 @@ Ajoutez ce tableau **sous** celui du bloc 1, dans le `README.md` de `web3-exerci
 | 13 | Labyrinthe | 10 | CodePen | https://codepen.io/… | ❌ |
 | 14 | Salle de projection | 11 | Dossier | `14-salle-projection/` | ✅ |
 | 15 | Boîte à musique | 11 | Dossier | `15-boite-a-musique/` | ✅ |
-| 16 | Jour et nuit | 12 | Dossier | `16-jour-et-nuit/` | ✅ |
-| 17 | Poste restante | 12 | Dossier | `17-poste-restante/` | ✅ |
+| 16 | Vitrine 3D | 12 | Dossier | `16-vitrine-3d/` | ✅ |
+| 17 | Atelier de personnalisation | 12 | Dossier | `17-atelier-personnalisation/` | ✅ |
 ```
 
 La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réussi avec de l'aide, ❌ pas réussi. Elle n'est **pas notée**&nbsp;: remplissez-la honnêtement, c'est votre propre tableau de bord avant le projet final.
@@ -79,8 +79,8 @@ La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réuss
 | 13 | **Labyrinthe** — MotionPath le long d'un tracé SVG | 10 | 2 |
 | 14 | **Salle de projection** — lecteur maison en classe JS + Howler | 11 | 2 |
 | 15 | **Boîte à musique** — mélodie et effets sonores Tone.js | 11 | 2 |
-| 16 | **Jour et nuit** — thème Alpine persistant via `$persist` | 12 | 2 |
-| 17 | **Poste restante** — `x-model`, `x-text`, `x-for` et liste dynamique | 12 | 2 |
+| 16 | **Vitrine 3D** — modèle Maya optimisé en `.glb`, `<model-viewer>`, points d'intérêt et réalité augmentée | 12 | 2 |
+| 17 | **Atelier de personnalisation** — configurateur de couleur et thème mémorisés avec `localStorage` | 12 | 2 |
 | — | **Qualité générale** — indentation, nomenclature, arborescence, `.gitignore`, README complet | — | 2 |
 | | | **Total** | **/24** |
 

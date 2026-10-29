@@ -4,7 +4,15 @@
 
 ## Retour sur les exercices
 
-* Note sur le HTML dans le HTML, ça fonctionne, mais ça ne permet pas d'ajouter des variables
+<!-- * HTML vs JS->HTML (variables) -->
+
+---
+
+<figure markdown>
+[![](./assets/images/Template-Literal-IntelliSense.png){.w-66}](https://marketplace.visualstudio.com/items?itemName=CodeByTimo.template-literals)
+
+<figcaption>Surlignage automatique de la syntaxe et IntelliSense pour HTML et CSS dans les littéraux de modèle JavaScript</figcaption>
+</figure>
 
 ## GSAP
 
@@ -33,12 +41,6 @@ GSAP peut animer presque n'importe quelle propriété CSS :
 
 Avec ce qu'on appelle un **_tween_** (vient de « be **tween** »). C'est une animation qui calcule toutes les valeurs **entre** deux points.
 
-| Méthode | Autrement dit |
-| --- | --- |
-| [`gsap.to()`](https://gsap.com/docs/v3/GSAP/gsap.to()) | « va vers là » |
-| [`gsap.from()`](https://gsap.com/docs/v3/GSAP/gsap.from()) | « viens de là » |
-| [`gsap.fromTo()`](https://gsap.com/docs/v3/GSAP/gsap.fromTo()) | « de là à là » |
-
 <p class="codepen" data-theme-id="50173" data-height="300" data-pen-title="gsap.to()" data-version="2" data-default-tab="result" data-slug-hash="ZYeRMag" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/editor/tim-momo/pen/01a16019-91ca-7bbc-936d-0c10c14f71f9">
   gsap.to()</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
@@ -54,13 +56,13 @@ gsap.to(".boite", {
 })
 ```
 
-## Installation
+### Installation
 
 ```bash title="Terminal"
 npm install gsap
 ```
 
-Créer le fichier suivant : 
+On pourrait écrire directement dans `src/main.js`, mais afin de bien structurer notre code il est préférable créer un nouveau fichier `src/gsap.js`.
 
 ```js title="src/gsap.js"
 import gsap from "gsap"
@@ -86,33 +88,43 @@ lancerAnimations()
 
 Le HTML à animer, lui, peut aller soit dans `index.html` ou dans `main.js` (avec `innerHTML`, comme dans le projet de départ de Vite). Ça revient au même.
 
-=== "⭐️ src/main.js"
+=== "HTML > JavsScript"
 
-    ```js title="src/main.js"
+    ```js title="src/main.js" hl_lines="4-6"
     import "./style.css"
     import { lancerAnimations } from "./gsap.js"
 
     document.querySelector('#app').innerHTML = `
     <div class="boite"></div>
-    `
+    `;
 
-    lancerAnimations()
+    lancerAnimations();
     ```
 
-=== "index.html (fonctionne aussi)"
+=== "HTML > HTML"
 
-    ```html title="index.html"
+    ```html title="index.html" hl_lines="2"
     <body>
       <div class="boite"></div>
       <script type="module" src="/src/main.js"></script>
     </body>
     ```
 
-## `from()`, `fromTo()` et `set()`
+### Les Tweens
 
-`to()` part de l'état actuel de l'élément. Les autres méthodes changent le point de départ.
+| Méthode | Simplement dit |
+| --- | --- |
+| [`gsap.to()`](https://gsap.com/docs/v3/GSAP/gsap.to()) | « va vers là » |
+| [`gsap.from()`](https://gsap.com/docs/v3/GSAP/gsap.from()) | « viens de là » |
+| [`gsap.fromTo()`](https://gsap.com/docs/v3/GSAP/gsap.fromTo()) | « de là à là » |
+| [`gsap.set()`](https://gsap.com/docs/v3/GSAP/gsap.set()) | « va là, sans animation » |
 
-### `from()`
+#### `to()`
+
+Part du positionnement initial de l'élément dans la page vers ce qui est spécifié.
+
+
+#### `from()`
 
 Les propriétés **commencent** à la valeur indiquée, puis reviennent vers leur état final (tel qu'il est dans le CSS). Idéal pour faire **apparaître** un élément.
 
@@ -131,7 +143,7 @@ gsap.from(".rond", {
 </iframe>
 </div>
 
-### `fromTo()`
+#### `fromTo()`
 
 On définit **les deux** extrémités&nbsp;: un premier objet pour le départ, un second pour l'arrivée (c'est aussi lui qui reçoit `duration`, `ease`, etc.).
 
@@ -150,7 +162,7 @@ gsap.fromTo(".barre",
 </iframe>
 </div>
 
-### [`set()`](https://gsap.com/docs/v3/GSAP/gsap.set())
+#### [`set()`](https://gsap.com/docs/v3/GSAP/gsap.set())
 
 Un `to()` **instantané**, sans animation 😜. Pratique pour placer un élément avant de l'animer.
 
@@ -161,6 +173,10 @@ gsap.set(".voiture", { x: -400 })
 !!! info "Les unités"
 
     Un nombre (`x: 400`) est interprété en **pixels**. Pour une autre unité, on utilise une chaîne de caractères&nbsp;: `x: "50%"`, `rotation: "1turn"`, `width: "20vw"`.
+
+
+
+
 
 ## Les paramètres d'un tween
 
