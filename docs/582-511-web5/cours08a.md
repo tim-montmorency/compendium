@@ -84,7 +84,7 @@ Un storyboard de défilement montre **la suite des moments** que vit le visiteur
 - Dans la description de **chaque** cadre : le **numéro du chapitre**, ce qui bouge, ce qui le déclenche, la technique.
 - Les médias peuvent être des boîtes grises ou des croquis.
 
-[:material-file-document-edit-outline: Consignes du storyboard](projets/recit-defilant/cahier-de-charges.md#le-storyboard-dans-figma){ .md-button }
+[:material-file-document-edit-outline: Consignes du storyboard](projets/recit-defilant/cahier-de-charges.md#storyboard){ .md-button }
 
 !!! warning "Faites approuver votre thème"
     **Dès que possible pendant l'atelier**, venez me voir **en équipe** (2 minutes) pour faire approuver votre thème, verbalement.

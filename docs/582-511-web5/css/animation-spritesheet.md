@@ -75,7 +75,7 @@ La solution : la planche devient une vraie image `<img>`, placée dans une **fen
 .sprite {
   width: min(40vw, 300px); /* n'importe quelle taille */
   aspect-ratio: 1 / 1;     /* le ratio d'UNE image */
-  overflow: hidden;        /* on ne voit qu'une image */
+  overflow: clip;          /* on ne voit qu'une image */
 }
 
 .sprite img {
@@ -97,6 +97,7 @@ La solution : la planche devient une vraie image `<img>`, placée dans une **fen
 - L'image fait **8 fois** la largeur de la fenêtre (`width: 800%`) : une image de la planche remplit exactement la fenêtre.
 - `translateX(-100%)` se calcule sur la largeur **de l'image elle-même** : toute la planche glisse vers la gauche.
 - `steps(8)` découpe ce trajet en 8 sauts : 0 %, -12,5 %, -25 %… soit exactement une image à chaque saut.
+- `overflow: clip`, et non `hidden` : avec `hidden`, la fenêtre devient un conteneur de défilement, et une spritesheet pilotée par le défilement (`animation-timeline`) resterait figée.
 
 Pour une planche de **12** images : `width: 1200%` et `steps(12)`. C'est tout.
 
@@ -148,5 +149,9 @@ C'est l'un des trois formats de **média animable** du récit défilant : **6 à
 
 !!! tip "Le test du chiffre"
     Pendant que vous préparez votre planche, écrivez un petit numéro dans le coin de chaque image, comme dans la démo. Si l'animation saute ou tremble, vous verrez tout de suite quelle image est mal placée. Retirez les numéros à la fin.
+
+## Pour pratiquer
+
+[:material-pencil-ruler: Exercice : le monstre responsive](exercice-spritesheet.md){ .md-button .md-button--primary }
 
 <!-- Contenu adapté des pages « Animation Sprite Sheet » (582-211) et « Animation sprite sheet intermédiaire » (582-424MO), inspirées du travail de Simon Arnold. -->

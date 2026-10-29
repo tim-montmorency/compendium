@@ -3,11 +3,25 @@
 
 ## Annonces
 
+!!! warning "Dès votre arrivée : votre identifiant GitHub pour Classroom 50"
+    Une seule question, 30 secondes : [Inscription à ma classe GitHub Classroom 50 – Remplir le formulaire](https://forms.cloud.microsoft/r/Fa0X0aXWm8){ :target="_blank" }
+
+    Écrivez votre identifiant **exactement** comme sur GitHub. Ensuite, surveillez vos courriels : vous recevrez une **invitation à l'organisation GitHub du cours**. Acceptez-la avant l'exercice de la section 3, sinon vous ne pourrez pas y accéder.
+
 !!! danger "Le centre d'aide C-1602 n'est pas un lieu pour jouer à des jeux vidéo"
     Le local du Centre d'aide est un lieu de travail. Silencieux, comme dans une bibliothèque. On y travaille, c'est la priorité de ce local.
 
+!!! info "Récit défilant : la répartition de l'évaluation a changé"
+    Équipe 25 %, individuel 35 %. Le cahier de charges et le storyboard sont notés dans leur **version finale**, à la fin du projet. Le **respect des échéances** devient un volet à part : une remise bâclée vaut presque autant qu'une remise absente. [Voir l'évaluation](projets/recit-defilant/index.md#echeances)
+
 !!! success "Sondage: TUTORAT"
     Quels seraient le moment le plus utile ? [Remplir le formulaire](https://forms.cloud.microsoft/r/147C3TKbpC)
+
+<br><br>
+
+---
+
+<br><br>
 
 ![](assets/cours09a-banniere.webp){.w-100}
 
@@ -52,26 +66,52 @@ Le projet au complet : produit, garde-fous, évaluation, calendrier.
 
 ## Aujourd'hui
 
-- [ ] Retour sur le cahier de charges, et vos prochaines étapes
+- [ ] Remplir le formulaire Classroom 50 (votre identifiant GitHub), puis accepter l'invitation reçue par courriel
+- [ ] Rencontre éclair avec moi : votre storyboard et votre cahier de charges
+- [ ] Le storyboard v2 : les exigences précisées, à remettre ven. 30 oct.
 - [ ] Git en équipe : branches, *pull requests*, conflits, convention de *commits*
 - [ ] Exercice en duo : provoquer et régler un conflit
 - [ ] Dans votre projet : la structure commune sur `main`, puis une branche chacun
 - [ ] Animations CSS : la spritesheet et la parallaxe
-- [ ] Entrée au journal de bord
+- [ ] Noter dans votre journal les commentaires reçus à la rencontre
 
 <!-- MM : ajouter le tutorat de la semaine, s'il y a lieu. -->
 
-## 1. Retour sur le cahier de charges
+## 1. Rencontre éclair : storyboard et cahier de charges
 
-Je vous remets vos commentaires sur le cahier de charges. Prenez 10 minutes en équipe pour les lire et noter ce que vous ajusterez.
+Pendant les périodes de travail d'aujourd'hui (l'exercice, puis le travail dans votre projet), **je passe voir chaque équipe**, environ 5 minutes. Je survole votre storyboard et votre cahier, et je vous dis à première vue ce qui est incomplet ou à clarifier. Je vous dirai aussi si votre **concept** doit être poussé davantage : la [créativité compte](projets/recit-defilant/index.md#creativite).
 
-Puis, relisez la **section 9** de votre cahier : **vos prochaines étapes**. Ce que vous aviez prévu pour aujourd'hui, est-ce fait? Notez-le dans votre journal.
+Quand j'arrive à votre poste, ayez **déjà ouverts** :
+
+- votre **storyboard** dans Figma;
+- votre **cahier de charges** sur github.com (`documentation/CAHIER-DE-CHARGES.md`).
+
+En attendant votre tour, relisez la **section 9** de votre cahier : **vos prochaines étapes**. Ce que vous aviez prévu pour aujourd'hui, est-ce fait?
+
+**Après la rencontre**, chacun note dans son **journal de bord** les commentaires reçus et ce que l'équipe va corriger.
+
+### Le storyboard v2 : pour le ven. 30 oct., 23 h 59
+
+Les exigences du storyboard sont maintenant précisées. Vous montez une v2 sur le modèle du Chaperon : **une rangée par moment**, avec le cadre **desktop**, le cadre **mobile** et la **fiche d'annotation**, qui décrit l'animation, pas l'histoire. Vous réutilisez vos cadres de la v1 par copier-coller.
+
+Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **angle**, votre **identité visuelle** et votre **moment surprenant**. Le gabarit a trois nouvelles lignes pour ça.
+
+!!! danger "Ne touchez pas à votre v1"
+    Dans Figma, ne modifiez pas et ne supprimez pas les pages de votre première version. Créez une **nouvelle page** `Storyboard V2`, et travaillez seulement là. Dans le dépôt, `storyboard.pdf` reste tel quel; la v2 va dans `storyboard-v2.pdf`.
+
+[:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](projets/recit-defilant/cahier-de-charges.md#storyboard){ .md-button .md-button--primary }
 
 ## 2. Git en équipe
 
 À deux dans le même dépôt, on ne travaille plus comme au portfolio. Aujourd'hui : une branche par personne, la fusion par *pull request*, les conflits, et une façon commune de nommer vos *commits*.
 
-[:material-source-branch: Git en équipe](projets/recit-defilant/git-en-equipe.md){ .md-button .md-button--primary }
+**D'abord, un rappel** : c'est quoi une branche, la branche active, créer, changer et publier une branche. Vous l'avez vu au portfolio.
+
+[:material-source-branch: Les branches Git, en 10 minutes](projets/portfolio/branches-git.md){ .md-button }
+
+**Puis, le travail à deux** : la *pull request*, la mise à jour de sa branche, les conflits et la convention de *commits*.
+
+[:material-account-multiple-outline: Git en équipe](projets/recit-defilant/git-en-equipe.md){ .md-button .md-button--primary }
 [:material-presentation-play: Présentation (PowerPoint)](assets/documents/Web5_git-en-equipe.pptx){ .md-button }
 
 ## 3. Exercice : provoquer et régler un conflit
@@ -98,15 +138,27 @@ Deux des trois formats de **média animable** se jouent en CSS.
 **La spritesheet** : toutes les images d'une animation côte à côte dans un seul fichier, montrées une à la fois avec `steps()`. Pour votre projet, la version responsive, avec `transform`.
 
 [:material-filmstrip: Animation par spritesheet](css/animation-spritesheet.md){ .md-button .md-button--primary }
+[:material-pencil-ruler: Exercice : le monstre responsive](css/exercice-spritesheet.md){ .md-button }
 
 **La parallaxe en calques** : des plans qui défilent à des vitesses différentes, pour donner de la profondeur.
 
-[:material-layers-outline: La parallaxe](css/animations-scroll.md#un-classique-le-parallax){ .md-button }
+[:material-layers-outline: La parallaxe : définition et exemples](css/parallaxe.md){ .md-button }
+[:material-pencil-ruler: Exercice : la parallaxe en calques](css/exercice-parallaxe.md){ .md-button }
 
 **À faire** : chacun commence la préparation de **son** média animable (calques, spritesheet ou SVG), sur **sa** branche.
 
 ## Devoirs
 
-- Entrée au **journal de bord** : les 5 questions.
-- Sur **votre** branche : commencez la préparation de votre média animable.
-- Faites votre premier *commit* selon la convention de l'équipe : `Zone : ce qui a changé`.
+### D'ici le ven. 30 oct., 23 h 59 (cours 9.2)
+
+- **Storyboard v2**, en équipe : sur une nouvelle page Figma, exporté dans `documentation/storyboard-v2.pdf`.
+- **La section 1 du cahier de charges**, en équipe : votre angle, votre identité visuelle et votre moment surprenant.
+- Sur **votre** branche : commencez la préparation de votre média animable, et faites votre premier *commit* selon la convention de l'équipe (`Zone : ce qui a changé`).
+
+### D'ici le mer. 4 nov. (cours 10.1)
+
+Terminez les **3 exercices**, chacun dans son dépôt Classroom 50 :
+
+- [Exercice : un conflit](projets/recit-defilant/exercice-conflit.md) (en duo);
+- [Exercice : le monstre responsive](css/exercice-spritesheet.md);
+- [Exercice : la parallaxe en calques](css/exercice-parallaxe.md).

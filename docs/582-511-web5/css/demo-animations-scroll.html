@@ -201,7 +201,9 @@
       display: grid;
       place-items: center;
       padding: 0;
-      /* clip et non hidden : hidden créerait un conteneur de défilement */
+      /* coupe ce qui dépasse de la section : les calques sont plus
+         grands qu'elle, on ne doit pas les voir déborder.
+         clip et non hidden : hidden créerait un conteneur de défilement */
       overflow: clip;
       /* On nomme la timeline de la section pour que ses enfants l'utilisent */
       view-timeline-name: --parallax;
@@ -210,7 +212,11 @@
     .parallax__bg,
     .parallax__shapes {
       position: absolute;
-      inset: -60% 0; /* beaucoup plus grand que la section : de la marge pour bouger */
+      /* beaucoup plus grand que la section : de la marge pour bouger */
+      top: -60%;
+      bottom: -60%;
+      left: 0;
+      right: 0;
       pointer-events: none;
     }
 
@@ -254,7 +260,11 @@
        Elle semble passer devant le texte : l'effet de profondeur est exagéré. */
     .parallax__front {
       position: absolute;
-      inset: 0;
+      /* occupe toute la section */
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
       pointer-events: none;
       z-index: 1;
       background:
