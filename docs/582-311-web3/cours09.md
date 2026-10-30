@@ -332,3 +332,4 @@ gsap.timeline()
 Cours un peu court : 
 - Ajouter un exercice supplémentaire
 - ou, ajouter plus de notions, genre stagger
+- sinon, pas si grave, ça semble les avoir conforté de maitriser le sujet
