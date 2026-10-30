@@ -101,7 +101,7 @@ Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **
 
 [:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](projets/recit-defilant/cahier-de-charges.md#storyboard){ .md-button .md-button--primary }
 
-## 2. Git en équipe
+## 2. Git en équipe 👥🤼‍♂️
 
 À deux dans le même dépôt, on ne travaille plus comme au portfolio. Aujourd'hui : une branche par personne, la fusion par *pull request*, les conflits, et une façon commune de nommer vos *commits*.
 
@@ -114,9 +114,9 @@ Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **
 [:material-account-multiple-outline: Git en équipe](projets/recit-defilant/git-en-equipe.md){ .md-button .md-button--primary }
 [:material-presentation-play: Présentation (PowerPoint)](assets/documents/Web5_git-en-equipe.pptx){ .md-button }
 
-## 3. Exercice : provoquer et régler un conflit
+## 3. Exercice : provoquer et régler un conflit 🤼‍♂️
 
-**En duo, 25 minutes.** Dans un petit dépôt d'exercice créé par Classroom 50, vous allez provoquer un conflit exprès, et le régler. Chacun en règle un.
+**En duo, 25 minutes.** Dans un petit dépôt d'exercice créé par Classroom 50, vous allez provoquer un conflit exprès 🤼‍♂️, et le régler. Chacun en règle un.
 
 [:material-source-merge: L'exercice, étape par étape](exercices/ex-conflit-git/index.md){ .md-button }
 
@@ -138,7 +138,7 @@ Un des trois formats de **média animable**. La parallaxe, un autre format, sera
 **La spritesheet** : toutes les images d'une animation côte à côte dans un seul fichier, montrées une à la fois avec `steps()`. Pour votre projet, la version responsive, avec `transform`.
 
 [:material-filmstrip: Animation par spritesheet](css/animation-spritesheet.md){ .md-button .md-button--primary }
-[:material-pencil-ruler: Exercice : le monstre responsive](exercices/ex-spritesheet/index.md){ .md-button }
+[:material-pencil-ruler: Exercice : le monstre 👹 responsive](exercices/ex-spritesheet/index.md){ .md-button }
 
 **À faire** : chacun commence la préparation de **son** média animable (calques, spritesheet ou SVG), sur **sa** branche.
 
@@ -154,5 +154,5 @@ Un des trois formats de **média animable**. La parallaxe, un autre format, sera
 
 Terminez les **2 exercices** commencés en classe, chacun dans son dépôt Classroom 50 :
 
-- [Exercice : un conflit](exercices/ex-conflit-git/index.md) (en duo), s'il n'est pas terminé;
-- [Exercice : le monstre responsive](exercices/ex-spritesheet/index.md).
+- [Exercice : un conflit 🤼‍♂️](exercices/ex-conflit-git/index.md) (en duo), s'il n'est pas terminé;
+- [Exercice : le monstre 👹 responsive](exercices/ex-spritesheet/index.md).
