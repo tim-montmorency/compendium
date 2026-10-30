@@ -1,5 +1,7 @@
 # :material-layers-outline:  L'effet parallaxe
 
+![](./assets/parallex-BG-composition-layers.png)
+
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
@@ -15,12 +17,25 @@ Tendez le bras, levez le pouce, et regardez-le en fermant un œil, puis l'autre.
 
 Vous la vivez aussi en train ou en voiture : les poteaux au bord de la route défilent à toute vitesse, les arbres un peu plus loin passent plus lentement, et les montagnes à l'horizon semblent presque immobiles. **La vitesse apparente dit la distance.** C'est un des indices que votre cerveau utilise pour percevoir la profondeur.
 
+> Plus c'est loin, plus c'set lent. Plus c'est près, plus c'est rapide.
+
 ## Avant le Web : l'animation et les jeux vidéo
 
-- **Au cinéma d'animation** : dès les années 1930, les studios Disney utilisent la [caméra multiplane (en anglais)](https://en.wikipedia.org/wiki/Multiplane_camera){ :target="_blank" }, où les décors sont peints sur des plaques de verre superposées, à des distances différentes. En déplaçant les plaques à des vitesses différentes, une image plate prend de la profondeur.
-- **Dans les jeux vidéo en 2D** : dans les jeux de plateforme à défilement horizontal, l'arrière-plan est composé de plusieurs bandes (le ciel, les montagnes, la forêt) qui défilent chacune à sa vitesse derrière le personnage.
+### Au cinéma d'animation
+
+Dès les années 1930, les studios Disney utilisent la [caméra multiplane (en anglais)](https://en.wikipedia.org/wiki/Multiplane_camera){ :target="_blank" }, où les décors sont peints sur des plaques de verre superposées, à des distances différentes. En déplaçant les plaques à des vitesses différentes, une image plate prend de la profondeur.
+
+<iframe width="768" height="518" frameborder="0" loading="lazy" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; web-share" allowfullscreen src="https://commons.wikimedia.org/wiki/File:MultiplaneDemo.webm?embedplayer=true" />
+  
+### Dans les jeux vidéo en 2D
+
+Dans les jeux de plateforme à défilement horizontal, l'arrière-plan est composé de plusieurs bandes (le ciel, les montagnes, la forêt) qui défilent chacune à sa vitesse derrière le personnage.
 
 Dans les deux cas, le principe est celui que vous allez coder : **des calques, et une vitesse par calque**.
+
+![Exemple 1 de paysage qui défilent en parallax](https://opengameart.org/sites/default/files/multilayer_scroll_backgrounds_-_preview_desert_mountains.gif)
+
+![Exemple 2 de paysage qui défilent en parallax](https://opengameart.org/sites/default/files/multilayer_scroll_backgrounds_-_preview_tropical_mountains.gif)
 
 ## Sur le Web, au défilement
 
@@ -32,6 +47,11 @@ Sur une page, il n'y a pas de caméra : c'est **le défilement** qui la remplace
 | Les plans du milieu | un peu plus lent | semble à mi-distance |
 | Le contenu (texte) | la même vitesse | le plan de référence |
 | L'avant-plan (feuillage, objets) | plus rapide | semble passer tout près |
+
+<figure markdown>
+<video class="w-100" src="https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/gsap-scrollTrigger-parallax/images/ballons-parallax.mp4" controls muted loop playsinline aria-label="Démo : des ballons et des nuages qui défilent à des vitesses différentes au défilement de la page"></video>
+<figcaption>Au défilement, ballons et nuages bougent chacun à leur vitesse : la scène prend de la profondeur.</figcaption>
+</figure>
 
 On rencontre surtout trois formes :
 
@@ -53,7 +73,6 @@ On rencontre surtout trois formes :
 
 - [Firewatch](https://www.firewatchgame.com/){ :target="_blank" } : le site du jeu. Défilez au tout début : six calques de paysage, du ciel jusqu'aux arbres du premier plan. Un classique de la scène en calques.
 - [Paysage en parallaxe, de isladjan](https://codepen.io/isladjan/pen/abdyPBw){ :target="_blank" } (CodePen) : une scène de paysage animée au défilement, avec le code à côté.
-- [Ballons dans le ciel](https://tim-montmorency.com/timdoc/582-424MO/gsap/exercices/gsap-scrollTrigger-parallax/images/ballons-parallax.mp4){ :target="_blank" } (vidéo) : un ancien exercice du programme, des ballons et des nuages à des vitesses différentes. Le même principe que votre exercice.
 - [The Goonies](https://the-goonies.webflow.io/){ :target="_blank" } : un hommage au film. On plonge vers la côte, entre des plans qui défilent à des vitesses différentes.
 - [Montagnes, forêt et nuages](https://parallax-bgsprod.webflow.io/){ :target="_blank" } : un exemple simple et très propre de scène en calques. Proche de ce que vous ferez.
 - [The Boat](https://www.sbs.com.au/theboat/){ :target="_blank" } (SBS, Australie) : un roman graphique interactif, avec du son. Les dessins sont découpés en plans qui glissent à des vitesses différentes : la parallaxe au service d'un récit défilant.
