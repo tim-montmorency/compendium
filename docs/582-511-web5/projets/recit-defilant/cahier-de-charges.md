@@ -35,7 +35,7 @@ Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec 
 5. **La matrice de responsabilités** (section 4) : qui possède quoi. À faire **ensemble**, et à prendre au sérieux : c'est la base de votre note individuelle.
 6. **Le reste** : données, dataviz, médias, technologies, prochaines étapes, risques.
 
-## Le storyboard dans Figma { #storyboard }
+## :material-movie-open-edit-outline: Le storyboard dans Figma { #storyboard }
 
 Un storyboard de défilement n'est pas une maquette de chaque pixel. C'est **la suite des moments** que vit le visiteur.
 
@@ -69,7 +69,6 @@ Dans **chaque** rangée, copiez ces amorces dans une zone de texte, à droite de
 
 ```text
 Ch. # · Moment # :
-Texte : où est-il placé?
 Ce qui bouge ou ce qui est animé, et comment? :
 Déclencheur :
 Technique :

@@ -21,7 +21,7 @@
 </div>
 
 <div class="card" markdown>
-:material-layers-outline: __La parallaxe__
+:material-layers-outline: __L'effet parallaxe__
 
 ---
 
