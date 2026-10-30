@@ -326,3 +326,9 @@ gsap.timeline()
   <small>Exercice - GSAP</small><br>
   **[Magie 🪄](./activite/magie/index.md){.stretched-link .back}**
 </div>
+
+[STOP]
+
+Cours un peu court : 
+- Ajouter un exercice supplémentaire
+- ou, ajouter plus de notions, genre stagger
