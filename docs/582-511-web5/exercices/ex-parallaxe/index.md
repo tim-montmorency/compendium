@@ -3,13 +3,13 @@
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
-1. Une scène est déjà composée en **5 calques** : nuages lointains, nuages, deux montgolfières et le sol. Rien ne bouge encore.
-2. Vous faites défiler chaque calque **à sa propre vitesse**, en CSS, selon la règle : **plus c'est loin, plus on compense le défilement**.
+1. Une scène est déjà composée en **11 calques** : des nuages, des collines, cinq montgolfières, un gros nuage tout près et le sol. Chaque calque a une **classe de profondeur** (`loin`, `proche`...). Rien ne bouge encore.
+2. Vous faites défiler chaque profondeur **à sa propre vitesse**, en CSS, selon la règle : **plus c'est loin, plus on compense le défilement**.
 3. C'est exactement ce que vous ferez avec votre média animable « image en calques ».
 
 </div>
 
-**Seul, environ 40 minutes.** Pour le principe et des exemples, voyez [La parallaxe](../../css/parallaxe.md). Gardez aussi la section [Un classique : le parallax](../../css/animations-scroll.md#un-classique-le-parallax) ouverte à côté.
+**Seul, environ 40 minutes.** Pour le principe et des exemples, voyez [La parallaxe](../../css/parallaxe.md). Gardez aussi la section [Le faire en CSS](../../css/parallaxe.md#en-css) ouverte à côté, et jouez avec le [Labo parallaxe](../../css/labo-parallaxe.html){ :target="_blank" } : c'est le même principe.
 
 ## Obtenir votre dépôt (5 min)
 
@@ -23,20 +23,28 @@ Le dépôt contient :
 
 - `index.html` : la page, avec la scène et ses calques;
 - `css/style.css` : la mise en place des calques, et la place pour vos réponses de la partie 1;
-- `assets/images/` : les 5 calques, en SVG.
+- `assets/images/` : les images des calques, en SVG.
 
 ## Le principe, en une phrase
 
-Quand on défile, tout monte à l'écran. Un calque qu'on **descend** pendant ce temps (`translateY` positif) semble monter **moins vite** : il paraît plus loin. Plus on le descend, plus il paraît loin.
+Quand on défile, tout monte à l'écran. Un calque qu'on **descend** pendant ce temps (`translateY` positif) semble monter **moins vite** : il paraît plus loin. Plus on le descend, plus il paraît loin. Un calque qu'on **monte** (`translateY` négatif) monte **plus vite** que la page : il paraît tout près.
+
+Dans le HTML, la 2e classe de chaque calque dit sa profondeur :
 
 ```text
-calque           distance   compensation
-nuages-loin      très loin  beaucoup
-nuages           loin       un peu moins
-montgolfiere-2   milieu     encore moins
-montgolfiere-1   proche     très peu
-sol              devant     aucune : il défile avec la page
+profondeur   calques                                compensation
+tres-loin    les nuages lointains                   beaucoup
+loin         2 petites montgolfières, collines      un peu moins
+milieu       les nuages, la montgolfière bleue,     encore moins
+             les collines
+proche       les montgolfières verte et rouge       très peu
+devant       le gros nuage                          à l'envers : il monte
+                                                    plus vite que la page
+(aucune)     le sol                                 aucune : il défile
+                                                    avec la page
 ```
+
+L'effet se voit surtout **là où les calques se croisent** : les petites montgolfières qui glissent derrière les collines, le gros nuage qui passe devant la montgolfière rouge.
 
 ## Partie 1 : lire la scène (5 min)
 
@@ -50,14 +58,18 @@ Dans le commentaire prévu en haut de `css/style.css`, répondez :
 
 - [ ] Donnez un **nom à la timeline** de la scène, avec `view-timeline-name`.
 - [ ] Corrigez le piège de la partie 1.
-- [ ] Créez une animation par calque (sauf le sol), qui le fait descendre pendant que la scène traverse l'écran : de `translateY(-X)` à `translateY(X)`.
-- [ ] Reliez chaque calque à la timeline **de la scène**, avec `animation-timeline`.
-- [ ] Choisissez les amplitudes selon la règle : les nuages lointains bougent le plus, la montgolfière 1 le moins, le sol pas du tout.
+- [ ] Créez **une animation par profondeur** (`@keyframes tres-loin`, `loin`, `milieu`, `proche`), qui fait descendre le calque pendant que la scène traverse l'écran : de `translateY(-X)` à `translateY(X)`.
+- [ ] Appliquez-la avec la classe de profondeur : `.loin { animation-name: loin; }`. Une seule règle anime tous les calques de cette profondeur.
+- [ ] Reliez **tous** les calques à la timeline **de la scène**, avec `animation-timeline`.
+- [ ] Choisissez les amplitudes selon la règle : les nuages lointains bougent le plus, la profondeur `proche` le moins, le sol pas du tout.
+- [ ] Le calque `devant` va **à l'envers** : de `translateY(X)` à `translateY(-X)`.
 
-**Vérifiez** : défilez lentement. Les nuages semblent loin, les montgolfières flottent entre les deux, le sol suit la page.
+**Vérifiez** : défilez lentement. Les petites montgolfières glissent derrière les collines, le gros nuage passe devant la montgolfière rouge, le sol suit la page.
 
-!!! tip "Des amplitudes en `vh`"
-    Un pourcentage dans `translateY` se calcule sur la hauteur **du calque lui-même** : `20%` d'un petit ballon, c'est presque rien; `20%` d'une bande de nuages, c'est beaucoup. Avec des `vh`, toutes les amplitudes se comparent directement. Essayez entre `2vh` et `20vh`.
+!!! tip "Des amplitudes en `vh`, et des grandes"
+    Un pourcentage dans `translateY` se calcule sur la hauteur **du calque lui-même** : `20%` d'une petite montgolfière, c'est presque rien; `20%` d'une bande de nuages, c'est beaucoup. Avec des `vh`, toutes les amplitudes se comparent directement.
+
+    Et visez grand : la scène fait `130vh`, elle traverse donc l'écran sur environ `230vh` de défilement. Un calque qui bouge de ±5vh, ça ne se voit presque pas. Essayez entre `±5vh` (proche) et `±50vh` (très loin).
 
 ## Partie 3 : les deux règles obligatoires (5 min)
 
@@ -76,7 +88,11 @@ Le texte dit que les montgolfières « quittent le sol ». Faites-le voir :
 - [ ] Elle **se balance** légèrement en montant (une petite rotation, quelques degrés).
 - [ ] Bonus : les nuages **dérivent** un peu vers la droite, poussés par le vent.
 
-Indice : `transform` peut combiner plusieurs fonctions. Et pensez à `transform-origin` pour la rotation : une montgolfière se balance depuis le haut, pas depuis son centre.
+Indices :
+
+- `transform` peut combiner plusieurs fonctions.
+- Pensez à `transform-origin` pour la rotation : une montgolfière se balance depuis le haut, pas depuis son centre.
+- La montgolfière 1 a déjà l'animation `proche`. Écrivez votre règle `.calque--montgolfiere-1` **après** celle de `.proche` : à spécificité égale, la dernière règle gagne.
 
 ## Vos *commits* et la remise
 

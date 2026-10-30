@@ -85,7 +85,8 @@ Dans `data/chapitres.json`, chaque chapitre a les mêmes clés communes (`id`, `
 
 | Média | Chapitre | Source | Auteur | Licence | Modifié? |
 |---|---|---|---|---|---|
-| `foret-fond.svg`, `foret-milieu.svg`, `foret-avant.svg` | 1 | Produit pour la démo | Démo Web 5 | : | 3 calques sur fond transparent |
+| `foret-fond.svg`, `foret-milieu.svg`, `foret-avant-sol.svg` | 1 | Produit pour la démo | Démo Web 5 | : | 3 calques sur fond transparent; l'avant-plan a un sol qui dépasse sous le cadre |
+| `foret-avant.svg` | 3 | Produit pour la démo | Démo Web 5 | : | Arbres de l'avant-plan de la forêt |
 | `chaperon-marche.webp` | 3 | Produit pour la démo | Démo Web 5 | : | 8 images, 160 × 200 px |
 | `loup.svg` | 4 | Produit pour la démo | Démo Web 5 | : | Traits séparés (`.loup-trait`) pour DrawSVG |
 | `chemins.svg` | 5 | Produit pour la démo | Démo Web 5 | : | Deux tracés avec `id` pour DrawSVG |

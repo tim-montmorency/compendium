@@ -12,7 +12,7 @@
       "medias": [
         { "type": "calque", "src": "assets/images/foret-fond.svg", "alt": "", "vitesse": "lente" },
         { "type": "calque", "src": "assets/images/foret-milieu.svg", "alt": "", "vitesse": "moyenne" },
-        { "type": "calque", "src": "assets/images/foret-avant.svg", "alt": "", "vitesse": "rapide" }
+        { "type": "calque", "src": "assets/images/foret-avant-sol.svg", "alt": "", "vitesse": "rapide" }
       ]
     }
   },
