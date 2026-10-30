@@ -25,7 +25,7 @@
 Fini le développement Web rudimentaire qui consistait à coder tout manuellement. Cette session, on introduit des standards de l'industrie pour passer en mode professionnel. Nous apprendrons à&nbsp;: 
 
 <div class="grid grid-1-4" markdown>
-  ![](./assets/images/terminal.gif){.aspect-4-3 .w-100}
+  ![](./assets/images/terminal.webp){.aspect-4-3 .w-100}
 
   :octicons-terminal-16: Utiliser les lignes de commande (CLI)
 </div> 
@@ -37,13 +37,13 @@ Fini le développement Web rudimentaire qui consistait à coder tout manuellemen
 </div>
 
 <div class="grid grid-1-4" markdown>
-  ![](./assets/images/interactive.gif){.aspect-4-3 .w-100}
+  ![](./assets/images/interactive.webp){.aspect-4-3 .w-100}
 
   :material-cursor-default-click: Confectionner des interfaces animées et interactives
 </div>
 
 <!-- <div class="grid grid-1-4" markdown>
-  ![](./assets/images/webserver.gif){.aspect-4-3 .w-100}
+  ![](./assets/images/webserver.webp){.aspect-4-3 .w-100}
 
   :material-server-network-outline: Mettre en ligne un site Web (_from scratch_)
 </div> -->
@@ -73,7 +73,7 @@ Partons de là, mais essayons de développer des compétences en chemin tout de 
 
 ## CSS Grid
 
-![](./assets/images/the-grid.gif){.w-100}
+![](./assets/images/the-grid.webp){.w-100}
 
 En Web 2, vous avez vu Flexbox. Il reste une dernière petite notion pour avoir fait le tour de la mise en page en CSS&nbsp;: le `display: grid;`.
 
@@ -651,7 +651,7 @@ Par défaut, une grille crée **une seule colonne** et **autant de rangées qu'i
 </script>
 
 <div class="grid grid-1-2" markdown>
-  ![](./exercices/grid-a/giphy.gif){.aspect-4-3}
+  ![](./exercices/grid-a/giphy.webp){.aspect-4-3}
 
   <small>Exercice - CSS</small><br>
   **[Grid | La base](./exercices/grid-a/index.md){.stretched-link .back}**
@@ -827,7 +827,7 @@ On peut aussi configurer le nombre de cases à occuper sans spécifier d'emplace
 ![](./assets/images/grid-span-ex.png){data-zoom-image .w-33}
 
 <div class="grid grid-1-2" markdown>
-  ![](./exercices/grid-c/giphy.gif){.aspect-4-3}
+  ![](./exercices/grid-c/giphy.webp){.aspect-4-3}
 
   <small>Exercice - CSS</small><br>
   **[Grid | Spirale](./exercices/grid-c/index.md){.stretched-link .back}**
@@ -927,7 +927,7 @@ DONC, pour reproduire le layout, on aurait :
     En effet, l'usage de `grid-template-areas` fonctionne avec n'importe quel ordre du contenu. Cependant, les liseuses vont lire le contenu HTML séquentiellement.
 
 <div class="grid grid-1-2" markdown>
-  ![](./exercices/grid-d/giphy.gif){.aspect-4-3}
+  ![](./exercices/grid-d/giphy.webp){.aspect-4-3}
 
   <small>Exercice - CSS</small><br>
   **[Grid | Squelette](./exercices/grid-d/index.md){.stretched-link .back}**

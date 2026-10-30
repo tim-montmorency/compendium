@@ -1,3 +1,3 @@
 # Cours 15 | Présentations orales
 
-![](./assets/images/calm.gif){.w-100}
+![](./assets/images/calm.webp){.w-100}

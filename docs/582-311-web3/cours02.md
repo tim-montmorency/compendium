@@ -84,7 +84,7 @@ Complétez l'exercice demandé et n'oubliez pas de faire un commit + push. Cela 
 
 <!-- Au dernier cours, vous avez apprivoisé le **terminal**. Aujourd'hui, on s'en sert pour de vrai 🤓. -->
 
-![](./assets/images/d8b3cd809cf65ca8c4e3fb8c4a110b8f.gif){.aspect-16-9 .w-100}
+![](./assets/images/d8b3cd809cf65ca8c4e3fb8c4a110b8f.webp){.aspect-16-9 .w-100}
 
 En Web 2, vous écriviez tout votre CSS **à la main**. 
 
@@ -97,7 +97,7 @@ Il en existe une grande variété, mais **Tailwind** est aujourd'hui le plus uti
 ![](./assets/images/get-in.png)
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/milligram/preview.gif){.aspect-4-3}
+  ![](./activite/milligram/preview.webp){.aspect-4-3}
 
   <small>Exercice - Milligram</small><br>
   **[Mon premier _framework_](./activite/milligram/index.md){.stretched-link .back}**
@@ -137,10 +137,10 @@ La [documentation Tailwind](https://tailwindcss.com/docs) est la source d'inform
 
 ### Installation
 
-![](./assets/images/vhs-vcr.gif){.w-100}
+![](./assets/images/vhs-vcr.webp){.w-100}
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/tailwind-install/kido.gif){.aspect-4-3}
+  ![](./activite/tailwind-install/kido.webp){.aspect-4-3}
 
   <small>Exercice - Tailwind</small><br>
   **[Installation Tailwind en CDN](./activite/tailwind-install/index.md){.stretched-link .back}**
@@ -202,7 +202,7 @@ On pourra alors utiliser ce type de classe dans le HTML. Voici un exemple :
 
 ### Couleurs
 
-![](./assets/images/rainbow-colors.gif)
+![](./assets/images/rainbow-colors.webp)
 
 Les classes de [couleur](https://tailwindcss.com/docs/colors) se construisent généralement avec ce motif :
 
@@ -254,7 +254,7 @@ Ensuite la classe `.bg-pink-925` ou encore `.text-pink-925` sera disponible. Ce 
 Oui, OKLCH, ah et bienvenue au 21e siècle soit dit en passant !
 
 > Si on vous proposait une palette de couleurs de 16.7 millions de possibilités, vous diriez que c'est clairement pas assez ! Right ?<br>
-> ![](./assets/images/shannon-sharpe-shay.gif)
+> ![](./assets/images/shannon-sharpe-shay.webp)
 
 La technologie sRGB, ce sur quoi repose l'hexadécimal (ex. : `#ff3388`), fut conçue pour les écrans des années 90 👵
 
@@ -480,7 +480,7 @@ https://www.tailwindgen.com/ (choisir le format HTML et non JSX)
 
 ### Responsive
 
-![](./assets/images/responsive-anim.gif){.w-100}
+![](./assets/images/responsive-anim.webp){.w-100}
 
 Pour spécifier une classe à un breakpoint donné, il faut ajouter le préfixe du breakpoint à une classe Tailwind : 
 
@@ -622,7 +622,7 @@ scale-<axe>-<value>
 ## Exercices 
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/gratuit/bait.gif){.aspect-4-3}
+  ![](./activite/gratuit/bait.webp){.aspect-4-3}
 
   <small>Exercice - Tailwind</small><br>
   **[Gratuit](./activite/gratuit/index.md){.stretched-link .back}**

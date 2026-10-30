@@ -7,7 +7,7 @@ tags:
 
 # La cloche
 
-![](./giphy.gif){ .w-100 }
+![](./giphy.webp){ .w-100 }
 
 ## Résultat attendu
 

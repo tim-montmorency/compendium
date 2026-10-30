@@ -81,7 +81,7 @@ Dans le fichier `script.js` :
 * [ ] Effectuer un `commit`, puis un `push`
 
 <figure markdown>
-![](./neptune.gif){.w-50}
+![](./neptune.webp){.w-50}
 </figure>
 
 [STOP]

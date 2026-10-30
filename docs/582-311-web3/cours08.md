@@ -72,7 +72,7 @@ Le serveur Vite parti, vous devriez voir ceci dans le navigateur :
 
 ## Optimiser les médias 🎬
 
-![](./assets/images/compress.gif){.w-100}
+![](./assets/images/compress.webp){.w-100}
 
 En Web, si on ne prépare pas les médias, ceux-ci rendent la page lente et font fuir les visiteurs.
 

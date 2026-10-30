@@ -5,7 +5,7 @@ tags:
 
 # Révolution sidérale 
 
-![](./tumblr_mplcilFtNQ1sxbxulo1_400.gif){ .w-50 }
+![](./tumblr_mplcilFtNQ1sxbxulo1_400.webp){ .w-50 }
 
 Le but de cet exercice est de mettre en pratique l'usage de la librairie ChartJS.
 

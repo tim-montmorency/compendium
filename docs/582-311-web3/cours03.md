@@ -135,7 +135,7 @@ Ci-dessous, quelques exemples de mise en forme utiles.
 
 ### À propos de Tailwind
 
-![](./assets/images/the-big-lebowski-thats-like-your-opinion-man.gif){.w-50}
+![](./assets/images/the-big-lebowski-thats-like-your-opinion-man.webp){.w-50}
 
 En soi, Tailwind n'a pas de style prédéfini. On dit que Tailwind est non opinionné (***unopinionated***). C'est-à-dire qu'il n'impose ni direction artistique ni identité visuelle. Il ne fournit que les outils pour styliser un site.
 
@@ -183,7 +183,7 @@ C'est tout l'avantage d'HyperUI, il n'y a rien à installer ! Ça utilise seulem
 ### Exercice HyperUI
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/hyperui/giphy.gif){.aspect-4-3}
+  ![](./activite/hyperui/giphy.webp){.aspect-4-3}
 
   <small>Exercice - Tailwind</small><br>
   **[HyperUI](./activite/hyperui/index.md){.stretched-link .back}**
@@ -338,7 +338,7 @@ Pour passer de l'un à l'autre, il faut donc permuter la valeur de `data-theme` 
 ### Exercice DaisyUI
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/daisyui-cdn/giphy2.gif){.aspect-4-3}
+  ![](./activite/daisyui-cdn/giphy2.webp){.aspect-4-3}
 
   <small>Exercice - DaisyUI</small><br>
   **[DaisyUI](./activite/daisyui-cdn/index.md){.stretched-link .back}**
@@ -346,7 +346,7 @@ Pour passer de l'un à l'autre, il faut donc permuter la valeur de `data-theme` 
 
 ## Gestionnaire de paquets
 
-![](./assets/images/goku-fighting-rule.gif){.w-100}
+![](./assets/images/goku-fighting-rule.webp){.w-100}
 
 Le CDN, c'est du code hébergé ailleurs. C'est parfait pour faire un prototype, mais c'est vite limitant pour gérer ses dépendances à long terme.
 

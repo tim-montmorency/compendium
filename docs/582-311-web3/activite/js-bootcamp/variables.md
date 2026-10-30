@@ -87,7 +87,7 @@ Dans le fichier `script.js` :
 * [ ] Effectuer un `commit`, puis un `push`
 
 <figure markdown>
-![](./age.gif){.w-50}
+![](./age.webp){.w-50}
 </figure>
 
 [STOP]

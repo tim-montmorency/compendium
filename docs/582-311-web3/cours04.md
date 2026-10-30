@@ -8,7 +8,7 @@
 
 ## Retour sur les exercices
 
-![](./assets/images/this-is-fine.gif){.w-100}
+![](./assets/images/this-is-fine.webp){.w-100}
 
 [DaisyUI](./activite/daisyui-cdn/index.md) · [DaisyUI + Vite](./activite/daisyui-vite/index.md)
 

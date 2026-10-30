@@ -1,12 +1,3 @@
-<!--
-Piste 
-— Package Behavior (Unity 6, Unity Registry)
-- Arbres de comportement visuels, nœuds en langage naturel, Blackboard, débogage en temps réel.
-- Complète le NavMesh : NavMesh = comment se déplacer, Behavior = quoi faire.
-- Hors matière ici (voir l'avertissement « ça suffit ») : à mentionner seulement; démo possible en capsule d'enrichissement au cours 13.
-- Limites : package récent, API changeante, peu de tutoriels — vérifier la version installée au labo.
--->
-
 # Cours 9
 
 *[PNJ]: Personnage non-joueur
@@ -537,3 +528,7 @@ Une tourelle est un objet fixe qui tire des projectiles sur une cible.
 - `Could` Configurer le comportement des PNJ
 
 <!-- Prochain cours, particules et système de dialogue -->
+
+[STOP]
+
+Le cours a été très dense pour eux. La section "PNJ en poursuite" n'a pas été montré en démo. De toutes manières, elle ne concernait que 3 personnes sur 2 classes.

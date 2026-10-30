@@ -66,7 +66,7 @@ Résultat :
 
 Résultat : 
 
-![](./step2.gif){data-zoom-image .w-25}
+![](./step2.webp){data-zoom-image .w-25}
 
 - [ ] Définir une variable JavaScript qui référence l'élément `volcan` (avec `querySelector`)
 - [ ] Déplacer l'animation dans une boucle `for` JavaScript qui s'exécute 40 fois.

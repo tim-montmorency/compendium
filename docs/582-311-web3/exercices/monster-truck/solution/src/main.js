@@ -1,7 +1,7 @@
 import './style.css'
 import carFrame from './assets/car-frame.webp'
 import carWheel from './assets/car-wheel.webp'
-import { lancerAnimations } from "./gsap.js"
+import { gsapAnimations } from "./gsap.js"
 
 document.querySelector('#app').innerHTML = `
 <div class="car">
@@ -11,4 +11,4 @@ document.querySelector('#app').innerHTML = `
 </div>
 `
 
-lancerAnimations()
+gsapAnimations()

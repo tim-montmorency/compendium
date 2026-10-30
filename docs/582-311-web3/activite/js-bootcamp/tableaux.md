@@ -73,7 +73,7 @@ Dans le fichier `script.js` :
 * [ ] Effectuer un `commit`, puis un `push`
 
 <figure markdown>
-![](./tim-eric.gif){.w-50}
+![](./tim-eric.webp){.w-50}
 </figure>
 
 [STOP]

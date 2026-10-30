@@ -51,7 +51,7 @@ L'objectif de cet exercice est d'introduire la méthode d'installation d'un proj
   - [ ] Conserver seulement les imports de `style.css` et de `hero.png`
   - [ ] Retirer les imports de `javascript.svg`, de `vite.svg` et de `counter.js`
   - [ ] Retirer tout le HTML de démonstration à l'intérieur de `innerHTML`
-  - [ ] Retirer aussi l'appel à `setupCounter(...)` à la fin du fichier<br>![](throw.gif){.w-20}
+  - [ ] Retirer aussi l'appel à `setupCounter(...)` à la fin du fichier<br>![](throw.webp){.w-20}
 - [ ] Sauvegarder et confirmer que la page est vide, sans erreur dans la console
 - [ ] Commit + push
 
@@ -86,7 +86,7 @@ L'objectif de cet exercice est d'introduire la méthode d'installation d'un proj
 ### L'exercice
 
 - [ ] Dans `src/main.js`, à l'intérieur de `innerHTML`, reproduire le résultat attendu :
-  - [ ] Une `<section>` qui occupe au moins la hauteur de l'écran et qui centre son contenu en flexant ses biceps 💪 <br>![](./flex.gif){.w-20}
+  - [ ] Une `<section>` qui occupe au moins la hauteur de l'écran et qui centre son contenu en flexant ses biceps 💪 <br>![](./flex.webp){.w-20}
   - [ ] Dans la section, une `<div>` aux coins arrondis, avec du _padding_ et une couleur de fond DaisyUI (base-300)
   - [ ] L'image `hero.png` à l'intérieur de la `<div>`
 - [ ] Commit + push

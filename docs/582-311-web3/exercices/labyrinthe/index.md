@@ -6,7 +6,7 @@ tags:
 
 # Labyrinthe
 
-![](./giphy.gif){ .w-100 }
+![](./giphy.webp){ .w-100 }
 
 > [IMDB](https://www.imdb.com/fr-ca/title/tt0091369/)
 

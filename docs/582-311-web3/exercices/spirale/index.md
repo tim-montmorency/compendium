@@ -6,7 +6,7 @@ tags:
 
 # Spirale
 
-![](spirale.gif){.w-100}
+![](spirale.webp){.w-100}
 
 !!! warning "Faites d'abord [Grid pas à pas](../grid-pas-a-pas/index.md){.back}"
 

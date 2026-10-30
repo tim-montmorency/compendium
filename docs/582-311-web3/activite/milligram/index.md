@@ -5,7 +5,7 @@ tags:
 
 # Mon premier _framework_
 
-![](./banner.gif){.w-100}
+![](./banner.webp){.w-100}
 
 *[CDN]: Content Delivery Network
 
@@ -67,7 +67,7 @@ Vous devriez avoir ce résultat : ![](./digger-result.png){.w-10 data-zoom-image
 
 Milligram spécifiquement n'est pas important à connaître. Vous pouvez d'ailleurs l'oublier pour toujours.
 
-![](./thanos-thanos-snap.gif){.w-50}
+![](./thanos-thanos-snap.webp){.w-50}
 
 ### Finale
 

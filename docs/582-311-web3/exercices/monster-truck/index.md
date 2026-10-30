@@ -29,7 +29,7 @@ L'objectif de cet exercice est de faire traverser le paysage à un monster truck
 ### GSAP
 
 - [ ] Installer GSAP avec `npm`
-- [ ] Créer le fichier `src/gsap.js` avec la fonction `lancerAnimations()` et l'appeler dans `src/main.js`
+- [ ] Créer le fichier `src/gsap.js` avec la fonction `gsapAnimations()` et l'appeler dans `src/main.js`
 - [ ] À l'aide de `gsap.fromTo()`, animer le camion sur l'axe des X :
   - [ ] Départ **à l'extérieur gauche** de la page (`x: -200`)
   - [ ] Arrivée **à l'extérieur droit** de la page

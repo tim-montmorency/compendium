@@ -79,7 +79,7 @@ Dans le fichier `script.js` :
 * [ ] Effectuer un `commit`, puis un `push`
 
 <figure markdown>
-![](./swift.gif){.w-50}
+![](./swift.webp){.w-50}
 </figure>
 
 [STOP]
