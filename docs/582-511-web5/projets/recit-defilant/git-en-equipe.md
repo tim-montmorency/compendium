@@ -24,13 +24,7 @@ Avec **une branche par personne** :
 
 ## Le flux de travail, en une image
 
-```text
-main    ●────────────●───────────────●──────────●
-         \          ↗ PR #1           ↗ PR #2   ↑ remise
-zoe       ●───●───●              ●───●
-           \                    ↗ mise à jour avec main
-leo         ●───●───●───────────●───●───●
-```
+![Une branche par personne : zoe et leo partent de main, travaillent sur leur branche, puis fusionnent dans main par une pull request.](assets/git-branches.svg)
 
 1. Au départ, l'équipe crée **ensemble** la structure commune sur `main`.
 2. Chacun crée **sa** branche à partir de `main` (ici `zoe` et `leo`).
@@ -42,7 +36,7 @@ leo         ●───●───●───────────●─�
 
 Une seule fois, au début, **ensemble** sur un seul poste :
 
-1. Créez les dossiers et fichiers de base : `index.html`, `css/style.css`, `js/main.js`, `data/data.json`, `assets/images/`.
+1. Créez toute la structure du projet, avec **un fichier CSS et un fichier JS par chapitre, même vides** : voir [La structure du projet](structure-projet.md).
 2. Dans `data/data.json`, créez **le squelette de tous vos chapitres**, même vides : un objet par chapitre, avec son `id`, son `numero` et son `responsable`. Chacun remplira ensuite **ses** objets.
 3. *Commit* sur `main`, puis *push*.
 4. L'autre personne fait un *pull* (ou clone le dépôt).
@@ -97,6 +91,8 @@ Une PR est une page de votre dépôt sur github.com, avec :
 ## Étape 4 : fusionner dans `main` avec une *pull request*
 
 Une partie de votre travail fonctionne (ex. le chapitre 3 s'affiche et s'anime)? Proposez-la à l'équipe :
+
+![La pull request : base main, compare votre branche, puis trois étapes : push, un titre clair, l'autre regarde puis fusionne.](assets/git-pull-request.svg)
 
 1. Faites un *push* de votre branche.
 2. Sur github.com, ouvrez votre dépôt. Un bandeau jaune propose **Compare & pull request**. Sinon : onglet **Pull requests** → **New pull request**.
@@ -154,15 +150,19 @@ Dans le fichier, Git place des marqueurs autour des deux versions :
 3. Vérifiez qu'**aucun marqueur** (`<<<<<<<`, `=======`, `>>>>>>>`) ne reste dans le fichier.
 4. Enregistrez, ajoutez le fichier (`+`), puis *commit* (le message est déjà proposé) et *push*.
 
+![Les quatre façons de régler un conflit dans VS Code : Accept Current, Accept Incoming, Accept Both, ou à la main. Puis enregistrer, ajouter, commit, tester, push.](assets/git-regler-conflit.svg)
+
 Dans GitHub Desktop, la fenêtre de fusion liste les fichiers en conflit : ouvrez-les dans VS Code, réglez-les de la même façon, puis cliquez sur **Continue merge**.
 
 !!! warning "Testez avant de pousser"
     Un conflit réglé à la main peut casser la page (une balise fermée en double, une virgule de trop dans le JSON). Ouvrez la page avec Live Server avant de faire le *push*.
 
-### Les éviter
+### Comment éviter les conflits
 
-- **Un fichier par zone** quand c'est possible : par exemple `css/chapitre-3.css` et `js/chapitre-3.js` pour la personne responsable du chapitre 3.
-- **Les fichiers communs** (`index.html`, `css/style.css`, `data/data.json`) : on se prévient avant d'y toucher, et on fusionne vite.
+![Comment éviter les conflits : un fichier par chapitre, on se prévient avant de toucher aux fichiers communs, et on met sa branche à jour souvent.](assets/git-eviter-conflits.svg)
+
+- **Un fichier par chapitre** : `css/chapitres/ch-03.css` et `js/chapitres/ch-03.js` pour la personne responsable du chapitre 3 (voir [La structure du projet](structure-projet.md)).
+- **Les fichiers communs** (`index.html`, `commun.css`, `main.js`, `data.json`) : on se prévient avant d'y toucher, et on fusionne vite.
 - **Mettez votre branche à jour souvent** : un petit conflit aujourd'hui vaut mieux qu'un gros dans deux semaines.
 
 ## La convention de *commits* de l'équipe

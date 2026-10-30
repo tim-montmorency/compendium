@@ -54,25 +54,30 @@ Dans votre projet : charger vos chapitres avec `fetch`.
 
 Le **storyboard v2** et la **section 1 du cahier de charges** (angle, identité visuelle, moment surprenant) sont à remettre **ce soir, 23 h 59**. Vos questions, c'est maintenant.
 
-[:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](projets/recit-defilant/cahier-de-charges.md#storyboard){ .md-button }
+[:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](projets/recit-defilant/cahier-de-charges.md#storyboard){ .md-button .md-button--primary }
 
 ## 2. :material-gesture-swipe-vertical: Animer au défilement
 
-Vous avez vu ces notions pour le portfolio. Aujourd'hui, **vous les tapez vous-mêmes** : je code une notion devant vous, vous la refaites dans votre dépôt d'exercice, puis on passe à la suivante.
+Nous avons vu ces notions pour le portfolio au cours 6.1 il y a un mois.
+
+Aujourd'hui, **vous les tapez vous-mêmes** : je code une notion devant vous, vous la refaites dans votre dépôt d'exercice, puis on passe à la suivante.
 
 1. Une barre de progression : `scroll()`.
 2. Des cartes qui apparaissent : `view()` et `animation-range`.
 3. Un texte qui glisse, et le piège de `overflow: hidden`.
 4. Les deux règles obligatoires : `@supports` et `prefers-reduced-motion`.
 
-[:material-pencil-ruler: Exercice : animer au défilement](exercices/ex-scroll/index.md){ .md-button .md-button--primary }
-[:material-gesture-swipe-vertical: La référence](css/animations-scroll.md){ .md-button }
+[:material-gesture-swipe-vertical: Animation au scroll. Vu au cours 6.1](css/animations-scroll.md){ .md-button .md-button--primary}
+[:material-pencil-ruler: Exercice : animer au défilement](exercices/ex-scroll/index.md){ .md-button  }
+
 
 ## 3. :material-layers-outline:  La parallaxe en calques
 
-Un des trois formats de **média animable** : une scène découpée en plans, chacun à sa vitesse. Techniquement, c'est une animation au défilement de plus : `view-timeline-name` sur la scène, une animation par calque.
+Un des trois formats de **média animable** : une scène découpée en plans, chacun à sa vitesse. 
 
-[:material-layers-outline: L'effet parallaxe : définition et exemples](css/parallaxe.md){ .md-button }
+Techniquement, c'est une animation au défilement de plus : `view-timeline-name` sur la scène, une animation par calque.
+
+[:material-layers-outline: L'effet parallaxe : définition et exemples](css/parallaxe.md){ .md-button .md-button--primary }
 [:material-pencil-ruler: Exercice : la parallaxe en calques](exercices/ex-parallaxe/index.md){ .md-button }
 
 ## 4. :material-code-json:  Dans votre projet : du JSON aux chapitres

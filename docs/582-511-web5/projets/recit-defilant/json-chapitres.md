@@ -20,39 +20,11 @@
 
 Sinon, **ensemble, sur un seul poste**, sur `main` :
 
-1. Créez la structure :
+1. Créez toute la structure décrite dans [La structure du projet](structure-projet.md) : les fichiers communs, et **un fichier CSS et un fichier JS par chapitre, même vides**, avec tous les `@import` et les `import` déjà écrits.
+2. Dans `index.html`, un `<main id="recit"></main>` vide, et `main.js` chargé comme module (`type="module"`) : le code est fourni dans la page de la structure.
+3. Dans `data/data.json`, **le squelette de tous vos chapitres**, dans le format que **votre équipe a défini à la section 5 de votre cahier de charges** (`documentation/CAHIER-DE-CHARGES.md`, dans votre dépôt). Un objet par chapitre, dans l'ordre du récit, même s'il est encore vide, avec la personne responsable.
 
-    ```text
-    index.html
-    css/style.css
-    js/main.js
-    data/data.json
-    assets/images/
-    ```
-
-2. Dans `index.html`, un `<main id="recit"></main>` vide, et le lien vers `js/main.js` (avec `defer`).
-3. Dans `data/data.json`, **le squelette de tous vos chapitres**, même vides, dans l'ordre du récit. Un objet par chapitre, avec la personne responsable :
-
-    ```json
-    [
-      {
-        "id": "la-foret",
-        "numero": 1,
-        "titre": "Dans la forêt",
-        "type": "parallaxe",
-        "texte": [],
-        "responsable": "Zoé"
-      },
-      {
-        "id": "le-loup",
-        "numero": 2,
-        "titre": "La rencontre",
-        "type": "svg",
-        "texte": [],
-        "responsable": "Léo"
-      }
-    ]
-    ```
+    Votre section 5 est incomplète, ou vous hésitez sur le format? Relisez [le modèle de données JSON](cahier-de-charges.md#le-modele-de-donnees-json), dans les consignes du cahier de charges, et complétez la section 5 avant de créer le fichier.
 
 4. *Commit* (`Commun : ajoute la structure de départ`), puis *push*.
 5. L'autre personne fait un *pull*. Puis **chacun crée sa branche** et la publie (voir [Git en équipe](git-en-equipe.md)).
@@ -82,7 +54,7 @@ Une fonction `async loadChapters()` qui va chercher `data/data.json` et retourne
 
 Avec `forEach`, affichez dans la console le numéro et le titre de chaque chapitre.
 
-**Vérification** : « 1 Dans la forêt », « 2 La rencontre »…
+**Vérification** : le numéro et le titre de chacun de vos chapitres, dans l'ordre du récit.
 
 ### Étape 3 : le HTML d'un chapitre
 
@@ -107,6 +79,12 @@ Une fonction `createMedia(chapter)` qui lit le `type` du chapitre avec un `switc
 Le `switch` est expliqué dans le [cahier de charges](cahier-de-charges.md#le-modele-de-donnees-json).
 
 **Vérification** : dans l'inspecteur, chaque `<section>` contient le bon `<div>` de média.
+
+### Étape 6 : brancher les fichiers des chapitres
+
+À la fin de `init()`, une fois tout le HTML dans la page, appelez la fonction `animate` du module de chaque chapitre, avec sa `<section>`. Le code est fourni dans [La structure du projet](structure-projet.md#main-js).
+
+**Vérification** : ajoutez temporairement un `console.log("chapitre 3 prêt")` dans `animate` de `ch-03.js`. Le message apparaît dans la console.
 
 ## Les *pull requests*
 

@@ -18,8 +18,7 @@
 
 ## Obtenir votre dépôt (5 min)
 
-**[Accepter l'exercice dans Classroom 50](#){ :target="_blank" }**
-<!-- MM : remplacer # par le lien d'acceptation. -->
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-scroll/accept?k=rthn1z36){ :target="_blank" }**
 
 1. :material-school-outline: Ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis acceptez l'exercice.
 2. :material-microsoft-visual-studio-code: **Clonez** votre dépôt et ouvrez-le dans VS Code.
