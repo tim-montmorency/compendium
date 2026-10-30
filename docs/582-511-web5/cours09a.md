@@ -126,7 +126,7 @@ Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **
 
 **En équipe, 20 minutes.** Maintenant, pour vrai :
 
-1. **Ensemble, sur un seul poste**, sur `main` : la structure commune (`index.html`, `css/style.css`, `js/main.js`, `data/data.json`, `assets/images/`), avec le **squelette de tous vos chapitres** dans `data.json`. *Commit* (`Commun : ajoute la structure de départ`), puis *push*.
+1. **Ensemble, sur un seul poste**, sur `main` : toute l'[arborescence du dépôt](projets/recit-defilant/arborescence-recit-defilant.md), avec **un fichier CSS et un fichier JS par chapitre** (même vides) et le **squelette de tous vos chapitres** dans `data.json`. *Commit* (`Commun : ajoute la structure de départ`), puis *push*.
 2. L'autre personne fait un *pull*.
 3. **Chacun crée sa branche**, à son prénom, et la publie.
 4. Vérifiez sur github.com : le menu des branches affiche `main` et vos deux branches.

@@ -85,6 +85,7 @@ Techniquement, c'est une animation au défilement de plus : `view-timeline-name`
 **En équipe.** Vous connaissez la mécanique du `fetch` depuis le portfolio. Cette fois, c'est votre récit : la structure commune (si ce n'est pas déjà fait), puis une personne code le chargement des chapitres pendant que l'autre remplit les siens. Chacun sur sa branche, et on fusionne par *pull request*.
 
 [:material-code-json: Du JSON aux chapitres : les étapes](projets/recit-defilant/json-chapitres.md){ .md-button .md-button--primary }
+[:material-file-tree: Arborescence du dépôt](projets/recit-defilant/arborescence-recit-defilant.md){ .md-button }
 
 
 ## Devoirs

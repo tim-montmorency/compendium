@@ -125,56 +125,49 @@ Les pourcentages précisent le début et la fin : `entry 0% entry 100%` = du tou
 
 Pour tester différentes plages visuellement : [View Progress Timeline : Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/){ :target="_blank" }.
 
-## Un classique : le parallax :material-layers-outline: 
+## Suivre un autre élément : `view-timeline-name` { #view-timeline-name }
 
-C'est quoi, d'où ça vient, et de beaux exemples : [L'effet parallaxe](parallaxe.md).
+Avec `view()`, chaque élément suit **sa propre** visibilité. Parfois, on veut qu'un élément suive la visibilité d'un **autre** élément : un arrière-plan qui bouge selon la position de sa section, ou plusieurs images qui avancent ensemble, au rythme de leur conteneur.
 
-Le **parallax**, c'est l'illusion de profondeur : l'arrière-plan défile **plus lentement** que le contenu, comme un paysage au loin vu d'une voiture. En CSS, on anime l'arrière-plan dans le **même sens** que le défilement : il « recule » à l'écran, donc il semble plus lent.
+On fait ça en deux temps :
+
+1. Sur l'élément **à suivre**, on crée une timeline et on lui donne un nom : `view-timeline-name`.
+2. Sur l'élément **à animer**, on écrit ce nom dans `animation-timeline`, à la place de `view()`.
 
 ```css
-.parallax {
-  position: relative;
-  /* coupe ce qui dépasse de la section : l'arrière-plan
-     est plus grand qu'elle, on ne doit pas le voir déborder.
-     clip, et surtout pas hidden (voir le piège ci-dessous) */
-  overflow: clip;
-  /* on nomme la timeline de la section */
-  view-timeline-name: --parallax;
+/* 1. La section crée une timeline, et la nomme --intro */
+.intro {
+  view-timeline-name: --intro;
 }
 
-.parallax__bg {
-  position: absolute;
-  /* plus grand que la section : il dépasse de 25 %
-     en haut et en bas, ce qui lui laisse de la marge
-     pour bouger sans laisser de trou */
-  top: -25%;
-  bottom: -25%;
-  left: 0;
-  right: 0;
-}
-
-@keyframes parallax {
-  from { transform: translateY(-20%); }
-  to   { transform: translateY(20%); }
-}
-
-.parallax__bg {
-  animation: parallax linear both;
-  /* l'arrière-plan suit la visibilité de la SECTION */
-  animation-timeline: --parallax;
+/* 2. Les images, DANS la section, suivent la timeline de la section */
+.intro img {
+  animation: reveal linear both;
+  animation-timeline: --intro;
 }
 ```
 
-Nouveauté ici : `view-timeline-name`. Au lieu que l'arrière-plan suive sa propre visibilité, on donne un nom à la timeline de la **section**, et l'arrière-plan l'utilise. Le contenu, lui, n'a aucune animation : il défile normalement. Plusieurs couches avec des amplitudes différentes (`20%`, `10%`...) donnent encore plus de profondeur : voir l'exemple 5 de la démo.
+| | `animation-timeline: view()` | `animation-timeline: --intro` |
+|---|---|---|
+| Qui est suivi? | L'élément animé lui-même | L'élément qui porte `view-timeline-name: --intro` |
+| Résultat | Chaque image apparaît à son tour, quand **elle** entre dans l'écran | Toutes les images apparaissent **ensemble**, quand la **section** entre dans l'écran |
 
-!!! danger "Piège : `overflow: hidden` sur un parent"
+- Le nom commence **toujours par deux tirets** (`--intro`), comme une variable CSS. C'est vous qui le choisissez.
+- L'élément animé doit être **à l'intérieur** de l'élément nommé (un de ses descendants).
+- `animation-range` fonctionne comme avant, mais les plages (`entry`, `contain`...) parlent maintenant de l'élément **suivi** : `entry 0% entry 100%`, c'est pendant que la **section** entre dans l'écran.
+
+## Piège : `overflow: hidden` sur un parent { #piege-overflow }
+
+!!! danger "L'animation reste figée?"
     Un parent avec `overflow: hidden` (ou `auto`, `scroll`) devient un **conteneur de défilement**. `view()` et `scroll()` suivent alors ce conteneur, qui ne défile pas, au lieu de la page : l'animation reste figée, sans message d'erreur.
 
     Si vous devez couper ce qui dépasse (un arrière-plan de parallax, un grand texte qui glisse), utilisez **`overflow: clip`** : même effet visuel, sans créer de conteneur de défilement.
 
-Pour pratiquer, avec une scène de 5 calques :
+## Un classique : la parallaxe :material-layers-outline: { #un-classique-le-parallax }
 
-[:material-pencil-ruler: Exercice : la parallaxe en calques](../exercices/ex-parallaxe/index.md){ .md-button }
+Une des utilisations les plus connues des timelines nommées : un arrière-plan qui défile plus lentement que le contenu, pour créer de la profondeur. D'où ça vient, de beaux exemples, et le code expliqué pas à pas :
+
+[:material-layers-outline: L'effet parallaxe : le faire en CSS](parallaxe.md#en-css){ .md-button .md-button--primary }
 
 ## Quoi animer? La performance
 

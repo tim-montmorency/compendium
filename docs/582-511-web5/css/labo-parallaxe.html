@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Labo parallaxe | Web 5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* Mise en page : un écran à défiler à gauche, les coulisses (chiffres + CSS) à droite.
+   Identité du cours Web 5 : fond noir, texte blanc, accent vermillon, Poppins. */
+:root {
+  color-scheme: dark;
+  --bg: #0A0A0A;
+  --panel: #141416;
+  --line: #2A2A2E;
+  --fg: #F2F2F2;
+  --muted: #9A9AA2;
+  --accent: #FF2B47;
+  --font-display: "Poppins", system-ui, sans-serif;
+  --font-body: "Poppins", system-ui, sans-serif;
+  --font-code: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 32px 48px;
+}
+.wrap { max-width: 1120px; margin: 0 auto; display: grid; gap: 28px; }
+.retour { display: inline-block; margin-bottom: 14px; font-size: 13px; color: var(--muted); }
+header h1 {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(28px, 4vw, 42px); line-height: 1.1; margin: 0;
+  text-wrap: balance;
+}
+header h1 span { color: var(--accent); }
+header p { color: var(--muted); max-width: 68ch; margin: 10px 0 0; }
+.layout { display: grid; grid-template-columns: minmax(0, 420px) minmax(0, 1fr); gap: 28px; align-items: start; }
+@media (max-width: 860px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+
+/* ---------- l'écran ---------- */
+.ecran-col { display: grid; gap: 12px; position: sticky; top: 16px; }
+@media (max-width: 860px) { .ecran-col { position: static; } }
+.outils { display: flex; flex-wrap: wrap; gap: 8px; }
+button {
+  font: 600 13px var(--font-body); color: var(--fg); background: var(--panel);
+  border: 1.5px solid var(--line); border-radius: 999px; padding: 7px 14px; cursor: pointer;
+}
+button:hover { border-color: var(--fg); }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.ecran {
+  height: 460px; overflow-y: auto; overflow-x: hidden;
+  border: 3px solid var(--fg); border-radius: 14px; background: #0E0E12;
+  position: relative; scrollbar-width: thin;
+}
+.ecran-etiquette { font-size: 12px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.page-bloc { padding: 28px 22px; color: #CFCFD6; font-size: 14px; }
+.page-bloc h3 { margin: 0 0 6px; font-size: 16px; color: var(--fg); }
+.page-bloc.court { height: 360px; }
+.page-bloc.long { height: 420px; }
+
+.scene { position: relative; height: 300px; overflow: clip; isolation: isolate; }
+.calque { position: absolute; left: 0; right: 0; will-change: transform; }
+.calque svg { position: absolute; left: 0; width: 100%; display: block; }
+.scene__texte {
+  position: absolute; left: 22px; top: 40px; z-index: 4;
+  font: 700 26px/1.1 var(--font-display); color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,.5);
+}
+.scene__texte small { display: block; font: 400 13px var(--font-body); color: #E8E8F0; margin-top: 6px; }
+
+/* Rayons X : on enlève le clip, on montre les boîtes */
+.xray .scene { overflow: visible; z-index: 2; }
+.xray .scene::after { content: ""; position: absolute; inset: 0; border: 3px solid var(--accent); z-index: 9; pointer-events: none; }
+.xray .calque { outline: 2px dashed var(--c); outline-offset: -2px; opacity: .72; }
+.calque__nom {
+  display: none; position: absolute; top: 6px; z-index: 5;
+  font: 600 11px var(--font-code); color: #fff; background: var(--c);
+  padding: 2px 6px; border-radius: 4px; white-space: nowrap;
+}
+.xray .calque__nom { display: block; }
+.scene__timeline {
+  display: none; position: absolute; right: 8px; top: 8px; z-index: 6;
+  font: 600 12px var(--font-code); background: var(--accent); color: #fff; padding: 3px 8px; border-radius: 4px;
+}
+.xray .scene__timeline { display: block; }
+
+.progression { display: grid; gap: 6px; }
+.progression__barre { height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; }
+.progression__barre i { display: block; height: 100%; width: 0; background: var(--accent); }
+.progression__txt { font: 400 13px var(--font-code); color: var(--muted); }
+.progression__txt b { color: var(--fg); }
+
+/* ---------- les coulisses ---------- */
+.coulisses { display: grid; gap: 22px; min-width: 0; }
+.carte { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 18px; min-width: 0; }
+.carte h2 { font: 700 18px var(--font-display); margin: 0 0 4px; }
+.carte > p { color: var(--muted); margin: 0 0 14px; font-size: 14px; max-width: 70ch; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; min-width: 560px; }
+th { text-align: left; font-weight: 600; color: var(--muted); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+td { padding: 9px 8px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+td.num, span.num { font-family: var(--font-code); white-space: nowrap; font-size: 12px; }
+.pastille { display: inline-block; width: 10px; height: 10px; border-radius: 3px; background: var(--c); margin-right: 8px; vertical-align: -1px; }
+input[type="range"] { width: 120px; accent-color: var(--accent); }
+.vitesse { display: grid; gap: 4px; min-width: 110px; }
+.vitesse__barre { height: 6px; background: var(--line); border-radius: 9px; overflow: hidden; }
+.vitesse__barre i { display: block; height: 100%; background: var(--c); }
+pre {
+  margin: 0; overflow-x: auto; background: #0B0B0D; border: 1px solid var(--line); border-radius: 8px;
+  padding: 14px; font: 400 12.5px/1.6 var(--font-code); color: #DADAE2;
+}
+pre .c { color: #7C7C88; }
+pre .k { color: var(--accent); }
+.regles { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.regles li { padding-left: 18px; position: relative; max-width: 72ch; }
+.regles li::before { content: ""; position: absolute; left: 0; top: .6em; width: 8px; height: 8px; background: var(--accent); border-radius: 2px; }
+code { font-family: var(--font-code); font-size: .92em; background: #1E1E22; padding: 1px 5px; border-radius: 4px; }
+a { color: var(--fg); text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.sources { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.sources li span { color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { .ecran { scroll-behavior: auto; } }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="retour" href="parallaxe.html">← L'effet parallaxe</a>
+    <h1>Labo parallaxe<span>.</span></h1>
+    <p>Faites défiler l'écran de gauche. Une seule timeline, celle de la section, fait avancer quatre calques en même temps. Chaque calque a sa propre amplitude : c'est elle qui décide s'il semble loin ou proche. Activez les rayons X pour voir les boîtes qui dépassent de la section.</p>
+  </header>
+
+  <div class="layout">
+    <div class="ecran-col">
+      <div class="outils">
+        <button id="btn-xray" type="button" aria-pressed="false">Rayons X</button>
+        <button id="btn-auto" type="button">Lecture auto</button>
+        <button id="btn-reset" type="button">Valeurs de départ</button>
+      </div>
+      <span class="ecran-etiquette">L'écran du visiteur</span>
+      <div class="ecran" id="ecran" tabindex="0" aria-label="Écran à faire défiler">
+        <div class="page-bloc court">
+          <h3>Le haut de la page</h3>
+          <p>Défilez vers le bas. La section avec la vallée va entrer par le bas de l'écran.</p>
+          <p>Pendant qu'elle traverse l'écran, sa timeline va de 0 % à 100 %.</p>
+        </div>
+        <section class="scene" id="scene" aria-label="Scène en calques">
+          <span class="scene__timeline" id="tl-badge">--scene : 0 %</span>
+          <div class="scene__texte">La vallée<small>Le contenu : aucune animation</small></div>
+        </section>
+        <div class="page-bloc long">
+          <h3>La suite de la page</h3>
+          <p>La section est sortie par le haut : sa timeline est à 100 %.</p>
+          <p>Remontez : tout revient en arrière, parce que l'animation suit le défilement, pas le temps.</p>
+        </div>
+      </div>
+      <div class="progression">
+        <div class="progression__barre"><i id="prog-barre"></i></div>
+        <div class="progression__txt">timeline de la section : <b id="prog-txt">0 %</b></div>
+      </div>
+    </div>
+
+    <div class="coulisses">
+      <div class="carte">
+        <h2>Les calques, en direct</h2>
+        <p>Changez l'amplitude d'un calque et défilez à nouveau. Amplitude positive : le calque glisse vers le bas dans la section, il monte moins vite que le texte, il semble loin. Négative : il glisse vers le haut, il monte plus vite, il semble proche.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Calque</th><th>Amplitude</th><th>translateY maintenant</th><th>Vitesse à l'écran</th></tr></thead>
+            <tbody id="lignes"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="carte">
+        <h2>Le CSS qui fait ça</h2>
+        <p>Il se met à jour avec vos amplitudes. Un seul <code>@keyframes</code> pour tous les calques : chaque calque lui donne ses propres valeurs avec deux variables.</p>
+        <pre id="code"></pre>
+      </div>
+
+      <div class="carte">
+        <h2>Les quatre idées à retenir</h2>
+        <ul class="regles">
+          <li><b>Une seule timeline pour toute la scène.</b> La section se nomme <code>--scene</code> avec <code>view-timeline-name</code>. Tous les calques suivent cette timeline : ils avancent ensemble, de 0 % à 100 %, pendant que la section traverse l'écran.</li>
+          <li><b>La profondeur, c'est la différence de vitesse.</b> Le texte n'a pas d'animation : il monte à la vitesse du défilement. Un calque qui glisse vers le bas dans la section monte moins vite à l'écran, donc il semble loin. Plus l'amplitude est grande, plus il semble loin.</li>
+          <li><b>Chaque calque est plus grand que la section.</b> Sinon, en glissant, il laisserait un trou en haut ou en bas. La marge (<code>top</code> et <code>bottom</code> négatifs) doit couvrir tout le déplacement. Ici, elle est calculée pour vous; en rayons X, vous voyez les boîtes dépasser.</li>
+          <li><b><code>overflow: clip</code> cache ce qui dépasse.</b> Coupez les rayons X : seule la partie des calques à l'intérieur de la section reste visible.</li>
+        </ul>
+      </div>
+
+      <div class="carte">
+        <h2>Pour aller plus loin</h2>
+        <ul class="sources">
+          <li><a href="https://12daysofweb.dev/2023/css-scroll-driven-animations/" target="_blank" rel="noopener">Scroll-driven Animations, Michelle Barker (12 Days of Web)</a> <span>: une section « Multi-layer parallax » avec trois calques et une variable par calque. Elle utilise <code>scroll()</code> plutôt qu'une timeline nommée, et date de 2023 (le support des navigateurs a changé depuis).</span></li>
+          <li><a href="https://developer.chrome.com/docs/modern-web-guidance/guides/ui-behaviors/parallax-scroll-effects" target="_blank" rel="noopener">Build a Parallax Effect on Scroll (Chrome for Developers)</a> <span>: la même technique qu'ici (timeline nommée sur le conteneur, un décalage par calque), avec <code>@supports</code> et le mouvement réduit. Du code, sans démo visuelle.</span></li>
+          <li><a href="https://scroll-driven-animations.style/tools/view-timeline/ranges/" target="_blank" rel="noopener">View Timeline Ranges Visualizer</a> <span>: pour voir à quel moment une timeline <code>view()</code> passe de 0 % à 100 %.</span></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/view-timeline-name" target="_blank" rel="noopener">view-timeline-name (MDN)</a> <span>: la référence de la propriété.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(() => {
+  const S = 300; // hauteur de la section (px)
+  const DEPART = { ciel: 30, montagnes: 20, collines: 10, feuillage: -15 };
+  // horizon : où commence la silhouette, en fraction de la section; ordre = profondeur
+  const CALQUES = [
+    { id: "ciel", nom: "Ciel et lune", c: "#6C63C7", z: 1, horizon: 0 },
+    { id: "montagnes", nom: "Montagnes", c: "#4B8FD1", z: 2, horizon: 0.38 },
+    { id: "collines", nom: "Collines", c: "#2FA37A", z: 3, horizon: 0.62 },
+    { id: "feuillage", nom: "Feuillage (avant)", c: "#E0A13A", z: 5, horizon: 0.8 },
+  ];
+  const amp = { ...DEPART };
+  const ecran = document.getElementById("ecran");
+  const scene = document.getElementById("scene");
+  const lignes = document.getElementById("lignes");
+
+  // marge nécessaire pour qu'un calque qui glisse de -a à +a (en % de SA hauteur)
+  // ne laisse jamais de trou : m >= a / (1 - 2a)
+  const marge = (aPct) => {
+    const a = Math.abs(aPct) / 100;
+    return a === 0 ? 0 : Math.ceil((a / (1 - 2 * a)) * 100 + 1) / 100;
+  };
+
+  function silhouette(id, w, h, seed) {
+    // collines en dents de scie arrondies, remplies jusqu'en bas
+    let r = seed;
+    const rnd = () => { r = (r * 9301 + 49297) % 233280; return r / 233280; };
+    const pts = [];
+    const pas = id === "feuillage" ? 18 : id === "collines" ? 70 : 55;
+    const amp = id === "feuillage" ? 26 : id === "collines" ? 30 : 70;
+    for (let x = -pas; x <= w + pas; x += pas) {
+      const y = (id === "montagnes" ? (x / pas) % 2 ? amp * 0.15 : amp * (0.6 + rnd() * 0.4) : rnd() * amp);
+      pts.push([x, id === "montagnes" ? amp - y : y]);
+    }
+    let d = `M${pts[0][0]},${h} L${pts[0][0]},${pts[0][1]}`;
+    for (let i = 1; i < pts.length; i++) {
+      const [x, y] = pts[i];
+      if (id === "montagnes") d += ` L${x},${y}`;
+      else { const [px, py] = pts[i - 1]; d += ` Q${(px + x) / 2},${Math.min(py, y) - 10} ${x},${y}`; }
+    }
+    return d + ` L${pts[pts.length - 1][0]},${h} Z`;
+  }
+
+  const couleurs = { ciel: "#22264A", montagnes: "#2E3360", collines: "#1D3B37", feuillage: "#0C1410" };
+
+  function construireCalques() {
+    scene.querySelectorAll(".calque").forEach((el) => el.remove());
+    const w = 420;
+    CALQUES.forEach((L, i) => {
+      const m = marge(amp[L.id]);
+      const H = S * (1 + 2 * m);
+      const el = document.createElement("div");
+      el.className = "calque";
+      el.id = "calque-" + L.id;
+      el.style.setProperty("--c", L.c);
+      el.style.top = -m * S + "px";
+      el.style.height = H + "px";
+      el.style.zIndex = L.z;
+      const yHorizon = m * S + L.horizon * S; // en px dans le calque
+      let inner = "";
+      if (L.id === "ciel") {
+        inner = `<div style="position:absolute;inset:0;background:linear-gradient(#141533,#3B2F5E 70%,#5A3A60)"></div>
+          <div style="position:absolute;left:68%;top:${m * S + 0.12 * S}px;width:46px;height:46px;border-radius:50%;background:#F1EAD8;box-shadow:0 0 30px rgba(241,234,216,.5)"></div>`;
+      } else {
+        const hSil = H - yHorizon;
+        inner = `<svg viewBox="0 0 ${w} ${hSil}" preserveAspectRatio="none" style="top:${yHorizon}px;height:${hSil}px" aria-hidden="true">
+          <path d="${silhouette(L.id, w, hSil, 7 + i * 13)}" fill="${couleurs[L.id]}"/></svg>`;
+      }
+      el.innerHTML = inner + `<span class="calque__nom" style="left:8px;top:${m * S + 150 + i * 24}px" id="nom-${L.id}"></span>`;
+      scene.appendChild(el);
+      L.el = el; L.m = m; L.H = H;
+    });
+  }
+
+  function construireTableau() {
+    lignes.innerHTML = CALQUES.map((L) => `
+      <tr style="--c:${L.c}">
+        <td><span class="pastille"></span>${L.nom}</td>
+        <td><input type="range" aria-label="Amplitude : ${L.nom}" id="amp-${L.id}" min="-30" max="30" step="5" value="${amp[L.id]}">
+          <span class="num" id="amp-val-${L.id}"></span></td>
+        <td class="num" id="ty-${L.id}"></td>
+        <td><div class="vitesse"><div class="vitesse__barre"><i id="vb-${L.id}"></i></div><span class="num" id="vt-${L.id}"></span></div></td>
+      </tr>`).join("") + `
+      <tr style="--c:#F2F2F2"><td><span class="pastille"></span>Le texte (contenu)</td>
+        <td class="num">aucune animation</td><td class="num">0</td>
+        <td><div class="vitesse"><div class="vitesse__barre"><i id="vb-texte"></i></div><span class="num">100 %</span></div></td></tr>`;
+    CALQUES.forEach((L) => {
+      document.getElementById("amp-" + L.id).addEventListener("input", (e) => {
+        amp[L.id] = Number(e.target.value);
+        construireCalques(); majCode(); maj();
+      });
+    });
+  }
+
+  function progression() {
+    const V = ecran.clientHeight;
+    const t = scene.offsetTop - ecran.scrollTop; // haut de la section dans l'écran
+    return Math.min(1, Math.max(0, (V - t) / (V + S)));
+  }
+
+  function maj() {
+    const p = progression();
+    const V = ecran.clientHeight;
+    const pct = Math.round(p * 100);
+    document.getElementById("prog-barre").style.width = pct + "%";
+    document.getElementById("prog-txt").textContent = pct + " %";
+    document.getElementById("tl-badge").textContent = "--scene : " + pct + " %";
+    CALQUES.forEach((L) => {
+      const a = amp[L.id];
+      const ty = -a + 2 * a * p; // de -a % à +a %
+      L.el.style.transform = `translateY(${ty}%)`;
+      const tyTxt = (Math.round(ty * 10) / 10).toFixed(1).replace(".", ",");
+      document.getElementById("ty-" + L.id).textContent = `${tyTxt} %`;
+      document.getElementById("nom-" + L.id).textContent = `${L.nom} · translateY(${tyTxt}%)`;
+      document.getElementById("amp-val-" + L.id).textContent = a === 0 ? "0" : `${-a} % → ${a} %`;
+      // déplacement total du calque DANS la section, comparé au trajet de la section à l'écran
+      const glisse = (2 * a / 100) * L.H;
+      const v = Math.round((1 - glisse / (V + S)) * 100);
+      document.getElementById("vt-" + L.id).textContent = v + " %";
+      document.getElementById("vb-" + L.id).style.width = Math.min(100, Math.max(0, v / 1.5)) + "%";
+    });
+    document.getElementById("vb-texte").style.width = (100 / 1.5) + "%";
+  }
+
+  function majCode() {
+    const lignesCss = CALQUES.map((L) => {
+      const a = amp[L.id], m = Math.round(L.m * 100);
+      const nom = L.id.padEnd(9);
+      return `.calque--${nom} { top: -${m}%; bottom: -${m}%; --de: ${-a}%; --a: ${a}%; }`;
+    }).join("\n");
+    document.getElementById("code").innerHTML =
+`<span class="c">/* 1. La section crée la timeline de toute la scène */</span>
+.scene {
+  position: relative;
+  overflow: clip;              <span class="c">/* cache ce qui dépasse */</span>
+  <span class="k">view-timeline-name: --scene;</span>
+}
+
+<span class="c">/* 2. Tous les calques suivent CETTE timeline */</span>
+.calque {
+  position: absolute;
+  left: 0;
+  right: 0;
+  animation: parallaxe linear both;
+  <span class="k">animation-timeline: --scene;</span>
+}
+
+<span class="c">/* 3. Un seul @keyframes : chaque calque donne ses valeurs */</span>
+@keyframes parallaxe {
+  from { transform: translateY(var(--de)); }
+  to   { transform: translateY(var(--a)); }
+}
+
+<span class="c">/* 4. Chaque calque : sa marge (top, bottom) et son amplitude.
+   Plus l'amplitude est grande, plus il semble loin.
+   Négative : il passe devant, plus vite que le texte. */</span>
+${lignesCss}
+
+<span class="c">/* Le texte n'a aucune animation : c'est la référence. */</span>`;
+  }
+
+  // Rayons X
+  const bx = document.getElementById("btn-xray");
+  bx.addEventListener("click", () => {
+    const on = bx.getAttribute("aria-pressed") !== "true";
+    bx.setAttribute("aria-pressed", String(on));
+    ecran.classList.toggle("xray", on);
+  });
+
+  // Lecture auto : défile de haut en bas, lentement
+  let anim = null;
+  document.getElementById("btn-auto").addEventListener("click", () => {
+    if (anim) { cancelAnimationFrame(anim); anim = null; return; }
+    const debut = performance.now(), duree = 9000;
+    const max = ecran.scrollHeight - ecran.clientHeight;
+    const pas = (now) => {
+      const k = Math.min(1, (now - debut) / duree);
+      ecran.scrollTop = k * max;
+      if (k < 1) anim = requestAnimationFrame(pas); else anim = null;
+    };
+    ecran.scrollTop = 0;
+    anim = requestAnimationFrame(pas);
+  });
+  ecran.addEventListener("wheel", () => { if (anim) { cancelAnimationFrame(anim); anim = null; } }, { passive: true });
+
+  document.getElementById("btn-reset").addEventListener("click", () => {
+    Object.assign(amp, DEPART);
+    CALQUES.forEach((L) => { document.getElementById("amp-" + L.id).value = amp[L.id]; });
+    construireCalques(); majCode(); maj();
+  });
+
+  ecran.addEventListener("scroll", () => requestAnimationFrame(maj), { passive: true });
+  window.addEventListener("resize", maj);
+
+  construireCalques();
+  construireTableau();
+  majCode();
+  // départ : la section à moitié entrée, pour que la scène se voie tout de suite
+  ecran.scrollTop = scene.offsetTop - ecran.clientHeight + S * 0.9;
+  maj();
+})();
+</script>
+
+</body>
+</html>

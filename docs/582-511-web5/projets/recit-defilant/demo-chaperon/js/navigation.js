@@ -1,9 +1,11 @@
 // =========================================================
-// navigation.js : le composant Vue imposé (Options API)
+// navigation.js : le composant Vue imposé (Options API), commun
 // Barre de progression + navigateur de chapitres
 // =========================================================
 
-function creerNavigation(chapitres) {
+import { moinsDeMouvement } from "./outils.js";
+
+export function creerNavigation(chapitres) {
   Vue.createApp({
     data() {
       return {

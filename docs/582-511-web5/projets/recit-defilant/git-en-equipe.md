@@ -36,8 +36,8 @@ Avec **une branche par personne** :
 
 Une seule fois, au début, **ensemble** sur un seul poste :
 
-1. Créez toute la structure du projet, avec **un fichier CSS et un fichier JS par chapitre, même vides** : voir [La structure du projet](structure-projet.md).
-2. Dans `data/data.json`, créez **le squelette de tous vos chapitres**, même vides : un objet par chapitre, avec son `id`, son `numero` et son `responsable`. Chacun remplira ensuite **ses** objets.
+1. Créez toute la structure du projet, avec **un fichier CSS et un fichier JS par chapitre, même vides** : voir [L'arborescence du dépôt](arborescence-recit-defilant.md).
+2. Dans `data/data.json`, créez **le squelette de tous vos chapitres**, même vides : un objet par chapitre, avec les clés communes et un `"contenu": {}` vide (voir [Les données : `data.json`](arborescence-recit-defilant.md#data-json)). Chacun remplira ensuite **ses** objets.
 3. *Commit* sur `main`, puis *push*.
 4. L'autre personne fait un *pull* (ou clone le dépôt).
 
@@ -161,7 +161,7 @@ Dans GitHub Desktop, la fenêtre de fusion liste les fichiers en conflit : ouvre
 
 ![Comment éviter les conflits : un fichier par chapitre, on se prévient avant de toucher aux fichiers communs, et on met sa branche à jour souvent.](assets/git-eviter-conflits.svg)
 
-- **Un fichier par chapitre** : `css/chapitres/ch-03.css` et `js/chapitres/ch-03.js` pour la personne responsable du chapitre 3 (voir [La structure du projet](structure-projet.md)).
+- **Un fichier par chapitre** : `css/chapitres/ch-03.css` et `js/chapitres/ch-03.js` pour la personne responsable du chapitre 3 (voir [L'arborescence du dépôt](arborescence-recit-defilant.md)).
 - **Les fichiers communs** (`index.html`, `commun.css`, `main.js`, `data.json`) : on se prévient avant d'y toucher, et on fusionne vite.
 - **Mettez votre branche à jour souvent** : un petit conflit aujourd'hui vaut mieux qu'un gros dans deux semaines.
 

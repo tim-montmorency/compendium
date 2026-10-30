@@ -14,28 +14,30 @@
 
 </div>
 
+[:material-file-tree: Arborescence du dépôt](arborescence-recit-defilant.md){ .md-button }
+
 ## Étape 0 : la structure commune (si ce n'est pas déjà fait)
 
-**Votre dépôt a déjà `index.html`, `css/style.css`, `js/main.js` et `data/data.json` sur `main`, et une branche par personne?** Passez à l'étape 1.
+**Votre dépôt a déjà toute l'[arborescence du projet](arborescence-recit-defilant.md) sur `main` (avec un fichier CSS et un fichier JS par chapitre), et une branche par personne?** Passez à l'étape 1.
 
 Sinon, **ensemble, sur un seul poste**, sur `main` :
 
-1. Créez toute la structure décrite dans [La structure du projet](structure-projet.md) : les fichiers communs, et **un fichier CSS et un fichier JS par chapitre, même vides**, avec tous les `@import` et les `import` déjà écrits.
-2. Dans `index.html`, un `<main id="recit"></main>` vide, et `main.js` chargé comme module (`type="module"`) : le code est fourni dans la page de la structure.
-3. Dans `data/data.json`, **le squelette de tous vos chapitres**, dans le format que **votre équipe a défini à la section 5 de votre cahier de charges** (`documentation/CAHIER-DE-CHARGES.md`, dans votre dépôt). Un objet par chapitre, dans l'ordre du récit, même s'il est encore vide, avec la personne responsable.
+1. Créez tous les fichiers décrits dans [L'arborescence du dépôt](arborescence-recit-defilant.md) : les fichiers communs, et **un fichier CSS et un fichier JS par chapitre, même vides**, avec tous les `@import` et les `import` déjà écrits.
+2. Dans `index.html`, un `<main id="recit"></main>` vide, et `main.js` chargé comme module (`type="module"`) : le code est fourni dans la page de l'arborescence.
+3. Dans `data/data.json`, **le squelette de tous vos chapitres**, dans l'ordre du récit : un objet par chapitre, avec les **clés communes** (`id`, `numero`, `titre`, `responsable`, `texte`) et un **`"contenu": {}`** vide. Le format est expliqué dans [Les données : `data.json`](arborescence-recit-defilant.md#data-json).
 
-    Votre section 5 est incomplète, ou vous hésitez sur le format? Relisez [le modèle de données JSON](cahier-de-charges.md#le-modele-de-donnees-json), dans les consignes du cahier de charges, et complétez la section 5 avant de créer le fichier.
+    Votre section 5 du cahier de charges prévoyait un autre format? Pas de problème : gardez les clés communes ci-dessus, et rangez vos autres idées (médias, calques, plans...) dans le `contenu` de chaque chapitre, à mesure que vous en aurez besoin.
 
 4. *Commit* (`Commun : ajoute la structure de départ`), puis *push*.
 5. L'autre personne fait un *pull*. Puis **chacun crée sa branche** et la publie (voir [Git en équipe](git-en-equipe.md)).
 
-Pourquoi le squelette d'abord? Parce que chacun remplira ensuite **ses** objets. Si chacun ajoute ses chapitres à la fin du fichier, vous modifiez les mêmes lignes : le conflit est garanti.
+Pourquoi le squelette d'abord? Parce que chacun remplira ensuite **ses** objets, et son `contenu`. Si chacun ajoute ses chapitres à la fin du fichier, vous modifiez les mêmes lignes : le conflit est garanti.
 
 ## Qui fait quoi
 
 | | Personne A | Personne B |
 |---|---|---|
-| Sur sa branche | Le code : les étapes 1 à 5 dans `js/main.js` | Le contenu : le texte de **ses** chapitres dans `data.json` (des paragraphes de *lorem ipsum* suffisent pour l'instant) |
+| Sur sa branche | Le code : les étapes 1 à 6 dans `js/main.js` | Le texte de **ses** chapitres dans `data.json` (des paragraphes de *lorem ipsum* suffisent pour l'instant) |
 | À la fin | Une *pull request* vers `main` | Une *pull request* vers `main` |
 
 Puis vous inversez pour la suite : B remplira aussi ses chapitres, A les siens.
@@ -72,17 +74,17 @@ Ajoutez le HTML de **chaque** chapitre dans `<main id="recit">`.
 
 **Vérification** : tous vos titres apparaissent dans la page, dans l'ordre du récit. Si un chapitre n'a pas encore de texte, il n'affiche que son titre : c'est normal.
 
-### Étape 5 : un gabarit par type de média
+### Étape 5 : le média, créé par chaque chapitre
 
-Une fonction `createMedia(chapter)` qui lit le `type` du chapitre avec un `switch`, et retourne un bloc HTML différent selon le type : pour l'instant, un simple `<div>` avec une classe (`media--parallaxe`, `media--spritesheet`, `media--svg`, `media--dataviz`). Ajoutez ce bloc dans la `<section>` de l'étape 3.
+Le média de chaque chapitre est différent : une parallaxe, une spritesheet, une dataviz. C'est donc le module du chapitre qui le crée, avec sa fonction `createMedia`, et non `main.js`.
 
-Le `switch` est expliqué dans le [cahier de charges](cahier-de-charges.md#le-modele-de-donnees-json).
+Ajoutez un deuxième paramètre à `createChapter` : le module du chapitre. Puis, dans la `<section>`, après les paragraphes, ajoutez le HTML retourné par `chapterModule.createMedia(chapter)`. Le code est fourni dans [L'arborescence du dépôt](arborescence-recit-defilant.md#main-js).
 
-**Vérification** : dans l'inspecteur, chaque `<section>` contient le bon `<div>` de média.
+**Vérification** : dans `ch-03.js`, faites retourner temporairement `<p>Média du chapitre 3</p>` à `createMedia`. Le texte apparaît sous les paragraphes du chapitre 3.
 
 ### Étape 6 : brancher les fichiers des chapitres
 
-À la fin de `init()`, une fois tout le HTML dans la page, appelez la fonction `animate` du module de chaque chapitre, avec sa `<section>`. Le code est fourni dans [La structure du projet](structure-projet.md#main-js).
+À la fin de `init()`, une fois tout le HTML dans la page, appelez la fonction `animate` du module de chaque chapitre, avec sa `<section>` et ses données. Le code est fourni dans [L'arborescence du dépôt](arborescence-recit-defilant.md#main-js).
 
 **Vérification** : ajoutez temporairement un `console.log("chapitre 3 prêt")` dans `animate` de `ch-03.js`. Le message apparaît dans la console.
 

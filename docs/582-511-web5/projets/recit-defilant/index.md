@@ -132,7 +132,7 @@ Dès le cahier de charges, une **matrice de responsabilités** dit qui possède 
 - **Un seul dépôt par équipe**, privé au départ. Invitez votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
 - Des *commits* réguliers et bien nommés, faits **par la personne qui a écrit le code** : c'est la trace de votre travail.
 - Une **branche par personne**, fusionnée dans `main` par *pull request* (voir [Git en équipe](git-en-equipe.md)).
-- **Un fichier CSS et un fichier JS par chapitre**, à la personne responsable (voir [La structure du projet](structure-projet.md)).
+- **Un fichier CSS et un fichier JS par chapitre**, à la personne responsable (voir [L'arborescence du dépôt](arborescence-recit-defilant.md)).
 
 ### Journal de bord individuel
 
