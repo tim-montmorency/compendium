@@ -1,6 +1,8 @@
 # Cours 9.1
 <!-- mer. 28 oct. -->
 
+![](assets/cours09a-banniere.webp){.w-100}
+
 ## Annonces
 
 !!! warning "Dès votre arrivée : votre identifiant GitHub pour Classroom 50"

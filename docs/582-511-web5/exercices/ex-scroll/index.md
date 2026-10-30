@@ -90,4 +90,9 @@ Bonus : anime aussi la sortie des cartes
 
 La dernière ligne est **facultative** : seulement si vous avez fait le bonus.
 
+!!! warning "Pour remettre : un *push* sur `main`"
+    Votre exercice est **remis** seulement quand vos *commits* sont **poussés** (*push*) sur la branche `main` de votre dépôt Classroom 50. Un *commit* qui reste sur votre poste, je ne le vois pas, et l'exercice compte comme non fait.
+
+    **Vérifiez** : sur github.com, ouvrez votre dépôt. Votre dernier *commit* apparaît en haut de la liste des fichiers.
+
 C'est un exercice de pratique, non noté. Je vois votre dépôt et vos *commits* dans Classroom 50. Gardez-le : il vous servira de référence pour votre récit.

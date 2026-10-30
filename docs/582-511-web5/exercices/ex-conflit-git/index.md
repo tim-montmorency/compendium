@@ -258,4 +258,9 @@ Recommencez les parties 3 à 6 avec la ligne `Couleur principale`, en inversant 
 - [ ] Chacun a réglé **un** conflit lui-même.
 - [ ] Vos *commits* suivent la convention : `Zone : ce qui a changé`.
 
+!!! warning "Pour remettre : vos PR fusionnées dans `main`"
+    Votre exercice est **remis** quand vos *pull requests* sont **fusionnées dans `main`**, sur github.com. Une branche poussée mais jamais fusionnée, ou un *commit* resté sur votre poste, ne compte pas : je ne le vois pas, et l'exercice compte comme non fait.
+
+    **Plan B** (dépôt créé dans votre compte, hors Classroom 50) : je ne vois votre dépôt que si `marie-michelle-ouellet` y est ajoutée comme collaboratrice.
+
 Une fois l'exercice terminé, **ne supprimez pas le dépôt** : c'est votre remise. Je vois vos PR et votre historique dans Classroom 50.
