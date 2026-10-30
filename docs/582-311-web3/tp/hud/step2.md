@@ -2,7 +2,7 @@
 
 *[HUD]: Heads-up display
 
-![](./setup.gif){.w-100}
+![](./setup.webp){.w-100}
 
 ## 1. GitHub
 

@@ -6,7 +6,7 @@ tags:
 
 # Ariana
 
-![](./giphy.gif){ .w-100 }
+![](./giphy.webp){ .w-100 }
 
 L'objectif de cet exercice est de mettre en pratique la notion de multi-étapes en AnimeJS.
 

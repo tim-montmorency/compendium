@@ -5,7 +5,7 @@ tags:
 
 # DaisyUI
 
-![](./giphy.gif){.w-100}
+![](./giphy.webp){.w-100}
 
 L'objectif de cet exercice est de faire un usage technique des composantes DaisyUI sans modifier le contenu.
 

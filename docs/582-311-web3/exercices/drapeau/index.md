@@ -6,7 +6,7 @@ tags:
 
 # Drapeau
 
-![](flag-white.gif){.w-100}
+![](flag-white.webp){.w-100}
 
 L'objectif de cet exercice est de reproduire des drapeaux avec le système de grille Bootstrap.
 

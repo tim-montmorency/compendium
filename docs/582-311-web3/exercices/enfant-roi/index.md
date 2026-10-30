@@ -5,7 +5,7 @@ tags:
 
 # L’enfant roi
 
-![](./jeune-roi.gif){.w-100}
+![](./jeune-roi.webp){.w-100}
 
 L'objectif de cet exercice est d'utiliser à bon escient la notion de **display flex** et la notion d'**justification flex** en Bootstrap.
 

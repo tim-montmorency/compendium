@@ -4,7 +4,7 @@
 
 <!-- **Savoirs :** finalisation, validation, mise en ligne, préparation de la présentation -->
 
-![](./assets/images/calm.gif){.w-100}
+![](./assets/images/calm.webp){.w-100}
 
 Dernière ligne droite&nbsp;! Cette séance sert à **finaliser, valider et publier** le site promotionnel de votre jeu vidéo avant les présentations orales du cours 15.
 

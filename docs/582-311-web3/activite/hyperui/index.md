@@ -5,7 +5,7 @@ tags:
 
 # HyperUI
 
-![](./giphy.gif){.w-100}
+![](./giphy.webp){.w-100}
 
 L'objectif de cet exercice est d'appliquer sur une page Web certaines composantes HTML tirées du site <https://hyperui.dev/>.
 

@@ -5,7 +5,7 @@ tags:
 
 # DaisyUI + Vite
 
-![](./giphy2.gif){.w-100}
+![](./giphy2.webp){.w-100}
 
 L'objectif de cet exercice est de reprendre l'exercice précédent DaisyUI et de remplacer les technologies CDN par `npm`/Vite.
 

@@ -275,7 +275,7 @@ Le lissage (_ease_) décrit **comment** l'animation accélère et ralentit. C'es
 ## Exercices Tween
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/zombi/giphy.gif){.aspect-4-3}
+  ![](./activite/zombi/giphy.webp){.aspect-4-3}
 
   <small>Exercice - GSAP</small><br>
   **[Zombi](./activite/zombi/index.md){.stretched-link .back}**

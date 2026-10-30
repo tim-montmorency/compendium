@@ -36,14 +36,14 @@ Mots clés : `Scifi HUD`, `Scifi dashboard`, `Scifi interface`
 
 ## Document de conception
 
-![](./book.gif){.w-50}
+![](./book.webp){.w-50}
 
 - [ ] Créer un document Word et l'enregistrer avec la nomenclature : "nomdefamille-prenom_TP2.docx"
 - [ ] Faire une [page titre](https://www.cmontmorency.qc.ca/wp-content/uploads/images/etudiants/bibliotheque/guide-presentation-travaux-ecrits.pdf)
 
 ## Thématique
 
-![](./cyber.gif){.w-50}
+![](./cyber.webp){.w-50}
 
 La thématique choisie permettra d'avoir une cohérence tout au long du projet.
 

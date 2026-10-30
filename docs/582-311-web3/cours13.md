@@ -6,7 +6,7 @@
 
 *[FTP]: File Transfer Protocol
 
-![](./assets/images/calm.gif){.w-100}
+![](./assets/images/calm.webp){.w-100}
 
 Place à la pratique&nbsp;! Cette séance et la suivante sont des **ateliers encadrés**&nbsp;: vous avancez votre **projet final** en autonomie, avec le soutien de l'enseignant. C'est ici que tout se rejoint.
 

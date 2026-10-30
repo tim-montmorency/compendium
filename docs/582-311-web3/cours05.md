@@ -12,7 +12,7 @@ Console dans vscode
 <!-- **Savoirs :** #4 Compatibilité navigateurs · #12 Validation (via le build/déploiement) -->
 
 <!-- Plan : distinction code source vs build (dist/) · GitHub Pages (CI/CD) · cPanel (hébergement réel) · comparaison -->
-<!-- ![](./assets/images/webserver.gif){.aspect-16-9 .w-100} -->
+<!-- ![](./assets/images/webserver.webp){.aspect-16-9 .w-100} -->
 
 *[CDN]: Content Delivery Network
 *[FTP]: File Transfer Protocol
@@ -49,7 +49,7 @@ https://USERNAME.github.io/NOM-DU-REPOSITORY/
 
 #### Déployer manuellement un build vite
 
-![](./assets/images/false-automation.gif){.w-50 data-zoom-image}
+![](./assets/images/false-automation.webp){.w-50 data-zoom-image}
 
 Après avoir exécuté `npx vite build`, un dossier `/dist` est créé avec le code à déployer à l'intérieur.
 
@@ -65,7 +65,7 @@ Il suffit alors de mettre **le contenu** du dossier `/dist` à la racine du repo
 
 ### Méthode automatisée
 
-![](./assets/images/real-automation.gif){.w-50 data-zoom-image}
+![](./assets/images/real-automation.webp){.w-50 data-zoom-image}
 
 Il est possible d'automatiser tout ça avec **GitHub Actions**.
 
@@ -254,7 +254,7 @@ Il est fortement recommandé de changer son mot de passe pour quelque chose de p
     ![](./assets/images/cpanel-403.png){data-zoom-image}
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/cpanel/giphy.gif){.aspect-4-3}
+  ![](./activite/cpanel/giphy.webp){.aspect-4-3}
 
   <small>Exercice - cPanel</small><br>
   **[Publier un build Vite](./activite/cpanel/index.md){.stretched-link .back}**

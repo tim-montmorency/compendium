@@ -5,7 +5,7 @@ tags:
 
 # Monaco
 
-![](giphy.gif){.w-100}
+![](giphy.webp){.w-100}
 
 L'objectif de cet exercice est de mettre en pratique les animations SVG avec AnimeJS.
 

@@ -27,7 +27,7 @@ L'objectif est d'installer le CDN Tailwind en consultant la documentation offici
 
   !!! question "Attends... pourquoi c'est un `<script>` et non un `<link>` comme Milligram ?"
 
-      ![](./wait-what-wait-a-minute.gif){.w-33}
+      ![](./wait-what-wait-a-minute.webp){.w-33}
     
       Quelle belle observation 😍 !
 

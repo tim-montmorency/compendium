@@ -130,7 +130,7 @@ Dans le fichier `script.js` :
 * [ ] Effectuer un `push`
 
 <figure markdown>
-![](./lune.gif){.w-50}
+![](./lune.webp){.w-50}
 </figure>
 
 [STOP]

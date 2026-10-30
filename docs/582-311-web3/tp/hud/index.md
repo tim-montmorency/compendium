@@ -18,7 +18,7 @@ Compte pour **30%** de la note finale.
 </div>
 
 <div class="grid grid-1-2" markdown>
-  ![](./setup.gif)
+  ![](./setup.webp)
 
   Étape 2<br>
   **[Préparation](./step2.md){.stretched-link .back}**<br>
