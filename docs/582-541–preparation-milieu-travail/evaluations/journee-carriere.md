@@ -19,6 +19,24 @@ Ton implication dans la création de la journée carrière sera évaluée. Tu de
 | **Bilan juste** | **20** | Vous avez fourni une analyse complète et réfléchie des résultats de la journée carrière. | Votre bilan était bon, mais aurait pu inclure plus de détails ou d'analyses. | Votre bilan était adéquat, mais manquait de réflexion critique. | Votre bilan était superficiel et nécessite une réévaluation approfondie. |
 | **TOTAL** | **100** | | | | |
 
+## Structure des activités
+
+- 9h30: Arrivée du **Comité Studio** et des étudiants souhaitant les aider
+- 9h30 à 12h30: Montage de la salle par les étudiants
+- 11h: Arrivée du technicien de la salle
+- 11h: Arrivée du **Comité Design** et déploiement de la signalétique dans le collège
+- 11h45: Arrivée de tous les étudiants
+- 12h30: Certains étudiants se placent aux portes 3 et 6 pour guider les employeurs jusqu'à la salle
+- 12h45 à 13h : Arrivée des employeurs
+- 13h à 13h15 : Installation des employeurs aux tables, mot de bienvenue
+- 13h15 à 14h15 : Rencontres individuelles avec les stagiaires
+- 14h15 à 14h30 : Pause
+- 14h30 à 15h30 : Rencontres individuelles avec les stagiaires
+- 15h30 à 16h : Réseautage
+- 16h : Fin de l’événement
+- 16h à 17h: Démontage de la salle et de la signalétique dans le collège
+
+
 ## Comités et tâches
 ### Design  (5)
 Objectif : créer l'identité visuelle et tous les supports visuels de la journée.      
