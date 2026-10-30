@@ -107,22 +107,121 @@ Dans le fichier d'un chapitre, ciblez toujours **sa section**, avec l'`id` du ch
 
 ## Les données : `data.json` { #data-json }
 
-Un objet par chapitre, dans l'ordre du récit. Chaque objet a **deux parties** :
+Un objet par chapitre, dans l'ordre du récit. Chaque objet a **deux parties** : les **clés communes**, toujours les mêmes, et le **`contenu`**, propre au chapitre.
+
+### Un chapitre simple
+
+Un texte et un média : ici, une parallaxe en deux calques.
 
 ```json
 {
   "id": "la-foret",
-  "numero": 3,
+  "numero": 1,
   "titre": "Dans la forêt",
   "responsable": "Zoé",
   "texte": ["Premier paragraphe...", "Deuxième paragraphe..."],
   "contenu": {
-    "sprite": "assets/images/chaperon-marche.webp",
-    "images": 8,
-    "alt": "Le Petit Chaperon rouge marche dans la forêt"
+    "calques": [
+      { "src": "assets/images/foret-fond.webp", "vitesse": "lente" },
+      { "src": "assets/images/foret-avant.webp", "vitesse": "rapide" }
+    ]
   }
 }
 ```
+
+### Un chapitre en plusieurs plans
+
+Quand un chapitre est une **séquence** de moments animés, chacun avec son média, son `contenu` peut contenir un tableau `plans`. Le module du chapitre boucle sur les plans, exactement comme `main.js` boucle sur les chapitres.
+
+```json
+{
+  "id": "la-tempete",
+  "numero": 2,
+  "titre": "La tempête",
+  "responsable": "Léo",
+  "texte": ["La mer est calme. Trop calme."],
+  "contenu": {
+    "plans": [
+      {
+        "id": "eclair",
+        "texte": "Un éclair déchire le ciel.",
+        "media": {
+          "src": "assets/images/eclair.svg",
+          "alt": "Un éclair zèbre le ciel"
+        }
+      },
+      {
+        "id": "bateau",
+        "texte": "Le bateau tangue, puis disparaît.",
+        "media": {
+          "src": "assets/images/bateau.webp",
+          "images": 12,
+          "alt": "Un bateau secoué par les vagues"
+        }
+      }
+    ]
+  }
+}
+```
+
+Les clés communes sont identiques dans les deux chapitres. Seul le `contenu` change : chaque responsable y met ce dont **son** chapitre a besoin.
+
+### Le fichier complet, avec 2 chapitres
+
+`data.json` est **un tableau** (`[ ]`) qui contient les objets des chapitres, dans l'ordre du récit, séparés par des **virgules** :
+
+```json
+[
+  {
+    "id": "la-foret",
+    "numero": 1,
+    "titre": "Dans la forêt",
+    "responsable": "Zoé",
+    "texte": ["Premier paragraphe...", "Deuxième paragraphe..."],
+    "contenu": {
+      "calques": [
+        { "src": "assets/images/foret-fond.webp", "vitesse": "lente" },
+        { "src": "assets/images/foret-avant.webp", "vitesse": "rapide" }
+      ]
+    }
+  },
+  {
+    "id": "la-tempete",
+    "numero": 2,
+    "titre": "La tempête",
+    "responsable": "Léo",
+    "texte": ["La mer est calme. Trop calme."],
+    "contenu": {
+      "plans": [
+        {
+          "id": "eclair",
+          "texte": "Un éclair déchire le ciel.",
+          "media": {
+            "src": "assets/images/eclair.svg",
+            "alt": "Un éclair zèbre le ciel"
+          }
+        },
+        {
+          "id": "bateau",
+          "texte": "Le bateau tangue, puis disparaît.",
+          "media": {
+            "src": "assets/images/bateau.webp",
+            "images": 12,
+            "alt": "Un bateau secoué par les vagues"
+          }
+        }
+      ]
+    }
+  }
+]
+```
+
+!!! warning "Les erreurs JSON les plus fréquentes"
+    - Une **virgule après le dernier** élément d'un tableau ou d'un objet (`}, ]`) : le JSON est invalide, et `fetch()` échoue.
+    - Une virgule **oubliée** entre deux chapitres (`} {`).
+    - Des guillemets simples (`'...'`) : le JSON n'accepte que les guillemets doubles (`"..."`).
+
+    Le fichier ne se charge pas? Ouvrez la console : l'erreur indique souvent la ligne. VS Code souligne aussi les erreurs en rouge dans `data.json`.
 
 ### Les clés communes : fixes
 
