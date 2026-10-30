@@ -1,6 +1,6 @@
 # :material-pencil-ruler:  Exercice : le monstre responsive
 
-<video class="w-100" src="assets/exercice-spritesheet-apercu.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : le monstre magenta qui marche"></video>
+<video class="w-100" src="assets/exercice-spritesheet-apercu.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : on défile, le monstre magenta entre dans l'écran et fait ses pas au rythme du défilement; on s'arrête, il s'arrête; on remonte, il recule"></video>
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
@@ -103,6 +103,8 @@ Dans votre récit défilant, c'est le visiteur qui fait avancer l'animation. Fai
 ## Bonus : le monstre reste au centre (15 min)
 
 *Facultatif, pour ceux qui veulent aller plus loin. L'épinglage reviendra au cours 10.1, avec GSAP.*
+
+<video class="w-100" src="assets/exercice-spritesheet-bonus.mp4" autoplay muted loop playsinline aria-label="Aperçu du bonus : le monstre se fixe au centre de l'écran et marche pendant qu'on défile, en traversant l'écran de gauche à droite"></video>
 
 À la partie 4, le monstre traverse l'écran assez vite : on voit à peine un cycle complet. Cette fois, **quand il arrive au centre de l'écran, il s'y fixe**. On continue de défiler : il marche sur place. On arrête : il s'arrête. Puis il repart avec la page.
 

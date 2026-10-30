@@ -351,7 +351,7 @@ nav:
       - Recap JavaScript: 582-511-web5/js/recap-js.md
       - Exercices:
           - "Conflit Git (en duo)": 582-511-web5/exercices/ex-conflit-git/index.md
-          - "Le monstre responsive": 582-511-web5/exercices/ex-spritesheet/index.md
+          - "Spritesheet: monstre qui marche": 582-511-web5/exercices/ex-spritesheet/index.md
           - "Animer au défilement": 582-511-web5/exercices/ex-scroll/index.md
           - "La parallaxe en calques": 582-511-web5/exercices/ex-parallaxe/index.md
       - Cours 9.2: 582-511-web5/cours09b.md 
