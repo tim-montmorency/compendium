@@ -1,4 +1,4 @@
-# Optimiser les médias
+# :material-image-size-select-large:  Optimiser les médias
 
 ![](assets/optimisation-medias-banniere.webp){.w-100}
 

@@ -1,4 +1,4 @@
-# Les branches Git, en 10 minutes
+# :material-source-branch:  Les branches Git, en 10 minutes
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

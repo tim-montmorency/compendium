@@ -1,4 +1,4 @@
-# GitHub Education, Copilot, VS Code
+# :material-github:  GitHub Education, Copilot, VS Code
 
 ## 🚀 GitHub Education
 

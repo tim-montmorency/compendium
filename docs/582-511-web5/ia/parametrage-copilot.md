@@ -1,4 +1,4 @@
-# Paramétrage GitHub Copilot
+# :material-github:  Paramétrage GitHub Copilot
 
 Ce guide fixe une base commune de paramétrage, pour que tout le monde parte du même pied. Certains réglages sont **obligatoires** (ils protègent l'intégrité de votre démarche ou l'originalité de votre code), d'autres sont **recommandés** (ils rendent Copilot plus utile sans risque particulier).
 

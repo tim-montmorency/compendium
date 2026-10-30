@@ -1,4 +1,4 @@
-# Le récit défilant : le moment dataviz
+# :material-chart-bar:  Le récit défilant : le moment dataviz
 
 <!-- MM : vérifier chaque lien avant le cours. -->
 

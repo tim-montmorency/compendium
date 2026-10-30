@@ -1,4 +1,4 @@
-# Le cahier de charges et le scénarimage (storyboard)
+# :material-file-document-edit-outline:  Le cahier de charges et le scénarimage (storyboard)
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
@@ -35,7 +35,7 @@ Vous avez deux semaines, incluant un cours  : le **mer. 21 oct.**, arrivez avec 
 5. **La matrice de responsabilités** (section 4) : qui possède quoi. À faire **ensemble**, et à prendre au sérieux : c'est la base de votre note individuelle.
 6. **Le reste** : données, dataviz, médias, technologies, prochaines étapes, risques.
 
-## Le storyboard dans Figma { #storyboard }
+## :material-movie-open-edit-outline: Le storyboard dans Figma { #storyboard }
 
 Un storyboard de défilement n'est pas une maquette de chaque pixel. C'est **la suite des moments** que vit le visiteur.
 
@@ -69,7 +69,6 @@ Dans **chaque** rangée, copiez ces amorces dans une zone de texte, à droite de
 
 ```text
 Ch. # · Moment # :
-Texte : où est-il placé?
 Ce qui bouge ou ce qui est animé, et comment? :
 Déclencheur :
 Technique :
@@ -131,7 +130,12 @@ Pas d'outils IA de Figma pour composer le storyboard ni pour rédiger les annota
 
 ## Le modèle de données JSON { #le-modele-de-donnees-json }
 
-Vos chapitres seront chargés avec `fetch()` depuis un fichier JSON, comme les projets de votre portfolio. Avant de coder, on décide **la forme d'un chapitre** : quelles propriétés, et pour quoi faire.
+Vos chapitres seront chargés avec `fetch()` depuis un fichier JSON, comme les projets de votre portfolio. Chaque chapitre est un objet en **deux parties** :
+
+- **les clés communes**, les mêmes pour toutes les équipes : `id`, `numero`, `titre`, `responsable`, `texte`. Elles sont fixes.
+- **`contenu`** : tout ce qui est propre au chapitre. C'est vous qui inventez ses clés, et elles peuvent changer en cours de projet.
+
+Vous ne pouvez pas tout prévoir maintenant : vous découvrirez GSAP et vos besoins en avançant. C'est normal, et c'est pour ça que `contenu` est libre. Décrivez ce que vous savez aujourd'hui.
 
 **Exemple 1 : un chapitre simple**, avec un texte et un média.
 
@@ -140,96 +144,69 @@ Vos chapitres seront chargés avec `fetch()` depuis un fichier JSON, comme les p
   "id": "la-foret",
   "numero": 3,
   "titre": "Dans la forêt",
+  "responsable": "Prénom",
   "texte": ["Premier paragraphe...", "Deuxième paragraphe..."],
-  "medias": [
-    { "type": "calque", "src": "assets/images/foret-avant.webp", "alt": "" }
-  ],
-  "responsable": "Prénom"
+  "contenu": {
+    "calques": [
+      { "src": "assets/images/foret-fond.webp", "vitesse": "lente" },
+      { "src": "assets/images/foret-avant.webp", "vitesse": "rapide" }
+    ]
+  }
 }
 ```
 
-**Exemple 2 : un chapitre en plusieurs plans.** Quand un chapitre est une **séquence** de moments animés, chacun avec son média et son animation, on ajoute un tableau `plans`. Le JavaScript boucle sur les plans d'un chapitre, exactement comme il boucle sur les chapitres.
+**Exemple 2 : un chapitre en plusieurs plans.** Quand un chapitre est une **séquence** de moments animés, chacun avec son média, son `contenu` peut contenir un tableau `plans`. Le module du chapitre boucle sur les plans, exactement comme `main.js` boucle sur les chapitres.
 
 ```json
 {
   "id": "la-tempete",
   "numero": 4,
   "titre": "La tempête",
-  "type": "sequence",
-  "plans": [
-    {
-      "id": "ciel-calme",
-      "texte": "La mer est calme. Trop calme.",
-      "media": {
-        "type": "calques",
-        "calques": [
-          { "src": "assets/images/ciel-fond.webp", "vitesse": "lente" },
-          { "src": "assets/images/vagues.webp", "vitesse": "rapide" }
-        ],
-        "alt": ""
+  "responsable": "Prénom",
+  "texte": ["La mer est calme. Trop calme."],
+  "contenu": {
+    "plans": [
+      {
+        "id": "eclair",
+        "texte": "Un éclair déchire le ciel.",
+        "media": {
+          "src": "assets/images/eclair.svg",
+          "alt": "Un éclair zèbre le ciel"
+        },
+        "animation": { "technique": "gsap", "declencheur": "epingle" }
       },
-      "animation": { "technique": "css", "declencheur": "defilement" }
-    },
-    {
-      "id": "eclair",
-      "texte": "Un éclair déchire le ciel.",
-      "media": {
-        "type": "svg",
-        "src": "assets/images/eclair.svg",
-        "alt": "Un éclair zèbre le ciel"
-      },
-      "animation": { "technique": "gsap", "declencheur": "epingle" }
-    },
-    {
-      "id": "bateau",
-      "texte": "Le bateau tangue, puis disparaît.",
-      "media": {
-        "type": "spritesheet",
-        "src": "assets/images/bateau.webp",
-        "images": 12,
-        "alt": "Un bateau secoué par les vagues"
-      },
-      "animation": { "technique": "observer", "declencheur": "entree" }
-    }
-  ],
-  "responsable": "Prénom"
-}
-```
-
-Ce qui change par rapport à l'exemple 1 :
-
-- `"type": "sequence"` indique au JavaScript de construire plusieurs plans plutôt qu'un seul bloc.
-- Chaque plan a **son propre** `id`, `texte`, `media` et `animation` : c'est le même découpage que vos cadres de storyboard.
-- Les propriétés du média dépendent de son type : une liste de `calques` avec leur vitesse, un nombre d'`images` pour une spritesheet, un simple `src` pour un SVG.
-- L'objet `animation` documente vos choix (technique, déclencheur). Le JavaScript peut s'en servir, ou ce peut être un simple aide-mémoire pour l'équipe.
-
-Questions à vous poser :
-
-- Le texte : une seule chaîne, ou un tableau de paragraphes?
-- Les médias : de quels types (image, calque, spritesheet, SVG, vidéo)? Chacun a-t-il un `alt`?
-- Vos chapitres affichent-ils des médias différents? Si oui, ajoutez une propriété `type` (ex. `"parallaxe"`, `"dataviz"`) : le JavaScript la lira pour savoir quel HTML construire (voir plus bas).
-- Un de vos chapitres contient-il plusieurs moments animés? Si oui, est-ce un chapitre en `plans`?
-
-### À quoi sert la propriété `type`?
-
-Ce n'est pas un type de donnée JavaScript (`string`, `number`) : c'est une **étiquette que vous inventez** dans votre JSON pour dire au JavaScript **quel genre de chapitre** construire.
-
-Le texte se construit toujours de la même façon, mais le média, lui, demande un HTML différent : une parallaxe en calques, une spritesheet, une dataviz. Une seule boucle passe sur tous les chapitres, et pour chacun, un `switch` lit le `type` et choisit le bon gabarit HTML :
-
-```js
-function createMedia(chapter) {
-  switch (chapter.type) {
-    case "parallaxe":
-      return `<div class="parallaxe">...</div>`;
-    case "dataviz":
-      return `<div class="dataviz">...</div>`;
-    default:
-      return "";
+      {
+        "id": "bateau",
+        "texte": "Le bateau tangue, puis disparaît.",
+        "media": {
+          "src": "assets/images/bateau.webp",
+          "images": 12,
+          "alt": "Un bateau secoué par les vagues"
+        },
+        "animation": { "technique": "observer", "declencheur": "entree" }
+      }
+    ]
   }
 }
 ```
 
-Sans `type`, il faudrait deviner à partir des autres propriétés (fragile), ou tester l'`id` de chaque chapitre (il faudrait modifier le code chaque fois qu'on renomme un chapitre). C'est le même principe pour `"type": "sequence"` dans l'exemple 2 : il dit au JavaScript de construire plusieurs plans.
+Ce qu'on remarque :
+
+- Les clés communes sont identiques dans les deux exemples. Seul le `contenu` change.
+- Chaque plan a **son propre** `id`, `texte`, `media` et `animation` : c'est le même découpage que vos rangées de storyboard.
+- L'objet `animation` documente vos choix (technique, déclencheur). Le JavaScript peut s'en servir, ou ce peut être un simple aide-mémoire.
+
+Questions à vous poser, pour chaque chapitre :
+
+- Quels médias? De quels types (image, calque, spritesheet, SVG, vidéo)? Chacun a-t-il un `alt`?
+- Quelles informations votre animation aura-t-elle besoin de lire (une vitesse, un nombre d'images, une couleur)?
+- Le chapitre contient-il plusieurs moments animés? Si oui, des `plans`?
+
+### Pourquoi un `contenu` libre?
+
+Dans le code, chaque chapitre a son propre fichier JavaScript, qui crée son média et l'anime. Ce fichier est le **seul** à lire le `contenu` de son chapitre. Vous pouvez donc changer le `contenu` de vos chapitres sans rien briser chez votre coéquipier.
+
+Les clés communes, elles, sont lues par `main.js`, un fichier commun : si vous voulez en changer une, on s'entend d'abord en équipe. Tous les détails sont dans [L'arborescence du dépôt](arborescence-recit-defilant.md#data-json).
 
 ## Le moment dataviz
 
@@ -314,20 +291,24 @@ Vérification : chaque technique (CSS au défilement, GSAP + ScrollTrigger, Inte
 
 ## 5. Le modèle de données
 
-Un exemple d'objet chapitre, tel qu'il sera dans votre fichier JSON (inspirez-vous des [deux exemples plus haut](#le-modele-de-donnees-json)) :
+Version de départ : elle va évoluer, et vous la mettrez à jour à la fin du projet. Un exemple d'objet chapitre, tel qu'il sera dans votre fichier JSON (inspirez-vous des [deux exemples plus haut](#le-modele-de-donnees-json)) :
 
 ```json
 {
-  "id": 1,
+  "id": "la-foret-s-eveille",
+  "numero": 1,
   "titre": "La forêt s'éveille",
-  "texte": "...",
-  "medias": [
-    { "type": "image", "src": "assets/images/foret-fond.webp", "alt": "..." }
-  ]
+  "responsable": "[Prénom]",
+  "texte": ["...", "..."],
+  "contenu": {
+    "medias": [
+      { "src": "assets/images/foret-fond.webp", "alt": "..." }
+    ]
+  }
 }
 ```
 
-[Ajoutez ou retirez des propriétés selon vos besoins, et expliquez en 1 ou 2 phrases vos choix.]
+[Gardez les clés communes telles quelles. Dans `contenu`, ajoutez ce dont vos chapitres auront besoin, et expliquez vos choix en 1 ou 2 phrases.]
 
 ## 6. La dataviz
 

@@ -1,6 +1,8 @@
 # Cours 9.1
 <!-- mer. 28 oct. -->
 
+![](assets/cours09a-banniere.webp){.w-100}
+
 ## Annonces
 
 !!! warning "Dès votre arrivée : votre identifiant GitHub pour Classroom 50"
@@ -33,7 +35,7 @@
 <div class="grid" markdown>
 
 <div class="card" markdown>
-:material-source-branch: __Git en équipe__
+:material-account-multiple-outline: __Git en équipe__
 
 ---
 
@@ -49,7 +51,7 @@ Une branche par personne, les *pull requests*, les conflits et la convention de 
 
 En duo, dans un dépôt d'exercice Classroom 50 : provoquer un conflit exprès, puis le régler.
 
-[:octicons-arrow-right-24: L'exercice](projets/recit-defilant/exercice-conflit.md){ .stretched-link }
+[:octicons-arrow-right-24: L'exercice](exercices/ex-conflit-git/index.md){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -72,7 +74,7 @@ Le projet au complet : produit, garde-fous, évaluation, calendrier.
 - [ ] Git en équipe : branches, *pull requests*, conflits, convention de *commits*
 - [ ] Exercice en duo : provoquer et régler un conflit
 - [ ] Dans votre projet : la structure commune sur `main`, puis une branche chacun
-- [ ] Animations CSS : la spritesheet et la parallaxe
+- [ ] Animation CSS : la spritesheet
 - [ ] Noter dans votre journal les commentaires reçus à la rencontre
 
 <!-- MM : ajouter le tutorat de la semaine, s'il y a lieu. -->
@@ -101,7 +103,7 @@ Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **
 
 [:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](projets/recit-defilant/cahier-de-charges.md#storyboard){ .md-button .md-button--primary }
 
-## 2. Git en équipe
+## 2. Git en équipe 👥🤼‍♂️
 
 À deux dans le même dépôt, on ne travaille plus comme au portfolio. Aujourd'hui : une branche par personne, la fusion par *pull request*, les conflits, et une façon commune de nommer vos *commits*.
 
@@ -114,36 +116,31 @@ Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **
 [:material-account-multiple-outline: Git en équipe](projets/recit-defilant/git-en-equipe.md){ .md-button .md-button--primary }
 [:material-presentation-play: Présentation (PowerPoint)](assets/documents/Web5_git-en-equipe.pptx){ .md-button }
 
-## 3. Exercice : provoquer et régler un conflit
+## 3. Exercice : provoquer et régler un conflit 🤼‍♂️
 
-**En duo, 25 minutes.** Dans un petit dépôt d'exercice créé par Classroom 50, vous allez provoquer un conflit exprès, et le régler. Chacun en règle un.
+**En duo, 25 minutes.** Dans un petit dépôt d'exercice créé par Classroom 50, vous allez provoquer un conflit exprès 🤼‍♂️, et le régler. Chacun en règle un.
 
-[:material-source-merge: L'exercice, étape par étape](projets/recit-defilant/exercice-conflit.md){ .md-button }
+[:material-source-merge: L'exercice, étape par étape](exercices/ex-conflit-git/index.md){ .md-button }
 
 ## 4. Dans votre projet
 
 **En équipe, 20 minutes.** Maintenant, pour vrai :
 
-1. **Ensemble, sur un seul poste**, sur `main` : la structure commune (`index.html`, `css/style.css`, `js/main.js`, `data/data.json`, `assets/images/`), avec le **squelette de tous vos chapitres** dans `data.json`. *Commit* (`Commun : ajoute la structure de départ`), puis *push*.
+1. **Ensemble, sur un seul poste**, sur `main` : toute l'[arborescence du dépôt](projets/recit-defilant/arborescence-recit-defilant.md), avec **un fichier CSS et un fichier JS par chapitre** (même vides) et le **squelette de tous vos chapitres** dans `data.json`. *Commit* (`Commun : ajoute la structure de départ`), puis *push*.
 2. L'autre personne fait un *pull*.
 3. **Chacun crée sa branche**, à son prénom, et la publie.
 4. Vérifiez sur github.com : le menu des branches affiche `main` et vos deux branches.
 
 À partir de maintenant : **plus personne ne code sur `main`**.
 
-## 5. Animations CSS : parallaxe et spritesheet
+## 5. Animation CSS : la spritesheet
 
-Deux des trois formats de **média animable** se jouent en CSS.
+Un des trois formats de **média animable**. La parallaxe, un autre format, sera vue au cours 9.2.
 
 **La spritesheet** : toutes les images d'une animation côte à côte dans un seul fichier, montrées une à la fois avec `steps()`. Pour votre projet, la version responsive, avec `transform`.
 
 [:material-filmstrip: Animation par spritesheet](css/animation-spritesheet.md){ .md-button .md-button--primary }
-[:material-pencil-ruler: Exercice : le monstre responsive](css/exercice-spritesheet.md){ .md-button }
-
-**La parallaxe en calques** : des plans qui défilent à des vitesses différentes, pour donner de la profondeur.
-
-[:material-layers-outline: La parallaxe : définition et exemples](css/parallaxe.md){ .md-button }
-[:material-pencil-ruler: Exercice : la parallaxe en calques](css/exercice-parallaxe.md){ .md-button }
+[:material-pencil-ruler: Exercice : le monstre 👹 responsive](exercices/ex-spritesheet/index.md){ .md-button }
 
 **À faire** : chacun commence la préparation de **son** média animable (calques, spritesheet ou SVG), sur **sa** branche.
 
@@ -157,8 +154,7 @@ Deux des trois formats de **média animable** se jouent en CSS.
 
 ### D'ici le mer. 4 nov. (cours 10.1)
 
-Terminez les **3 exercices**, chacun dans son dépôt Classroom 50 :
+Terminez les **2 exercices** commencés en classe, chacun dans son dépôt Classroom 50 :
 
-- [Exercice : un conflit](projets/recit-defilant/exercice-conflit.md) (en duo);
-- [Exercice : le monstre responsive](css/exercice-spritesheet.md);
-- [Exercice : la parallaxe en calques](css/exercice-parallaxe.md).
+- [Exercice : un conflit 🤼‍♂️](exercices/ex-conflit-git/index.md) (en duo), s'il n'est pas terminé;
+- [Exercice : le monstre 👹 responsive](exercices/ex-spritesheet/index.md).

@@ -1,4 +1,4 @@
-# La boucle IA par composant
+# :material-sync:  La boucle IA par composant
 
 Le schéma qui résume tout ce qu'on a vu séparément aux cours 4.1 et 5.1 : comment travailler un composant à la fois avec Copilot, sans jamais laisser l'IA prendre le contrôle du projet au complet.
 

@@ -1,4 +1,4 @@
-# Le contrôle de la qualité (QA)
+# :material-magnify-scan:  Le contrôle de la qualité (QA)
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

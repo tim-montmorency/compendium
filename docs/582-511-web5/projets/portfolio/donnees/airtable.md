@@ -1,4 +1,4 @@
-# Source : Airtable
+# :material-table-large:  Source : Airtable
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

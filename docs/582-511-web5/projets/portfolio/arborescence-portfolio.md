@@ -1,4 +1,4 @@
-# Arborescence du dépôt portfolio
+# :material-file-tree:  Arborescence du dépôt portfolio
 
 Structurer vos dossiers avant d'écrire du code évite de tout réorganiser à la moitié du projet. Cette structure de départ s'aligne avec l'approche par composants et avec vos choix technologiques (gestion des données, structure de navigation).
 

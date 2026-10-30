@@ -1,4 +1,4 @@
-# Présentation du portfolio devant le jury
+# :material-presentation-play:  Présentation du portfolio devant le jury
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

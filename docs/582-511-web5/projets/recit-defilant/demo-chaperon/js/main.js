@@ -1,7 +1,22 @@
 // =========================================================
 // main.js : charge les chapitres (JSON), les affiche,
-// puis lance la navigation (Vue) et les animations.
+// puis lance la navigation (Vue) et les animations
+// de chaque chapitre. (commun)
 // =========================================================
+
+import { creerNavigation } from "./navigation.js";
+
+// Un module par chapitre, dans l'ordre du récit
+import * as ch01 from "./chapitres/ch-01.js";
+import * as ch02 from "./chapitres/ch-02.js";
+import * as ch03 from "./chapitres/ch-03.js";
+import * as ch04 from "./chapitres/ch-04.js";
+import * as ch05 from "./chapitres/ch-05.js";
+import * as ch06 from "./chapitres/ch-06.js";
+import * as ch07 from "./chapitres/ch-07.js";
+import * as ch08 from "./chapitres/ch-08.js";
+
+const modulesChapitres = [ch01, ch02, ch03, ch04, ch05, ch06, ch07, ch08];
 
 const recit = document.querySelector("#recit");
 
@@ -26,67 +41,13 @@ function creerTexte(chapitre) {
   `;
 }
 
-// 3. Ce qui change selon le type de chapitre (défini dans le JSON)
-function creerMedia(chapitre) {
-  switch (chapitre.type) {
-    case "parallaxe": {
-      // Les calques de la parallaxe : un <img> par calque
-      const calques = chapitre.medias
-        .map((m) => `<img class="calque calque--${m.vitesse}" src="${m.src}" alt="${m.alt}">`)
-        .join("");
-      return `<div class="parallaxe" aria-hidden="true">${calques}</div>`;
-    }
-    case "panier": {
-      const objets = chapitre.objets.map((o) => `<li>${o}</li>`).join("");
-      return `<ul class="panier">${objets}</ul>`;
-    }
-    case "foret": {
-      const sprite = chapitre.medias[0];
-      const arbres = chapitre.medias[1];
-      return `
-        <div class="foret">
-          <div class="foret__ombre" aria-hidden="true"></div>
-          <div class="yeux yeux--1" aria-hidden="true"><span></span><span></span></div>
-          <div class="yeux yeux--2" aria-hidden="true"><span></span><span></span></div>
-          <div class="yeux yeux--3" aria-hidden="true"><span></span><span></span></div>
-          <div class="marcheur" role="img" aria-label="${sprite.alt}"></div>
-          <img class="foret__arbres" src="${arbres.src}" alt="${arbres.alt}">
-        </div>
-      `;
-    }
-    case "loup":
-      // SVG injecté dans la page : DrawSVG doit pouvoir atteindre ses traits
-      return `<div class="loup" data-svg="${chapitre.medias[0].src}"></div>`;
-    case "dataviz":
-      // Les deux chemins (SVG + DrawSVG), puis la météo, remplie plus tard par meteo.js
-      return `
-        <div class="chemins" data-svg="${chapitre.medias[0].src}"></div>
-        <div class="meteo" data-latitude="${chapitre.lieu.latitude}"
-          data-longitude="${chapitre.lieu.longitude}" data-fuseau="${chapitre.lieu.fuseau}"
-          data-lieu="${chapitre.lieu.nom}"><p>Chargement des données de la forêt...</p></div>
-      `;
-    case "maison":
-      // Le SVG est injecté dans la page (voir injecterSVG) pour que GSAP puisse cibler ses id
-      return `<div class="maison" data-svg="${chapitre.medias[0].src}"></div>`;
-    case "dialogue": {
-      // Chaque réplique grossit au défilement (CSS seulement, voir style.css)
-      const repliques = chapitre.repliques.map((r) => `
-        <li class="replique">
-          <p class="replique__question">${r.question}</p>
-          <p class="replique__reponse">${r.reponse}</p>
-        </li>`).join("");
-      return `<ol class="dialogue">${repliques}</ol>`;
-    }
-    default:
-      return "";
-  }
-}
-
-function creerChapitre(chapitre) {
+// 3. Une section par chapitre : le texte (commun), puis le média,
+//    créé par le module du chapitre lui-même
+function creerChapitre(chapitre, moduleChapitre) {
   return `
-    <section class="chapitre chapitre--${chapitre.type}" id="${chapitre.id}">
+    <section class="chapitre" id="${chapitre.id}">
       ${creerTexte(chapitre)}
-      ${creerMedia(chapitre)}
+      ${moduleChapitre.createMedia(chapitre)}
     </section>
   `;
 }
@@ -104,17 +65,27 @@ async function injecterSVG() {
 async function init() {
   try {
     const chapitres = await chargerChapitres();
-    recit.innerHTML = chapitres.map(creerChapitre).join("");
+    recit.innerHTML = chapitres
+      .map((chapitre, index) =>
+        creerChapitre(chapitre, modulesChapitres[index]))
+      .join("");
     await injecterSVG();
 
     creerNavigation(chapitres);   // navigation.js (Vue)
-    observerPanier();             // animations.js (IntersectionObserver)
-    observerMorale();             // animations.js (IntersectionObserver)
-    observerMeteo();              // meteo.js (fetch externe au défilement)
-    initAnimationsGSAP();         // animations.js (GSAP + ScrollTrigger)
+
+    // GSAP et ses plugins sont chargés par CDN dans index.html
+    gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
+
+    // 6. Chaque chapitre anime sa propre section,
+    //    avec ses propres données
+    chapitres.forEach((chapitre, index) => {
+      const section = document.getElementById(chapitre.id);
+      modulesChapitres[index].animate(section, chapitre);
+    });
   } catch (erreur) {
     console.error(erreur);
-    recit.innerHTML = `<p class="chapitre">Le récit n'a pas pu être chargé. Rechargez la page.</p>`;
+    recit.innerHTML = `<p class="chapitre">Le récit n'a pas pu être chargé.
+      Rechargez la page.</p>`;
   }
 }
 
