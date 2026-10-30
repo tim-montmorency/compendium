@@ -1,6 +1,6 @@
 import gsap from "gsap"
 
-export function lancerAnimations() {
+export function gsapAnimations() {
 
   // Le camion part de l'extérieur gauche et sort complètement à droite
   gsap.fromTo('.car',

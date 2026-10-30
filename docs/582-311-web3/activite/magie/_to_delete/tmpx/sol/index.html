@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magie</title>
+  </head>
+  <body class="min-h-screen grid place-items-center overflow-hidden bg-radial-[at_50%_40%] from-[#3a2a4d] to-[#120c18]">
+
+    <!-- La scène : repère pour placer le chapeau et la baguette -->
+    <div class="relative w-[600px] h-[500px]">
+
+      <!-- Le chapeau : 3 couches superposées -->
+      <div class="chapeau absolute left-[60px] top-[150px] w-[408px] h-[352px]">
+        <img class="absolute top-0 left-0 w-full z-10" src="/images/chapeau-back.png" alt="" />
+        <img class="main absolute left-[100px] -top-[150px] max-w-none z-20" src="/images/main.png" alt="Main de zombi" />
+        <img class="absolute top-0 left-0 w-full z-30" src="/images/chapeau-front.png" alt="Chapeau de magicien" />
+      </div>
+
+      <img class="baguette absolute right-[40px] top-[80px] w-[120px]" src="/images/baguette.png" alt="Baguette magique" />
+
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

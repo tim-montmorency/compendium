@@ -1,7 +1,5 @@
 # Cours 9
 
-[STOP]
-
 ## Retour sur les exercices
 
 **HTML > HTML** vs. **JS > HTML**
@@ -22,7 +20,7 @@
 
 ### Animer, mais animer quoi ?
 
-GSAP peut animer presque n'importe quelle propriété CSS :
+GSAP peut animer presque n'importe quelles propriétés CSS :
 
 | Propriété GSAP | Effet |
 | :--- | :--- |
@@ -33,30 +31,28 @@ GSAP peut animer presque n'importe quelle propriété CSS :
 | `backgroundColor` | Couleur de fond |
 | `width` / `height` | Dimensions |
 
-Quelques raccourcis de transformation supplémentaires&nbsp;:
+??? note "Quelques raccourcis de transformation supplémentaires"
 
-| Propriété GSAP | Équivalent CSS |
-| :--- | :--- |
-| `xPercent: 50` | `transform: translateX(50%)` |
-| `yPercent: 50` | `transform: translateY(50%)` |
-| `scaleX: 2` / `scaleY: 2` | `transform: scaleX(2)` / `scaleY(2)` |
-| `skew: 30` | `transform: skew(30deg)` |
-| `transformOrigin: "center 40%"` | `transform-origin: center 40%` |
-| `autoAlpha: 0` | `opacity: 0` **et** `visibility: hidden` |
+    | Propriété GSAP | Équivalent CSS |
+    | :--- | :--- |
+    | `xPercent: 50` | `transform: translateX(50%)` |
+    | `yPercent: 50` | `transform: translateY(50%)` |
+    | `scaleX: 2` / `scaleY: 2` | `transform: scaleX(2)` / `scaleY(2)` |
+    | `skew: 30` | `transform: skew(30deg)` |
+    | `transformOrigin: "center 40%"` | `transform-origin: center 40%` |
+    | `autoAlpha: 0` | `opacity: 0` **et** `visibility: hidden` |
 
-!!! tip "`autoAlpha` plutôt qu'`opacity`"
+<!-- !!! tip "`autoAlpha` plutôt qu'`opacity`"
 
-    Un élément à `opacity: 0` est invisible, mais toujours cliquable. `autoAlpha` ajoute `visibility: hidden` lorsque la valeur atteint `0`, puis le remet à `visible` dès que la valeur remonte. C'est le bon choix pour faire apparaître ou disparaître un élément.
+    Un élément à `opacity: 0` est invisible, mais toujours cliquable. `autoAlpha` ajoute `visibility: hidden` lorsque la valeur atteint `0`, puis le remet à `visible` dès que la valeur remonte. C'est le bon choix pour faire apparaître ou disparaître un élément. -->
 
 !!! info "Les propriétés CSS s'écrivent en _camelCase_"
 
     En JavaScript, le trait d'union est interdit dans un nom de propriété. On retire donc le `-` et on met la lettre suivante en majuscule&nbsp;: `background-color` devient `backgroundColor`, `border-radius` devient `borderRadius`, `font-size` devient `fontSize`.
 
+<!-- ??? question "`x` plutôt que `left` ?"
 
-
-??? question "`x` plutôt que `left` ?"
-
-    Oui. Pour déplacer un élément, c'est mieux `x`/`y` (qui utilisent `transform`) que `left`/`top` pour la fluidité et la performance.
+    Oui. Pour déplacer un élément, c'est mieux `x`/`y` (qui utilisent `transform`) que `left`/`top` pour la fluidité et la performance. -->
 
 ### Comment animer ?
 
@@ -88,7 +84,7 @@ On pourrait écrire directement dans `src/main.js`, mais afin de bien structurer
 ```js title="src/gsap.js"
 import gsap from "gsap"
 
-export function lancerAnimations() {
+export function gsapAnimations() {
 
   // Code GSAP ici. Exemple :
 
@@ -105,9 +101,9 @@ Importer notre fichier gsap dans `main.js` :
 
 ``` js title="src/main.js"
 import "./style.css"
-import { lancerAnimations } from "./gsap.js"
+import { gsapAnimations } from "./gsap.js"
 
-lancerAnimations()
+gsapAnimations()
 ```
 
 Le HTML à animer, lui, peut aller soit dans `index.html` ou dans `main.js` (avec `innerHTML`, comme dans le projet de départ de Vite). Ça revient au même.
@@ -116,13 +112,13 @@ Le HTML à animer, lui, peut aller soit dans `index.html` ou dans `main.js` (ave
 
     ``` js title="src/main.js" hl_lines="4-6"
     import "./style.css"
-    import { lancerAnimations } from "./gsap.js"
+    import { gsapAnimations } from "./gsap.js"
 
     document.querySelector('#app').innerHTML = `
     <div class="boite"></div>
     `;
 
-    lancerAnimations();
+    gsapAnimations();
     ```
 
 === "HTML > HTML"
@@ -223,6 +219,21 @@ rotation: 360       // Utilise les degrés pour la rotation
 rotation: "1.25rad" // Utilise les radians pour la rotation (2pi = 360 degrés)
 ```
 
+### Le point de pivot
+
+![type:video](./assets/videos/transform-origin.webm){.w-50 .h-auto}
+
+Une rotation (ou une mise à l'échelle) se fait toujours autour d'un **point de pivot**. Par défaut, ce point est le **centre** de l'élément. 
+
+Le point de pivot se règle avec la propriété CSS `transform-origin`, ou avec son équivalent GSAP `transformOrigin`.
+
+```js
+gsap.to(".aiguille", {
+  //...
+  transformOrigin: "left center",  
+})
+```
+
 ### Propriétés spéciales
 
 | Paramètre     | Rôle |
@@ -249,9 +260,11 @@ gsap.to(".carte", {
 })
 ```
 
+[GSAP Cheat Sheet](https://gsap.com/cheatsheet)
+
 ## Les courbes d'accélération
 
-Le lissage (_ease_) décrit **comment** l'animation accélère et ralentit. C'est ce qui distingue une animation robotique d'une animation vivante.
+Le lissage (_ease_) décrit **comment** l'animation accélère et ralentit. C'est ce qui distingue une animation robotique d'une animation vivante. [GSAP | Ease Visualizer](https://gsap.com/docs/v3/Eases)
 
 <iframe class="aspect-1-1" height="300" style="width: 100%;" scrolling="no" title="GSAP - ease" src="https://codepen.io/tim-momo/embed/QWeOrgo/9db303ae98b0cef97b5d8e699930c6e6?default-tab=result&editable=true&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tim-momo/pen/QWeOrgo/9db303ae98b0cef97b5d8e699930c6e6">
@@ -259,7 +272,21 @@ Le lissage (_ease_) décrit **comment** l'animation accélère et ralentit. C'es
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-[GSAP | Easing tool](https://gsap.com/docs/v3/Eases)
+## Exercices Tween
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/zombi/giphy.gif){.aspect-4-3}
+
+  <small>Exercice - GSAP</small><br>
+  **[Zombi](./activite/zombi/index.md){.stretched-link .back}**
+</div>
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/truck/giphy.gif){.aspect-4-3}
+
+  <small>Exercice - GSAP</small><br>
+  **[J'en ai mon truck](./activite/truck/index.md){.stretched-link .back}**
+</div>
 
 ## Les _timelines_
 
@@ -291,11 +318,11 @@ gsap.timeline()
   .to(".boite", { y: 100, duration: 1 }, "+=0.2")
 ```
 
-## Exercices
+## Exercice Timeline
 
 <div class="grid grid-1-2" markdown>
-  ![](./exercices/monster-truck/giphy.gif){.aspect-4-3}
+  ![](./activite/magie/preview.png){.aspect-4-3}
 
   <small>Exercice - GSAP</small><br>
-  **[Truck](./exercices/monster-truck/index.md){.stretched-link .back}**
+  **[Magie 🪄](./activite/magie/index.md){.stretched-link .back}**
 </div>
