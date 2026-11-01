@@ -143,7 +143,7 @@ Le HTML à animer, lui, peut aller soit dans `index.html` ou dans `main.js` (ave
 
 De l'état initial aux valeurs spécifiées
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?ex=gsap-to-copie&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-3-1" style="width:100%;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-to-copie&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-3-1" style="width:100%;border:0" loading="lazy"></iframe>
 
 <!-- <div class="grid" markdown>
 
@@ -165,7 +165,7 @@ gsap.to(".rond", {
 
 Garde en mémoire l'état initial, mais commence aux valeurs spécifiées vers l'état initial
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?ex=gsap-from&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-3-1" style="width:100%;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-from&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-3-1" style="width:100%;border:0" loading="lazy"></iframe>
 
 <!-- <div class="grid" markdown>
 
@@ -186,7 +186,7 @@ gsap.from(".rond", {
 
 On définit l'état initial et la destination dans la même commande. 
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?ex=gsap-fromto&onglets=js,resultat&modifiable=1&disposition=cote" class="aspect-2-1" style="width:100%;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-fromto&onglets=js,resultat&modifiable=1&disposition=cote" class="aspect-2-1" style="width:100%;border:0" loading="lazy"></iframe>
 
 <!-- gsap.fromTo(".barre",
   { x: 0, rotation: 0 },                // départ
@@ -204,7 +204,7 @@ On définit l'état initial et la destination dans la même commande.
 
 Équivalent à un `to()`, mais instantané.
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?ex=gsap-set&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-3-1" style="width:100%;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-set&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-3-1" style="width:100%;border:0" loading="lazy"></iframe>
 
 ### Les unités
 
