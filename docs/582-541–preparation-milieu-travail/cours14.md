@@ -3,7 +3,7 @@
 !!! info "Dates"
 
     - Groupe Enric : 16 novembre.
-    - Groupe Lora : 14 novembre.
+    - Groupe Lora : 12 novembre.
 
 ## Retour sur la journée carrière et évaluation des comités
 [🛠️ Formulaire à remplir](https://forms.cloud.microsoft/r/1ZQX8yAAKu){ .md-button }   
