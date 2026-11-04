@@ -1,4 +1,4 @@
-# :material-gesture-swipe-vertical:  GSAP : ScrollTrigger
+# :material-gesture-swipe-vertical: GSAP: ScrollTrigger
 
 <video class="w-100" src="assets/gsap-website.webm" autoplay muted loop playsinline aria-label="Aperçu du site de GSAP : des animations web de toutes sortes"></video>
 
