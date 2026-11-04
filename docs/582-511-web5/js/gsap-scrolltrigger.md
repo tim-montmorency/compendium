@@ -267,7 +267,10 @@ export function animate(section, chapter) {
     !!! tip "Et avec un sélecteur : `gsap.utils.selector('#introduction')`?"
         Ça fonctionnerait aussi : la fonction accepte un élément ou un sélecteur CSS. Mais il faudrait écrire l'`id` du chapitre en dur dans le module. Si l'équipe renomme le chapitre dans `data.json`, l'animation casse sans message d'erreur. Avec `section`, le module n'a pas besoin de connaître son `id`.
 
-`gsap.registerPlugin(ScrollTrigger)` est fait **une fois**, dans `main.js` : pas dans chaque chapitre. Pour un exemple complet, regardez les chapitres 3 et 6 de la démo du Petit Chaperon rouge, montrée en classe ([voir la vidéo](../projets/recit-defilant/assets/demo-chaperon-defilement.webm){ :target="_blank" }).
+`gsap.registerPlugin(ScrollTrigger)` est fait **une fois**, dans `main.js` : pas dans chaque chapitre. Pour un exemple complet, regardez les chapitres 3 et 6 de la démo du Petit Chaperon rouge, montrée en classe.
+
+??? example "Voir la vidéo de la démo du Petit Chaperon rouge"
+    <video class="w-100" src="../projets/recit-defilant/assets/demo-chaperon-defilement.webm" controls muted playsinline preload="none" aria-label="La démo du Petit Chaperon rouge, en défilement, du premier au dernier chapitre"></video>
 
 ## Les pièges fréquents
 

@@ -53,7 +53,7 @@ Les morceaux :
 
 ## Dans votre récit
 
-Dans la démo du Petit Chaperon rouge ([voir la vidéo](../projets/recit-defilant/assets/demo-chaperon-defilement.webm){ :target="_blank" }), le fichier commun `js/outils.js` contient une petite fonction réutilisable, et le chapitre 5 s'en sert pour charger la météo seulement quand le chapitre approche :
+Dans la démo du Petit Chaperon rouge, le fichier commun `js/outils.js` contient une petite fonction réutilisable, et le chapitre 5 s'en sert pour charger la météo seulement quand le chapitre approche :
 
 ```js
 // js/outils.js
@@ -84,6 +84,9 @@ export function animate(section, chapitre) {
   );
 }
 ```
+
+??? example "Voir la vidéo de la démo du Petit Chaperon rouge"
+    <video class="w-100" src="../projets/recit-defilant/assets/demo-chaperon-defilement.webm" controls muted playsinline preload="none" aria-label="La démo du Petit Chaperon rouge, en défilement, du premier au dernier chapitre"></video>
 
 !!! tip "Et avec ScrollTrigger?"
     `ScrollTrigger.create({ trigger, onEnter, once: true })` fait la même chose. Si vous chargez déjà GSAP, les deux conviennent. L'`IntersectionObserver` a l'avantage de fonctionner sans librairie, et de continuer à fonctionner avec le mouvement réduit (vos données doivent se charger même si rien ne bouge).
