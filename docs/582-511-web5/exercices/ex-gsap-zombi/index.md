@@ -87,7 +87,7 @@ Tout votre code va dans `js/script.js`. Ouvrez aussi `index.html` et repérez l'
 !!! warning "Pour remettre : un *push* sur `main`"
     Votre exercice est **remis** seulement quand vos *commits* sont **poussés** (*push*) sur la branche `main` de votre dépôt Classroom 50. Un *commit* qui reste sur votre poste, je ne le vois pas.
 
-C'est un exercice de pratique, non noté. Je vois votre dépôt et vos *commits* dans Classroom 50.
+Je vois votre dépôt et vos *commits* dans Classroom 50.
 
 [:material-pencil-ruler: L'exercice suivant : Magie](../ex-gsap-magie/index.md){ .md-button .md-button--primary }
 
