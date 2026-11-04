@@ -1,7 +1,5 @@
 # :material-pencil-ruler:  Exercice : le monstre responsive
 
-<video class="w-100" src="assets/exercice-spritesheet-apercu.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : on défile, le monstre magenta entre dans l'écran et fait ses pas au rythme du défilement; on s'arrête, il s'arrête; on remonte, il recule"></video>
-
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
@@ -28,6 +26,10 @@ Le dépôt contient :
 - `index.html` : la page;
 - `css/style.css` : le style et l'animation, avec la place pour vos réponses de la partie 1;
 - `assets/images/magenta_spritesheet_700.png` : la planche.
+
+## Aperçu du résultat
+
+<video class="w-100" src="assets/exercice-spritesheet-apercu.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : on défile, le monstre magenta entre dans l'écran et fait ses pas au rythme du défilement; on s'arrête, il s'arrête; on remonte, il recule"></video>
 
 ## La planche
 

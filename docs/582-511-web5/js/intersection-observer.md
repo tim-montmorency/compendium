@@ -49,9 +49,7 @@ Les morceaux :
 - **`observer.unobserve()`** : on arrête de le surveiller. C'est ce qui fait « une seule fois ».
 - **`rootMargin`** : agrandit ou rétrécit la zone de l'écran. `"0px 0px -20% 0px"` : il faut que l'élément monte de 20 % dans l'écran. `"0px 0px 50% 0px"` : il se déclenche une demi-hauteur d'écran **avant** d'entrer (pratique pour charger des données d'avance).
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-intersection-observer&onglets=js,css,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
-
-<small>[:material-fullscreen: Ouvrir la démo en plein écran](https://tim-montmorency.com/Fragment/v/?f=w5-intersection-observer&onglets=js,css,resultat&modifiable=1&disposition=cote&boutons=rejouer){ :target="_blank" }</small>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-intersection-observer&onglets=js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:850px;border:0" loading="lazy"></iframe>
 
 ## Dans votre récit
 

@@ -1,7 +1,5 @@
 # :material-pencil-ruler:  Exercice : la magie au défilement
 
-<video class="w-100" src="assets/apercu-magie-defilement.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : on défile, la scène du chapeau reste en place à l'écran, et le numéro de magie avance au rythme du défilement, puis la page repart"></video>
-
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
@@ -30,6 +28,10 @@ Gardez la page [GSAP : ScrollTrigger](../../js/gsap-scrolltrigger.md) ouverte à
 Pas de `npm install` : GSAP est chargé par CDN, avec une balise `<script>` dans `index.html`, **avant** `js/script.js`. Comme dans votre récit.
 
 Dans `index.html`, GSAP **et** le plugin ScrollTrigger sont déjà chargés. Dans `js/script.js` : l'état de départ et la timeline de l'exercice Magie. Défilez : le numéro se joue tout de suite, au chargement, même si la scène n'est pas encore à l'écran.
+
+## Aperçu du résultat
+
+<video class="w-100" src="assets/apercu-magie-defilement.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : on défile, la scène du chapeau reste en place à l'écran, et le numéro de magie avance au rythme du défilement, puis la page repart"></video>
 
 ## Partie 1 : déclencher au défilement (10 min)
 

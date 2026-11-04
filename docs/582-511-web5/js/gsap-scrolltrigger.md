@@ -1,7 +1,5 @@
 # :material-gesture-swipe-vertical: GSAP: ScrollTrigger
 
-<video class="w-100" src="assets/gsap-website.webm" autoplay muted loop playsinline aria-label="Aperçu du site de GSAP : des animations web de toutes sortes"></video>
-
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
@@ -12,6 +10,22 @@
 </div>
 
 Les exemples de cette page **défilent dans leur cadre** : faites défiler à l'intérieur du résultat.
+
+## Ce que ScrollTrigger permet
+
+Trois exemples, pour l'inspiration. Faites défiler dans chaque cadre.
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="La descente en ski" src="https://codepen.io/tim-momo/embed/abRzZvy?default-tab=result&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+
+<small>Démo : GSAP</small>
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="Bienvenue dans la jungle" src="https://codepen.io/tim-momo/embed/zYmxoJB?default-tab=result&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+
+<small>Démo : Louis Hoebregts</small>
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="Weird Fishes" src="https://codepen.io/tim-momo/embed/XWxJNBd?default-tab=result&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+
+<small>Démo : Michelle Barker</small>
 
 ## Installer le plugin
 
@@ -51,6 +65,8 @@ gsap.from(".box", {
 });
 ```
 
+---
+
 ### Lire `start` et `end`
 
 Chaque valeur a **deux mots** : un point de l'**élément observé**, puis un point de l'**écran**.
@@ -63,11 +79,19 @@ start: "top 75%"
 
 « Ça commence quand le **haut de `.stage`** croise la ligne à **75 % de l'écran**. »
 
+![Trois moments du défilement : avant, quand start croise scroller-start (l'animation commence), et quand end croise scroller-end (l'animation finit).](assets/scrolltrigger-start-end.svg)
+
+Les lignes de l'**écran** (`scroller-start`, `scroller-end`) restent fixes. Les repères de l'**élément** (`start`, `end`) montent avec lui quand on défile. L'animation se joue entre les deux croisements.
+
 Valeurs possibles : `top`, `center`, `bottom`, un pourcentage (`75%`), des pixels (`200px`). Pour `end`, on peut aussi donner une longueur de défilement à partir du `start` : `end: "+=500"` (500 px) ou `end: "+=200%"` (deux écrans).
 
 Par défaut : `start: "top bottom"` (l'élément entre par le bas) et `end: "bottom top"` (il sort par le haut).
 
+---
+
 ### Les `markers` : votre meilleur outil
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=resultat&boutons=ouvrir" class="aspect-3-2" style="width:100%;border:0" loading="lazy"></iframe>
 
 `markers: true` affiche 4 repères :
 
@@ -79,6 +103,8 @@ Par défaut : `start: "top bottom"` (l'élément entre par le bas) et `end: "bot
 | `scroller-end` | l'écran | La ligne que `end` doit croiser |
 
 L'animation commence quand `start` croise `scroller-start`, et finit quand `end` croise `scroller-end`. Gardez les `markers` pendant que vous travaillez, et retirez-les à la fin.
+
+---
 
 ### `toggleActions` : que faire, à 4 moments
 
@@ -100,9 +126,7 @@ toggleActions: "play     reverse  play        reverse"
 
 Actions possibles : `play`, `pause`, `resume`, `reverse`, `restart`, `reset`, `complete`, `none`. Par défaut : `"play none none none"` (joue une fois, puis ne fait plus rien).
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
-
-<small>[:material-fullscreen: Ouvrir la démo en plein écran](https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer){ :target="_blank" }</small>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
 
 ## Suivre le défilement : `scrub`
 
@@ -115,9 +139,7 @@ Avec `scrub`, l'animation n'est plus déclenchée : sa progression **suit** le d
 
 Avec `scrub`, mettez `ease: "none"` : la vitesse dépend déjà du visiteur.
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-scrub&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
-
-<small>[:material-fullscreen: Ouvrir la démo en plein écran](https://tim-montmorency.com/Fragment/v/?f=w5-st-scrub&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer){ :target="_blank" }</small>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-scrub&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
 
 ## Une scène : timeline + `scrub` + `pin`
 
@@ -144,9 +166,7 @@ tl.from(".box", { x: "-40vw", duration: 2 })
 !!! info "Avec `scrub`, les durées deviennent des proportions"
     Ce n'est plus le temps qui fait avancer la timeline, c'est le défilement. Un tween de `duration: 2` occupe **deux fois plus de défilement** qu'un tween de `duration: 1`. La durée totale de défilement, c'est `end` qui la donne.
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-pin-timeline&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
-
-<small>[:material-fullscreen: Ouvrir la démo en plein écran](https://tim-montmorency.com/Fragment/v/?f=w5-st-pin-timeline&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer){ :target="_blank" }</small>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-pin-timeline&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
 
 !!! warning "Les garde-fous du récit : au plus 2 sections épinglées"
     Une section épinglée bloque la lecture : le visiteur défile, mais la page n'avance pas. C'est puissant pour un moment fort, lassant si c'est partout. Dans votre récit : **au plus 2 sections épinglées** en tout.
@@ -177,9 +197,7 @@ ScrollTrigger.create({
 
 `ScrollTrigger.create()` crée un déclencheur **sans** animation.
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-callbacks&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
-
-<small>[:material-fullscreen: Ouvrir la démo en plein écran](https://tim-montmorency.com/Fragment/v/?f=w5-st-callbacks&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer){ :target="_blank" }</small>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-callbacks&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
 
 Pour une action qui doit se faire **une seule fois** (charger des données), l'`IntersectionObserver` est souvent plus simple et ne demande aucune librairie.
 
@@ -187,7 +205,43 @@ Pour une action qui doit se faire **une seule fois** (charger des données), l'`
 
 ## Dans votre récit : un module de chapitre { #dans-votre-recit }
 
-Dans votre récit, chaque chapitre crée **ses** animations dans sa fonction `animate()`. Deux réflexes :
+Dans votre récit, chaque chapitre crée **ses** animations dans sa fonction `animate()`. 
+
+### D'où vient `section`?
+
+`section` n'est pas un texte comme `"#introduction"` : c'est **l'élément HTML lui-même**, la balise `<section>` du chapitre. Le module du chapitre ne la cherche pas : il la **reçoit**.
+
+C'est `main.js` qui la trouve. À la fin de la fonction `init()`, une fois le HTML de tous les chapitres dans la page, une boucle `forEach` passe sur les chapitres de `data.json`. Pour chacun, elle va chercher sa `<section>` avec son `id`, puis appelle la fonction `animate()` du module du même rang en lui donnant cette section :
+
+```js
+// js/main.js, à la fin de init()
+chapters.forEach((chapter, index) => {
+  // ex. <section id="introduction">...</section>
+  const section = document.getElementById(chapter.id);
+  chapterModules[index].animate(section, chapter);
+});
+```
+
+Dans le module, `section` contient donc déjà la balise du chapitre :
+
+```js
+// js/chapitres/ch-01.js
+export function animate(section, chapter) {
+  // section : <section id="introduction">...</section>
+  const q = gsap.utils.selector(section);
+
+  q(".box"); // seulement les .box DANS ce chapitre
+}
+```
+
+**Pourquoi `q(".box")` plutôt que `gsap.to(".box", ...)`?** Si un autre chapitre a aussi un élément `.box`, `gsap.to(".box", ...)` les anime **tous les deux**. `q(".box")` cherche seulement dans la section du chapitre : c'est l'équivalent de `section.querySelectorAll(".box")`, en plus court.
+
+!!! tip "Et avec un sélecteur : `gsap.utils.selector('#introduction')`?"
+    Ça fonctionnerait aussi : la fonction accepte un élément ou un sélecteur CSS. Mais il faudrait écrire l'`id` du chapitre en dur dans le module. Si l'équipe renomme le chapitre dans `data.json`, l'animation casse sans message d'erreur. Avec `section`, le module n'a pas besoin de connaître son `id`.
+
+### Le modèle
+
+Deux réflexes :
 
 - Cherchez vos éléments **dans la section** du chapitre, pas dans toute la page : `gsap.utils.selector(section)` crée une fonction `q()` qui fait exactement ça.
 - Enveloppez tout dans `gsap.matchMedia()` pour respecter le mouvement réduit.

@@ -1,7 +1,5 @@
 # :material-pencil-ruler:  Exercice : la parallaxe en calques
 
-<video class="w-100" src="assets/apercu-resultat.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : on descend du ciel jusqu'aux champs, les nuages, les montgolfières et les collines défilent chacun à sa vitesse"></video>
-
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
@@ -26,6 +24,10 @@ Le dépôt contient :
 - `index.html` : la page, avec la scène et ses calques;
 - `css/style.css` : la mise en place des calques, et la place pour vos réponses de la partie 1;
 - `assets/images/` : les images des calques, en SVG.
+
+## Aperçu du résultat
+
+<video class="w-100" src="assets/apercu-resultat.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : on descend du ciel jusqu'aux champs, les nuages, les montgolfières et les collines défilent chacun à sa vitesse"></video>
 
 ## Le principe, en une phrase
 

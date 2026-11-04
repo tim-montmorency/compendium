@@ -1,7 +1,5 @@
 # :material-pencil-ruler:  Exercice : Magie
 
-<video class="w-100" src="assets/apercu-magie.webm" autoplay muted loop playsinline aria-label="Aperçu du résultat : un chapeau de magicien apparaît et se retourne, une baguette s'agite, puis une main de zombi sort du chapeau"></video>
-
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
@@ -28,6 +26,10 @@
 Pas de `npm install` : GSAP est chargé par CDN, avec une balise `<script>` dans `index.html`, **avant** `js/script.js`. Comme dans votre récit.
 
 Tout le HTML et le CSS sont faits. Votre code va dans `js/script.js`.
+
+## Aperçu du résultat
+
+<video class="w-100" src="assets/apercu-magie.webm" autoplay muted loop playsinline aria-label="Aperçu du résultat : un chapeau de magicien apparaît et se retourne, une baguette s'agite, puis une main de zombi sort du chapeau"></video>
 
 ## Explorer la scène (3 min)
 

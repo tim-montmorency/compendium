@@ -1,7 +1,5 @@
 # :material-pencil-ruler:  Exercice : Zombi
 
-<video class="w-100" src="assets/apercu-zombi.webm" autoplay muted loop playsinline aria-label="Aperçu du résultat : un coeur de zombi bat en rebondissant, pendant que le fond change lentement de couleur"></video>
-
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
   <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
@@ -28,6 +26,10 @@
 Pas de `npm install` : GSAP est chargé par CDN, avec une balise `<script>` dans `index.html`, **avant** `js/script.js`. Comme dans votre récit.
 
 Tout votre code va dans `js/script.js`. Ouvrez aussi `index.html` et repérez l'image du coeur : notez sa classe CSS, c'est la cible de l'animation.
+
+## Aperçu du résultat
+
+<video class="w-100" src="assets/apercu-zombi.webm" autoplay muted loop playsinline aria-label="Aperçu du résultat : un coeur de zombi bat en rebondissant, pendant que le fond change lentement de couleur"></video>
 
 ## Animation A : le coeur (5 min)
 
