@@ -435,6 +435,8 @@ body[data-md-color-scheme="slate"] img.invert {
   margin: 1em 0;
   position: relative;
   align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+
 }
 
 /* Classes pour différentes tailles de gouttière */
