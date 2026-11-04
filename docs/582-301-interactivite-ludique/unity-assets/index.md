@@ -106,7 +106,13 @@ Système de dialogue configurable via l'interface Unity.
 
 [Dialogue System | :simple-unity: AssetStore](https://assetstore.unity.com/packages/tools/gui/dialogue-system-248969){ .md-button .md-button--primary }
 
-### -
+### Particle Pack
+
+![](./particle-pack.webp)
+
+Une collection de textures de particules.
+
+[Particle Pack | :simple-unity: AssetStore](https://assetstore.unity.com/packages/vfx/particles/particle-pack-starter-assets-127325){ .md-button .md-button--primary }
 
 ## Autres ressources
 
@@ -114,3 +120,8 @@ Système de dialogue configurable via l'interface Unity.
 * <https://itch.io/game-assets/free/tag-3d> (Assets)
 * <https://www.mixamo.com/> (Animation)
 * <https://assetstore.unity.com/top-assets/top-free> (Assets gratuits)
+
+<!--
+DOTween (Asset Store, gratuit) : animations par code en une ligne (échelle, secousse, fondu) — utile pour le game feel d'un ramassage ou d'un bouton.
+https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
+-->

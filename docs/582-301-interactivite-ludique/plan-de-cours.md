@@ -85,7 +85,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 | 8 | [Lumière et level design](./cours08.md) | Materials, lumières, *baking*, post-traitement, greyboxing → dressing, guidage | |
 | 9 | [PNJ et intelligence artificielle](./cours09.md) | NavMesh, patrouille, détection, **Animator et machines à états** (joueur et PNJ), Mixamo, dialogue | :material-comment-check: **F2 - Tranche verticale** + rétroaction objectif 1 |
 | 10 | [Particules, VFX et *game feel*](./cours10.md) | Particle System, impacts de projectiles, *juice* | |
-| 11 | [Publication et persistance](./cours11.md) | Build WebGL, itch.io, README/crédits, sauvegarde, performance | |
+| 11 | [Publication et persistance](./cours11.md) | Build WebGL, itch.io, README/crédits, menu pause, sauvegarde, performance | |
 
 ### Phase 4 - Production (S12–S15)
 
@@ -191,7 +191,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
     Les *materials* sont partis en S9 avec la passe visuelle - cette séance est déjà bien assez chargée.
 
 !!! note "Pourquoi le menu n'est plus ici"
-    Canvas, TextMeshPro, HUD, premier script, C# de survie, prefabs **et** un menu complet dans une seule séance, c'était trop d'un coup - surtout une séance déjà amputée par la rotation de validation. La S5 garde le strict nécessaire : des boutons et un changement de scène par `SceneManager`. Le **menu pause** (`Time.timeScale`) part en **S8**.
+    Canvas, TextMeshPro, HUD, premier script, C# de survie, prefabs **et** un menu complet dans une seule séance, c'était trop d'un coup - surtout une séance déjà amputée par la rotation de validation. La S5 garde le strict nécessaire : des boutons et un changement de scène par `SceneManager`. Le **menu pause** (`Time.timeScale`) part en **S11**.
 
     Le **HUD**, lui, reste ici : il se monte en même temps que le greybox, et il n'a besoin d'aucune transition de scène pour exister.
 
@@ -312,6 +312,7 @@ Un élève avancé peut dépasser ces limites de son propre chef - c'est ce à q
 * **Sauvegarde** : `PlayerPrefs` - progression (dernier niveau atteint), options (volume, sensibilité), meilleur score. `SetInt` / `SetFloat` / `SetString`, `Save`, `DeleteAll` pour tester.
     * Amené comme **ce qu'il y a sous la case `Persistent`** du CES, utilisée sans le savoir depuis la S3
     * **Atelier du script custom** : l'exigence B6 du projet demande un script C# écrit par l'élève. Ceux qui n'en ont pas encore repartent d'ici avec le leur - le meilleur score sauvegardé est le sujet de repli, court et utile.
+* **Menu pause** : `Time.timeScale`, touche Échap, boutons Reprendre et Accueil; le panneau Options (volume) s'y greffe
 * **Performance** : Profiler en survol, *batching*, nombre de lumières temps réel, taille des textures
 
 !!! note "Contenir l'ambition - sauvegarde"
@@ -494,7 +495,7 @@ Tous les savoirs essentiels des deux objectifs sont enseignés **avant la séanc
 | Notions d'interaction, affordance, agentivité | S1, S4 |
 | Collisions et déclenchement d'événements | S2, S3 |
 | Transitions de scènes | S2, S5 |
-| Interface virtuelle et menu | S5 (HUD, boutons, changement de scène), S6 (9-slice), S8 (pause) |
+| Interface virtuelle et menu | S5 (HUD, boutons, changement de scène), S6 (9-slice), S11 (pause) |
 | Environnement de programmation | S5 (script fourni, puis C#) |
 | Déplacement d'un personnage | S3 (sans code), S5, S6 (réglages du contrôleur) |
 | Interactions virtuelles, système clé/porte | S3, S5 |

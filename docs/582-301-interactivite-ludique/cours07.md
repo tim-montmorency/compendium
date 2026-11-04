@@ -478,7 +478,7 @@ Pour une course contre la montre qui commence à un endroit précis, décocher *
 
 <!-- !!! info "Et la pause?"
 
-    Le chrono compte avec `Time.deltaTime` : quand le menu pause ([cours 8](./cours08.md#le-menu-pause)) met `Time.timeScale` à `0`, il se fige de lui-même. -->
+    Le chrono compte avec `Time.deltaTime` : quand le menu pause ([cours 11](./cours11.md#le-menu-pause)) met `Time.timeScale` à `0`, il se fige de lui-même. -->
 
 ### Ressources
 
