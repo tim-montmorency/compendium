@@ -48,6 +48,10 @@ js/
 data/
   data.json                  ← commun : clés communes fixes, contenu libre
 assets/images/
+  ch-01/                     ← les médias du chapitre 1
+  ch-02/
+  ...
+  ch-06/
 ```
 
 !!! tip "Désactiver Copilot dans votre projet"
