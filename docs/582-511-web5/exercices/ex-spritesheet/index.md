@@ -102,6 +102,57 @@ Dans votre récit défilant, c'est le visiteur qui fait avancer l'animation. Fai
 !!! warning "Le monstre reste figé?"
     Ce n'est pas votre animation. Relisez le piège de la page sur les animations au défilement, à propos d'une propriété du conteneur.
 
+## Vérifiez votre travail { #verifier }
+
+Testez votre page **sans regarder le code**. Chaque énoncé doit être vrai. Si un point coince, ouvrez les [indices](#indices), un à la fois.
+
+- [ ] **Partie 2** : je redimensionne la fenêtre, le monstre change de taille et marche sans glisser ni trembler.
+- [ ] **Partie 2** : dans l'inspecteur, l'animation modifie `transform`, et plus `background-position`.
+- [ ] **Partie 3** : un cycle de marche dure environ une seconde et demie (12 images par seconde).
+- [ ] **Partie 3** : au survol, le monstre s'arrête net, sur une image complète, pas entre deux images.
+- [ ] **Partie 3** : avec le mouvement réduit émulé, le monstre ne marche pas.
+- [ ] **Partie 4** : le monstre fait ses pas **seulement** quand je défile. Je remonte : il recule.
+- [ ] **Partie 4** : il fait environ 3 cycles pendant qu'il traverse l'écran.
+- [ ] **Partie 4** : dans Firefox, qui ne comprend pas encore `animation-timeline`, le monstre marche comme à la partie 3. Rien n'est cassé.
+
+## Coincé? Des indices par paliers { #indices }
+
+Ouvrez **un indice à la fois**, et essayez avant d'ouvrir le suivant. Le dernier indice d'une partie donne presque la réponse : gardez-le pour la fin.
+
+??? tip "Partie 2, indice 1 : le principe"
+    Le conteneur est une **fenêtre** de la taille d'une seule image. La planche, beaucoup plus large, glisse **derrière** cette fenêtre. Tout ce qui dépasse de la fenêtre est caché.
+
+    Deux questions : quelle propriété cache ce qui dépasse? Et quelle largeur donner à l'image pour que chaque image de la planche remplisse exactement la fenêtre?
+
+??? tip "Partie 2, indice 2 : les propriétés"
+    - Le conteneur : `overflow: clip` (et pas `hidden` : vous verrez pourquoi à la partie 4).
+    - L'image : `width: 1900%` et `height: 100%`.
+    - Si votre CSS limite les images (`max-width: 100%`), la planche ne s'étire pas : ajoutez `max-width: none`.
+
+??? tip "Partie 2, indice 3 : l'animation"
+    Un pourcentage dans `translateX` se calcule sur la largeur **de l'élément lui-même**. Pour l'image, `-100%`, c'est donc toute la planche.
+
+    ```css
+    @keyframes marche {
+      to { transform: translateX(-100%); }
+    }
+    ```
+
+    On garde `steps(19)` : 19 sauts secs, un par image.
+
+??? tip "Partie 3 : la durée, la pause et le mouvement réduit"
+    - La durée : **nombre d'images ÷ images par seconde**.
+    - La pause : `animation-play-state`, quand la souris est sur le **conteneur**.
+    - Le mouvement réduit : la même propriété, dans `@media (prefers-reduced-motion: reduce)`.
+
+??? tip "Partie 4, indice 1 : relier au défilement"
+    Sur l'image : `animation-timeline: view()`. Avec une timeline de défilement, la durée en secondes ne compte plus : c'est la traversée de l'écran qui fait avancer l'animation. Le nombre de cycles, c'est `animation-iteration-count`.
+
+    Attention à l'ordre : le raccourci `animation` remet `animation-timeline` à sa valeur par défaut. Écrivez `animation-timeline` **après** `animation`.
+
+??? tip "Partie 4, indice 2 : le monstre reste figé"
+    Regardez le conteneur. Avec `overflow: hidden`, il devient un conteneur de défilement, et `view()` suit **ce conteneur**, qui ne défile jamais. Aucune erreur, juste une animation figée. La solution : `overflow: clip`. Voir [le piège de `overflow: hidden`](../../css/animations-scroll.md#piege-overflow).
+
 ## Bonus : le monstre reste au centre (15 min)
 
 *Facultatif, pour ceux qui veulent aller plus loin. L'épinglage reviendra au cours 10.1, avec GSAP.*

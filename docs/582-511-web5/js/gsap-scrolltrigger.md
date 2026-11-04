@@ -119,12 +119,11 @@ Sans `scrub`, l'animation joue avec sa propre durée, **déclenchée** à 4 mome
 
 On donne une action pour chacun, **dans cet ordre** :
 
-```js
-//               onEnter onLeave onEnterBack onLeaveBack
-toggleActions: "play     reverse  play        reverse"
-```
+![toggleActions reçoit quatre mots, un par événement, dans l'ordre : onEnter, onLeave, onEnterBack, onLeaveBack.](assets/scrolltrigger-toggleactions.svg)
 
-Actions possibles : `play`, `pause`, `resume`, `reverse`, `restart`, `reset`, `complete`, `none`. Par défaut : `"play none none none"` (joue une fois, puis ne fait plus rien).
+Actions possibles : `play`, `pause`, `resume`, `reverse`, `restart`, `reset`, `complete`, `none`. 
+
+Par défaut : `"play none none none"` (joue une fois, puis ne fait plus rien).
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
 
@@ -269,7 +268,7 @@ export function animate(section, chapter) {
 }
 ```
 
-`gsap.registerPlugin(ScrollTrigger)` est fait **une fois**, dans `main.js` : pas dans chaque chapitre. Pour un exemple complet, regardez les chapitres 3 et 6 de la démo du Petit Chaperon rouge, montrée en classe.
+`gsap.registerPlugin(ScrollTrigger)` est fait **une fois**, dans `main.js` : pas dans chaque chapitre. Pour un exemple complet, regardez les chapitres 3 et 6 de la démo du Petit Chaperon rouge, montrée en classe ([voir la vidéo](../projets/recit-defilant/assets/demo-chaperon-defilement.mp4){ :target="_blank" }).
 
 ## Les pièges fréquents
 

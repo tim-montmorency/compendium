@@ -53,7 +53,7 @@ Les morceaux :
 
 ## Dans votre récit
 
-Dans la démo du Petit Chaperon rouge, le fichier commun `js/outils.js` contient une petite fonction réutilisable, et le chapitre 5 s'en sert pour charger la météo seulement quand le chapitre approche :
+Dans la démo du Petit Chaperon rouge ([voir la vidéo](../projets/recit-defilant/assets/demo-chaperon-defilement.mp4){ :target="_blank" }), le fichier commun `js/outils.js` contient une petite fonction réutilisable, et le chapitre 5 s'en sert pour charger la météo seulement quand le chapitre approche :
 
 ```js
 // js/outils.js
