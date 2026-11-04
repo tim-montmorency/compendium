@@ -10,7 +10,7 @@
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
-1. Votre **premier tween** GSAP : faire battre le coeur d'un zombi, et faire varier la couleur de fond de la page.
+1. Votre **premier tween** GSAP (une interpolation) : faire battre le coeur d'un zombi, et faire varier la couleur de fond de la page.
 2. Notions : `gsap.to()`, `gsap.fromTo()`, les propriétés `scale` et `backgroundColor`, les paramètres `duration`, `repeat`, `yoyo` et `ease`.
 3. **Seul, environ 15 minutes.** Gardez la page [GSAP : tweens et timelines](../../js/gsap-bases.md) ouverte à côté.
 
@@ -31,7 +31,7 @@ Tout votre code va dans `js/script.js`. Ouvrez aussi `index.html` et repérez l'
 
 ## Animation A : le coeur (5 min)
 
-### Un premier tween
+### Un premier tween (interpolation)
 
 - [ ] Avec `gsap.to()`, animez le coeur : agrandissement à `1.2` fois sa taille (`scale`), en `0.6` seconde.
 

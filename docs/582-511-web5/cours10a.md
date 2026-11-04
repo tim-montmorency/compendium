@@ -9,7 +9,7 @@
 <div class="grid" markdown>
 
 <div class="card" markdown>
-:material-animation-play-outline: __GSAP : tweens et timelines__
+:material-animation-play-outline: __GSAP : tweens (interpolations) et timelines__
 
 ---
 
@@ -43,7 +43,7 @@ Déclencher une action une seule fois : un `fetch`, une classe.
 ## Aujourd'hui
 
 - [ ] Pourquoi GSAP, si le CSS sait déjà animer au défilement?
-- [ ] Les tweens : exercice Zombi
+- [ ] Les tweens (interpolations) : exercice Zombi
 - [ ] La timeline : exercice Magie
 - [ ] ScrollTrigger : exercice la magie au défilement
 - [ ] IntersectionObserver : déclencher une fois
@@ -55,9 +55,12 @@ Vous savez animer au défilement en CSS. GSAP sert pour ce que le CSS fait mal :
 
 La règle du cours : **le CSS d'abord**, GSAP quand le CSS ne suffit pas.
 
-Dans la démo du Petit Chaperon rouge : la forêt (chapitre 3) et la maison (chapitre 6) sont des scènes GSAP épinglées; le loup (chapitre 4) se dessine avec DrawSVG.
+Dans la démo du Petit Chaperon rouge : 
 
-## 2. :material-animation-play-outline:  Les tweens
+- la forêt (chapitre 3) et la maison (chapitre 6) sont des scènes GSAP épinglées;
+- le loup (chapitre 4) se dessine avec DrawSVG, un extension de GSAP.
+
+## 2. :material-animation-play-outline:  Les tweens (interpolations)
 
 `gsap.to()`, `from()`, `fromTo()`, `set()` : une cible, des propriétés, des paramètres. Vous connaissez déjà le principe avec Anime.js.
 

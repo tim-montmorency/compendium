@@ -51,6 +51,8 @@ Les morceaux :
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-intersection-observer&onglets=js,css,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
+<small>[:material-fullscreen: Ouvrir la démo en plein écran](https://tim-montmorency.com/Fragment/v/?f=w5-intersection-observer&onglets=js,css,resultat&modifiable=1&disposition=cote&boutons=rejouer){ :target="_blank" }</small>
+
 ## Dans votre récit
 
 Dans la démo du Petit Chaperon rouge, le fichier commun `js/outils.js` contient une petite fonction réutilisable, et le chapitre 5 s'en sert pour charger la météo seulement quand le chapitre approche :

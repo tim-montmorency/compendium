@@ -1,9 +1,11 @@
 # :material-gesture-swipe-vertical:  GSAP : ScrollTrigger
 
+<video class="w-100" src="assets/gsap-website.webm" autoplay muted loop playsinline aria-label="Aperçu du site de GSAP : des animations web de toutes sortes"></video>
+
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
-1. **ScrollTrigger** accroche une animation GSAP au défilement : on ajoute un objet `scrollTrigger` à un tween ou, mieux, à une **timeline**.
+1. **ScrollTrigger** accroche une animation GSAP au défilement : on ajoute un objet `scrollTrigger` à un tween (une interpolation) ou, mieux, à une **timeline**.
 2. Trois questions : **quand** (`start`, `end`), **quoi faire** (`toggleActions` pour déclencher, `scrub` pour suivre le défilement), et **déboguer** (`markers`).
 3. Pour une scène de votre récit : une timeline + `scrub` + `pin`. La scène reste en place pendant que le visiteur fait avancer l'animation.
 
@@ -100,6 +102,8 @@ Actions possibles : `play`, `pause`, `resume`, `reverse`, `restart`, `reset`, `c
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
+<small>[:material-fullscreen: Ouvrir la démo en plein écran](https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer){ :target="_blank" }</small>
+
 ## Suivre le défilement : `scrub`
 
 Avec `scrub`, l'animation n'est plus déclenchée : sa progression **suit** le défilement. On descend, elle avance; on remonte, elle recule; on s'arrête, elle s'arrête. C'est ce qu'on veut pour un récit défilant.
@@ -112,6 +116,8 @@ Avec `scrub`, l'animation n'est plus déclenchée : sa progression **suit** le d
 Avec `scrub`, mettez `ease: "none"` : la vitesse dépend déjà du visiteur.
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-scrub&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+<small>[:material-fullscreen: Ouvrir la démo en plein écran](https://tim-montmorency.com/Fragment/v/?f=w5-st-scrub&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer){ :target="_blank" }</small>
 
 ## Une scène : timeline + `scrub` + `pin`
 
@@ -139,6 +145,8 @@ tl.from(".box", { x: "-40vw", duration: 2 })
     Ce n'est plus le temps qui fait avancer la timeline, c'est le défilement. Un tween de `duration: 2` occupe **deux fois plus de défilement** qu'un tween de `duration: 1`. La durée totale de défilement, c'est `end` qui la donne.
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-pin-timeline&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+<small>[:material-fullscreen: Ouvrir la démo en plein écran](https://tim-montmorency.com/Fragment/v/?f=w5-st-pin-timeline&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer){ :target="_blank" }</small>
 
 !!! warning "Les garde-fous du récit : au plus 2 sections épinglées"
     Une section épinglée bloque la lecture : le visiteur défile, mais la page n'avance pas. C'est puissant pour un moment fort, lassant si c'est partout. Dans votre récit : **au plus 2 sections épinglées** en tout.
@@ -170,6 +178,8 @@ ScrollTrigger.create({
 `ScrollTrigger.create()` crée un déclencheur **sans** animation.
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-callbacks&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+<small>[:material-fullscreen: Ouvrir la démo en plein écran](https://tim-montmorency.com/Fragment/v/?f=w5-st-callbacks&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer){ :target="_blank" }</small>
 
 Pour une action qui doit se faire **une seule fois** (charger des données), l'`IntersectionObserver` est souvent plus simple et ne demande aucune librairie.
 

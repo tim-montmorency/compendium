@@ -349,11 +349,18 @@ nav:
             - Media queries, breakpoints: 582-211-web2/css/mediaqueries-breakpoints.md
             - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
       - Recap JavaScript: 582-511-web5/js/recap-js.md
+      - GSAP (librairie JavaScript):
+        - Tweens et timelines: 582-511-web5/js/gsap-bases.md
+        - ScrollTrigger: 582-511-web5/js/gsap-scrolltrigger.md
+        - IntersectionObserver: 582-511-web5/js/intersection-observer.md
       - Exercices:
           - "Conflit Git (en duo)": 582-511-web5/exercices/ex-conflit-git/index.md
           - "Spritesheet: monstre qui marche": 582-511-web5/exercices/ex-spritesheet/index.md
           - "Animer au défilement": 582-511-web5/exercices/ex-scroll/index.md
           - "La parallaxe en calques": 582-511-web5/exercices/ex-parallaxe/index.md
+          - GSAP Zombi: 582-511-web5/exercices/ex-gsap-zombi/index.md
+          - GSAP Magie: 582-511-web5/exercices/ex-gsap-magie/index.md
+          - GSAP Magie au défilement: 582-511-web5/exercices/ex-gsap-magie-defilement/index.md
       - Cours 9.2: 582-511-web5/cours09b.md 
       - Cours 9.1: 582-511-web5/cours09a.md
       - Cours 8.1: 582-511-web5/cours08a.md
