@@ -2,7 +2,7 @@
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
-  <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
+  <span>Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
 </div>
 
 <div class="essentiel" markdown>
@@ -94,4 +94,4 @@ La dernière ligne est **facultative** : seulement si vous avez fait le bonus.
 
     **Vérifiez** : sur github.com, ouvrez votre dépôt. Votre dernier *commit* apparaît en haut de la liste des fichiers.
 
-C'est un exercice de pratique, non noté. Je vois votre dépôt et vos *commits* dans Classroom 50. Gardez-le : il vous servira de référence pour votre récit.
+Je vois votre dépôt et vos *commits* dans Classroom 50. Gardez-le : il vous servira de référence pour votre récit.

@@ -1,7 +1,5 @@
 # :material-pencil-ruler:  Exercice : la parallaxe en calques
 
-<video class="w-100" src="assets/apercu-resultat.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : on descend du ciel jusqu'aux champs, les nuages, les montgolfières et les collines défilent chacun à sa vitesse"></video>
-
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
@@ -26,6 +24,10 @@ Le dépôt contient :
 - `index.html` : la page, avec la scène et ses calques;
 - `css/style.css` : la mise en place des calques, et la place pour vos réponses de la partie 1;
 - `assets/images/` : les images des calques, en SVG.
+
+## Aperçu du résultat
+
+<video class="w-100" src="assets/apercu-resultat.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : on descend du ciel jusqu'aux champs, les nuages, les montgolfières et les collines défilent chacun à sa vitesse"></video>
 
 ## Le principe, en une phrase
 
@@ -100,6 +102,59 @@ Chaque animation commence à `translateY(0)` (`from`).
 
 Pour tester `prefers-reduced-motion` : dans Chrome, inspecteur → menu **⋮** → **More tools** → **Rendering** → *Emulate CSS media feature prefers-reduced-motion*.
 
+## Vérifiez votre travail { #verifier }
+
+Testez votre page **sans regarder le code**. Défilez lentement, du haut jusqu'en bas. Chaque énoncé doit être vrai. Si un point coince, ouvrez les [indices](#indices), un à la fois.
+
+- [ ] **Partie 2** : les nuages lointains et l'horizon montent nettement **moins vite** que le sol.
+- [ ] **Partie 2** : le gros nuage et la montgolfière géante montent **plus vite** que le sol.
+- [ ] **Partie 2** : les trois bandes de collines glissent les unes sur les autres.
+- [ ] **Partie 2** : le sol défile exactement avec la page.
+- [ ] **Partie 2** : tout en bas, aucune bande vide entre les collines et le sol.
+- [ ] **Partie 2** : dans votre CSS, il y a **6** `@keyframes`, un par profondeur, et pas 13.
+- [ ] **Partie 3** : avec le mouvement réduit émulé, tout défile d'un bloc, comme au départ.
+- [ ] **Partie 3** : dans Firefox, qui ne comprend pas encore `animation-timeline`, tout défile d'un bloc, et tout est lisible.
+
+## Coincé? Des indices par paliers { #indices }
+
+Ouvrez **un indice à la fois**, et essayez avant d'ouvrir le suivant. Le dernier indice d'une partie donne presque la réponse : gardez-le pour la fin.
+
+??? tip "Partie 2, indice 1 : rien ne bouge"
+    Trois vérifications, dans cet ordre :
+
+    1. `.scene` a-t-elle encore `overflow: hidden`? C'est le piège de la partie 1 : remplacez-le par `overflow: clip`.
+    2. Le raccourci `animation` remet `animation-timeline` à sa valeur par défaut. Si vous l'utilisez, écrivez `animation-timeline` **après**.
+    3. Dans l'inspecteur, sélectionnez un calque : la règle avec `animation-name` est-elle barrée? Un autre sélecteur l'écrase peut-être.
+
+??? tip "Partie 2, indice 2 : une règle commune, une règle par profondeur"
+    Ce qui est pareil pour tous les calques va sur `.calque` : la timeline, la courbe (`linear`) et le remplissage (`both`). Ce qui change selon la profondeur va sur la classe de profondeur : seulement `animation-name`.
+
+    Pour une profondeur, ça donne :
+
+    ```css
+    .loin { animation-name: loin; }
+
+    @keyframes loin {
+      from { transform: translateY(0); }
+      to   { transform: translateY(60vh); }
+    }
+    ```
+
+    Les 5 autres suivent le même modèle, avec les valeurs du tableau.
+
+??? tip "Partie 3 : les deux règles obligatoires"
+    On emboîte les deux conditions : le navigateur **comprend**, et le visiteur **accepte** le mouvement. Vos règles d'animation vont à l'intérieur.
+
+    ```css
+    @supports (animation-timeline: scroll()) {
+      @media (prefers-reduced-motion: no-preference) {
+        /* vos règles .calque, .loin, etc. */
+      }
+    }
+    ```
+
+    Les `@keyframes` peuvent rester à l'extérieur : sans règle qui les utilise, ils ne font rien. Si rien ne fonctionne plus, vérifiez vos accolades : il en faut une après chaque condition.
+
 ## Bonus : les montgolfières décollent (10 min)
 
 *Facultatif, pour ceux qui veulent aller plus loin.*
@@ -134,7 +189,7 @@ La dernière ligne est **facultative** : seulement si vous avez fait le bonus.
 
     **Vérifiez** : sur github.com, ouvrez votre dépôt. Votre dernier *commit* apparaît en haut de la liste des fichiers.
 
-C'est un exercice de pratique, non noté. Je vois votre dépôt et vos *commits* dans Classroom 50. Gardez-le : il vous servira de référence pour votre média animable.
+Je vois votre dépôt et vos *commits* dans Classroom 50. Gardez-le : il vous servira de référence pour votre média animable.
 
 !!! info "Pas d'IA"
     Comme dans votre projet, Copilot est désactivé dans ce dépôt (`.vscode/settings.json`). Le code, c'est vous!

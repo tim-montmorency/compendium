@@ -71,8 +71,6 @@ On rencontre surtout trois formes :
 
 ## Des exemples
 
-<!-- MM : The Boat se charge (vérifié). Keith Clark et la recherche CodePen non vérifiés par Claude : à tester. -->
-
 - [Firewatch](https://www.firewatchgame.com/){ :target="_blank" } : le site du jeu. Défilez au tout début : six calques de paysage, du ciel jusqu'aux arbres du premier plan. Un classique de la scène en calques.
 - [Paysage en parallaxe, de isladjan](https://codepen.io/isladjan/pen/abdyPBw){ :target="_blank" } (CodePen) : une scène de paysage animée au défilement, avec le code à côté.
 - [The Goonies](https://the-goonies.webflow.io/){ :target="_blank" } : un hommage au film. On plonge vers la côte, entre des plans qui défilent à des vitesses différentes.

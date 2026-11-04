@@ -4,7 +4,7 @@
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a class="lien-details" href="#ia">Détails</a></span>
+  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a class="lien-details" href="#ia">Détails</a></span>
 </div>
 
 <!-- MM : premier jet pour le lancement du ven. 9 oct. La grille critériée détaillée, les questions du journal propres au récit défilant sont à compléter. -->
@@ -22,6 +22,7 @@
     Pas seulement le résultat final : **votre démarche, étape par étape**. Vous me présentez votre projet **à chaque étape**, au rythme du groupe. Si je constate qu'une étape a été sautée (un code généré d'un coup, sans planification ni compréhension), **je vous demanderai de la recommencer**. Pas de passe-droit.
 
 [:material-file-document-edit-outline: Le cahier de charges et le scénarimage (storyboard)](cahier-de-charges.md){ .md-button .md-button--primary }
+
 [:material-lightbulb-on-outline: Exemples et inspirations](inspirations.md){ .md-button }
 
 [:material-presentation-play: Présentation de lancement (PowerPoint)](../../assets/documents/Web5_recit-defilant-lancement.pptx){ .md-button }
@@ -168,7 +169,7 @@ Une trace claire montre :
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous!</span>
+  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous!</span>
 </div>
 
 **Cette fois, on code sans IA.** Au portfolio, l'IA était permise, documentée et comprise. Pour le récit défilant, on fait un essai différent : je veux que vous puissiez coder **par vous-mêmes**, et que demander à l'IA ne soit pas un réflexe. Chercher, essayer, se tromper, déboguer : c'est comme ça qu'on devient autonome.
@@ -248,7 +249,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 | mer. 28 oct. | Rencontres éclair : rétroaction sur votre storyboard et votre cahier. Branches Git. Animations CSS : parallaxe, spritesheet. |
 | **ven. 30 oct.** | **Storyboard v2**, déposé au plus tard à 23 h 59. Animations CSS au défilement. Chargement des chapitres en JSON. |
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
-| ven. 6 nov. | Construction des chapitres, point de contrôle d'équipe |
+| **ven. 6 nov.** | **Point de contrôle** (formatif) : la structure, les chapitres et une première animation GSAP. Construction des chapitres. |
 | mer. 11 nov. | Initiation à Vue.js : le composant imposé. Le *fetch* externe : choisir et tester votre API. |
 | **ven. 13 nov.** | **Prototype** (formatif) : navigable et animé |
 | mer. 18 nov. | Responsive, `prefers-reduced-motion`, performance |
@@ -280,3 +281,41 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 Après nos rencontres du mer. 28 oct., vous reprenez votre storyboard avec les exigences précisées : un cadre mobile pour chaque cadre desktop, le texte de chaque chapitre placé dans le cadre (en *lorem ipsum*), et la fiche d'annotation complète.
 
 [:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](cahier-de-charges.md#storyboard){ .md-button .md-button--primary }
+
+## Point de contrôle (ven. 6 nov., début du cours 10.2) { #point-de-controle }
+
+!!! danger "Remise formative : l'échéance compte"
+    Comme les autres remises, le point de contrôle est noté selon les [4 niveaux](#echeances). Ce qui compte : que **votre base fonctionne**, pas qu'elle soit belle.
+
+On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur laquelle vous allez les construire. Tout est sur `main`, *poussé* avant le début du cours.
+
+**En équipe**
+
+- [ ] L'**arborescence** est en place, comme dans [L'arborescence du dépôt](arborescence-recit-defilant.md) : les dossiers, `index.html`, `style.css` et ses `@import`, `main.js` et ses `import`, **un fichier CSS et un fichier JS par chapitre** (même presque vides).
+- [ ] `data.json` contient **un objet par chapitre**, avec les clés communes. Le `contenu` peut être vide.
+- [ ] Chaque chapitre s'affiche dans sa **`<section>` avec son `id`** (celui de `data.json` : unique, en minuscules, sans espace ni accent). Vérifiez dans l'inspecteur.
+- [ ] **GSAP et ScrollTrigger** sont chargés dans `index.html`, avant `main.js`, et `gsap.registerPlugin(ScrollTrigger)` est appelé **une fois**, dans `main.js`.
+
+**Chaque personne**
+
+- [ ] Au moins **une animation test** GSAP dans **un de ses chapitres**, dans sa fonction `animate()` : un `gsap.from()`, `gsap.to()` ou `gsap.fromTo()`. **Pas de `scrollTrigger`** pour cette remise : l'animation joue au chargement de la page, c'est normal. Une animation simple suffit, par exemple le titre du chapitre qui glisse en place.
+- [ ] Au moins **une *pull request*** à son nom, **fusionnée** dans `main`.
+- [ ] Au moins **le tiers (33 %) des médias de ses chapitres**, créés ou trouvés, ajoutés au dépôt au bon endroit et bien nommés (voir ci-dessous). Le tiers des médias prévus dans votre storyboard : fonds, calques, personnages, SVG, spritesheets.
+- [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 2**.
+
+**Vos médias : où et comment les nommer**
+
+- **Un dossier par chapitre** : `assets/images/ch-01/`, `assets/images/ch-02/`, etc. Chacun dépose les médias de **ses** chapitres dans **ses** dossiers : pas de conflit.
+- **Un média qui revient dans plusieurs chapitres** (un personnage, un nuage, une texture) va **une seule fois** directement dans `assets/images/`. Pas de copie dans chaque dossier de chapitre : le navigateur le charge une seule fois, et la page reste légère. On s'entend en équipe avant de l'y mettre, comme pour les fichiers communs.
+- **Des noms qui disent ce que c'est** : en minuscules, sans espace ni accent, avec des tirets. `foret-fond.webp`, `foret-avant.webp`, `loup-marche.png`, et non `image3.png` ou `Final FINAL v2.PNG`.
+- **Des formats pour le web** : `.webp` pour les photos et les illustrations, `.svg` pour les dessins vectoriels, `.png` pour une spritesheet qui a besoin de transparence.
+
+!!! danger "Rappel : créditez vos médias dans le `README.md`"
+    **Chaque média** ajouté au dépôt a sa ligne dans le tableau des crédits du `README.md` : média, chapitre, source, auteur, licence, modifié ou non. Ça vaut aussi pour les images de banques libres et les images générées par IA (l'outil est la source). Un média sans crédit compte comme manquant. [Voir le modèle de tableau](#les-medias-et-les-credits).
+
+!!! tip "Où trouver l'aide"
+    - La structure : [L'arborescence du dépôt](arborescence-recit-defilant.md), section « Créer la structure, au début ».
+    - Les sections avec leur `id` : [Du JSON aux chapitres](json-chapitres.md).
+    - L'animation test : [GSAP : tweens et timelines](../../js/gsap-bases.md). Pour trouver vos éléments dans votre chapitre, voyez « D'où vient `section`? » dans [Dans votre récit : un module de chapitre](../../js/gsap-scrolltrigger.md#dans-votre-recit).
+    - La *pull request* : [Git en équipe](git-en-equipe.md).
+    - Les médias : [Les médias et les crédits](#les-medias-et-les-credits), et [Un média animable par personne](#un-media-animable-par-personne).

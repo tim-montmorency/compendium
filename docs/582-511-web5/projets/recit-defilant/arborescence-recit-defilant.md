@@ -48,6 +48,11 @@ js/
 data/
   data.json                  ← commun : clés communes fixes, contenu libre
 assets/images/
+  nuage.svg                  ← commun : revient dans plusieurs chapitres
+  ch-01/                     ← les médias du chapitre 1
+  ch-02/
+  ...
+  ch-06/
 ```
 
 !!! tip "Désactiver Copilot dans votre projet"
@@ -122,8 +127,8 @@ Un texte et un média : ici, une parallaxe en deux calques.
   "texte": ["Premier paragraphe...", "Deuxième paragraphe..."],
   "contenu": {
     "calques": [
-      { "src": "assets/images/foret-fond.webp", "vitesse": "lente" },
-      { "src": "assets/images/foret-avant.webp", "vitesse": "rapide" }
+      { "src": "assets/images/ch-01/foret-fond.webp", "vitesse": "lente" },
+      { "src": "assets/images/ch-01/foret-avant.webp", "vitesse": "rapide" }
     ]
   }
 }
@@ -146,7 +151,7 @@ Quand un chapitre est une **séquence** de moments animés, chacun avec son méd
         "id": "eclair",
         "texte": "Un éclair déchire le ciel.",
         "media": {
-          "src": "assets/images/eclair.svg",
+          "src": "assets/images/ch-02/eclair.svg",
           "alt": "Un éclair zèbre le ciel"
         }
       },
@@ -154,7 +159,7 @@ Quand un chapitre est une **séquence** de moments animés, chacun avec son méd
         "id": "bateau",
         "texte": "Le bateau tangue, puis disparaît.",
         "media": {
-          "src": "assets/images/bateau.webp",
+          "src": "assets/images/ch-02/bateau.webp",
           "images": 12,
           "alt": "Un bateau secoué par les vagues"
         }
@@ -180,8 +185,8 @@ Les clés communes sont identiques dans les deux chapitres. Seul le `contenu` ch
     "texte": ["Premier paragraphe...", "Deuxième paragraphe..."],
     "contenu": {
       "calques": [
-        { "src": "assets/images/foret-fond.webp", "vitesse": "lente" },
-        { "src": "assets/images/foret-avant.webp", "vitesse": "rapide" }
+        { "src": "assets/images/ch-01/foret-fond.webp", "vitesse": "lente" },
+        { "src": "assets/images/ch-01/foret-avant.webp", "vitesse": "rapide" }
       ]
     }
   },
@@ -197,7 +202,7 @@ Les clés communes sont identiques dans les deux chapitres. Seul le `contenu` ch
           "id": "eclair",
           "texte": "Un éclair déchire le ciel.",
           "media": {
-            "src": "assets/images/eclair.svg",
+            "src": "assets/images/ch-02/eclair.svg",
             "alt": "Un éclair zèbre le ciel"
           }
         },
@@ -205,7 +210,7 @@ Les clés communes sont identiques dans les deux chapitres. Seul le `contenu` ch
           "id": "bateau",
           "texte": "Le bateau tangue, puis disparaît.",
           "media": {
-            "src": "assets/images/bateau.webp",
+            "src": "assets/images/ch-02/bateau.webp",
             "images": 12,
             "alt": "Un bateau secoué par les vagues"
           }

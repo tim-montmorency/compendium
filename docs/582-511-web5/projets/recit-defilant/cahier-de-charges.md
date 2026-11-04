@@ -2,7 +2,7 @@
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a class="lien-details" href="index.html#ia">Détails</a></span>
+  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a class="lien-details" href="index.html#ia">Détails</a></span>
 </div>
 
 <div class="essentiel" markdown>
@@ -148,8 +148,8 @@ Vous ne pouvez pas tout prévoir maintenant : vous découvrirez GSAP et vos beso
   "texte": ["Premier paragraphe...", "Deuxième paragraphe..."],
   "contenu": {
     "calques": [
-      { "src": "assets/images/foret-fond.webp", "vitesse": "lente" },
-      { "src": "assets/images/foret-avant.webp", "vitesse": "rapide" }
+      { "src": "assets/images/ch-03/foret-fond.webp", "vitesse": "lente" },
+      { "src": "assets/images/ch-03/foret-avant.webp", "vitesse": "rapide" }
     ]
   }
 }
@@ -170,7 +170,7 @@ Vous ne pouvez pas tout prévoir maintenant : vous découvrirez GSAP et vos beso
         "id": "eclair",
         "texte": "Un éclair déchire le ciel.",
         "media": {
-          "src": "assets/images/eclair.svg",
+          "src": "assets/images/ch-04/eclair.svg",
           "alt": "Un éclair zèbre le ciel"
         },
         "animation": { "technique": "gsap", "declencheur": "epingle" }
@@ -179,7 +179,7 @@ Vous ne pouvez pas tout prévoir maintenant : vous découvrirez GSAP et vos beso
         "id": "bateau",
         "texte": "Le bateau tangue, puis disparaît.",
         "media": {
-          "src": "assets/images/bateau.webp",
+          "src": "assets/images/ch-04/bateau.webp",
           "images": 12,
           "alt": "Un bateau secoué par les vagues"
         },
@@ -302,7 +302,7 @@ Version de départ : elle va évoluer, et vous la mettrez à jour à la fin du p
   "texte": ["...", "..."],
   "contenu": {
     "medias": [
-      { "src": "assets/images/foret-fond.webp", "alt": "..." }
+      { "src": "assets/images/ch-01/foret-fond.webp", "alt": "..." }
     ]
   }
 }
