@@ -82,7 +82,8 @@ Ce que je regarde :
 
 Ils existent pour que le projet reste faisable en 8 semaines, à deux.
 
-- **Au plus 1 animation « signature » par chapitre**, et **au plus 2 sections épinglées** (*pin*) dans tout le récit.
+- **Au plus 1 animation « signature » par chapitre**.
+- **Au plus la moitié de vos chapitres épinglés** (*pin*) : chacun épingle au plus 50 % de ses chapitres. Sur 3 chapitres, 1 au plus; sur 4, 2 au plus.
 - **Médias légers** : images en WebP, vidéos de 30 secondes au plus (ou hébergées sur YouTube ou Vimeo), **10 Mo au plus** pour tout le récit.
 - **Animer seulement `transform` et `opacity`** : ce sont les propriétés que le navigateur anime sans ralentir la page.
 

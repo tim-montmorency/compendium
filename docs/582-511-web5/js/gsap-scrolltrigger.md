@@ -167,8 +167,8 @@ tl.from(".box", { x: "-40vw", duration: 2 })
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-pin-timeline&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
 
-!!! warning "Les garde-fous du récit : au plus 2 sections épinglées"
-    Une section épinglée bloque la lecture : le visiteur défile, mais la page n'avance pas. C'est puissant pour un moment fort, lassant si c'est partout. Dans votre récit : **au plus 2 sections épinglées** en tout.
+!!! warning "Les garde-fous du récit : au plus la moitié de vos chapitres épinglés"
+    Une section épinglée bloque la lecture : le visiteur défile, mais la page n'avance pas. C'est puissant pour un moment fort, lassant si c'est partout. Dans votre récit : chacun épingle **au plus la moitié de ses chapitres** (50 %). Sur 3 chapitres, 1 au plus; sur 4, 2 au plus.
 
 ### `pinSpacing`
 
