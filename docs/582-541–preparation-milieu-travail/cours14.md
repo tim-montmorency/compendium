@@ -64,4 +64,4 @@
 [📁 Répertoire d'entreprises](https://polesynthese.com/repertoire/entreprises){ .md-button }      
 
 ## Devoir
-Remplissez le document evaluation_demarche pour évaluer l'avancement de votre recherche de stage jusqu'à maintenant. 
+Poursuivre vos candidatures pour les stages
