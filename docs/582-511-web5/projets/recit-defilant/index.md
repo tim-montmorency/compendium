@@ -22,6 +22,7 @@
     Pas seulement le résultat final : **votre démarche, étape par étape**. Vous me présentez votre projet **à chaque étape**, au rythme du groupe. Si je constate qu'une étape a été sautée (un code généré d'un coup, sans planification ni compréhension), **je vous demanderai de la recommencer**. Pas de passe-droit.
 
 [:material-file-document-edit-outline: Le cahier de charges et le scénarimage (storyboard)](cahier-de-charges.md){ .md-button .md-button--primary }
+
 [:material-lightbulb-on-outline: Exemples et inspirations](inspirations.md){ .md-button }
 
 [:material-presentation-play: Présentation de lancement (PowerPoint)](../../assets/documents/Web5_recit-defilant-lancement.pptx){ .md-button }
@@ -305,6 +306,7 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
 **Vos médias : où et comment les nommer**
 
 - **Un dossier par chapitre** : `assets/images/ch-01/`, `assets/images/ch-02/`, etc. Chacun dépose les médias de **ses** chapitres dans **ses** dossiers : pas de conflit.
+- **Un média qui revient dans plusieurs chapitres** (un personnage, un nuage, une texture) va **une seule fois** directement dans `assets/images/`. Pas de copie dans chaque dossier de chapitre : le navigateur le charge une seule fois, et la page reste légère. On s'entend en équipe avant de l'y mettre, comme pour les fichiers communs.
 - **Des noms qui disent ce que c'est** : en minuscules, sans espace ni accent, avec des tirets. `foret-fond.webp`, `foret-avant.webp`, `loup-marche.png`, et non `image3.png` ou `Final FINAL v2.PNG`.
 - **Des formats pour le web** : `.webp` pour les photos et les illustrations, `.svg` pour les dessins vectoriels, `.png` pour une spritesheet qui a besoin de transparence.
 
