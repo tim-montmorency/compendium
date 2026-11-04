@@ -81,17 +81,17 @@ Modifiez le code des exemples : le résultat se met à jour.
 
 ### `to()`
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-to-copie&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:440px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-to-copie&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:360px;border:0" loading="lazy"></iframe>
 
 ### `from()`
 
 Très utile pour les **apparitions** : l'élément est déjà à sa place dans le CSS, et `from()` le fait arriver.
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-from&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:440px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-from&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:370px;border:0" loading="lazy"></iframe>
 
 ### `fromTo()`
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-fromto&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:940px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-fromto&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:790px;border:0" loading="lazy"></iframe>
 
 Les paramètres (`duration`, `repeat`...) vont toujours dans le **deuxième** objet.
 
@@ -99,7 +99,7 @@ Les paramètres (`duration`, `repeat`...) vont toujours dans le **deuxième** ob
 
 Place un élément **sans animation**. On s'en sert pour préparer l'état de départ d'une scène.
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-set&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:440px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-set&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:460px;border:0" loading="lazy"></iframe>
 
 ## Quoi animer : les propriétés
 
@@ -140,7 +140,7 @@ x: "+=100"    // 100 px de PLUS que la position actuelle
 | `ease` | La courbe d'accélération |
 | `stagger` | Décalage entre plusieurs cibles (ex. `0.1`) |
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-gsap-proprietes&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:760px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-gsap-proprietes&onglets=js,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:460px;border:0" loading="lazy"></iframe>
 
 ### Les courbes d'accélération (`ease`)
 
@@ -181,7 +181,7 @@ Un 3e argument décale le début d'un tween :
 | `"<"` | En même temps que le **début** du précédent |
 | `"<0.5"` | 0,5 s après le **début** du précédent |
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-gsap-timeline&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-gsap-timeline&onglets=js,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
 
 Une timeline accepte aussi des paramètres, comme un tween : `gsap.timeline({ repeat: -1, repeatDelay: 1 })`.
 
@@ -200,7 +200,7 @@ mm.add("(prefers-reduced-motion: no-preference)", () => {
 
 Si le réglage change, GSAP annule tout seul ce qui a été créé dans la fonction. Avec le mouvement réduit, les éléments restent à leur état CSS : écrivez donc votre CSS pour que l'état **final** soit lisible sans animation.
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-gsap-reduced-motion&onglets=js,resultat&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-gsap-reduced-motion&onglets=js,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:780px;border:0" loading="lazy"></iframe>
 
 Pour tester : dans Chrome, inspecteur → menu **⋮** → **More tools** → **Rendering** → *Emulate CSS media feature prefers-reduced-motion*.
 
@@ -210,7 +210,6 @@ Pour tester : dans Chrome, inspecteur → menu **⋮** → **More tools** → **
 
 [:material-pencil-ruler: Exercice : Magie (une timeline)](../exercices/ex-gsap-magie/index.md){ .md-button }
 
-[:material-gesture-swipe-vertical: La suite : ScrollTrigger](gsap-scrolltrigger.md){ .md-button .md-button--primary }
 
 ## Références
 

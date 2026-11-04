@@ -125,7 +125,7 @@ Actions possibles : `play`, `pause`, `resume`, `reverse`, `restart`, `reset`, `c
 
 Par défaut : `"play none none none"` (joue une fois, puis ne fait plus rien).
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer,ouvrir" style="width:100%;height:520px;border:0" loading="lazy"></iframe>
 
 ## Suivre le défilement : `scrub`
 
@@ -206,38 +206,6 @@ Pour une action qui doit se faire **une seule fois** (charger des données), l'`
 
 Dans votre récit, chaque chapitre crée **ses** animations dans sa fonction `animate()`. 
 
-### D'où vient `section`?
-
-`section` n'est pas un texte comme `"#introduction"` : c'est **l'élément HTML lui-même**, la balise `<section>` du chapitre. Le module du chapitre ne la cherche pas : il la **reçoit**.
-
-C'est `main.js` qui la trouve. À la fin de la fonction `init()`, une fois le HTML de tous les chapitres dans la page, une boucle `forEach` passe sur les chapitres de `data.json`. Pour chacun, elle va chercher sa `<section>` avec son `id`, puis appelle la fonction `animate()` du module du même rang en lui donnant cette section :
-
-```js
-// js/main.js, à la fin de init()
-chapters.forEach((chapter, index) => {
-  // ex. <section id="introduction">...</section>
-  const section = document.getElementById(chapter.id);
-  chapterModules[index].animate(section, chapter);
-});
-```
-
-Dans le module, `section` contient donc déjà la balise du chapitre :
-
-```js
-// js/chapitres/ch-01.js
-export function animate(section, chapter) {
-  // section : <section id="introduction">...</section>
-  const q = gsap.utils.selector(section);
-
-  q(".box"); // seulement les .box DANS ce chapitre
-}
-```
-
-**Pourquoi `q(".box")` plutôt que `gsap.to(".box", ...)`?** Si un autre chapitre a aussi un élément `.box`, `gsap.to(".box", ...)` les anime **tous les deux**. `q(".box")` cherche seulement dans la section du chapitre : c'est l'équivalent de `section.querySelectorAll(".box")`, en plus court.
-
-!!! tip "Et avec un sélecteur : `gsap.utils.selector('#introduction')`?"
-    Ça fonctionnerait aussi : la fonction accepte un élément ou un sélecteur CSS. Mais il faudrait écrire l'`id` du chapitre en dur dans le module. Si l'équipe renomme le chapitre dans `data.json`, l'animation casse sans message d'erreur. Avec `section`, le module n'a pas besoin de connaître son `id`.
-
 ### Le modèle
 
 Deux réflexes :
@@ -268,7 +236,38 @@ export function animate(section, chapter) {
 }
 ```
 
-`gsap.registerPlugin(ScrollTrigger)` est fait **une fois**, dans `main.js` : pas dans chaque chapitre. Pour un exemple complet, regardez les chapitres 3 et 6 de la démo du Petit Chaperon rouge, montrée en classe ([voir la vidéo](../projets/recit-defilant/assets/demo-chaperon-defilement.mp4){ :target="_blank" }).
+??? question "D'où vient `section`?"
+    `section` n'est pas un texte comme `"#introduction"` : c'est **l'élément HTML lui-même**, la balise `<section>` du chapitre. Le module du chapitre ne la cherche pas : il la **reçoit**.
+
+    C'est `main.js` qui la trouve. À la fin de la fonction `init()`, une fois le HTML de tous les chapitres dans la page, une boucle `forEach` passe sur les chapitres de `data.json`. Pour chacun, elle va chercher sa `<section>` avec son `id`, puis appelle la fonction `animate()` du module du même rang en lui donnant cette section :
+
+    ```js
+    // js/main.js, à la fin de init()
+    chapters.forEach((chapter, index) => {
+      // ex. <section id="introduction">...</section>
+      const section = document.getElementById(chapter.id);
+      chapterModules[index].animate(section, chapter);
+    });
+    ```
+
+    Dans le module, `section` contient donc déjà la balise du chapitre :
+
+    ```js
+    // js/chapitres/ch-01.js
+    export function animate(section, chapter) {
+      // section : <section id="introduction">...</section>
+      const q = gsap.utils.selector(section);
+
+      q(".box"); // seulement les .box DANS ce chapitre
+    }
+    ```
+
+    **Pourquoi `q(".box")` plutôt que `gsap.to(".box", ...)`?** Si un autre chapitre a aussi un élément `.box`, `gsap.to(".box", ...)` les anime **tous les deux**. `q(".box")` cherche seulement dans la section du chapitre : c'est l'équivalent de `section.querySelectorAll(".box")`, en plus court.
+
+    !!! tip "Et avec un sélecteur : `gsap.utils.selector('#introduction')`?"
+        Ça fonctionnerait aussi : la fonction accepte un élément ou un sélecteur CSS. Mais il faudrait écrire l'`id` du chapitre en dur dans le module. Si l'équipe renomme le chapitre dans `data.json`, l'animation casse sans message d'erreur. Avec `section`, le module n'a pas besoin de connaître son `id`.
+
+`gsap.registerPlugin(ScrollTrigger)` est fait **une fois**, dans `main.js` : pas dans chaque chapitre. Pour un exemple complet, regardez les chapitres 3 et 6 de la démo du Petit Chaperon rouge, montrée en classe ([voir la vidéo](../projets/recit-defilant/assets/demo-chaperon-defilement.webm){ :target="_blank" }).
 
 ## Les pièges fréquents
 

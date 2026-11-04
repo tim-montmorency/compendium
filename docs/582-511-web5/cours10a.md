@@ -72,7 +72,7 @@ Vous savez animer au défilement en CSS. GSAP sert pour ce que le CSS fait mal :
 
 La règle du cours : **le CSS d'abord**, GSAP quand le CSS ne suffit pas.
 
-Dans la démo du Petit Chaperon rouge ([voir la vidéo](projets/recit-defilant/assets/demo-chaperon-defilement.mp4){ :target="_blank" }) :
+Dans la démo du Petit Chaperon rouge ([voir la vidéo](projets/recit-defilant/assets/demo-chaperon-defilement.webm){ :target="_blank" }) :
 
 - la forêt (chapitre 3) et la maison (chapitre 6) sont des scènes GSAP épinglées;
 - le loup (chapitre 4) se dessine avec DrawSVG, un extension de GSAP.
