@@ -3,7 +3,7 @@
 
 <div class="class-content-link">
   <img src="assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
 </div>
 
 <div class="grid" markdown>
@@ -129,7 +129,7 @@ Pas pour animer : pour **déclencher une action**, une seule fois. C'est la bonn
 
 <div class="class-content-link">
   <img src="assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
 </div>
 
 ### D'ici le ven. 6 nov., au début du cours 10.2 : le point de contrôle

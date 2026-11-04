@@ -2,7 +2,7 @@
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
-  <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
+  <span>Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
 </div>
 
 <div class="essentiel" markdown>
@@ -16,8 +16,7 @@
 
 ## Obtenir votre dépôt (5 min)
 
-**[Accepter l'exercice dans Classroom 50](#){ :target="_blank" }**
-<!-- MM : remplacer # par le lien d'acceptation. -->
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-gsap-zombi/accept?k=rthn1z36){ :target="_blank" }**
 
 1. Ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis acceptez l'exercice.
 2. **Clonez** votre dépôt et ouvrez-le dans VS Code.

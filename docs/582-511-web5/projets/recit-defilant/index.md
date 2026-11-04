@@ -4,7 +4,7 @@
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a class="lien-details" href="#ia">Détails</a></span>
+  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous! <a class="lien-details" href="#ia">Détails</a></span>
 </div>
 
 <!-- MM : premier jet pour le lancement du ven. 9 oct. La grille critériée détaillée, les questions du journal propres au récit défilant sont à compléter. -->
@@ -168,7 +168,7 @@ Une trace claire montre :
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
-  <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous!</span>
+  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>, jusqu'à nouvel ordre. Le code, c'est vous!</span>
 </div>
 
 **Cette fois, on code sans IA.** Au portfolio, l'IA était permise, documentée et comprise. Pour le récit défilant, on fait un essai différent : je veux que vous puissiez coder **par vous-mêmes**, et que demander à l'IA ne soit pas un réflexe. Chercher, essayer, se tromper, déboguer : c'est comme ça qu'on devient autonome.

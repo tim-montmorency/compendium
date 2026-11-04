@@ -2,7 +2,7 @@
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
-  <span class="sidetext">Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
+  <span>Utilisation de l'IA interdite pour cette activité. Faites chauffer vos méninges!</span>
 </div>
 
 <div class="essentiel" markdown>
