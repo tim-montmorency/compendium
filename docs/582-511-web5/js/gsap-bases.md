@@ -169,6 +169,8 @@ tl.to(".box", { x: 100, duration: 1 })        // commence à 0 s
 
 Attention : pas de point-virgule entre les `.to()`, seulement à la fin.
 
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-timeline&onglets=js,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
+
 ### Le paramètre de position
 
 Un 3e argument décale le début d'un tween :
