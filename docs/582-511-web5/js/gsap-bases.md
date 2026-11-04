@@ -213,6 +213,21 @@ Pour tester : dans Chrome, inspecteur → menu **⋮** → **More tools** → **
 [:material-pencil-ruler: Exercice : Magie (une timeline)](../exercices/ex-gsap-magie/index.md){ .md-button }
 
 
+## Aller plus loin : les extensions { #extensions }
+
+Des effets à explorer pour votre récit, si votre histoire en a besoin. Toutes gratuites, sur le même CDN que GSAP.
+
+| Extension | Ce qu'elle fait |
+|---|---|
+| [TextPlugin](gsap-text.md) | Remplace un texte, lettre par lettre : la machine à écrire. |
+| [SplitText](gsap-splittext.md) | Découpe un texte en lettres, mots ou lignes, pour les animer un par un. |
+| [ScrambleText](gsap-scrambletext.md) | Brouille un texte, puis le révèle : l'effet décodage. |
+| [MotionPath](gsap-motionpath.md) | Déplace un élément le long d'un tracé. |
+| [DrawSVG](gsap-drawsvg.md) | Dessine le contour d'un SVG, comme une main qui trace. |
+| [MorphSVG](gsap-morphsvg.md) | Transforme une forme SVG en une autre. |
+| [Flip](gsap-flip.md) | Anime un changement de mise en page. |
+| [ScrollTo](gsap-scrollto.md) | Fait défiler la page jusqu'à un chapitre. |
+
 ## Références
 
 - [La documentation de GSAP](https://gsap.com/docs/v3/){ :target="_blank" } et son [aide-mémoire](https://gsap.com/cheatsheet){ :target="_blank" }
