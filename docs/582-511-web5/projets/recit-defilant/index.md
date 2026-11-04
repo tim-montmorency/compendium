@@ -248,7 +248,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 | mer. 28 oct. | Rencontres éclair : rétroaction sur votre storyboard et votre cahier. Branches Git. Animations CSS : parallaxe, spritesheet. |
 | **ven. 30 oct.** | **Storyboard v2**, déposé au plus tard à 23 h 59. Animations CSS au défilement. Chargement des chapitres en JSON. |
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
-| ven. 6 nov. | Construction des chapitres, point de contrôle d'équipe |
+| **ven. 6 nov.** | **Point de contrôle** (formatif) : la structure, les chapitres et une première animation GSAP. Construction des chapitres. |
 | mer. 11 nov. | Initiation à Vue.js : le composant imposé. Le *fetch* externe : choisir et tester votre API. |
 | **ven. 13 nov.** | **Prototype** (formatif) : navigable et animé |
 | mer. 18 nov. | Responsive, `prefers-reduced-motion`, performance |
@@ -280,3 +280,29 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 Après nos rencontres du mer. 28 oct., vous reprenez votre storyboard avec les exigences précisées : un cadre mobile pour chaque cadre desktop, le texte de chaque chapitre placé dans le cadre (en *lorem ipsum*), et la fiche d'annotation complète.
 
 [:material-movie-open-edit-outline: Le storyboard : exigences et cadres modèles](cahier-de-charges.md#storyboard){ .md-button .md-button--primary }
+
+## Point de contrôle (ven. 6 nov., début du cours 10.2) { #point-de-controle }
+
+!!! danger "Remise formative : l'échéance compte"
+    Comme les autres remises, le point de contrôle est noté selon les [4 niveaux](#echeances). Ce qui compte : que **votre base fonctionne**, pas qu'elle soit belle.
+
+On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur laquelle vous allez les construire. Tout est sur `main`, *poussé* avant le début du cours.
+
+**En équipe**
+
+- [ ] L'**arborescence** est en place, comme dans [L'arborescence du dépôt](arborescence-recit-defilant.md) : les dossiers, `index.html`, `style.css` et ses `@import`, `main.js` et ses `import`, **un fichier CSS et un fichier JS par chapitre** (même presque vides).
+- [ ] `data.json` contient **un objet par chapitre**, avec les clés communes. Le `contenu` peut être vide.
+- [ ] Chaque chapitre s'affiche dans sa **`<section>` avec son `id`** (celui de `data.json` : unique, en minuscules, sans espace ni accent). Vérifiez dans l'inspecteur.
+- [ ] **GSAP et ScrollTrigger** sont chargés dans `index.html`, avant `main.js`, et `gsap.registerPlugin(ScrollTrigger)` est appelé **une fois**, dans `main.js`.
+
+**Chaque personne**
+
+- [ ] Au moins **une animation test** GSAP dans **un de ses chapitres**, dans sa fonction `animate()` : un `gsap.from()`, `gsap.to()` ou `gsap.fromTo()`. **Pas de `scrollTrigger`** pour cette remise : l'animation joue au chargement de la page, c'est normal. Une animation simple suffit, par exemple le titre du chapitre qui glisse en place.
+- [ ] Au moins **une *pull request*** à son nom, **fusionnée** dans `main`.
+- [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 2**.
+
+!!! tip "Où trouver l'aide"
+    - La structure : [L'arborescence du dépôt](arborescence-recit-defilant.md), section « Créer la structure, au début ».
+    - Les sections avec leur `id` : [Du JSON aux chapitres](json-chapitres.md).
+    - L'animation test : [GSAP : tweens et timelines](../../js/gsap-bases.md). Pour trouver vos éléments dans votre chapitre, voyez « D'où vient `section`? » dans [Dans votre récit : un module de chapitre](../../js/gsap-scrolltrigger.md#dans-votre-recit).
+    - La *pull request* : [Git en équipe](git-en-equipe.md).

@@ -49,6 +49,7 @@ Déclencher une action une seule fois : un `fetch`, une classe.
 - [ ] ScrollTrigger : exercice la magie au défilement
 - [ ] IntersectionObserver : déclencher une fois
 - [ ] Dans votre projet : vos premières scènes GSAP
+- [ ] Rappel : le point de contrôle, vendredi
 
 ## 1. :material-backup-restore:  Retour : spritesheet et parallaxe (10 min)
 
@@ -63,7 +64,7 @@ Le piège commun aux deux : `overflow: hidden` fige une animation au défilement
 1. (1 min) Main levée : qui s'est rendu à la partie 4 du monstre? À la partie 3 de la parallaxe?
 2. (5 min) Ouvrir 1 ou 2 dépôts Classroom 50, avec l'accord de l'étudiant, et les tester devant la classe avec la grille : redimensionner, survol, mouvement réduit émulé, Firefox. On teste le résultat, on ne lit pas le code.
 3. (3 min) Les deux pièges qui reviennent : overflow hidden au lieu de clip, et le raccourci animation écrit après animation-timeline (il la remet à auto).
-4. (1 min) Consigne : corriger avec la grille et les indices, push d'ici le cours 10.2.
+4. (1 min) Consigne : corriger avec la grille et les indices, push d'ici le cours 11.1.
 La solution complète reste dans mm-only_solution.md : à publier plus tard, ou pas. -->
 
 ## 2. :material-scale-balance:  Pourquoi GSAP?
@@ -112,10 +113,17 @@ Pas pour animer : pour **déclencher une action**, une seule fois. C'est la bonn
 **En équipe, puis chacun dans ses chapitres.**
 
 1. **Ensemble, sur `main`** : dans `index.html`, les balises de GSAP et de ScrollTrigger, **avant** `main.js`. Dans `main.js`, `gsap.registerPlugin(ScrollTrigger);`, une seule fois, avant d'appeler les `animate()`.
-2. **Chacun, sur sa branche** : dans la fonction `animate()` d'un de vos chapitres, une première animation GSAP, dans `gsap.matchMedia()`. Le modèle est dans [Dans votre récit : un module de chapitre](js/gsap-scrolltrigger.md#dans-votre-recit).
+2. **Chacun, sur sa branche** : dans la fonction `animate()` d'un de vos chapitres, une première animation GSAP, avec `gsap.from()`, `gsap.to()` ou `gsap.fromTo()`. Pas de `scrollTrigger` pour l'instant : elle joue au chargement de la page, c'est normal. Voir [GSAP : tweens et timelines](js/gsap-bases.md).
 3. Rappel des garde-fous : **au plus 2 sections épinglées** dans tout le récit, et au moins une animation de chaque technique (CSS au défilement, GSAP + ScrollTrigger, IntersectionObserver).
 
 [:material-file-tree: Arborescence du dépôt](projets/recit-defilant/arborescence-recit-defilant.md){ .md-button }
+
+!!! warning "Rappel : le point de contrôle, ven. 6 nov., au début du cours"
+    Pas besoin d'avancer vos chapitres : on vérifie que **la base fonctionne**. La structure du dépôt, une `<section>` avec son `id` par chapitre, GSAP et ScrollTrigger branchés, une animation test par personne (sans `scrollTrigger` : un simple `from()`, `to()` ou `fromTo()`), une *pull request* fusionnée par personne, et le journal du bloc 2.
+
+    Ce que vous faites aujourd'hui, à l'étape 2, compte déjà pour l'animation test.
+
+[:material-flag-checkered: Le point de contrôle : la liste complète](projets/recit-defilant/index.md#point-de-controle){ .md-button .md-button--primary }
 
 ## Devoirs
 
@@ -124,7 +132,22 @@ Pas pour animer : pour **déclencher une action**, une seule fois. C'est la bonn
   <span class="sidetext">Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
 </div>
 
-### D'ici le ven. 6 nov. (cours 10.2)
+### D'ici le ven. 6 nov., au début du cours 10.2 : le point de contrôle
+
+En équipe, sur `main` :
+
+- l'arborescence en place, une `<section>` avec son `id` par chapitre;
+- GSAP et ScrollTrigger branchés, `registerPlugin` une fois dans `main.js`.
+
+Chaque personne :
+
+- une animation test GSAP (`from()`, `to()` ou `fromTo()`) dans un de ses chapitres, sans `scrollTrigger`;
+- une *pull request* fusionnée dans `main`;
+- son journal : les 5 questions du bloc 2.
+
+[:material-flag-checkered: Le point de contrôle](projets/recit-defilant/index.md#point-de-controle){ .md-button .md-button--primary }
+
+### D'ici le mer. 11 nov. (cours 11.1)
 
 #### Terminez les exercices, chacun dans son dépôt Classroom 50
 
@@ -138,10 +161,3 @@ Avec la grille **Vérifiez votre travail** de chaque énoncé, puis *push* :
 
 - [Exercice : le monstre responsive](exercices/ex-spritesheet/index.md#verifier);
 - [Exercice : la parallaxe en calques](exercices/ex-parallaxe/index.md#verifier).
-
-#### Et dans votre projet
-
-<!-- MM : à confirmer, ce qui est attendu au point de contrôle formatif du 10.2. -->
-
-- Chacun a au moins **une animation** dans ses chapitres, sur sa branche, fusionnée dans `main`.
-- Le **point de contrôle (formatif)** du 10.2 : une rencontre d'équipe sur l'avancement.
