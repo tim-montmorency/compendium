@@ -99,35 +99,15 @@ Les 3 étapes suivantes se jouent au **défilement de la page**.
 Quand on défile, la page monte. Les couches lointaines vont **descendre** un peu, pour « contrer » le défilement. Elles paraissent lentes, donc loin.
 
 - [ ] Mettre l'animation de l'étape 1 en commentaire.
-- [ ] Créer une timeline avec :
-  - [ ] Un lissage linéaire par défaut
+- [ ] Créer une timeline
+  - [ ] Toutes les animations de la timeline doivent avoir un lissage linéaire
   - [ ] Un `scrollTrigger` qui surveille `#foret`
     - [ ] Débute à `"top top"` (dès le haut de la page)
     - [ ] Fini à `"bottom top"` (quand la forêt sort de l'écran)
     - [ ] scrub à `true`
-
-  ??? info "`defaults` : des réglages pour tous les `.to()`"
-
-      Ce qui est placé dans `defaults` s'applique à **tous** les `.to()` de la timeline. Plutôt que d'écrire `ease: "none"` dans chaque `.to()`, on l'écrit une seule fois.
-
-  ??? tip "Indice : la structure"
-
-      ```js
-      gsap.timeline({
-        defaults: { ease: "none" },
-        scrollTrigger: {
-          // les paramètres ici
-        }
-      })
-        .to("#buissons", { /* ... */ })
-        .to("#arbres-loin", { /* ... */ }, "<")
-      ```
-
-      Attention&nbsp;: pas de point-virgule entre les `.to()`
-
 - [ ] Ajouter un `.to()` par couche, avec ces valeurs de `yPercent`&nbsp;:
 
-    | Cible | `yPercent` |
+    | Cible | Valeur |
     | :--- | :--- |
     | `#buissons` | `70` |
     | `#arbres-loin` | `60` |
@@ -136,17 +116,12 @@ Quand on défile, la page monte. Les couches lointaines vont **descendre** un pe
     | `#arbres-proches` | `25` |
     | `#lumiere` | `15` |
 
-- [ ] À partir du deuxième `.to()`, ajouter `"<"` après l'accolade, pour que toutes les couches bougent **en même temps**
-- [ ] Ajouter un dernier `.to()` pour le titre&nbsp;: il descend (`yPercent: 50`) et disparaît (`autoAlpha: 0`)
-- [ ] `#avant-plan` ne bouge pas&nbsp;: pas de `.to()` pour lui
+- [ ] Toutes les animations doivent se jouer en même temps que le premier `.to()`
+- [ ] Ajouter un dernier `.to()` pour le titre. Il doit descendre de `50` et disparaître avec `autoAlpha`
 
-  ??? question "Pourquoi `ease: "none"`&nbsp;?"
+  ??? quote "Observation" 
 
-      Pour une parallaxe, les couches doivent suivre la molette à vitesse constante. Avec une autre courbe, elles accéléreraient et ralentiraient en cours de route, et l'illusion serait brisée.
-
-  ??? quote "Observation"
-
-      Mettre temporairement **toutes** les valeurs à `50`. La forêt devient plate&nbsp;: c'est bien la **différence** entre les vitesses qui crée la profondeur. Remettre ensuite les bonnes valeurs.
+      `#avant-plan` ne bouge pas. Aucun `.to()` pour lui
 
 - [ ] Commit + push
 
@@ -156,31 +131,17 @@ Quand on défile, la page monte. Les couches lointaines vont **descendre** un pe
 
 Cette fois, la forêt reste **figée** à l'écran et chaque couche **grossit**. Plus une couche est proche, plus elle grossit&nbsp;: on a l'impression d'avancer dans la forêt.
 
-- [ ] Mettre la timeline de l'étape 2 en commentaire
-- [ ] Créer une nouvelle timeline avec&nbsp;:
-    - [ ] Des réglages communs&nbsp;: `defaults: { ease: "power1.out" }`
-    - [ ] Un `scrollTrigger`&nbsp;:
-        - [ ] Déclencheur&nbsp;: `#foret`
-        - [ ] Début&nbsp;: `"top top"`
-        - [ ] Fin&nbsp;: `"+=3000"` (l'animation dure 3000 pixels de défilement)
-        - [ ] `pin: true`
-        - [ ] `scrub: 1`
-
-  ??? question "À quoi sert `pin`&nbsp;?"
-
-      Sans `pin`, la forêt continuerait de monter pendant le zoom et sortirait de l'écran avant la fin. Avec `pin`, elle reste figée tant que l'animation n'est pas terminée.
-
-  ??? question "Pourquoi `scrub: 1` plutôt que `scrub: true`&nbsp;?"
-
-      `scrub: 1` laisse 1 seconde à l'animation pour rattraper le défilement. Ça adoucit les bonds de la molette, très visibles quand la scène est figée.
-
-  ??? question "Pourquoi `power1.out` et pas `"none"`&nbsp;?"
-
-      Ici, on ne fait plus une parallaxe collée au défilement&nbsp;: on **avance** dans la forêt. Avec `power1.out`, l'avancée est rapide au début et ralentit à la fin, comme quand on arrive quelque part. Essayer avec `"none"` pour comparer.
-
+- [ ] Mettre la timeline précédente en commentaire
+- [ ] Créer une timeline
+  - [ ] Toutes les animations de la timeline doivent avoir un lissage `power1.out`
+  - [ ] Un `scrollTrigger` qui surveille `#foret`
+    - [ ] Débute à `"top top"`
+    - [ ] Fini à `"+=3000"` (l'animation dure 3000 pixels de défilement)
+    - [ ] pin à `true`
+    - [ ] scrub à `1`
 - [ ] Ajouter un `.to()` par couche, avec ces valeurs de `scale`&nbsp;:
 
-    | Cible | `scale` |
+    | Cible | Valeur |
     | :--- | :--- |
     | `#buissons` | `1.1` |
     | `#arbres-loin` | `1.3` |
@@ -190,25 +151,20 @@ Cette fois, la forêt reste **figée** à l'écran et chaque couche **grossit**.
     | `#lumiere` | `1.8` |
     | `#avant-plan` | `2.5` |
 
-- [ ] Comme à l'étape 2&nbsp;: `"<"` à partir du deuxième `.to()`
-- [ ] Ajouter un dernier `.to()` pour le titre&nbsp;: il grossit (`scale: 3`) et disparaît
-
-  ??? info "Vers où les couches grossissent-elles&nbsp;?"
-
-      Vers le centre de l'écran. C'est réglé dans `src/style.css` avec la propriété `transform-origin`.
-
+- [ ] Toutes les animations doivent se jouer en même temps que le premier `.to()`
+- [ ] Ajouter un dernier `.to()` pour le titre. Il doit devenir trois fois plus gros et disparaître
 - [ ] Commit + push
 
 ### Étape 4 - Promenade horizontale
 
 ![type:video](./preview-etape4.webm){.h-auto}
 
-On défile vers le bas, mais on marche vers la droite&nbsp;: les couches **glissent vers la gauche**. Plus une couche est proche, plus elle va loin.
+Les couches **glissent vers la gauche** au scroll. Plus une couche est proche, plus elle se déplace.
 
-- [ ] Mettre la timeline de l'étape 3 en commentaire
-- [ ] Créer une nouvelle timeline, comme à l'étape 3, sauf&nbsp;:
-    - [ ] Réglages communs&nbsp;: `defaults: { ease: "power2.out" }`
-    - [ ] Fin&nbsp;: `"+=2000"`
+- [ ] Mettre la timeline précédente en commentaire
+- [ ] Créer une timeline
+  - [ ] Toutes les animations de la timeline doivent avoir un lissage `power1.out`
+  - [ ] Fini à `"+=2000"`
 - [ ] Ajouter un `.to()` par couche, avec ces valeurs de `xPercent`&nbsp;:
 
     | Cible | `xPercent` |
@@ -219,24 +175,11 @@ On défile vers le bas, mais on marche vers la droite&nbsp;: les couches **gliss
     | `#arbres-proches` | `-50` |
     | `#avant-plan` | `-75` |
 
-- [ ] Comme aux étapes précédentes&nbsp;: `"<"` à partir du deuxième `.to()`
-- [ ] Ajouter un dernier `.to()` pour le titre&nbsp;: il glisse vers la gauche (`xPercent: -100`) et disparaît
-- [ ] `#rayons` et `#lumiere` ne bougent pas&nbsp;: la lumière vient du ciel, elle reste en place pendant qu'on marche
-
-  ??? question "Pourquoi n'y a-t-il jamais de trou à droite&nbsp;?"
-
-      Ouvrir `src/style.css`&nbsp;: les couches de décor (classe `.bande`) font **4 fois la largeur de l'écran**, et leur image s'y répète. La partie qui dépasse est cachée (`overflow: hidden` sur `#foret`), et elle apparaît quand la couche glisse vers la gauche.
-
-      Comme la bande se mesure en largeurs d'écran, et non en pixels d'image, la forêt couvre toujours l'écran, même sur un écran très large.
-
-  ??? question "Étape 1 et étape 4 : quelle différence&nbsp;?"
-
-      À l'étape 1, l'**image** défile à l'intérieur de la couche (`backgroundPositionX`)&nbsp;: elle ne finit jamais. À l'étape 4, c'est la **couche entière** qui glisse (`xPercent`)&nbsp;: elle s'arrête au bout de sa bande.
-
+- [ ] Toutes les animations doivent se jouer en même temps que le premier `.to()`
+- [ ] Ajouter un dernier `.to()` pour le titre. Il glisse vers la gauche (`xPercent: -100`)
 - [ ] Commit + push
 
 ## Défis
 
-- [ ] Réactiver l'étape 1 en même temps que l'étape 4&nbsp;: la forêt continue de défiler toute seule pendant la promenade
-- [ ] Combiner le zoom et la promenade dans une même timeline&nbsp;: chaque couche grossit **et** glisse en même temps (un `.to()` peut animer `scale` et `xPercent` à la fois)
+- [ ] Réactiver l'étape 1 en même temps que l'étape 4 🤯
 - [ ] Commit + push

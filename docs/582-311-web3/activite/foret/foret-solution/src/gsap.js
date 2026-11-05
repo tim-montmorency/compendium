@@ -107,6 +107,6 @@ export function gsapAnimations() {
     .to("#arbres-milieu", { xPercent: -35 }, "<")
     .to("#arbres-proches", { xPercent: -50 }, "<")
     .to("#avant-plan", { xPercent: -75 }, "<")
-    .to("#titre", { xPercent: -100, autoAlpha: 0 }, "<")
+    .to("#titre", { xPercent: -100 }, "<")
 
 }
