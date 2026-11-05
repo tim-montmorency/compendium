@@ -121,7 +121,7 @@ Pas pour animer : pour **déclencher une action**, une seule fois. C'est la bonn
 [:material-file-tree: Arborescence du dépôt](projets/recit-defilant/arborescence-recit-defilant.md){ .md-button }
 
 !!! warning "Rappel : le point de contrôle, ven. 6 nov., au début du cours"
-    Pas besoin d'avancer vos chapitres : on vérifie que **la base fonctionne**. La structure du dépôt, une `<section>` avec son `id` par chapitre, GSAP et ScrollTrigger branchés, une animation test par personne (sans `scrollTrigger` : un simple `from()`, `to()` ou `fromTo()`), une *pull request* fusionnée par personne, au moins le tiers de vos médias dans le dépôt, bien nommés et **crédités dans le `README.md`**, et le journal du bloc 2.
+    Pas besoin d'avancer vos chapitres : on vérifie que **la base fonctionne**. La structure du dépôt, une `<section>` avec son `id` par chapitre (en HTML statique : le JSON viendra ensuite), GSAP et ScrollTrigger branchés, une animation test par personne (sans `scrollTrigger` : un simple `from()`, `to()` ou `fromTo()`), une *pull request* fusionnée par personne, au moins le tiers de vos médias dans le dépôt, bien nommés et **crédités dans le `README.md`**, et le journal du bloc 2.
 
     Ce que vous faites aujourd'hui, à l'étape 2, compte déjà pour l'animation test.
 
@@ -138,7 +138,7 @@ Pas pour animer : pour **déclencher une action**, une seule fois. C'est la bonn
 
 En équipe, sur `main` :
 
-- l'arborescence en place, une `<section>` avec son `id` par chapitre;
+- l'arborescence en place, une `<section>` avec son `id` par chapitre, **écrite en HTML** pour l'instant (le JSON viendra ensuite);
 - GSAP et ScrollTrigger branchés, `registerPlugin` une fois dans `main.js`.
 
 Chaque personne :
