@@ -2,6 +2,100 @@
 
 [STOP]
 
+## Suivre un tracé : MotionPathPlugin
+
+[MotionPathPlugin](https://gsap.com/docs/v3/Plugins/MotionPathPlugin/) fait voyager un élément le long d'un **chemin** - souvent un tracé SVG. Idéal pour une fusée qui suit une courbe, un point sur une carte, etc.
+
+```js title="src/main.js"
+import gsap from "gsap"
+import { MotionPathPlugin } from "gsap/MotionPathPlugin"
+
+gsap.registerPlugin(MotionPathPlugin)
+
+gsap.to(".fusee", {
+  duration: 4,
+  ease: "none",
+  motionPath: {
+    path: "#trace",       // un <path> SVG
+    align: "#trace",      // aligne l'élément sur le tracé
+    autoRotate: true      // oriente l'élément selon la direction
+  }
+})
+```
+
+!!! tip "`autoRotate`"
+
+    `autoRotate: true` fait pivoter l'élément pour qu'il « regarde » toujours vers l'avant du tracé - indispensable pour une voiture ou une flèche.
+
+<!-- CODEPEN: élément qui suit un tracé SVG (motionPath + autoRotate) -->
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
+
+  <small>Exercice - GSAP</small><br>
+  **[Combinaison parallaxe et MotionPath](./exercices/gsap-motionpath-parallax.md){.stretched-link .back}**
+</div>
+
+## Dessiner un SVG : DrawSVGPlugin
+
+[DrawSVGPlugin](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/) anime le **tracé** d'un SVG, comme si un stylo le dessinait en direct. (Ce plugin, autrefois payant, est désormais **gratuit** 🎉.)
+
+```js title="src/main.js"
+import gsap from "gsap"
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin"
+
+gsap.registerPlugin(DrawSVGPlugin)
+
+gsap.from("#signature path", {
+  drawSVG: "0%",      // part d'un tracé invisible
+  duration: 2,
+  stagger: 0.2
+})
+```
+
+!!! warning "Ça marche sur les tracés, pas les remplissages"
+
+    DrawSVG anime le **contour** (`stroke`) d'un `<path>`, `<line>`, `<circle>`… Assurez-vous que vos formes SVG ont un `stroke` visible et pensez à animer depuis `"0%"` (invisible) vers `"100%"` (complet).
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
+
+  <small>Exercice - GSAP</small><br>
+  **[Animation SVG avec DrawSVG, ScrollTrigger et Parallaxe](./exercices/gsap-drawsvg.md){.stretched-link .back}**
+</div>
+## Rendre le tout responsive : `matchMedia()`
+
+Une animation belle sur grand écran peut être cassée sur mobile. [`gsap.matchMedia()`](https://gsap.com/docs/v3/GSAP/gsap.matchMedia()) permet de définir des animations **différentes selon la taille de l'écran**, et GSAP fait le ménage automatiquement quand on change de _breakpoint_.
+
+```js
+let mm = gsap.matchMedia()
+
+mm.add("(min-width: 768px)", () => {
+  // Animations pour écran large seulement
+  gsap.to(".hero", { x: 400, scrollTrigger: { /* … */ } })
+})
+
+mm.add("(max-width: 767px)", () => {
+  // Version allégée pour mobile
+  gsap.to(".hero", { opacity: 1 })
+})
+```
+
+<!-- CODEPEN: matchMedia (animation différente desktop vs mobile) -->
+
+!!! success "À retenir"
+
+    ScrollTrigger repose sur 3 idées&nbsp;: **quand** (`start`/`end`), **quoi faire** (`toggleActions` ou `scrub`), et **débogage** (`markers`). Maîtrisez `markers` en premier&nbsp;: voir les lignes, c'est tout comprendre.
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
+
+  <small>Exercice - GSAP</small><br>
+  **[Scène animée réactive (ScrollTrigger)](./exercices/gsap-scrolltrigger-intermediaire.md){.stretched-link .back}**
+</div>
+
+
+
 <!-- **Savoirs :** #3 Contrôle audio et vidéo · #13 Classe JavaScript · #14 Classes sur mesure · #12 Repérage d'erreur (DevTools) · #15 Interactivité -->
 
 *[npm]: Node Package Manager
@@ -146,7 +240,7 @@ son.play()
 
 !!! tip "Les sprites audio"
 
-    Comme les sprites d'image (cours 9), un **sprite audio** regroupe plusieurs sons dans un seul fichier - idéal pour les effets d'un jeu.
+    Un **sprite audio** regroupe plusieurs sons dans un seul fichier - idéal pour les effets d'un jeu.
 
     ```js
     const fx = new Howl({

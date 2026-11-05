@@ -1,7 +1,5 @@
 # Cours 10
 
-[STOP]
-
 ## Les systèmes de particules
 
 ![type:video](./assets/video/particles-banner.webm){.h-auto}
