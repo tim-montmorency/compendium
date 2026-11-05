@@ -169,6 +169,13 @@ snap: 0.25   // arrêts à 0, 0.25, 0.5, 0.75 et 1
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-snap&actif=js&modifiable=1&disposition=cote&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
+<div class="grid grid-1-2" markdown>
+  ![](./activite/ligne-orange/preview.png){.aspect-4-3}
+
+  <small>Exercice - GSAP</small><br>
+  **[Ligne orange](./activite/ligne-orange/index.md){.stretched-link .back}**
+</div>
+
 ## La parallaxe
 
 La **parallaxe**, c'est l'illusion de profondeur créée quand les plans lointains bougent **plus lentement** que les plans proches.
@@ -244,7 +251,7 @@ gsap.to(".layer123", {
 
 
 
-## Exercices
+<!-- ## Exercices
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
@@ -255,4 +262,4 @@ gsap.to(".layer123", {
 
 !!! success "Fin du bloc GSAP"
 
-    Vous savez maintenant animer (tweens, timelines), déclencher au défilement (ScrollTrigger), créer de la profondeur (parallaxe) et exploiter des plugins (MotionPath, DrawSVG). De quoi donner vie à n'importe quelle interface 🚀.
+    Vous savez maintenant animer (tweens, timelines), déclencher au défilement (ScrollTrigger), créer de la profondeur (parallaxe) et exploiter des plugins (MotionPath, DrawSVG). De quoi donner vie à n'importe quelle interface 🚀. -->
