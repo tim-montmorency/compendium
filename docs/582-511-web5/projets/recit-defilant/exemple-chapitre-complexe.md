@@ -11,11 +11,12 @@
 
 ## Le chapitre { #le-chapitre }
 
-Le chapitre 5, « La clairière », se joue dans une **seule scène épinglée**. Pendant 3 écrans de défilement :
+Le chapitre 5, « La clairière », se joue dans une **seule scène épinglée**. Pendant 6 écrans de défilement :
 
 1. la caméra avance dans le paysage : 5 calques, du ciel aux herbes, grossissent chacun à sa vitesse (un **traveling avant**);
-2. le Chaperon entre par la gauche;
-3. le loup entre par la droite, et **en même temps**, une explosion surgit en arrière-plan pendant que le fond passe au noir.
+2. le Chaperon entre lentement par la gauche, puis **une pause**;
+3. le loup entre lentement par la droite, et **en même temps**, une explosion surgit en arrière-plan pendant que le fond passe au noir;
+4. **une pause** sur l'image finale, puis la scène se libère et la page continue.
 
 Défilez dans la démo :
 
@@ -115,7 +116,7 @@ export function animate(section, chapter) {
       scrollTrigger: {
         trigger: section,
         start: "top top",
-        end: "+=300%",   // 3 écrans de défilement
+        end: "+=600%",   // 6 écrans de défilement
         pin: true,
         scrub: 1,
       },
@@ -127,22 +128,25 @@ export function animate(section, chapter) {
       scale: (i) => 1 + i * 0.2,
       duration: 3,
     })
-      // 2. Le personnage de gauche entre
-      .from(q(".perso--gauche"), { x: "-100vw", duration: 1 })
-      // 3. Celui de droite entre...
-      .from(q(".perso--droite"), { x: "100vw", duration: 1 })
+      // 2. Le personnage de gauche entre, lentement
+      .from(q(".perso--gauche"), { x: "-100vw", duration: 2 })
+      // 3. Une pause ("+=1"), puis celui de droite entre...
+      .from(q(".perso--droite"), { x: "100vw", duration: 3 }, "+=1")
       // ... et en même temps, l'explosion et le noir
-      .from(q(".explosion"), { scale: 0, opacity: 0 }, "<")
-      .to(q(".voile"), { opacity: 1 }, "<");
+      .from(q(".explosion"), { scale: 0, opacity: 0, duration: 1 }, "<")
+      .to(q(".voile"), { opacity: 1, duration: 3 }, "<")
+      // 4. Une pause à la fin, avant de libérer la scène
+      .to({}, { duration: 1.5 });
   });
 }
 ```
 
-Trois choses à remarquer :
+Quatre choses à remarquer :
 
 - **`scale: (i) => 1 + i * 0.2`** : une valeur calculée par une fonction. GSAP l'appelle pour chaque calque, avec son rang `i`. Le ciel (`i = 0`) ne grossit pas, les herbes (`i = 4`) grossissent presque du double. Ajouter un 6e calque ne demande **aucune ligne de JavaScript** : seulement une ligne dans le JSON.
-- **`duration`**, avec `scrub`, ne compte plus en secondes : c'est une **part du défilement**. Ici, le traveling prend 3 parts sur 5, chaque personnage 1 part.
-- **`"<"`** : l'explosion et le voile commencent **en même temps** que l'entrée du loup. Voir [le paramètre de position](../../js/gsap-bases.md#la-timeline).
+- **`duration`**, avec `scrub`, ne compte plus en secondes : c'est une **part du défilement**. Ici : le traveling 3 parts, le Chaperon 2, la pause 1, le loup 3, la pause finale 1,5. En tout 10,5 parts, réparties sur les 6 écrans de `end`. Pour ralentir un moment, on augmente sa `duration`; pour ralentir toute la scène, on augmente `end`.
+- **`"<"`** : l'explosion et le voile commencent **en même temps** que l'entrée du loup. **`"+=1"`** : le loup attend une part après la fin du Chaperon. Voir [le paramètre de position](../../js/gsap-bases.md#la-timeline).
+- **`.to({}, { duration: 1.5 })`** : un tween qui n'anime rien. Il sert seulement à allonger la timeline : la scène reste épinglée sur l'image finale avant de repartir. C'est la façon habituelle de faire une pause à la fin.
 
 !!! warning "`x` plutôt que `xPercent` pour sortir de l'écran"
     `xPercent: -150` déplace le personnage de 1,5 fois **sa propre largeur**. S'il est étroit, on voit encore son bord au départ. `x: "-100vw"` le déplace d'une largeur **d'écran** complète : il part vraiment hors cadre, quelle que soit la taille de la fenêtre.
