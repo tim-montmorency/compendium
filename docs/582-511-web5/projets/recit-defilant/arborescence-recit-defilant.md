@@ -278,6 +278,11 @@ Tout ce qui est propre à votre chapitre va dans `contenu` : vos images, vos cal
 
 Vous ne savez pas encore ce qu'il vous faut? C'est normal. Commencez avec `"contenu": {}`, et ajoutez des clés à mesure que vous découvrez ce dont votre chapitre a besoin.
 
+!!! example "Un chapitre avec beaucoup d'images?"
+    Une scène épinglée, 5 calques, deux personnages, une explosion : comment ranger tout ça dans `contenu`, et comment `animate()` le retrouve. Voir l'exemple complet, avec sa démo.
+
+    [:material-movie-open-outline: Exemple : un chapitre complexe](exemple-chapitre-complexe.md){ .md-button }
+
 ### Qui change quoi
 
 | Vous changez... | Ce que vous faites |
