@@ -116,7 +116,7 @@ Pas pour animer : pour **déclencher une action**, une seule fois. C'est la bonn
 
 1. **Ensemble, sur `main`** : dans `index.html`, les balises de GSAP et de ScrollTrigger, **avant** `main.js`. Dans `main.js`, `gsap.registerPlugin(ScrollTrigger);`, une seule fois, avant d'appeler les `animate()`.
 2. **Chacun, sur sa branche** : dans la fonction `animate()` d'un de vos chapitres, une première animation GSAP, avec `gsap.from()`, `gsap.to()` ou `gsap.fromTo()`. Pas de `scrollTrigger` pour l'instant : elle joue au chargement de la page, c'est normal. Voir [GSAP : tweens et timelines](js/gsap-bases.md).
-3. Rappel des garde-fous : **au plus 2 sections épinglées** dans tout le récit, et au moins une animation de chaque technique (CSS au défilement, GSAP + ScrollTrigger, IntersectionObserver).
+3. Rappel des garde-fous : chacun épingle **au plus la moitié de ses chapitres** (sur 3 chapitres, 1 au plus), et au moins une animation de chaque technique (CSS au défilement, GSAP + ScrollTrigger, IntersectionObserver).
 
 [:material-file-tree: Arborescence du dépôt](projets/recit-defilant/arborescence-recit-defilant.md){ .md-button }
 

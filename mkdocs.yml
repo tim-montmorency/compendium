@@ -353,6 +353,15 @@ nav:
         - Tweens et timelines: 582-511-web5/js/gsap-bases.md
         - ScrollTrigger: 582-511-web5/js/gsap-scrolltrigger.md
         - IntersectionObserver: 582-511-web5/js/intersection-observer.md
+        - Extensions:
+          - "TextPlugin : machine à écrire": 582-511-web5/js/gsap-text.md
+          - "SplitText : lettres, mots, lignes": 582-511-web5/js/gsap-splittext.md
+          - "ScrambleText : décodage": 582-511-web5/js/gsap-scrambletext.md
+          - "MotionPath : suivre un tracé": 582-511-web5/js/gsap-motionpath.md
+          - "DrawSVG : dessiner un trait": 582-511-web5/js/gsap-drawsvg.md
+          - "MorphSVG : changer de forme": 582-511-web5/js/gsap-morphsvg.md
+          - "Flip : changer de mise en page": 582-511-web5/js/gsap-flip.md
+          - "ScrollTo : défiler vers": 582-511-web5/js/gsap-scrollto.md
       - Exercices:
           - "Conflit Git (en duo)": 582-511-web5/exercices/ex-conflit-git/index.md
           - "Spritesheet: monstre qui marche": 582-511-web5/exercices/ex-spritesheet/index.md

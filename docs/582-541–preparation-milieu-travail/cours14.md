@@ -6,7 +6,7 @@
     - Groupe Lora : 12 novembre.
 
 ## Retour sur la journée carrière et évaluation des comités
-[🛠️ Formulaire à remplir](https://forms.cloud.microsoft/r/1ZQX8yAAKu){ .md-button }   
+[🛠️ Formulaire à remplir](https://forms.cloud.microsoft/r/TtcRz14ev6){ .md-button }   
 
 
 ## Mes finances, mes choix
@@ -64,4 +64,4 @@
 [📁 Répertoire d'entreprises](https://polesynthese.com/repertoire/entreprises){ .md-button }      
 
 ## Devoir
-Remplissez le document evaluation_demarche pour évaluer l'avancement de votre recherche de stage jusqu'à maintenant. 
+Poursuivre vos candidatures pour les stages

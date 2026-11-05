@@ -261,7 +261,7 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 
 ## 3. Les chapitres
 
-6 à 8 chapitres, environ 100 à 250 mots chacun. Au plus 1 animation signature par chapitre, et au plus 2 sections épinglées dans tout le récit.
+6 à 8 chapitres, environ 100 à 250 mots chacun. Au plus 1 animation signature par chapitre. Au plus la moitié des chapitres de chacun sont épinglés : sur 3 chapitres, 1 au plus; sur 4, 2 au plus.
 
 | # | Titre | Ce que le chapitre raconte | Animation signature | Technique | Médias | Responsable |
 |---|---|---|---|---|---|---|
