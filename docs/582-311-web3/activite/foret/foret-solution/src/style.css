@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import "@fontsource/caprasimo/400.css";
+
+@theme {
+  --font-sans: "Caprasimo", sans-serif;
+}
+
+body {
+  background: #1a1709;
+  color: #fffce1;
+}
+
+#foret {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  img,
+  .bande,
+  #titre {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    transform-origin: 50vw 50%; /* le point visé par le zoom (étape 3) : le sentier, au centre de l'écran */
+  }
+
+  /* Couches d'ambiance (rayons, lumière) : exactement la taille de l'écran */
+  .ecran {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Couches de décor : une bande plus large que l'écran, où l'image se répète (repeat-x).
+
+     Pourquoi 400 % ? Pour la promenade (étape 4).
+     L'avant-plan, la couche qui glisse le plus, recule de 75 % de sa largeur (xPercent: -75),
+     soit 3 écrans sur 4. Il reste alors exactement 1 écran de bande : jamais de trou à droite.
+       - 200 % : reculer de 75 % = 1,5 écran ; il ne resterait qu'un demi-écran, donc un trou.
+       - 1000 % : ça fonctionne aussi, mais le navigateur gère beaucoup d'image pour rien.
+     La largeur est en %, donc elle suit la largeur de l'écran : ça fonctionne sur tout écran.
+
+     À l'étape 1, seule l'image bouge à l'intérieur de la bande : la largeur n'y change rien. */
+  .bande {
+    width: 400%;
+    background-repeat: repeat-x;
+    background-size: auto 100%; /* l'image prend toute la hauteur */
+    background-position: left bottom;
+  }
+
+  #buissons { background-image: url("/images/buissons.png"); }
+  #arbres-loin { background-image: url("/images/arbres-loin.png"); }
+  #arbres-milieu { background-image: url("/images/arbres-milieu.png"); }
+  #arbres-proches { background-image: url("/images/arbres-proches.png"); }
+  #avant-plan { background-image: url("/images/avant-plan.png"); }
+}

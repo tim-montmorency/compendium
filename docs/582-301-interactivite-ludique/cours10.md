@@ -1,7 +1,5 @@
 # Cours 10
 
-[STOP]
-
 ## Les systèmes de particules
 
 ![type:video](./assets/video/particles-banner.webm){.h-auto}
@@ -441,7 +439,6 @@ public class HitStop : MonoBehaviour
 - `Must` Créer le signal d'échec (son, particule, HUD)
 - `Must` Créer un système de particules lié à un événement du jeu (pas celui d'un asset importé)
 - `Must` Ajouter une rétroaction à l'approche des objets interactifs (surbrillance, son ou animation)
-- `Should` Appliquer la règle du cumul sur l'action principale du jeu (son + particule + HUD + pop)
 - `Should` Ajouter un pop d'échelle à un indicateur du HUD quand sa valeur change
 
 **Ambiance**

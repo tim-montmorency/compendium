@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ligne orange</title>
+  </head>
+  <body>
+
+    <section class="espace">Défilez vers le bas, puis arrêtez-vous entre deux stations ↓</section>
+
+    <section id="ligne">
+      <h1>Ligne orange</h1>
+
+      <div id="piste">
+        <!-- Les stations ne sont pas espacées également -->
+        <div class="station" style="top: 0%"><span>Montmorency</span></div>
+        <div class="station" style="top: 30%"><span>De la Concorde</span></div>
+        <div class="station" style="top: 55%"><span>Cartier</span></div>
+        <div class="station" style="top: 100%"><span>Henri-Bourassa</span></div>
+
+        <!-- Le train : un cadre transparent de la hauteur de la piste, avec le wagon en haut -->
+        <div id="train">
+          <div id="wagon"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="espace">Terminus 🚇</section>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

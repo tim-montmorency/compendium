@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body {
+  background: #1a1709;
+  color: #fffce1;
+}
+
+#foret {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  img,
+  .bande,
+  #titre {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    transform-origin: 50vw 50%; /* le point visé par le zoom pour l'étape 3 */
+  }
+
+  /* Couches d'ambiance (rayons, lumière) : exactement la taille de l'écran */
+  .ecran {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Couches de décor : une bande plus large que l'écran, où l'image se répète sur les x
+
+     Pourquoi 400 % ? Pour l'étape 4.
+     Le layer de l'avant plan recule de 75 % de sa largeur (xPercent: -75), soit 3 écrans sur 4.
+  */
+  .bande {
+    width: 400%;
+    background-repeat: repeat-x;
+    background-size: auto 100%; /* l'image prend toute la hauteur */
+    background-position: left bottom;
+  }
+
+  #buissons { background-image: url("/images/buissons.png"); }
+  #arbres-loin { background-image: url("/images/arbres-loin.png"); }
+  #arbres-milieu { background-image: url("/images/arbres-milieu.png"); }
+  #arbres-proches { background-image: url("/images/arbres-proches.png"); }
+  #avant-plan { background-image: url("/images/avant-plan.png"); }
+}
