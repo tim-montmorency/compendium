@@ -30,16 +30,6 @@ Déclencher, suivre le défilement, épingler une scène.
 [:octicons-arrow-right-24: La référence](js/gsap-scrolltrigger.md){ .stretched-link }
 </div>
 
-<div class="card" markdown>
-:material-eye-outline: __IntersectionObserver__
-
----
-
-Déclencher une action une seule fois : un `fetch`, une classe.
-
-[:octicons-arrow-right-24: La référence](js/intersection-observer.md){ .stretched-link }
-</div>
-
 </div>
 
 ## Aujourd'hui
@@ -49,7 +39,6 @@ Déclencher une action une seule fois : un `fetch`, une classe.
 - [ ] Les tweens (interpolations) : exercice Zombi
 - [ ] La timeline : exercice Magie
 - [ ] ScrollTrigger : exercice la magie au défilement
-- [ ] IntersectionObserver : déclencher une fois
 - [ ] Dans votre projet : vos premières scènes GSAP
 - [ ] Rappel : le point de contrôle, vendredi
 
@@ -104,13 +93,9 @@ On accroche la timeline au défilement : `start`, `end`, `markers`, puis `scrub`
 [:material-gesture-swipe-vertical: GSAP : ScrollTrigger](js/gsap-scrolltrigger.md){ .md-button .md-button--primary }
 [:material-pencil-ruler: Exercice : la magie au défilement](exercices/ex-gsap-magie-defilement/index.md){ .md-button }
 
-## 6. :material-eye-outline:  IntersectionObserver
+<!-- MM : IntersectionObserver déplacé au cours 10.2, faute de temps. -->
 
-Pas pour animer : pour **déclencher une action**, une seule fois. C'est la bonne façon de lancer le `fetch` de votre dataviz quand le visiteur arrive au chapitre.
-
-[:material-eye-outline: IntersectionObserver : déclencher une fois](js/intersection-observer.md){ .md-button }
-
-## 7. :material-account-multiple-outline:  Dans votre projet
+## 6. :material-account-multiple-outline:  Dans votre projet
 
 **En équipe, puis chacun dans ses chapitres.**
 
