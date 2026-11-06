@@ -1,4 +1,4 @@
-# :material-movie-open-outline: Exemple : un chapitre complexe
+# :material-movie-open-outline: Exemple : un chapitre, plusieurs médias en timeline
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

@@ -29,7 +29,7 @@ Déclencher une action une seule fois : un `fetch`, une classe.
 </div>
 
 <div class="card" markdown>
-:material-movie-open-outline: __Un chapitre complexe__
+:material-movie-open-outline: __Un chapitre, plusieurs médias__
 
 ---
 
@@ -103,7 +103,7 @@ Chacune a sa page-sujet, avec une démo, l'installation et un exemple pour un ch
 4. *Pull request* quand une étape fonctionne : on fusionne souvent, par petits morceaux.
 
 [:material-file-tree: Phase 1 : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
-[:material-movie-open-outline: Exemple : un chapitre complexe](projets/recit-defilant/exemple-chapitre-complexe.md){ .md-button }
+[:material-movie-open-outline: Exemple : un chapitre, plusieurs médias en timeline](projets/recit-defilant/exemple-chapitre-complexe.md){ .md-button }
 
 ## Devoirs
 
