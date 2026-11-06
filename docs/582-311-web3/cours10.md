@@ -153,7 +153,24 @@ maTL.to(".triangle", { rotation: 360 }) // ensuite
 
 !!! note "Avec scrub, les durées deviennent des proportions"
 
+    Avec `scrub`, la timeline n'est plus jouée en secondes&nbsp;: elle s'étale sur la distance entre `start` et `end`. Les `duration` servent seulement à **répartir** cette distance entre les `.to()`.
+
+    ```js
+    // end: "+=1000" → 1000 px de défilement au total
+    maTL.to(".boite", { x: 300, duration: 1 })   // 1 part sur 4 → 250 px de défilement
+    maTL.to(".boite", { y: 200, duration: 3 })   // 3 parts sur 4 → 750 px de défilement
+    ```
+
+    Sans `duration`, chaque `.to()` reçoit la même valeur par défaut&nbsp;: le défilement est partagé en parts égales.
+
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-timeline-scrub&actif=js&modifiable=1&disposition=cote&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/monstre/thumb.webp){.aspect-4-3}
+
+  <small>Exercice - DaisyUI + GSAP</small><br>
+  **[Monstruosité Inc.](./activite/monstre/index.md){.stretched-link .back}**
+</div>
 
 ### Aimanter : `snap`
 
@@ -192,13 +209,13 @@ gsap.timeline({
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-snap-tag&actif=js&modifiable=1&disposition=cote&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/ligne-orange/preview.png){.aspect-4-3}
+  ![](./activite/ligne-orange/ligne-orange-metro.webp){.aspect-4-3}
 
   <small>Exercice - GSAP</small><br>
   **[Ligne orange](./activite/ligne-orange/index.md){.stretched-link .back}**
 </div>
 
-## La parallaxe
+## Parallaxe
 
 La **parallaxe**, c'est l'illusion de profondeur créée quand les plans lointains bougent **plus lentement** que les plans proches.
 
@@ -208,47 +225,13 @@ La **parallaxe**, c'est l'illusion de profondeur créée quand les plans lointai
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-Exemples de sites
+Une scène en parallaxe est faite de **couches** empilées au même endroit (`position: absolute`), du plus loin au plus proche. Chaque couche reçoit sa propre vitesse ou sa propre amplitude&nbsp;: c'est la **différence** entre les couches qui crée la profondeur.
 
-* [Firewatch](https://www.firewatchgame.com/) (axe des Y)
-* [Goonies](https://the-goonies.webflow.io/) (axe des Z)
-* [Longshot](https://longshotfeatures.com/) (axe des X)
+### Parallaxe infini
 
-Avec ScrollTrigger, il suffit de donner à chaque couche une amplitude de déplacement différente, en `scrub`.
+![type:video](./assets/videos/side-scroller-parallax.webm){.h-auto .w-50}
 
-```js
-// L'arrière-plan descend beaucoup : il « résiste » au défilement et paraît lent (lointain)
-gsap.to(".fond", {
-  y: 400,
-  ease: "none",
-  scrollTrigger: { 
-    trigger: ".scene", 
-    start: "top bottom", 
-    end: "bottom top", 
-    scrub: true 
-  }
-})
-
-// Le premier plan descend peu : il suit presque le défilement et paraît rapide (proche)
-gsap.to(".avant-plan", {
-  y: 100,
-  ease: "none",
-  scrollTrigger: { 
-    trigger: ".scene", 
-    start: "top bottom", 
-    end: "bottom top", 
-    scrub: true 
-  }
-})
-```
-
-!!! note "Le secret : `ease: none` + `scrub`"
-
-    Pour une parallaxe crédible, le mouvement doit être **linéaire** (`ease: "none"`) et **lié au défilement** (`scrub`). Ce sont les différences d'amplitude (`y: 400` vs `y: 100`) qui créent la profondeur&nbsp;: **loin = descend beaucoup, proche = descend peu**.
-
-### Une parallaxe qui défile toute seule
-
-On peut simplement utiliser une image de fond qui se répète en CSS (`background-repeat: repeat-x`). Ensuite, on anime son `background-position-x`.
+Pour un décor qui avance sans fin, on utilise une image de fond (`background-image`) qui se répète en CSS (`background-repeat: repeat-x`). Ensuite, on anime la position (`background-position-x`). (ex. : <https://itch.io/game-assets/free/tag-parallax>)
 
 ```js
 gsap.to(".layer123", {
@@ -260,15 +243,71 @@ gsap.to(".layer123", {
 })
 ```
 
+Pour la profondeur, chaque couche recule à sa propre vitesse&nbsp;: **plus une couche est proche, plus elle recule de pixels par seconde**.
+
+```js
+gsap.to(".montagnes", { backgroundPositionX: "-=50px",  duration: 1, ease: "none", repeat: -1, repeatRefresh: true }) // loin : lent
+gsap.to(".herbe",     { backgroundPositionX: "-=300px", duration: 1, ease: "none", repeat: -1, repeatRefresh: true }) // proche : rapide
+```
+
+### Parallaxe au défilement
+
+Avec ScrollTrigger, la profondeur se crée en donnant à chaque couche une **amplitude** de déplacement différente, liée au défilement avec `scrub`.
+
+Exemples de sites :
+
+* [Firewatch](https://www.firewatchgame.com/) (axe des Y)
+* [Goonies](https://the-goonies.webflow.io/) (axe des Z)
+* [Longshot](https://longshotfeatures.com/) (axe des X)
+
+```js
+gsap.timeline({
+  defaults: { ease: "none" }, // même chose que linear
+  scrollTrigger: {
+    trigger: ".scene",
+    start: "top top",    // dès le premier coup de molette
+    end: "bottom top",   // jusqu'à ce que la scène sorte par le haut
+    scrub: true
+  }
+})
+  .to(".fond",       { yPercent: 50 })        // loin : descend beaucoup
+  .to(".milieu",     { yPercent: 25 }, "<")   // 👈 en même temps que le précédent
+  .to(".avant-plan", { yPercent: 5 },  "<")   // proche : descend peu
+```
+
+??? question "Pourquoi pas un `scrollTrigger` dans chaque tween ?"
+
+    Ça fonctionne aussi, c'est juste inutilement long à écrire :
+
+    ```js
+    gsap.to(".fond", {
+      yPercent: 50,
+      ease: "none",
+      scrollTrigger: { trigger: ".scene", start: "top top", end: "bottom top", scrub: true }
+    })
+    gsap.to(".avant-plan", {
+      yPercent: 5,
+      ease: "none",
+      scrollTrigger: { trigger: ".scene", start: "top top", end: "bottom top", scrub: true }
+    })
+    ```
+
+#### Trois directions de profondeur
+
+La même scène peut créer de la profondeur de trois façons. Seules la propriété animée et l'épinglage changent.
+
+| Effet | Propriété | `pin` | Quelle couche bouge le plus&nbsp;? |
+| :--- | :--- | :--- | :--- |
+| Parallaxe verticale | `yPercent` | Non&nbsp;: la page défile | La plus **lointaine** (elle résiste au défilement) |
+| Zoom (axe des Z) | `scale` | Oui | La plus **proche** (elle grossit le plus) |
+| Parallaxe horizontale | `xPercent` (négatif) | Oui | La plus **proche** (elle glisse le plus loin) |
+
 <div class="grid grid-1-2" markdown>
   ![](./activite/foret/preview.png){.aspect-4-3}
 
   <small>Exercice - GSAP</small><br>
   **[Forêt](./activite/foret/index.md){.stretched-link .back}**
 </div>
-
-
-
 
 
 

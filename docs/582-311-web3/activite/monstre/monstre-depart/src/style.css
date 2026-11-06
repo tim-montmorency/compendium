@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* ---------------------------------------------------------
+   L'atelier
+   Toutes les pièces sont empilées dans #monstre (position: absolute).
+   Chaque pièce est placée à sa position FINALE : le monstre est assemblé.
+   --------------------------------------------------------- */
+
+#monstre {
+  position: relative;
+  width: 360px;
+  height: 440px;
+}
+
+#monstre img {
+  position: absolute;
+}
+
+/* Le corps : déjà en place */
+#corps { width: 240px; left: 60px; top: 70px; z-index: 2; }
+
+/* Étape 4 : placer les autres pièces ici
+   z-index 1 = derrière le corps, z-index 3 = devant le corps */
