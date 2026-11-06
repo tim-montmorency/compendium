@@ -42,11 +42,11 @@ Une scène épinglée, 5 calques, deux personnages : un exemple complet.
 
 ## Annonce
 
-!!! info "Nouveau : votre récit se construit en deux temps"
-    1. **Temps 1** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. Accepté jusqu'au prototype (ven. 13 nov.).
-    2. **Temps 2** : le texte et les médias déplacés dans `data.json`. Exigé à la bêta (ven. 20 nov.).
+!!! info "Nouveau : votre récit se construit en deux phases"
+    1. **Phase 1, intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. Accepté jusqu'au prototype (ven. 13 nov.).
+    2. **Phase 2, intégration dynamique** : le texte et les médias déplacés dans `data.json`. Exigé à la bêta (ven. 20 nov.).
 
-    Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas au temps 2. [Les détails](projets/recit-defilant/arborescence-recit-defilant.md#deux-temps)
+    Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la phase 2. [Les détails](projets/recit-defilant/arborescence-recit-defilant.md#deux-phases)
 
 ## Aujourd'hui
 
@@ -95,14 +95,14 @@ Chacune a sa page-sujet, avec une démo, l'installation et un exemple pour un ch
 
 ## 4. :material-account-multiple-outline:  Dans votre projet : construire vos chapitres
 
-**Chacun dans ses chapitres, sur sa branche.** C'est le temps 1 :
+**Chacun dans ses chapitres, sur sa branche.** C'est la phase 1, l'intégration statique :
 
 1. Le HTML de vos sections, directement dans `index.html` : le texte, puis vos médias.
 2. Le CSS de vos chapitres, dans `css/chapitres/`.
 3. Vos animations dans `animate()` : CSS au défilement, GSAP, ScrollTrigger.
 4. *Pull request* quand une étape fonctionne : on fusionne souvent, par petits morceaux.
 
-[:material-file-tree: Temps 1 : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-temps-1){ .md-button }
+[:material-file-tree: Phase 1 : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
 [:material-movie-open-outline: Exemple : un chapitre complexe](projets/recit-defilant/exemple-chapitre-complexe.md){ .md-button }
 
 ## Devoirs
@@ -129,4 +129,4 @@ Avec la grille **Vérifiez votre travail** de chaque énoncé, puis *push* :
 
 ### D'ici le ven. 13 nov. : le prototype (formatif)
 
-Votre récit est **navigable et animé**. Vos chapitres peuvent encore être en HTML statique (temps 1). [Voir le calendrier](projets/recit-defilant/index.md#calendrier).
+Votre récit est **navigable et animé**. Vos chapitres peuvent encore être en HTML statique (phase 1, intégration statique). [Voir le calendrier](projets/recit-defilant/index.md#calendrier).

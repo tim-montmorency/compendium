@@ -14,13 +14,13 @@
 
 </div>
 
-!!! info "C'est le temps 2"
-    Votre récit se construit [en deux temps](arborescence-recit-defilant.md#deux-temps). Commencez par vos chapitres **en HTML statique**, animés : c'est le temps 1, accepté jusqu'au prototype (ven. 13 nov.). Cette page, c'est le **temps 2** : les chapitres construits depuis `data.json`, **exigés à la bêta** (ven. 20 nov.).
+!!! info "C'est la phase 2 : intégration dynamique"
+    Votre récit se construit [en deux phases](arborescence-recit-defilant.md#deux-phases). Commencez par vos chapitres **en HTML statique**, animés : c'est la phase 1, l'intégration statique, acceptée jusqu'au prototype (ven. 13 nov.). Cette page, c'est la **phase 2**, l'intégration dynamique : les chapitres construits depuis `data.json`, **exigés à la bêta** (ven. 20 nov.).
 
     Votre chargement JSON fonctionne déjà? Gardez-le : vous êtes en avance.
 
 [:material-file-tree: Arborescence du dépôt](arborescence-recit-defilant.md){ .md-button }
-[:material-swap-horizontal: Passer du HTML statique au JSON](arborescence-recit-defilant.md#temps-2){ .md-button }
+[:material-swap-horizontal: Passer du HTML statique au JSON](arborescence-recit-defilant.md#phase-2){ .md-button }
 
 ## Étape 0 : la structure commune (si ce n'est pas déjà fait)
 

@@ -5,7 +5,7 @@
 
 1. Un chapitre avec **plusieurs images et plusieurs animations** : une scène épinglée, 5 calques en traveling avant, deux personnages qui entrent, un fond qui passe au noir, et la tête du Chaperon qui se transforme en gueule pleine de dents (MorphSVG).
 2. Dans `data.json`, on range les médias selon leur rôle : **un tableau** quand ils se traitent tous pareil (les calques), **un objet avec des noms** quand chacun a sa propre animation (les personnages).
-3. Les **classes** sont le pont : `createMedia()` donne une classe à chaque élément, et `animate()` cible ces classes. Elle ne lit jamais le JSON. C'est pourquoi `animate()` est identique au [temps 1](arborescence-recit-defilant.md#html-temps-1) (HTML écrit à la main) et au [temps 2](arborescence-recit-defilant.md#temps-2) (HTML construit depuis le JSON).
+3. Les **classes** sont le pont : `createMedia()` donne une classe à chaque élément, et `animate()` cible ces classes. Elle ne lit jamais le JSON. C'est pourquoi `animate()` est identique à la [phase 1](arborescence-recit-defilant.md#html-phase-1) (intégration statique : HTML écrit à la main) et à la [phase 2](arborescence-recit-defilant.md#phase-2) (intégration dynamique : HTML construit depuis le JSON).
 
 </div>
 
@@ -22,7 +22,7 @@ Défilez dans la démo :
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-chapitre-complexe&onglets=html,js,resultat&actif=resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:560px;border:0" loading="lazy"></iframe>
 
-La démo contient le HTML **écrit à la main**, comme au temps 1. Plus bas, on voit comment le même HTML se construit depuis `data.json`.
+La démo contient le HTML **écrit à la main**, comme à la phase 1 (intégration statique). Plus bas, on voit comment le même HTML se construit depuis `data.json`.
 
 ## Les médias, et leur rôle { #medias }
 
@@ -245,9 +245,9 @@ Cinq choses à remarquer :
 
 `overflow: clip`, et non `hidden` : c'est [le même piège](../../css/animations-scroll.md#piege-overflow) qu'avec les animations CSS au défilement.
 
-## Au temps 1 : le même chapitre, en HTML { #temps-1 }
+## Phase 1 : le même chapitre, en HTML { #phase-1 }
 
-Au temps 1, vous écrivez **à la main** ce que `createMedia()` construirait, dans votre `<section>` de `index.html` :
+À la phase 1, vous écrivez **à la main** ce que `createMedia()` construirait, dans votre `<section>` de `index.html` :
 
 ```html
 <section class="chapitre" id="la-clairiere">
@@ -269,7 +269,7 @@ Au temps 1, vous écrivez **à la main** ce que `createMedia()` construirait, da
 </section>
 ```
 
-Mêmes classes, même ordre : la fonction `animate()` est **exactement la même**. Au temps 2, vous déplacez les chemins et les textes alternatifs dans le JSON, et le HTML dans `createMedia()`. Le SVG du morph, lui, reste dans le module. Voir [Passer au temps 2](arborescence-recit-defilant.md#temps-2).
+Mêmes classes, même ordre : la fonction `animate()` est **exactement la même**. À la phase 2, vous déplacez les chemins et les textes alternatifs dans le JSON, et le HTML dans `createMedia()`. Le SVG du morph, lui, reste dans le module. Voir [Passer à la phase 2](arborescence-recit-defilant.md#phase-2).
 
 ## À retenir { #a-retenir }
 
