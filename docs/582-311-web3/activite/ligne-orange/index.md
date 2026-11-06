@@ -44,10 +44,6 @@ Tout le HTML et le CSS sont déjà faits. Avant d'animer, prendre quelques minut
 
 - [ ] Repérer `#train` et `#wagon` à l'intérieur
 
-??? question "Pourquoi le wagon est-il dans un cadre&nbsp;?"
-
-    Le cadre `#train` est transparent et fait **exactement la hauteur de la piste**. Le wagon est placé en haut de ce cadre.
-
 - [ ] Ouvrir `src/gsap.js`. Tout le code de l'exercice devra être écrit dans la fonction `gsapAnimations()`.
 
 ### Activer ScrollTrigger
@@ -62,7 +58,7 @@ Tout le HTML et le CSS sont déjà faits. Avant d'animer, prendre quelques minut
   - [ ] Lissage par défaut de `power1.inOut`
   - [ ] Un `scrollTrigger` qui surveille `#ligne`
     - [ ] Débute à `"top top"`
-    - [ ] Fini à `"+=3000"` (l'animation dure 3000 pixels de défilement)
+    - [ ] Finit à `"+=3000"` (l'animation dure 3000 pixels de défilement)
     - [ ] pin à `true`
     - [ ] scrub à `1`
 - [ ] Ajouter un `.to()` sur `#train` pour chaque trajet&nbsp;:

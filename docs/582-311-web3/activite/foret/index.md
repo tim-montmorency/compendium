@@ -103,7 +103,7 @@ Quand on défile, la page monte. Les couches lointaines vont **descendre** un pe
   - [ ] Toutes les animations de la timeline doivent avoir un lissage linéaire
   - [ ] Un `scrollTrigger` qui surveille `#foret`
     - [ ] Débute à `"top top"` (dès le haut de la page)
-    - [ ] Fini à `"bottom top"` (quand la forêt sort de l'écran)
+    - [ ] Finit à `"bottom top"` (quand la forêt sort de l'écran)
     - [ ] scrub à `true`
 - [ ] Ajouter un `.to()` par couche, avec ces valeurs de `yPercent`&nbsp;:
 
@@ -136,7 +136,7 @@ Cette fois, la forêt reste **figée** à l'écran et chaque couche **grossit**.
   - [ ] Toutes les animations de la timeline doivent avoir un lissage `power1.out`
   - [ ] Un `scrollTrigger` qui surveille `#foret`
     - [ ] Débute à `"top top"`
-    - [ ] Fini à `"+=3000"` (l'animation dure 3000 pixels de défilement)
+    - [ ] Finit à `"+=3000"` (l'animation dure 3000 pixels de défilement)
     - [ ] pin à `true`
     - [ ] scrub à `1`
 - [ ] Ajouter un `.to()` par couche, avec ces valeurs de `scale`&nbsp;:
@@ -163,8 +163,12 @@ Les couches **glissent vers la gauche** au scroll. Plus une couche est proche, p
 
 - [ ] Mettre la timeline précédente en commentaire
 - [ ] Créer une timeline
-  - [ ] Toutes les animations de la timeline doivent avoir un lissage `power1.out`
-  - [ ] Fini à `"+=2000"`
+  - [ ] Toutes les animations de la timeline doivent avoir un lissage `power2.out`
+  - [ ] Un `scrollTrigger` qui surveille `#foret`
+    - [ ] Débute à `"top top"`
+    - [ ] Finit à `"+=2000"`
+    - [ ] pin à `true`
+    - [ ] scrub à `1`
 - [ ] Ajouter un `.to()` par couche, avec ces valeurs de `xPercent`&nbsp;:
 
     | Cible | `xPercent` |
