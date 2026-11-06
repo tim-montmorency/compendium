@@ -45,7 +45,12 @@ Une scène épinglée, 5 calques, deux personnages : un exemple complet.
 1. **Phase 1, intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. Accepté jusqu'au prototype (ven. 13 nov.).
 2. **Phase 2, intégration dynamique** : le texte et les médias déplacés dans `data.json`. Exigé à la bêta (ven. 20 nov.).
 
-Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la phase 2. [Les détails](projets/recit-defilant/arborescence-recit-defilant.md#deux-phases)
+Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la phase 2.
+
+Comment faire :
+
+- *PHASE 1 :* aujourd'hui, [écrire vos chapitres en HTML (phase 1)](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1), et [où mettre vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre);
+- *PHASE 2 :* plus tard, [passer à la phase 2](projets/recit-defilant/arborescence-recit-defilant.md#phase-2), puis [les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md).
 
 ## Rappel pour les images non créées pas vous même
 
