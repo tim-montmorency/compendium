@@ -12,6 +12,8 @@ tags:
 
 L'objectif de cet exercice est de **fabriquer son propre monstre**, puis d'animer la page **section par section** avec ScrollTrigger.
 
+[Site Web](https://tim-w3.github.io/monstre-dist){ .md-button .md-button--primary }
+
 <!--
 Notions mises en pratique :
 
@@ -56,14 +58,12 @@ Le projet est déjà monté avec Vite, Tailwind, DaisyUI et GSAP. La page est pr
 
 ### Étape 1 - Les finitions DaisyUI
 
-![](./preview.png){.w-50}
-
 - [ ] Activer un thème DaisyUI sombre dans `src/style.css` (par exemple `halloween`)
 - [ ] Dans la section `#commander`, construire une carte d'appel à l'action avec les [composantes DaisyUI](https://daisyui.com/components/) `card` et `btn`&nbsp;:
   - [ ] ID = `commande`
   - [ ] Titre 2 : « Ton monstre est prêt »
   - [ ] Un paragraphe : « Livraison sous le lit en 24 heures, partout au Québec. »
-  - [ ] Un bouton « Commander » qui mène vers [cette page](https://www.youtube.com/watch?v=xvFZjo5PgG0)&nbsp;: une balise `<a>` avec la classe `btn`
+  - [ ] Un bouton « Commander ». Une balise `<a>` avec la classe `btn`
 - [ ] Commit + push
 
 ### Activer ScrollTrigger
