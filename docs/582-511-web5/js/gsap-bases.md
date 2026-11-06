@@ -39,6 +39,26 @@ Comme Bootstrap et Anime.js, GSAP se charge avec une balise `<script>`, **avant*
 
 L'objet `gsap` est alors disponible partout, y compris dans vos modules de chapitres, sans `import`.
 
+### Attention à la version : GSAP 3, pas GSAP 2 { #version-3 }
+
+!!! warning "Dans le cours et dans votre récit : GSAP 3 seulement"
+    On travaille avec **GSAP 3** (la version 3.13). Mais beaucoup d'exemples sur le web (CodePen, tutoriels, réponses sur les forums, vieux sites primés) ont été écrits pour **GSAP 2**, la version d'avant 2019.
+
+    Les deux versions **ne sont pas entièrement compatibles**. GSAP 3 comprend encore une partie de l'ancienne écriture, mais pas tout : les extensions de GSAP 2 ne fonctionnent pas avec GSAP 3, certaines fonctions ont disparu, et charger les deux versions dans la même page donne des bogues difficiles à trouver.
+
+    **Vous trouvez une inspiration ailleurs? Vérifiez sa version avant de copier quoi que ce soit.** Si c'est du GSAP 2, gardez l'idée, et réécrivez le code en GSAP 3.
+
+Comment reconnaître du GSAP 2 :
+
+| GSAP 2 (l'ancienne écriture) | GSAP 3 (celle du cours) |
+|---|---|
+| `TweenMax.to(".box", 1, { x: 100 })` : la durée est un 2e argument | `gsap.to(".box", { x: 100, duration: 1 })` |
+| `TweenLite`, `TweenMax`, `TimelineLite`, `TimelineMax` | `gsap`, `gsap.timeline()` |
+| `ease: Power2.easeOut` | `ease: "power2.out"` |
+| `TweenMax.staggerTo(".box", 1, { x: 100 }, 0.1)` | `gsap.to(".box", { x: 100, stagger: 0.1 })` |
+| Un script `TweenMax.min.js`, ou `gsap/2.1.3` dans l'adresse | `gsap@3.13.0` dans l'adresse |
+| Le plugin `BezierPlugin` | [MotionPath](gsap-motionpath.md) |
+
 ## De Anime.js à GSAP
 
 Vous connaissez déjà la structure :

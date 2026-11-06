@@ -39,6 +39,9 @@ Depuis GSAP 3.13, **toutes les extensions sont gratuites**, sur le même CDN que
 
 Comme ScrollTrigger, l'extension est ensuite disponible dans tous vos modules de chapitre, sans `import`.
 
+!!! tip "Un exemple trouvé ailleurs? Vérifiez sa version"
+    Toutes les démos de cette page sont en **GSAP 3**. Sur le web, beaucoup d'exemples sont encore en GSAP 2, qui n'est pas entièrement compatible. [Comment reconnaître du GSAP 2](gsap-bases.md#version-3).
+
 !!! warning "Bezier, l'ancêtre"
     Sur le web, vous tomberez peut-être sur le plugin **Bezier** de GSAP. C'est l'ancêtre de MotionPath, remplacé en 2019 avec GSAP 3. Ne les confondez pas.
 
