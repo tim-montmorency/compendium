@@ -3,8 +3,6 @@
 *[GSAP]: GreenSock Animation Platform
 *[SVG]: Scalable Vector Graphics
 
-[STOP]
-
 ![](./assets/images/gsap-banner.jpg){.w-100}
 
 ## Plugin GSAP
@@ -168,6 +166,30 @@ snap: 0.25   // arrêts à 0, 0.25, 0.5, 0.75 et 1
 ```
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-snap&actif=js&modifiable=1&disposition=cote&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+#### Aimanter sur des étiquettes
+
+Un nombre comme `0.25` place les arrêts à intervalles **réguliers**. Quand les arrêts ne sont pas espacés également, on pose plutôt des **étiquettes** dans la timeline avec `.addLabel()`, puis on aimante le défilement sur ces étiquettes avec `snap: "labels"`.
+
+```js
+gsap.timeline({
+  scrollTrigger: {
+    trigger: ".scene",
+    start: "top top",
+    end: "+=2000",
+    pin: true,
+    scrub: 1,
+    snap: "labels"   // 👈 s'aimante à l'étiquette la plus proche
+  }
+})
+  .addLabel("départ")                       // une étiquette au début
+  .to(".boite", { x: 100, duration: 1 })
+  .addLabel("arrêt 1")                      // une étiquette après chaque arrêt
+  .to(".boite", { x: 400, duration: 3 })    // un trajet 3 fois plus long
+  .addLabel("arrivée")
+```
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-snap-tag&actif=js&modifiable=1&disposition=cote&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
 <div class="grid grid-1-2" markdown>
   ![](./activite/ligne-orange/preview.png){.aspect-4-3}
