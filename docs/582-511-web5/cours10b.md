@@ -103,6 +103,7 @@ Chacune a sa page-sujet, avec une démo, l'installation et un exemple pour un ch
 4. *Pull request* quand une étape fonctionne : on fusionne souvent, par petits morceaux.
 
 [:material-file-tree: Phase 1 : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
+
 [:material-movie-open-outline: Exemple : un chapitre, plusieurs médias en timeline](projets/recit-defilant/exemple-chapitre-complexe.md){ .md-button }
 
 ## Devoirs

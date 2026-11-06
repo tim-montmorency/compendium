@@ -1,4 +1,4 @@
-# :material-eye-outline:  IntersectionObserver : déclencher une fois
+# :material-eye-outline:  Intersection Observer: déclencher 1 fois
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
@@ -33,7 +33,7 @@ const observer = new IntersectionObserver((entries) => {
     observer.unobserve(entry.target);    // une seule fois
   });
 }, {
-  rootMargin: "0px 0px -20% 0px",        // 20 % avant le bas de l'écran
+  threshold: 1,                          // visible à 100 %
 });
 
 document.querySelectorAll(".card").forEach((card) => {
@@ -47,9 +47,10 @@ Les morceaux :
 - **`entry.isIntersecting`** : `true` si l'élément est dans l'écran.
 - **`entry.target`** : l'élément lui-même.
 - **`observer.unobserve()`** : on arrête de le surveiller. C'est ce qui fait « une seule fois ».
+- **`threshold`** : la part de l'élément qui doit être visible. `0` (par défaut) : dès le premier pixel. `0.5` : la moitié. `1` : l'élément au complet.
 - **`rootMargin`** : agrandit ou rétrécit la zone de l'écran. `"0px 0px -20% 0px"` : il faut que l'élément monte de 20 % dans l'écran. `"0px 0px 50% 0px"` : il se déclenche une demi-hauteur d'écran **avant** d'entrer (pratique pour charger des données d'avance).
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-intersection-observer&onglets=js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:850px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-intersection-observer&onglets=js,html,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:850px;border:0" loading="lazy"></iframe>
 
 ## Dans votre récit
 
