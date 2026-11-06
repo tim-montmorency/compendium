@@ -78,20 +78,20 @@ Pas pour animer : pour **déclencher une action**, une seule fois. C'est la bonn
 
 [:material-eye-outline: IntersectionObserver : déclencher une fois](js/intersection-observer.md){ .md-button }
 
-## 3. :material-puzzle-outline:  Explorer les extensions de GSAP
+## 3. :material-puzzle-outline:  Explorer les extensions GSAP
 
 GSAP a des **extensions** pour des effets qu'on ne fait pas avec un simple tween : faire apparaître un titre lettre par lettre, faire suivre un chemin à un personnage, dessiner un trait, transformer une forme en une autre. Depuis GSAP 3.13, elles sont toutes gratuites, sur le même CDN que GSAP.
 
 Chacune a sa page-sujet, avec une démo, l'installation et un exemple pour un chapitre de votre récit. Prenez le temps de les parcourir : l'une d'elles pourrait devenir le moment fort d'un de vos chapitres.
 
-- [TextPlugin : la machine à écrire](js/gsap-text.md)
-- [SplitText : des lettres, des mots, des lignes](js/gsap-splittext.md)
-- [ScrambleText : l'effet décodage](js/gsap-scrambletext.md)
-- [MotionPath : suivre un tracé](js/gsap-motionpath.md)
-- [DrawSVG : dessiner un trait](js/gsap-drawsvg.md)
-- [MorphSVG : changer de forme](js/gsap-morphsvg.md)
-- [Flip : changer de mise en page](js/gsap-flip.md)
-- [ScrollTo : défiler jusqu'à un chapitre](js/gsap-scrollto.md)
+- :material-format-text: [TextPlugin : la machine à écrire](js/gsap-text.md)
+- :material-format-letter-case: [SplitText : des lettres, des mots, des lignes](js/gsap-splittext.md)
+- :material-shuffle-variant: [ScrambleText : l'effet décodage](js/gsap-scrambletext.md)
+- :material-vector-curve: [MotionPath : suivre un tracé](js/gsap-motionpath.md)
+- :material-draw: [DrawSVG : dessiner un trait](js/gsap-drawsvg.md)
+- :material-shape-outline: [MorphSVG : changer de forme](js/gsap-morphsvg.md)
+- :material-view-grid-outline: [Flip : changer de mise en page](js/gsap-flip.md)
+- :material-arrow-down-circle-outline: [ScrollTo : défiler jusqu'à un chapitre](js/gsap-scrollto.md)
 
 ## 4. :material-account-multiple-outline:  Dans votre projet : construire vos chapitres
 

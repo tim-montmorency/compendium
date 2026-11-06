@@ -13,7 +13,7 @@
 
 ## Ce que ça fait { #ce-que-ca-fait }
 
-<iframe height="640" style="width: 100%;" scrolling="no" title="TextPlugin : exemple" src="https://codepen.io/tim-momo/embed/JjVeNBZ?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="640" style="width: 100%;" scrolling="no" title="TextPlugin : exemple" src="https://codepen.io/tim-momo/embed/JjVeNBZ?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [TextPlugin : exemple](https://codepen.io/tim-momo/pen/JjVeNBZ){ :target="_blank" }</small>
 
@@ -52,11 +52,11 @@ gsap.to(".narration", {
 
 `ease: "none"` donne un rythme régulier, comme une machine à écrire.
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="TextPlugin : remplacer un texte" src="https://codepen.io/tim-momo/embed/MWRZwKw?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="300" style="width: 100%;" scrolling="no" title="TextPlugin : remplacer un texte" src="https://codepen.io/tim-momo/embed/MWRZwKw?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [TextPlugin : remplacer un texte](https://codepen.io/tim-momo/pen/MWRZwKw){ :target="_blank" }</small>
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="TextPlugin : autre exemple" src="https://codepen.io/tim-momo/embed/ExJGjyZ?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="TextPlugin : autre exemple" src="https://codepen.io/tim-momo/embed/ExJGjyZ?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [TextPlugin : autre exemple](https://codepen.io/tim-momo/pen/ExJGjyZ){ :target="_blank" }</small>
 

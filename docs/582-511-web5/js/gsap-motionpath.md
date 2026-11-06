@@ -15,7 +15,7 @@
 
 L'hélicoptère suit un tracé, et pivote dans le sens de la courbe.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : l'hélicoptère, de Chris Dyer" src="https://codepen.io/tim-momo/embed/WNmPwXM?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : l'hélicoptère, de Chris Dyer" src="https://codepen.io/tim-momo/embed/WNmPwXM?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : l'hélicoptère, de Chris Dyer](https://codepen.io/tim-momo/pen/WNmPwXM){ :target="_blank" }</small>
 
@@ -56,13 +56,13 @@ gsap.to(".carre", {
 !!! info "Obtenir un tracé"
     Dessinez votre courbe dans Adobe Illustrator (outil plume), exportez-la en SVG, et donnez un `id` au `<path>`.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : utilisation de base" src="https://codepen.io/tim-momo/embed/eYXxZyx?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : utilisation de base" src="https://codepen.io/tim-momo/embed/eYXxZyx?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : utilisation de base](https://codepen.io/tim-momo/pen/eYXxZyx){ :target="_blank" }</small>
 
 GSAP lit les coordonnées du tracé et les applique en `transform` à l'élément. Mais attention : l'élément **ne se superpose pas** au tracé. Il fait le même trajet, à partir de **sa propre position**. Ici, le SVG est déplacé à droite, et le carré fait exactement le même parcours qu'avant :
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : le SVG déplacé" src="https://codepen.io/tim-momo/embed/ZEPwWrV?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : le SVG déplacé" src="https://codepen.io/tim-momo/embed/ZEPwWrV?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : le SVG déplacé](https://codepen.io/tim-momo/pen/ZEPwWrV){ :target="_blank" }</small>
 
@@ -70,7 +70,7 @@ GSAP lit les coordonnées du tracé et les applique en `transform` à l'élémen
 
 Pour régler le comportement, `motionPath` reçoit un objet. Le tracé va alors dans `path`.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : avec un objet" src="https://codepen.io/tim-momo/embed/poYGyLO?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : avec un objet" src="https://codepen.io/tim-momo/embed/poYGyLO?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : avec un objet](https://codepen.io/tim-momo/pen/poYGyLO){ :target="_blank" }</small>
 
@@ -78,7 +78,7 @@ Pour régler le comportement, `motionPath` reçoit un objet. Le tracé va alors 
 
 `align` superpose l'élément au tracé : il le suit là où il est vraiment dessiné.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : align" src="https://codepen.io/tim-momo/embed/QWoYNrr?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : align" src="https://codepen.io/tim-momo/embed/QWoYNrr?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : align](https://codepen.io/tim-momo/pen/QWoYNrr){ :target="_blank" }</small>
 
@@ -94,11 +94,11 @@ motionPath: {
 },
 ```
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : alignOrigin, exemple 1" src="https://codepen.io/tim-momo/embed/JjzxKNE?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : alignOrigin, exemple 1" src="https://codepen.io/tim-momo/embed/JjzxKNE?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : alignOrigin, exemple 1](https://codepen.io/tim-momo/pen/JjzxKNE){ :target="_blank" }</small>
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : alignOrigin, exemple 2" src="https://codepen.io/tim-momo/embed/JjVwrxL?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : alignOrigin, exemple 2" src="https://codepen.io/tim-momo/embed/JjVwrxL?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : alignOrigin, exemple 2](https://codepen.io/tim-momo/pen/JjVwrxL){ :target="_blank" }</small>
 
@@ -106,13 +106,13 @@ motionPath: {
 
 `0` est le début du tracé, `1` la fin. `start: 0.5` commence à mi-chemin :
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : start" src="https://codepen.io/tim-momo/embed/wvONGXp?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : start" src="https://codepen.io/tim-momo/embed/wvONGXp?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : start](https://codepen.io/tim-momo/pen/wvONGXp){ :target="_blank" }</small>
 
 Et en inversant `start` et `end`, l'élément parcourt le tracé à l'envers :
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : à l'envers" src="https://codepen.io/tim-momo/embed/zYbeqaV?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : à l'envers" src="https://codepen.io/tim-momo/embed/zYbeqaV?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : à l'envers](https://codepen.io/tim-momo/pen/zYbeqaV){ :target="_blank" }</small>
 
@@ -120,7 +120,7 @@ Et en inversant `start` et `end`, l'élément parcourt le tracé à l'envers :
 
 `autoRotate: true` fait pivoter l'élément dans le sens du tracé, comme une voiture dans un virage.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : autoRotate" src="https://codepen.io/tim-momo/embed/mdovEWX?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : autoRotate" src="https://codepen.io/tim-momo/embed/mdovEWX?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : autoRotate](https://codepen.io/tim-momo/pen/mdovEWX){ :target="_blank" }</small>
 
@@ -131,17 +131,17 @@ Et en inversant `start` et `end`, l'élément parcourt le tracé à l'envers :
 
 On peut aussi donner un tableau de coordonnées. GSAP trace une courbe qui passe par chaque point, à partir de la position de l'élément.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : des coordonnées" src="https://codepen.io/tim-momo/embed/wvONWzE?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : des coordonnées" src="https://codepen.io/tim-momo/embed/wvONWzE?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : des coordonnées](https://codepen.io/tim-momo/pen/wvONWzE){ :target="_blank" }</small>
 
 `curviness` règle la courbe : `1` par défaut, `0` pour des lignes droites, plus de `1` pour des courbes plus prononcées.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : curviness 0" src="https://codepen.io/tim-momo/embed/yLwZJVm?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : curviness 0" src="https://codepen.io/tim-momo/embed/yLwZJVm?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : curviness 0](https://codepen.io/tim-momo/pen/yLwZJVm){ :target="_blank" }</small>
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : curviness prononcée" src="https://codepen.io/tim-momo/embed/gOEqMgz?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MotionPath : curviness prononcée" src="https://codepen.io/tim-momo/embed/gOEqMgz?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MotionPath : curviness prononcée](https://codepen.io/tim-momo/pen/gOEqMgz){ :target="_blank" }</small>
 
