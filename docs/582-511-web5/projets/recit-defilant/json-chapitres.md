@@ -9,8 +9,8 @@
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. Vous connaissez déjà la mécanique : [`fetch`](../../js/recap-js.md#async), [`forEach`](../../js/recap-js.md#foreach), [gabarit littéral](../../js/recap-js.md#gabarits). Vous l'avez utilisée pour les projets de votre portfolio. Cette fois, ce sont **vos chapitres**, dans **votre récit**.
-2. On avance en équipe : la **structure commune** sur `main`, puis **une personne** code le chargement des chapitres sur sa branche pendant que **l'autre** remplit ses chapitres dans `data.json`.
-3. À la fin, votre page affiche tous vos chapitres, chargés depuis le JSON, et votre premier vrai conflit est peut-être réglé.
+2. Deux parties : **ensemble**, sur un seul poste, vous codez le chargement des chapitres dans `main.js`, en alternant au clavier. Puis **chacun, sur sa branche**, passe **ses** chapitres dans `data.json` et dans `createMedia()`.
+3. À la fin, votre page affiche tous vos chapitres, chargés depuis le JSON, et chacun a sa *pull request*.
 
 </div>
 
@@ -29,7 +29,7 @@
 Sinon, **ensemble, sur un seul poste**, sur `main` :
 
 1. Créez tous les fichiers décrits dans [L'arborescence du dépôt](arborescence-recit-defilant.md) : les fichiers communs, et **un fichier CSS et un fichier JS par chapitre, même vides**, avec tous les `@import` et les `import` déjà écrits.
-2. Dans `index.html`, un `<main id="recit"></main>` vide, et `main.js` chargé comme module (`type="module"`) : le code est fourni dans la page de l'arborescence.
+2. Dans `index.html`, un `<main id="recit">` et `main.js` chargé comme module (`type="module"`) : le code est fourni dans la page de l'arborescence. Si vous venez de la phase 1, vos `<section>` statiques y sont encore : vous les retirerez à l'étape 4.
 3. Dans `data/data.json`, **le squelette de tous vos chapitres**, dans l'ordre du récit : un objet par chapitre, avec les **clés communes** (`id`, `numero`, `titre`, `responsable`, `texte`) et un **`"contenu": {}`** vide. Le format est expliqué dans [Les données : `data.json`](arborescence-recit-defilant.md#data-json).
 
     Votre section 5 du cahier de charges prévoyait un autre format? Pas de problème : gardez les clés communes ci-dessus, et rangez vos autres idées (médias, calques, plans...) dans le `contenu` de chaque chapitre, à mesure que vous en aurez besoin.
@@ -39,16 +39,17 @@ Sinon, **ensemble, sur un seul poste**, sur `main` :
 
 Pourquoi le squelette d'abord? Parce que chacun remplira ensuite **ses** objets, et son `contenu`. Si chacun ajoute ses chapitres à la fin du fichier, vous modifiez les mêmes lignes : le conflit est garanti.
 
-## Qui fait quoi
+## Qui fait quoi { #qui-fait-quoi }
 
 | | Personne A | Personne B |
 |---|---|---|
-| Sur sa branche | Le code : les étapes 1 à 6 dans `js/main.js` | Le texte de **ses** chapitres dans `data.json` (des paragraphes de *lorem ipsum* suffisent pour l'instant) |
-| À la fin | Une *pull request* vers `main` | Une *pull request* vers `main` |
+| **1. Ensemble, un seul poste, sur `main`** | Au clavier pour les étapes 1 à 3 : charger, parcourir, le HTML d'un chapitre | Au clavier pour les étapes 4 à 6 : tous les chapitres dans la page, le média, `animate()` |
+| **2. Chacun, sur sa branche** | Passe **ses** chapitres dans les données (voir [plus bas](#chacun-ses-chapitres)) | Passe **ses** chapitres dans les données |
+| **3. À la fin** | Une *pull request* vers `main` | Une *pull request* vers `main` |
 
-Puis vous inversez pour la suite : B remplira aussi ses chapitres, A les siens.
+Pourquoi ensemble pour `main.js`? C'est un fichier commun : si chacun en écrit un bout sur sa branche, le conflit est garanti. Et en alternant au clavier, **les deux** écrivent du code de chargement, et les deux doivent pouvoir l'expliquer. Celui qui n'est pas au clavier n'est pas spectateur : il lit, propose, et repère les erreurs.
 
-## Les étapes, pour la personne A
+## Partie 1 : les étapes, ensemble { #ensemble }
 
 Vous avez fait la même chose dans l'[exercice « Du JSON à la carte »](../../exercices/ex-json-cartes/index.md) : gardez-le ouvert, et transposez. Chaque étape se vérifie dans le navigateur (Live Server) avant de passer à la suivante.
 
@@ -76,7 +77,7 @@ Une fonction `createChapter(chapter)` qui retourne, avec un [gabarit littéral](
 
 ### Étape 4 : tous les chapitres dans la page
 
-Ajoutez le HTML de **chaque** chapitre dans `<main id="recit">`.
+Retirez vos `<section>` statiques de `index.html` : `<main id="recit">` est maintenant vide. Puis ajoutez-y le HTML de **chaque** chapitre, construit par `createChapter`.
 
 **Vérification** : tous vos titres apparaissent dans la page, dans l'ordre du récit. Si un chapitre n'a pas encore de texte, il n'affiche que son titre : c'est normal.
 
@@ -86,22 +87,34 @@ Le média de chaque chapitre est différent : une parallaxe, une spritesheet, un
 
 Ajoutez un deuxième paramètre à `createChapter` : le module du chapitre. Puis, dans la `<section>`, après les paragraphes, ajoutez le HTML retourné par `chapterModule.createMedia(chapter)`. Le code est fourni dans [L'arborescence du dépôt](arborescence-recit-defilant.md#main-js).
 
-**Vérification** : dans `ch-03.js`, faites retourner temporairement `<p>Média du chapitre 3</p>` à `createMedia`. Le texte apparaît sous les paragraphes du chapitre 3.
+**Pour que la page continue de fonctionner** : chacun copie le HTML du média de **ses** chapitres, tel quel, depuis son ancienne `<section>`, dans le `return` de son `createMedia()`. Vous le relierez aux données à la partie 2.
+
+**Vérification** : vos médias réapparaissent sous les paragraphes de chaque chapitre.
 
 ### Étape 6 : brancher les fichiers des chapitres
 
 À la fin de `init()`, une fois tout le HTML dans la page, appelez la fonction `animate` du module de chaque chapitre, avec sa `<section>` et ses données. Le code est fourni dans [L'arborescence du dépôt](arborescence-recit-defilant.md#main-js).
 
-**Vérification** : ajoutez temporairement un `console.log("chapitre 3 prêt")` dans `animate` de `ch-03.js`. Le message apparaît dans la console.
+**Vérification** : les animations que vous aviez à la phase 1 fonctionnent de nouveau. Un chapitre n'a pas encore d'animation? Ajoutez temporairement un `console.log("chapitre 3 prêt")` dans son `animate` : le message apparaît dans la console.
 
-## Les *pull requests*
+*Commit* (`Commun : charge les chapitres depuis data.json`), puis *push*. L'autre personne fait un *pull*.
 
-1. Chacun fait un *commit* et un *push* sur sa branche (ex. `Données : remplit les chapitres 3 et 4`, `Commun : charge les chapitres avec fetch`).
+## Partie 2 : chacun ses chapitres { #chacun-ses-chapitres }
+
+**Chacun sur sa branche**, après l'avoir mise à jour avec `main` ([étape 5 de Git en équipe](git-en-equipe.md#etape-5)) :
+
+1. **Le texte** : le vrai titre et les vrais paragraphes de vos chapitres, dans **vos** objets de `data.json`.
+2. **Le média** : dans `createMedia()`, remplacez ce qui vient des données par `${...}` (les chemins des images, les textes alternatifs), et rangez ces valeurs dans le `contenu` de votre chapitre. Le détail : [Passer à la phase 2](arborescence-recit-defilant.md#phase-2).
+3. **Vérification** : vos chapitres s'affichent comme avant, et vos animations fonctionnent toujours.
+
+## Les *pull requests* { #pull-requests }
+
+1. Chacun fait un *commit* et un *push* sur sa branche (ex. `Chapitre 3 : passe le texte et le média dans data.json`).
 2. :material-github: Chacun ouvre une *pull request* vers `main`, comme à la partie 4 de l'[exercice du conflit](../../exercices/ex-conflit-git/index.md).
-3. La première PR passe. Pour la deuxième, si GitHub signale un conflit : réglez-le **sur votre poste**, en mettant votre branche à jour avec `main` ([étape 5 de Git en équipe](git-en-equipe.md#etape-5)).
+3. La première PR passe. Pour la deuxième, si GitHub signale un conflit (vous avez touché à des lignes voisines de `data.json`) : réglez-le **sur votre poste**, en mettant votre branche à jour avec `main` ([étape 5 de Git en équipe](git-en-equipe.md#etape-5)).
 4. Chacun met ensuite sa branche à jour avec `main`.
 
-**Résultat** : sur `main`, la page affiche vos chapitres, chargés depuis `data.json`, avec les textes de B.
+**Résultat** : sur `main`, la page affiche tous vos chapitres, chargés depuis `data.json`, avec leurs médias et leurs animations.
 
 !!! danger "Live Server obligatoire"
     `fetch()` ne fonctionne pas si vous ouvrez `index.html` en double-cliquant (adresse `file:///...`). Il faut Live Server.
