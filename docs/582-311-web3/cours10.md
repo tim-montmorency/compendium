@@ -166,7 +166,7 @@ maTL.to(".triangle", { rotation: 360 }) // ensuite
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-timeline-scrub&actif=js&modifiable=1&disposition=cote&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/monstre/thumb.webp){.aspect-4-3}
+  ![](./activite/monstre/prev.png){.aspect-4-3}
 
   <small>Exercice - DaisyUI + GSAP</small><br>
   **[Monstruosité Inc.](./activite/monstre/index.md){.stretched-link .back}**
