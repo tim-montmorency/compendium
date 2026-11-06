@@ -99,10 +99,11 @@ Chacune a sa page-sujet, avec une démo, l'installation et un exemple pour un ch
 
 1. Le HTML de vos sections, directement dans `index.html` : le texte, puis vos médias.
 2. Le CSS de vos chapitres, dans `css/chapitres/`.
-3. Vos animations dans `animate()` : CSS au défilement, GSAP, ScrollTrigger.
+3. Vos animations JavaScript dans la fonction `animate()` du fichier de votre chapitre (`js/chapitres/ch-03.js`) : GSAP, ScrollTrigger. Les animations CSS au défilement, elles, vont dans `css/chapitres/`.
 4. *Pull request* quand une étape fonctionne : on fusionne souvent, par petits morceaux.
 
 [:material-file-tree: Phase 1 : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
+[:material-language-javascript: Phase 1 : vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre){ .md-button }
 
 [:material-movie-open-outline: Exemple : un chapitre, plusieurs médias en timeline](projets/recit-defilant/exemple-chapitre-complexe.md){ .md-button }
 
