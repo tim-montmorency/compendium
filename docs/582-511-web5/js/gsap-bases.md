@@ -235,7 +235,9 @@ Pour tester : dans Chrome, inspecteur → menu **⋮** → **More tools** → **
 
 ## Aller plus loin : les extensions { #extensions }
 
-Des effets à explorer pour votre récit, si votre histoire en a besoin. Toutes gratuites, sur le même CDN que GSAP.
+Des effets à explorer pour votre récit. Toutes gratuites, sur le même CDN que GSAP.
+
+**Exigence du projet** : votre récit doit utiliser **au moins une** de ces extensions, au moins une fois par équipe. ScrollTrigger ne compte pas : il est déjà exigé.
 
 | Extension | Ce qu'elle fait |
 |---|---|

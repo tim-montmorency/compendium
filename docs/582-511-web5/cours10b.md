@@ -105,6 +105,9 @@ GSAP a des **extensions** pour des effets qu'on ne fait pas avec un simple tween
 
 Chacune a sa page-sujet, avec une démo, l'installation et un exemple pour un chapitre de votre récit. Prenez le temps de les parcourir : l'une d'elles pourrait devenir le moment fort d'un de vos chapitres.
 
+!!! warning "Nouvelle exigence du projet : au moins une extension"
+    Votre récit doit contenir **au moins un effet** fait avec une extension de GSAP, au moins une fois par équipe. ScrollTrigger ne compte pas : il est déjà exigé. Choisissez l'extension qui sert votre histoire. [Voir les exigences du projet](projets/recit-defilant/index.md#ce-qui-est-obligatoire)
+
 - :material-format-text: [TextPlugin : la machine à écrire](js/gsap-text.md)
 - :material-format-letter-case: [SplitText : des lettres, des mots, des lignes](js/gsap-splittext.md)
 - :material-shuffle-variant: [ScrambleText : l'effet décodage](js/gsap-scrambletext.md)

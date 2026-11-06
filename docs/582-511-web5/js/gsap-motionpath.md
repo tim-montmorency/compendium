@@ -9,7 +9,7 @@
 
 </div>
 
-*Une extension à explorer, si votre récit en a besoin. Elle n'est pas obligatoire : choisissez-la parce qu'elle sert votre histoire.*
+*Votre récit doit utiliser **au moins une extension de GSAP** (autre que ScrollTrigger), au moins une fois par équipe. Choisissez celle qui sert votre histoire.*
 
 ## Ce que ça fait { #ce-que-ca-fait }
 
