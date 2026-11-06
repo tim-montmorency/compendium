@@ -40,13 +40,29 @@ Une scène épinglée, 5 calques, deux personnages : un exemple complet.
 
 </div>
 
-## Annonce
+## Nouveau : votre récit se construit en deux phases.
 
-!!! info "Nouveau : votre récit se construit en deux phases"
-    1. **Phase 1, intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. Accepté jusqu'au prototype (ven. 13 nov.).
-    2. **Phase 2, intégration dynamique** : le texte et les médias déplacés dans `data.json`. Exigé à la bêta (ven. 20 nov.).
+1. **Phase 1, intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. Accepté jusqu'au prototype (ven. 13 nov.).
+2. **Phase 2, intégration dynamique** : le texte et les médias déplacés dans `data.json`. Exigé à la bêta (ven. 20 nov.).
 
-    Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la phase 2. [Les détails](projets/recit-defilant/arborescence-recit-defilant.md#deux-phases)
+Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la phase 2. [Les détails](projets/recit-defilant/arborescence-recit-defilant.md#deux-phases)
+
+## Rappel pour les images non créées pas vous même
+
+- **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ :target="_blank" }, [Pexels](https://www.pexels.com/){ :target="_blank" }), selon leur licence.
+- **Images générées par IA permises**, si elles sont créditées dans le `README.md`, avec l'outil comme source.
+- **Autre images qui ne sont pas de vous**
+  
+**Tous les médias sont crédités** dans le `README.md`, dans un tableau : média, chapitre, source, auteur, licence, modifié ou non.
+
+```markdown
+## Crédits des médias
+
+| Média | Chapitre | Source | Auteur | Licence | Modifié? |
+|---|---|---|---|---|---|
+| `foret-fond.webp` | 1 | [Unsplash](lien) | Nom auteur | Licence Unsplash | Découpé 3 calques |
+| `renard.svg` | 3 | Firefly | Généré par IA | : | Vectorisé, groupes nommés |
+```
 
 ## Aujourd'hui
 
