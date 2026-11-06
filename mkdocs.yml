@@ -349,11 +349,12 @@ nav:
         - CSS responsive:
             - Media queries, breakpoints: 582-211-web2/css/mediaqueries-breakpoints.md
             - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
-      - Recap JavaScript: 582-511-web5/js/recap-js.md
+      - JavaScript:
+          - Recap JavaScript: 582-511-web5/js/recap-js.md
+          - IntersectionObserver: 582-511-web5/js/intersection-observer.md
       - GSAP (librairie JavaScript):
         - Tweens et timelines: 582-511-web5/js/gsap-bases.md
         - ScrollTrigger: 582-511-web5/js/gsap-scrolltrigger.md
-        - IntersectionObserver: 582-511-web5/js/intersection-observer.md
         - Extensions:
           - "TextPlugin : machine à écrire": 582-511-web5/js/gsap-text.md
           - "SplitText : lettres, mots, lignes": 582-511-web5/js/gsap-splittext.md
