@@ -11,7 +11,7 @@ Un plugin ajoute des fonctionnalités supplémentaires aux fonctionnalités d'an
 
 ### Activer un plugin
 
-Pour activer un plugin, par exemple ***ScrollTrigger*** on doit d'abord l'importer, ensuite spécifier sont usage avec `registerPlugin` : 
+Pour activer un plugin, par exemple ***ScrollTrigger*** on doit d'abord l'importer, ensuite spécifier son usage avec `registerPlugin` : 
 
 ```js title="src/gsap.js" hl_lines="2 4"
 import gsap from "gsap"
@@ -132,7 +132,7 @@ Le `scrollTrigger` peut aussi se placer **sur une timeline** plutôt que sur cha
 
 ```js
 let maTL = gsap.timeline({
-  defaults: { ease: "none" }, // 👈 Lissage général du timeline
+  defaults: { ease: "none" }, // 👈 Lissage général de la timeline
   scrollTrigger: {
     trigger: ".scene",
     start: "top top",
@@ -227,7 +227,7 @@ La **parallaxe**, c'est l'illusion de profondeur créée quand les plans lointai
 
 Une scène en parallaxe est faite de **couches** empilées au même endroit (`position: absolute`), du plus loin au plus proche. Chaque couche reçoit sa propre vitesse ou sa propre amplitude&nbsp;: c'est la **différence** entre les couches qui crée la profondeur.
 
-### Parallaxe infini
+### Parallaxe infinie
 
 ![type:video](./assets/videos/side-scroller-parallax.webm){.h-auto .w-50}
 
