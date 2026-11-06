@@ -299,7 +299,7 @@ Un **module**, c'est un fichier JavaScript qui garde ses variables et ses foncti
 
 Vous n'avez pas à maîtriser les modules en détail : utilisez le code ci-dessous tel quel, et complétez-le.
 
-### Le fichier d'un chapitre
+### Le fichier d'un chapitre { #fichier-chapitre }
 
 Chaque chapitre exporte **deux fonctions**, toujours les mêmes. `main.js` les appelle et leur donne l'objet du chapitre dans `data.json` (`chapter`).
 

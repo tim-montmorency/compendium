@@ -40,13 +40,34 @@ Une scène épinglée, 5 calques, deux personnages : un exemple complet.
 
 </div>
 
-## Annonce
+## Nouveau : votre récit se construit en deux phases.
 
-!!! info "Nouveau : votre récit se construit en deux phases"
-    1. **Phase 1, intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. Accepté jusqu'au prototype (ven. 13 nov.).
-    2. **Phase 2, intégration dynamique** : le texte et les médias déplacés dans `data.json`. Exigé à la bêta (ven. 20 nov.).
+1. **Phase 1, intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. Accepté jusqu'au prototype (ven. 13 nov.).
+2. **Phase 2, intégration dynamique** : le texte et les médias déplacés dans `data.json`. Exigé à la bêta (ven. 20 nov.).
 
-    Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la phase 2. [Les détails](projets/recit-defilant/arborescence-recit-defilant.md#deux-phases)
+Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la phase 2.
+
+Comment faire :
+
+- *PHASE 1 :* aujourd'hui, [écrire vos chapitres en HTML (phase 1)](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1), et [où mettre vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre);
+- *PHASE 2 :* plus tard, [passer à la phase 2](projets/recit-defilant/arborescence-recit-defilant.md#phase-2), puis [les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md).
+
+## Rappel pour les images non créées pas vous même
+
+- **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ :target="_blank" }, [Pexels](https://www.pexels.com/){ :target="_blank" }), selon leur licence.
+- **Images générées par IA permises**, si elles sont créditées dans le `README.md`, avec l'outil comme source.
+- **Autre images qui ne sont pas de vous**
+  
+**Tous les médias sont crédités** dans le `README.md`, dans un tableau : média, chapitre, source, auteur, licence, modifié ou non.
+
+```markdown
+## Crédits des médias
+
+| Média | Chapitre | Source | Auteur | Licence | Modifié? |
+|---|---|---|---|---|---|
+| `foret-fond.webp` | 1 | [Unsplash](lien) | Nom auteur | Licence Unsplash | Découpé 3 calques |
+| `renard.svg` | 3 | Firefly | Généré par IA | : | Vectorisé, groupes nommés |
+```
 
 ## Aujourd'hui
 
@@ -99,10 +120,11 @@ Chacune a sa page-sujet, avec une démo, l'installation et un exemple pour un ch
 
 1. Le HTML de vos sections, directement dans `index.html` : le texte, puis vos médias.
 2. Le CSS de vos chapitres, dans `css/chapitres/`.
-3. Vos animations dans `animate()` : CSS au défilement, GSAP, ScrollTrigger.
+3. Vos animations JavaScript dans la fonction `animate()` du fichier de votre chapitre (`js/chapitres/ch-03.js`) : GSAP, ScrollTrigger. Les animations CSS au défilement, elles, vont dans `css/chapitres/`.
 4. *Pull request* quand une étape fonctionne : on fusionne souvent, par petits morceaux.
 
 [:material-file-tree: Phase 1 : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
+[:material-language-javascript: Phase 1 : vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre){ .md-button }
 
 [:material-movie-open-outline: Exemple : un chapitre, plusieurs médias en timeline](projets/recit-defilant/exemple-chapitre-complexe.md){ .md-button }
 
