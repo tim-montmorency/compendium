@@ -231,6 +231,9 @@ Restez souple : si aucune API ne fournit exactement vos données, on ajustera l'
 
 Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documentation/CAHIER-DE-CHARGES.md`. Remplacez les indications entre crochets.
 
+!!! warning "Ajout de novembre : l'extension GSAP dans la matrice"
+    Votre cahier est déjà remis? Ajoutez simplement, dans la **section 4** de votre `CAHIER-DE-CHARGES.md`, la ligne **Extension GSAP** : quelle extension, dans quel chapitre, et **qui** l'intègre. Voir [l'exigence](index.md#ce-qui-est-obligatoire).
+
 !!! tip "la section 8 n'est pas à remplir pour le 23 oct."
     La section 8 n'est pas à remplir pour le 23 oct. vous choisirez vos technologies plus tard.
 
@@ -285,6 +288,7 @@ Vérification : chaque technique (CSS au défilement, GSAP + ScrollTrigger, Inte
 | Média animable 1 : [format] | [Prénom] | Préparation et intégration |
 | Média animable 2 : [format] | [Prénom] | Préparation et intégration |
 | Composant Vue : [navigateur de chapitres ou barre de progression] | [Prénom] | |
+| Extension GSAP : [nom de l'extension], chapitre [numéro] | [Prénom] | L'effet et son intégration |
 | *Fetch* externe et dataviz | [Prénom] | |
 | Chargement des chapitres (JSON) | [Prénom] | |
 | Structure commune (HTML, CSS de base, mise en page) | [Ensemble ou Prénom] | |
