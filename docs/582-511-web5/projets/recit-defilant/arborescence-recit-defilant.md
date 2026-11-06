@@ -403,6 +403,8 @@ init();
 
 L'ordre du tableau `chapterModules` doit suivre l'ordre des chapitres dans `data.json` : le 3e objet du JSON va avec le 3e module.
 
+`.map()` transforme chaque chapitre en HTML, et `.join("")` colle le tout en un seul texte : voir [Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join). Et `forEach` : [Récap JS : parcourir un tableau](../../js/recap-js.md#foreach).
+
 !!! warning "Live Server obligatoire"
     Les modules, comme `fetch()`, ne fonctionnent pas si vous ouvrez `index.html` en double-cliquant (adresse `file:///...`). Ouvrez toujours la page avec Live Server.
 
@@ -414,7 +416,7 @@ L'ordre du tableau `chapterModules` doit suivre l'ordre des chapitres dans `data
 Votre chapitre fonctionne en HTML statique? Pour le passer aux données, chapitre par chapitre :
 
 1. **Le texte** : copiez le titre et les paragraphes de votre `<section>` dans votre objet de `data.json` (`titre`, `texte`).
-2. **Le média** : copiez le HTML de votre média dans `createMedia()`, dans le gabarit littéral (les accents graves). Remplacez ce qui vient des données par `${...}`, par exemple les chemins des images : `${chapter.contenu.fond}`.
+2. **Le média** : copiez le HTML de votre média dans `createMedia()`, dans le [gabarit littéral](../../js/recap-js.md#gabarits) (les accents graves). Remplacez ce qui vient des données par `${...}`, par exemple les chemins des images : `${chapter.contenu.fond}`.
 3. **Retirez** votre `<section>` du `index.html`.
 4. Quand toute l'équipe a fait les étapes 1 à 3, `index.html` n'a plus qu'un `<main id="recit"></main>` vide, et `main.js` passe à [la version de la phase 2](#main-js).
 

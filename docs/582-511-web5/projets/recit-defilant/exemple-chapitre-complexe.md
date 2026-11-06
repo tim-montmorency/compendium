@@ -116,6 +116,8 @@ export function createMedia(chapter) {
 }
 ```
 
+`.map()` transforme chaque calque du tableau en balise `<img>`, et `.join("")` colle ces balises en un seul texte. Voir [Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join).
+
 L'ordre du HTML décide de ce qui passe devant : le voile noir couvre les calques, la tête ressort sur le noir, et les personnages sont devant tout.
 
 !!! info "Pourquoi le SVG du morph n'est pas dans le JSON?"
@@ -175,7 +177,7 @@ export function animate(section, chapter) {
 
 Cinq choses à remarquer :
 
-- **`scale: (i) => 1 + i * 0.2`** : une valeur calculée par une fonction. GSAP l'appelle pour chaque calque, avec son rang `i`. Le ciel (`i = 0`) ne grossit pas, les herbes (`i = 4`) grossissent presque du double. Ajouter un 6e calque ne demande **aucune ligne de JavaScript** : seulement une ligne dans le JSON.
+- **`scale: (i) => 1 + i * 0.2`** : une valeur calculée par une [fonction fléchée](../../js/recap-js.md#fonctions-flechees). GSAP l'appelle pour chaque calque, avec son rang `i`. Le ciel (`i = 0`) ne grossit pas, les herbes (`i = 4`) grossissent presque du double. Ajouter un 6e calque ne demande **aucune ligne de JavaScript** : seulement une ligne dans le JSON.
 - **`duration`**, avec `scrub`, ne compte plus en secondes : c'est une **part du défilement**. Ici : le traveling 3 parts, le Chaperon 2, la pause 1, le loup 3, la pause finale 1,5. En tout 10,5 parts, réparties sur les 6 écrans de `end`. Pour ralentir un moment, on augmente sa `duration`; pour ralentir toute la scène, on augmente `end`.
 - **`"<"`** : le voile et la tête commencent **en même temps** que l'entrée du loup. **`"+=1"`** : le loup attend une part après la fin du Chaperon. **`"<1"`** : le morph commence une part après l'apparition de la tête, et finit en même temps que le loup. Voir [le paramètre de position](../../js/gsap-bases.md#la-timeline).
 - **`morphSVG: q(".morph__haut")[0]`** : la forme d'arrivée, cherchée dans la section, comme le reste. On anime aussi `stroke` : le trait passe du rouge du Chaperon au blanc des dents. Les yeux, eux, disparaissent : ils n'ont pas de forme d'arrivée.
