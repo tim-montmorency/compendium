@@ -8,19 +8,19 @@
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
-1. Vous connaissez déjà la mécanique : `fetch`, `forEach`, gabarit littéral. Vous l'avez utilisée pour les projets de votre portfolio. Cette fois, ce sont **vos chapitres**, dans **votre récit**.
+1. Vous connaissez déjà la mécanique : [`fetch`](../../js/recap-js.md#async), [`forEach`](../../js/recap-js.md#foreach), [gabarit littéral](../../js/recap-js.md#gabarits). Vous l'avez utilisée pour les projets de votre portfolio. Cette fois, ce sont **vos chapitres**, dans **votre récit**.
 2. On avance en équipe : la **structure commune** sur `main`, puis **une personne** code le chargement des chapitres sur sa branche pendant que **l'autre** remplit ses chapitres dans `data.json`.
 3. À la fin, votre page affiche tous vos chapitres, chargés depuis le JSON, et votre premier vrai conflit est peut-être réglé.
 
 </div>
 
-!!! info "C'est le temps 2"
-    Votre récit se construit [en deux temps](arborescence-recit-defilant.md#deux-temps). Commencez par vos chapitres **en HTML statique**, animés : c'est le temps 1, accepté jusqu'au prototype (ven. 13 nov.). Cette page, c'est le **temps 2** : les chapitres construits depuis `data.json`, **exigés à la bêta** (ven. 20 nov.).
+!!! info "C'est la phase 2 : intégration dynamique"
+    Votre récit se construit [en deux phases](arborescence-recit-defilant.md#deux-phases). Commencez par vos chapitres **en HTML statique**, animés : c'est la phase 1, l'intégration statique, acceptée jusqu'au prototype (ven. 13 nov.). Cette page, c'est la **phase 2**, l'intégration dynamique : les chapitres construits depuis `data.json`, **exigés à la bêta** (ven. 20 nov.).
 
     Votre chargement JSON fonctionne déjà? Gardez-le : vous êtes en avance.
 
 [:material-file-tree: Arborescence du dépôt](arborescence-recit-defilant.md){ .md-button }
-[:material-swap-horizontal: Passer du HTML statique au JSON](arborescence-recit-defilant.md#temps-2){ .md-button }
+[:material-swap-horizontal: Passer du HTML statique au JSON](arborescence-recit-defilant.md#phase-2){ .md-button }
 
 ## Étape 0 : la structure commune (si ce n'est pas déjà fait)
 
@@ -54,23 +54,23 @@ Vous avez fait la même chose dans l'[exercice « Du JSON à la carte »](../../
 
 ### Étape 1 : charger les chapitres
 
-Une fonction `async loadChapters()` qui va chercher `data/data.json` et retourne le tableau. Appelez-la dans une fonction `init()`.
+Une fonction `async loadChapters()` qui va chercher `data/data.json` et retourne le tableau. Appelez-la dans une fonction `init()`. Au besoin : [Récap JS : `fetch` et `async` / `await`](../../js/recap-js.md#async), et [Récap JS : `init()`](../../js/recap-js.md#init).
 
 **Vérification** : `console.table()` affiche une ligne par chapitre.
 
 ### Étape 2 : parcourir les chapitres
 
-Avec `forEach`, affichez dans la console le numéro et le titre de chaque chapitre.
+Avec [`forEach`](../../js/recap-js.md#foreach), affichez dans la console le numéro et le titre de chaque chapitre.
 
 **Vérification** : le numéro et le titre de chacun de vos chapitres, dans l'ordre du récit.
 
 ### Étape 3 : le HTML d'un chapitre
 
-Une fonction `createChapter(chapter)` qui retourne, avec un gabarit littéral, une `<section>` :
+Une fonction `createChapter(chapter)` qui retourne, avec un [gabarit littéral](../../js/recap-js.md#gabarits), une `<section>` :
 
 - avec l'`id` du chapitre comme `id` HTML;
 - un titre `<h2>`;
-- un `<p>` par paragraphe du tableau `texte`. Indice : `map()` puis `join("")`.
+- un `<p>` par paragraphe du tableau `texte`. Indice : `map()` puis `join("")` (voir [Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join)).
 
 **Vérification** : affichez dans la console le HTML du premier chapitre.
 

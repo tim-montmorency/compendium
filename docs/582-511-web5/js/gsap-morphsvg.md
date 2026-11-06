@@ -59,10 +59,9 @@ gsap.to("#cercle", {
 });
 ```
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MorphSVG : le principe" src="https://codepen.io/tim-momo/embed/GRYyZOb?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MorphSVG : le principe" src="https://codepen.io/tim-momo/embed/GRYyZOb?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Demo MorphSVG base" src="https://codepen.io/tim-momo/embed/GRYyZOb?default-tab=js%2Cresult&theme-id=50210" frameborder="no" loading="lazy" allowtransparency="true">
-</iframe>
+
 
 <small>Démo CodePen : [MorphSVG : le principe](https://codepen.io/tim-momo/pen/GRYyZOb){ :target="_blank" }</small>
 
@@ -70,7 +69,7 @@ MorphSVG lit les deux tracés, les convertit en courbes de Bézier, et ajoute de
 
 Et comme MorphSVG fait partie de GSAP, enchaîner plusieurs formes dans une timeline est facile : un cercle, puis un hippopotame, une étoile et un éléphant.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MorphSVG : une timeline de formes" src="https://codepen.io/tim-momo/embed/WNadQaz?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MorphSVG : une timeline de formes" src="https://codepen.io/tim-momo/embed/WNadQaz?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MorphSVG : une timeline de formes](https://codepen.io/tim-momo/pen/WNadQaz){ :target="_blank" }</small>
 
@@ -87,7 +86,7 @@ Et comme MorphSVG fait partie de GSAP, enchaîner plusieurs formes dans une time
 
 Pour régler le comportement, `morphSVG` reçoit un objet. La forme d'arrivée va alors dans `shape`.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MorphSVG : avec un objet" src="https://codepen.io/tim-momo/embed/bGmapLV?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MorphSVG : avec un objet" src="https://codepen.io/tim-momo/embed/bGmapLV?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MorphSVG : avec un objet](https://codepen.io/tim-momo/pen/bGmapLV){ :target="_blank" }</small>
 
@@ -112,7 +111,7 @@ Trouver le bon nombre à l'œil, ce n'est pas évident. La démo suivante vous a
 3. Remplacez les formes par vos deux tracés.
 4. Appelez `findShapeIndex()` avec vos deux formes, puis utilisez les boutons **+** et **−** pour tester les valeurs.
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="MorphSVG : trouver le shapeIndex" src="https://codepen.io/tim-momo/embed/qBJpbom?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="500" style="width: 100%;" scrolling="no" title="MorphSVG : trouver le shapeIndex" src="https://codepen.io/tim-momo/embed/qBJpbom?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MorphSVG : trouver le shapeIndex](https://codepen.io/tim-momo/pen/qBJpbom){ :target="_blank" }</small>
 
@@ -120,7 +119,7 @@ Pour des formes qui tournent sur elles-mêmes, essayez aussi `type: "rotational"
 
 ## D'autres exemples { #exemples }
 
-<iframe height="850" style="width: 100%;" scrolling="no" title="MorphSVG : d'autres exemples" src="https://codepen.io/tim-momo/embed/mdzpVKL?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="850" style="width: 100%;" scrolling="no" title="MorphSVG : d'autres exemples" src="https://codepen.io/tim-momo/embed/mdzpVKL?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [MorphSVG : d'autres exemples](https://codepen.io/tim-momo/pen/mdzpVKL){ :target="_blank" }</small>
 

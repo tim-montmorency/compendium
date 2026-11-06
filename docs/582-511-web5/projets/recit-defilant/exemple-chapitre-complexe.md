@@ -1,11 +1,11 @@
-# :material-movie-open-outline: Exemple : un chapitre complexe
+# :material-movie-open-outline: Exemple : un chapitre, plusieurs médias en timeline
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
-1. Un chapitre avec **plusieurs images et plusieurs animations** : une scène épinglée, 5 calques en traveling avant, deux personnages qui entrent, une explosion et un fond qui passe au noir.
+1. Un chapitre avec **plusieurs images et plusieurs animations** : une scène épinglée, 5 calques en traveling avant, deux personnages qui entrent, un fond qui passe au noir, et la tête du Chaperon qui se transforme en gueule pleine de dents (MorphSVG).
 2. Dans `data.json`, on range les médias selon leur rôle : **un tableau** quand ils se traitent tous pareil (les calques), **un objet avec des noms** quand chacun a sa propre animation (les personnages).
-3. Les **classes** sont le pont : `createMedia()` donne une classe à chaque élément, et `animate()` cible ces classes. Elle ne lit jamais le JSON. C'est pourquoi `animate()` est identique au [temps 1](arborescence-recit-defilant.md#html-temps-1) (HTML écrit à la main) et au [temps 2](arborescence-recit-defilant.md#temps-2) (HTML construit depuis le JSON).
+3. Les **classes** sont le pont : `createMedia()` donne une classe à chaque élément, et `animate()` cible ces classes. Elle ne lit jamais le JSON. C'est pourquoi `animate()` est identique à la [phase 1](arborescence-recit-defilant.md#html-phase-1) (intégration statique : HTML écrit à la main) et à la [phase 2](arborescence-recit-defilant.md#phase-2) (intégration dynamique : HTML construit depuis le JSON).
 
 </div>
 
@@ -15,14 +15,14 @@ Le chapitre 5, « La clairière », se joue dans une **seule scène épinglée**
 
 1. la caméra avance dans le paysage : 5 calques, du ciel aux herbes, grossissent chacun à sa vitesse (un **traveling avant**);
 2. le Chaperon entre lentement par la gauche, puis **une pause**;
-3. le loup entre lentement par la droite, et **en même temps**, une explosion surgit en arrière-plan pendant que le fond passe au noir;
+3. le loup entre lentement par la droite, et **en même temps**, le fond passe au noir pendant qu'au-dessus, la tête du Chaperon apparaît, puis se transforme en gueule pleine de dents;
 4. **une pause** sur l'image finale, puis la scène se libère et la page continue.
 
 Défilez dans la démo :
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-chapitre-complexe&onglets=js,resultat&actif=resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:560px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-chapitre-complexe&onglets=html,js,resultat&actif=resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:560px;border:0" loading="lazy"></iframe>
 
-La démo contient le HTML **écrit à la main**, comme au temps 1. Plus bas, on voit comment le même HTML se construit depuis `data.json`.
+La démo contient le HTML **écrit à la main**, comme à la phase 1 (intégration statique). Plus bas, on voit comment le même HTML se construit depuis `data.json`.
 
 ## Les médias, et leur rôle { #medias }
 
@@ -31,7 +31,7 @@ La démo contient le HTML **écrit à la main**, comme au temps 1. Plus bas, on 
 | Les calques du paysage | 5 | Tous la même animation (grossir), seule l'amplitude change | Un **tableau**, du plus loin au plus proche |
 | Le Chaperon | 1 | Entre par la gauche | Un **objet** nommé `gauche` |
 | Le loup | 1 | Entre par la droite | Un **objet** nommé `droite` |
-| L'explosion | 1 | Surgit en arrière-plan | Un **objet** nommé `explosion` |
+| La tête qui devient gueule | 1 SVG, 4 tracés | Se transforme ([MorphSVG](../../js/gsap-morphsvg.md)) | Rien : le SVG est **dans le module** (voir plus bas) |
 | Le voile noir | 1 | Passe au noir | Rien : c'est une simple `div`, sans image |
 
 ## Le JSON { #json }
@@ -60,8 +60,7 @@ La démo contient le HTML **écrit à la main**, comme au temps 1. Plus bas, on 
         "src": "assets/images/ch-05/loup.svg",
         "alt": "Le loup"
       }
-    },
-    "explosion": { "src": "assets/images/ch-05/explosion.svg" }
+    }
   }
 }
 ```
@@ -75,6 +74,21 @@ La démo contient le HTML **écrit à la main**, comme au temps 1. Plus bas, on 
 
 ```js
 // js/chapitres/ch-05.js
+
+// La tête qui devient une gueule : un SVG DANS la page,
+// pour que MorphSVG puisse modifier ses tracés.
+// (Les tracés complets : onglet HTML de la démo.)
+const MORPH = `
+  <svg class="morph" viewBox="0 0 400 400" aria-hidden="true">
+    <path class="morph__capuche" d="M200,30 C250,70 ..."/>
+    <path class="morph__visage" d="M200,160 C245,160 ..."/>
+    <circle class="morph__oeil" cx="178" cy="235" r="6"/>
+    <circle class="morph__oeil" cx="222" cy="235" r="6"/>
+    <path class="morph__haut" d="M30,190 C70,60 ..."/>
+    <path class="morph__bas" d="M50,262 L72,300 ..."/>
+  </svg>
+`;
+
 export function createMedia(chapter) {
   const c = chapter.contenu;
 
@@ -90,7 +104,7 @@ export function createMedia(chapter) {
     <div class="scene">
       ${calques}
       <div class="voile"></div>
-      <img class="explosion" src="${c.explosion.src}" alt="">
+      ${MORPH}
       <img class="perso perso--gauche"
            src="${c.personnages.gauche.src}"
            alt="${c.personnages.gauche.alt}">
@@ -102,7 +116,14 @@ export function createMedia(chapter) {
 }
 ```
 
-L'ordre du HTML décide de ce qui passe devant : le voile noir couvre les calques, l'explosion ressort sur le noir, et les personnages sont devant tout.
+`.map()` transforme chaque calque du tableau en balise `<img>`, et `.join("")` colle ces balises en un seul texte. Voir [Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join).
+
+L'ordre du HTML décide de ce qui passe devant : le voile noir couvre les calques, la tête ressort sur le noir, et les personnages sont devant tout.
+
+!!! info "Pourquoi le SVG du morph n'est pas dans le JSON?"
+    MorphSVG modifie les **tracés** (`<path>`) d'un SVG. Il faut donc que le SVG soit **dans la page** : une `<img src="...svg">` ne laisse pas le JavaScript toucher à ses tracés. Et ces formes font partie de l'animation, pas des données : leur place est dans le module du chapitre.
+
+    Le SVG a 4 tracés : la **capuche** et le **visage** (le départ, visibles), la **mâchoire du haut** et la **mâchoire du bas** (l'arrivée, cachées en CSS). La capuche devient la mâchoire du haut, le visage devient celle du bas.
 
 ## `animate()` : une timeline épinglée { #animate }
 
@@ -132,20 +153,34 @@ export function animate(section, chapter) {
       .from(q(".perso--gauche"), { x: "-100vw", duration: 2 })
       // 3. Une pause ("+=1"), puis celui de droite entre...
       .from(q(".perso--droite"), { x: "100vw", duration: 3 }, "+=1")
-      // ... et en même temps, l'explosion et le noir
-      .from(q(".explosion"), { scale: 0, opacity: 0, duration: 1 }, "<")
+      // ... et en même temps, le noir
       .to(q(".voile"), { opacity: 1, duration: 3 }, "<")
+      // et la tête du Chaperon apparaît...
+      .from(q(".morph"), { opacity: 0, duration: 1 }, "<")
+      // ... puis, 1 part plus tard ("<1"), devient une gueule
+      .to(q(".morph__capuche"), {
+        morphSVG: q(".morph__haut")[0],
+        stroke: "#F2F2F2",
+        duration: 2,
+      }, "<1")
+      .to(q(".morph__visage"), {
+        morphSVG: q(".morph__bas")[0],
+        stroke: "#F2F2F2",
+        duration: 2,
+      }, "<")
+      .to(q(".morph__oeil"), { opacity: 0, duration: 0.5 }, "<")
       // 4. Une pause à la fin, avant de libérer la scène
       .to({}, { duration: 1.5 });
   });
 }
 ```
 
-Quatre choses à remarquer :
+Cinq choses à remarquer :
 
-- **`scale: (i) => 1 + i * 0.2`** : une valeur calculée par une fonction. GSAP l'appelle pour chaque calque, avec son rang `i`. Le ciel (`i = 0`) ne grossit pas, les herbes (`i = 4`) grossissent presque du double. Ajouter un 6e calque ne demande **aucune ligne de JavaScript** : seulement une ligne dans le JSON.
+- **`scale: (i) => 1 + i * 0.2`** : une valeur calculée par une [fonction fléchée](../../js/recap-js.md#fonctions-flechees). GSAP l'appelle pour chaque calque, avec son rang `i`. Le ciel (`i = 0`) ne grossit pas, les herbes (`i = 4`) grossissent presque du double. Ajouter un 6e calque ne demande **aucune ligne de JavaScript** : seulement une ligne dans le JSON.
 - **`duration`**, avec `scrub`, ne compte plus en secondes : c'est une **part du défilement**. Ici : le traveling 3 parts, le Chaperon 2, la pause 1, le loup 3, la pause finale 1,5. En tout 10,5 parts, réparties sur les 6 écrans de `end`. Pour ralentir un moment, on augmente sa `duration`; pour ralentir toute la scène, on augmente `end`.
-- **`"<"`** : l'explosion et le voile commencent **en même temps** que l'entrée du loup. **`"+=1"`** : le loup attend une part après la fin du Chaperon. Voir [le paramètre de position](../../js/gsap-bases.md#la-timeline).
+- **`"<"`** : le voile et la tête commencent **en même temps** que l'entrée du loup. **`"+=1"`** : le loup attend une part après la fin du Chaperon. **`"<1"`** : le morph commence une part après l'apparition de la tête, et finit en même temps que le loup. Voir [le paramètre de position](../../js/gsap-bases.md#la-timeline).
+- **`morphSVG: q(".morph__haut")[0]`** : la forme d'arrivée, cherchée dans la section, comme le reste. On anime aussi `stroke` : le trait passe du rouge du Chaperon au blanc des dents. Les yeux, eux, disparaissent : ils n'ont pas de forme d'arrivée.
 - **`.to({}, { duration: 1.5 })`** : un tween qui n'anime rien. Il sert seulement à allonger la timeline : la scène reste épinglée sur l'image finale avant de repartir. C'est la façon habituelle de faire une pause à la fin.
 
 !!! warning "`x` plutôt que `xPercent` pour sortir de l'écran"
@@ -190,13 +225,31 @@ Quatre choses à remarquer :
   right: 8%;
   height: 26vh;  /* le loup : plus large que haut */
 }
+
+/* Le morph : du trait seulement (line art) */
+.morph {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  width: 40vh;
+  translate: -50% -50%;
+  fill: none;
+  stroke: #E0233F;
+  stroke-width: 5;
+}
+
+/* Les formes d'arrivée : des modèles, invisibles */
+.morph__haut,
+.morph__bas {
+  visibility: hidden;
+}
 ```
 
 `overflow: clip`, et non `hidden` : c'est [le même piège](../../css/animations-scroll.md#piege-overflow) qu'avec les animations CSS au défilement.
 
-## Au temps 1 : le même chapitre, en HTML { #temps-1 }
+## Phase 1 : le même chapitre, en HTML { #phase-1 }
 
-Au temps 1, vous écrivez **à la main** ce que `createMedia()` construirait, dans votre `<section>` de `index.html` :
+À la phase 1, vous écrivez **à la main** ce que `createMedia()` construirait, dans votre `<section>` de `index.html` :
 
 ```html
 <section class="chapitre" id="la-clairiere">
@@ -207,8 +260,9 @@ Au temps 1, vous écrivez **à la main** ce que `createMedia()` construirait, da
          src="assets/images/ch-05/ciel.svg">
     <!-- ... les 4 autres calques ... -->
     <div class="voile"></div>
-    <img class="explosion" alt=""
-         src="assets/images/ch-05/explosion.svg">
+    <svg class="morph" viewBox="0 0 400 400" aria-hidden="true">
+      <!-- ... les 4 tracés et les yeux ... -->
+    </svg>
     <img class="perso perso--gauche" alt="Le Chaperon rouge"
          src="assets/images/ch-05/chaperon.svg">
     <img class="perso perso--droite" alt="Le loup"
@@ -217,7 +271,7 @@ Au temps 1, vous écrivez **à la main** ce que `createMedia()` construirait, da
 </section>
 ```
 
-Mêmes classes, même ordre : la fonction `animate()` est **exactement la même**. Au temps 2, vous déplacez les chemins et les textes alternatifs dans le JSON, et le HTML dans `createMedia()`. Voir [Passer au temps 2](arborescence-recit-defilant.md#temps-2).
+Mêmes classes, même ordre : la fonction `animate()` est **exactement la même**. À la phase 2, vous déplacez les chemins et les textes alternatifs dans le JSON, et le HTML dans `createMedia()`. Le SVG du morph, lui, reste dans le module. Voir [Passer à la phase 2](arborescence-recit-defilant.md#phase-2).
 
 ## À retenir { #a-retenir }
 

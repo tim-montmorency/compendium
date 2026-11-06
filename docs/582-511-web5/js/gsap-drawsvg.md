@@ -15,7 +15,7 @@
 
 Les deux bornes du trait changent : la partie visible glisse le long du tracé.
 
-<iframe height="480" style="width: 100%;" scrolling="no" title="DrawSVG : le principe" src="https://codepen.io/tim-momo/embed/ExdmrwY?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="550" style="width: 100%;" scrolling="no" title="DrawSVG : le principe" src="https://codepen.io/tim-momo/embed/ExdmrwY?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [DrawSVG : le principe](https://codepen.io/tim-momo/pen/ExdmrwY){ :target="_blank" }</small>
 
@@ -65,13 +65,13 @@ Pour bien comprendre les contours en SVG : [SVG : remplissage et contour (MDN)](
 
 Pour voir un trait se dessiner du début à la fin, on part de `0`, avec `set()`, puis on anime vers `100%`, avec `to()` :
 
-<iframe height="440" style="width: 100%;" scrolling="no" title="DrawSVG : set() puis to()" src="https://codepen.io/tim-momo/embed/OJBmKjy?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="440" style="width: 100%;" scrolling="no" title="DrawSVG : set() puis to()" src="https://codepen.io/tim-momo/embed/OJBmKjy?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [DrawSVG : set() puis to()](https://codepen.io/tim-momo/pen/OJBmKjy){ :target="_blank" }</small>
 
 On peut aussi le faire en une seule ligne, avec `fromTo()` :
 
-<iframe height="440" style="width: 100%;" scrolling="no" title="DrawSVG : fromTo()" src="https://codepen.io/tim-momo/embed/XWxRGjK?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="440" style="width: 100%;" scrolling="no" title="DrawSVG : fromTo()" src="https://codepen.io/tim-momo/embed/XWxRGjK?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [DrawSVG : fromTo()](https://codepen.io/tim-momo/pen/XWxRGjK){ :target="_blank" }</small>
 
@@ -89,7 +89,7 @@ gsap.from(".dessine-moi", {
 
 Et dans une timeline : dessiner chaque trait, puis finir avec le remplissage.
 
-<iframe height="600" style="width: 100%;" scrolling="no" title="DrawSVG : une timeline" src="https://codepen.io/tim-momo/embed/mdzwbEO?default-tab=js%2Cresult&editable=false&theme-id=50173" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+<iframe height="600" style="width: 100%;" scrolling="no" title="DrawSVG : une timeline" src="https://codepen.io/tim-momo/embed/mdzwbEO?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
 <small>Démo CodePen : [DrawSVG : une timeline](https://codepen.io/tim-momo/pen/mdzwbEO){ :target="_blank" }</small>
 

@@ -155,7 +155,7 @@ function createTitle(project) {
 createTitle({ title: 'Biome' }); // "<h3>Biome</h3>"
 ```
 
-### Fonctions fléchées
+### Fonctions fléchées { #fonctions-flechees }
 
 Une écriture plus courte, qu'on voit surtout en paramètre d'une autre fonction (`map`, `addEventListener`...).
 
@@ -235,6 +235,8 @@ const projects = [
 
 Les trois méthodes de tableau qui font le gros du travail dans un portfolio.
 
+### `map()` et `join()` { #map-join }
+
 **`map()`** : transforme **chaque** élément, retourne un **nouveau tableau** de même longueur.
 
 ```js
@@ -270,6 +272,8 @@ grid.innerHTML = projects.map(createProjectCard).join('');
 
 <br>
 
+### `filter()`
+
 **`filter()`** : garde seulement les éléments qui respectent une condition.
 
 ```js
@@ -277,6 +281,8 @@ const projects3D = projects.filter(project => project.category === '3D');
 ```
 
 <br>
+
+### `find()`
 
 **`find()`** : retourne le **premier** élément qui respecte la condition, ou `undefined`.
 
