@@ -10,10 +10,10 @@
 </div>
 
 !!! info "Votre récit se construit en deux phases { #deux-phases }"
-    1. **Phase 1 : intégration statique.** Vous écrivez vos chapitres **directement en HTML et en CSS**, puis vous les animez. Vous voyez vos éléments dans le code et dans l'inspecteur : c'est plus simple pour concevoir et animer. Accepté jusqu'au **prototype** (ven. 13 nov.).
-    2. **Phase 2 : intégration dynamique.** Vous déplacez le texte et les médias de vos chapitres dans `data.json`, et le JavaScript construit les sections. **Exigé à la bêta** (ven. 20 nov.).
+    1. *Phase 1*{ .w5-phase .w5-phase-1 } : **intégration statique.** Vous écrivez vos chapitres **directement en HTML et en CSS**, puis vous les animez. Vous voyez vos éléments dans le code et dans l'inspecteur : c'est plus simple pour concevoir et animer. Accepté jusqu'au **prototype** (ven. 13 nov.).
+    2. *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique.** Vous déplacez le texte et les médias de vos chapitres dans `data.json`, et le JavaScript construit les sections. **Exigé à la bêta** (ven. 20 nov.).
 
-    Si votre HTML statique est écrit **comme le JavaScript le construira** (même `<section>`, mêmes classes), le passage à la phase 2 ne change pas une ligne de vos animations. [Comment passer à la phase 2](#phase-2).
+    Si votre HTML statique est écrit **comme le JavaScript le construira** (même `<section>`, mêmes classes), le passage à la *phase 2*{ .w5-phase .w5-phase-2 } ne change pas une ligne de vos animations. [Comment passer à la *phase 2*{ .w5-phase .w5-phase-2 }](#phase-2).
 
 ## Pourquoi un fichier par chapitre?
 
@@ -76,7 +76,7 @@ assets/images/
 
 Une seule page.
 
-### Phase 1, intégration statique : vos chapitres écrits en HTML { #html-phase-1 }
+### *Phase 1*{ .w5-phase .w5-phase-1 }, intégration statique : vos chapitres écrits en HTML { #html-phase-1 }
 
 Chaque chapitre est une `<section>`, écrite à la main dans `index.html`. Écrivez-la **exactement comme le JavaScript la construira à la phase 2** : la classe `chapitre`, l'`id` du chapitre, un `<h2>`, les paragraphes, puis le média.
 
@@ -106,7 +106,7 @@ Chaque chapitre est une `<section>`, écrite à la main dans `index.html`. Écri
 !!! warning "Un seul `index.html` pour deux : chacun ses sections"
     Créez **ensemble, sur `main`**, toutes les `<section>` vides, avec leur `id` et un commentaire qui dit à qui elles sont. Ensuite, chacun remplit **seulement ses sections**, sur sa branche. Git fusionne sans problème deux modifications à des endroits différents du même fichier : le conflit arrive seulement si vous touchez aux mêmes lignes.
 
-### Phase 2, intégration dynamique : les chapitres construits par le JavaScript { #html-phase-2 }
+### *Phase 2*{ .w5-phase .w5-phase-2 }, intégration dynamique : les chapitres construits par le JavaScript { #html-phase-2 }
 
 Le `<main>` est vide : les chapitres sont construits par le JavaScript, à partir de `data.json`.
 
@@ -329,9 +329,9 @@ export function animate(section, chapter) {
 
 Vous pouvez écrire d'autres fonctions dans ce fichier : seules `createMedia` et `animate` sont exportées, les autres restent privées au chapitre.
 
-### `main.js`, à la phase 1 { #main-js-phase-1 }
+### `main.js`, à la *phase 1*{ .w5-phase .w5-phase-1 } { #main-js-phase-1 }
 
-À la phase 1, les sections sont déjà dans le HTML. `main.js` les trouve, et demande à chaque module d'animer **sa** section. Les modules et la fonction `animate(section)` sont **les mêmes qu'à la phase 2** : c'est ce qui rend le passage facile.
+À la *phase 1*{ .w5-phase .w5-phase-1 }, les sections sont déjà dans le HTML. `main.js` les trouve, et demande à chaque module d'animer **sa** section. Les modules et la fonction `animate(section)` sont **les mêmes qu'à la phase 2** : c'est ce qui rend le passage facile.
 
 ```js
 // js/main.js, phase 1 : les chapitres sont dans le HTML
@@ -351,12 +351,12 @@ sections.forEach((section, index) => {
 });
 ```
 
-À la phase 1 :
+À la *phase 1*{ .w5-phase .w5-phase-1 } :
 
-- `createMedia()` n'est pas appelée : laissez-la dans votre module, avec `return "";`. Elle servira à la phase 2.
+- `createMedia()` n'est pas appelée : laissez-la dans votre module, avec `return "";`. Elle servira à la *phase 2*{ .w5-phase .w5-phase-2 }.
 - `animate()` reçoit seulement `section` : n'utilisez pas encore `chapter`.
 
-### `main.js`, à la phase 2 : importer tous les chapitres { #main-js }
+### `main.js`, à la *phase 2*{ .w5-phase .w5-phase-2 } : importer tous les chapitres { #main-js }
 
 ```js
 // js/main.js
@@ -411,14 +411,14 @@ L'ordre du tableau `chapterModules` doit suivre l'ordre des chapitres dans `data
 !!! info "GSAP et Vue, chargés par CDN"
     Une librairie chargée avec une balise `<script>` classique (GSAP, Vue) reste disponible partout, y compris dans vos modules : `gsap.to(...)` fonctionne dans `ch-03.js` sans `import`. Placez ces balises **avant** celle de `main.js`.
 
-## Passer à la phase 2 { #phase-2 }
+## Passer à la *phase 2*{ .w5-phase .w5-phase-2 } { #phase-2 }
 
 Votre chapitre fonctionne en HTML statique? Pour le passer aux données, chapitre par chapitre :
 
 1. **Le texte** : copiez le titre et les paragraphes de votre `<section>` dans votre objet de `data.json` (`titre`, `texte`).
 2. **Le média** : copiez le HTML de votre média dans `createMedia()`, dans le [gabarit littéral](../../js/recap-js.md#gabarits) (les accents graves). Remplacez ce qui vient des données par `${...}`, par exemple les chemins des images : `${chapter.contenu.fond}`.
 3. **Retirez** votre `<section>` du `index.html`.
-4. Quand toute l'équipe a fait les étapes 1 à 3, `index.html` n'a plus qu'un `<main id="recit"></main>` vide, et `main.js` passe à [la version de la phase 2](#main-js).
+4. Quand toute l'équipe a fait les étapes 1 à 3, `index.html` n'a plus qu'un `<main id="recit"></main>` vide, et `main.js` passe à [la version de la *phase 2*{ .w5-phase .w5-phase-2 }](#main-js).
 
 Vos animations, elles, **ne changent pas** : `animate(section)` reçoit la même `<section>`, avec les mêmes classes. Si une animation ne marche plus, comparez dans l'inspecteur le HTML construit avec votre ancien HTML statique : une classe a changé.
 
@@ -435,7 +435,7 @@ Vos animations, elles, **ne changent pas** : `animate(section)` reçoit la même
 
 ## Créer la structure, au début
 
-**Une seule fois, ensemble, sur un seul poste, sur `main`** : tous les fichiers, avec **un fichier CSS et un fichier JS par chapitre, même vides**, et tous les `@import` et les `import` déjà écrits. À la phase 1, ajoutez aussi dans `index.html` **toutes les `<section>` vides**, avec leur `id`. Puis *commit* (`Commun : ajoute la structure de départ`) et *push*. Ensuite, chacun crée sa branche.
+**Une seule fois, ensemble, sur un seul poste, sur `main`** : tous les fichiers, avec **un fichier CSS et un fichier JS par chapitre, même vides**, et tous les `@import` et les `import` déjà écrits. À la *phase 1*{ .w5-phase .w5-phase-1 }, ajoutez aussi dans `index.html` **toutes les `<section>` vides**, avec leur `id`. Puis *commit* (`Commun : ajoute la structure de départ`) et *push*. Ensuite, chacun crée sa branche.
 
 Même principe pour le squelette de `data.json` : un objet par chapitre, avec les clés communes et un `"contenu": {}` vide. Et pour les fichiers : si chacun ajoutait ses objets, ses fichiers et ses `import` plus tard, vous modifieriez tous les deux les mêmes lignes de `style.css` et de `main.js`, et le conflit serait garanti.
 

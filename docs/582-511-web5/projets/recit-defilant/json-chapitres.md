@@ -14,8 +14,8 @@
 
 </div>
 
-!!! info "C'est la phase 2 : intégration dynamique"
-    Votre récit se construit [en deux phases](arborescence-recit-defilant.md#deux-phases). Commencez par vos chapitres **en HTML statique**, animés : c'est la phase 1, l'intégration statique, acceptée jusqu'au prototype (ven. 13 nov.). Cette page, c'est la **phase 2**, l'intégration dynamique : les chapitres construits depuis `data.json`, **exigés à la bêta** (ven. 20 nov.).
+!!! info "C'est la *phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique"
+    Votre récit se construit [en deux phases](arborescence-recit-defilant.md#deux-phases). Commencez par vos chapitres **en HTML statique**, animés : c'est la *phase 1*{ .w5-phase .w5-phase-1 }, l'intégration statique, acceptée jusqu'au prototype (ven. 13 nov.). Cette page, c'est la **phase 2**, l'intégration dynamique : les chapitres construits depuis `data.json`, **exigés à la bêta** (ven. 20 nov.).
 
     Votre chargement JSON fonctionne déjà? Gardez-le : vous êtes en avance.
 
@@ -29,7 +29,7 @@
 Sinon, **ensemble, sur un seul poste**, sur `main` :
 
 1. Créez tous les fichiers décrits dans [L'arborescence du dépôt](arborescence-recit-defilant.md) : les fichiers communs, et **un fichier CSS et un fichier JS par chapitre, même vides**, avec tous les `@import` et les `import` déjà écrits.
-2. Dans `index.html`, un `<main id="recit">` et `main.js` chargé comme module (`type="module"`) : le code est fourni dans la page de l'arborescence. Si vous venez de la phase 1, vos `<section>` statiques y sont encore : vous les retirerez à l'étape 4.
+2. Dans `index.html`, un `<main id="recit">` et `main.js` chargé comme module (`type="module"`) : le code est fourni dans la page de l'arborescence. Si vous venez de la *phase 1*{ .w5-phase .w5-phase-1 }, vos `<section>` statiques y sont encore : vous les retirerez à l'étape 4.
 3. Dans `data/data.json`, **le squelette de tous vos chapitres**, dans l'ordre du récit : un objet par chapitre, avec les **clés communes** (`id`, `numero`, `titre`, `responsable`, `texte`) et un **`"contenu": {}`** vide. Le format est expliqué dans [Les données : `data.json`](arborescence-recit-defilant.md#data-json).
 
     Votre section 5 du cahier de charges prévoyait un autre format? Pas de problème : gardez les clés communes ci-dessus, et rangez vos autres idées (médias, calques, plans...) dans le `contenu` de chaque chapitre, à mesure que vous en aurez besoin.
@@ -95,7 +95,7 @@ Ajoutez un deuxième paramètre à `createChapter` : le module du chapitre. Puis
 
 À la fin de `init()`, une fois tout le HTML dans la page, appelez la fonction `animate` du module de chaque chapitre, avec sa `<section>` et ses données. Le code est fourni dans [L'arborescence du dépôt](arborescence-recit-defilant.md#main-js).
 
-**Vérification** : les animations que vous aviez à la phase 1 fonctionnent de nouveau. Un chapitre n'a pas encore d'animation? Ajoutez temporairement un `console.log("chapitre 3 prêt")` dans son `animate` : le message apparaît dans la console.
+**Vérification** : les animations que vous aviez à la *phase 1*{ .w5-phase .w5-phase-1 } fonctionnent de nouveau. Un chapitre n'a pas encore d'animation? Ajoutez temporairement un `console.log("chapitre 3 prêt")` dans son `animate` : le message apparaît dans la console.
 
 *Commit* (`Commun : charge les chapitres depuis data.json`), puis *push*. L'autre personne fait un *pull*.
 
@@ -104,7 +104,7 @@ Ajoutez un deuxième paramètre à `createChapter` : le module du chapitre. Puis
 **Chacun sur sa branche**, après l'avoir mise à jour avec `main` ([étape 5 de Git en équipe](git-en-equipe.md#etape-5)) :
 
 1. **Le texte** : le vrai titre et les vrais paragraphes de vos chapitres, dans **vos** objets de `data.json`.
-2. **Le média** : dans `createMedia()`, remplacez ce qui vient des données par `${...}` (les chemins des images, les textes alternatifs), et rangez ces valeurs dans le `contenu` de votre chapitre. Le détail : [Passer à la phase 2](arborescence-recit-defilant.md#phase-2).
+2. **Le média** : dans `createMedia()`, remplacez ce qui vient des données par `${...}` (les chemins des images, les textes alternatifs), et rangez ces valeurs dans le `contenu` de votre chapitre. Le détail : [Passer à la *phase 2*{ .w5-phase .w5-phase-2 }](arborescence-recit-defilant.md#phase-2).
 3. **Vérification** : vos chapitres s'affichent comme avant, et vos animations fonctionnent toujours.
 
 ## Les *pull requests* { #pull-requests }

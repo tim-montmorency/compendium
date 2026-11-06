@@ -1126,3 +1126,29 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   }
 
 }
+
+
+/* =========================================================
+   Web 5 : étiquettes des phases du récit défilant
+   *Phase 1*{ .w5-phase .w5-phase-1 } dans le Markdown
+   ========================================================= */
+.md-typeset .w5-phase,
+.finishing .md-typeset em.w5-phase {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.85em;
+  color: #fff;
+  padding: 0.05em 0.45em;
+  border-radius: 0.3em;
+  white-space: nowrap;
+}
+
+/* Phase 1 : intégration statique (vert) */
+.md-typeset .w5-phase-1 {
+  background-color: #157A45;
+}
+
+/* Phase 2 : intégration dynamique (vermillon foncé) */
+.md-typeset .w5-phase-2 {
+  background-color: #C8243A;
+}
