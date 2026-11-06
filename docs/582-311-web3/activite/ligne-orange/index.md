@@ -7,7 +7,9 @@ tags:
 
 # Ligne orange
 
-Au défilement de la page, un train de la ligne orange descend de Montmorency à Henri-Bourassa. Quand on arrête de défiler, il termine lui-même son trajet jusqu'à la station la plus proche&nbsp;: c'est le travail des **étiquettes** d'une timeline et de l'option `snap` 🚇.
+![](./banner.webp){.w-100 .aspect-16-9}
+
+L'objectif de cet exercice est de mettre en pratique la notion de défilement GSAP avec les concept de `pin`, `scrub`, `snap` et `labels`.
 
 <!--
 Notions mises en pratique :
@@ -18,14 +20,6 @@ Notions mises en pratique :
 * snap: "labels" : aimanter le défilement sur les étiquettes
 -->
 
-## Le principe
-
-!!! info "Des arrêts qui ne sont pas espacés également"
-
-    `snap: 0.25` aimante le défilement à intervalles **réguliers**. Or, les stations d'une ligne de métro ne sont pas à égale distance les unes des autres. En posant une **étiquette** dans la timeline à chaque station, on peut aimanter le train exactement aux stations, peu importe leur espacement.
-
-Dans cet exercice, toutes les valeurs sont fournies. L'objectif est de comprendre le principe, pas de chercher les bons chiffres.
-
 ## Consignes
 
 ### Préparation
@@ -33,13 +27,7 @@ Dans cet exercice, toutes les valeurs sont fournies. L'objectif est de comprendr
 - [ ] [Accepter le devoir Classroom 50](https://classroom50.org/tim-w3/web-3/assignments/ligne-orange/accept)
 - [ ] Cloner le répertoire avec GitHub Desktop
 - [ ] Ouvrir le dossier cloné dans VSCode
-- [ ] Dans le terminal, installer les dépendances, puis lancer le projet&nbsp;:
-    ```bash
-    npm install
-    ```
-    ```bash
-    npx vite
-    ```
+- [ ] Dans le terminal, installer les dépendances, puis lancer le projet Vite.
 
 ### Exploration du projet
 
@@ -54,70 +42,36 @@ Tout le HTML et le CSS sont déjà faits. Avant d'animer, prendre quelques minut
     | Cartier | `55%` |
     | Henri-Bourassa | `100%` |
 
-- [ ] Repérer `#train`, et le `#wagon` à l'intérieur
+- [ ] Repérer `#train` et `#wagon` à l'intérieur
 
 ??? question "Pourquoi le wagon est-il dans un cadre&nbsp;?"
 
     Le cadre `#train` est transparent et fait **exactement la hauteur de la piste**. Le wagon est placé en haut de ce cadre.
 
-    Or, `yPercent` se calcule sur la hauteur de l'élément animé. Si on anime le cadre, `yPercent: 30` le déplace de 30&nbsp;% de la piste&nbsp;: le wagon arrive pile sur la station placée à `top: 30%`. Les valeurs de l'animation sont donc les mêmes que les positions des stations.
-
-- [ ] Ouvrir `src/gsap.js`. Tout le code de l'exercice sera écrit dans la fonction `gsapAnimations()`.
+- [ ] Ouvrir `src/gsap.js`. Tout le code de l'exercice devra être écrit dans la fonction `gsapAnimations()`.
 
 ### Activer ScrollTrigger
 
-- [ ] Sous la ligne `import gsap from "gsap"`, importer ScrollTrigger, puis l'activer (voir *Activer un plugin* dans les notes de cours)
-
-  ??? tip "Indice"
-
-      ```js
-      import gsap from "gsap"
-      import { ScrollTrigger } from "gsap/ScrollTrigger"
-
-      gsap.registerPlugin(ScrollTrigger)
-      ```
+- [ ] Sous la ligne `import gsap from "gsap"`, importer ScrollTrigger, puis l'activer
 
 ### Étape 1 - Le trajet
 
 ![type:video](./preview-etape1.webm){.h-auto}
 
-Le train descend la ligne au fil du défilement, d'une station à l'autre.
-
-- [ ] Créer une timeline avec&nbsp;:
-    - [ ] Des réglages communs&nbsp;: `defaults: { ease: "power1.inOut" }`
-    - [ ] Un `scrollTrigger`&nbsp;:
-        - [ ] Déclencheur&nbsp;: `#ligne`
-        - [ ] Début&nbsp;: `"top top"`
-        - [ ] Fin&nbsp;: `"+=3000"`
-        - [ ] `pin: true`
-        - [ ] `scrub: 1`
-
-  ??? question "Pourquoi `power1.inOut`&nbsp;?"
-
-      `power1.inOut` accélère au début et ralentit à la fin. Appliqué à chaque trajet, il fait **démarrer** et **freiner** le train à chaque station, comme un vrai métro.
-
+- [ ] Créer une timeline :
+  - [ ] Lissage par défaut de `power1.inOut`
+  - [ ] Un `scrollTrigger` qui surveille `#ligne`
+    - [ ] Débute à `"top top"`
+    - [ ] Fini à `"+=3000"` (l'animation dure 3000 pixels de défilement)
+    - [ ] pin à `true`
+    - [ ] scrub à `1`
 - [ ] Ajouter un `.to()` sur `#train` pour chaque trajet&nbsp;:
 
-    | Trajet | `yPercent` | `duration` |
-    | :--- | :--- | :--- |
-    | Montmorency → De la Concorde | `30` | `30` |
-    | De la Concorde → Cartier | `55` | `25` |
-    | Cartier → Henri-Bourassa | `100` | `45` |
-
-- [ ] Pas de `"<"` cette fois&nbsp;: les trajets se font **l'un après l'autre**
-
-  ??? tip "Indice : la structure"
-
-      ```js
-      gsap.timeline({
-        defaults: { /* ... */ },
-        scrollTrigger: {
-          // les paramètres ici
-        }
-      })
-        .to("#train", { yPercent: 30, duration: 30 })
-        .to("#train", { /* ... */ })
-      ```
+  | Trajet | `yPercent` | `duration` |
+  | :--- | :--- | :--- |
+  | Montmorency → De la Concorde | `30` | `30` |
+  | De la Concorde → Cartier | `55` | `25` |
+  | Cartier → Henri-Bourassa | `100` | `45` |
 
   ??? question "Pourquoi ces durées&nbsp;?"
 
@@ -136,33 +90,14 @@ Le train descend la ligne au fil du défilement, d'une station à l'autre.
 Pour l'instant, le train s'arrête n'importe où entre deux stations. On va poser une étiquette à chaque station, puis aimanter le défilement sur ces étiquettes.
 
 - [ ] Poser une étiquette avec `.addLabel()`&nbsp;:
-    - [ ] Au tout début de la timeline&nbsp;: `"Montmorency"`
-    - [ ] Après chaque `.to()`&nbsp;: le nom de la station d'arrivée
+  - [ ] Au tout début de la timeline&nbsp;: `"Montmorency"`
+  - [ ] Puis, après chaque `.to()`&nbsp;: le nom de la station d'arrivée
 
   ??? info "`.addLabel()`"
 
       `.addLabel("Cartier")` pose une étiquette à l'endroit où la timeline est rendue&nbsp;: ici, à la fin du trajet qui arrive à Cartier. Une étiquette ne fait rien bouger&nbsp;; c'est seulement un **repère** dans la timeline.
 
-  ??? tip "Indice : la structure"
-
-      ```js
-      gsap.timeline({ /* ... */ })
-        .addLabel("Montmorency")
-        .to("#train", { yPercent: 30, duration: 30 })
-        .addLabel("De la Concorde")
-        // ...
-      ```
-
 - [ ] Dans le `scrollTrigger`, ajouter `snap: "labels"`
-
-  ??? question "Pourquoi pas `snap: 1 / 3`&nbsp;?"
-
-      Il y a 3 trajets, donc `1 / 3` donnerait des arrêts à `0`, `0.33`, `0.67` et `1`. Mais les stations sont à `0`, `0.30`, `0.55` et `1`&nbsp;: le train s'arrêterait à côté des stations. Les étiquettes, elles, sont toujours exactement sur les stations.
-
-  ??? quote "Observation"
-
-      Remplacer temporairement `"labels"` par `1 / 3`. Le train s'arrête un peu après De la Concorde, et bien après Cartier. Remettre ensuite `"labels"`.
-
 - [ ] Commit + push
 
 ## Défis

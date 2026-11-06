@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: halloween --default;
+}
+
+/* ---------------------------------------------------------
+   L'atelier
+   Toutes les pièces sont empilées dans #monstre (position: absolute).
+   Chaque pièce est placée à sa position FINALE : le monstre est assemblé.
+   L'animation (from) part d'ailleurs et revient ici.
+   --------------------------------------------------------- */
+
+#monstre {
+  position: relative;
+  width: 360px;
+  height: 440px;
+}
+
+#monstre img {
+  position: absolute;
+}
+
+/* Le corps : déjà en place */
+#corps { width: 240px; left: 60px; top: 70px; z-index: 2; }
+
+/* Les autres pièces : à placer
+   z-index 1 = derrière le corps, z-index 3 = devant le corps */
+#corne-gauche { width: 55px;  left: 85px;  top: 70px;  z-index: 10; }
+#corne-droite { width: 55px;  left: 220px; top: 70px;  z-index: 10; }
+#bras-gauche  { width: 135px; left: -45px; top: 170px; z-index: 1; }
+#bras-droit   { width: 135px; left: 270px; top: 170px; z-index: 1; }
+#jambe-gauche { width: 110px; left: 65px;  top: 305px; z-index: 1; }
+#jambe-droite { width: 110px; left: 185px; top: 305px; z-index: 1; }
+#oeil-gauche  { width: 62px;  left: 115px; top: 140px; z-index: 3; }
+#oeil-droit   { width: 62px;  left: 185px; top: 140px; z-index: 3; }
+#bouche       { width: 100px; left: 130px; top: 225px; z-index: 3; }
