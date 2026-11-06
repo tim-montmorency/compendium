@@ -13,7 +13,7 @@
 
 ## Ce que ça fait { #ce-que-ca-fait }
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-scramble-text&onglets=js,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:480px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-scramble-text&onglets=resultat,js&modifiable=1&boutons=rejouer,ouvrir&disposition=pile" style="width:100%;height:480px;border:0" loading="lazy"></iframe>
 
 ## Installer { #installer }
 
