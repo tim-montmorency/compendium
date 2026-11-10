@@ -424,7 +424,7 @@ public class HitStop : MonoBehaviour
 * <span class="opacity-50">Semaine 7 | Prototype</span>
 * <span class="opacity-50">Semaine 8 </span>
 * Semaine 9 | Tranche verticale
-* Semaine 10 | 🗓️ Aujourd'hui (après aujourd'hui, il reste 33% du temps)
+* Semaine 10 | 🗓️ Aujourd'hui
 * Semaine 11 | 12 novembre
 * Semaine 12 | 19 novembre 🏃🏻‍♂️ Sprint 3 : Alpha
 * <span class="opacity-50">Semaine 13 | 26 novembre</span>

@@ -27,6 +27,67 @@
 | 3h00 – 3h20 | Build de validation publié |
 | 3h20 – 3h35 | Préparation de l'oral | -->
 
+## Le playtest de la classe
+
+Toute la classe joue aux jeux des autres, **en ligne**, et laisse un commentaire sur la page itch.io. Les retours restent écrits, publics et consultables pendant la dernière semaine.
+
+### Avant le cours
+
+Sur la page itch.io (**Edit game**) :
+
+| Réglage | Valeur |
+|---|---|
+| **Community** | `Comments` |
+| **Visibility & access** | `Public` (une page `Draft` n'est visible que de son auteur) |
+| **Uploads** | Le build Web **à jour** |
+
+Tester la page en navigation privée : c'est ce que verront les testeurs.
+
+### Qui teste quoi
+
+Chaque personne teste les **3 jeux qui suivent le sien** dans la liste (après le dernier, on revient au premier). Chaque jeu reçoit ainsi 3 commentaires.
+
+| # | Jeu | Page itch.io |
+|---|---|---|
+| 1 | | |
+| 2 | | |
+| 3 | | |
+
+<!-- Compléter à partir des liens itch.io des README. -->
+
+### Le commentaire
+
+Environ 10 minutes de jeu par titre, puis un commentaire **constructif et positif** : il est public, signé, et l'auteur le lira la veille de la remise.
+
+```text title="Modèle de commentaire"
+👍 J'ai aimé : un moment précis du jeu, et pourquoi.
+💡 J'aurais aimé : une chose qui aurait rendu l'expérience encore meilleure.
+❓ Et si… : une idée, une question.
+🐞 (s'il y a lieu) Ce qui s'est passé : où, quoi, comment le reproduire.
+```
+
+| ✅ À faire | ❌ À éviter |
+|---|---|
+| Nommer un moment précis (« le saut au-dessus de la lave au niveau 2 ») | Les jugements généraux (« c'est plate », « c'est mal fait ») |
+| Décrire ce qui a été vécu (« je n'ai pas trouvé la sortie ») | Dire à l'auteur ce qu'il « aurait dû » faire |
+| Signaler un bug de façon factuelle et reproductible | Comparer avec le jeu d'un autre |
+| Finir le niveau avant de commenter, ou dire où ça a bloqué | Commenter sans avoir joué |
+
+!!! tip "Un blocage n'est pas un reproche"
+    « Je n'ai pas compris qu'il fallait ramasser la clé » est un retour précieux. C'est le jeu qu'il faut ajuster, pas le joueur.
+
+### Après le playtest
+
+Lire les 3 commentaires reçus et les trier :
+
+| Retour | Devient |
+|---|---|
+| Un bug, ou un blocage | Issue `Must` |
+| Une amélioration simple | Issue `Could` |
+| Une idée qui dépasse le gel | Colonne `Won't` |
+
+Deux testeurs bloqués **au même endroit** : c'est le jeu, priorité absolue. Répondre aux commentaires est apprécié, mais facultatif.
+
 ## Le gel des fonctionnalités
 
 ### Ce que ça veut dire, concrètement
