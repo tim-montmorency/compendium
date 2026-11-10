@@ -58,6 +58,7 @@ Un récit sur un thème de votre choix, par exemple :
 | **Données** | Les chapitres et leurs médias sont chargés avec `fetch()` depuis un fichier JSON. On y arrive [en deux phases](arborescence-recit-defilant.md#deux-phases) : d'abord l'intégration statique (les chapitres en HTML), puis l'intégration dynamique (les données), exigée à la bêta. |
 | **Dataviz** | Au moins un `fetch()` vers une **API externe gratuite**, pour un moment de visualisation de données ou un élément « vivant ». Au cahier de charges, vous décrivez seulement l'idée et le genre de données : l'API se choisit après le cours du mer. 11 nov. |
 | **Animations** | Au moins une animation de chaque technique : **CSS au défilement** (`animation-timeline`), **GSAP + ScrollTrigger**, et un déclencheur **IntersectionObserver**. |
+| **Extension GSAP** | Au moins **un effet** fait avec une [extension de GSAP](../../js/gsap-bases.md#extensions), au moins une fois dans le récit (par équipe) : SplitText, ScrambleText, TextPlugin, MotionPath, DrawSVG, MorphSVG, Flip ou ScrollTo. ScrollTrigger ne compte pas : il est déjà exigé. La personne qui l'intègre est inscrite dans la [matrice de responsabilités](cahier-de-charges.md#le-gabarit) du cahier de charges. |
 | **Vue.js** | Un composant imposé : le **navigateur de chapitres** ou la **barre de progression**. Vue est chargé par CDN, sans *build*. |
 | **Média animable** | Un par personne, préparé pour l'animation (voir plus bas). |
 | **Responsive** | Le récit fonctionne sur desktop et sur mobile. Les animations peuvent y être simplifiées. |
@@ -252,9 +253,9 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
 | **ven. 6 nov.** | **Point de contrôle** (formatif) : la structure, les chapitres et une première animation GSAP. Construction des chapitres. |
 | mer. 11 nov. | Initiation à Vue.js : le composant imposé. Le *fetch* externe : choisir et tester votre API. |
-| **ven. 13 nov.** | **Prototype** (formatif) : navigable et animé. Les chapitres peuvent encore être en HTML statique. |
+| **ven. 13 nov.** | **Prototype** (formatif) : navigable et animé. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée : les chapitres peuvent encore être en HTML statique. |
 | mer. 18 nov. | Responsive, `prefers-reduced-motion`, performance |
-| **ven. 20 nov.** | **Bêta** : médias finaux intégrés, **chapitres chargés depuis `data.json`**, prête pour la QA |
+| **ven. 20 nov.** | **Bêta** : [*phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, **chapitres chargés depuis `data.json`**. Médias finaux intégrés, prête pour la QA |
 | **mer. 25 et ven. 27 nov.** | **Contrôle de la qualité croisé** (issues GitHub) |
 | mer. 2 et ven. 4 déc. | Correctifs, déploiement final, préparation de la défense |
 | **mer. 9 déc.** | **Défenses individuelles**, en privé |
@@ -293,7 +294,7 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
 **En équipe**
 
 - [ ] L'**arborescence** est en place, comme dans [L'arborescence du dépôt](arborescence-recit-defilant.md) : les dossiers, `index.html`, `style.css` et ses `@import`, `main.js` et ses `import`, **un fichier CSS et un fichier JS par chapitre** (même presque vides).
-- [ ] Chaque chapitre a sa **`<section class="chapitre">` avec son `id`** (unique, en minuscules, sans espace ni accent). Pour ce point de contrôle, les sections peuvent être **écrites en HTML** ([la phase 1, intégration statique](arborescence-recit-defilant.md#html-phase-1)) : pas besoin du chargement JSON. Vérifiez dans l'inspecteur.
+- [ ] Chaque chapitre a sa **`<section class="chapitre">` avec son `id`** (unique, en minuscules, sans espace ni accent). Pour ce point de contrôle, les sections peuvent être **écrites en HTML** ([la *phase 1*{ .w5-phase .w5-phase-1 }, intégration statique](arborescence-recit-defilant.md#html-phase-1)) : pas besoin du chargement JSON. Vérifiez dans l'inspecteur.
 - [ ] **GSAP et ScrollTrigger** sont chargés dans `index.html`, avant `main.js`, et `gsap.registerPlugin(ScrollTrigger)` est appelé **une fois**, dans `main.js`.
 
 **Chaque personne**
@@ -315,7 +316,7 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
 
 !!! tip "Où trouver l'aide"
     - La structure : [L'arborescence du dépôt](arborescence-recit-defilant.md), section « Créer la structure, au début ».
-    - Les sections avec leur `id`, en HTML : [Phase 1 : vos chapitres écrits en HTML](arborescence-recit-defilant.md#html-phase-1), et [`main.js` à la phase 1](arborescence-recit-defilant.md#main-js-phase-1).
+    - Les sections avec leur `id`, en HTML : [*Phase 1*{ .w5-phase .w5-phase-1 } : vos chapitres écrits en HTML](arborescence-recit-defilant.md#html-phase-1), et [`main.js` à la *phase 1*{ .w5-phase .w5-phase-1 }](arborescence-recit-defilant.md#main-js-phase-1).
     - L'animation test : [GSAP : tweens et timelines](../../js/gsap-bases.md). Pour trouver vos éléments dans votre chapitre, voyez « D'où vient `section`? » dans [Dans votre récit : un module de chapitre](../../js/gsap-scrolltrigger.md#dans-votre-recit).
     - La *pull request* : [Git en équipe](git-en-equipe.md).
     - Les médias : [Les médias et les crédits](#les-medias-et-les-credits), et [Un média animable par personne](#un-media-animable-par-personne).

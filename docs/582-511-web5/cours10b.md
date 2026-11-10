@@ -42,15 +42,20 @@ Une scène épinglée, 5 calques, deux personnages : un exemple complet.
 
 ## Nouveau : votre récit se construit en deux phases.
 
-1. **Phase 1, intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. Accepté jusqu'au prototype (ven. 13 nov.).
-2. **Phase 2, intégration dynamique** : le texte et les médias déplacés dans `data.json`. Exigé à la bêta (ven. 20 nov.).
+### *Phase 1*{ .w5-phase .w5-phase-1 }: intégration *statique*
 
-Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la phase 2.
+*Phase 1*{ .w5-phase .w5-phase-1 }, **intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. Accepté jusqu'au prototype (ven. 13 nov.).
 
-Comment faire :
+### *Phase 2*{ .w5-phase .w5-phase-2 }: intégration *dynamique*
 
-- *PHASE 1 :* aujourd'hui, [écrire vos chapitres en HTML (phase 1)](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1), et [où mettre vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre);
-- *PHASE 2 :* plus tard, [passer à la phase 2](projets/recit-defilant/arborescence-recit-defilant.md#phase-2), puis [les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md).
+*Phase 2*{ .w5-phase .w5-phase-2 }, intégration **dynamique** : le texte et les médias déplacés dans `data.json`. Exigé à la bêta (ven. 20 nov.).
+
+Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la *phase 2*{ .w5-phase .w5-phase-2 }.
+
+**Comment faire :**
+
+- *Phase 1*{ .w5-phase .w5-phase-1 } : aujourd'hui, [écrire vos chapitres en HTML (*phase 1*{ .w5-phase .w5-phase-1 })](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1), et [où mettre vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre);
+- *Phase 2*{ .w5-phase .w5-phase-2 } : plus tard, [passer à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/arborescence-recit-defilant.md#phase-2), puis [les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md).
 
 ## Rappel pour les images non créées pas vous même
 
@@ -74,7 +79,7 @@ Comment faire :
 - [ ] Point de contrôle : 5 minutes pour compléter votre remise
 - [ ] Rencontres d'équipe : on valide votre point de contrôle ensemble
 - [ ] IntersectionObserver : déclencher une fois
-- [ ] Explorer les extensions de GSAP
+- [ ] Mini-atelier en équipe (obligatoire) : choisir votre extension GSAP
 - [ ] Dans votre projet : construire vos chapitres
 
 ## 1. :material-flag-checkered:  Le point de contrôle
@@ -89,7 +94,7 @@ Ensuite, je passe **d'équipe en équipe** pour faire le point de contrôle avec
 - vos médias, dans `assets/images/ch-XX/`, et leurs crédits dans le `README.md`;
 - le journal du bloc 2 de chacun.
 
-En attendant votre tour, avancez vos chapitres (section 3).
+En attendant votre tour : le **mini-atelier des extensions** (section 3), obligatoire, puis vos chapitres (section 4).
 
 [:material-flag-checkered: Le point de contrôle : la liste complète](projets/recit-defilant/index.md#point-de-controle){ .md-button .md-button--primary }
 
@@ -99,11 +104,43 @@ Pas pour animer : pour **déclencher une action**, une seule fois. C'est la bonn
 
 [:material-eye-outline: IntersectionObserver : déclencher une fois](js/intersection-observer.md){ .md-button }
 
-## 3. :material-puzzle-outline:  Explorer les extensions GSAP
+## 3. :material-puzzle-outline:  Mini-atelier en équipe : choisir votre extension GSAP { #atelier-extensions }
 
 GSAP a des **extensions** pour des effets qu'on ne fait pas avec un simple tween : faire apparaître un titre lettre par lettre, faire suivre un chemin à un personnage, dessiner un trait, transformer une forme en une autre. Depuis GSAP 3.13, elles sont toutes gratuites, sur le même CDN que GSAP.
 
-Chacune a sa page-sujet, avec une démo, l'installation et un exemple pour un chapitre de votre récit. Prenez le temps de les parcourir : l'une d'elles pourrait devenir le moment fort d'un de vos chapitres.
+Chacune a sa page-sujet, avec une démo, l'installation et un exemple pour un chapitre de votre récit. L'une d'elles pourrait devenir le moment fort d'un de vos chapitres.
+
+!!! warning "Nouvelle exigence du projet : au moins une extension"
+    Votre récit doit contenir **au moins un effet** fait avec une extension de GSAP, au moins une fois par équipe. ScrollTrigger ne compte pas : il est déjà exigé. Choisissez l'extension qui sert votre histoire.
+
+    [Voir les exigences du projet](projets/recit-defilant/index.md#ce-qui-est-obligatoire)
+
+!!! danger "Atelier obligatoire : à terminer avant de quitter la classe aujourd'hui"
+    Pendant que je passe d'équipe en équipe, faites cet atelier **en équipe**. Je vérifie votre *commit* avant votre départ.
+
+**1. Explorez** (chacun de son côté)
+
+Partagez-vous la liste plus bas : une personne prend les 4 premières extensions, l'autre les 4 dernières. Pour chacune, regardez la démo et la section « Dans votre récit ». Notez celles qui pourraient servir **votre** histoire.
+
+**2. Décidez** (ensemble)
+
+Présentez-vous vos trouvailles, puis répondez ensemble à trois questions :
+
+- **Quelle extension?** Celle qui sert le mieux votre histoire, pas la plus spectaculaire.
+- **À quel moment de l'histoire?** Le chapitre, et le moment précis dans votre storyboard.
+- **Qui l'intègre?** Une personne responsable, idéalement dans un de **ses** chapitres.
+
+**3. Documentez** (ensemble, sur `main`)
+
+Dans la section 4 de votre `CAHIER-DE-CHARGES.md` (la matrice de responsabilités), ajoutez la ligne :
+
+```markdown
+| Extension GSAP : [nom de l'extension], chapitre [numéro] | [Prénom] | L'effet et son intégration |
+```
+
+Puis *commit* (`Cahier : ajoute l'extension GSAP`) et *push*.
+
+**Les extensions à explorer** :
 
 - :material-format-text: [TextPlugin : la machine à écrire](js/gsap-text.md)
 - :material-format-letter-case: [SplitText : des lettres, des mots, des lignes](js/gsap-splittext.md)
@@ -116,15 +153,15 @@ Chacune a sa page-sujet, avec une démo, l'installation et un exemple pour un ch
 
 ## 4. :material-account-multiple-outline:  Dans votre projet : construire vos chapitres
 
-**Chacun dans ses chapitres, sur sa branche.** C'est la phase 1, l'intégration statique :
+**Chacun dans ses chapitres, sur sa branche.** C'est la *phase 1*{ .w5-phase .w5-phase-1 }, l'intégration statique :
 
 1. Le HTML de vos sections, directement dans `index.html` : le texte, puis vos médias.
 2. Le CSS de vos chapitres, dans `css/chapitres/`.
 3. Vos animations JavaScript dans la fonction `animate()` du fichier de votre chapitre (`js/chapitres/ch-03.js`) : GSAP, ScrollTrigger. Les animations CSS au défilement, elles, vont dans `css/chapitres/`.
 4. *Pull request* quand une étape fonctionne : on fusionne souvent, par petits morceaux.
 
-[:material-file-tree: Phase 1 : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
-[:material-language-javascript: Phase 1 : vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre){ .md-button }
+[:material-file-tree: *Phase 1*{ .w5-phase .w5-phase-1 } : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
+[:material-language-javascript: *Phase 1*{ .w5-phase .w5-phase-1 } : vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre){ .md-button }
 
 [:material-movie-open-outline: Exemple : un chapitre, plusieurs médias en timeline](projets/recit-defilant/exemple-chapitre-complexe.md){ .md-button }
 
@@ -150,6 +187,6 @@ Avec la grille **Vérifiez votre travail** de chaque énoncé, puis *push* :
 - [Exercice : le monstre responsive](exercices/ex-spritesheet/index.md#verifier);
 - [Exercice : la parallaxe en calques](exercices/ex-parallaxe/index.md#verifier).
 
-### D'ici le ven. 13 nov. : le prototype (formatif)
+### D'ici le ven. 13 nov. : le prototype (formatif), en *phase 1*{ .w5-phase .w5-phase-1 }
 
-Votre récit est **navigable et animé**. Vos chapitres peuvent encore être en HTML statique (phase 1, intégration statique). [Voir le calendrier](projets/recit-defilant/index.md#calendrier).
+Votre récit est **navigable et animé**. *Phase 1*{ .w5-phase .w5-phase-1 } : **intégration statique** acceptée : vos chapitres peuvent encore être en HTML statique. La *phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique** sera exigée à la bêta (ven. 20 nov.). [Voir le calendrier](projets/recit-defilant/index.md#calendrier).
