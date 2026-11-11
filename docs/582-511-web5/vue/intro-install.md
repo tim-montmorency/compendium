@@ -21,19 +21,23 @@ allowfullscreen></iframe>
 
 ## Quelques exemples Vue
 
-* [Démos sur vuejsexamples.com](https://vuejsexamples.com/)  
+Les **exemples officiels** de Vue fonctionnent dans la page : on peut modifier le code et voir le résultat. En haut à gauche, choisissez **Options** et **HTML** : c'est la façon d'écrire Vue de ce cours.
 
-* [Made with Vue.js](https://madewithvuejs.com/) 
+- [Éditeur markdown](https://fr.vuejs.org/examples/#markdown) : le texte se met en forme pendant qu'on tape.
+- [Récupération de données](https://fr.vuejs.org/examples/#fetching-data) : un `fetch()` vers l'API de GitHub, affiché avec Vue.
+- [Grille avec tri et filtres](https://fr.vuejs.org/examples/#grid) : un tableau qu'on trie et qu'on filtre.
+- [Graphique SVG](https://fr.vuejs.org/examples/#svg) : un graphique qui change quand on bouge les curseurs.
+- [Modale avec transitions](https://fr.vuejs.org/examples/#modal) et [liste avec transitions](https://fr.vuejs.org/examples/#list-transition) : Vue et l'animation.
+- [Les 7 GUIs](https://fr.vuejs.org/examples/#counter) : 7 petites interfaces classiques, du compteur au tableur.
 
-Quelques exemples que j'ai sélectionnés pour vous :
+Pour essayer Vue sans rien installer : le [Playground de Vue](https://play.vuejs.org/).
 
-* [Une table de données interactive: Easy Data Table](https://hc200ok.github.io/vue3-easy-data-table-doc/)
-* [Un jeu de Pokémons construit avec Vue.js et Tailwind CSS](https://vuejsexamples.com/a-pokemon-game-built-with-vue-and-tailwind-css/)
-* [Une composante Vue.js qui affiche une list des personnages de Rick and Morty.](https://vuejsexamples.com/a-vue-js-component-that-displays-a-list-of-rick-and-morty-characters/)
-* [Composante de formulaire](https://vueform.com/examples/accomodation-and-travel-create-listing)
-* [Composante de shopping  de matériel informatique](https://www.eloshapes.com/mouse/browse)
-* [Unicorn: Convertisseurs d'unités de mesure](https://unicon.pages.dev/)
-* [Quelques exemples de projets Vue.js regroupés sur une collection CodePen.](https://codepen.io/collection/kNQdop)
+Pour voir des applications réelles faites avec Vue :
+
+- [3D Print Gen4Math](https://kai-gski.github.io/index.html) : on tape une équation, on règle l'épaisseur et les supports, et l'app génère un fichier à imprimer en 3D. Chaque réglage met à jour l'aperçu et le temps d'impression estimé : c'est la réactivité.
+- [Une table de données interactive : Easy Data Table](https://hc200ok.github.io/vue3-easy-data-table-doc/) : un composant Vue 3 pour trier, filtrer et paginer un tableau.
+- [Une liste des personnages de Rick and Morty](https://vuejsexamples.com/a-vue-js-component-that-displays-a-list-of-rick-and-morty-characters/) : un composant qui charge et filtre des données, écrit en Options API.
+- [Made with Vue.js](https://madewithvuejs.com/) : une vitrine de sites et d'applications faits avec Vue.
 
 ## Vidéo: Vue.js en 2 minutes
 
