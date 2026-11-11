@@ -370,11 +370,9 @@ nav:
         - "Intro à Vue.js": 582-511-web5/vue/index.md
         - "Création d'une app": 582-511-web5/vue/creation-app.md
         - "Interpolation": 582-511-web5/vue/interpolation.md
-        - "Boucle v-for": 582-511-web5/vue/boucle.md
-        - "Classe dynamique": 582-511-web5/vue/classe-dynamique.md
         - "Méthodes et événements": 582-511-web5/vue/methodes-evenements.md
-        - "Propriété calculée": 582-511-web5/vue/propriete-calculee.md
-        - "Conditions v-if et v-show": 582-511-web5/vue/condition.md
+        - "Classe dynamique": 582-511-web5/vue/classe-dynamique.md
+        - "Boucle v-for": 582-511-web5/vue/boucle.md
       - Exercices:
           - "Conflit Git (en duo)": 582-511-web5/exercices/ex-conflit-git/index.md
           - "Spritesheet: monstre qui marche": 582-511-web5/exercices/ex-spritesheet/index.md
