@@ -25,6 +25,15 @@
 
 ## Suivi sur les stages
 * Explication de la prise de rendez-vous
+* Temps pour l'envoi et la mise à jour des candidatures
+
+| Nom de l'entreprise | Nom de la personne à contacter  | Courriel de la personne à contacter | Ville | Date d'envoi de la candidature | Date de relance | Date d'entrevue | Réponse |
+| -------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
 
 ## Finances
 [📁 Quiz d'introduction 2](https://www.lapresse.ca/affaires/economie/2024-11-10/quiz/les-finances-et-vous.php){ .md-button }
