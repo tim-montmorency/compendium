@@ -44,6 +44,7 @@ Une démo de 60 secondes de votre récit, sur votre poste. Rien à déposer.
 
 ## Aujourd'hui
 
+- [ ] Vos exercices GSAP : auto-validés et poussés sur `main`
 - [ ] Vue.js : pourquoi un cadriciel
 - [ ] Les principes de Vue : un tour des pages-sujets
 - [ ] Exercice : Tableau NBA
@@ -93,6 +94,11 @@ Avant de construire, un tour des idées de Vue. Chaque principe a sa page-sujet,
 ## 3. :material-pencil-ruler:  Pratiquer : deux exercices { #exercices }
 
 Seul, dans Classroom 50 : le lien d'acceptation est au début de chaque exercice. Gardez les pages-sujets de la section 2 ouvertes à côté.
+
+!!! warning "Auto-validez chaque exercice avant de le remettre"
+    Chaque exercice se termine par une liste **Vérifiez votre travail**. Avant votre dernier *push*, testez votre page avec cette liste : chaque énoncé doit être vrai.
+
+    Vos exercices GSAP, à remettre aujourd'hui, aussi : [Zombi](exercices/ex-gsap-zombi/index.md#verifier), [Magie](exercices/ex-gsap-magie/index.md#verifier) et [la magie au défilement](exercices/ex-gsap-magie-defilement/index.md#verifier).
 
 **1. Tableau NBA** (environ 40 min) : `data()`, `{{ }}`, `@click` et les méthodes, puis une propriété calculée.
 

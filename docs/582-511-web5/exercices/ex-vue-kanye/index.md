@@ -78,6 +78,17 @@ Une API externe peut être lente, changer ou tomber en panne. Votre page doit re
 
 - [ ] *Commit* (`Partie C : un message si l'API ne répond pas`), puis *push*.
 
+## Vérifiez votre travail { #verifier }
+
+Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. Chaque énoncé doit être vrai **avant votre dernier *push***. Si un point coince, relisez la partie concernée et ses indices.
+
+- [ ] **Partie A** : la méthode `getQuote()` est appelée au clic sur le bouton.
+- [ ] **Partie B** : chaque clic affiche une **nouvelle** citation, et une requête vers `api.kanye.rest` apparaît dans l'onglet **Réseau**.
+- [ ] **Partie B** : le texte fixe de la partie A n'est plus dans `js/script.js`.
+- [ ] **Partie C** : avec une adresse erronée, la bulle affiche « Kanye ne répond pas. Réessayez plus tard. », l'erreur est dans la console, et la page n'est pas cassée.
+- [ ] **Partie C** : j'ai remis la bonne adresse.
+- [ ] La console n'affiche **aucune erreur** quand l'API répond, et mes *commits* sont sur github.com.
+
 ## Défi (facultatif)
 
 - [ ] Au chargement de la page, la bulle affiche « Texte de citation ». Faites plutôt afficher **une vraie citation dès l'ouverture**, sans clic. Indice : `mounted()`, la fonction que Vue appelle une fois, quand l'app est branchée sur la page.

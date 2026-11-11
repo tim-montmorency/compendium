@@ -79,6 +79,17 @@ Tout votre code va dans `js/script.js`. Ouvrez aussi `index.html` et repérez l'
 
 - [ ] *Commit* (`Animation B : le fond change de couleur`), puis *push*.
 
+## Vérifiez votre travail { #verifier }
+
+Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. Chaque énoncé doit être vrai **avant votre dernier *push***. Si un point coince, relisez la partie concernée et ses indices.
+
+- [ ] **Animation A** : le coeur grossit, puis revient à sa taille **en douceur**, avec un rebond élastique, sans jamais s'arrêter.
+- [ ] **Animation A** : dans `js/script.js`, la cible du tween est la **classe du coeur**, trouvée dans `index.html`.
+- [ ] **Animation B** : le fond passe lentement du vert olive au beige, puis revient, sans jamais s'arrêter.
+- [ ] **Animation B** : chaque changement de couleur dure environ 2 secondes et demie.
+- [ ] La console n'affiche **aucune erreur**.
+- [ ] Sur github.com, mes *commits* `Animation A` et `Animation B` sont dans mon dépôt.
+
 ## Défi du zombi (facultatif)
 
 - [ ] Ajoutez une légère **rotation** au coeur pendant qu'il bat : quelques degrés seulement.

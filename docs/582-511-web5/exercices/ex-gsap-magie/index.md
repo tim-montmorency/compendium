@@ -80,6 +80,18 @@ La timeline joue les animations **les unes après les autres**. Construisez-la u
 
 - [ ] *Commit* (`Magie : la timeline`), puis *push*.
 
+## Vérifiez votre travail { #verifier }
+
+Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. Chaque énoncé doit être vrai **avant votre dernier *push***. Si un point coince, relisez la partie concernée et ses indices.
+
+- [ ] **État de départ** : au chargement, rien n'apparaît avant l'animation. Pas d'éclair du chapeau ou de la main.
+- [ ] **Timeline** : le chapeau apparaît en fondu, **puis** se retourne avec un petit élan.
+- [ ] **Timeline** : la baguette pivote à partir de son **manche**, pas de son centre.
+- [ ] **Timeline** : la baguette fait **exactement 3** allers-retours, et termine à sa position de départ.
+- [ ] **Timeline** : la main sort de **l'intérieur** du chapeau. On ne la voit jamais sous le chapeau ni devant lui.
+- [ ] **Code** : une seule `gsap.timeline()`, sans `delay` : c'est la timeline qui enchaîne.
+- [ ] La console n'affiche **aucune erreur**, et mes *commits* sont sur github.com.
+
 ## Défis (facultatifs)
 
 - [ ] La baguette apparaît **pendant** que le chapeau se retourne, plutôt qu'après. Voir *Le paramètre de position* dans les notes.

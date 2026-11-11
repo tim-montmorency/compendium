@@ -75,6 +75,16 @@ Sous le **VS**, affichez qui mène : « Raptors en tête », « Celtics en tête
 
 - [ ] *Commit* (`Partie D : la propriété calculée leader`), puis *push*.
 
+## Vérifiez votre travail { #verifier }
+
+Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. Chaque énoncé doit être vrai **avant votre dernier *push***. Si un point coince, relisez la partie concernée et ses indices.
+
+- [ ] **Partie A** : au chargement, les deux pointages affichent **80**, et le `50` n'est plus écrit nulle part dans `index.html`.
+- [ ] **Partie B** : un clic sur **TOR** ajoute 2 points aux Raptors, et **seulement** aux Raptors. Même chose pour **BOS**.
+- [ ] **Partie C** : dans `methods`, il n'y a **qu'une seule** méthode, `addPoints()`.
+- [ ] **Partie D** : au chargement, on lit « Égalité ». Les Raptors marquent : « Raptors en tête ». Les Celtics les dépassent : « Celtics en tête ».
+- [ ] La console n'affiche **aucune erreur**, et mes *commits* sont sur github.com.
+
 ## Défi (facultatif)
 
 - [ ] Ajoutez sous chaque logo un petit bouton **+3**, pour un panier à trois points. Réutilisez `addPoints()` : ajoutez-lui un deuxième paramètre, le nombre de points.

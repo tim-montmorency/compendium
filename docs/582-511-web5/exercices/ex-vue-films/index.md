@@ -83,6 +83,17 @@ movies: [
 
 - [ ] *Commit* (`Partie C : les films viennent d'un tableau, avec v-for`), puis *push*.
 
+## Vérifiez votre travail { #verifier }
+
+Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. Chaque énoncé doit être vrai **avant votre dernier *push***. Si un point coince, relisez la partie concernée et ses indices.
+
+- [ ] **Partie A** : au chargement, l'année affichée est **2022**. Les boutons **-** et **+** la changent d'une année à la fois.
+- [ ] **Partie B** : à 2022, deux films sont en orange et en gras. Je change d'année : ce sont les films de **cette** année qui ressortent, et seulement eux.
+- [ ] **Partie B** : les pastilles jaunes devant les films sont toujours là (la classe `static-class`).
+- [ ] **Partie C** : dans `index.html`, il n'y a **qu'un seul** `<li>`.
+- [ ] **Partie C** : j'ajoute un film au tableau `movies` : il apparaît dans la liste, et il s'allume quand je choisis son année.
+- [ ] La console n'affiche **aucune erreur**, et mes *commits* sont sur github.com.
+
 ## Défis (facultatifs)
 
 - [ ] **Le bouton + bloqué** : on ne peut pas dépasser l'année courante. Créez une donnée `currentYear`, puis, dans `nextYear()`, n'augmentez l'année que si elle est plus petite. Ajoutez la classe `disabled` au bouton **+** quand on y est.

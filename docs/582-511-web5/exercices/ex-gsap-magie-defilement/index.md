@@ -94,6 +94,18 @@ Avec le mouvement réduit, le numéro ne doit pas jouer, **et** rien ne doit res
 
 - [ ] *Commit* (`Partie 4 : respecte le mouvement réduit`), puis *push*.
 
+## Vérifiez votre travail { #verifier }
+
+Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. Chaque énoncé doit être vrai **avant votre dernier *push***. Si un point coince, relisez la partie concernée et ses indices.
+
+- [ ] **Partie 1** : `gsap.registerPlugin(ScrollTrigger)` est appelé **une seule fois**, en haut de `js/script.js`.
+- [ ] **Partie 2** : le numéro avance quand je descends, recule quand je remonte, et s'arrête quand j'arrête.
+- [ ] **Partie 3** : la scène reste en place pendant tout le numéro, et la page repart seulement quand la main est sortie.
+- [ ] **Partie 3** : le numéro dure environ 3 écrans de défilement.
+- [ ] **Partie 3** : les repères (`markers`) ne s'affichent plus.
+- [ ] **Partie 4** : avec le mouvement réduit émulé, le chapeau, la baguette et la main sont **visibles**, rien ne bouge, et la scène n'est plus épinglée.
+- [ ] La console n'affiche **aucune erreur**, et mes *commits* sont sur github.com.
+
 ## Bonus (facultatif)
 
 - [ ] À la fin du numéro, la main reste quelques instants en l'air avant que la page reparte. Indice : un tween « vide » à la fin de la timeline, `.to({}, { duration: 1 })`, ajoute du défilement sans rien animer.
