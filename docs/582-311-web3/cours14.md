@@ -26,13 +26,13 @@ Dernière ligne droite&nbsp;! Cette séance sert à **finaliser, valider et publ
 
     Une **page blanche** sur GitHub Pages&nbsp;? Vérifiez le `base` dans `vite.config.js` (cours 5). Des images manquantes en ligne&nbsp;? Attention aux chemins et à la **casse** des noms de fichiers (le serveur, lui, distingue les majuscules).
 
-## Préparer la présentation orale
+## Préparer la démonstration et l'entrevue
 
-Le cours 15 est consacré aux présentations. Profitez de la fin de l'atelier pour&nbsp;:
+Le cours 15 se déroule en deux temps&nbsp;: une **démonstration** de 2 minutes devant le groupe, puis une **entrevue individuelle** d'environ 4 minutes sur le code (voir l'[énoncé](./devoir/projet-final.md#demonstration-et-entrevue)). Profitez de la fin de l'atelier pour&nbsp;:
 
-- [ ] Préparer une courte démonstration de votre site (2 à 3 minutes).
-- [ ] Pouvoir **expliquer vos choix** techniques&nbsp;: pourquoi DaisyUI, quelles animations GSAP, quelle librairie et pourquoi.
-- [ ] Avoir sous la main le **lien du site** et le **lien du dépôt GitHub**.
+- [ ] Préparer la démonstration du site en ligne (2 minutes ou moins).
+- [ ] **Relire tout son code**, fichier par fichier, et pouvoir expliquer chaque bloc&nbsp;: ce qu'il fait, et ce qui changerait si on modifiait une valeur.
+- [ ] Remettre le projet **la veille du cours 15, à 23 h 59**&nbsp;: le lien du répertoire GitHub et le lien du site en ligne.
 
 !!! success "Bravo 🎉"
 

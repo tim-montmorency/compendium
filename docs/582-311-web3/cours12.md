@@ -1,36 +1,199 @@
-# Cours 12 | 3D sur le Web et sauvegarde côté client
+# Cours 12 | Médias par programmation, 3D et sauvegarde côté client
 
 [STOP]
 
-<!-- **Savoirs :** #1 Programmation fonctionnelle · #11 Sauvegarde côté client · #15 Interactivité · Intégration, classement et optimisation des médias · #16 Visualisation via librairie (bonus) -->
+<!-- **Savoirs :** #3 Contrôle audio et vidéo · #13 Classe JavaScript · #14 Classes sur mesure · #12 Repérage d'erreur (DevTools) · #11 Sauvegarde côté client · #15 Interactivité · Intégration, classement et optimisation des médias · #16 Visualisation via librairie (bonus) -->
 
 *[DOM]: Document Object Model
 *[npm]: Node Package Manager
+*[API]: Application Programming Interface
 *[AR]: Augmented Reality (réalité augmentée)
 *[glTF]: GL Transmission Format
 *[GLB]: glTF Binary
 
-Vos modèles Maya méritent mieux qu'un rendu figé&nbsp;: aujourd'hui, ils entrent **dans le navigateur**, en 3D temps réel, manipulables à la souris et même posables dans votre salon en réalité augmentée 🪄. Au menu&nbsp;:
+Ce cours s'appelle « Web **audiovisuel** »&nbsp;: au cours 7, les médias ont été **optimisés**. Aujourd'hui, on les **contrôle par programmation** 🎬🔊, puis vos modèles Maya entrent **dans le navigateur**, en 3D temps réel, et le site apprend à **se souvenir** des choix du visiteur 🪄. Au menu&nbsp;:
 
 <div class="grid grid-1-4" markdown>
-  :material-cube-outline: **Partie 1** - De Maya au navigateur&nbsp;: exporter et optimiser un modèle
+  :material-play-circle: **Partie 1** - Audio et vidéo&nbsp;: API native, classes JavaScript et Howler.js
 </div>
 
 <div class="grid grid-1-4" markdown>
-  :material-rotate-3d-variant: **Partie 2** - `<model-viewer>`&nbsp;: une vitrine 3D en une balise HTML
+  :material-cube-outline: **Partie 2** - De Maya au navigateur&nbsp;: exporter et optimiser un modèle
 </div>
 
 <div class="grid grid-1-4" markdown>
-  :material-content-save-outline: **Partie 3** - Personnaliser et **mémoriser** les choix du visiteur avec `localStorage`
+  :material-rotate-3d-variant: **Partie 3** - `<model-viewer>`&nbsp;: une vitrine 3D en une balise HTML
 </div>
 
 <div class="grid grid-1-4" markdown>
-  :material-star-plus: **Bonus** - Chart.js (graphiques) et Three.js (3D sur mesure)
+  :material-content-save-outline: **Partie 4** - Personnaliser et **mémoriser** les choix du visiteur avec `localStorage`
+</div>
+
+<div class="grid grid-1-4" markdown>
+  :material-star-plus: **Bonus** - Tone.js (musique générée), Chart.js (graphiques) et Three.js (3D sur mesure)
 </div>
 
 ---
 
-# Partie 1 - De Maya au navigateur
+# Partie 1 - Contrôler les médias par programmation
+
+Les balises `<video>` et `<audio>` viennent avec des contrôles par défaut. Mais dès qu'on veut un **lecteur sur mesure** (boutons stylisés, barre de progression maison, effets sonores au clic), on passe par le JavaScript.
+
+## L'API native `<video>` / `<audio>`
+
+Tout élément média expose des **propriétés**, des **méthodes** et des **événements** qu'on manipule en JS.
+
+| Propriété | Rôle |
+| :--- | :--- |
+| `currentTime` | Position de lecture (en secondes) |
+| `duration` | Durée totale |
+| `volume` | Volume (0 à 1) |
+| `muted` | Sourdine (booléen) |
+| `paused` | En pause ? (booléen) |
+| `playbackRate` | Vitesse de lecture |
+
+| Méthode | Effet |
+| :--- | :--- |
+| `.play()` | Lance la lecture |
+| `.pause()` | Met en pause |
+| `.load()` | Recharge la source |
+
+| Événement | Se déclenche… |
+| :--- | :--- |
+| `play` / `pause` | À la lecture / pause |
+| `timeupdate` | À chaque avancée de lecture (pour une barre de progression) |
+| `ended` | À la fin |
+| `loadedmetadata` | Quand la durée est connue |
+
+```js title="Bouton lecture/pause maison"
+const video = document.querySelector("#film")
+const bouton = document.querySelector("#lecture")
+
+bouton.addEventListener("click", () => {
+  video.paused ? video.play() : video.pause()
+})
+
+// Barre de progression
+video.addEventListener("timeupdate", () => {
+  const pourcent = (video.currentTime / video.duration) * 100
+  document.querySelector("#barre").style.width = pourcent + "%"
+})
+```
+
+<!-- CODEPEN: lecteur vidéo maison (play/pause + barre de progression) -->
+
+## Petit détour : les classes JavaScript
+
+Les librairies (GSAP depuis le cours 9, Howler aujourd'hui) nous donnent des **objets** créés avec le mot-clé `new`. Trois notions suffisent pour s'y retrouver&nbsp;:
+
+- une **classe** est un *moule* (ex.&nbsp;: `Howl`)&nbsp;;
+- `new` fabrique une **instance** à partir du moule&nbsp;;
+- une **méthode** est une action de l'instance (ex.&nbsp;: `.play()`).
+
+```js
+const son = new Howl({ src: ["saut.mp3"] })  // une instance de la classe Howl
+son.play()                                    // une méthode de cette instance
+```
+
+!!! note "On les utilise plus qu'on les écrit"
+
+    À ce stade, l'important est de **savoir lire et utiliser** une classe fournie par une librairie, pas d'écrire les vôtres. Vous reconnaîtrez ce motif `new Quelquechose({...})` partout&nbsp;: Howler, Chart.js, Tone.js, GSAP…
+
+### Écrire sa propre classe (aperçu)
+
+Rien ne vous empêche d'écrire la vôtre. La structure minimale regroupe des **données** (dans le `constructor`) et des **méthodes** (des actions)&nbsp;:
+
+```js
+class Personnage {
+  constructor(nom, pv) {
+    this.nom = nom      // une propriété
+    this.pv = pv
+  }
+  saluer() {           // une méthode
+    console.log(`${this.nom} entre en scène !`)
+  }
+}
+
+const heros = new Personnage("Digger", 100)
+heros.saluer()   // "Digger entre en scène !"
+```
+
+!!! note "À garder simple"
+
+    Écrire ses propres classes devient utile quand on gère **plusieurs objets du même type**. Pour un site promotionnel, l'usage des classes **fournies par les librairies** suffit largement&nbsp;: retenez surtout comment les **lire et les instancier**.
+
+## Une librairie audio : Howler.js
+
+L'`<audio>` natif suffit pour lire un fichier, mais dès qu'on veut des **effets sonores** fiables (jeu, interactions), des **sprites audio** ou un contrôle multiplateforme, **[Howler.js](https://howlerjs.com/)** est la référence.
+
+```bash
+npm install howler
+```
+
+```js title="src/main.js"
+import { Howl, Howler } from "howler"
+```
+
+```js title="Un son avec repli de format"
+const son = new Howl({
+  src: ["bruit.webm", "bruit.mp3"],  // le navigateur prend le 1er compatible
+  volume: 0.8,
+  loop: false
+})
+
+son.play()
+```
+
+| Méthode | Effet |
+| :--- | :--- |
+| `son.play()` / `son.pause()` / `son.stop()` | Contrôle de lecture |
+| `son.volume(0.5)` | Règle le volume de ce son |
+| `son.rate(1.5)` | Change la vitesse |
+| `Howler.volume(0.5)` | Volume **global** de tous les sons |
+| `Howler.mute(true)` | Coupe tout |
+
+!!! tip "Les sprites audio"
+
+    Un **sprite audio** regroupe plusieurs sons dans un seul fichier - idéal pour les effets d'un jeu.
+
+    ```js
+    const fx = new Howl({
+      src: ["fx.webm"],
+      sprite: { saut: [0, 300], piece: [400, 150] }
+    })
+    fx.play("saut")
+    ```
+
+<!-- CODEPEN: effets sonores au clic avec Howler -->
+
+### Autres librairies (survol)
+
+- **[Video.js](https://videojs.com/)** - un lecteur **vidéo** entièrement habillable (thèmes, sous-titres, qualité).
+
+## Déboguer : les DevTools
+
+Quand un média ne réagit pas, ouvrez les **DevTools** (++f12++)&nbsp;:
+
+- la **Console** affiche les erreurs et vos `console.log(...)`&nbsp;;
+- l'onglet **Réseau** montre si le fichier média se charge (ou renvoie une erreur 404)&nbsp;;
+- un **point d'arrêt** (_breakpoint_) met le code en pause pour l'inspecter ligne par ligne.
+
+```js
+console.log("durée :", video.duration)   // vérifier une valeur au vol
+```
+
+## Exercice - Médias
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/javascript_banner.png){.aspect-4-3}
+
+  <small>Exercice - Médias</small><br>
+  **[Salle de projection](./exercices/medias-salle-projection.md){.stretched-link .back}**
+</div>
+
+---
+
+# Partie 2 - De Maya au navigateur
 
 ## Le format de la 3D sur le Web : glTF
 
@@ -123,7 +286,7 @@ Le fichier est alors accessible à l'adresse `/modeles/perso.glb`.
 
 ---
 
-# Partie 2 - Une vitrine 3D avec `<model-viewer>`
+# Partie 3 - Une vitrine 3D avec `<model-viewer>`
 
 **[`<model-viewer>`](https://modelviewer.dev/)**, développé par Google, affiche un modèle 3D interactif avec **une seule balise HTML**. Rotation à la souris, éclairage réaliste, animations, réalité augmentée&nbsp;: tout est inclus.
 
@@ -303,7 +466,7 @@ gsap.to(camera, {
 
 ---
 
-# Partie 3 - Personnaliser et mémoriser avec `localStorage`
+# Partie 4 - Personnaliser et mémoriser avec `localStorage`
 
 ## Changer la couleur d'un matériau
 
@@ -426,9 +589,13 @@ interrupteur.addEventListener("change", () => {
 
 DaisyUI applique le thème dès que la case est cochée&nbsp;; il suffit donc de **remettre la case** dans le bon état au chargement.
 
+!!! tip "Pour le projet final : le bouton son"
+
+    Même recette pour le **bouton son** du microsite&nbsp;: au clic, on sauvegarde `"actif"` ou `"coupe"`&nbsp;; au chargement de **chaque page**, on relit la valeur et on remet le bouton dans le bon état. La musique, elle, ne repart qu'au premier clic du visiteur (le navigateur bloque le son avant).
+
 !!! success "Ce qu'on vient de faire"
 
-    Un modèle conçu dans Maya, exporté et optimisé comme n'importe quel média (cours 7), présenté dans une vitrine interactive, animé au défilement avec GSAP (cours 9 et 10), et personnalisable avec une **mémoire** côté client (savoir #11). Exactement le genre de pièce vedette qui distingue un site promotionnel.
+    Un modèle conçu dans Maya, exporté et optimisé comme n'importe quel média (cours 7), présenté dans une vitrine interactive, animé au défilement avec GSAP (cours 9 à 11), et personnalisable avec une **mémoire** côté client (savoir #11). Exactement le genre de pièce vedette qui distingue un site promotionnel.
 
 ## Exercices - 3D et `localStorage`
 
@@ -446,11 +613,103 @@ DaisyUI applique le thème dès que la case est cochée&nbsp;; il suffit donc de
   **[Atelier de personnalisation](./exercices/3d-atelier.md){.stretched-link .back}**
 </div>
 
-*Vitrine 3D* et *Atelier de personnalisation* font partie de la remise *Exercices 02*.
+*Salle de projection*, *Vitrine 3D* et *Atelier de personnalisation* font partie de la remise *Exercices 02*.
 
 ---
 
-# Bonus 1 - Chart.js (optionnel)
+# Bonus 1 - Tone.js (touche au choix)
+
+!!! info "Une touche au choix"
+
+    Tone.js est l'une des trois **touches au choix** du projet final, avec `<model-viewer>` et Chart.js. L'exercice *Boîte à musique* est à faire si Tone.js est la touche retenue.
+
+![](./assets/images/tonejs-adsr.png){data-zoom-image .w-75}
+
+**[Tone.js](https://tonejs.github.io/)** est un cadre audio pour **créer du son et de la musique** dans le navigateur. Pour un site de jeu, c'est parfait&nbsp;: une ambiance sonore, un thème musical, ou des effets aux interactions.
+
+## Installation
+
+```bash
+npm install tone
+```
+
+```js title="src/main.js"
+import * as Tone from "tone"
+```
+
+!!! danger "Le son exige un clic d'abord"
+
+    Les navigateurs **bloquent** tout son tant que l'utilisateur n'a pas interagi avec la page. Il faut donc appeler **`Tone.start()`** depuis un événement déclenché par l'utilisateur (un clic), sinon&nbsp;: silence.
+
+    ```js
+    document.querySelector("#demarrer").addEventListener("click", async () => {
+      await Tone.start()   // débloque l'audio
+      // … le son peut jouer maintenant …
+    })
+    ```
+
+## Jouer une note
+
+L'objet de base est le **synthétiseur**. On le crée, on le branche aux haut-parleurs avec `.toDestination()`, puis on joue une note.
+
+```js
+const synth = new Tone.Synth().toDestination()
+
+// note "Do 4", tenue pendant une croche ("8n")
+synth.triggerAttackRelease("C4", "8n")
+```
+
+| Argument | Signifie |
+| :--- | :--- |
+| `"C4"` | La note (nom + octave), ou une fréquence en Hz (`440`) |
+| `"8n"` | La durée&nbsp;: `"4n"` = noire, `"8n"` = croche, `"1m"` = une mesure |
+
+## Enchaîner des notes
+
+Le 3ᵉ argument planifie **quand** jouer, en secondes à partir de maintenant (`Tone.now()`).
+
+```js
+const synth = new Tone.Synth().toDestination()
+const t = Tone.now()
+
+synth.triggerAttackRelease("C4", "8n", t)
+synth.triggerAttackRelease("E4", "8n", t + 0.5)
+synth.triggerAttackRelease("G4", "8n", t + 1)
+```
+
+## Jouer un fichier audio
+
+Pour une **musique** ou un effet à partir d'un fichier, on utilise `Tone.Player`.
+
+```js
+const musique = new Tone.Player({
+  url: "./assets/audio/theme.mp3",
+  loop: true,
+  autostart: false
+}).toDestination()
+
+// après Tone.start() :
+musique.start()
+```
+
+!!! tip "Idées pour votre site de jeu"
+
+    Un thème musical en boucle dans le hero, un « bip » à chaque survol de bouton, un son de validation à l'envoi du formulaire… petit détail, grande immersion 🎧.
+
+<!-- CODEPEN: clavier de quelques notes + bouton Tone.start() -->
+
+## Exercice bonus - Tone.js
+
+<div class="grid grid-1-2" markdown>
+  ![](./assets/images/tonejs-adsr.png){.aspect-4-3}
+
+  <small>Exercice - Tone.js</small><br>
+  **[Boîte à musique](./exercices/tonejs-boite-a-musique.md){.stretched-link .back}**
+</div>
+
+---
+
+# Bonus 2 - Chart.js (optionnel)
 
 !!! info "Pour les curieux - non obligatoire"
 
@@ -599,7 +858,7 @@ options: {
 
 ---
 
-# Bonus 2 - Three.js (optionnel)
+# Bonus 3 - Three.js (optionnel)
 
 !!! info "Pour les curieux - non obligatoire"
 

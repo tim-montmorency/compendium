@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "@fontsource/pirata-one";
+
+@theme {
+  --font-pirate: "Pirata One", serif;
+  --color-mer: #0b2a3c;
+  --color-mer-claire: #154b63;
+  --color-parchemin: #f1dfb6;
+  --color-encre: #4a2c17;
+  --color-or: #f2b632;
+}
+
+body {
+  background-color: var(--color-mer);
+}
+
+/* Le pointillé de la route est révélé par le masque #trace (étape 3) */
+.route-pointillee {
+  stroke-dasharray: 2 14;
+}
+
+/* Les pièces sont cachées au départ (étape 4) */
+.piece {
+  visibility: hidden;
+}
+
+/* La forme du couvercle ouvert sert seulement de modèle à MorphSVG */
+#couvercle-ouvert {
+  visibility: hidden;
+}
+
+/* La clé du défi */
+#cle {
+  cursor: grab;
+  touch-action: none;
+}

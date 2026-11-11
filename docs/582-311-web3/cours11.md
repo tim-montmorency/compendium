@@ -1,376 +1,455 @@
 # Cours 11
 
+*[GSAP]: GreenSock Animation Platform
+*[SVG]: Scalable Vector Graphics
+
 [STOP]
+
+![](./assets/images/gsap-banner.jpg){.w-100}
 
 ## Retour sur les exercices
 
-## Suivre un tracé : MotionPathPlugin
+## Activer plusieurs plugin GSAP
 
-[MotionPathPlugin](https://gsap.com/docs/v3/Plugins/MotionPathPlugin/) fait voyager un élément le long d'un **chemin** - souvent un tracé SVG. Idéal pour une fusée qui suit une courbe, un point sur une carte, etc.
+Voici un EXEMPLE :
 
-```js title="src/main.js"
+```js title="src/gsap.js" hl_lines="2-4 6"
 import gsap from "gsap"
-import { MotionPathPlugin } from "gsap/MotionPathPlugin"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { SplitText } from "gsap/SplitText"
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin"
 
-gsap.registerPlugin(MotionPathPlugin)
+gsap.registerPlugin(ScrollTrigger, SplitText, DrawSVGPlugin)
 
-gsap.to(".fusee", {
-  duration: 4,
-  ease: "none",
-  motionPath: {
-    path: "#trace",       // un <path> SVG
-    align: "#trace",      // aligne l'élément sur le tracé
-    autoRotate: true      // oriente l'élément selon la direction
+export function gsapAnimations() {
+
+  // Code GSAP ici 🔥
+
+}
+```
+
+<!-- Les plugins vus aujourd'hui&nbsp;:
+
+| Plugin | En une phrase | Idée pour un site de jeu |
+| :--- | :--- | :--- |
+| [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/) | Découpe un texte en lettres, mots ou lignes | Titre du jeu qui tombe lettre par lettre |
+| [ScrambleTextPlugin](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin/) | Brouille un texte avant de le révéler | « Appuyez sur Start », message décodé |
+| [TextPlugin](https://gsap.com/docs/v3/Plugins/TextPlugin/) | Remplace un texte caractère par caractère | Effet machine à écrire |
+| [DrawSVGPlugin](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/) | Dessine le contour d'un SVG | Route sur une carte, signature, logo |
+| [MorphSVGPlugin](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/) | Transforme une forme SVG en une autre | Coffre qui s'ouvre, icône lecture → pause |
+| [MotionPathPlugin](https://gsap.com/docs/v3/Plugins/MotionPathPlugin/) | Fait suivre un tracé à un élément | Bateau, vaisseau, personnage en déplacement |
+| [CustomEase](https://gsap.com/docs/v3/Eases/CustomEase/) / [CustomWiggle](https://gsap.com/docs/v3/Eases/CustomWiggle/) | Crée ses propres courbes d'accélération | Tremblement, impact, rebond |
+| [Draggable](https://gsap.com/docs/v3/Plugins/Draggable/) | Rend un élément déplaçable à la souris ou au doigt | Objet d'inventaire à glisser |
+| [Flip](https://gsap.com/docs/v3/Plugins/Flip/) | Anime un changement de mise en page | Galerie de captures filtrée |
+| [ScrollToPlugin](https://gsap.com/docs/v3/Plugins/ScrollToPlugin/) | Fait défiler la page jusqu'à une cible | Bouton « Découvrir le jeu » | -->
+
+## Le texte
+
+### SplitText
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-splittext&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+[SplitText](https://gsap.com/docs/v3/Plugins/SplitText/) enveloppe chaque lettre, chaque mot ou chaque ligne dans sa propre balise. On anime ensuite ces morceaux avec un `stagger`.
+
+```js title="src/gsap.js"
+import gsap from "gsap"
+import { SplitText } from "gsap/SplitText"
+
+gsap.registerPlugin(SplitText)
+
+export function gsapAnimations() {
+  const txt = SplitText.create("#titre", { type: "chars" })
+
+  gsap.from(txt.chars, {
+    y: -100,
+    opacity: 0,
+    duration: 0.8,
+    ease: "back.out(2)",
+    stagger: 0.05     // 👈 une lettre après l'autre
+  })
+}
+```
+
+| `type` | Produit | Pour animer… |
+| :--- | :--- | :--- |
+| `"chars"` | `titre.chars` | Chaque lettre |
+| `"words"` | `titre.words` | Chaque mot |
+| `"words, chars"` | les deux | Combiner (les lettres restent groupées par mot) |
+
+??? tip "Pour le fun"
+    
+    Essayez `rotation: "random(-120, 120)"`
+
+<!-- 
+!!! note "Accessibilité"
+
+    Un lecteur d'écran qui lirait chaque lettre séparément serait pénible à écouter. SplitText ajoute automatiquement un `aria-label` avec le texte complet&nbsp;: rien à faire de plus. -->
+
+### ScrambleTextPlugin
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrambletextplugin&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+[ScrambleTextPlugin](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin/) remplace un texte par des caractères aléatoires qui se **stabilisent** peu à peu.
+
+```js
+import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin"
+
+gsap.registerPlugin(ScrambleTextPlugin)
+
+gsap.to("#slogan", {
+  duration: 1.5,
+  scrambleText: {
+    text: "Appuyez sur Start",  // le texte final
+    chars: "upperCase",         // les caractères de brouillage
+    revealDelay: 0.5            // brouille 0,5 s avant de commencer à révéler
   }
 })
 ```
 
-!!! tip "`autoRotate`"
+| Option | Rôle |
+| :--- | :--- |
+| `text` | Le texte à afficher à la fin |
+| `chars` | `"upperCase"`, `"lowerCase"`, `"upperAndLowerCase"`, ou une chaîne maison (`"01"`, `"!?#$%"`) |
+| `revealDelay` | Délai avant le début de la révélation |
+| `speed` | Vitesse du brouillage (`1` par défaut) |
 
-    `autoRotate: true` fait pivoter l'élément pour qu'il « regarde » toujours vers l'avant du tracé - indispensable pour une voiture ou une flèche.
+### TextPlugin
 
-<!-- CODEPEN: élément qui suit un tracé SVG (motionPath + autoRotate) -->
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-textplugin&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
+[TextPlugin](https://gsap.com/docs/v3/Plugins/TextPlugin/) remplace le texte d'un élément **caractère par caractère**. 
 
-  <small>Exercice - GSAP</small><br>
-  **[Combinaison parallaxe et MotionPath](./exercices/gsap-motionpath-parallax.md){.stretched-link .back}**
-</div>
+> Avec `ease: "none"`, on obtient un effet de machine à écrire, un peu comme Typed.js dans l'exercice Momo.
 
-## Dessiner un SVG : DrawSVGPlugin
+```js
+import { TextPlugin } from "gsap/TextPlugin"
 
-[DrawSVGPlugin](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/) anime le **tracé** d'un SVG, comme si un stylo le dessinait en direct. (Ce plugin, autrefois payant, est désormais **gratuit** 🎉.)
+gsap.registerPlugin(TextPlugin)
 
-```js title="src/main.js"
-import gsap from "gsap"
+gsap.to("#dialogue", {
+  duration: 3,
+  text: "Un brouillard étrange recouvre l'archipel...",
+  ease: "none"
+})
+```
+
+## Animations SVG
+
+![type:video](./assets/videos/aligator.webm){.w-100 .h-auto}
+
+Les trois plugins suivants travaillent sur du **SVG intégré directement dans le HTML** (`<svg></svg>`) et non sur un SVG chargé dans une balise `<img>`. GSAP doit pouvoir atteindre les `<path>` à l'intérieur.
+
+**Trouver un svg**
+
+* [allsvgicons.com](https://allsvgicons.com/)
+* [svgrepo.com](https://www.svgrepo.com/)
+
+**Nettoyer un svg**
+
+* [svgomg.net](https://svgomg.net/)
+* Figma ! (on ouvre et on exporte en svg)
+
+Suggestion : spécifier une taille responsive en css. Par exemple : `width: 50vw;`
+
+**Préparer un SVG**
+
+Un SVG exporté de Figma ou d'Illustrator se colle tel quel dans le HTML. Donnez ensuite un `id` aux formes à animer pour pouvoir les cibler.
+
+```html hl_lines="3"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <path
+    id="catToDraw"
+    stroke="#fff"
+    stroke-width="1"
+    d="M504.3 195.6c-10......"
+  />
+</svg>
+```
+
+### DrawSVGPlugin
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-drawsvgplugin&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+[DrawSVGPlugin](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/) anime le **tracé** d'un SVG, comme si un stylo le dessinait en direct.
+
+<!-- DrawSVG anime le **contour** (`stroke`) d'un `<path>`, `<line>`, `<circle>`. -->
+
+```js
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin"
 
 gsap.registerPlugin(DrawSVGPlugin)
 
 gsap.from("#signature path", {
-  drawSVG: "0%",      // part d'un tracé invisible
+  drawSVG: "0%", // part d'un tracé invisible
   duration: 2,
   stagger: 0.2
 })
 ```
 
-!!! warning "Ça marche sur les tracés, pas les remplissages"
+| Valeur | Résultat |
+| :--- | :--- |
+| `drawSVG: "0%"` | Rien n'est dessiné |
+| `drawSVG: "100%"` | Le tracé complet |
+| `drawSVG: "40% 60%"` | Seulement le segment entre 40&nbsp;% et 60&nbsp;% |
 
-    DrawSVG anime le **contour** (`stroke`) d'un `<path>`, `<line>`, `<circle>`… Assurez-vous que vos formes SVG ont un `stroke` visible et pensez à animer depuis `"0%"` (invisible) vers `"100%"` (complet).
+??? example "Pour le fun"
 
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
+    ```js
+    gsap.set("#catToDraw", { drawSVG: "0%", visibility: "visible" });
 
-  <small>Exercice - GSAP</small><br>
-  **[Animation SVG avec DrawSVG, ScrollTrigger et Parallaxe](./exercices/gsap-drawsvg.md){.stretched-link .back}**
-</div>
-## Rendre le tout responsive : `matchMedia()`
+    gsap.timeline()
+    .to(
+      "#catToDraw",
+      { drawSVG: "100%", duration: 3, ease: "power1.inOut" },
+    )
+    .to(
+      "#catToDraw",
+      { drawSVG: "100% 100%", duration: 3, ease: "power1.inOut" }
+    )
+    ```
 
-Une animation belle sur grand écran peut être cassée sur mobile. [`gsap.matchMedia()`](https://gsap.com/docs/v3/GSAP/gsap.matchMedia()) permet de définir des animations **différentes selon la taille de l'écran**, et GSAP fait le ménage automatiquement quand on change de _breakpoint_.
+#### Dessiner au défilement
+
+Combiné à ScrollTrigger et `scrub`, le tracé avance avec la molette&nbsp;: parfait pour une route sur une carte ou une ligne du temps.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-drawsvgplugin-scrolltrigger&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+??? example "Pour le fun"
+
+    `drawSVG: "80% 100%"`
+
+### MorphSVGPlugin
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-morphsvg&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+[MorphSVGPlugin](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/) transforme une forme (`<path>`) en une autre, même si elles n'ont pas le même nombre de points.
+
+```html
+<svg viewBox="0 0 100 100">
+  <path id="lecture" d="M30,20 L80,50 L30,80 Z" />
+  <defs>
+    <path id="pause" d="M25,20 H45 V80 H25 Z M55,20 H75 V80 H55 Z" style="visibility: hidden" />
+  </defs>
+</svg>
+```
+
+!!! note "`defs`"
+
+    La balise defs dans un SVG n'affiche pas son contenu. C'est parfait pour MorphSVG qui n'a besoin que tu code pour effectuer la transformation.
 
 ```js
+import { MorphSVGPlugin } from "gsap/MorphSVGPlugin"
+
+gsap.registerPlugin(MorphSVGPlugin)
+
+gsap.to("#lecture", { morphSVG: "#pause", duration: 0.4 })
+
+gsap.to("#lecture", { morphSVG: "#lecture", duration: 0.4 }) // 👈 Retourne à l'état initial
+```
+
+??? warning "`<circle>` et `<rect>`"
+
+    MorphSVG anime des `<path>`. Pour un cercle ou un rectangle, on le convertit d'abord&nbsp;:
+
+    ```js
+    MorphSVGPlugin.convertToPath("#bouclier, #epee")
+    ```
+
+### MotionPathPlugin
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-motionpath&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+[MotionPathPlugin](https://gsap.com/docs/v3/Plugins/MotionPathPlugin/) fait voyager un élément le long d'un **chemin**, souvent un tracé SVG. Idéal pour un bateau sur la mer, un vaisseau dans l'espace, un point sur une carte.
+
+```html
+<svg>
+  <path id="route" d="M5 40.3168C8.73535 ..." />
+</svg>
+<img id="car" src="car.svg" />
+```
+
+```js
+import { MotionPathPlugin } from "gsap/MotionPathPlugin"
+
+gsap.registerPlugin(MotionPathPlugin)
+
+gsap.to("#car", {
+  duration: 10,
+  ease: "none",
+  repeat: -1,
+  motionPath: {
+    path: "#route",        // un <path> SVG
+    align: "#route",       // place l'élément sur le tracé
+    alignOrigin: [0.5, 1], // le transformOrigin de l'auto posé sur le tracé
+    autoRotate: true,      // oriente l'élément selon la direction
+  },
+});
+```
+
+On peut aussi très bien cacher le tracé avec `stroke="none"` sur le path du motionPath
+
+??? example "Pour le fun"
+
+    On peut utiliser DrawSVG avec MotionPath ! Il suffit d'animer les deux simultanément avec une timeline.
+
+    <iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-motionpath-drawsvg&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+## Lissage personnalisé
+
+[CustomEase](https://gsap.com/docs/v3/Eases/CustomEase/) permet de **dessiner** sa propre courbe de lissage.
+
+```js
+import { CustomEase } from "gsap/CustomEase"
+
+gsap.registerPlugin(CustomEase)
+
+CustomEase.create("impact", "M0,0 C0.1,0.9 0.2,1.2 0.35,1 0.5,0.9 0.7,1 1,1")
+
+gsap.from(".carte-boss", { y: -300, duration: 1, ease: "impact" })
+```
+
+## Interactions
+
+### Draggable
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-draggable-inertiaplugin&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+[Draggable](https://gsap.com/docs/v3/Plugins/Draggable/) rend n'importe quel élément **déplaçable** à la souris ou au doigt.
+
+```js
+import { Draggable } from "gsap/Draggable"
+import { InertiaPlugin } from "gsap/InertiaPlugin"
+
+gsap.registerPlugin(Draggable, InertiaPlugin)
+
+Draggable.create("#abc", {
+  type: "x,y",           // options : "x", "y" et ou "rotation"
+  bounds: "#xyz",        // ne sort pas de cette zone
+  inertia: true          // glisse un peu après le lâcher (InertiaPlugin)
+})
+```
+
+#### `onDragEnd() + hitTest()`
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-draggable-callback&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+Pour savoir **où** l'élément a été déposé, on utilise `hitTest()` dans `onDragEnd`&nbsp;:
+
+```js
+Draggable.create("#abc", {
+  type: "x,y",
+  onDragEnd() {
+    // S'il y a 60% de chevauchement
+    if (this.hitTest("#xyz", "60%")) {         
+      // Animation A
+    } else {
+      // Animation B
+    }
+  }
+})
+```
+
+<!-- !!! info "`this` dans `onDragEnd`"
+
+    Dans `onDragEnd`, `this` est l'objet Draggable&nbsp;: `this.target` est l'élément déplacé, `this.hitTest()` vérifie le chevauchement. C'est pourquoi on écrit `onDragEnd() { … }` et non une fonction fléchée. -->
+
+<!-- !!! tip "Le type `rotation`"
+
+    `type: "rotation"` transforme un élément en **bouton rotatif**&nbsp;: un volant, une roue de sélection, un cadran de coffre-fort. -->
+
+### ScrollToPlugin
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltoplugin&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+[ScrollToPlugin](https://gsap.com/docs/v3/Plugins/ScrollToPlugin/) fait défiler la page jusqu'à une cible.
+
+```js
+import { ScrollToPlugin } from "gsap/ScrollToPlugin"
+
+gsap.registerPlugin(ScrollToPlugin)
+
+document.querySelector("#bouton-decouvrir").addEventListener("click", () => {
+  gsap.to(window, {
+    duration: 1,
+    ease: "power2.inOut",
+    scrollTo: { y: "#concept", offsetY: 80 }   // 80 px pour laisser la place à la navbar
+  })
+})
+```
+
+<!-- ??? question "Y'a pas déjà `scroll-behavior: smooth` en CSS ?"
+
+    Le CSS sait aussi faire défiler en douceur, mais sans contrôle de la durée ni de la courbe, et sans `offsetY`. Avec ScrollTo, le défilement fait partie de l'animation du site. -->
+
+## Responsive et `matchMedia()`
+
+[`gsap.matchMedia()`](https://gsap.com/docs/v3/GSAP/gsap.matchMedia()) permet de définir des animations **différentes selon la taille de l'écran**.
+
+```js hl_lines="9-11 23-24"
 let mm = gsap.matchMedia()
 
+// Écran large
 mm.add("(min-width: 768px)", () => {
-  // Animations pour écran large seulement
-  gsap.to(".hero", { x: 400, scrollTrigger: { /* … */ } })
+  gsap.from("#abc", {
+    drawSVG: "0%",
+    scrollTrigger: { 
+      trigger: "#xyz", 
+      start: "top top", 
+      end: "+=2000", 
+      pin: true, 
+      scrub: 1 
+    }
+  })
 })
 
+// Mobile
 mm.add("(max-width: 767px)", () => {
-  // Version allégée pour mobile
-  gsap.to(".hero", { opacity: 1 })
+  gsap.from("#abc", {
+    drawSVG: "0%",
+    scrollTrigger: { 
+      trigger: "#xyz", 
+      start: "top 70%",
+      end: "bottom 30%", 
+      scrub: 1 
+    }
+  })
 })
 ```
 
-<!-- CODEPEN: matchMedia (animation différente desktop vs mobile) -->
+<!-- FRAGMENT: gsap-matchmedia (animation différente bureau / mobile) -->
 
-!!! success "À retenir"
+!!! note "Idéalement, utiliser les [breakpoints de Tailwind](https://tailwindcss.com/docs/responsive-design)"
 
-    ScrollTrigger repose sur 3 idées&nbsp;: **quand** (`start`/`end`), **quoi faire** (`toggleActions` ou `scrub`), et **débogage** (`markers`). Maîtrisez `markers` en premier&nbsp;: voir les lignes, c'est tout comprendre.
+??? tip "Respecter « réduire les animations »"
+
+    Certaines personnes demandent à leur système de réduire les animations (par exemple pour ceux qui vivent du vertige ou même de l'épilepsie).
+    
+    ```js
+    mm.add("(prefers-reduced-motion: no-preference)", () => {
+      // les animations décoratives seulement ici
+    })
+    ```
+
+    <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-gsap-reduced-motion&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+<!-- ### Exercice - Carte au trésor
 
 <div class="grid grid-1-2" markdown>
-  ![](./assets/images/gsap-banner.jpg){.aspect-4-3}
+  ![](./activite/carte-tresor/preview.webp){.aspect-4-3}
 
   <small>Exercice - GSAP</small><br>
-  **[Scène animée réactive (ScrollTrigger)](./exercices/gsap-scrolltrigger-intermediaire.md){.stretched-link .back}**
-</div>
-
-
-
-<!-- **Savoirs :** #3 Contrôle audio et vidéo · #13 Classe JavaScript · #14 Classes sur mesure · #12 Repérage d'erreur (DevTools) · #15 Interactivité -->
-
-*[npm]: Node Package Manager
-*[API]: Application Programming Interface
-
-![](./assets/images/js-banner.png){.w-100}
-
-Ce cours s'appelle « Web **audiovisuel** »&nbsp;: au cours 7, les médias ont été **optimisés**. Aujourd'hui, on les **contrôle par programmation** 🎬🔊, juste à temps pour le projet final.
-
-<div class="grid grid-1-4" markdown>
-  ![](./assets/images/javascript_banner.png){.aspect-4-3 .w-100}
-
-  :material-play-circle: **Audio et vidéo** - API native, classes JavaScript et Howler.js
-</div>
-
-<div class="grid grid-1-4" markdown>
-  ![](./assets/images/tonejs-adsr.png){.aspect-4-3 .w-100}
-
-  :material-music: **Tone.js** - du son et de la musique
-</div>
-
-Chart.js et Three.js, en bonus, sont présentés au cours 12.
-
----
-
-# Partie 1 - Contrôler les médias par programmation
-
-Les balises `<video>` et `<audio>` viennent avec des contrôles par défaut. Mais dès qu'on veut un **lecteur sur mesure** (boutons stylisés, barre de progression maison, effets sonores au clic), on passe par le JavaScript.
-
-## L'API native `<video>` / `<audio>`
-
-Tout élément média expose des **propriétés**, des **méthodes** et des **événements** qu'on manipule en JS.
-
-| Propriété | Rôle |
-| :--- | :--- |
-| `currentTime` | Position de lecture (en secondes) |
-| `duration` | Durée totale |
-| `volume` | Volume (0 à 1) |
-| `muted` | Sourdine (booléen) |
-| `paused` | En pause ? (booléen) |
-| `playbackRate` | Vitesse de lecture |
-
-| Méthode | Effet |
-| :--- | :--- |
-| `.play()` | Lance la lecture |
-| `.pause()` | Met en pause |
-| `.load()` | Recharge la source |
-
-| Événement | Se déclenche… |
-| :--- | :--- |
-| `play` / `pause` | À la lecture / pause |
-| `timeupdate` | À chaque avancée de lecture (pour une barre de progression) |
-| `ended` | À la fin |
-| `loadedmetadata` | Quand la durée est connue |
-
-```js title="Bouton lecture/pause maison"
-const video = document.querySelector("#film")
-const bouton = document.querySelector("#lecture")
-
-bouton.addEventListener("click", () => {
-  video.paused ? video.play() : video.pause()
-})
-
-// Barre de progression
-video.addEventListener("timeupdate", () => {
-  const pourcent = (video.currentTime / video.duration) * 100
-  document.querySelector("#barre").style.width = pourcent + "%"
-})
-```
-
-<!-- CODEPEN: lecteur vidéo maison (play/pause + barre de progression) -->
-
-## Petit détour : les classes JavaScript
-
-Les librairies (GSAP depuis le cours 8, Howler et Tone.js aujourd'hui) nous donnent des **objets** créés avec le mot-clé `new`. Trois notions suffisent pour s'y retrouver&nbsp;:
-
-- une **classe** est un *moule* (ex.&nbsp;: `Howl`)&nbsp;;
-- `new` fabrique une **instance** à partir du moule&nbsp;;
-- une **méthode** est une action de l'instance (ex.&nbsp;: `.play()`).
-
-```js
-const son = new Howl({ src: ["saut.mp3"] })  // une instance de la classe Howl
-son.play()                                    // une méthode de cette instance
-```
-
-!!! note "On les utilise plus qu'on les écrit"
-
-    À ce stade, l'important est de **savoir lire et utiliser** une classe fournie par une librairie, pas d'écrire les vôtres. Vous reconnaîtrez ce motif `new Quelquechose({...})` partout&nbsp;: Howler, Chart.js, Tone.js, GSAP…
-
-### Écrire sa propre classe (aperçu)
-
-Rien ne vous empêche d'écrire la vôtre. La structure minimale regroupe des **données** (dans le `constructor`) et des **méthodes** (des actions)&nbsp;:
-
-```js
-class Personnage {
-  constructor(nom, pv) {
-    this.nom = nom      // une propriété
-    this.pv = pv
-  }
-  saluer() {           // une méthode
-    console.log(`${this.nom} entre en scène !`)
-  }
-}
-
-const heros = new Personnage("Digger", 100)
-heros.saluer()   // "Digger entre en scène !"
-```
-
-!!! note "À garder simple"
-
-    Écrire ses propres classes devient utile quand on gère **plusieurs objets du même type**. Pour un site promotionnel, l'usage des classes **fournies par les librairies** suffit largement&nbsp;: retenez surtout comment les **lire et les instancier**.
-
-## Une librairie audio : Howler.js
-
-L'`<audio>` natif suffit pour lire un fichier, mais dès qu'on veut des **effets sonores** fiables (jeu, interactions), des **sprites audio** ou un contrôle multiplateforme, **[Howler.js](https://howlerjs.com/)** est la référence.
-
-```bash
-npm install howler
-```
-
-```js title="src/main.js"
-import { Howl, Howler } from "howler"
-```
-
-```js title="Un son avec repli de format"
-const son = new Howl({
-  src: ["bruit.webm", "bruit.mp3"],  // le navigateur prend le 1er compatible
-  volume: 0.8,
-  loop: false
-})
-
-son.play()
-```
-
-| Méthode | Effet |
-| :--- | :--- |
-| `son.play()` / `son.pause()` / `son.stop()` | Contrôle de lecture |
-| `son.volume(0.5)` | Règle le volume de ce son |
-| `son.rate(1.5)` | Change la vitesse |
-| `Howler.volume(0.5)` | Volume **global** de tous les sons |
-| `Howler.mute(true)` | Coupe tout |
-
-!!! tip "Les sprites audio"
-
-    Un **sprite audio** regroupe plusieurs sons dans un seul fichier - idéal pour les effets d'un jeu.
-
-    ```js
-    const fx = new Howl({
-      src: ["fx.webm"],
-      sprite: { saut: [0, 300], piece: [400, 150] }
-    })
-    fx.play("saut")
-    ```
-
-<!-- CODEPEN: effets sonores au clic avec Howler -->
-
-### Autres librairies (survol)
-
-- **[Video.js](https://videojs.com/)** - un lecteur **vidéo** entièrement habillable (thèmes, sous-titres, qualité).
-
-## Déboguer : les DevTools
-
-Quand un média ne réagit pas, ouvrez les **DevTools** (++f12++)&nbsp;:
-
-- la **Console** affiche les erreurs et vos `console.log(...)`&nbsp;;
-- l'onglet **Réseau** montre si le fichier média se charge (ou renvoie une erreur 404)&nbsp;;
-- un **point d'arrêt** (_breakpoint_) met le code en pause pour l'inspecter ligne par ligne.
-
-```js
-console.log("durée :", video.duration)   // vérifier une valeur au vol
-```
-
-## Exercice - Médias
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/javascript_banner.png){.aspect-4-3}
-
-  <small>Exercice - Médias</small><br>
-  **[Salle de projection](./exercices/medias-salle-projection.md){.stretched-link .back}**
-</div>
-
----
-
-# Partie 2 - Tone.js
-
-![](./assets/images/tonejs-adsr.png){data-zoom-image .w-75}
-
-**[Tone.js](https://tonejs.github.io/)** est un cadre audio pour **créer du son et de la musique** dans le navigateur. Pour un site de jeu, c'est parfait&nbsp;: une ambiance sonore, un thème musical, ou des effets aux interactions.
-
-## Installation
-
-```bash
-npm install tone
-```
-
-```js title="src/main.js"
-import * as Tone from "tone"
-```
-
-!!! danger "Le son exige un clic d'abord"
-
-    Les navigateurs **bloquent** tout son tant que l'utilisateur n'a pas interagi avec la page. Il faut donc appeler **`Tone.start()`** depuis un événement déclenché par l'utilisateur (un clic), sinon&nbsp;: silence.
-
-    ```js
-    document.querySelector("#demarrer").addEventListener("click", async () => {
-      await Tone.start()   // débloque l'audio
-      // … le son peut jouer maintenant …
-    })
-    ```
-
-## Jouer une note
-
-L'objet de base est le **synthétiseur**. On le crée, on le branche aux haut-parleurs avec `.toDestination()`, puis on joue une note.
-
-```js
-const synth = new Tone.Synth().toDestination()
-
-// note "Do 4", tenue pendant une croche ("8n")
-synth.triggerAttackRelease("C4", "8n")
-```
-
-| Argument | Signifie |
-| :--- | :--- |
-| `"C4"` | La note (nom + octave), ou une fréquence en Hz (`440`) |
-| `"8n"` | La durée&nbsp;: `"4n"` = noire, `"8n"` = croche, `"1m"` = une mesure |
-
-## Enchaîner des notes
-
-Le 3ᵉ argument planifie **quand** jouer, en secondes à partir de maintenant (`Tone.now()`).
-
-```js
-const synth = new Tone.Synth().toDestination()
-const t = Tone.now()
-
-synth.triggerAttackRelease("C4", "8n", t)
-synth.triggerAttackRelease("E4", "8n", t + 0.5)
-synth.triggerAttackRelease("G4", "8n", t + 1)
-```
-
-## Jouer un fichier audio
-
-Pour une **musique** ou un effet à partir d'un fichier, on utilise `Tone.Player`.
-
-```js
-const musique = new Tone.Player({
-  url: "./assets/audio/theme.mp3",
-  loop: true,
-  autostart: false
-}).toDestination()
-
-// après Tone.start() :
-musique.start()
-```
-
-!!! tip "Idées pour votre site de jeu"
-
-    Un thème musical en boucle dans le hero, un « bip » à chaque survol de bouton, un son de validation à l'envoi du formulaire… petit détail, grande immersion 🎧.
-
-<!-- CODEPEN: clavier de quelques notes + bouton Tone.start() -->
-
-## Exercice - Tone.js
-
-<div class="grid grid-1-2" markdown>
-  ![](./assets/images/tonejs-adsr.png){.aspect-4-3}
-
-  <small>Exercice - Tone.js</small><br>
-  **[Boîte à musique](./exercices/tonejs-boite-a-musique.md){.stretched-link .back}**
-</div>
-
----
+  **[Carte au trésor](./activite/carte-tresor/index.md){.stretched-link .back}**
+</div> -->
 
 ## Projet final
 
-L'énoncé du projet final est présenté aujourd'hui&nbsp;: les médias du jeu (ou de l'œuvre choisie) seront contrôlés avec les outils vus dans ce cours.
+L'énoncé du projet final est présenté aujourd'hui&nbsp;: le **microsite de lancement** d'un jeu vidéo. Par défaut, c'est le jeu développé en **Interactivité ludique**&nbsp;; pour les personnes qui ne suivent pas ce cours, un jeu existant ou fictif, avec **les mêmes exigences**. Les plugins vus aujourd'hui y trouvent directement leur place.
 
 [Énoncé du projet final](./devoir/projet-final.md){ .md-button .md-button--primary }
+
+### D'ici le cours 12
+
+- [ ] Choisir son **volet** (A&nbsp;: mon jeu d'Interactivité ludique&nbsp;; B&nbsp;: un jeu existant ou fictif, à faire approuver)
+- [ ] Rassembler les **médias**&nbsp;: logo, captures d'écran, une séquence vidéo, musique et effets sonores
+- [ ] Commencer le fichier `CREDITS.md`&nbsp;: chaque média, sa source, sa licence
+- [ ] Repérer les **plugins** qui serviront le mieux le jeu, et où (titre, carte, galerie…)

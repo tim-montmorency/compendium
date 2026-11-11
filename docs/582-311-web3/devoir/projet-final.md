@@ -11,6 +11,8 @@ Le projet final est l'**épreuve intégratrice** du cours. Il réunit tout ce qu
 
 Vous réalisez le **microsite de lancement d'un jeu vidéo**&nbsp;: un petit site de **trois pages** qui donne envie de jouer, dont les médias (logo, captures, vidéo, musique, effets sonores) sont la matière première.
 
+Le thème, par défaut, est **le jeu développé dans le cours d'Interactivité ludique**. Les personnes qui ne suivent pas ce cours choisissent un autre jeu&nbsp;: les objectifs, les exigences et le barème sont **exactement les mêmes**.
+
 Il vaut **50 % de la note de session**.
 
 !!! abstract "Objectif intégrateur"
@@ -21,11 +23,11 @@ Il vaut **50 % de la note de session**.
 
 | Cours | Ce qui se passe |
 | :--: | --- |
-| **11** | Présentation de l'énoncé · choix du volet · collecte des médias |
-| **12** | Plan du site (contenu de chaque page) et **maquette de l'accueil** · 3D et `localStorage`, utiles au projet |
+| **11** | Plugins GSAP · présentation de l'énoncé · choix du volet · collecte des médias |
+| **12** | Plan du site (contenu de chaque page) et **maquette de l'accueil** · médias par programmation (Howler, classes), 3D et `localStorage`, utiles au projet |
 | **13** | Atelier encadré&nbsp;: intégration, médias, animations, formulaire EmailJS |
-| **14** | Atelier encadré&nbsp;: gel des fonctionnalités, validation, mise en ligne, préparation de l'oral |
-| **15** | **Remise et présentation orale** |
+| **14** | Atelier encadré&nbsp;: gel des fonctionnalités, validation, mise en ligne, préparation de l'oral · **remise la veille du cours 15, à 23 h 59** |
+| **15** | **Démonstration et entrevue individuelle** |
 
 ## Deux volets, un même barème
 
@@ -51,6 +53,8 @@ Il vaut **50 % de la note de session**.
 
     Le jeu choisi doit être approuvé par l'enseignant **avant la fin du cours 12**.
 
+    **Tout le reste est identique au volet A**&nbsp;: mêmes pages, mêmes exigences techniques, même barème.
+
 !!! warning "Droits et crédits"
 
     Les médias proviennent de votre propre jeu, de contenus promotionnels officiels, de sources libres de droits, ou sont créés par vous (y compris par IA, alors citée selon la PIÉA, art. 6.1.2).
@@ -63,8 +67,8 @@ Le site compte **trois pages**. Chacune porte une partie des exigences technique
 
 | Page | Fichier | Contenu attendu | Notions mises en valeur |
 | --- | --- | --- | --- |
-| **Accueil** | `index.html` | Hero avec logo, accroche et bouton d'appel à l'action (itch.io ou page officielle) · aperçu des autres pages en cartes · bloc *Lancement*&nbsp;: date de sortie, plateformes, prix ou « gratuit » | Timeline d'introduction · apparitions au défilement |
-| **Le jeu** | `jeu.html` | Le concept et l'univers du jeu, en quelques sections courtes · le parcours du joueur (volet A&nbsp;: les **trois zones** du projet d'Interactivité ludique) · les **contrôles** · la *touche au choix* | Parallaxe · apparitions · animation pilotée par le défilement · MotionPath ou DrawSVG |
+| **Accueil** | `index.html` | Hero avec logo, accroche et bouton d'appel à l'action (itch.io ou page officielle) · aperçu des autres pages en cartes · bloc *Lancement*&nbsp;: date de sortie, plateformes, prix ou « gratuit » | Timeline d'introduction (SplitText, ScrambleText…) · apparitions au défilement |
+| **Le jeu** | `jeu.html` | Le concept et l'univers du jeu, en quelques sections courtes · le parcours du joueur (volet A&nbsp;: les **trois zones** du projet d'Interactivité ludique) · les **contrôles** · la *touche au choix* | Parallaxe · apparitions · animation pilotée par le défilement · plugin SVG (DrawSVG, MorphSVG ou MotionPath) |
 | **Contact** | `contact.html` | Formulaire de contact ou d'inscription à l'infolettre | EmailJS · message de succès ou d'erreur |
 
 La vidéo, les captures d'écran et les autres médias se placent là où ils servent le mieux le jeu.
@@ -131,12 +135,13 @@ Chaque exigence correspond à une ligne du barème. Le cours où la notion a ét
 - [ ] Projet **Vite** Vanilla (JavaScript), dépendances installées avec **npm** seulement — aucun CDN *(cours 8)*
 - [ ] Les trois pages déclarées dans `vite.config.js` *(voir plus haut)*
 - [ ] Toutes les animations dans **`src/gsap.js`**, importé dans `main.js` *(cours 9)*
+- [ ] Un **historique de _commits_** qui montre le travail en cours&nbsp;: au moins un _commit_ pendant chacun des cours 12, 13 et 14
 
 ### JavaScript
 
 - [ ] Le code est découpé en **fonctions** et en **modules**&nbsp;: un fichier par rôle (son, formulaire, icônes…), importé dans `main.js` *(cours 7 et 9)*
-- [ ] Au moins une **classe de librairie** instanciée avec `new` (`new Howl()`, `new Chart()`…) *(cours 11)*
-- [ ] Au moins une **classe sur mesure**, même simple&nbsp;: un `constructor` et au moins une méthode utilisée par le site (ex.&nbsp;: une classe qui regroupe la musique, les effets sonores et le réglage du son) *(cours 11)*
+- [ ] Au moins une **classe de librairie** instanciée avec `new` (`new Howl()`, `new Chart()`…) *(cours 12)*
+- [ ] Au moins une **classe sur mesure**, même simple&nbsp;: un `constructor` et au moins une méthode utilisée par le site (ex.&nbsp;: une classe qui regroupe la musique, les effets sonores et le réglage du son) *(cours 12)*
 
 ### Médias
 
@@ -145,16 +150,16 @@ Chaque exigence correspond à une ligne du barème. Le cours où la notion a ét
 - [ ] Au moins **une vidéo** en **WebM**, compressée et dimensionnée *(cours 8)*
 - [ ] Cette vidéo est intégrée selon une **stratégie au choix** (voir l'encadré ci-dessous)
 - [ ] Médias classés dans `src/assets/` (`images/`, `videos/`, `audio/`) et nommés sans espace ni accent *(cours 8)*
-- [ ] **Musique d'ambiance** contrôlée par programmation&nbsp;: lancée et coupée par le bouton son, jamais au chargement *(cours 11)*
-- [ ] Au moins un **effet sonore** déclenché par une interaction (survol, clic, envoi du formulaire), avec Howler ou Tone.js *(cours 11)*
+- [ ] **Musique d'ambiance** contrôlée par programmation&nbsp;: lancée et coupée par le bouton son, jamais au chargement *(cours 12)*
+- [ ] Au moins un **effet sonore** déclenché par une interaction (survol, clic, envoi du formulaire), avec Howler ou Tone.js *(cours 12)*
 
 !!! example "Stratégies vidéo"
 
     La vidéo n'a pas de place imposée&nbsp;: elle se choisit selon le jeu et le design du site. Quelques stratégies possibles&nbsp;:
 
     * **Vidéo d'arrière-plan avec contenu superposé**&nbsp;: une boucle muette (`autoplay muted loop playsinline`) sous un titre, une accroche et un bouton, rendus lisibles par un voile *(cours 8)*
-    * **Séquence de jeu ou bande-annonce** avec `controls` et `poster`, ou un lecteur maison contrôlé par programmation *(cours 11)*
-    * **Vidéo déclenchée par le visiteur**&nbsp;: au survol d'une carte, ou à l'entrée dans l'écran avec ScrollTrigger *(cours 10 et 11)*
+    * **Séquence de jeu ou bande-annonce** avec `controls` et `poster`, ou un lecteur maison contrôlé par programmation *(cours 12)*
+    * **Vidéo déclenchée par le visiteur**&nbsp;: au survol d'une carte, ou à l'entrée dans l'écran avec ScrollTrigger *(cours 10 et 12)*
 
     Une vidéo qui démarre seule doit être **muette** (sans piste audio).
 
@@ -164,7 +169,8 @@ Chaque exigence correspond à une ligne du barème. Le cours où la notion a ét
 - [ ] Des **apparitions au défilement** (ScrollTrigger + `toggleActions`) sur au moins trois sections, réparties sur au moins deux pages *(cours 10)*
 - [ ] Au moins une animation **pilotée par le défilement** (`scrub`, avec ou sans `pin`) *(cours 10)*
 - [ ] Une **parallaxe** d'au moins deux couches à des vitesses différentes *(cours 10)*
-- [ ] Un **plugin** au choix&nbsp;: MotionPathPlugin **ou** DrawSVGPlugin *(cours 11)*
+- [ ] Un **plugin SVG**&nbsp;: DrawSVGPlugin, MorphSVGPlugin **ou** MotionPathPlugin *(cours 11)*
+- [ ] Un **second plugin**, de texte ou d'interaction&nbsp;: SplitText, ScrambleTextPlugin, TextPlugin, CustomEase / CustomWiggle, Draggable, Flip **ou** ScrollToPlugin *(cours 11)*
 - [ ] Une adaptation au mobile avec **`matchMedia()`** (animation simplifiée ou retirée sur petit écran) *(cours 11)*
 
 ### Interactivité et sauvegarde
@@ -182,7 +188,7 @@ Chaque exigence correspond à une ligne du barème. Le cours où la notion a ét
 Au moins **une** des librairies suivantes, intégrée de façon pertinente&nbsp;:
 
 * **`<model-viewer>`** — vitrine 3D d'un personnage ou d'un objet du jeu *(cours 12)*
-* **Tone.js** — petite séquence musicale, clavier ou ambiance générée *(cours 11)*
+* **Tone.js** — petite séquence musicale, clavier ou ambiance générée *(cours 12, bonus)*
 * **Chart.js** — fiche de statistiques des personnages ou des zones *(cours 12, bonus)*
 
 ### Mise en page (acquis du bloc 1)
@@ -204,12 +210,38 @@ Au moins **une** des librairies suivantes, intégrée de façon pertinente&nbsp;
 ### Validation et compatibilité
 
 - [ ] HTML des trois pages validé au [W3C](https://validator.w3.org/), sans erreur *(cours 5)*
-- [ ] Aucune erreur dans la console *(cours 11)*
+- [ ] Aucune erreur dans la console *(cours 12)*
 - [ ] Site testé dans au moins **trois navigateurs** (Chrome, Firefox, Safari ou Edge)&nbsp;: affichage, animations et son fonctionnent partout *(cours 14)*
 
 !!! note "L'IA"
 
-    L'IA peut aider à **comprendre** une notion ou un message d'erreur. Le code remis doit toutefois s'appuyer sur les notions vues en classe, et chaque ligne doit pouvoir être expliquée à l'oral. Une technique non vue en cours, qu'il est impossible d'expliquer, ne rapporte pas de points.
+    L'IA peut aider à **comprendre** une notion ou un message d'erreur. Le code remis doit toutefois s'appuyer sur les notions vues en classe, et chaque ligne doit pouvoir être expliquée à l'oral. Une technique non vue en cours, qu'il est impossible d'expliquer, ne rapporte pas de points. C'est précisément ce que vérifie l'**entrevue individuelle** du cours 15.
+
+    Comme le prévoit le plan de cours, tout contenu créé par une IA, **y compris du code**, doit être déclaré&nbsp;: dans une section *IA* du `README.md`, indiquer le nom et la version de l'IA, la requête utilisée et les fichiers concernés. Ne pas le déclarer constitue du plagiat (PIÉA, art. 6.1.2)&nbsp;: note zéro pour le projet et rapport d'événement.
+
+## Démonstration et entrevue
+
+Le cours 15 se déroule en deux temps.
+
+**1. Démonstration (2 minutes ou moins).** Devant le groupe, chaque personne présente son site en ligne&nbsp;: le jeu, la page d'accueil, une ou deux animations dont elle est fière. Le minuteur est visible&nbsp;; à 2 minutes, on passe à la personne suivante.
+
+**2. Entrevue individuelle (environ 4 minutes).** Au poste de l'enseignant, selon un ordre de passage publié à l'avance, avec le répertoire GitHub remis ouvert à l'écran&nbsp;:
+
+- [ ] L'enseignant a choisi **à l'avance deux passages** du code (une dizaine de lignes chacun), par exemple dans `src/gsap.js`, dans la classe sur mesure ou dans le module du son
+- [ ] Pour chaque passage, expliquer **ce qu'il fait** et **comment** il le fait
+- [ ] Une question de **modification**&nbsp;: prédire l'effet d'un changement (retirer `scrub`, changer un `start`, inverser une condition…)
+
+Le code peut être consulté à l'écran, mais sans IA, sans notes et sans aide. Une fois l'entrevue terminée, la personne peut quitter.
+
+!!! warning "Un passage non expliqué"
+
+    Un passage qu'il est impossible d'expliquer n'est pas considéré comme maîtrisé&nbsp;: en plus du point d'entrevue, le **critère du barème auquel ce passage se rattache** vaut 0 (par exemple, la classe sur mesure ou le plugin SVG).
+
+    Si **aucun** des deux passages n'est expliqué, l'entrevue se poursuit, au cours 15 ou lors d'une rencontre fixée par l'enseignant, sur d'autres passages couvrant les volets techniques du barème (JavaScript, Médias, Animation - GSAP, Interactivité et sauvegarde, Une touche au choix). Chaque critère dont le code ne peut pas être expliqué vaut 0.
+
+!!! tip "Se préparer à l'entrevue"
+
+    Relire **tout** son code, fichier par fichier, comme si quelqu'un d'autre l'avait écrit. Pour chaque bloc, se demander&nbsp;: *qu'est-ce que ça fait, et qu'arriverait-il si je changeais cette valeur&nbsp;?*
 
 ## Critères d'évaluation
 
@@ -217,66 +249,70 @@ La plupart des critères valent **1 point&nbsp;: fait ou pas fait**. La colonne 
 
 | # | Volet | Critère | Savoirs | Pts |
 |:-:|---|---|:-:|:-:|
-| | **Projet et structure** | | | **6** |
+| | **Projet et structure** | | | **7** |
 | 1 | | `npm install` puis `npm run dev` fonctionnent sans erreur | 5 | 1 |
 | 2 | | `npm run build` fonctionne | 5 | 1 |
 | 3 | | Les trois pages sont présentes dans `dist/` | 5 | 1 |
 | 4 | | Un `<title>` propre à chaque page | 12 | 1 |
 | 5 | | `.gitignore` exclut `node_modules` et `dist` | 5 | 1 |
 | 6 | | Animations regroupées dans `src/gsap.js`, aucun CDN | 5, 16 | 1 |
+| 7 | | Historique de _commits_&nbsp;: au moins un _commit_ pendant chacun des cours 12, 13 et 14 | 5 | 1 |
 | | **JavaScript** | | | **3** |
-| 7 | | Code découpé en fonctions et en modules | 1 | 1 |
-| 8 | | Classe de librairie instanciée avec `new` | 13 | 1 |
-| 9 | | Classe sur mesure utilisée par le site | 14 | 1 |
+| 8 | | Code découpé en fonctions et en modules | 1 | 1 |
+| 9 | | Classe de librairie instanciée avec `new` | 13 | 1 |
+| 10 | | Classe sur mesure utilisée par le site | 14 | 1 |
 | | **Mise en page et navigation** | | | **13** |
-| 10 | | Maquette de l'accueil dans `maquette/` | 9 | 1 |
-| 11 | | Intégration fidèle à la maquette *(2 / 1 / 0)* | 9 | 2 |
-| 12 | | Thème DaisyUI personnalisé aux couleurs du jeu | 6 | 1 |
-| 13 | | Police installée avec Fontsource | 5 | 1 |
-| 14 | | Icônes Lucide (ou autre librairie d'icônes) installées avec npm | 5 | 1 |
-| 15 | | Composantes DaisyUI adaptées | 6 | 1 |
-| 16 | | Même navbar et même pied de page sur les trois pages | 6 | 1 |
-| 17 | | Page active mise en évidence dans la navbar | 15 | 1 |
-| 18 | | Bouton d'appel à l'action vers itch.io (A) ou la page officielle (B) | 15 | 1 |
-| 19 | | Section Contrôles avec la composante `kbd` | 6 | 1 |
-| 20 | | Responsive&nbsp;: mobile, tablette, bureau *(2 / 1 / 0)* | 17 | 2 |
+| 11 | | Maquette de l'accueil dans `maquette/` | 9 | 1 |
+| 12 | | Intégration fidèle à la maquette *(2 / 1 / 0)* | 9 | 2 |
+| 13 | | Thème DaisyUI personnalisé aux couleurs du jeu | 6 | 1 |
+| 14 | | Police installée avec Fontsource | 5 | 1 |
+| 15 | | Icônes Lucide (ou autre librairie d'icônes) installées avec npm | 5 | 1 |
+| 16 | | Composantes DaisyUI adaptées | 6 | 1 |
+| 17 | | Même navbar et même pied de page sur les trois pages | 6 | 1 |
+| 18 | | Page active mise en évidence dans la navbar | 15 | 1 |
+| 19 | | Bouton d'appel à l'action vers itch.io (A) ou la page officielle (B) | 15 | 1 |
+| 20 | | Section Contrôles avec la composante `kbd` | 6 | 1 |
+| 21 | | Responsive&nbsp;: mobile, tablette, bureau *(2 / 1 / 0)* | 17 | 2 |
 | | **Médias** | | | **8** |
-| 21 | | Images en WebP ou AVIF, dimensionnées | 8 | 1 |
-| 22 | | `loading="lazy"` sur les images sous la ligne de flottaison | 8 | 1 |
-| 23 | | Vidéo en WebM, compressée et dimensionnée (muette si elle démarre seule) | 8 | 1 |
-| 24 | | Vidéo intégrée selon une stratégie pertinente | 2 | 1 |
-| 25 | | Musique d'ambiance contrôlée par le bouton son | 3, 10 | 1 |
-| 26 | | Effet sonore déclenché par une interaction | 3, 10 | 1 |
-| 27 | | Classement dans `src/assets/` et nomenclature des fichiers | 7 | 1 |
-| 28 | | `CREDITS.md` complet (chaque média, sa source, sa licence) | 7 | 1 |
-| | **Animation - GSAP** | | | **8** |
-| 29 | | Timeline d'introduction au chargement de l'accueil | 16 | 1 |
-| 30 | | Apparitions au défilement sur au moins trois sections | 10, 16 | 1 |
-| 31 | | Animation pilotée par le défilement (`scrub`) | 10, 16 | 1 |
-| 32 | | Parallaxe d'au moins deux couches | 16 | 1 |
-| 33 | | MotionPathPlugin ou DrawSVGPlugin | 16 | 1 |
-| 34 | | Adaptation au mobile avec `matchMedia()` | 16, 17 | 1 |
-| 35 | | Animations fluides, au service du contenu, sans `markers` oubliés *(2 / 1 / 0)* | 16 | 2 |
+| 22 | | Images en WebP ou AVIF, dimensionnées | 8 | 1 |
+| 23 | | `loading="lazy"` sur les images sous la ligne de flottaison | 8 | 1 |
+| 24 | | Vidéo en WebM, compressée et dimensionnée (muette si elle démarre seule) | 8 | 1 |
+| 25 | | Vidéo intégrée selon une stratégie pertinente | 2 | 1 |
+| 26 | | Musique d'ambiance contrôlée par le bouton son | 3, 10 | 1 |
+| 27 | | Effet sonore déclenché par une interaction | 3, 10 | 1 |
+| 28 | | Classement dans `src/assets/` et nomenclature des fichiers | 7 | 1 |
+| 29 | | `CREDITS.md` complet (chaque média, sa source, sa licence) | 7 | 1 |
+| | **Animation - GSAP** | | | **9** |
+| 30 | | Timeline d'introduction au chargement de l'accueil | 16 | 1 |
+| 31 | | Apparitions au défilement sur au moins trois sections | 10, 16 | 1 |
+| 32 | | Animation pilotée par le défilement (`scrub`) | 10, 16 | 1 |
+| 33 | | Parallaxe d'au moins deux couches | 16 | 1 |
+| 34 | | Plugin SVG&nbsp;: DrawSVG, MorphSVG ou MotionPath | 16 | 1 |
+| 35 | | Second plugin de texte ou d'interaction (SplitText, Flip, Draggable…) | 16, 15 | 1 |
+| 36 | | Adaptation au mobile avec `matchMedia()` | 16, 17 | 1 |
+| 37 | | Animations fluides, au service du contenu, sans `markers` oubliés *(2 / 1 / 0)* | 16 | 2 |
 | | **Interactivité et sauvegarde** | | | **4** |
-| 36 | | Choix du visiteur mémorisé avec `localStorage` | 11 | 1 |
-| 37 | | Choix restauré sur chaque page | 11 | 1 |
-| 38 | | Formulaire EmailJS qui envoie réellement un courriel | 10, 15 | 1 |
-| 39 | | Message de succès ou d'erreur affiché au visiteur | 15 | 1 |
+| 38 | | Choix du visiteur mémorisé avec `localStorage` | 11 | 1 |
+| 39 | | Choix restauré sur chaque page | 11 | 1 |
+| 40 | | Formulaire EmailJS qui envoie réellement un courriel | 10, 15 | 1 |
+| 41 | | Message de succès ou d'erreur affiché au visiteur | 15 | 1 |
 | | **Une touche au choix** | | | **2** |
-| 40 | | `<model-viewer>`, Tone.js ou Chart.js, intégré de façon pertinente *(2 / 1 / 0)* | 15 | 2 |
+| 42 | | `<model-viewer>`, Tone.js ou Chart.js, intégré de façon pertinente *(2 / 1 / 0)* | 15 | 2 |
 | | **Mise en ligne, validation et compatibilité** | | | **6** |
-| 41 | | Site en ligne (GitHub Pages ou cPanel), tous les médias s'affichent | 5 | 1 |
-| 42 | | Tous les liens entre les pages fonctionnent en ligne | 5 | 1 |
-| 43 | | HTML des trois pages validé au W3C, sans erreur | 12 | 1 |
-| 44 | | Aucune erreur dans la console | 12 | 1 |
-| 45 | | Testé dans trois navigateurs, sans problème | 4 | 1 |
-| 46 | | `README.md` complet&nbsp;: lien du site, volet, librairies utilisées | — | 1 |
-| | **Présentation orale** | | | **3** |
-| 47 | | Démonstration en 3 minutes ou moins | — | 1 |
-| 48 | | Justification claire des choix techniques *(2 / 1 / 0)* | — | 2 |
+| 43 | | Site en ligne (GitHub Pages ou cPanel), tous les médias s'affichent | 5 | 1 |
+| 44 | | Tous les liens entre les pages fonctionnent en ligne | 5 | 1 |
+| 45 | | HTML des trois pages validé au W3C, sans erreur | 12 | 1 |
+| 46 | | Aucune erreur dans la console | 12 | 1 |
+| 47 | | Testé dans trois navigateurs, sans problème | 4 | 1 |
+| 48 | | `README.md` complet&nbsp;: lien du site, volet, librairies utilisées | — | 1 |
+| | **Démonstration et entrevue** | | | **6** |
+| 49 | | Démonstration en 2 minutes ou moins | — | 1 |
+| 50 | | Entrevue&nbsp;: passage 1 expliqué *(2 / 1 / 0)* | — | 2 |
+| 51 | | Entrevue&nbsp;: passage 2 expliqué *(2 / 1 / 0)* | — | 2 |
+| 52 | | Entrevue&nbsp;: effet d'une modification correctement prédit | — | 1 |
 | | **Qualité et créativité** | | | **2** |
-| 49 | | Design soigné et cohérent d'une page à l'autre, au service du jeu *(2 / 1 / 0)* | 9 | 2 |
-| | | **Total** | | **/55** |
+| 53 | | Design soigné et cohérent d'une page à l'autre, au service du jeu *(2 / 1 / 0)* | 9 | 2 |
+| | | **Total** | | **/60** |
 
 !!! info "Méthode non respectée"
 
@@ -288,10 +324,12 @@ La plupart des critères valent **1 point&nbsp;: fait ou pas fait**. La colonne 
 
 ## Livrable
 
-Au cours 15, dans le devoir **Projet final** sur Teams&nbsp;:
+**La veille du cours 15, à 23 h 59**, dans le devoir **Projet final** sur Teams&nbsp;:
 
 - [ ] Le **lien du répertoire GitHub** (public)
 - [ ] Le **lien du site en ligne**
+
+Le répertoire n'est plus modifié après la remise&nbsp;: c'est cette version qui sert à choisir les passages de l'entrevue. Un _commit_ après l'heure de remise est pénalisé comme un retard (PIÉA, art. 7.4.2).
 
 !!! tip "Avant de remettre"
 
@@ -303,4 +341,4 @@ Au cours 15, dans le devoir **Projet final** sur Teams&nbsp;:
 
 !!! danger "Présence obligatoire"
 
-    La présentation orale a lieu au cours 15. Une absence entraîne la note 0 pour cette évaluation, même si le projet a été remis (PIÉA, art. 7.2).
+    La démonstration et l'entrevue ont lieu au cours 15. Une absence sans motif valable entraîne la note 0 pour cette évaluation, même si le projet a été remis. Une absence pour un motif grave doit être signalée à l'enseignant au plus tard dans les deux jours ouvrables (PIÉA, art. 7.2).

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L'île des Brumes</title>
+  </head>
+  <body class="text-parchemin">
+
+    <!-- ========== Écran titre ========== -->
+    <section id="ecran-titre" class="relative h-screen overflow-hidden bg-gradient-to-b from-mer to-mer-claire">
+
+      <!-- Route invisible suivie par le bateau (étape 2) -->
+      <svg class="absolute inset-0 w-full h-full" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <path id="route-bateau" d="M-80,470 C150,380 300,540 500,470 S850,380 1080,470" fill="none" stroke="none" />
+        <!-- Vagues décoratives -->
+        <path d="M0,520 Q50,500 100,520 T200,520 T300,520 T400,520 T500,520 T600,520 T700,520 T800,520 T900,520 T1000,520 V600 H0 Z" fill="#0b2a3c" opacity="0.6" />
+        <path d="M0,550 Q60,530 120,550 T240,550 T360,550 T480,550 T600,550 T720,550 T840,550 T960,550 T1080,550 V600 H0 Z" fill="#071d29" />
+      </svg>
+
+      <!-- Le bateau (étape 2) -->
+      <div id="bateau" class="absolute top-0 left-0 w-20 md:w-28">
+        <svg viewBox="0 0 120 100" aria-hidden="true">
+          <path d="M58,8 L58,64" stroke="#4a2c17" stroke-width="4" />
+          <path d="M60,10 L98,58 L60,58 Z" fill="#f1dfb6" />
+          <path d="M56,18 L26,58 L56,58 Z" fill="#e8cf96" />
+          <path d="M58,8 L76,14 L58,20 Z" fill="#9b2c1f" />
+          <path d="M10,66 L110,66 L94,90 L24,90 Z" fill="#8a4b22" stroke="#4a2c17" stroke-width="3" />
+        </svg>
+      </div>
+
+      <div class="relative z-10 h-full flex flex-col items-center justify-center gap-6 px-4 text-center">
+        <h1 id="titre" class="font-pirate text-6xl md:text-9xl text-or drop-shadow-lg">L'île des Brumes</h1>
+        <p id="slogan" class="font-mono text-lg md:text-2xl tracking-widest uppercase">Appuyez sur Start</p>
+        <button id="bouton-depart" class="mt-4 px-6 py-3 rounded-full bg-or text-encre font-bold hover:scale-105 transition">
+          Commencer l'aventure
+        </button>
+      </div>
+    </section>
+
+    <!-- ========== La carte ========== -->
+    <section id="carte" class="min-h-screen flex flex-col items-center justify-center gap-6 px-4 py-12">
+      <h2 class="font-pirate text-5xl md:text-7xl text-or">La carte</h2>
+
+      <div class="w-full max-w-5xl rounded-2xl bg-parchemin p-4 shadow-2xl">
+        <svg viewBox="0 0 1000 600" class="w-full h-auto" role="img" aria-label="Carte de l'archipel, du port jusqu'au trésor">
+          <defs>
+            <!-- Le masque : là où #trace est dessiné, la route pointillée devient visible (étape 3) -->
+            <mask id="masque-route" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="600">
+              <path id="trace" d="M150,460 C260,380 300,520 420,420 S560,220 650,280 S780,330 840,170" fill="none" stroke="white" stroke-width="14" stroke-linecap="round" />
+            </mask>
+          </defs>
+
+          <!-- Les îles -->
+          <path d="M70,470 C80,410 170,390 220,420 C270,450 250,520 180,530 C120,540 60,520 70,470 Z" fill="#d9bf86" stroke="#4a2c17" stroke-width="4" />
+          <path d="M440,330 C470,260 600,240 650,300 C690,350 620,400 550,390 C480,385 420,380 440,330 Z" fill="#d9bf86" stroke="#4a2c17" stroke-width="4" />
+          <path d="M770,170 C780,100 880,90 920,140 C960,190 900,240 840,235 C790,230 760,215 770,170 Z" fill="#d9bf86" stroke="#4a2c17" stroke-width="4" />
+
+          <!-- Des arbres -->
+          <g fill="#6b7d3a">
+            <circle cx="140" cy="455" r="16" /><circle cx="170" cy="470" r="12" />
+            <circle cx="520" cy="320" r="18" /><circle cx="560" cy="335" r="13" />
+            <circle cx="880" cy="160" r="15" />
+          </g>
+
+          <!-- La rose des vents -->
+          <g transform="translate(900,500)" stroke="#4a2c17" stroke-width="3" fill="none">
+            <circle r="40" />
+            <path d="M0,-55 L10,0 L0,55 L-10,0 Z M-55,0 L0,-10 L55,0 L0,10 Z" fill="#4a2c17" />
+          </g>
+          <text x="900" y="432" text-anchor="middle" font-size="24" fill="#4a2c17" font-family="serif">N</text>
+
+          <!-- La route pointillée, révélée par le masque -->
+          <path id="route" class="route-pointillee" d="M150,460 C260,380 300,520 420,420 S560,220 650,280 S780,330 840,170" fill="none" stroke="#9b2c1f" stroke-width="6" stroke-linecap="round" mask="url(#masque-route)" />
+
+          <!-- Le X du trésor -->
+          <g id="x-tresor" stroke="#9b2c1f" stroke-width="10" stroke-linecap="round">
+            <path d="M820,150 L860,190 M860,150 L820,190" />
+          </g>
+
+          <!-- L'explorateur -->
+          <g id="explorateur" transform="translate(150,460)">
+            <circle r="14" fill="#9b2c1f" stroke="#fff" stroke-width="4" />
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ========== Le coffre ========== -->
+    <section id="coffre" class="min-h-screen flex flex-col items-center justify-center gap-8 px-4 py-12 bg-gradient-to-b from-mer to-mer-claire">
+      <h2 class="font-pirate text-5xl md:text-7xl text-or">Le coffre</h2>
+
+      <svg id="coffre-svg" viewBox="0 0 300 260" class="w-64 md:w-80" role="img" aria-label="Un coffre au trésor">
+        <!-- La base du coffre -->
+        <rect x="50" y="130" width="200" height="100" rx="10" fill="#8a4b22" stroke="#4a2c17" stroke-width="6" />
+        <path d="M90,130 V230 M210,130 V230" stroke="#4a2c17" stroke-width="6" />
+
+        <!-- Le couvercle fermé, et la forme du couvercle ouvert -->
+        <path id="couvercle" d="M50,130 L50,95 Q150,40 250,95 L250,130 Z" fill="#a35c2a" stroke="#4a2c17" stroke-width="6" stroke-linejoin="round" />
+        <path id="couvercle-ouvert" d="M55,130 L25,45 Q120,0 215,30 L250,130 Z" />
+
+        <!-- Les pièces, cachées dans le coffre (étape 4) -->
+        <circle class="piece" cx="110" cy="125" r="16" fill="#f2b632" stroke="#c98a12" stroke-width="4" />
+        <circle class="piece" cx="150" cy="110" r="16" fill="#f2b632" stroke="#c98a12" stroke-width="4" />
+        <circle class="piece" cx="190" cy="125" r="16" fill="#f2b632" stroke="#c98a12" stroke-width="4" />
+
+        <!-- La serrure -->
+        <rect x="136" y="118" width="28" height="32" rx="4" fill="#f2b632" stroke="#4a2c17" stroke-width="4" />
+      </svg>
+
+      <p id="message" class="font-mono text-2xl md:text-3xl tracking-widest text-or">????????</p>
+
+      <div class="flex flex-wrap items-center justify-center gap-6">
+        <button id="bouton-coffre" class="px-6 py-3 rounded-full bg-or text-encre font-bold hover:scale-105 transition">
+          Ouvrir le coffre
+        </button>
+
+        <!-- La clé du défi -->
+        <svg id="cle" viewBox="0 0 120 50" class="w-24" role="img" aria-label="Une clé à déposer sur le coffre">
+          <circle cx="22" cy="25" r="16" fill="none" stroke="#f2b632" stroke-width="8" />
+          <path d="M38,25 H110 M90,25 V42 M104,25 V38" stroke="#f2b632" stroke-width="8" stroke-linecap="round" />
+        </svg>
+      </div>
+    </section>
+
+    <footer class="py-6 text-center text-sm opacity-70">
+      L'île des Brumes - jeu fictif, exercice de Web 3
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

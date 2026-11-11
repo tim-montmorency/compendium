@@ -6,7 +6,15 @@
     - Groupe Lora : 12 novembre.
 
 ## Retour sur la journée carrière et évaluation des comités
+Activité en groupe    
+[🛠️ Tableau Miro](https://miro.com/app/board/uXjVEPex1dk=/?share_link_id=583301590126){ .md-button }   
+
+Ensuite:     
 [🛠️ Formulaire à remplir](https://forms.cloud.microsoft/r/TtcRz14ev6){ .md-button }   
+
+
+## Vidéo urbania
+[📁 Voir la vidéo](https://urbania.ca/video/les-4-choses-a-savoir-avant-de-commencer-sa-premiere-job ){ .md-button }
 
 
 ## Mes finances, mes choix
@@ -22,21 +30,18 @@
 
 * Investir sans cravate   
 
- 
-## Guide du travailleur autonome
-[📁 Accéder au guide](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/lora_boisvert_cmontmorency_qc_ca/Edg24C6YapVOiRO9agjLVsoBkFHpwhdj7osLAUoZNOf7jA?e=VFV52N){ .md-button }
-
-* Activité facture dans excel 
-
-## Salaire
-* Inforoute: 37,36$
-* Montmorency: 28,73$
-* Finissants: 30,24$
-* Travailleur autonome: + 15 à 20%
-
 
 ## Suivi sur les stages
 * Explication de la prise de rendez-vous
+* Temps pour l'envoi et la mise à jour des candidatures
+
+| Nom de l'entreprise | Nom de la personne à contacter  | Courriel de la personne à contacter | Ville | Date d'envoi de la candidature | Date de relance | Date d'entrevue | Réponse |
+| -------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
+|   |   |   |    |    |    |    | 
 
 ## Finances
 [📁 Quiz d'introduction 2](https://www.lapresse.ca/affaires/economie/2024-11-10/quiz/les-finances-et-vous.php){ .md-button }
