@@ -1,6 +1,8 @@
-# Cours 11 | Audio et vidéo par programmation
+# Cours 11
 
 [STOP]
+
+## Retour sur les exercices
 
 ## Suivre un tracé : MotionPathPlugin
 

@@ -145,6 +145,44 @@ public class PorteADelai : MonoBehaviour
 `yield return new WaitForSeconds(x)` = « mets cette séquence en pause x secondes, le jeu continue de tourner ». C'est l'outil des mises en scène : la porte qui gronde AVANT de s'ouvrir, le compte à rebours, l'apparition progressive. Ton `Invoke` du cours 9 reste parfait pour les cas simples; la coroutine prend le relais dès qu'il y a une **séquence**.
 
 
+## 5. La dissolution (Shader Graph)
+
+Un objet qui se désintègre avec un bord lumineux : un ennemi vaincu, un mur magique qui disparaît, un objet ramassé.
+
+**Créer le shader**
+
+1. Dans le panneau **Project**, dossier **Assets > _ > Materials** : clic-droit **Create > Shader Graph > URP > Lit Shader Graph**, le nommer `SG_Dissolution`
+1. Double-cliquer : la fenêtre **Shader Graph** s'ouvre
+1. Dans le **Graph Inspector** (en haut à droite), onglet **Graph Settings** : cocher **Alpha Clipping**
+
+**Les propriétés** (panneau **Blackboard**, bouton **+**)
+
+| Propriété | Type | Valeur |
+|---|---|---|
+| `BaseMap` | Texture2D | La texture de l'objet |
+| `Dissolve` | Float, **Mode** `Slider` (0 à 1) | `0` |
+| `EdgeWidth` | Float | `0.05` |
+| `EdgeColor` | Color, **Mode** `HDR` | Orange vif, intensité `3` |
+
+**Les nœuds** (clic-droit dans la grille **Create Node**, puis relier les ports)
+
+1. `BaseMap` → **Sample Texture 2D** → **Base Color** du *Fragment*
+1. **Simple Noise** (**Scale** `30`) → **Alpha** du *Fragment*
+1. `Dissolve` → **Alpha Clip Threshold** du *Fragment*
+1. **Add** (`Dissolve` + `EdgeWidth`) → entrée **Edge** d'un nœud **Step**; **Simple Noise** → entrée **In** du même **Step**
+1. **Step** → **One Minus** → **Multiply** avec `EdgeColor` → **Emission** du *Fragment*
+1. Cliquer **Save Asset** (en haut à gauche)
+
+**L'utiliser**
+
+1. Dans le panneau **Project**, clic-droit sur `SG_Dissolution` : **Create > Material**
+1. Dans l'**Inspector** du material, glisser la texture de l'objet dans **BaseMap**
+1. Glisser le material sur l'objet, puis faire glisser **Dissolve** de `0` à `1` pour voir l'effet
+1. Pour le déclencher en jeu : animer **Material._Dissolve** dans la fenêtre **Animation** (voir le [cours 6](../cours06.md)), puis lancer l'animation avec le CES
+
+!!! info "Avec un modèle Synty"
+    Glisser la texture atlas du pack (ex. : `PolygonAdventure_Texture_01_A`) dans **BaseMap** : l'objet garde ses couleurs.
+
 ## Par où commencer?
 
 | Ton jeu a… | Recette recommandée |
@@ -152,6 +190,7 @@ public class PorteADelai : MonoBehaviour
 | Des plateformes | Double saut |
 | De grands espaces | Dash |
 | Un thème d'adresse ou de défense | Projectile/cible |
+| Un ennemi vaincu, un mur magique, un objet qui disparaît | Dissolution (Shader Graph) |
 | Une porte, un autel, un rituel | Coroutine de mise en scène |
 | Un score et de la compétition | [Leaderboard en ligne (annexe)](./leaderboard-ugs.md) - la plus ambitieuse |
 

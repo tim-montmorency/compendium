@@ -1,3 +1,13 @@
+# Note du cours
+
+- Afin de voir les attentes face au projet final, une autre approche pourrait être de faire visiter plusieurs jeux sur itch.io et d'en faire une mini étude.
+  Par exemple : analysez 10 accueils et dites moi pourquoi elle sont intéressantes.
+  Les critères d'analyse seraient ceux de l'énoncé final.
+- Ajout dans l'énoncé final : 
+  - Toggle audio dans la Écran titre
+  - Faire un logo
+- Ramener les illustrations alpha directement suite a la remise tranche verticale
+
 # Notes et médiagraphie
 
 !!! note "Note de planification"

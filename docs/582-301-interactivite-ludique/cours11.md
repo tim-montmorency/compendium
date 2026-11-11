@@ -4,135 +4,266 @@ Piste — Package Recorder (Unity Registry)
 -->
 
 # Cours 11
-
 [STOP]
+## Version Alpha (prochain cours)
 
-!!! tip "Où tu devrais être rendu"
-    Tes signaux de réussite et d'échec sont en place. Tes zones 2 et 3 sont en cours d'habillage.
+<figure markdown>
+![](./assets/img/version-alpha-overview.png){data-zoom-image}
+<figcaption>Exemple d'un parcours complet</figcaption>
+</figure>
+![](./assets/img/version-alpha-ecran-titre.png){data-zoom-image}
+![](./assets/img/version-alpha-credits.png){data-zoom-image}
+![](./assets/img/version-alpha-niveaux.png){data-zoom-image}
+![](./assets/img/version-alpha-reussite-echec.png){data-zoom-image}
+![](./assets/img/version-alpha-remise.png){data-zoom-image}
 
-    **Cette semaine :** la mise en ligne pour de vrai — page itch.io, README, crédits des médias, sauvegarde.
+* <span class="opacity-50">Semaine 1 </span>
+* <span class="opacity-50">Semaine 2 </span>
+* <span class="opacity-50">Semaine 3 </span>
+* <span class="opacity-50">Semaine 4 </span>
+* <span class="opacity-50">Semaine 5 </span>
+* <span class="opacity-50">Semaine 6 </span>
+* <span class="opacity-50">Semaine 7 | Prototype</span>
+* <span class="opacity-50">Semaine 8 </span>
+* <span class="opacity-50">Semaine 9 | Tranche verticale</span>
+* <span class="opacity-50">Semaine 10</span>
+* Semaine 11 🗓️ Aujourd'hui
+* Semaine 12 | 19 novembre 🏃🏻‍♂️ Sprint 3 : Alpha
+* <span class="opacity-50">Semaine 13 | 26 novembre</span>
+* <span class="opacity-50">Semaine 14 | 3 décembre 🏃🏻‍♂️ Sprint 4 : Beta</span>
+* <span class="opacity-50">Semaine 15 | 10 décembre 🏃🏻‍♂️ Sprint 5 : Oral</span>
 
-    ⏭️ **La semaine prochaine, jalon 3 : dépôt de l'alpha en début de séance.** C'est le dernier moment où on ajoute des fonctionnalités. Tout ce qui n'est pas branché à ce moment-là ne le sera jamais — et c'est très bien ainsi.
+## Compiler (_build_)
 
-<!-- ## Déroulement de la séance
+Pour la remise finale, deux _builds_ seront demandés : **Windows** et **Web**. 
 
-| Temps | Activité |
+> 🌹 Pour la version alpha, seul Web sera requis.
+
+!!! note "Avantages d'une version Web"
+
+    Un des avantages d'un export Web est qu'il est publiable facilement sur des sites comme <itch.io>. Ça contribue à faire rayonner votre travail, mais ça rend aussi plus concret en tangible les réalisations qui figurerons dans votre portfolio.
+
+## Build Profiles
+
+**File > Build Profiles**
+
+![](./assets/img/build-profiles-web.png){data-zoom-image}
+
+| Élément | Rôle |
 |---|---|
-| 0h00 – 0h40 | Build Settings et Player Settings |
-| 0h40 – 1h20 | WebGL : contraintes et pièges |
-| 1h20 – 1h35 | Pause |
-| 1h35 – 2h10 | La page itch.io, README et crédits |
-| 2h10 – 2h45 | PlayerPrefs |
-| 2h45 – 3h10 | Performance et Profiler |
-| 3h10 – 3h35 | Atelier | -->
+| **Scene List** | Scènes incluses, dans l'ordre : l'accueil en `0` |
+| **Platforms** | La plateforme active porte la mention **Active** |
+| **Switch Platform** | Convertit le projet |
+| **Build** | Compile dans un dossier `Builds/` à la racine du projet, à côté du dossier `Assets` (sera ignoré par le `.gitignore`) |
+| **Player Settings** | Ouvre les réglages avancés |
 
+## Player Settings
 
-## Shader Graph
+**Edit > Project Settings > Player**. Les réglages marqués `*` dans Unity sont partagés entre les plateformes.
 
-!!! note "Une seule recette"
-    On monte **une** recette en direct, du début à la fin — dissolution ou eau — à copier ensuite dans son propre jeu. Pas de théorie des nœuds, pas de mathématiques de shader. Shader Graph est un cours à lui seul; s'y engager ici coûterait la passe d'éclairage, qui rapporte dix fois plus.
-
-### Recette : la dissolution
-
-Un objet qui se désintègre avec un bord lumineux : un ennemi vaincu, un mur magique qui disparaît, un objet ramassé.
-
-**Créer le shader**
-
-1. Dans le panneau **Project**, dossier **Assets > _ > Materials** : clic-droit **Create > Shader Graph > URP > Lit Shader Graph**, le nommer `SG_Dissolution`
-1. Double-cliquer : la fenêtre **Shader Graph** s'ouvre
-1. Dans le **Graph Inspector** (en haut à droite), onglet **Graph Settings** : cocher **Alpha Clipping**
-
-**Les propriétés** (panneau **Blackboard**, bouton **+**)
-
-| Propriété | Type | Valeur |
+| Réglage | Où | Valeur |
 |---|---|---|
-| `BaseMap` | Texture2D | La texture de l'objet |
-| `Dissolve` | Float, **Mode** `Slider` (0 à 1) | `0` |
-| `EdgeWidth` | Float | `0.05` |
-| `EdgeColor` | Color, **Mode** `HDR` | Orange vif, intensité `3` |
+| **Company Name** | En haut | Son nom ou un nom de studio |
+| **Product Name** | En haut | Le titre du jeu (barre de fenêtre, onglet du navigateur) |
+| **Version** | En haut | `0.3` à l'alpha, `1.0` à la remise |
+| **Default Icon** | En haut | `.png` carré, 512 × 512 px |
+| **Default Canvas Width / Height** | Web > **Resolution and Presentation** | `1280` × `720` |
+| **WebGL Template** | Web > **Resolution and Presentation** | `Default` (inclut le bouton plein écran) |
+| **Show Splash Screen** | Web > **Splash Image** | Facultatif : logo et fond personnalisables (voir ci-dessous) |
+| **Active Input Handling** | Web > **Other Settings** > Configuration | `Both` |
+| **Compression Format** | Web > **Publishing Settings** | `Gzip` |
+| **Decompression Fallback** | Web > **Publishing Settings** | **Coché** |
+| **Fullscreen Mode** | Windows > **Resolution and Presentation** | `Fullscreen Window` |
 
-**Les nœuds** (clic-droit dans la grille **Create Node**, puis relier les ports)
+### Personnaliser l'écran de démarrage (_Made with Unity_)
 
-1. `BaseMap` → **Sample Texture 2D** → **Base Color** du *Fragment*
-1. **Simple Noise** (**Scale** `30`) → **Alpha** du *Fragment*
-1. `Dissolve` → **Alpha Clip Threshold** du *Fragment*
-1. **Add** (`Dissolve` + `EdgeWidth`) → entrée **Edge** d'un nœud **Step**; **Simple Noise** → entrée **In** du même **Step**
-1. **Step** → **One Minus** → **Multiply** avec `EdgeColor` → **Emission** du *Fragment*
-1. Cliquer **Save Asset** (en haut à gauche)
+![type:video](./assets/video/made-with-unity-custom.webm){.h-auto}
 
-**L'utiliser**
+![](./assets/img/project-settings-web-splash.png){data-zoom-image}
 
-1. Dans le panneau **Project**, clic-droit sur `SG_Dissolution` : **Create > Material**
-1. Dans l'**Inspector** du material, glisser la texture de l'objet dans **BaseMap**
-1. Glisser le material sur l'objet, puis faire glisser **Dissolve** de `0` à `1` pour voir l'effet
-1. Pour le déclencher en jeu : animer **Material._Dissolve** dans la fenêtre **Animation** (voir le cours 6), puis lancer l'animation avec le CES
+Le _splash screen_ est facultatif. Décocher **Show Splash Screen** pour le retirer ou décocher seulement **Show Unity Logo** pour n'afficher que son propre logo.
 
-!!! info "Avec un modèle Synty"
-    Glisser la texture atlas du pack (ex. : `PolygonAdventure_Texture_01_A`) dans **BaseMap** : l'objet garde ses couleurs.
+**Player Settings** > Web > **Splash Image** : ajouter un logo dans la liste **Logos** (**+**), puis choisir une **Background Color** ou une **Background Image**.
 
+Les champs **Logos** et **Background Image** attendent un **Sprite**. **Default Icon** et **Default Cursor** acceptent une simple texture. 
 
+Pour convertir une image, il faut la sélectionner dans le panneau **Project**, **Texture Type** = `Sprite (2D and UI)`, **Sprite Mode** = `Single`, puis **Apply**.
 
-## Compiler
+#### Curseur personnalisé
 
-### Pourquoi publier (vraiment)
+![](./assets/img/kenney-cursor.png){.w-50 data-zoom-image}
 
-### Les Build Settings
+**Texture Type** = `Cursor`, **Apply**, puis la glisser dans **Default Cursor**. [Cursor Pack de Kenney](https://kenney.nl/assets/cursor-pack)
 
-### Les Player Settings : icône, résolution, nom
+## Le build Windows
 
-### Les scènes incluses (et l'erreur classique)
+!!! info "Exigé à la remise finale, recommandé aujourd'hui"
+    Mieux vaut découvrir les surprises maintenant que la veille de la remise.
 
-## WebGL
+1. **Build Profiles** > **Windows** > **Switch Platform** (si nécessaire) > **Build** dans `Builds/Windows`
+1. Lancer le `.exe` et jouer du début à la fin : accueil, trois niveaux, fin, crédits, retour à l'accueil
 
-### Ton jeu devient une page web
+!!! warning "Le `.exe` seul ne fonctionne pas"
+    Le jeu, c'est **tout le dossier** (`.exe`, `_Data`, `UnityPlayer.dll`…). C'est ce dossier qui va dans le `.zip` de remise.
 
-### Les contraintes : pas de fenêtres natives, compression, taille
+## Le build Web
 
-### Les pièges fréquents
+Le jeu compilé pour le navigateur : un dossier `index.html`, `Build/`, `TemplateData/`. Un lien, et on joue.
 
-!!! note "Le premier upload a déjà eu lieu"
-    Le devoir du [cours 9](./cours09.md) imposait un build WebGL sur une page privée. Aujourd'hui on **règle** les problèmes rencontrés, on ne les découvre pas : compression, taille des banques audio, chemins d'assets, temps de chargement.
+1. **Unity Hub** > **Installs** > ⚙️ > **Add modules** > **Web Build Support** (une seule fois)
+1. **Build Profiles** > **Web** > **Switch Platform**
+1. Vérifier les [Player Settings](#player-settings), puis **Build** dans `Builds/Web`
+1. ⏳ 5 à 20 minutes : préparer la page itch.io et le README pendant ce temps
+
+!!! tip "Tester sur son poste"
+    Double-cliquer `index.html` ne fonctionne pas (il faut un serveur). **Build And Run** lance un serveur local.
+
+### Les pièges
+
+| Symptôme | Cause | Solution |
+|---|---|---|
+| Écran figé ou *Unable to parse Build/…* | Compression non lue par le serveur | `Gzip` + **Decompression Fallback** coché, refaire le build |
+| `InvalidOperationException` sur `Input` | Ancienne classe `Input` avec **Active Input Handling** à `New` | Passer à `Both` |
+| Chargement interminable | Build trop lourd | Voir [La performance](#la-performance) |
+| Une scène ne se charge pas | Absente de la **Scene List** | L'ajouter |
+| Pas de son au démarrage | Le navigateur attend un clic | Un écran d'accueil avec un bouton **Jouer** |
+| HUD coupé | Canvas non adaptatif | **Canvas Scaler** en `Scale With Screen Size` ([cours 5](./cours05.md)) |
+| Échap n'ouvre pas la pause | Le navigateur réserve Échap à la souris | Une deuxième touche ([Le menu pause](#le-menu-pause)) |
+| Le bouton Quitter ne fait rien | `Application.Quit()` est ignoré sur le Web | Le cacher (script ci-dessous) |
+
+```c# title="CacherSurWeb.cs — sur le bouton Quitter"
+using UnityEngine;
+
+public class CacherSurWeb : MonoBehaviour
+{
+    void Awake()
+    {
+        if (Application.platform == RuntimePlatform.WebGLPlayer)
+            gameObject.SetActive(false);
+    }
+}
+```
 
 ## itch.io
 
-### La page de projet, version projet final
+!!! warning "Pour l'alpha : une page minimale"
+    Titre, build Web jouable, **commandes** dans la description. Les tests croisés du cours 12 se font à partir de ce lien, sans personne pour expliquer. Couverture, captures et thème viennent après l'alpha.
 
-### L'*embed* et les dimensions
+![](./assets/img/itchio-newgame-1.png){data-zoom-image}
+![](./assets/img/itchio-newgame-2.png){data-zoom-image}
+![](./assets/img/itchio-newgame-3.png){data-zoom-image}
+![](./assets/img/itchio-newgame-4.png){data-zoom-image}
 
-### Les visuels de page et la description
+**Dashboard > Create new project**
 
-### Les contrôles : dire au joueur quoi faire
+| Champ | Valeur |
+|---|---|
+| **Title** / **Short description** | Le titre / le pitch en une phrase |
+| **Kind of project** | `HTML` |
+| **Pricing** | `No payments` |
+| **Uploads** | Le `.zip` du build Web, **This file will be played in the browser** coché |
+| **Embed options** | `Click to launch in fullscreen` |
+| **Frame options** | Tout décoché (*Mobile friendly*, *scrollbars*, *SharedArrayBuffer*) |
+| **AI generation disclosure** | Déclarer honnêtement le type de contenu généré (code, images, sons, texte) |
+| **Visibility & access** | `Draft` tant que la page n'est pas prête, puis `Public` |
+
+!!! warning "Zipper le contenu, pas le dossier"
+    `index.html` doit être **à la racine** du `.zip` : ouvrir `Builds/Web`, tout sélectionner, **Compresser**. Si itch.io ne trouve pas `index.html`, le `.zip` contient un dossier de trop.
+
+!!! tip "Le build Windows aussi"
+    Le `.zip` Windows peut être ajouté sur la même page, avec la case **Windows** cochée.
+
+### Après l'alpha : la vitrine
+
+| Élément | Détail |
+|---|---|
+| **Cover image** | 630 × 500 px, soignée : c'est la vignette partout sur itch.io |
+| **Screenshots** | 3 à 5 : les trois niveaux et un moment fort |
+| **Genre** et **Tags** | Le genre du GDD, 3 à 5 mots-clés |
+| **Edit theme** | Couleurs et police accordées au jeu |
+
+Captures : la vue **Game** suffit. Vidéo ou GIF : package **Recorder** (Unity Registry), **Window > General > Recorder**.
 
 ## Le README et les crédits
 
 !!! warning "Critère de la grille finale"
-    Tous les médias externes doivent être cités : source, auteur, licence. Les assets Synty aussi. C'est une exigence légale avant d'être une exigence de cours.
+    Tous les médias externes sont cités : source, auteur, licence. Synty aussi.
 
-La section `## Crédits` du README est amorcée depuis le [cours 7](./cours07.md#les-credits-des-assets) : modèle de tableau, colonnes et passage vers l'écran de crédits du jeu. Aujourd'hui, on la complète et on la reporte sur la page itch.io.
+Le README est la **source** : la page itch.io reprend son contenu, l'écran Crédits en présente une version courte. La section Crédits est amorcée depuis le [cours 7](./cours07.md#les-credits-des-assets).
+
+```markdown title="README.md (et description itch.io)"
+# Titre du jeu
+
+Le concept en deux phrases. Ce que le joueur doit accomplir.
+
+**Jouer en ligne :** https://pseudo.itch.io/titre-du-jeu
+
+## Commandes
+
+| Action | Clavier et souris | Manette |
+|---|---|---|
+| Se déplacer | WASD | Joystick gauche |
+| Sauter | Espace | A |
+| Pause | Échap ou P | Start |
+
+## Crédits
+
+| Asset | Type | Auteur | Licence | Source |
+|---|---|---|---|---|
+| POLYGON Sampler Pack | Pack 3D | Synty Studios | ... | ... |
+```
+
+### L'écran Crédits
+
+Un seul écran fixe, regroupé **par source**, sans URL ni licence : le détail reste dans le README.
+
+```text
+TITRE DU JEU
+Prénom Nom
+Interactivité ludique · TIM · Collège Montmorency · 2026
+
+VISUELS                         SON
+Synty Studios · Kenney          Pixabay · Freesound
+
+POLICE                          OUTILS
+Press Start 2P (CodeMan38)      Unity · Starter Assets · CES
+
+Sources et licences détaillées : README et page itch.io
+```
+
+!!! info "CC-BY"
+    Seule licence courante qui exige l'auteur **et** la licence, « de façon raisonnable selon le support » : le renvoi au README suffit. CC0, Pixabay et Synty n'exigent aucune mention.
+
+1. Dans le **Canvas** : **UI (Canvas) > Panel**, aux couleurs du jeu
+1. Textes **TextMeshPro**; colonnes avec **Add Component > Grid Layout Group** sur le Panel
+1. Un bouton **Retour** vers l'accueil
+
+!!! tip "Si ça déborde"
+    Deux Panels, `Page1` et `Page2`. Bouton **Suivant** > **On Click** : `Page1` > **GameObject.SetActive** décoché, `Page2` > **SetActive** coché.
+
+| Niveau | Résultat |
+|---|---|
+| **Fonctionnel** | Texte sur fond uni, bouton Retour fonctionnel |
+| **Intégré** | Police, couleurs et sprites du jeu; son au clic |
+| **Raffiné** | Scène Synty en arrière-plan, musique continue, fondu (**Canvas Group** > **Alpha** de `0` à `1`) |
 
 ## Le menu pause
 
-Mettre le jeu en pause, c'est figer le temps : `Time.timeScale` règle la vitesse à laquelle le temps s'écoule dans Unity. C'est le même outil que le [*hit stop* du cours 10](./cours10.md#le-hit-stop), mais tenu à `0` jusqu'à ce que le joueur reprenne.
+`Time.timeScale` règle l'écoulement du temps : `1` normal, `0.5` ralenti, `0` figé. C'est l'outil du [*hit stop* du cours 10](./cours10.md#le-hit-stop), tenu à `0`.
 
-| Valeur | Effet |
-|---|---|
-| `1` | Vitesse normale |
-| `0.5` | Ralenti |
-| `0` | Temps figé : la physique, les animations et tout ce qui dépend de `Time.deltaTime` s'arrêtent |
+!!! warning "Ce que `timeScale = 0` n'arrête pas"
+    - `Update()` (seul ce qui utilise `Time.deltaTime` s'arrête)
+    - L'interface, qui reste cliquable
+    - Le son : `AudioListener.pause = true;` ou un snapshot du mixer ([cours 7](./cours07.md#snapshots-contextes))
+    - La caméra des Starter Assets, qui suit encore la souris
 
-!!! warning "Ce que `timeScale` n'arrête pas"
-    - `Update()` continue d'être appelée : un code qui ne se sert pas de `Time.deltaTime` continue de tourner.
-    - L'interface (boutons, survol) reste cliquable, heureusement.
-    - Le son continue de jouer. Pour l'étouffer, passer par un snapshot de l'Audio Mixer (voir les [snapshots du cours 7](./cours07.md#snapshots-contextes)); pour le couper, `AudioListener.pause = true;`.
-    - Avec les Starter Assets, la caméra suit encore la souris : le mouvement de la souris n'est pas multiplié par `Time.deltaTime`.
+!!! warning "Échap dans le navigateur"
+    Le navigateur réserve Échap pour libérer la souris : le script accepte aussi **P**. L'indiquer dans les commandes.
 
-#### Monter le menu
-
-1. Dans le **Canvas** du niveau, créer un **Panel** nommé `MenuPause`
-1. Y ajouter un titre (TextMeshPro) et deux boutons : **Reprendre** et **Accueil**
-1. Désactiver `MenuPause` (case à cocher en haut de l'**Inspector**) : il est caché au démarrage
-1. Ajouter le script ci-dessous sur le **Canvas** (pas sur `MenuPause` : un objet désactivé n'exécute pas son `Update`), puis glisser `MenuPause` dans **Menu Pause**
-1. **On Click** du bouton Reprendre → `GestionPause.Reprendre`; du bouton Accueil → `GestionPause.RetourAccueil`
+1. Dans le **Canvas** du niveau, un **Panel** `MenuPause` avec un titre et deux boutons : **Reprendre** et **Accueil**
+1. Désactiver `MenuPause`
+1. Ajouter `GestionPause.cs` sur le **Canvas** (un objet désactivé n'exécute pas son `Update`), glisser `MenuPause` dans **Menu Pause**
+1. **On Click** : Reprendre → `GestionPause.Reprendre`, Accueil → `GestionPause.RetourAccueil`
 
 ```c# title="GestionPause.cs"
 using UnityEngine;
@@ -141,15 +272,14 @@ using UnityEngine.SceneManagement;
 
 public class GestionPause : MonoBehaviour
 {
-    public GameObject menuPause;          // Glisser le Panel MenuPause ici
+    public GameObject menuPause;
     public string sceneAccueil = "Accueil";
 
     bool enPause = false;
 
     void Update()
     {
-        // Touche Échap (nouveau Input System, comme les Starter Assets)
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Keyboard.current.escapeKey.wasPressedThisFrame || Keyboard.current.pKey.wasPressedThisFrame)
         {
             if (enPause) Reprendre();
             else Pause();
@@ -176,49 +306,19 @@ public class GestionPause : MonoBehaviour
 
     public void RetourAccueil()
     {
-        Time.timeScale = 1f; // Sinon la scène suivante démarre figée !
+        Time.timeScale = 1f; // Sinon la scène suivante démarre figée
         SceneManager.LoadScene(sceneAccueil);
     }
 }
 ```
 
-<!-- #### Étouffer le jeu en pause
-
-Le menu pause peut passer lui-même au snapshot `Pause`. Dans `GestionPause.cs`, ajouter :
-
-c# title="GestionPause.cs (ajouts)"
-using UnityEngine.Audio;                    // En haut, avec les autres using
-
-public AudioMixerSnapshot snapshotNormal;   // Glisser Normal ici
-public AudioMixerSnapshot snapshotPause;    // Glisser Pause ici
-
-// À la fin de Pause() :
-snapshotPause.TransitionTo(0.3f);
-
-// À la fin de Reprendre() et de RetourAccueil() :
-snapshotNormal.TransitionTo(0.3f);
-
-Dans l'**Inspector** du Canvas, déplier `MixerPrincipal` dans le panneau **Project** et glisser les deux snapshots dans les champs du script.
-
-!!! danger "Snapshot + `Time.timeScale = 0`"
-
-    Par défaut, le mixer avance au rythme du temps du jeu : en pause, la transition ne se fait jamais. Dans le panneau **Project**, sélectionner `MixerPrincipal`; dans l'**Inspector**, régler **Update Mode** à `Unscaled Time`. -->
-
 ## Le menu Options : le volume
 
-Le projet final n'exige pas de curseur de volume, mais c'est un réglage que les joueurs apprécient. Il s'appuie sur l'Audio Mixer `MixerPrincipal` et ses groupes, montés au [cours 7](./cours07.md#laudio-mixer).
+Facultatif. S'appuie sur `MixerPrincipal` ([cours 7](./cours07.md#laudio-mixer)).
 
-### Exposer le volume d'un groupe
-
-1. Ouvrir `MixerPrincipal` et cliquer sur le groupe `Musique`
-1. Dans l'**Inspector**, clic-droit sur le mot **Volume** > **Expose 'Volume (of Musique)' to script**
-1. En haut à droite de la fenêtre **Audio Mixer**, menu **Exposed Parameters** : double-cliquer sur `MyExposedParam` et le renommer `VolumeMusique`
-1. Répéter pour `SFX` (`VolumeSFX`)
-
-### Le slider
-
-1. Dans le panneau Options, clic-droit **UI (Canvas) > Slider**
-1. Ajouter le script ci-dessous, glisser `MixerPrincipal` dans **Mixer**, **Parametre** = `VolumeMusique`
+1. Dans `MixerPrincipal`, groupe `Musique` > **Inspector** : clic-droit sur **Volume** > **Expose … to script**
+1. **Exposed Parameters** (en haut à droite) : renommer `MyExposedParam` en `VolumeMusique`. Idem pour `SFX` (`VolumeSFX`)
+1. **UI (Canvas) > Slider** avec `SliderVolume.cs` : glisser `MixerPrincipal`, **Parametre** = `VolumeMusique`
 
 ```c# title="SliderVolume.cs"
 using UnityEngine;
@@ -228,8 +328,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Slider))]
 public class SliderVolume : MonoBehaviour
 {
-    public AudioMixer mixer;                  // Glisser MixerPrincipal ici
-    public string parametre = "VolumeMusique"; // Le nom exact du paramètre exposé
+    public AudioMixer mixer;
+    public string parametre = "VolumeMusique";
 
     Slider slider;
 
@@ -238,92 +338,212 @@ public class SliderVolume : MonoBehaviour
         slider = GetComponent<Slider>();
         slider.minValue = 0.0001f;            // Jamais 0 : Log10(0) n'existe pas
         slider.maxValue = 1f;
-        slider.value = PlayerPrefs.GetFloat(parametre, 1f);  // Dernier réglage, sinon plein volume
+        slider.value = PlayerPrefs.GetFloat(parametre, 1f);
         slider.onValueChanged.AddListener(Changer);
         Changer(slider.value);
     }
 
     void Changer(float valeur)
     {
-        mixer.SetFloat(parametre, Mathf.Log10(valeur) * 20f);  // 0 à 1 → -80 dB à 0 dB
+        mixer.SetFloat(parametre, Mathf.Log10(valeur) * 20f);  // 0–1 → -80 à 0 dB
         PlayerPrefs.SetFloat(parametre, valeur);
     }
 }
 ```
 
-!!! warning "Pourquoi `Log10` et pas la valeur directe"
-    Le mixer compte en **décibels** : `0 dB` = volume normal, `-80 dB` = silence. L'oreille n'entend pas le volume de façon linéaire : envoyer la valeur du slider telle quelle donnerait un curseur qui ne change presque rien sur 80 % de sa course, puis coupe tout d'un coup. `Log10(valeur) * 20` répartit le changement sur toute la course.
+!!! info "Pourquoi `Log10`?"
+    Le mixer compte en décibels et l'oreille perçoit le volume de façon logarithmique. Sans conversion, le curseur ne change presque rien sur 80 % de sa course.
 
 !!! tip "Un son de test"
-    Sur le slider `SFX`, dans **On Value Changed**, cliquer **+**, glisser un objet qui porte une **Audio Source** (un son court, groupe **Output** = `SFX`) et choisir **AudioSource > Play ()**. Le joueur entend tout de suite le volume qu'il règle.
+    Slider `SFX` > **On Value Changed** : une **Audio Source** (groupe `SFX`) > **AudioSource.Play ()**.
 
 ## La sauvegarde
 
-!!! info "Tu sauvegardes déjà, depuis le cours 3"
-    La case **Persistent** d'une Variable du CES écrit sa valeur sur le disque et la recharge au lancement suivant. Tu t'en sers depuis huit semaines sans savoir ce qu'il y a dessous.
+La case **Persistent** des Variables du CES (cours 3) utilise déjà `PlayerPrefs`. Dans un script maison, c'est `PlayerPrefs` qu'il faut appeler directement.
 
-    Ce qu'il y a dessous, c'est `PlayerPrefs`. On l'ouvre aujourd'hui — non pas parce que la case ne suffit pas, mais parce que **dès que tu écris ton propre script**, c'est l'outil dont tu as besoin : la case coche une Variable du CES, elle ne sauvegarde pas ce que ton code à toi calcule.
+`PlayerPrefs` associe une **clé** à une **valeur** (`int`, `float` ou `string`) et survit à la fermeture du jeu. Sur le Web, la sauvegarde reste dans le navigateur; l'éditeur et le build ont chacun la leur.
 
-### `PlayerPrefs` : trois clés suffisent
+```c#
+PlayerPrefs.SetInt("MeilleurScore", 42);
+PlayerPrefs.SetString("DernierNiveau", "Zone2");
+PlayerPrefs.Save();                                   // Écrit tout de suite
 
-### `SetInt`, `SetFloat`, `SetString`, `Save`
+int record = PlayerPrefs.GetInt("MeilleurScore", 0);  // 0 si la clé n'existe pas
+if (PlayerPrefs.HasKey("DernierNiveau")) { /* partie à continuer */ }
 
-### `DeleteAll` : comment tester une sauvegarde
+PlayerPrefs.DeleteKey("MeilleurScore");
+PlayerPrefs.DeleteAll();
+```
 
-### Ce qu'on sauvegarde : progression, options, meilleur score
+!!! warning "Trois pièges"
+    - Sans `Save()`, un plantage ou un onglet fermé fait tout perdre
+    - Une faute de frappe dans une clé ne donne **aucune erreur** : la clé va dans une constante
+    - Pour tester comme un nouveau joueur : **Edit > Clear All PlayerPrefs**
 
-!!! note "Contenir l'ambition"
-    `PlayerPrefs` suffit. Ton jeu a un niveau et une mécanique — il n'y a rien à sérialiser qui ne tienne pas dans trois clés. JSON existe pour les états complexes, les chemins de fichiers, les versions de sauvegarde et la corruption de données. C'est un sujet de session avancée.
+### La progression
+
+On sauvegarde le **niveau** atteint : le joueur reprend au début de ce niveau.
+
+```c# title="Progression.cs"
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class Progression : MonoBehaviour
+{
+    const string CLE = "DernierNiveau";
+
+    [Tooltip("Coché dans les niveaux, décoché dans l'accueil")]
+    public bool enregistrerCetteScene = true;
+
+    [Tooltip("Accueil seulement : caché s'il n'y a pas de sauvegarde")]
+    public GameObject boutonContinuer;
+
+    void Start()
+    {
+        if (enregistrerCetteScene)
+        {
+            PlayerPrefs.SetString(CLE, SceneManager.GetActiveScene().name);
+            PlayerPrefs.Save();
+        }
+
+        if (boutonContinuer != null)
+            boutonContinuer.SetActive(PlayerPrefs.HasKey(CLE));
+    }
+
+    public void Continuer()
+    {
+        SceneManager.LoadScene(PlayerPrefs.GetString(CLE));
+    }
+
+    public void NouvellePartie(string premierNiveau)
+    {
+        PlayerPrefs.DeleteKey(CLE);
+        SceneManager.LoadScene(premierNiveau);
+    }
+}
+```
+
+| Scène | Montage |
+|---|---|
+| **Chaque niveau** | Objet vide `Progression`, **Enregistrer Cette Scene** coché |
+| **Accueil** | Objet vide `Progression`, case décochée, bouton **Continuer** glissé dans le champ. **On Click** : Continuer → `Continuer`, Jouer → `NouvellePartie` (nom de la première scène) |
+| **Fin** et **Crédits** | Aucun `Progression` coché |
+
+### Le meilleur score
+
+Le score vient du script `Resource` du [cours 7](./cours07.md#ressources).
+
+```c# title="MeilleurScore.cs"
+using UnityEngine;
+using UnityEngine.Events;
+using TMPro;
+
+public class MeilleurScore : MonoBehaviour
+{
+    const string CLE = "MeilleurScore";
+
+    public Resource ressource;            // Vide dans l'écran de fin
+    public TMP_Text texteRecord;          // Facultatif
+    public string format = "Record : {0}";
+    public UnityEvent onNouveauRecord;
+
+    void Start() => Afficher();
+
+    // Appelé par le CES (Invoke Events) à la victoire
+    public void Comparer()
+    {
+        int score = ressource.Amount;
+        if (score > PlayerPrefs.GetInt(CLE, 0))
+        {
+            PlayerPrefs.SetInt(CLE, score);
+            PlayerPrefs.Save();
+            onNouveauRecord.Invoke();
+        }
+        Afficher();
+    }
+
+    void Afficher()
+    {
+        if (texteRecord != null)
+            texteRecord.text = string.Format(format, PlayerPrefs.GetInt(CLE, 0));
+    }
+}
+```
+
+1. Dernier niveau : objet `MeilleurScore`, l'objet `Resource` glissé dans **Ressource**
+1. CES de la victoire : **Invoke Events** > **MeilleurScore.Comparer ()**, **avant** le changement de scène
+1. Scène **Fin** : un autre `MeilleurScore`, **Ressource** vide, un texte dans **Texte Record**
+
+!!! example "Meilleur temps"
+    `GetFloat` / `SetFloat`, défaut `9999f`, et `<` au lieu de `>`.
 
 ## La performance
 
-### Le Profiler, en survol
+L'objectif : savoir **où regarder** quand le jeu rame, surtout dans le navigateur.
 
-### Le *batching*
+| Outil | Usage |
+|---|---|
+| **Stats** (vue Game) | **FPS** (viser 60, sous 30 ça se sent), **Batches**, **Tris** |
+| **Profiler** (**Window > Analysis**) | Cliquer un pic de **CPU Usage**, trier la **Hierarchy** par **Total** : la ligne du haut coûte le plus cher |
+| **Editor Log** (Console > **⋮**) | Chercher `Build Report` : les fichiers les plus lourds du build |
 
-### Le nombre de lumières temps réel
-
-### La taille des textures
+| Levier | Réglage |
+|---|---|
+| **Batching** | Cocher **Static** sur le décor immobile. Garder le material unique des packs Synty |
+| **Lumières** | Une seule lumière avec ombres (le soleil). Les autres : `No Shadows`, ou `Baked` si immobiles ([cours 8](./cours08.md)). **Range** minimale |
+| **Textures** | **Max Size** `1024` (objets), `512` (petits objets, icônes), puis **Apply** |
+| **Musique, ambiances** | **Load Type** `Streaming`, **Compression** `Vorbis`, **Quality** 50 à 70 |
+| **Effets courts** | `Decompress On Load`, `Vorbis` ou `ADPCM` |
 
 ## Pratique
 
+Un build Web bloque Unity de longues minutes : tout régler **avant**.
+
+1. **Player Settings** : nom, version, icône, `1280` × `720`, `Gzip` + **Decompression Fallback**, **Active Input Handling** `Both`
+1. **Scene List** complète, l'accueil en premier
+1. `CacherSurWeb.cs` sur le bouton **Quitter**
+1. *Recommandé :* build Windows, jouer du début à la fin
+1. Build Web. Pendant ce temps : README (concept, commandes, crédits) et page itch.io minimale
+1. Téléverser le `.zip`, jouer dans le navigateur **son compris**
+1. Faire tester la page par un voisin, depuis **son** poste
+1. Temps restant : menu pause, Options, sauvegarde
+
 ## Trello
 
-### Nouvelles cartes
+![](./assets/img/trello-banner.webp)
 
 **Publication**
 
-- `Must` Compléter le README : concept du jeu, commandes et lien vers la page itch.io
-- `Must` Exporter un build Windows et vérifier qu'il se lance
-- `Must` Monter la page itch.io : captures d'écran, description et commandes
+- `Must` Régler les Player Settings : nom, version, icône, résolution, compression, Input
+- `Must` Vérifier la Scene List : toutes les scènes, l'accueil en premier
+- `Must` Compléter le README : concept, commandes, lien itch.io
+- `Must` Compléter les crédits du README (asset, type, auteur, licence, source)
+- `Must` Monter l'écran Crédits : sources regroupées, renvoi au README, bouton Retour
+- `Must` Publier le build Web sur itch.io et le tester dans le navigateur, son compris
+- `Must` Monter une page itch.io minimale : titre, build Web jouable, commandes
+- `Should` Exporter un build Windows et vérifier qu'il se lance
+- `Should` Cacher le bouton Quitter dans la version Web
 
-**Menu pause**
+**Performance**
 
-- `Could` Monter le menu pause (Échap, `timeScale`, boutons Reprendre et Accueil)
-- `Could` Ajouter un panneau Options au menu pause
-- `Could` Créer un snapshot pour le menu pause (son étouffé)
+- `Should` Cocher **Static** sur le décor immobile
+- `Should` Retirer les ombres des lumières secondaires
+- `Should` Passer la musique et les ambiances en `Streaming` / `Vorbis`
+
+**Menus et sauvegarde**
+
+- `Could` Monter le menu pause (Échap ou P, `timeScale`, Reprendre, Accueil)
+- `Could` Ajouter un panneau Options (volume)
+- `Could` Sauvegarder la progression et ajouter un bouton Continuer
+- `Could` Sauvegarder un meilleur score ou un meilleur temps
 
 ## Devoirs
 
+- Terminer les cartes `Must` : **la semaine prochaine, c'est l'alpha**. Mécaniques du GDD branchées, trois niveaux parcourables du début à la fin
+- Page itch.io en ligne avec un build Web **à jour** au début du cours 12 : les tests croisés se font à partir de ce lien
+- Lien itch.io dans le README du répertoire
+
 <!-- Savoirs essentiels touchés (note pour l'enseignant) :
-
--->
-
-<!--
-================================================================
-NOTES DE RÉDACTION — à supprimer une fois la séance écrite
-================================================================
-À rapatrier depuis .archive/ (voir .archive/MIGRATION.md) :
-  - .archive/cours13.md  § Pourquoi publier (vraiment)
-                         § WebGL : ton jeu devient une page web
-                         § La page itch.io, version projet final
-                         § Contrôles
-                         § Crédits et licences : obligatoire, légal, professionnel
-                         § En survol (optionnel) : sauvegarder des données
-  - .archive/exercices/cours13-publication-et-game-feel.md (partie publication)
-
-À écrire à neuf : Build Settings et Player Settings en détail,
-PlayerPrefs en profondeur (l'archive n'est qu'un survol), Profiler
-et performance.
-================================================================
+Objectif 1 : Compilation de l'application (builds Windows et Web) · Classement des fichiers et des médias (README, crédits, dossier Builds hors Assets) · Intégration de médias sonores (réglages d'import audio, volume)
+Objectif 2 : Fonctionnement d'une interface virtuelle (menu pause, menu Options, bouton Continuer) · Progression en fonction de la réussite d'une action (sauvegarde de la progression, meilleur score)
 -->
