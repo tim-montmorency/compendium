@@ -66,10 +66,11 @@ Pour ce faire, il est possible&nbsp;:
 - d'utiliser un *CDN* (Content Delivery Network)
 - d'utiliser le gestionnaire de paquets JavaScript *NPM*
 
-
+<!--
 !!! tip "Quoi utiliser pour le moment?"
 
     En début de session, nous allons commencer avec l'<a target="_blank" rel="noopener noreferrer" href="https://fr.vuejs.org/guide/quick-start.html#using-vue-from-cdn">utilisation du CDN (<em>Content Delivery Network</em>)</a> plutôt que le NPM. Nous reviendrons sur la méthode NPM un peu plus tard.
+-->
 
 ### Installer Vue avec CDN
 
