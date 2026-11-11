@@ -366,6 +366,7 @@ nav:
           - "Flip : changer de mise en page": 582-511-web5/js/gsap-flip.md
           - "ScrollTo : défiler vers": 582-511-web5/js/gsap-scrollto.md
       - "Vue.js":
+        - 582-511-web5/vue/index.md
         - "Intro à Vue.js": 582-511-web5/vue/index.md
         - "Création d'une app": 582-511-web5/vue/creation-app.md
         - "Interpolation": 582-511-web5/vue/interpolation.md
