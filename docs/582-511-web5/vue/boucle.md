@@ -105,6 +105,12 @@ Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange(
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 
 
+## Dans un exemple réel { #exemple-reel }
+
+Les personnages de Rick and Morty, chargés depuis une API publique. Dans l'onglet HTML, deux boucles `v-for` : une sur les boutons de filtre, l'autre sur les personnages reçus de l'API, chacune avec son `:key`.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=html,js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
+
 ## Récapitulatif de ce que on a *Vue.js* jusqu'à maintenant
 
 <p>Analysons ensemble cet exemple de brassage de carte réalisé par le développeur Torontois <a href="https://codepen.io/itslit" target="_blank" rel="noopener noreferrer">Hassan Dj (@itslit</a>)</p>

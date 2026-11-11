@@ -47,6 +47,12 @@ Dans l'exemple ci-dessous, modifier la valeur du le champ texte mettra à jour l
 <br>
 
 
+### Dans un exemple réel { #exemple-reel }
+
+Les personnages de Rick and Morty, chargés depuis une API publique. Dans l'onglet HTML, `v-model="name"` relie le champ de recherche à la donnée `name`. La méthode `loadCharacters()` n'a qu'à lire `this.name` pour savoir quoi chercher.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=html,js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
+
 ## Case à cocher `<input type="checkbox">`
 
 Les cases à cocher `<input type="checkbox">` synchronisent l’attribut `checked` avec la donnée qui leur est associée.

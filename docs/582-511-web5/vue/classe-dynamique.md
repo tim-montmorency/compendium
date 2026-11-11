@@ -117,6 +117,12 @@ ou produira le code suivant si la valeur de *isOrange* est `false`:
 <a href="https://fr.vuejs.org/guide/essentials/class-and-style" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;"> En savoir plus sur *Liaison de classes et de styles - Class &amp; Style Bindings*</a>
 <br>
 
+## Dans un exemple réel { #exemple-reel }
+
+Les personnages de Rick and Morty, chargés depuis une API publique. Dans l'onglet HTML, deux classes dynamiques : `:class="{ actif: option.value === status }"` met le filtre choisi en rouge, et `:class="'status--' + character.status.toLowerCase()"` construit le nom de la classe à partir d'une donnée (la couleur de la pastille).
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=html,js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
+
 ## Exercice
 
 [🧑🏽‍💻 Collection de films (partie B : la classe dynamique)](../exercices/ex-vue-films/index.md){ .md-button }

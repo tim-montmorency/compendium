@@ -182,3 +182,9 @@ Ce qui va générer ce résultat:
 <a href="https://fr.vuejs.org/guide/essentials/template-syntax#raw-html" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">En savoir plus sur l'interpolation des données en <em>HTML brut</em></a> <br>
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
+
+## Dans un exemple réel { #exemple-reel }
+
+Les personnages de Rick and Morty, chargés depuis une API publique. Dans l'onglet HTML, repérez l'interpolation `{{ character.name }}`, et les attributs liés `:src="character.image"` et `:alt="character.name"`.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=html,js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>

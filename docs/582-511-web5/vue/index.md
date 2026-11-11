@@ -40,6 +40,10 @@ Pour voir des applications réelles faites avec Vue :
 - [Les personnages de Rick and Morty](https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=resultat,js,html,css&modifiable=1) : une recherche et des filtres sur les données d'une API publique, en Options API. Ouvrez les onglets pour lire le code, et modifiez-le.
 - [Made with Vue.js](https://madewithvuejs.com/) : une vitrine de sites et d'applications faits avec Vue.
 
+Un exemple à explorer ici même : cherchez un nom, changez de filtre, puis ouvrez les onglets pour lire le code et le modifier.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=resultat,html,js,css&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
+
 ## Vidéo: Vue.js en 2 minutes
 
 [:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw){ .md-button :target="_blank" }
