@@ -44,14 +44,27 @@ Une démo de 60 secondes, sur votre poste. Je passe d'équipe en équipe.
 
 ## Aujourd'hui
 
+- [ ] API, JSON et fetch : pourquoi ils sont partout
 - [ ] Le composant Vue, construit en direct : vous codez avec moi, dans un bac à sable
 - [ ] Le *fetch* externe : choisir et tester votre API
 - [ ] Prototype : votre démo de 60 secondes, pendant que je passe d'équipe en équipe
 - [ ] Dans votre projet : le composant Vue, l'API, et le début de la *phase 2*{ .w5-phase .w5-phase-2 }
 
-## 1. :material-code-braces:  Le composant Vue, construit en direct { #composant }
+## 1. :material-api:  API, JSON et fetch : pourquoi ils sont partout { #pourquoi-api }
 
-Mercredi, vous avez vu les principes et pratiqué avec deux exercices. Aujourd'hui, on assemble le tout : le composant de votre récit, pièce par pièce. **Vous codez avec moi**, dans un bac à sable : un petit dossier à part, **hors de votre dépôt**.
+**Est-ce vraiment utilisé en entreprise?** Oui, partout. Avant, le serveur fabriquait chaque page avec sa base de données, et chaque clic rechargeait tout. Aujourd'hui, le serveur expose une **API** qui envoie seulement les **données**, en **JSON**, et c'est le navigateur qui fabrique la page avec **`fetch()`**.
+
+- **L'API**, la porte d'un service : la même API sert le site, l'application iOS et l'application Android;
+- **le JSON**, la langue de ces données, que tous les langages comprennent;
+- **`fetch()`**, le messager du navigateur, qui va les chercher sans recharger la page.
+
+Vous l'avez déjà fait, comme en entreprise : vos projets de portfolio venaient d'Airtable ou de Google Sheets, par leur API.
+
+[:material-api: API, JSON et fetch : le trio du web moderne](js/api-json-fetch.md){ .md-button .md-button--primary }
+
+## 2. :material-code-braces:  Le composant Vue, construit en direct { #composant }
+
+Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de films. Aujourd'hui, on assemble le tout : le composant de votre récit, pièce par pièce. **Vous codez avec moi**, dans un bac à sable : un petit dossier à part, **hors de votre dépôt**.
 
 **Le bac à sable**, à créer avant de commencer :
 
@@ -111,7 +124,7 @@ Mercredi, vous avez vu les principes et pratiqué avec deux exercices. Aujourd'h
 
 [:simple-vuedotjs: Le composant Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
 
-## 2. :material-api:  Le *fetch* externe : choisir et tester votre API
+## 3. :material-api:  Le *fetch* externe : choisir et tester votre API
 
 Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est **le même `fetch()`**, avec une adresse sur un autre site. Ce qui est nouveau :
 
@@ -130,7 +143,7 @@ Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interro
 
     **L'autre personne** fait la même chose avec une API de la [liste de la démo](projets/recit-defilant/dataviz.md#demo) : tout le monde doit savoir lire une réponse d'API.
 
-## 3. :material-play-box-outline:  Le prototype
+## 4. :material-play-box-outline:  Le prototype
 
 Pendant le travail en équipe, je passe vous voir. **Préparez votre démo** : Live Server ouvert, la console ouverte, la page en haut du récit.
 
@@ -138,7 +151,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 [:material-play-box-outline: Le prototype : ce que je dois voir](projets/recit-defilant/index.md#prototype){ .md-button }
 
-## 4. :material-account-multiple-outline:  Dans votre projet
+## 5. :material-account-multiple-outline:  Dans votre projet
 
 **La personne responsable du composant Vue** (voir votre matrice de responsabilités) l'intègre d'ici la **bêta** (ven. 20 nov.) :
 
