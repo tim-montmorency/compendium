@@ -6,7 +6,14 @@
     - Groupe Lora : 12 novembre.
 
 ## Retour sur la journée carrière et évaluation des comités
+Activité en groupe    
+
+Ensuite:     
 [🛠️ Formulaire à remplir](https://forms.cloud.microsoft/r/TtcRz14ev6){ .md-button }   
+
+
+## Vidéo urbania
+[📁 Voir la vidéo](https://urbania.ca/video/les-4-choses-a-savoir-avant-de-commencer-sa-premiere-job ){ .md-button }
 
 
 ## Mes finances, mes choix
