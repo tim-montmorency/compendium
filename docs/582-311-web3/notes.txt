@@ -8,3 +8,6 @@ Idées de tp :
 Preline
 
 Git en ligne de commande
+
+
+GSAP : Wiggle et flip mis de côté. Concepts cools, mais un peu avancé

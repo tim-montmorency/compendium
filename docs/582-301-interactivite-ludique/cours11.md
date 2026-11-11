@@ -4,7 +4,7 @@ Piste — Package Recorder (Unity Registry)
 -->
 
 # Cours 11
-[STOP]
+
 ## Version Alpha (prochain cours)
 
 <figure markdown>
@@ -49,13 +49,15 @@ Pour la remise finale, deux _builds_ seront demandés : **Windows** et **Web**.
 
 ![](./assets/img/build-profiles-web.png){data-zoom-image}
 
-| Élément | Rôle |
-|---|---|
-| **Scene List** | Scènes incluses, dans l'ordre : l'accueil en `0` |
-| **Platforms** | La plateforme active porte la mention **Active** |
-| **Switch Platform** | Convertit le projet |
-| **Build** | Compile dans un dossier `Builds/` à la racine du projet, à côté du dossier `Assets` (sera ignoré par le `.gitignore`) |
-| **Player Settings** | Ouvre les réglages avancés |
+??? note "Éléments"
+
+    | Élément | Description |
+    |---|---|
+    | **Scene List** | Scènes incluses, dans l'ordre : l'accueil en `0` |
+    | **Platforms** | La plateforme active porte la mention **Active** |
+    | **Switch Platform** | Convertit le projet |
+    | **Build** | Compile dans un dossier `Builds/` à la racine du projet, à côté du dossier `Assets` (sera ignoré par le `.gitignore`) |
+    | **Player Settings** | Ouvre les réglages avancés |
 
 ## Player Settings
 
