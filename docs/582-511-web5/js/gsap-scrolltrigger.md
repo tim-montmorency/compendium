@@ -89,6 +89,10 @@ Par défaut : `start: "top bottom"` (l'élément entre par le bas) et `end: "bot
 
 ---
 
+Un premier exemple : la carte apparaît quand son haut croise la ligne à 60 % de l'écran (`start: "top 60%"`). Défilez dans le cadre, et regardez les repères.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:800px;border:0" loading="lazy"></iframe>
+
 ### Les `markers` : votre meilleur outil
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=resultat&boutons=ouvrir" class="aspect-3-2" style="width:100%;border:0" loading="lazy"></iframe>
@@ -127,6 +131,10 @@ Par défaut : `"play none none none"` (joue une fois, puis ne fait plus rien).
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-declencher&onglets=js,resultat&modifiable=1&disposition=cote&boutons=rejouer,ouvrir" style="width:100%;height:520px;border:0" loading="lazy"></iframe>
 
+Un autre exemple, avec `"play none none reverse"` : la carte arrive en tournant, puis repart quand on remonte au-dessus du début.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-toggle-actions&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:800px;border:0" loading="lazy"></iframe>
+
 ## Suivre le défilement : `scrub`
 
 Avec `scrub`, l'animation n'est plus déclenchée : sa progression **suit** le défilement. On descend, elle avance; on remonte, elle recule; on s'arrête, elle s'arrête. C'est ce qu'on veut pour un récit défilant.
@@ -139,6 +147,12 @@ Avec `scrub`, l'animation n'est plus déclenchée : sa progression **suit** le d
 Avec `scrub`, mettez `ease: "none"` : la vitesse dépend déjà du visiteur.
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-scrub&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
+
+Comparez avec deux autres exemples : `scrub: true` sur une carte, qui colle exactement au défilement, puis `scrub: 1` sur une barre de progression, qui rattrape le défilement en douceur.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-scrub&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:800px;border:0" loading="lazy"></iframe>
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-scrub-alt&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:800px;border:0" loading="lazy"></iframe>
 
 ## Une scène : timeline + `scrub` + `pin`
 
@@ -167,12 +181,36 @@ tl.from(".box", { x: "-40vw", duration: 2 })
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-st-pin-timeline&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:1100px;border:0" loading="lazy"></iframe>
 
+Deux autres scènes. La première : une timeline de 4 tweens étalée sur 3000 px de défilement (remarquez le `"<"`, qui fait jouer les deux boîtes en même temps). La deuxième : un défilement **horizontal**. On défile vers le bas, et les 4 panneaux glissent de côté (`xPercent: -75`, soit 3 panneaux sur 4).
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-timeline-scrub&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:900px;border:0" loading="lazy"></iframe>
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-pin&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:900px;border:0" loading="lazy"></iframe>
+
 !!! warning "Les garde-fous du récit : au plus la moitié de vos chapitres épinglés"
     Une section épinglée bloque la lecture : le visiteur défile, mais la page n'avance pas. C'est puissant pour un moment fort, lassant si c'est partout. Dans votre récit : chacun épingle **au plus la moitié de ses chapitres** (50 %). Sur 3 chapitres, 1 au plus; sur 4, 2 au plus.
 
 ### `pinSpacing`
 
 Par défaut, ScrollTrigger ajoute un espace sous l'élément épinglé, pour que la suite de la page attende la fin de la scène. Avec `pinSpacing: false`, il n'en ajoute pas : la section suivante **monte par-dessus** la scène épinglée. Effet intéressant pour un rideau, mais rarement ce qu'on veut.
+
+## S'aimanter : `snap` { #snap }
+
+Avec `snap`, la scène ne s'arrête pas n'importe où : quand le visiteur arrête de défiler, l'animation **glisse jusqu'au point le plus proche**. Pratique pour qu'un chapitre ne reste jamais à moitié joué.
+
+| Valeur | Effet |
+|---|---|
+| `snap: 0.5` | S'aimante au début (0), au milieu (0.5) ou à la fin (1) |
+| `snap: 1 / 4` | S'aimante à chaque quart |
+| `snap: "labels"` | S'aimante à l'étiquette la plus proche de la timeline (`addLabel()`) |
+
+Arrêtez de défiler au milieu de la scène : la boîte rejoint le point le plus proche.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-snap&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:800px;border:0" loading="lazy"></iframe>
+
+Avec des étiquettes, vous choisissez les arrêts vous-même : ici, un arrêt à 25 % du trajet, puis l'arrivée.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-snap-tag&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:800px;border:0" loading="lazy"></iframe>
 
 ## Déclencher du JavaScript : les *callbacks*
 
@@ -291,3 +329,4 @@ export function animate(section, chapter) {
 - [ScrollTrigger : la documentation](https://gsap.com/docs/v3/Plugins/ScrollTrigger/){ :target="_blank" }
 - [`gsap.matchMedia()`](https://gsap.com/docs/v3/GSAP/gsap.matchMedia()){ :target="_blank" }
 - Explications des marqueurs et des `toggleActions` : notes du cours 582-424, TIM Montmorency.
+- Exemples de déclenchement, de `toggleActions`, de `scrub`, de scènes épinglées et de `snap` : Fragments du cours Web 3 (582-311), TIM Montmorency, utilisés avec sa permission.
