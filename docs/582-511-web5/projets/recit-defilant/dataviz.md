@@ -7,7 +7,7 @@
 
 1. Votre récit contient au moins un **moment dataviz** : des **données réelles** qui apparaissent au bon moment et font avancer l'histoire.
 2. Une bonne dataviz de récit, c'est **une question, une donnée, une forme simple, une révélation au défilement, une chute**.
-3. Pour le cahier de charges, décrivez seulement **l'idée** (section 6). L'API se choisit et se teste au cours du **mer. 11 nov.**
+3. L'API se choisit et se teste au cours du **ven. 13 nov.** : [choisir et tester votre API](#api). Elle doit fonctionner **à la bêta** (ven. 20 nov.).
 
 </div>
 
@@ -123,7 +123,7 @@ Des milliers de graphiques sur la santé, l'environnement, la société. **Une m
 
 Vous trouverez d'autres exemples, dont The Pudding et Pixel Space, dans la page [exemples et inspirations](inspirations.md).
 
-## La démo : la Terre bouge
+## La démo : la Terre bouge { #demo }
 
 Une petite démo avec **deux moments dataviz** et des données réelles, chargées au moment où on les atteint :
 
@@ -135,13 +135,115 @@ Le code est commenté dans `js/dataviz.js`. Il suit toujours les mêmes 4 étape
 [:material-chart-bar: Voir la démo](demo-dataviz/index.html){ .md-button .md-button--primary :target="_blank" }
 
 !!! info "Pas besoin de tout comprendre aujourd'hui"
-    `fetch` vers une API externe et `IntersectionObserver` seront vus en classe en novembre. Aujourd'hui, regardez **ce que fait** la démo, pas encore comment.
+    Regardez d'abord **ce que fait** la démo. Le comment est expliqué plus bas, étape par étape : [choisir et tester votre API](#api).
 
 !!! tip "Pour explorer, si vous êtes curieux (facultatif)"
 
     - [**Public APIs**](https://github.com/public-apis/public-apis){ :target="_blank" } : une grande liste d'API gratuites, classées par thème. Visez les colonnes **Auth : `No`** (sans clé) et **CORS : `Yes`** (utilisable depuis le navigateur).
     - [**Données Québec**](https://www.donneesquebec.ca/){ :target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ :target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
-    - Quelques API sans clé, à tester le 11 nov. : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Art Institute of Chicago](https://api.artic.edu/docs/){ :target="_blank" } (œuvres d'art), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
+    - Quelques API sans clé, à tester le 13 nov. : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Art Institute of Chicago](https://api.artic.edu/docs/){ :target="_blank" } (œuvres d'art), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
+
+## Choisir et tester votre API { #api }
+
+Une **API**, c'est une adresse web qui renvoie des données en JSON au lieu d'une page. Vous connaissez déjà `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est le même `fetch()`, avec une adresse sur un autre site.
+
+Ce qui est nouveau, c'est seulement : **choisir** l'API, **lire** sa réponse, et **prévoir** qu'elle tombe en panne.
+
+### 1. Choisir une API { #api-choisir }
+
+Une bonne API pour votre récit coche ces 4 cases :
+
+- **sans clé** : pas d'inscription, pas de jeton (colonne **Auth : `No`** dans Public APIs);
+- **CORS : `Yes`** : utilisable depuis le navigateur. Sans CORS, le navigateur bloque la réponse;
+- elle renvoie du **JSON**;
+- elle contient **votre donnée**, celle qui répond à la question de votre moment dataviz.
+
+Des pistes : la liste [Public APIs](https://github.com/public-apis/public-apis){ :target="_blank" }, et les API sans clé de l'encadré *Pour explorer*, [sous la démo](#demo).
+
+!!! tip "Pas d'API pour votre donnée?"
+    Un jeu de données ouvert (Données Québec, Montréal, Statistique Canada) est souvent un fichier CSV à télécharger, pas une API. Vous pouvez le convertir en JSON et le mettre dans votre dépôt, comme au portfolio. Mais le `fetch()` vers une **API externe** reste exigé : ajoutez alors un petit élément « vivant » (la météo, l'heure du coucher du soleil) ailleurs dans le récit.
+
+### 2. Tester l'adresse dans le navigateur { #api-tester }
+
+Avant d'écrire une ligne de code, **collez l'adresse dans la barre d'adresse** du navigateur. Firefox affiche le JSON joliment, avec des triangles pour plier et déplier. Dans Chrome, cochez *Impression élégante*.
+
+Par exemple, la température maximale des 7 prochains jours à Montréal : [l'adresse Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=auto){ :target="_blank" }.
+
+La plupart des API se **règlent dans l'adresse**, après le `?` : `latitude=45.5`, `daily=temperature_2m_max`. Changez une valeur, rechargez : vous voyez tout de suite ce que ça change. Plusieurs API, comme Open-Meteo, ont même un **générateur d'adresse** dans leur documentation.
+
+### 3. Trouver le chemin vers votre donnée { #api-chemin }
+
+La réponse contient souvent beaucoup plus que ce qu'il vous faut. Cherchez **le chemin** vers votre valeur, comme dans un objet JS :
+
+```text
+data                        l'objet reçu
+  .daily                    la propriété « daily »
+    .temperature_2m_max     un tableau de 7 températures
+```
+
+En code : `data.daily.temperature_2m_max`. Un tableau dans un tableau? `data.features[0].properties.mag`. Voir [Récap JS : les objets](../../js/recap-js.md#objets).
+
+!!! tip "Copier le chemin dans Chrome"
+    Outils de développement, onglet **Réseau** (*Network*), filtre **Fetch/XHR**. Cliquez sur la requête, onglet **Aperçu** (*Preview*), puis clic droit sur la valeur : **Copier le chemin de la propriété**.
+
+### 4. Le `fetch()`, dans le fichier de votre chapitre { #api-fetch }
+
+Le moment dataviz appartient à un chapitre : son code va dans **le fichier de ce chapitre**.
+
+```js
+// js/chapitres/ch-05.js
+const WEATHER_URL = "https://api.open-meteo.com/v1/forecast"
+  + "?latitude=45.5&longitude=-73.57"
+  + "&daily=temperature_2m_max&timezone=auto";
+
+async function loadWeather() {
+  const response = await fetch(WEATHER_URL);
+  if (!response.ok) {
+    throw new Error("Météo introuvable (" + response.status + ")");
+  }
+  const data = await response.json();
+  console.log(data); // d'abord, regardez ce qui arrive
+  return data.daily.temperature_2m_max; // 7 valeurs
+}
+```
+
+C'est le même `fetch()` que pour `data.json` : voir [Récap JS : `async` / `await`](../../js/recap-js.md#async).
+
+### 5. Charger au bon moment { #api-moment }
+
+Pas au chargement de la page : **quand le visiteur approche du chapitre**. C'est le rôle d'[IntersectionObserver](../../js/intersection-observer.md), avec un `rootMargin` qui le déclenche un peu avant, pour que les données soient là à temps.
+
+### 6. Prévoir la panne { #api-panne }
+
+Une API externe peut être lente, changer, ou tomber en panne. **Le jour de votre présentation aussi.** Votre récit doit rester lisible si elle ne répond pas :
+
+```js
+async function showWeather(section) {
+  let temperatures;
+  try {
+    temperatures = await loadWeather();
+  } catch (error) {
+    console.error(error);
+    // Valeurs de secours : le récit continue
+    temperatures = [4, 6, 3, 2, 5, 7, 4];
+    section.querySelector(".source").textContent =
+      "Données hors ligne : relevé du 13 novembre";
+  }
+  // ... construire la forme avec temperatures
+}
+```
+
+Gardez des **valeurs de secours** réelles (copiées de la réponse un jour où l'API fonctionnait), et dites-le au lecteur.
+
+### 7. Documenter votre choix { #api-documenter }
+
+Dans la section 6 de votre `CAHIER-DE-CHARGES.md`, ajoutez :
+
+- **l'API** : son nom et le lien vers sa documentation;
+- **l'adresse** que vous interrogez;
+- **le chemin** de la valeur utilisée (ex. `data.daily.temperature_2m_max`).
+
+Puis *commit* (`Cahier : ajoute l'API de la dataviz`) et *push*.
 
 ## Pour votre cahier de charges
 
@@ -152,4 +254,4 @@ Dans la **section 6** du gabarit, décrivez votre idée :
 - **la forme** que vous imaginez : une donnée qui change le décor, des unités à l'image de votre sujet, une donnée qui pilote une animation, une échelle au défilement… (voir [plus haut](#plus-loin));
 - **la chute** : ce que la donnée raconte dans votre histoire.
 
-Ajoutez un cadre pour ce moment dans votre storyboard. L'API se choisit au cours du **mer. 11 nov.** : des pistes pour explorer sont dans le [cahier de charges](cahier-de-charges.md#le-moment-dataviz).
+Ajoutez un cadre pour ce moment dans votre storyboard. L'API se choisit au cours du **ven. 13 nov.** : voir [Choisir et tester votre API](#api).

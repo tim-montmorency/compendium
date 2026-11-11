@@ -1,0 +1,17 @@
+<svg class="morph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"
+     aria-hidden="true" fill="none" stroke="#E0233F" stroke-width="5"
+     stroke-linejoin="round" stroke-linecap="round">
+  <!-- La capuche -->
+  <path class="morph__capuche"
+        d="M200,30 C250,70 340,120 340,230 C340,320 280,375 200,375
+           C120,375 60,320 60,230 C60,120 150,70 200,30 Z"/>
+  <!-- Le visage -->
+  <path class="morph__visage"
+        d="M200,160 C245,160 270,195 270,240 C270,285 245,315 200,315
+           C155,315 130,285 130,240 C130,195 155,160 200,160 Z"/>
+  <!-- Les yeux -->
+  <circle class="morph__oeil" cx="178" cy="235" r="6"
+          fill="#E0233F" stroke="none"/>
+  <circle class="morph__oeil" cx="222" cy="235" r="6"
+          fill="#E0233F" stroke="none"/>
+</svg>

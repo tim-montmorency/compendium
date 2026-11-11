@@ -212,7 +212,7 @@ Les clés communes, elles, sont lues par `main.js`, un fichier commun : si vous 
 
 Votre récit doit contenir au moins un moment où des **données réelles** apparaissent : un graphique, un chiffre qui bouge, un élément « vivant » (la météo du jour, l'heure du coucher du soleil, etc.). Ces données viendront d'une **API**, un service en ligne qui renvoie des données en JSON quand on lui envoie une requête avec `fetch()`.
 
-**Au cahier de charges, pas besoin de trouver l'API.** On apprend à interroger une API externe au cours du **mer. 11 nov.**, et c'est là que vous la choisirez et la testerez. Pour l'instant, décrivez seulement :
+**Au cahier de charges, pas besoin de trouver l'API.** On apprend à interroger une API externe au cours du **ven. 13 nov.**, et c'est là que vous la choisirez et la testerez. Pour l'instant, décrivez seulement :
 
 - **le moment** : dans quel chapitre, et ce que les données apportent à votre histoire;
 - **le genre de données** que vous aimeriez montrer (ex. « la température dans une ville », « le nombre de séismes cette semaine », « des œuvres d'un musée »).
@@ -225,7 +225,7 @@ Restez souple : si aucune API ne fournit exactement vos données, on ajustera l'
 
     - [**Public APIs**](https://github.com/public-apis/public-apis){ :target="_blank" } : une grande liste d'API gratuites, classées par thème. Visez les colonnes **Auth : `No`** (sans clé) et **CORS : `Yes`** (utilisable depuis le navigateur).
     - [**Données Québec**](https://www.donneesquebec.ca/){ :target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ :target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
-    - Quelques API sans clé, à tester le 11 nov. : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Art Institute of Chicago](https://api.artic.edu/docs/){ :target="_blank" } (œuvres d'art), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
+    - Quelques API sans clé, à tester le 13 nov. : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Art Institute of Chicago](https://api.artic.edu/docs/){ :target="_blank" } (œuvres d'art), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
 
 ## Le gabarit
 
@@ -316,7 +316,7 @@ Version de départ : elle va évoluer, et vous la mettrez à jour à la fin du p
 
 ## 6. La dataviz
 
-L'API sera choisie au cours du mer. 11 nov. Pour l'instant, décrivez l'idée.
+L'API sera choisie au cours du ven. 13 nov. Pour l'instant, décrivez l'idée.
 
 - **Chapitre** : [numéro]
 - **La question** à laquelle le moment répond : [ex. combien de fois la Terre a-t-elle tremblé cette semaine?]

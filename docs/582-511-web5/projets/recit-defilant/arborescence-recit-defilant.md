@@ -10,16 +10,11 @@
 </div>
 
 !!! info "Votre récit se construit en deux phases { #deux-phases }"
-    1. *Phase 1*{ .w5-phase .w5-phase-1 } : **intégration statique.** Vous écrivez vos chapitres **directement en HTML et en CSS**, puis vous les animez. Vous voyez vos éléments dans le code et dans l'inspecteur : c'est plus simple pour concevoir et animer. Accepté jusqu'au **prototype** (ven. 13 nov.).
-    2. *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique.** Vous déplacez le texte et les médias de vos chapitres dans `data.json`, et le JavaScript construit les sections. **Exigé à la bêta** (ven. 20 nov.).
+    1. *Phase 1*{ .w5-phase .w5-phase-1 } : **intégration statique.** Vous écrivez vos chapitres **directement en HTML et en CSS**, puis vous les animez. Vous voyez vos éléments dans le code et dans l'inspecteur : c'est plus simple pour concevoir et animer. **Du 6 au 13 nov.**, accepté jusqu'au **prototype** (ven. 13 nov.).
+    2. *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique.** Vous déplacez le texte et les médias de vos chapitres dans `data.json`, et le JavaScript construit les sections. **Du 13 au 20 nov.**, **exigé à la bêta** (ven. 20 nov.).
 
     Si votre HTML statique est écrit **comme le JavaScript le construira** (même `<section>`, mêmes classes), le passage à la *phase 2*{ .w5-phase .w5-phase-2 } ne change pas une ligne de vos animations. [Comment passer à la *phase 2*{ .w5-phase .w5-phase-2 }](#phase-2).
 
-## Pourquoi un fichier par chapitre?
-
-- **Moins de conflits** : un conflit arrive quand deux personnes modifient les mêmes lignes du même fichier. Si chacun travaille surtout dans ses propres fichiers, ça arrive rarement.
-- **Votre travail est visible** : votre matrice de responsabilités correspond à des fichiers précis. L'historique Git de `ch-03.js` montre qui l'a écrit.
-- **À la défense**, on ouvre vos fichiers, et vous les expliquez.
 
 ## L'arborescence
 
@@ -78,6 +73,8 @@ Une seule page.
 
 ### *Phase 1*{ .w5-phase .w5-phase-1 }, intégration statique : vos chapitres écrits en HTML { #html-phase-1 }
 
+> Du 6 au 13 novembre (13 = remise prototype)
+
 Chaque chapitre est une `<section>`, écrite à la main dans `index.html`. Écrivez-la **exactement comme le JavaScript la construira à la phase 2** : la classe `chapitre`, l'`id` du chapitre, un `<h2>`, les paragraphes, puis le média.
 
 ```html
@@ -107,6 +104,8 @@ Chaque chapitre est une `<section>`, écrite à la main dans `index.html`. Écri
     Créez **ensemble, sur `main`**, toutes les `<section>` vides, avec leur `id` et un commentaire qui dit à qui elles sont. Ensuite, chacun remplit **seulement ses sections**, sur sa branche. Git fusionne sans problème deux modifications à des endroits différents du même fichier : le conflit arrive seulement si vous touchez aux mêmes lignes.
 
 ### *Phase 2*{ .w5-phase .w5-phase-2 }, intégration dynamique : les chapitres construits par le JavaScript { #html-phase-2 }
+
+> Du 13 au 20 novembre (20 = remise bêta)
 
 Le `<main>` est vide : les chapitres sont construits par le JavaScript, à partir de `data.json`.
 
@@ -412,6 +411,8 @@ L'ordre du tableau `chapterModules` doit suivre l'ordre des chapitres dans `data
     Une librairie chargée avec une balise `<script>` classique (GSAP, Vue) reste disponible partout, y compris dans vos modules : `gsap.to(...)` fonctionne dans `ch-03.js` sans `import`. Placez ces balises **avant** celle de `main.js`.
 
 ## Passer à la *phase 2*{ .w5-phase .w5-phase-2 } { #phase-2 }
+
+> Du 13 au 20 novembre (20 = remise bêta)
 
 Votre chapitre fonctionne en HTML statique? Pour le passer aux données, chapitre par chapitre :
 

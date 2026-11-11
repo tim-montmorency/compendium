@@ -55,11 +55,11 @@ Un récit sur un thème de votre choix, par exemple :
 | Élément | Exigence |
 |---|---|
 | **Chapitres** | 6 à 8 chapitres, environ 100 à 250 mots chacun. Au moins 3 chapitres par personne. |
-| **Données** | Les chapitres et leurs médias sont chargés avec `fetch()` depuis un fichier JSON. On y arrive [en deux phases](arborescence-recit-defilant.md#deux-phases) : d'abord l'intégration statique (les chapitres en HTML), puis l'intégration dynamique (les données), exigée à la bêta. |
-| **Dataviz** | Au moins un `fetch()` vers une **API externe gratuite**, pour un moment de visualisation de données ou un élément « vivant ». Au cahier de charges, vous décrivez seulement l'idée et le genre de données : l'API se choisit après le cours du mer. 11 nov. |
+| **Données** | Les chapitres et leurs médias sont chargés avec `fetch()` depuis un fichier JSON. On y arrive [en deux phases](arborescence-recit-defilant.md#deux-phases) : d'abord l'intégration statique (les chapitres en HTML, du 6 au 13 nov.), puis l'intégration dynamique (les données, du 13 au 20 nov.), exigée à la bêta. |
+| **Dataviz** | Au moins un `fetch()` vers une **API externe gratuite**, pour un moment de visualisation de données ou un élément « vivant ». Au cahier de charges, vous décrivez seulement l'idée et le genre de données : l'API se choisit au cours du ven. 13 nov. ([Choisir et tester votre API](dataviz.md#api)). Elle doit fonctionner à la bêta. |
 | **Animations** | Au moins une animation de chaque technique : **CSS au défilement** (`animation-timeline`), **GSAP + ScrollTrigger**, et un déclencheur **IntersectionObserver**. |
 | **Extension GSAP** | Au moins **un effet** fait avec une [extension de GSAP](../../js/gsap-bases.md#extensions), au moins une fois dans le récit (par équipe) : SplitText, ScrambleText, TextPlugin, MotionPath, DrawSVG, MorphSVG, Flip ou ScrollTo. ScrollTrigger ne compte pas : il est déjà exigé. La personne qui l'intègre est inscrite dans la [matrice de responsabilités](cahier-de-charges.md#le-gabarit) du cahier de charges. |
-| **Vue.js** | Un composant imposé : le **navigateur de chapitres** ou la **barre de progression**. Vue est chargé par CDN, sans *build*. |
+| **Vue.js** | Un composant imposé : le **navigateur de chapitres** ou la **barre de progression**. Vue est chargé par CDN, sans *build*. Voir [Le composant Vue](composant-vue.md). |
 | **Média animable** | Un par personne, préparé pour l'animation (voir plus bas). |
 | **Responsive** | Le récit fonctionne sur desktop et sur mobile. Les animations peuvent y être simplifiées. |
 | **Accessibilité** | Le récit reste lisible **sans animation**, avec `prefers-reduced-motion`. |
@@ -252,10 +252,10 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 | **ven. 30 oct.** | **Storyboard v2**, déposé au plus tard à 23 h 59. Animations CSS au défilement. Chargement des chapitres en JSON. |
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
 | **ven. 6 nov.** | **Point de contrôle** (formatif) : la structure, les chapitres et une première animation GSAP. Construction des chapitres. |
-| mer. 11 nov. | Initiation à Vue.js : le composant imposé. Le *fetch* externe : choisir et tester votre API. |
-| **ven. 13 nov.** | **Prototype** (formatif) : navigable et animé. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée : les chapitres peuvent encore être en HTML statique. |
+| mer. 11 nov. | Initiation à Vue.js : [le composant imposé](composant-vue.md). |
+| **ven. 13 nov.** | **[Prototype](#prototype)** (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée. Puis : le *fetch* externe, [choisir et tester votre API](dataviz.md#api). |
 | mer. 18 nov. | Responsive, `prefers-reduced-motion`, performance |
-| **ven. 20 nov.** | **Bêta** : [*phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, **chapitres chargés depuis `data.json`**. Médias finaux intégrés, prête pour la QA |
+| **ven. 20 nov.** | **Bêta** : [*phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, **chapitres chargés depuis `data.json`**. Médias finaux intégrés. [Composant Vue](composant-vue.md) en place. Dataviz **fonctionnelle** : les données de l'API s'affichent (elle sera soignée d'ici la remise finale). Prête pour la QA |
 | **mer. 25 et ven. 27 nov.** | **Contrôle de la qualité croisé** (issues GitHub) |
 | mer. 2 et ven. 4 déc. | Correctifs, déploiement final, préparation de la défense |
 | **mer. 9 déc.** | **Défenses individuelles**, en privé |
@@ -320,3 +320,24 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
     - L'animation test : [GSAP : tweens et timelines](../../js/gsap-bases.md). Pour trouver vos éléments dans votre chapitre, voyez « D'où vient `section`? » dans [Dans votre récit : un module de chapitre](../../js/gsap-scrolltrigger.md#dans-votre-recit).
     - La *pull request* : [Git en équipe](git-en-equipe.md).
     - Les médias : [Les médias et les crédits](#les-medias-et-les-credits), et [Un média animable par personne](#un-media-animable-par-personne).
+
+## Prototype (ven. 13 nov., cours 11.2) { #prototype }
+
+!!! danger "Remise formative : l'échéance compte"
+    Rien à déposer : vous me **montrez** votre récit pendant le cours. Comme les autres remises, le prototype est noté selon les [4 niveaux](#echeances).
+
+Pendant le cours, je passe d'équipe en équipe. Vous avez **60 secondes** pour faire défiler votre récit sur votre poste, avec Live Server, du premier au dernier chapitre. On regarde ensemble où vous en êtes, et ce qui reste à faire d'ici la bêta.
+
+Ce n'est pas un récit fini : c'est un récit **qui se tient du début à la fin**. *Phase 1*{ .w5-phase .w5-phase-1 }, intégration statique, acceptée.
+
+**En équipe**
+
+- [ ] Le récit défile **du premier au dernier chapitre**, sans erreur dans la console.
+- [ ] Chaque chapitre a **son texte et au moins un média**, même provisoires.
+
+**Chaque personne**
+
+- [ ] Au moins **une animation au défilement** qui fonctionne dans un de ses chapitres : GSAP + ScrollTrigger, ou CSS au défilement.
+- [ ] Son travail **fusionné dans `main`** par *pull request*.
+
+Le composant Vue n'est pas exigé au prototype : il doit être en place à la bêta.
