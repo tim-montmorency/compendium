@@ -87,7 +87,7 @@ Affichera en fait:
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
-## Attributs des balises HTML via <span style="white-space: nowrap;">:v-bind&nbsp;ou&nbsp;:</span>
+## Attributs des balises `:v-bind`&nbsp;ou&nbsp;`:`
 
 Les données peuvent aussi être insérées dynamiquement dans un attribut HTML (`class`, `src`, `alt`, `style`, etc.). Cependant, les moustaches ne sont pas fonctionnelles dans ce contexte ❌. Il faut donc plutôt utiliser une directive `v-bind` en début d'attribut afin que son contenu se popule avec une donnée présente dans l'objet data.
 
@@ -143,7 +143,7 @@ Par exemple, pour inscrire le prénom et le nom dans le `alt` d'une image:
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 
 
-## Données en format HTML via v-html
+## Données en format HTML via `v-html`
 
 Si vous souhaitez envoyer une donnée en HTML, plutôt que d'utiliser les moustaches, vous devrez utiliser l'attribut `v-html` sur la balise qui contiendra votre donnée.
 

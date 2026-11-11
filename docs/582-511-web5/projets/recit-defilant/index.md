@@ -252,8 +252,8 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 | **ven. 30 oct.** | **Storyboard v2**, déposé au plus tard à 23 h 59. Animations CSS au défilement. Chargement des chapitres en JSON. |
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
 | **ven. 6 nov.** | **Point de contrôle** (formatif) : la structure, les chapitres et une première animation GSAP. Construction des chapitres. |
-| mer. 11 nov. | Initiation à Vue.js : [le composant imposé](composant-vue.md). |
-| **ven. 13 nov.** | **[Prototype](#prototype)** (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée. Puis : le *fetch* externe, [choisir et tester votre API](dataviz.md#api). |
+| mer. 11 nov. | Initiation à Vue.js : les principes, et deux exercices. |
+| **ven. 13 nov.** | [Le composant Vue](composant-vue.md), construit en direct. **[Prototype](#prototype)** (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée. Puis : le *fetch* externe, [choisir et tester votre API](dataviz.md#api). |
 | mer. 18 nov. | Responsive, `prefers-reduced-motion`, performance |
 | **ven. 20 nov.** | **Bêta** : [*phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, **chapitres chargés depuis `data.json`**. Médias finaux intégrés. [Composant Vue](composant-vue.md) en place. Dataviz **fonctionnelle** : les données de l'API s'affichent (elle sera soignée d'ici la remise finale). Prête pour la QA |
 | **mer. 25 et ven. 27 nov.** | **Contrôle de la qualité croisé** (issues GitHub) |

@@ -11,13 +11,23 @@
 <div class="grid" markdown>
 
 <div class="card" markdown>
-:simple-vuedotjs: __Le composant Vue__
+:simple-vuedotjs: __Exercice : Tableau NBA__
 
 ---
 
-Navigateur de chapitres et barre de progression : le code, pièce par pièce.
+Votre première app Vue : des pointages, deux clics, une propriété calculée.
 
-[:octicons-arrow-right-24: La référence](projets/recit-defilant/composant-vue.md){ .stretched-link }
+[:octicons-arrow-right-24: L'exercice](exercices/ex-vue-nba/index.md){ .stretched-link }
+</div>
+
+<div class="card" markdown>
+:simple-vuedotjs: __Exercice : Collection de films__
+
+---
+
+Une classe dynamique, puis une boucle `v-for` : un élément actif dans une liste.
+
+[:octicons-arrow-right-24: L'exercice](exercices/ex-vue-films/index.md){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -30,101 +40,77 @@ Une démo de 60 secondes de votre récit, sur votre poste. Rien à déposer.
 [:octicons-arrow-right-24: Ce que je dois voir](projets/recit-defilant/index.md#prototype){ .stretched-link }
 </div>
 
-<div class="card" markdown>
-:material-chart-bar: __Le moment dataviz__
-
----
-
-Vendredi, on choisit et on teste votre API. Relisez votre idée d'ici là.
-
-[:octicons-arrow-right-24: Le moment dataviz](projets/recit-defilant/dataviz.md){ .stretched-link }
-</div>
-
 </div>
 
 ## Aujourd'hui
 
 - [ ] Vue.js : pourquoi un cadriciel
-- [ ] Le composant, construit en direct : vous codez avec moi, dans un bac à sable
-- [ ] Dans votre projet : vos chapitres d'abord, puis le composant Vue
+- [ ] Les principes de Vue : un tour des pages-sujets
+- [ ] Exercice : Tableau NBA
+- [ ] Exercice : Collection de films
+- [ ] Dans votre projet : vos chapitres, pour le prototype de vendredi
 
 ## 1. :simple-vuedotjs:  Vue.js : pourquoi un cadriciel?
 
-Votre récit a besoin d'un **navigateur de chapitres** ou d'une **barre de progression** : des éléments qui changent **à chaque défilement**. En JavaScript seul, il faudrait ajouter et retirer des classes à la main, à chaque fois.
+Un navigateur de chapitres se fait aussi en JavaScript seul. Vue est là pour deux raisons :
 
-Avec Vue, on change **une donnée**, et la page suit. C'est la **réactivité**.
+- **c'est comme ça que le web se construit** : la plupart des interfaces professionnelles utilisent un cadriciel (React, Vue, Svelte), et Vue est la porte d'entrée la plus douce;
+- **ça change votre façon de coder** : au lieu de dire **comment** changer la page, étape par étape, vous décrivez **à quoi** elle doit ressembler selon vos données. Vue s'occupe du reste.
 
 [:simple-vuedotjs: Pourquoi Vue, ici?](projets/recit-defilant/composant-vue.md#pourquoi){ .md-button }
 
-## 2. :material-code-braces:  Le composant, construit en direct
+## 2. :material-book-open-variant:  Les principes de Vue { #principes }
 
-On le construit ensemble, pièce par pièce. **Vous codez avec moi**, dans un bac à sable : un petit dossier à part, **hors de votre dépôt**.
+Avant de construire, un tour des idées de Vue. Chaque principe a sa page-sujet, avec des exemples à modifier : relisez-les après le cours, à votre rythme.
 
-**Le bac à sable**, à créer avant de commencer :
+!!! info "Une seule façon d'écrire Vue dans ce cours : l'Options API"
+    Dans la documentation, vous croiserez aussi la Composition API. Choisissez **Options** dans le sélecteur *Préférence d'API*, en haut à gauche de la [documentation de Vue](https://fr.vuejs.org/guide/introduction.html){ :target="_blank" }.
 
-1. Un dossier `bac-a-sable-vue/`, ouvert dans VS Code.
-2. Un fichier `index.html`, avec ce départ :
+    [:simple-vuedotjs: Intro à Vue.js](vue/index.md){ .md-button }
 
-```html
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Bac à sable Vue</title>
-  <style>
-    .chapitre { min-height: 100vh; padding: 2rem; }
-  </style>
-</head>
-<body>
-  <div id="navigation"></div>
+**1. L'app** : `createApp()` crée l'app, et `mount()` la branche sur **une zone** du HTML. Vue contrôle cette zone, rien d'autre.
 
-  <main>
-    <section class="chapitre" id="la-foret"><h2>La forêt</h2></section>
-    <section class="chapitre" id="la-maison"><h2>La maison</h2></section>
-    <section class="chapitre" id="le-loup"><h2>Le loup</h2></section>
-    <section class="chapitre" id="la-fin"><h2>La fin</h2></section>
-  </main>
+[:simple-vuedotjs: Création d'une app](vue/creation-app.md){ .md-button }
 
-  <script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.js">
-  </script>
-  <script type="module" src="js/main.js"></script>
-</body>
-</html>
-```
+**2. Les données et l'interpolation** : `data()` contient ce qui peut changer, et `{{ }}` l'affiche. Quand la donnée change, le texte change : c'est la **réactivité**.
 
-3. Deux fichiers vides : `js/main.js` et `js/navigation.js`.
-4. Ouvert avec **Live Server**.
+[:simple-vuedotjs: Interpolation](vue/interpolation.md){ .md-button }
 
-!!! tip "Pourquoi `vue.global.js`, sans `.prod`?"
-    Dans le bac à sable, on prend la version de **développement** : ses messages d'erreur dans la console sont beaucoup plus clairs. Dans votre projet, prenez la version `.prod`, plus légère.
+**3. Les directives** : des attributs spéciaux dans le HTML. `v-for` répète un élément, `v-if` l'affiche ou non, `:class` ajoute une classe selon une condition.
 
-**Les pièces, dans l'ordre :**
+[:simple-vuedotjs: Boucle `v-for`](vue/boucle.md){ .md-button }
+[:simple-vuedotjs: Conditions `v-if`](vue/condition.md){ .md-button }
+[:simple-vuedotjs: Classe dynamique](vue/classe-dynamique.md){ .md-button }
 
-- [ ] `createApp()` et `mount()` : Vue prend le contrôle de `#navigation`
-- [ ] `data()` et `{{ }}` : la réactivité
-- [ ] `v-for` : la liste des chapitres
-- [ ] `:class` : le chapitre actif
-- [ ] `@click` et une méthode : aller au chapitre
-- [ ] `mounted()` : écouter le défilement
-- [ ] `computed` : le titre du chapitre actif
-- [ ] Options API et Composition API : reconnaître l'autre façon
+**4. Les méthodes et les événements** : `@click` appelle une **méthode**, une action du composant.
 
-[:simple-vuedotjs: Le composant Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
+[:simple-vuedotjs: Méthodes et événements](vue/methodes-evenements.md){ .md-button }
 
-## 3. :material-account-multiple-outline:  Dans votre projet
+**5. La propriété calculée** : une valeur **déduite** des données, recalculée seulement quand elles changent.
+
+[:simple-vuedotjs: Propriété calculée](vue/propriete-calculee.md){ .md-button }
+
+## 3. :material-pencil-ruler:  Pratiquer : deux exercices { #exercices }
+
+Seul, dans Classroom 50 : le lien d'acceptation est au début de chaque exercice. Gardez les pages-sujets de la section 2 ouvertes à côté.
+
+**1. Tableau NBA** (environ 40 min) : `data()`, `{{ }}`, `@click` et les méthodes, puis une propriété calculée.
+
+[:simple-vuedotjs: Exercice : Tableau NBA](exercices/ex-vue-nba/index.md){ .md-button .md-button--primary }
+
+**2. Collection de films** (environ 50 min) : la classe dynamique `:class`, puis la boucle `v-for`. C'est le cœur de votre navigateur de chapitres : un élément actif dans une liste.
+
+[:simple-vuedotjs: Exercice : Collection de films](exercices/ex-vue-films/index.md){ .md-button .md-button--primary }
+
+Vous finissez tôt? Les défis de chaque exercice, puis vos chapitres.
+
+## 4. :material-account-multiple-outline:  Dans votre projet
 
 **D'abord vos chapitres** : le prototype de vendredi porte sur eux, pas sur Vue.
 
 [:material-file-tree: *Phase 1*{ .w5-phase .w5-phase-1 } : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
 
-**Ensuite, la personne responsable du composant Vue** (voir votre matrice de responsabilités) l'intègre d'ici la **bêta** (ven. 20 nov.) :
-
-1. Sur sa branche, crée `js/navigation.js` à partir du bac à sable.
-2. Ajoute la zone `#navigation` et la balise de Vue dans `index.html` : c'est un fichier **commun**, prévenez votre coéquipier ou coéquipière.
-3. Branche le composant dans `main.js`, avec la liste des chapitres lue dans le HTML (*phase 1*{ .w5-phase .w5-phase-1 }).
-4. *Pull request* dès qu'il s'affiche, même sans style.
-
-[:simple-vuedotjs: Brancher le composant à la *phase 1*{ .w5-phase .w5-phase-1 }](projets/recit-defilant/composant-vue.md#brancher-phase-1){ .md-button }
+**Le composant Vue**, on le construit ensemble vendredi, en direct : la personne responsable l'intégrera ensuite, d'ici la bêta.
 
 ## Devoirs
 
@@ -132,6 +118,12 @@ On le construit ensemble, pièce par pièce. **Vous codez avec moi**, dans un ba
   <img src="assets/IA-restreinte.png">
   <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
 </div>
+
+### D'ici le ven. 13 nov. : l'exercice Cheese Kanye says
+
+Votre premier `fetch()` vers une **API externe**, lancé par une méthode Vue. Vendredi, on part de là pour votre moment dataviz.
+
+[:simple-vuedotjs: Exercice : Cheese Kanye says](exercices/ex-vue-kanye/index.md){ .md-button .md-button--primary }
 
 ### D'ici le ven. 13 nov. : le prototype (formatif), en *phase 1*{ .w5-phase .w5-phase-1 }
 

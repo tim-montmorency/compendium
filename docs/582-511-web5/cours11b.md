@@ -11,6 +11,16 @@
 <div class="grid" markdown>
 
 <div class="card" markdown>
+:simple-vuedotjs: __Le composant Vue__
+
+---
+
+Navigateur de chapitres et barre de progression, construit ensemble, en direct.
+
+[:octicons-arrow-right-24: La référence](projets/recit-defilant/composant-vue.md){ .stretched-link }
+</div>
+
+<div class="card" markdown>
 :material-api: __Choisir et tester votre API__
 
 ---
@@ -30,27 +40,81 @@ Une démo de 60 secondes, sur votre poste. Je passe d'équipe en équipe.
 [:octicons-arrow-right-24: Ce que je dois voir](projets/recit-defilant/index.md#prototype){ .stretched-link }
 </div>
 
-<div class="card" markdown>
-:material-swap-horizontal: __La *phase 2*{ .w5-phase .w5-phase-2 }__
-
----
-
-Du 13 au 20 nov. : vos chapitres construits depuis `data.json`.
-
-[:octicons-arrow-right-24: Les étapes](projets/recit-defilant/json-chapitres.md){ .stretched-link }
-</div>
-
 </div>
 
 ## Aujourd'hui
 
+- [ ] Le composant Vue, construit en direct : vous codez avec moi, dans un bac à sable
 - [ ] Le *fetch* externe : choisir et tester votre API
 - [ ] Prototype : votre démo de 60 secondes, pendant que je passe d'équipe en équipe
-- [ ] Dans votre projet : l'API, et le début de la *phase 2*{ .w5-phase .w5-phase-2 }
+- [ ] Dans votre projet : le composant Vue, l'API, et le début de la *phase 2*{ .w5-phase .w5-phase-2 }
 
-## 1. :material-api:  Le *fetch* externe : choisir et tester votre API
+## 1. :material-code-braces:  Le composant Vue, construit en direct { #composant }
 
-Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est **le même `fetch()`**, avec une adresse sur un autre site. Ce qui est nouveau :
+Mercredi, vous avez vu les principes et pratiqué avec deux exercices. Aujourd'hui, on assemble le tout : le composant de votre récit, pièce par pièce. **Vous codez avec moi**, dans un bac à sable : un petit dossier à part, **hors de votre dépôt**.
+
+**Le bac à sable**, à créer avant de commencer :
+
+1. Un dossier `bac-a-sable-vue/`, ouvert dans VS Code.
+2. Un fichier `index.html`, avec ce départ :
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Bac à sable Vue</title>
+  <style>
+    .chapitre { min-height: 100vh; padding: 2rem; }
+    [v-cloak] { display: none; }
+    .actif { font-weight: 700; color: #FF2B47; }
+    .chapitres-nav { position: fixed; top: 40%; right: 1rem; }
+    .progression {
+      position: fixed; inset: 0 0 auto 0; height: 4px;
+      background: #FF2B47; transform-origin: left;
+    }
+  </style>
+</head>
+<body>
+  <div id="navigation"></div>
+
+  <main>
+    <section class="chapitre" id="la-foret"><h2>La forêt</h2></section>
+    <section class="chapitre" id="la-maison"><h2>La maison</h2></section>
+    <section class="chapitre" id="le-loup"><h2>Le loup</h2></section>
+    <section class="chapitre" id="la-fin"><h2>La fin</h2></section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.js">
+  </script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
+```
+
+3. Deux fichiers vides : `js/main.js` et `js/navigation.js`.
+4. Ouvert avec **Live Server**.
+
+!!! tip "Pourquoi `vue.global.js`, sans `.prod`?"
+    Dans le bac à sable, on prend la version de **développement** : ses messages d'erreur dans la console sont beaucoup plus clairs. Dans votre projet, prenez la version `.prod`, plus légère.
+
+**Les pièces, dans l'ordre :**
+
+- [ ] `main.js` : la liste des chapitres, lue dans le HTML
+- [ ] `createApp()` et `mount()` : Vue prend le contrôle de `#navigation`
+- [ ] `data()` et `{{ }}` : la réactivité
+- [ ] `v-for` : la liste des chapitres
+- [ ] `:class` : le chapitre actif
+- [ ] `@click` et une méthode : aller au chapitre
+- [ ] `mounted()` : écouter le défilement
+- [ ] `computed` : le titre du chapitre actif
+- [ ] Options API et Composition API : reconnaître l'autre façon
+
+[:simple-vuedotjs: Le composant Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
+
+## 2. :material-api:  Le *fetch* externe : choisir et tester votre API
+
+Vous l'avez fait avec **Cheese Kanye says** : un `fetch()` vers une API externe, c'est le même `fetch()` que pour `data.json`, avec une adresse sur un autre site. Pour votre moment dataviz, ce qui reste :
 
 - **choisir** une API : sans clé, CORS, du JSON, et votre donnée;
 - **lire** sa réponse : tester l'adresse dans le navigateur, trouver le chemin vers votre valeur;
@@ -67,7 +131,7 @@ Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interro
 
     **L'autre personne** fait la même chose avec une API de la [liste de la démo](projets/recit-defilant/dataviz.md#demo) : tout le monde doit savoir lire une réponse d'API.
 
-## 2. :material-play-box-outline:  Le prototype
+## 3. :material-play-box-outline:  Le prototype
 
 Pendant le travail en équipe, je passe vous voir. **Préparez votre démo** : Live Server ouvert, la console ouverte, la page en haut du récit.
 
@@ -75,7 +139,16 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 [:material-play-box-outline: Le prototype : ce que je dois voir](projets/recit-defilant/index.md#prototype){ .md-button }
 
-## 3. :material-account-multiple-outline:  Dans votre projet
+## 4. :material-account-multiple-outline:  Dans votre projet
+
+**La personne responsable du composant Vue** (voir votre matrice de responsabilités) l'intègre d'ici la **bêta** (ven. 20 nov.) :
+
+1. Sur sa branche, crée `js/navigation.js` à partir du bac à sable.
+2. Ajoute la zone `#navigation` et la balise de Vue dans `index.html` : c'est un fichier **commun**, prévenez votre coéquipier ou coéquipière.
+3. Branche le composant dans `main.js`, avec la liste des chapitres lue dans le HTML (*phase 1*{ .w5-phase .w5-phase-1 }).
+4. *Pull request* dès qu'il s'affiche, même sans style.
+
+[:simple-vuedotjs: Brancher le composant à la *phase 1*{ .w5-phase .w5-phase-1 }](projets/recit-defilant/composant-vue.md#brancher-phase-1){ .md-button }
 
 **La personne responsable de la dataviz** : l'API choisie, testée et documentée dans le cahier de charges (étape 7).
 

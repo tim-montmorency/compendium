@@ -11,15 +11,33 @@
 
 ## Pourquoi Vue, ici? { #pourquoi }
 
-Imaginez le navigateur de chapitres en JavaScript seul. À chaque défilement, il faudrait :
+Soyons honnêtes : un navigateur de chapitres se fait aussi en JavaScript seul. Vue n'est pas là parce qu'il est indispensable pour ce composant, mais pour deux raisons.
 
-- trouver le lien du chapitre actif et lui ajouter la classe `actif`;
-- retirer cette classe de tous les autres liens;
-- mettre à jour le titre affiché, la largeur de la barre...
+**1. C'est comme ça que le web se construit aujourd'hui.** React, Vue, Svelte, Angular : la plupart des interfaces professionnelles utilisent un cadriciel, et ils reposent tous sur la même idée. Vue est la porte d'entrée la plus douce : rien à installer, et une écriture proche des classes JS que vous connaissez. Votre composant, c'est un terrain d'entraînement petit et sans risque.
 
-Chaque élément de la page à garder à jour, c'est une ligne de code de plus, et un oubli possible.
+**2. Cette idée change votre façon de coder.** En JavaScript seul, vous dites **comment** changer la page, étape par étape. Avec Vue, vous décrivez **à quoi** la page doit ressembler selon vos données, et Vue s'occupe du comment.
 
-Avec Vue, on garde **une seule donnée** : le numéro du chapitre actif. Le HTML **décrit** ce qui dépend de cette donnée (« ce lien a la classe `actif` si c'est le chapitre actif »). Quand la donnée change, Vue met lui-même la page à jour. C'est la **réactivité**.
+En JavaScript seul, à chaque changement de chapitre :
+
+```js
+function setActive(index) {
+  links.forEach((link) => link.classList.remove("actif"));
+  links[index].classList.add("actif");
+  links[index].setAttribute("aria-current", "step");
+  title.textContent = chapters[index].titre;
+}
+```
+
+Voyez-vous l'oubli? `aria-current` n'est jamais retiré des anciens liens. Après trois chapitres, trois liens se disent « actuels ». C'est le piège du code qui dit *comment* : chaque chose qu'on ajoute, il faut aussi penser à l'enlever.
+
+Avec Vue, on décrit l'état une fois, dans le HTML :
+
+```html
+<a :class="{ actif: index === activeIndex }"
+   :aria-current="index === activeIndex ? 'step' : null">
+```
+
+Et pour changer de chapitre, une seule ligne : `this.activeIndex = index`. Le jour où vous ajoutez un 4e élément qui dépend du chapitre actif, comme une couleur de fond ou un compteur, c'est une ligne de plus dans le HTML. Rien d'autre à retoucher. C'est la **réactivité**.
 
 !!! info "Vue, c'est un cadriciel (*framework*)"
     Anime.js et GSAP vous donnent des **fonctions** à appeler. Vue, lui, vous donne une **façon d'organiser** votre code : vous remplissez des cases (`data`, `methods`...), et Vue s'occupe du reste. C'est ce qui le rend si rapide à lire, une fois qu'on connaît les cases.
