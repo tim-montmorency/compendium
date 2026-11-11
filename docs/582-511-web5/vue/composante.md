@@ -72,7 +72,7 @@ Par exemple:
 <counter></counter>
 ```
 
-<p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="mdvKMNm" data-pen-title="Vue.js Composante" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="400" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="mdvKMNm" data-pen-title="Vue.js Composante" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdvKMNm">
   Vue.js Composante</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -91,7 +91,7 @@ Par exemple:
 
 Une composante peut-être réutilisée aussi souvent que désiré.
 
-<p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="QWYxqYX" data-pen-title="Vue.js Composante - réutilisation" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="400" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="QWYxqYX" data-pen-title="Vue.js Composante - réutilisation" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/QWYxqYX">
   Vue.js Composante - réutilisation</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -151,7 +151,7 @@ Pour lui passer une donnée, il suffit ensuite d'ajouter un attribut avec la val
 
 
 
-<p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="RwvJLOJ" data-pen-title="Vue.js Composante - props" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="400" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="RwvJLOJ" data-pen-title="Vue.js Composante - props" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/RwvJLOJ">
   Vue.js Composante - props</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -186,7 +186,7 @@ Par exemple:
 ```
 
 
-<p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="OJdExYr" data-pen-title="Vue.js Composante - boucle" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="400" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="OJdExYr" data-pen-title="Vue.js Composante - boucle" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJdExYr">
   Vue.js Composante - boucle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -197,7 +197,7 @@ Par exemple:
 
 Voici un autre exemple avec une composante de 2 props: *pletter* et *pcolor*.
 
-<p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="JjxwowM" data-pen-title="Vue.js Composante avec 2 props - boucle" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="400" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="JjxwowM" data-pen-title="Vue.js Composante avec 2 props - boucle" data-user="tim-momo" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjxwowM">
   Vue.js Composante avec 2 props - boucle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

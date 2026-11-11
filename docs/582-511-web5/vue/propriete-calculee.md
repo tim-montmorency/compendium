@@ -60,7 +60,7 @@ Ainsi, si l'une de ces données vient à changer, comme le montant `amount`, le 
 
 Dans l'exemple ci-dessous, modifiez le montant de base en CAD afin de voir le montant en USD être recalculé automatiquement.
 
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="qBgKjVK" data-pen-title="Vue propriété calculé - Convertisseur de devise" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="qBgKjVK" data-pen-title="Vue propriété calculé - Convertisseur de devise" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/qBgKjVK">
   Vue propriété calculé - Convertisseur de devise</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -73,7 +73,7 @@ Dans l'exemple ci-dessous, modifiez le montant de base en CAD afin de voir le mo
 
 Autre exemple de propriété calculée avec notre fameux acteur Timothée Chalamet. Entrez un nom de film dans lequel il a interprété un rôle et vous verrez le titre se mettre à jour. C'est grâce à la propriété calculée nommée `titleActor`.
 
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="KwdLGpX" data-pen-title="DEMO VueJS | v-if" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="KwdLGpX" data-pen-title="DEMO VueJS | v-if" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/KwdLGpX">
   DEMO VueJS | v-if</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

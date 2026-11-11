@@ -8,7 +8,7 @@ Répondre à toutes les questions des quatre premières sections: *Get started*,
 ![Get started, Directives, Methods, Computed](../vue/assets/vue-quiz-w3chool-4sections.png)
 
 !!! warning "Modificateurs d'événements: event.preventDefault()"
-    Lee sujets des questions 10 et 11 de la rubrique *Vue Directives*: sujet non couverts en classe. Vous pouvez vous aider avec le bouton *Show answer* pour ces 2 questions là. Pour plus d'info sur le sujet, voir [PreventDefault()](https://developer.mozilla.org/fr/docs/Web/API/Event/preventDefault) et [Modificateur d'événements de la documentation Vue.js](https://vuejs.org/guide/essentials/event-handling#event-modifiers).
+    Lee sujets des questions 10 et 11 de la rubrique *Vue Directives*: sujet non couverts en classe. Vous pouvez vous aider avec le bouton *Show answer* pour ces 2 questions là. Pour plus d'info sur le sujet, voir [PreventDefault()](https://developer.mozilla.org/fr/docs/Web/API/Event/preventDefault) et [Modificateur d'événements de la documentation Vue.js](https://fr.vuejs.org/guide/essentials/event-handling#event-modifiers).
 
     <img src="../vue/assets/questionnaire-w3school-directive-q10-q11.png" style="max-width: 100px;" alt="Exercice 10 et 11 de la rubrine Directives">
 

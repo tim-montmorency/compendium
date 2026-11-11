@@ -69,13 +69,13 @@ Pour ce faire, il est possible&nbsp;:
 
 !!! tip "Quoi utiliser pour le moment?"
 
-    En début de session, nous allons commencer avec l'<a target="_blank" rel="noopener noreferrer" href="https://vuejs.org/guide/quick-start.html#using-vue-from-cdn">utilisation du CDN (<em>Content Delivery Network</em>)</a> plutôt que le NPM. Nous reviendrons sur la méthode NPM un peu plus tard.
+    En début de session, nous allons commencer avec l'<a target="_blank" rel="noopener noreferrer" href="https://fr.vuejs.org/guide/quick-start.html#using-vue-from-cdn">utilisation du CDN (<em>Content Delivery Network</em>)</a> plutôt que le NPM. Nous reviendrons sur la méthode NPM un peu plus tard.
 
 ### Installer Vue avec CDN
 
-[Suivre ce lien](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn) pour récupérer la balise `<script>` à copier et à ajouter à votre page HTML. Collez-le dans le `<head>` *AVANT* le fichier *script.js* dans lequel vous allez créer votre instance Vue et coder par la suite.
+[Suivre ce lien](https://fr.vuejs.org/guide/quick-start.html#using-vue-from-cdn) pour récupérer la balise `<script>` à copier et à ajouter à votre page HTML. Collez-le dans le `<head>` *AVANT* le fichier *script.js* dans lequel vous allez créer votre instance Vue et coder par la suite.
 
-Attention, il faut que ces script [soient chargés en différé](https://vuejs.org/guide/quick-start.html#using-vue-from-cdn), c'est à dire après que tout le HTML soit chargé mais en ordre l'un après l'autre.
+Attention, il faut que ces script [soient chargés en différé](https://fr.vuejs.org/guide/quick-start.html#using-vue-from-cdn), c'est à dire après que tout le HTML soit chargé mais en ordre l'un après l'autre.
 
 ```
 <script src="..." defer></script>

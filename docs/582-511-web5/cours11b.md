@@ -1,6 +1,8 @@
 # Cours 11.2
 <!-- ven. 13 nov. -->
 
+![](assets/cours11b-banniere.webp){.w-100}
+
 <div class="class-content-link">
   <img src="assets/IA-restreinte.png">
   <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>

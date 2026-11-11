@@ -95,4 +95,4 @@ Dans `data/chapitres.json`, chaque chapitre a les mêmes clés communes (`id`, `
 
 Texte librement adapté de *Le Petit Chaperon rouge*, de Charles Perrault (1697), domaine public.
 
-Librairies : [GSAP](https://gsap.com/) 3.13, ScrollTrigger et DrawSVG, [Vue.js](https://vuejs.org/) (par CDN). Police : Poppins (Google Fonts).
+Librairies : [GSAP](https://gsap.com/) 3.13, ScrollTrigger et DrawSVG, [Vue.js](https://fr.vuejs.org/) (par CDN). Police : Poppins (Google Fonts).

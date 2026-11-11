@@ -34,7 +34,7 @@ Par exemple, la donnée `msg` change de valeur en fonction du changement de valu
 <br><br>
 Dans l'exemple ci-dessous, modifier la valeur du le champ texte mettra à jour le titre automatiquement. Il n’est pas nécessaire d’utiliser une méthode ou une fonction.
 
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="vYbpNBN" data-pen-title="Vue | v-model champ texte" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="vYbpNBN" data-pen-title="Vue | v-model champ texte" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/vYbpNBN">
   Vue | v-model champ texte</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -57,7 +57,7 @@ Les cases à cocher `<input type="checkbox">` synchronisent l’attribut `checke
 <h1>Afficher le meme: {{ msg }}</h1>
 ```
 
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="GRzyOaO" data-pen-title="Vue | v-model boite à cocher" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="GRzyOaO" data-pen-title="Vue | v-model boite à cocher" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/GRzyOaO">
   Vue | v-model boite à cocher</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -84,7 +84,7 @@ Les boutons radio `<input type="radio">` synchronisent l’attribut `value` du b
 ```
 
 <br><br>
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="JjxZJor" data-pen-title="Vue | v-model boutons radio" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="JjxZJor" data-pen-title="Vue | v-model boutons radio" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JjxZJor">
   Vue | v-model boutons radio</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -108,7 +108,7 @@ Les listes déroulantes `<select>` synchronisent l’attribut `value` de l'optio
 <h1>{{ msg }}</h1>
 ```
 
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="OJdEgmK" data-pen-title="Vue | v-model select" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="OJdEgmK" data-pen-title="Vue | v-model select" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/OJdEgmK">
   Vue | v-model select</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

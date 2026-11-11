@@ -46,7 +46,7 @@ Pour appeler une méthode, on peut simplement utiliser l'interpolation `{{ showA
 
 Ceci sans `{{ showActor() }}` :
 
-<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="html,result" data-slug-hash="azvradL" data-pen-title="DEMO VueJS | Méthodes" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="azvradL" data-pen-title="DEMO VueJS | Méthodes" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/azvradL">
   DEMO VueJS | Méthodes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -54,7 +54,7 @@ Ceci sans `{{ showActor() }}` :
 
 deviendrait, cela, avec `{{ showActor() }}` :
 
-<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="html,result" data-slug-hash="raOgZxy" data-pen-title="DEMO VueJS | Méthodes" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="300" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="raOgZxy" data-pen-title="DEMO VueJS | Méthodes" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/raOgZxy">
   DEMO VueJS | Méthodes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -83,7 +83,7 @@ Salut {{ firstName }}
 </div>
 ```
 
-<p class="codepen" data-height="520" data-theme-id="light" data-default-tab="html,result" data-slug-hash="mdaNxGW" data-pen-title="DEMO VueJS | Méthodes" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="520" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="mdaNxGW" data-pen-title="DEMO VueJS | Méthodes" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdaNxGW">
   DEMO VueJS | Méthodes</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -101,7 +101,7 @@ Il est aussi possible de passer des paramètres à la méthode. Il faut alors mo
 
 Par exemple, nous pourrions envoyer les informatiosn de l'acteur Johnny Depp qui a incarné Willy Wonka en 2005.
 
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="JoYqaEp" data-pen-title="DEMO VueJS | Méthodes | Johnny" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="JoYqaEp" data-pen-title="DEMO VueJS | Méthodes | Johnny" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/JoYqaEp">
   DEMO VueJS | Méthodes | Johnny</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

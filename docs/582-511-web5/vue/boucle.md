@@ -24,7 +24,7 @@ Ici, `role` est l’objet courant de la boucle.
 Si l’on veut accéder à une propriété de cet objet (comme `picture`, `firstName`, `lastName`), on les préfixe avec `role`:
 `role.picture`, `role.firstName`, `role.lastName`
 
-<p class="codepen" data-height="600" data-theme-id="light" data-default-tab="html,result" data-slug-hash="abPeGqp" data-pen-title="DEMO VueJS | boucle" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="600" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="abPeGqp" data-pen-title="DEMO VueJS | boucle" data-user="tim-momo" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/abPeGqp">
   DEMO VueJS | boucle</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -45,7 +45,7 @@ Par exemple:
 ```
 <br>
 
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="GRPVGPg" data-pen-title="DEMO VueJS | boucle index" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="GRPVGPg" data-pen-title="DEMO VueJS | boucle index" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/GRPVGPg">
   DEMO VueJS | boucle index</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -60,7 +60,7 @@ Lorsque cet événement déclenche une méthode, on peut lui fournir comme param
 
 Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange()` en lui passant comme paramètre l'objet courant de la boucle, soit `role`. Rappelez-vous, `role` est le nom temporaire qu'on a choisi lorsqu'on défini la boucle `v-for` quelques lignes plus haut:
 
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="oNJKyOO" data-pen-title="DEMO VueJS | boucle index" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="oNJKyOO" data-pen-title="DEMO VueJS | boucle index" data-user="tim-momo" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNJKyOO">
   DEMO VueJS | boucle index</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -109,7 +109,7 @@ Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange(
 
 <p>Analysons ensemble cet exemple de brassage de carte réalisé par le développeur Torontois <a href="https://codepen.io/itslit" target="_blank" rel="noopener noreferrer">Hassan Dj (@itslit</a>)</p>
 
-<p class="codepen" data-height="1000" data-theme-id="light" data-default-tab="html,result" data-slug-hash="gOVNoby" data-pen-title="Vue Transitions - Shuffle Deck of Cards" data-user="tim-momo" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="1000" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="gOVNoby" data-pen-title="Vue Transitions - Shuffle Deck of Cards" data-user="tim-momo" style="height: 1000px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/gOVNoby">
   Vue Transitions - Shuffle Deck of Cards</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

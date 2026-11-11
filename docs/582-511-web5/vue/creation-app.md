@@ -6,7 +6,7 @@
 
     Les deux styles d'API sont tout à fait capables de couvrir les cas d'utilisation courants. Il s'agit d'interfaces différentes alimentées par le même système sous-jacent. En fait, l'*Options API* est mise en œuvre au-dessus de la *Composition API*&nbsp;! Les concepts fondamentaux sont partagés entre les deux styles et ils sont équivalents.
     
-    Dans le cadre de ce cours, nous utiliserons le style *Options API*. [Plus d'info ici](https://vuejs.org/guide/introduction.html#api-styles).
+    Dans le cadre de ce cours, nous utiliserons le style *Options API*. [Plus d'info ici](https://fr.vuejs.org/guide/introduction.html#api-styles).
 
 ## Création d'une app
 
@@ -46,7 +46,7 @@ const vm = app.mount('#app');
 
 .
 
-[Plus d'info sur <code>createApp()</code>](https://v3.vuejs.org/guide/instance.html#creating-an-application-instance){ .md-button :target="_blank" }
+[Plus d'info sur <code>createApp()</code>](https://fr.vuejs.org/guide/essentials/application.html#creating-an-application-instance){ .md-button :target="_blank" }
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 

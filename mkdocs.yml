@@ -298,6 +298,7 @@ nav:
             - "Arborescence des fichiers": 582-511-web5/projets/recit-defilant/arborescence-recit-defilant.md
             - Du JSON aux chapitres: 582-511-web5/projets/recit-defilant/json-chapitres.md
             - "Exemple: chapitre avec ++ médias en timeline": 582-511-web5/projets/recit-defilant/exemple-chapitre-complexe.md
+            - "Le composant Vue": 582-511-web5/projets/recit-defilant/composant-vue.md
         - Portfolio: 
           - Portfolio consignes sommaires: 582-511-web5/projets/portfolio/index.md
           - Portfolio consignes complètes: 582-511-web5/projets/portfolio/index-textuel.md
@@ -364,6 +365,15 @@ nav:
           - "MorphSVG : changer de forme": 582-511-web5/js/gsap-morphsvg.md
           - "Flip : changer de mise en page": 582-511-web5/js/gsap-flip.md
           - "ScrollTo : défiler vers": 582-511-web5/js/gsap-scrollto.md
+      - "Vue.js":
+        - "Intro à Vue.js": 582-511-web5/vue/index.md
+        - "Création d'une app": 582-511-web5/vue/creation-app.md
+        - "Interpolation": 582-511-web5/vue/interpolation.md
+        - "Boucle v-for": 582-511-web5/vue/boucle.md
+        - "Classe dynamique": 582-511-web5/vue/classe-dynamique.md
+        - "Méthodes et événements": 582-511-web5/vue/methodes-evenements.md
+        - "Propriété calculée": 582-511-web5/vue/propriete-calculee.md
+        - "Conditions v-if et v-show": 582-511-web5/vue/condition.md
       - Exercices:
           - "Conflit Git (en duo)": 582-511-web5/exercices/ex-conflit-git/index.md
           - "Spritesheet: monstre qui marche": 582-511-web5/exercices/ex-spritesheet/index.md
@@ -372,6 +382,7 @@ nav:
           - GSAP Zombi: 582-511-web5/exercices/ex-gsap-zombi/index.md
           - GSAP Magie: 582-511-web5/exercices/ex-gsap-magie/index.md
           - GSAP Magie au défilement: 582-511-web5/exercices/ex-gsap-magie-defilement/index.md
+      - Cours 11.1: 582-511-web5/cours11a.md
       - Cours 10.2: 582-511-web5/cours10b.md
       - Cours 10.1: 582-511-web5/cours10a.md
       - Cours 9.2: 582-511-web5/cours09b.md 

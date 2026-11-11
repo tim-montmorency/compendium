@@ -67,7 +67,7 @@ Web 5 est le cours **intégrateur** de votre 5e session : il rassemble ce que vo
 
 ## Plan de cours 📄🎓
 
-[:material-file-document-outline: Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDTYB5eNYuIT7NKFELpmV9gAT0c5x58pU_X_G5hhFsUTxE?e=mW4Xc8){ .md-button .md-button--primary }
+[:material-file-document-outline: Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDXooJrgWRgQ6S6RuZzfUw8Abkl4V6Htlw8goZR3lUx69E?e=qyXjzC){ .md-button .md-button--primary }
 
 ## Le travail assisté par IA 🤖
 

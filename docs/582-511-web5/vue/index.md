@@ -64,16 +64,16 @@ Comme pour toute librairie, afin d'avoir accès à ses fonctionnalités, il est 
 
 Pour ce faire, il est possible&nbsp;:
 
-- d'<a target="_blank" rel="noopener noreferrer" href="https://vuejs.org/guide/quick-start.html#using-vue-from-cdn">utiliser un **CDN** (<em>Content Delivery Network</em>)</a> 
+- d'<a target="_blank" rel="noopener noreferrer" href="https://fr.vuejs.org/guide/quick-start.html#using-vue-from-cdn">utiliser un **CDN** (<em>Content Delivery Network</em>)</a> 
 - d'utiliser le gestionnaire de paquets JavaScript **NPM** [pour ajouter le paquet Vue.js](https://tim-montmorency.com/timdoc/582-518MO/javascript/npm/#installation-de-npm).
 
 !!! tip "Quoi utiliser pour le moment?"
 
-    En début de session, nous allons commencer avec l'<a target="_blank" rel="noopener noreferrer" href="https://vuejs.org/guide/quick-start.html#using-vue-from-cdn">utilisation du CDN (<em>Content Delivery Network</em>)</a> plutôt que le NPM. Nous reviendrons sur la méthode NPM un peu plus tard.
+    En début de session, nous allons commencer avec l'<a target="_blank" rel="noopener noreferrer" href="https://fr.vuejs.org/guide/quick-start.html#using-vue-from-cdn">utilisation du CDN (<em>Content Delivery Network</em>)</a> plutôt que le NPM. Nous reviendrons sur la méthode NPM un peu plus tard.
 
 ### Installer Vue avec CDN
 
-<a target="_blank" rel="noopener noreferrer" href="https://vuejs.org/guide/quick-start.html#using-vue-from-cdn">Suivre ce lien</a> pour récupérer la balise <code>script</code> à copier et à ajouter à votre page HTML. Collez-le en bas, juste avant la fermeture de la balise <code>body</code> mais AVANT le fichier **script.js** dans lequel vous allez créer votre instance Vue et coder par la suite.
+<a target="_blank" rel="noopener noreferrer" href="https://fr.vuejs.org/guide/quick-start.html#using-vue-from-cdn">Suivre ce lien</a> pour récupérer la balise <code>script</code> à copier et à ajouter à votre page HTML. Collez-le en bas, juste avant la fermeture de la balise <code>body</code> mais AVANT le fichier **script.js** dans lequel vous allez créer votre instance Vue et coder par la suite.
 
 ### Installer Vue avec la commande NPM
 

@@ -79,7 +79,7 @@ Affichera en fait:
 <br><br>
 <p>Voici une petite démo d'un minuteur automatique.</p>
 
-<p class="codepen" data-height="600" data-theme-id="light" data-default-tab="html,result" data-slug-hash="bGXJeOp" data-pen-title="DEMO Vue.js: Données moustache et minuteur setInterval" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="600" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="bGXJeOp" data-pen-title="DEMO Vue.js: Données moustache et minuteur setInterval" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/bGXJeOp">
   DEMO Vue.js: Données moustache et minuteur setInterval</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -123,7 +123,7 @@ Par exemple, pour inscrire le prénom et le nom dans le `alt` d'une image:
 
 .
 
-<p class="codepen" data-height="360" data-theme-id="light" data-default-tab="html,result" data-slug-hash="oNJKqxv" data-pen-title="DEMO VueJS | Données" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="360" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="oNJKqxv" data-pen-title="DEMO VueJS | Données" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/oNJKqxv">
   DEMO VueJS | Données</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

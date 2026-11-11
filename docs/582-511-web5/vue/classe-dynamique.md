@@ -56,7 +56,7 @@ Autre exemple, pour ajouter la classe `.orange` lorsque la donnée `isOrange` es
 
 <small>Veuillez inspecter à la fois le HMTL et le JS dans le CodePen pour mieux comprendre la dynamique.</small>
 
-<p class="codepen" data-height="500" data-theme-id="light" data-default-tab="html,result" data-slug-hash="mdaNLbB" data-pen-title="DEMO VueJS | Classe (css) dynamique" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-theme-id="50210" data-default-tab="html,result" data-slug-hash="mdaNLbB" data-pen-title="DEMO VueJS | Classe (css) dynamique" data-user="tim-momo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/tim-momo/pen/mdaNLbB">
   DEMO VueJS | Classe (css) dynamique</a> by TIM Montmorency (<a href="https://codepen.io/tim-momo">@tim-momo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
