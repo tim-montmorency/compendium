@@ -138,4 +138,3 @@ Avec le mouvement réduit, le chemin est affiché au complet, tout de suite.
 
 - [DrawSVGPlugin : la documentation](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/){ :target="_blank" }
 - [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ :target="_blank" }
-
