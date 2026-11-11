@@ -21,20 +21,17 @@ En JavaScript seul, à chaque changement de chapitre :
 
 ```js
 function setActive(index) {
-  links.forEach((link) => link.classList.remove("actif"));
   links[index].classList.add("actif");
-  links[index].setAttribute("aria-current", "step");
   title.textContent = chapters[index].titre;
 }
 ```
 
-Voyez-vous l'oubli? `aria-current` n'est jamais retiré des anciens liens. Après trois chapitres, trois liens se disent « actuels ». C'est le piège du code qui dit *comment* : chaque chose qu'on ajoute, il faut aussi penser à l'enlever.
+Voyez-vous l'oubli? La classe `actif` n'est jamais retirée des anciens liens. Après trois chapitres, trois liens sont en rouge. C'est le piège du code qui dit *comment* : chaque chose qu'on ajoute, il faut aussi penser à l'enlever.
 
 Avec Vue, on décrit l'état une fois, dans le HTML :
 
 ```html
-<a :class="{ actif: index === activeIndex }"
-   :aria-current="index === activeIndex ? 'step' : null">
+<a :class="{ actif: index === activeIndex }">
 ```
 
 Et pour changer de chapitre, une seule ligne : `this.activeIndex = index`. Le jour où vous ajoutez un 4e élément qui dépend du chapitre actif, comme une couleur de fond ou un compteur, c'est une ligne de plus dans le HTML. Rien d'autre à retoucher. C'est la **réactivité**.

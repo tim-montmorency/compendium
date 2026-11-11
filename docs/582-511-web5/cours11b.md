@@ -114,7 +114,7 @@ Mercredi, vous avez vu les principes et pratiqué avec deux exercices. Aujourd'h
 
 ## 2. :material-api:  Le *fetch* externe : choisir et tester votre API
 
-Vous l'avez fait avec **Cheese Kanye says** : un `fetch()` vers une API externe, c'est le même `fetch()` que pour `data.json`, avec une adresse sur un autre site. Pour votre moment dataviz, ce qui reste :
+Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est **le même `fetch()`**, avec une adresse sur un autre site. Ce qui est nouveau :
 
 - **choisir** une API : sans clé, CORS, du JSON, et votre donnée;
 - **lire** sa réponse : tester l'adresse dans le navigateur, trouver le chemin vers votre valeur;

@@ -88,7 +88,6 @@ Autre exemple de propriété calculée avec notre fameux acteur Timothée Chalam
 
 ## Exercice
 
-Lien à venir
-<!--[🤼 Luchador](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-luchador/){ .md-button } -->
+[🧑🏽‍💻 Tableau NBA (partie D : la propriété calculée)](../exercices/ex-vue-nba/index.md){ .md-button }
 
 

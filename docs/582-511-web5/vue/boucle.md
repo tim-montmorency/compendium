@@ -118,10 +118,7 @@ Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange(
 
 ## Exercices
 
-Lien à venir
-<!-- 
-[🧑🏽‍💻 Côte ouest VS côte est](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-ouest-vs-est/){ .md-button } 
--->
+[🧑🏽‍💻 Collection de films (partie C : `v-for`)](../exercices/ex-vue-films/index.md){ .md-button }
 
 
 <script async src="https://public.codepenassets.com/embed/index.js"></script>

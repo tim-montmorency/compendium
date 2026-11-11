@@ -98,7 +98,14 @@ Seul, dans Classroom 50 : le lien d'acceptation est au début de chaque exercice
 !!! warning "Auto-validez chaque exercice avant de le remettre"
     Chaque exercice se termine par une liste **Vérifiez votre travail**. Avant votre dernier *push*, testez votre page avec cette liste : chaque énoncé doit être vrai.
 
-    Vos exercices GSAP, à remettre aujourd'hui, aussi : [Zombi](exercices/ex-gsap-zombi/index.md#verifier), [Magie](exercices/ex-gsap-magie/index.md#verifier) et [la magie au défilement](exercices/ex-gsap-magie-defilement/index.md#verifier).
+!!! tip "Corrigez vos exercices passés"
+    Avec la grille **Vérifiez votre travail** de chaque énoncé, puis *push*, chacun dans son dépôt Classroom 50 :
+
+    - [Exercice : le monstre responsive](exercices/ex-spritesheet/index.md#verifier);
+    - [Exercice : la parallaxe en calques](exercices/ex-parallaxe/index.md#verifier);
+    - [Exercice : Zombi](exercices/ex-gsap-zombi/index.md#verifier);
+    - [Exercice : Magie](exercices/ex-gsap-magie/index.md#verifier);
+    - [Exercice : la magie au défilement](exercices/ex-gsap-magie-defilement/index.md#verifier).
 
 **1. Tableau NBA** (environ 40 min) : `data()`, `{{ }}`, `@click` et les méthodes, puis une propriété calculée.
 
@@ -108,7 +115,7 @@ Seul, dans Classroom 50 : le lien d'acceptation est au début de chaque exercice
 
 [:simple-vuedotjs: Exercice : Collection de films](exercices/ex-vue-films/index.md){ .md-button .md-button--primary }
 
-Vous finissez tôt? Les défis de chaque exercice, puis vos chapitres.
+Vous finissez tôt? Les défis de chaque exercice, puis vos chapitres. Et pour aller plus loin, facultatif : [Cheese Kanye says](exercices/ex-vue-kanye/index.md), un premier `fetch()` vers une API externe, lancé par une méthode Vue.
 
 ## 4. :material-account-multiple-outline:  Dans votre projet
 
@@ -124,12 +131,6 @@ Vous finissez tôt? Les défis de chaque exercice, puis vos chapitres.
   <img src="assets/IA-restreinte.png">
   <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
 </div>
-
-### D'ici le ven. 13 nov. : l'exercice Cheese Kanye says
-
-Votre premier `fetch()` vers une **API externe**, lancé par une méthode Vue. Vendredi, on part de là pour votre moment dataviz.
-
-[:simple-vuedotjs: Exercice : Cheese Kanye says](exercices/ex-vue-kanye/index.md){ .md-button .md-button--primary }
 
 ### D'ici le ven. 13 nov. : le prototype (formatif), en *phase 1*{ .w5-phase .w5-phase-1 }
 

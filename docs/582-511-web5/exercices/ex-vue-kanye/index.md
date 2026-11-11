@@ -10,7 +10,7 @@
 
 1. Un bouton qui affiche une citation de Kanye West, **reçue d'une API externe** : votre premier `fetch()` vers un autre site, lancé par une méthode Vue.
 2. Notions : une méthode `async`, `fetch()` et `await`, une donnée mise à jour par la réponse, la gestion de la panne avec `try` / `catch`, puis `mounted()`.
-3. **Seul, environ 45 minutes.** C'est la préparation du cours du vendredi 13 novembre : votre moment dataviz utilisera la même recette. Gardez [Récap JS : `async` / `await`](../../js/recap-js.md#async) ouvert à côté.
+3. **Facultatif, seul, environ 45 minutes.** Votre moment dataviz utilisera la même recette : c'est une bonne pratique avant de brancher votre propre API. Gardez [Récap JS : `async` / `await`](../../js/recap-js.md#async) ouvert à côté.
 
 </div>
 

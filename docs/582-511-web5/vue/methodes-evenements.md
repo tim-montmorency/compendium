@@ -159,7 +159,7 @@ COMPLET https://codepen.io/tim-momo/pen/qBezxBw
 ## Exercices
 
 
-[🧑🏽‍💻 Tableau NBA](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/){ .md-button }
+[🧑🏽‍💻 Tableau NBA](../exercices/ex-vue-nba/index.md){ .md-button }
 
 <br>
 

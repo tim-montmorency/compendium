@@ -106,6 +106,6 @@ Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. C
 !!! warning "Pour remettre : un *push* sur `main`"
     Votre exercice est **remis** seulement quand vos *commits* sont **poussés** (*push*) sur la branche `main` de votre dépôt Classroom 50. Un *commit* qui reste sur votre poste, je ne le vois pas.
 
-[:simple-vuedotjs: L'exercice suivant : Cheese Kanye says](../ex-vue-kanye/index.md){ .md-button .md-button--primary }
+[:simple-vuedotjs: Pour aller plus loin (facultatif) : Cheese Kanye says](../ex-vue-kanye/index.md){ .md-button }
 
 <small>Exercice adapté de l'exercice « Collection de films » (parties 1 et 2) du cours Programmation interactive (582-518), TIM Montmorency.</small>
