@@ -36,7 +36,7 @@ Pour voir des applications réelles faites avec Vue :
 
 - [3D Print Gen4Math](https://kai-gski.github.io/index.html) : on tape une équation, on règle l'épaisseur et les supports, et l'app génère un fichier à imprimer en 3D. Chaque réglage met à jour l'aperçu et le temps d'impression estimé : c'est la réactivité.
 - [Une table de données interactive : Easy Data Table](https://hc200ok.github.io/vue3-easy-data-table-doc/) : un composant Vue 3 pour trier, filtrer et paginer un tableau.
-- [Une liste des personnages de Rick and Morty](https://vuejsexamples.com/a-vue-js-component-that-displays-a-list-of-rick-and-morty-characters/) : un composant qui charge et filtre des données, écrit en Options API.
+- [Les personnages de Rick and Morty](https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=resultat,js,html,css&modifiable=1) : une recherche et des filtres sur les données d'une API publique, en Options API. Ouvrez les onglets pour lire le code, et modifiez-le.
 - [Made with Vue.js](https://madewithvuejs.com/) : une vitrine de sites et d'applications faits avec Vue.
 
 ## Vidéo: Vue.js en 2 minutes

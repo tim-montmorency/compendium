@@ -77,7 +77,7 @@ Mobile :
 
 - **Ce qui bouge** : l'élément, le type d'animation (tableau ci-dessous), et son départ → son arrivée.
 - **Déclencheur** : l'entrée dans l'écran, la progression du défilement, une section épinglée, un clic.
-- **Technique** : CSS au défilement, GSAP + ScrollTrigger ou IntersectionObserver.
+- **Technique** : CSS au défilement ou GSAP + ScrollTrigger.
 - **Mobile** : ce qui est différent sur mobile (la place du texte, une animation simplifiée ou retirée). Si rien ne change, écrivez « Comme desktop ».
 
 ### Nommer le « comment »
@@ -234,6 +234,9 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 !!! warning "Ajout de novembre : l'extension GSAP dans la matrice"
     Votre cahier est déjà remis? Ajoutez simplement, dans la **section 4** de votre `CAHIER-DE-CHARGES.md`, la ligne **Extension GSAP** : quelle extension, dans quel chapitre, et **qui** l'intègre. Voir [l'exigence](index.md#ce-qui-est-obligatoire).
 
+!!! info "Ajout de novembre : IntersectionObserver, un déclencheur"
+    IntersectionObserver n'est plus une technique d'**animation** exigée : il sert à **déclencher** une action une seule fois. Dans votre récit, c'est lui qui lance le `fetch()` de votre moment dataviz. Vous aviez prévu une animation avec IntersectionObserver dans un chapitre? Gardez-la, rien à refaire : elle ne compte simplement plus parmi les deux techniques exigées.
+
 !!! tip "la section 8 n'est pas à remplir pour le 23 oct."
     La section 8 n'est pas à remplir pour le 23 oct. vous choisirez vos technologies plus tard.
 
@@ -277,7 +280,7 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 | 7 | | | | | | |
 | 8 | | | | | | |
 
-Vérification : chaque technique (CSS au défilement, GSAP + ScrollTrigger, IntersectionObserver) apparaît au moins une fois.
+Vérification : les deux techniques (CSS au défilement, GSAP + ScrollTrigger) apparaissent au moins une fois.
 
 ## 4. La matrice de responsabilités
 
