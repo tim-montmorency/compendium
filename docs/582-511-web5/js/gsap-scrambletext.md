@@ -63,6 +63,12 @@ gsap.to(".titre", {
 | `speed` | La vitesse à laquelle les caractères brouillés changent. Par défaut : `1`. |
 | `tweenLength` | Par défaut, la longueur du texte change progressivement. Avec `false`, il a tout de suite sa longueur finale. |
 
+**Les options, en action** : au clic, le texte se brouille avec des lettres majuscules et minuscules (`chars: "upperAndLowerCase"`), et `revealDelay` le garde brouillé un quart de seconde avant de le révéler.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrambletextplugin&onglets=resultat,js,html,css&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:420px;border:0" loading="lazy"></iframe>
+
+<small>Fragment du cours Web 3 (582-311), TIM Montmorency, utilisé avec sa permission.</small>
+
 ## Dans votre récit { #dans-votre-recit }
 
 Le titre du chapitre qui se « décode » à l'arrivée :

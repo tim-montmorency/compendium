@@ -63,6 +63,12 @@ gsap.to(".narration", {
 
 <small>Démo CodePen : [TextPlugin : autre exemple](https://codepen.io/tim-momo/pen/ExJGjyZ){ :target="_blank" }</small>
 
+**Au clic** : le bouton vide le texte, puis TextPlugin l'écrit lettre par lettre, en 3 secondes, avec `ease: "none"` pour une vitesse constante.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-textplugin&onglets=resultat,js,html,css&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:420px;border:0" loading="lazy"></iframe>
+
+<small>Fragment du cours Web 3 (582-311), TIM Montmorency, utilisé avec sa permission.</small>
+
 ## Avec un objet : les options { #options }
 
 Pour régler le comportement, `text` reçoit un objet. Le texte de remplacement va alors dans `value`.

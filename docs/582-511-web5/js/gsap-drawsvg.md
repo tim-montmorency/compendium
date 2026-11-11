@@ -78,6 +78,12 @@ On peut aussi le faire en une seule ligne, avec `fromTo()` :
 
 <small>Démo CodePen : [DrawSVG : fromTo()](https://codepen.io/tim-momo/pen/XWxRGjK){ :target="_blank" }</small>
 
+**Au clic** : un dessin qui se trace avec `fromTo()`, de `drawSVG: "0%"` à `"100%"`. Remarquez `visibility: "visible"` au départ : le trait est caché dans le CSS tant que l'animation n'a pas commencé, pour éviter qu'il s'affiche une fraction de seconde au chargement.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-drawsvgplugin&onglets=resultat,js,html,css&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:480px;border:0" loading="lazy"></iframe>
+
+<small>Fragment du cours Web 3 (582-311), TIM Montmorency, utilisé avec sa permission.</small>
+
 ## Plusieurs traits : `stagger` { #stagger }
 
 Tous les tracés qui ont la classe `.dessine-moi` se dessinent l'un après l'autre, à 0,1 s d'intervalle :
@@ -121,6 +127,12 @@ export function animate(section, chapter) {
 ```
 
 Avec le mouvement réduit, le chemin est affiché au complet, tout de suite.
+
+**Le même dessin, au défilement** : avec `scrub`, c'est le défilement qui trace le trait. Défilez dans le cadre, puis remontez : le dessin s'efface. Les `markers` montrent où le tracé commence et finit.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-drawsvgplugin-scrolltrigger&onglets=resultat,js,html,css&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:560px;border:0" loading="lazy"></iframe>
+
+<small>Fragment du cours Web 3 (582-311), TIM Montmorency, utilisé avec sa permission.</small>
 
 ## Références
 

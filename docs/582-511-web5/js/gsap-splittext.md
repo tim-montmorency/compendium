@@ -61,6 +61,12 @@ gsap.from(titre.chars, {
 !!! info "Pourquoi `words, chars` et pas seulement `chars`?"
     Avec `chars` seul, un mot peut se couper en fin de ligne. En découpant aussi les mots, chaque mot reste d'un bloc.
 
+**Lettres, mots ou lignes** : le même texte, découpé une seule fois avec `type: "chars,words,lines"`. Chaque bouton anime un découpage différent : `split.chars`, `split.words` ou `split.lines`.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-splittext&onglets=resultat,js,html,css&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:520px;border:0" loading="lazy"></iframe>
+
+<small>Fragment du cours Web 3 (582-311), TIM Montmorency, utilisé avec sa permission.</small>
+
 ## Les options utiles { #options }
 
 | Option | Ce qu'elle fait |
