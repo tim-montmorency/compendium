@@ -108,4 +108,3 @@ Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. C
 
 [:simple-vuedotjs: Pour aller plus loin (facultatif) : Cheese Kanye says](../ex-vue-kanye/index.md){ .md-button }
 
-<small>Exercice adapté de l'exercice « Collection de films » (parties 1 et 2) du cours Programmation interactive (582-518), TIM Montmorency.</small>

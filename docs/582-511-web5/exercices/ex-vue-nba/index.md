@@ -95,4 +95,3 @@ Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. C
 
 [:simple-vuedotjs: L'exercice suivant : Collection de films](../ex-vue-films/index.md){ .md-button .md-button--primary }
 
-<small>Exercice adapté de l'exercice du même nom du cours Programmation interactive (582-518), TIM Montmorency.</small>

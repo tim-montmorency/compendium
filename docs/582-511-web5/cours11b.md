@@ -107,8 +107,7 @@ Mercredi, vous avez vu les principes et pratiqué avec deux exercices. Aujourd'h
 - [ ] `:class` : le chapitre actif
 - [ ] `@click` et une méthode : aller au chapitre
 - [ ] `mounted()` : écouter le défilement
-- [ ] `computed` : le titre du chapitre actif
-- [ ] Options API et Composition API : reconnaître l'autre façon
+- [ ] Pour aller plus loin, si on a le temps : `computed`, le titre du chapitre actif
 
 [:simple-vuedotjs: Le composant Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
 

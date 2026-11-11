@@ -97,4 +97,4 @@ Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. C
 !!! warning "Pour remettre : un *push* sur `main`"
     Votre exercice est **remis** seulement quand vos *commits* sont **poussés** (*push*) sur la branche `main` de votre dépôt Classroom 50. Un *commit* qui reste sur votre poste, je ne le vois pas.
 
-<small>Exercice adapté de l'exercice du même nom du cours Programmation interactive (582-518), TIM Montmorency. Citations : [Kanye.rest](https://kanye.rest/){ :target="_blank" }.</small>
+<small>Citations : [Kanye.rest](https://kanye.rest/){ :target="_blank" }.</small>

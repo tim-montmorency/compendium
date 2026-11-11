@@ -4,7 +4,7 @@
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. Avec Vue, **on change une donnée, et la page suit**. Plus besoin d'ajouter ou de retirer des classes à la main : on décrit le HTML une fois, Vue le tient à jour.
-2. Votre composant tient dans **un seul fichier**, `js/navigation.js`, avec quatre parties : `data`, `computed`, `methods` et `mounted`.
+2. Votre composant tient dans **un seul fichier**, `js/navigation.js`, avec trois parties : `data`, `methods` et `mounted`.
 3. Il fonctionne aux deux phases : à la *phase 1*{ .w5-phase .w5-phase-1 }, la liste des chapitres est **lue dans le HTML**; à la *phase 2*{ .w5-phase .w5-phase-2 }, elle vient de **`data.json`**. Le composant, lui, ne change pas.
 
 </div>
@@ -25,6 +25,8 @@ function setActive(index) {
   title.textContent = chapters[index].titre;
 }
 ```
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-oubli-actif&onglets=js,html,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:520px;border:0" loading="lazy"></iframe>
 
 Voyez-vous l'oubli? La classe `actif` n'est jamais retirée des anciens liens. Après trois chapitres, trois liens sont en rouge. C'est le piège du code qui dit *comment* : chaque chose qu'on ajoute, il faut aussi penser à l'enlever.
 
@@ -64,7 +66,6 @@ Le composant vit dans une **zone** de `index.html`, ici `<div id="navigation">`.
 
   <!-- Le navigateur de chapitres -->
   <nav class="chapitres-nav" aria-label="Chapitres">
-    <p class="chapitres-nav__actuel">{{ activeTitle }}</p>
     <ol>
       <li v-for="(chapter, index) in chapters" :key="chapter.id">
         <a :href="'#' + chapter.id"
@@ -83,7 +84,7 @@ Ce HTML contient tout ce qu'il faut savoir de Vue pour votre composant :
 
 | Dans le HTML | Nom | Ce que ça fait |
 |---|---|---|
-| `{{ activeTitle }}` | Interpolation | Affiche la valeur d'une donnée. Quand elle change, le texte change. |
+| `{{ chapter.titre }}` | Interpolation | Affiche la valeur d'une donnée. Quand elle change, le texte change. |
 | `v-for="... in chapters"` | Directive `v-for` | Répète l'élément pour chaque chapitre du tableau. C'est le `forEach` de Vue, directement dans le HTML. |
 | `:key="chapter.id"` | Clé | Un identifiant unique par élément répété : Vue s'en sert pour s'y retrouver. |
 | `:class="{ actif: ... }"` | Classe dynamique | Ajoute la classe `actif` **si** la condition est vraie, et la retire sinon. |
@@ -102,7 +103,7 @@ Le CSS qui va avec `v-cloak`, dans `commun.css` :
 }
 ```
 
-## Le JavaScript : un fichier, quatre parties { #js }
+## Le JavaScript : un fichier, trois parties { #js }
 
 Le composant, au complet, dans `js/navigation.js` :
 
@@ -121,16 +122,7 @@ export function createNavigation(chapters) {
       };
     },
 
-    // 2. Les propriétés calculées : déduites des données
-    computed: {
-      activeTitle() {
-        const chapter = this.chapters[this.activeIndex];
-        return `${this.activeIndex + 1}/${this.chapters.length} · `
-          + chapter.titre;
-      },
-    },
-
-    // 3. Les méthodes : les actions
+    // 2. Les méthodes : les actions
     methods: {
       goTo(id) {
         const reduced = window.matchMedia(
@@ -158,7 +150,7 @@ export function createNavigation(chapters) {
       },
     },
 
-    // 4. Au démarrage du composant
+    // 3. Au démarrage du composant (à copier tel quel)
     mounted() {
       window.addEventListener("scroll", this.updateScroll, {
         passive: true,
@@ -169,37 +161,23 @@ export function createNavigation(chapters) {
 }
 ```
 
-### Les quatre parties, une à une { #quatre-parties }
+### Les trois parties, une à une { #quatre-parties }
 
 **`createApp({...}).mount("#navigation")`** crée le composant et le **branche** sur la zone `#navigation` du HTML. Le sélecteur fonctionne comme avec `querySelector`.
 
 **`data()`** retourne un objet : **les données qui peuvent changer**. Chaque fois que `activeIndex` ou `progress` change, Vue met à jour tout ce qui en dépend dans le HTML. Vous ne touchez jamais au DOM vous-même.
 
-**`computed`** : des valeurs **déduites** des données. `activeTitle` dépend de `activeIndex` : Vue la recalcule seulement quand `activeIndex` change. Dans le HTML, on l'utilise comme une donnée : `{{ activeTitle }}`, sans parenthèses.
-
 **`methods`** : les **actions**, appelées par un événement (`@click`) ou par votre code. Dans une méthode, `this.chapters`, `this.activeIndex` : ce sont les données de `data()`.
 
-**`mounted()`** s'exécute **une fois**, quand le composant est branché sur la page. C'est le bon endroit pour écouter le défilement. On appelle aussi `updateScroll()` tout de suite, pour le cas où la page est déjà défilée au chargement.
+**`mounted()`** s'exécute **une fois**, quand le composant est branché sur la page. C'est le bon endroit pour écouter le défilement. On appelle aussi `updateScroll()` tout de suite, pour le cas où la page est déjà défilée au chargement. Ce bloc, vous pouvez le copier tel quel.
 
 !!! warning "`this` dans Vue : pas de fonction fléchée dans `methods`"
-    Dans `data`, `computed` et `methods`, `this` désigne **le composant**. Écrivez donc vos méthodes avec la forme courte `goTo(id) { ... }`, jamais `goTo: (id) => { ... }` : une [fonction fléchée](../../js/recap-js.md#fonctions-flechees) n'a pas son propre `this`, et `this.chapters` serait `undefined`.
+    Dans `data` et `methods`, `this` désigne **le composant**. Écrivez donc vos méthodes avec la forme courte `goTo(id) { ... }`, jamais `goTo: (id) => { ... }` : une [fonction fléchée](../../js/recap-js.md#fonctions-flechees) n'a pas son propre `this`, et `this.chapters` serait `undefined`.
 
     À l'intérieur d'une méthode, par contre, la fonction fléchée est la bonne : dans le `forEach` de `updateScroll()`, elle **garde** le `this` du composant.
 
 !!! info "Une classe JS, en plus guidé"
     Vous connaissez les classes JavaScript : des propriétés (`this.score`), des méthodes, un constructeur. Le composant Vue, c'est la même idée : `data()` pour les propriétés, `methods` pour les méthodes, `mounted()` pour le démarrage.
-
-## La propriété calculée : pourquoi pas une méthode? { #computed }
-
-On aurait pu écrire une méthode `getActiveTitle()` et l'appeler dans le HTML : `{{ getActiveTitle() }}`. Ça fonctionne aussi. La différence :
-
-| | Méthode | Propriété calculée |
-|---|---|---|
-| Recalculée | à **chaque** mise à jour de la page | **seulement** quand ses données changent |
-| Dans le HTML | `{{ getActiveTitle() }}` | `{{ activeTitle }}` |
-| Sert à | **faire** quelque chose (une action) | **obtenir** une valeur déduite |
-
-Règle simple : si ça **retourne une valeur** à afficher, c'est une propriété calculée. Si ça **fait** quelque chose, c'est une méthode.
 
 ## Brancher le composant dans `main.js` { #brancher }
 
@@ -274,39 +252,56 @@ Un point de départ, à mettre à votre image : votre palette, votre typographie
 
 La barre utilise `transform: scaleX()` plutôt que `width` : `transform` ne recalcule pas la mise en page, l'animation reste fluide.
 
+## Pour aller plus loin : une propriété calculée (facultatif) { #computed }
+
+Pour afficher le titre du chapitre actif, par exemple « 3/8 · Le loup », ajoutez une **propriété calculée** : une valeur **déduite** des données, que Vue recalcule seulement quand elles changent.
+
+```js
+    computed: {
+      activeTitle() {
+        const chapter = this.chapters[this.activeIndex];
+        return `${this.activeIndex + 1}/${this.chapters.length} · `
+          + chapter.titre;
+      },
+    },
+```
+
+```html
+<p class="chapitres-nav__actuel">{{ activeTitle }}</p>
+```
+
+Dans le HTML, on l'utilise comme une donnée, sans parenthèses. Voir [Propriété calculée](../../vue/propriete-calculee.md).
+
+
+
+Pourquoi pas une méthode? On aurait pu écrire une méthode `getActiveTitle()` et l'appeler dans le HTML : `{{ getActiveTitle() }}`. Ça fonctionne aussi. La différence :
+
+| | Méthode | Propriété calculée |
+|---|---|---|
+| Recalculée | à **chaque** mise à jour de la page | **seulement** quand ses données changent |
+| Dans le HTML | `{{ getActiveTitle() }}` | `{{ activeTitle }}` |
+| Sert à | **faire** quelque chose (une action) | **obtenir** une valeur déduite |
+
+Règle simple : si ça **retourne une valeur** à afficher, c'est une propriété calculée. Si ça **fait** quelque chose, c'est une méthode.
+
 ## Votre composant à vous { #votre-composant }
 
 Le composant imposé, c'est **le navigateur de chapitres ou la barre de progression**, au choix. La personne responsable est inscrite dans la matrice du cahier de charges.
 
 Prenez le code de cette page comme **départ**, puis faites-le vôtre :
 
-- **Navigateur seulement?** Retirez la barre et `progress`. **Barre seulement?** Une propriété calculée comme `percent` (« 38 % ») peut afficher la progression en texte.
+- **Navigateur seulement?** Retirez la barre et `progress`. **Barre seulement?** Retirez la liste, et gardez `progress`.
 - **Le style** : des points plutôt que des titres, des numéros de chapitre, une icône par chapitre (ajoutez une clé dans vos chapitres).
-- **Sur mobile** : le navigateur prend de la place. Affichez seulement `activeTitle`, et la liste au toucher (`v-if`, une donnée `isOpen`).
+- **Sur mobile** : le navigateur prend de la place. Affichez seulement le chapitre actif, et la liste au toucher (`v-if`, une donnée `isOpen`).
 
-Dans tous les cas, votre composant utilise **une donnée**, **une directive**, **une méthode** et **une propriété calculée** : c'est ce que vous devrez expliquer à la défense.
+Dans tous les cas, votre composant utilise **une donnée**, **une directive** (`v-for` ou `:class`) et **une méthode** : c'est ce que vous devrez expliquer à la défense.
 
 !!! tip "Avec ScrollTo, une extension GSAP"
     Dans `goTo()`, vous pouvez remplacer `scrollIntoView()` par [ScrollTo](../../js/gsap-scrollto.md) : il tient compte des sections épinglées, et la durée et l'*easing* se règlent. Chargez le plugin par CDN et enregistrez-le dans `main.js`.
 
 ## Options API et Composition API { #options-composition }
 
-Vue s'écrit de deux façons. Dans ce cours, on utilise **l'Options API** : des cases à remplir (`data`, `methods`...). Vous croiserez l'autre, la **Composition API**, dans la documentation et les tutoriels :
-
-```js
-// La même idée, en Composition API (pour reconnaître, pas à utiliser)
-const { createApp, ref, computed } = Vue;
-
-createApp({
-  setup() {
-    const activeIndex = ref(0);
-    const activeTitle = computed(() => `Chapitre ${activeIndex.value + 1}`);
-    return { activeIndex, activeTitle };
-  },
-}).mount("#navigation");
-```
-
-Les deux font exactement la même chose. Dans la [documentation de Vue](https://fr.vuejs.org/guide/introduction.html){ :target="_blank" }, choisissez **Options** dans le sélecteur *Préférence d'API*, en haut à gauche.
+Vue s'écrit de deux façons. Dans ce cours, on utilise **l'Options API** : des cases à remplir (`data`, `methods`...). Dans la [documentation de Vue](https://fr.vuejs.org/guide/introduction.html){ :target="_blank" }, choisissez **Options** dans le sélecteur *Préférence d'API*, en haut à gauche. Un tutoriel écrit avec `setup()` ou `ref()`? C'est la Composition API : cherchez-en un autre.
 
 ## Les erreurs fréquentes { #erreurs }
 
