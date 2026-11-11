@@ -352,6 +352,7 @@ nav:
             - Media queries avancées: 582-211-web2/css/mediaqueries-avance.md
       - JavaScript:
           - Recap JavaScript: 582-511-web5/js/recap-js.md
+          - "API, JSON et fetch": 582-511-web5/js/api-json-fetch.md
           - IntersectionObserver: 582-511-web5/js/intersection-observer.md
       - GSAP (librairie JavaScript):
         - Tweens et timelines: 582-511-web5/js/gsap-bases.md
