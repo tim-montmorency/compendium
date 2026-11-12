@@ -253,7 +253,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 <!-- MM : barème interne par remise : Absent 0, Bâclé 0,5, De bonne foi 2, Complet 3. -->
 
-## Calendrier
+## Calendrier { #calendrier }
 
 | Date | Étape |
 |---|---|
