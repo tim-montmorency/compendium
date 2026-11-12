@@ -65,6 +65,7 @@ Pour votre navigateur de chapitres, vous avez besoin de **4 notions**, pas plus.
 **1. Les données et l'interpolation** : `createApp()` crée l'app sur une zone du HTML, `data()` contient ce qui peut changer, et `{{ }}` l'affiche. Quand la donnée change, le texte change : c'est la **réactivité**.
 
 [:simple-vuedotjs: Création d'une app](vue/creation-app.md){ .md-button }
+
 [:simple-vuedotjs: Interpolation](vue/interpolation.md){ .md-button }
 
 **2. Les méthodes et le clic** : `@click` appelle une **méthode**, une action du composant.
@@ -125,6 +126,7 @@ Rien à déposer : une **démo de 60 secondes** de votre récit qui défile, sur
 - Le récit défile du premier au dernier chapitre, sans erreur dans la console.
 - Chaque chapitre a son texte et au moins un média, même provisoires.
 - Chaque personne : au moins une animation au défilement, et son travail fusionné dans `main`.
+- Chaque personne : son journal, les [5 questions](projets/recit-defilant/index.md#journal-de-bord-individuel) pour ce **bloc 3**, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure) qui les sépare des blocs précédents.
 
 [:material-play-box-outline: Le prototype : ce que je dois voir](projets/recit-defilant/index.md#prototype){ .md-button .md-button--primary }
 

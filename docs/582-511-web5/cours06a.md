@@ -61,6 +61,7 @@ Le même code, réparti dans 3 fichiers :
 Seules deux choses changent par rapport à l'exercice : l'adresse du `fetch()` (votre source) et la structure de la carte (votre design).
 
 [:material-database: Charger les données du portfolio](projets/portfolio/donnees/index.md){ .md-button }
+
 [:material-cards-outline: Afficher les projets](projets/portfolio/donnees/afficher-projets.md){ .md-button }
 
 ## Atelier supervisé
@@ -92,6 +93,7 @@ Je circule aussi. Un commit par étape terminée.
 Le CSS moderne peut faire avancer une animation avec le défilement plutôt qu'avec le temps, sans une ligne de JavaScript. Parfait pour faire apparaître vos cartes de projets.
 
 [:material-animation-play: Animations pilotées par le défilement](css/animations-scroll.md){ .md-button .md-button--primary }
+
 [:material-play-circle: Voir la démo](css/demo-animations-scroll.html){ .md-button :target="_blank" }
 
 !!! tip "Pour la bêta : optionnel"
@@ -102,6 +104,7 @@ Le CSS moderne peut faire avancer une animation avec le défilement plutôt qu'a
 La bêta se remet avec une branche `beta`, mise en ligne sur GitHub Pages. On fait les étapes ensemble, maintenant, pour régler les problèmes pendant que je suis là. Créez la branche `beta` **seulement quand votre bêta est terminée**, au plus tard vendredi avant le début du cours : elle doit contenir votre version finale.
 
 [:material-source-branch: Les branches Git, en 10 minutes](projets/portfolio/branches-git.md){ .md-button }
+
 [:material-github: Déployer son portfolio sur GitHub Pages](projets/portfolio/deploiement-github-pages.md){ .md-button .md-button--primary }
 
 Avant de partir : l'adresse de votre site fonctionne, et elle est inscrite dans votre `README.md`.

@@ -441,4 +441,5 @@ Vos animations, elles, **ne changent pas** : `animate(section)` reçoit la même
 Même principe pour le squelette de `data.json` : un objet par chapitre, avec les clés communes et un `"contenu": {}` vide. Et pour les fichiers : si chacun ajoutait ses objets, ses fichiers et ses `import` plus tard, vous modifieriez tous les deux les mêmes lignes de `style.css` et de `main.js`, et le conflit serait garanti.
 
 [:material-code-json: Du JSON aux chapitres : les étapes](json-chapitres.md){ .md-button .md-button--primary }
+
 [:material-account-multiple-outline: Git en équipe](git-en-equipe.md){ .md-button }

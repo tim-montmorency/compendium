@@ -12,6 +12,7 @@ Cochez chaque élément ci-dessous avant la remise. C'est cette version qui est 
 </div>
 
 [:material-file-document-outline: Consignes complètes du portfolio](index-textuel.md#remise-3-finale-portfolio-complet-et-presentation-devant-le-jury-gr-lora-8-oct-gr-enric-15-oct){ .md-button }
+
 [:material-presentation-play: Présentation devant le jury](presentation-jury.md){ .md-button }
 
 ## Le site

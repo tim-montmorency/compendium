@@ -20,6 +20,7 @@
     Votre chargement JSON fonctionne déjà? Gardez-le : vous êtes en avance.
 
 [:material-file-tree: Arborescence du dépôt](arborescence-recit-defilant.md){ .md-button }
+
 [:material-swap-horizontal: Passer du HTML statique au JSON](arborescence-recit-defilant.md#phase-2){ .md-button }
 
 ## Étape 0 : la structure commune (si ce n'est pas déjà fait)

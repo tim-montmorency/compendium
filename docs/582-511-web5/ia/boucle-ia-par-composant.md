@@ -25,5 +25,7 @@ Puis on recommence à « Exporter » pour le composant suivant.
 ## Pour aller plus loin
 
 [:material-swap-horizontal: Ce que vous voyez selon votre poste](modes-copilot-ancien-nouveau.md){ .md-button }
+
 [:material-github: Paramétrage complet de Copilot](parametrage-copilot.md){ .md-button }
+
 [:material-file-tree: Arborescence du dépôt](../projets/portfolio/arborescence-portfolio.md){ .md-button }

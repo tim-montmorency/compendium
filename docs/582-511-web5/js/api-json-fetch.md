@@ -9,7 +9,7 @@
 
 </div>
 
-## Dans le web morderne professionnel { #monde-pro }
+## Dans le web moderne professionnel { #monde-pro }
 
 Le web moderne professionnel tourne sur ces trois morceaux. C'est même ce qui a changé la façon de construire un site dynamique.
 

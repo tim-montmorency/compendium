@@ -139,7 +139,7 @@ Le code est commenté dans `js/dataviz.js`. Il suit toujours les mêmes 4 étape
 
 !!! tip "Pour explorer, si vous êtes curieux (facultatif)"
 
-    - [**Public APIs**](https://github.com/public-apis/public-apis){ :target="_blank" } : une grande liste d'API gratuites, classées par thème. Visez les colonnes **Auth : `No`** (sans clé) et **CORS : `Yes`** (utilisable depuis le navigateur).
+    - [**Public APIs**](https://github.com/public-apis/public-apis#index){ :target="_blank" } : une grande liste d'API gratuites, classées par thème. Visez les colonnes **Auth : `No`** (sans clé d'identification : ni `apiKey`, ni `OAuth`) et **CORS : `Yes`** (utilisable depuis le navigateur; `Unknown` est permis, mais testez avant de choisir). L'index des catégories est loin dans la page : [les liens directs par catégorie](#api-choisir).
     - [**Données Québec**](https://www.donneesquebec.ca/){ :target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ :target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
     - Quelques API sans clé, à tester le 13 nov. : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Art Institute of Chicago](https://api.artic.edu/docs/){ :target="_blank" } (œuvres d'art), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
 
@@ -153,12 +153,19 @@ Ce qui est nouveau, c'est seulement : **choisir** l'API, **lire** sa réponse, e
 
 Une bonne API pour votre récit coche ces 4 cases :
 
-- **sans clé** : pas d'inscription, pas de jeton (colonne **Auth : `No`** dans Public APIs);
-- **CORS : `Yes`** : utilisable depuis le navigateur. Sans CORS, le navigateur bloque la réponse;
+- **sans clé d'identification** : pas d'inscription, pas de jeton (*token*). Dans Public APIs, c'est la colonne **Auth** : visez `No`. Évitez `apiKey` (une clé à demander et à cacher) et `OAuth` (une connexion avec un compte);
+- **CORS : `Yes`** (ou `Unknown`) : utilisable depuis le navigateur. Sans CORS, le navigateur bloque la réponse. `Unknown` veut dire que personne ne l'a vérifié : l'API fonctionne peut-être. **Testez-la avant de la choisir** (étape 4) : si la console affiche *blocked by CORS policy*, choisissez-en une autre;
 - elle renvoie du **JSON**;
 - elle contient **votre donnée**, celle qui répond à la question de votre moment dataviz.
 
-Des pistes : la liste [Public APIs](https://github.com/public-apis/public-apis){ :target="_blank" }, et les API sans clé de l'encadré *Pour explorer*, [sous la démo](#demo).
+Des pistes : la liste [Public APIs](https://github.com/public-apis/public-apis#index){ :target="_blank" }, et les API sans clé de l'encadré *Pour explorer*, [sous la démo](#demo).
+
+!!! tip "Public APIs, par catégorie"
+    La liste est classée par thème, mais l'index des catégories est loin dans la page, après la présentation du projet. Allez-y directement :
+
+    [Animaux](https://github.com/public-apis/public-apis#animals){ :target="_blank" } · [Art et design](https://github.com/public-apis/public-apis#art--design){ :target="_blank" } · [Livres](https://github.com/public-apis/public-apis#books){ :target="_blank" } · [Environnement](https://github.com/public-apis/public-apis#environment){ :target="_blank" } · [Nourriture](https://github.com/public-apis/public-apis#food--drink){ :target="_blank" } · [Jeux et BD](https://github.com/public-apis/public-apis#games--comics){ :target="_blank" } · [Géolocalisation](https://github.com/public-apis/public-apis#geocoding){ :target="_blank" } · [Santé](https://github.com/public-apis/public-apis#health){ :target="_blank" } · [Musique](https://github.com/public-apis/public-apis#music){ :target="_blank" } · [Données ouvertes](https://github.com/public-apis/public-apis#open-data){ :target="_blank" } · [Sciences et maths](https://github.com/public-apis/public-apis#science--math){ :target="_blank" } · [Sports](https://github.com/public-apis/public-apis#sports--fitness){ :target="_blank" } · [Transport](https://github.com/public-apis/public-apis#transportation){ :target="_blank" } · [Météo](https://github.com/public-apis/public-apis#weather){ :target="_blank" }
+
+    Dans chaque catégorie, un tableau : regardez les colonnes **Auth** (`No`) et **CORS** (`Yes`, ou `Unknown` à tester).
 
 !!! tip "Pas d'API pour votre donnée?"
     Un jeu de données ouvert (Données Québec, Montréal, Statistique Canada) est souvent un fichier CSV à télécharger, pas une API. Vous pouvez le convertir en JSON et le mettre dans votre dépôt, comme au portfolio. Mais le `fetch()` vers une **API externe** reste exigé : ajoutez alors un petit élément « vivant » (la météo, l'heure du coucher du soleil) ailleurs dans le récit.

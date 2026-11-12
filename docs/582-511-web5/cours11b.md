@@ -52,7 +52,7 @@ Une démo de 60 secondes, sur votre poste. Je passe d'équipe en équipe.
 
 ## 1. :material-api:  API, JSON et fetch : pourquoi ils sont partout { #pourquoi-api }
 
-**Le web morderne tourne sur trois morceaux : les API (*Application Programming Interface*), le JSON et `fetch()`.** 
+**Le web moderne tourne sur trois morceaux : les API (*Application Programming Interface*), le JSON et `fetch()`.** 
 
 *Avant*, le serveur fabriquait chaque page avec sa base de données, et chaque clic chargeait une nouvelle page : une nouvelle adresse dans la barre du navigateur, et tout l'écran redessiné. 
 
@@ -137,7 +137,7 @@ Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de 
 
 Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est **le même `fetch()`**, avec une adresse sur un autre site. Ce qui est nouveau :
 
-- **choisir** une API : sans clé, CORS, du JSON, et votre donnée;
+- **choisir** une API : **sans clé d'identification** (dans les listes d'API, la colonne **Auth : `No`**, plutôt que `apiKey` ou `OAuth`), **CORS : `Yes`** (ou `Unknown`, à tester d'abord), du JSON, et votre donnée;
 - **lire** sa réponse : tester l'adresse dans le navigateur, trouver le chemin vers votre valeur;
 - **prévoir la panne** : des valeurs de secours, pour que le récit reste lisible.
 
@@ -176,6 +176,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 **Tout le monde** : la *phase 2*{ .w5-phase .w5-phase-2 } commence aujourd'hui. Vos chapitres passent du HTML statique à `data.json`, en suivant les étapes, ensemble puis chacun ses chapitres.
 
 [:material-swap-horizontal: *Phase 2*{ .w5-phase .w5-phase-2 } : les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md){ .md-button }
+
 [:simple-vuedotjs: Le composant Vue à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/composant-vue.md#brancher-phase-2){ .md-button }
 
 ## Devoirs
@@ -187,14 +188,18 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 ### D'ici le mer. 18 nov. (cours 12.1)
 
-- L'API documentée dans la section 6 du `CAHIER-DE-CHARGES.md`, *commit* `Cahier : ajoute l'API de la dataviz`.
-- La *phase 2*{ .w5-phase .w5-phase-2 } bien entamée : les étapes faites ensemble sont sur `main`.
+- L'API documentée dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)), *commit* `Cahier : ajoute l'API de la dataviz`.
+- La *phase 2*{ .w5-phase .w5-phase-2 } bien entamée : [les étapes faites ensemble](projets/recit-defilant/json-chapitres.md#ensemble) sont sur `main`.
 
 ### D'ici le ven. 20 nov. : la bêta, en *phase 2*{ .w5-phase .w5-phase-2 }
 
-- *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique** exigée, chapitres chargés depuis `data.json`.
+- *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique** exigée, chapitres chargés depuis `data.json` ([les instructions](projets/recit-defilant/json-chapitres.md)).
 - Médias finaux intégrés.
-- Le composant Vue en place.
-- Dataviz **fonctionnelle** : les données de l'API s'affichent. Elle sera soignée d'ici la remise finale.
+- Le composant Vue en place ([le brancher à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/composant-vue.md#brancher-phase-2)).
+- Dataviz **fonctionnelle** : les données de l'API s'affichent ([les 7 étapes](projets/recit-defilant/dataviz.md#api)). Elle sera soignée d'ici la remise finale.
+
+[:material-swap-horizontal: *Phase 2*{ .w5-phase .w5-phase-2 } : passer du HTML statique au JSON](projets/recit-defilant/arborescence-recit-defilant.md#phase-2){ .md-button }
+
+[:material-code-json: *Phase 2*{ .w5-phase .w5-phase-2 } : les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md){ .md-button }
 
 [Voir le calendrier](projets/recit-defilant/index.md#calendrier)
