@@ -113,6 +113,8 @@ project.gallery[0];     // "biome-1.jpg"
 project.teammate.name;    // "Bob"
 ```
 
+Une réponse d'API, beaucoup plus profonde? La méthode et un outil pour tester vos chemins : [Trouver une donnée dans un JSON complexe](api-json-fetch.md#chemin).
+
 Référence : [accesseurs de propriétés (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors){ :target="_blank" }
 
 ## 5. Tableaux
@@ -388,7 +390,7 @@ Avec `fetch()`, `response.json()` fait le `JSON.parse()` pour vous.
 
 | | Objet JavaScript | JSON |
 |---|---|---|
-| Nature | Du code | Du **texte** (un fichier, une réponse d'API) |
+| Nature | Du code | Du **texte** (un fichier, une réponse d'API (*Application Programming Interface*)) |
 | Clés | `title` ou `'title'` | Toujours `"title"`, guillemets doubles |
 | Textes | `'...'` ou `"..."` | Toujours `"..."` |
 | Virgule finale, commentaires | Permis | Interdits |

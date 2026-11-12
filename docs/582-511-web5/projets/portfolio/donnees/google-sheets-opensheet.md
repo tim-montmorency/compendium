@@ -4,7 +4,7 @@
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. Vos projets sont dans une feuille Google Sheets, une ligne par projet. Vous les modifiez dans le tableur, le site se met à jour sans toucher au code.
-2. [opensheet](https://github.com/benborgers/opensheet) est un petit service gratuit qui transforme une feuille partagée en JSON : une seule URL, aucune clé d'API, aucun jeton à cacher.
+2. [opensheet](https://github.com/benborgers/opensheet) est un petit service gratuit qui transforme une feuille partagée en JSON : une seule URL, aucune clé d'API (*Application Programming Interface*), aucun jeton à cacher.
 3. La réponse est déjà un tableau d'objets, presque identique à un `projects.json` local.
 
 </div>

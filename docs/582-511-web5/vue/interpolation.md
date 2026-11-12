@@ -185,6 +185,6 @@ Ce qui va générer ce résultat:
 
 ## Dans un exemple réel { #exemple-reel }
 
-Les personnages de Rick and Morty, chargés depuis une API publique. Dans l'onglet HTML, repérez l'interpolation `{{ character.name }}`, et les attributs liés `:src="character.image"` et `:alt="character.name"`.
+Les personnages de Rick and Morty, chargés depuis une API (*Application Programming Interface*) publique. Dans l'onglet HTML, repérez l'interpolation `{{ character.name }}`, et les attributs liés `:src="character.image"` et `:alt="character.name"`.
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=html,js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
