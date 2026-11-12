@@ -181,7 +181,9 @@ data                        l'objet reçu
     .temperature_2m_max     un tableau de 7 températures
 ```
 
-En code : `data.daily.temperature_2m_max`. Un tableau dans un tableau? `data.features[0].properties.mag`. Voir [Récap JS : les objets](../../js/recap-js.md#objets).
+En code : `data.daily.temperature_2m_max`. Un tableau d'objets? `data.features[0].properties.mag`.
+
+[:material-code-json: Trouver une donnée dans un JSON complexe : la méthode, et un outil pour tester vos chemins](../../js/api-json-fetch.md#chemin){ .md-button }
 
 !!! tip "Copier le chemin dans Chrome"
     Outils de développement, onglet **Réseau** (*Network*), filtre **Fetch/XHR**. Cliquez sur la requête, onglet **Aperçu** (*Preview*), puis clic droit sur la valeur : **Copier le chemin de la propriété**.

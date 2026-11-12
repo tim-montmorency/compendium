@@ -112,8 +112,13 @@ Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de 
 3. Deux fichiers vides : `js/main.js` et `js/navigation.js`.
 4. Ouvert avec **Live Server**.
 
-!!! tip "Pourquoi `vue.global.js`, sans `.prod`?"
-    Dans le bac à sable, on prend la version de **développement** : ses messages d'erreur dans la console sont beaucoup plus clairs. Dans votre projet, prenez la version `.prod`, plus légère.
+!!! tip "Deux versions de Vue : développement et production"
+    Vue existe en deux fichiers presque identiques :
+
+    - `vue.global.js`, la version de **développement** (environ 550 Ko) : ses messages d'erreur dans la console sont clairs. C'est celle du [guide de démarrage de Vue](https://fr.vuejs.org/guide/quick-start.html#using-vue-from-cdn){ :target="_blank" }, et celle du bac à sable;
+    - `vue.global.prod.js`, la version de **production** (environ 155 Ko) : trois fois plus légère, sans les messages. C'est celle de votre récit **une fois en ligne**.
+
+    Les deux sont présentées dans le [guide des fichiers de Vue](https://github.com/vuejs/core/tree/main/packages/vue#which-dist-file-to-use){ :target="_blank" } (en anglais). Développer avec une version, publier avec l'autre : c'est la pratique professionnelle.
 
 **Les pièces, dans l'ordre :**
 

@@ -43,16 +43,28 @@ Et pour changer de chapitre, une seule ligne : `this.activeIndex = index`. Le jo
 
 ## Installer Vue { #installer }
 
-Par CDN, comme GSAP, sans *build*. Dans `index.html`, **avant** `main.js` :
+Par CDN, comme GSAP, sans *build*. Dans `index.html`, **avant** `main.js`, la version de **développement** pendant que vous codez :
 
 ```html
-<!-- Vue : version exacte, sur jsDelivr -->
-<script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.prod.js">
+<!-- Vue, version de développement : messages d'erreur clairs -->
+<script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.js">
 </script>
 <script type="module" src="js/main.js"></script>
 ```
 
 `Vue` devient alors disponible partout, y compris dans vos modules, sans `import`.
+
+### Avant de publier : la version de production { #production }
+
+Quand votre récit est prêt à être mis en ligne, remplacez `vue.global.js` par `vue.global.prod.js` : la même version de Vue, trois fois plus légère (environ 155 Ko au lieu de 550 Ko), sans les messages de développement.
+
+```html
+<!-- Vue, version de production : plus légère, pour le site en ligne -->
+<script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.prod.js">
+</script>
+```
+
+C'est ce que recommande la documentation de Vue : [Déploiement en production : sans les outils de build](https://fr.vuejs.org/guide/best-practices/production-deployment.html#without-build-tools){ :target="_blank" }. Un bogue apparaît après le changement? Revenez un instant à `vue.global.js` : ses messages vous diront quoi corriger.
 
 ## Le HTML : la zone que Vue contrôle { #html }
 

@@ -113,6 +113,8 @@ project.gallery[0];     // "biome-1.jpg"
 project.teammate.name;    // "Bob"
 ```
 
+Une réponse d'API, beaucoup plus profonde? La méthode et un outil pour tester vos chemins : [Trouver une donnée dans un JSON complexe](api-json-fetch.md#chemin).
+
 Référence : [accesseurs de propriétés (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors){ :target="_blank" }
 
 ## 5. Tableaux

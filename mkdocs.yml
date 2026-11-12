@@ -385,7 +385,7 @@ nav:
           - "Vue: Tableau NBA": 582-511-web5/exercices/ex-vue-nba/index.md
           - "Vue: Collection de films": 582-511-web5/exercices/ex-vue-films/index.md
           - "Vue: Cheese Kanye says": 582-511-web5/exercices/ex-vue-kanye/index.md
-      - Cours 11.2: 582-511-web5/cours11b.md
+      #- Cours 11.2: 582-511-web5/cours11b.md
       - Cours 11.1: 582-511-web5/cours11a.md
       - Cours 10.2: 582-511-web5/cours10b.md
       - Cours 10.1: 582-511-web5/cours10a.md

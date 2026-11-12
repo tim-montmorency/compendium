@@ -117,6 +117,72 @@ Avant `fetch()`, on utilisait `XMLHttpRequest`, la technique qu'on appelait **AJ
 
 [:material-language-javascript: Récap JS : `async` / `await`](recap-js.md#async){ .md-button }
 
+## Trouver une donnée dans un JSON complexe { #chemin }
+
+La réponse d'une vraie API est rarement petite. Elle contient des objets dans des tableaux dans des objets, et votre donnée est quelque part au fond. Pour l'atteindre, il faut écrire son **chemin**.
+
+### La méthode : de l'extérieur vers l'intérieur { #chemin-methode }
+
+À chaque niveau, regardez le **symbole** qui ouvre la valeur :
+
+| Vous voyez... | C'est... | Vous écrivez... | Exemple |
+|---|---|---|---|
+| `{` | un **objet** | `.` et le nom de la clé | `data.sprites` |
+| `[` | un **tableau** | `[` et la position, à partir de 0 | `data.types[0]` |
+| une clé avec un tiret | un objet, mais... | des **crochets** et des guillemets | `data.sprites.other["official-artwork"]` |
+
+Avancez **une étape à la fois**, et vérifiez chaque étape avec `console.log()` avant d'aller plus loin. Un `undefined`? L'étape précédente est la dernière qui fonctionne : relisez la réponse à cet endroit.
+
+### Un exemple : la PokéAPI { #chemin-exemple }
+
+Ouvrez [pokeapi.co/api/v2/pokemon/pikachu](https://pokeapi.co/api/v2/pokemon/pikachu){ :target="_blank" } dans Firefox, qui affiche le JSON avec des triangles pour plier et déplier. La réponse est longue! Voici quatre chemins, du plus simple au plus difficile :
+
+```js
+data.name
+// "pikachu" : une clé, directement dans l'objet
+
+data.sprites.front_default
+// l'image : un objet (sprites), puis une clé
+
+data.types[0].type.name
+// "electric" : un tableau (types), sa 1re case, un objet, une clé
+
+data.sprites.other["official-artwork"].front_default
+// la grande image : la clé a un tiret, donc des crochets
+```
+
+!!! warning "Le piège du tiret"
+    `data.sprites.other.official-artwork` ne fonctionne pas : JavaScript lit le tiret comme une **soustraction** (`official` moins `artwork`). Dès qu'une clé contient un tiret ou une espace, on passe aux crochets : `["official-artwork"]`.
+
+### À vous : tester vos chemins { #chemin-fragment }
+
+Choisissez un Pokémon, écrivez un chemin, et regardez chaque étape : objet, tableau ou valeur. Quand le chemin est faux, le fragment vous dit pourquoi.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-json-chemin&onglets=resultat,js&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
+
+??? question "Défi : les points de vie (*hp*) de Pikachu"
+    Dans la réponse, cherchez `stats`. C'est un tableau d'objets : lequel contient `hp`, et où est la valeur?
+
+??? success "Réponse"
+    `data.stats[0].base_stat`. La 1re case du tableau `stats` est l'objet dont `stat.name` vaut `"hp"`, et sa valeur est dans `base_stat`.
+
+### Plusieurs valeurs : `map()` { #chemin-map }
+
+Pour **toutes** les capacités, pas seulement la première, on parcourt le tableau avec `map()`, et on écrit le chemin **à partir de chaque élément** :
+
+```js
+const abilities = data.abilities.map((item) => item.ability.name);
+// ["static", "lightning-rod"]
+```
+
+Voir [Récap JS : `map()`](recap-js.md#map-join).
+
+### Les outils { #chemin-outils }
+
+- **Firefox** affiche le JSON joliment : collez l'adresse de l'API dans la barre d'adresse.
+- **Chrome** : outils de développement, onglet **Réseau** (*Network*), cliquez sur la requête, onglet **Aperçu** (*Preview*), puis clic droit sur une valeur : **Copier le chemin de la propriété**.
+- **La console** : `console.log(data)`, puis `console.log(data.types)`, puis `console.log(data.types[0])`... une étape à la fois.
+
 ## Pourquoi ce trio change tout { #pourquoi }
 
 **1. Pas de nouvelle page.** Grâce à `fetch()`, une page va chercher de nouvelles données en arrière-plan, et les affiche sur place : pas de nouvelle adresse, pas d'écran qui se vide. Une messagerie qui affiche un nouveau courriel, un fil qui charge la suite quand on arrive en bas, une carte qui se met à jour quand on la déplace : c'est ce trio. Votre récit fait la même chose avec ses chapitres.
