@@ -6,7 +6,7 @@
 
 ## Objectif
 
-Votre objectif est d’afficher un gif dans le DOM en fonction d’une recherche de l’utilisateur. Vous devrez créer un compte Giphy et appeler leur point de terminaison API pour développeurs. Amusons-nous avec les appels d’API à Giphy !
+Votre objectif est d’afficher un gif dans le DOM en fonction d’une recherche de l’utilisateur. Vous devrez créer un compte Giphy et appeler leur point de terminaison API (*Application Programming Interface*) pour développeurs. Amusons-nous avec les appels d’API à Giphy !
 
 ## Mise en route
 

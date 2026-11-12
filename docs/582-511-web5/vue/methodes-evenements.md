@@ -158,7 +158,7 @@ COMPLET https://codepen.io/tim-momo/pen/qBezxBw
 
 ## Dans un exemple réel { #exemple-reel }
 
-Les personnages de Rick and Morty, chargés depuis une API publique. Dans l'onglet HTML, `@click="setStatus(option.value)"` appelle une méthode **avec un paramètre**, et `@submit.prevent="loadCharacters"` lance la recherche. Dans l'onglet JS, remarquez que `setStatus()` change une donnée, puis appelle une autre méthode, `loadCharacters()`.
+Les personnages de Rick and Morty, chargés depuis une API (*Application Programming Interface*) publique. Dans l'onglet HTML, `@click="setStatus(option.value)"` appelle une méthode **avec un paramètre**, et `@submit.prevent="loadCharacters"` lance la recherche. Dans l'onglet JS, remarquez que `setStatus()` change une donnée, puis appelle une autre méthode, `loadCharacters()`.
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=html,js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
 

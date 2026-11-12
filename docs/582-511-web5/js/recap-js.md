@@ -388,7 +388,7 @@ Avec `fetch()`, `response.json()` fait le `JSON.parse()` pour vous.
 
 | | Objet JavaScript | JSON |
 |---|---|---|
-| Nature | Du code | Du **texte** (un fichier, une réponse d'API) |
+| Nature | Du code | Du **texte** (un fichier, une réponse d'API (*Application Programming Interface*)) |
 | Clés | `title` ou `'title'` | Toujours `"title"`, guillemets doubles |
 | Textes | `'...'` ou `"..."` | Toujours `"..."` |
 | Virgule finale, commentaires | Permis | Interdits |

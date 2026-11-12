@@ -52,13 +52,17 @@ Une démo de 60 secondes, sur votre poste. Je passe d'équipe en équipe.
 
 ## 1. :material-api:  API, JSON et fetch : pourquoi ils sont partout { #pourquoi-api }
 
-**Est-ce vraiment utilisé en entreprise?** Oui, partout. Avant, le serveur fabriquait chaque page avec sa base de données, et chaque clic rechargeait tout. Aujourd'hui, le serveur expose une **API** qui envoie seulement les **données**, en **JSON**, et c'est le navigateur qui fabrique la page avec **`fetch()`**.
+**Le web morderne tourne sur trois morceaux : les API (*Application Programming Interface*), le JSON et `fetch()`.** 
 
-- **L'API**, la porte d'un service : la même API sert le site, l'application iOS et l'application Android;
+*Avant*, le serveur fabriquait chaque page avec sa base de données, et chaque clic chargeait une nouvelle page : une nouvelle adresse dans la barre du navigateur, et tout l'écran redessiné. 
+
+*Aujourd'hui*, le serveur envoie seulement les **données**, en **JSON**, et c'est le navigateur qui les place dans la page avec **`fetch()`** : l'adresse (URL) ne change pas, et seule une partie de l'écran se met à jour, dynamiquement, en temps réel, sans charger une nouvelle page.
+
+- **L'API**, la porte d'un service : la même API sert le site web, l'application iOS et l'application Android;
 - **le JSON**, la langue de ces données, que tous les langages comprennent;
-- **`fetch()`**, le messager du navigateur, qui va les chercher sans recharger la page.
+- **`fetch()`**, le messager du navigateur, qui va les chercher sans charger une nouvelle page.
 
-Vous l'avez déjà fait, comme en entreprise : vos projets de portfolio venaient d'Airtable ou de Google Sheets, par leur API.
+Vous avez déjà le geste : dans votre portfolio, `fetch()` chargeait vos projets depuis un fichier JSON. Interroger une API, c'est le même `fetch()`, avec une adresse sur un autre serveur. Ceux qui ont choisi Airtable l'ont déjà fait.
 
 [:material-api: API, JSON et fetch : le trio du web moderne](js/api-json-fetch.md){ .md-button .md-button--primary }
 

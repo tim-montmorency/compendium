@@ -3,29 +3,29 @@
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
-1. Une **API**, c'est la porte d'entrée d'un service : on lui envoie une requête, elle répond avec des **données**, pas avec une page.
+1. Une **API** (*Application Programming Interface*), c'est la porte d'entrée d'un service : on lui envoie une requête, elle répond avec des **données**, pas avec une page.
 2. Le **JSON**, c'est la langue de ces données : des paires clé-valeur, écrites comme un objet JavaScript, que tous les langages savent lire.
-3. **`fetch()`**, c'est le messager du navigateur : il va chercher ces données **sans recharger la page**. Ce trio n'est pas un outil d'école : c'est la façon dont le web professionnel est construit aujourd'hui.
+3. **`fetch()`**, c'est le messager du navigateur : il va chercher ces données **sans charger une nouvelle page**. Ce trio n'est pas un outil d'école : c'est la façon dont le web professionnel est construit aujourd'hui.
 
 </div>
 
-## Est-ce vraiment utilisé en entreprise? { #monde-pro }
+## Dans le web morderne professionnel { #monde-pro }
 
-Oui, partout. C'est même ce qui a changé la façon de construire un site dynamique.
+Le web moderne professionnel tourne sur ces trois morceaux. C'est même ce qui a changé la façon de construire un site dynamique.
 
 ### Avant : le serveur fabrique la page { #avant }
 
-Pendant longtemps, un site dynamique fonctionnait comme ceci : à chaque clic, le navigateur demande une **page complète** au serveur. Le serveur (souvent en PHP) interroge la base de données (souvent MySQL), **fabrique le HTML**, et renvoie la page au complet.
+Pendant longtemps, un site dynamique fonctionnait comme ceci : à chaque clic, le navigateur charge une **nouvelle page**. L'adresse change dans la barre du navigateur, l'écran se vide un instant, et tout est redessiné, même ce qui n'a pas changé (l'en-tête, le menu, le pied de page). C'est le serveur qui fabrique cette page complète. Le serveur (souvent en PHP) interroge la base de données (souvent MySQL), **fabrique le HTML**, et renvoie la page au complet.
 
 ```text
 Navigateur → serveur PHP → requête MySQL → page HTML complète → Navigateur
 ```
 
-Le contenu et la présentation sont mêlés : le serveur décide de tout, et chaque clic recharge la page.
+Le contenu et la présentation sont mêlés : le serveur décide de tout, et chaque clic charge une nouvelle page.
 
 ### Maintenant : le serveur envoie les données { #maintenant }
 
-Aujourd'hui, le serveur expose une **API**. Il ne fabrique plus la page : il envoie seulement les **données**, en **JSON**. C'est le **frontend** (votre JavaScript, Vue, React) qui les affiche, avec `fetch()`.
+Aujourd'hui, le serveur expose une **API**. Il ne fabrique plus la page : il envoie seulement les **données**, en **JSON**. C'est le **frontend** (votre JavaScript, Vue, React) qui les place dans la page, avec `fetch()`. L'adresse ne change pas, la page reste là : seule la partie concernée se met à jour, dynamiquement, en temps réel, sans charger une nouvelle page.
 
 ```text
 Navigateur (Vue, React...) → fetch() → API → base de données → JSON → Navigateur
@@ -39,7 +39,7 @@ Navigateur (Vue, React...) → fetch() → API → base de données → JSON →
 - **Une application et son site, une seule API** : une banque, un service de musique ou un réseau social a une application iOS, une application Android et un site web. Les trois utilisent **la même API**, et reçoivent le même JSON.
 - **Des services qu'on n'a pas à construire** : le paiement en ligne, les cartes, la météo, l'envoi de courriels ou la traduction sont offerts par des entreprises spécialisées, sous forme d'API. Un site les branche avec quelques requêtes.
 - **Les CMS « sans tête »** (*headless*) : WordPress, par exemple, a une API qui renvoie ses articles en JSON. Le site peut alors être construit avec n'importe quel outil frontend, pendant que le contenu reste géré dans WordPress.
-- **Les tableurs et les bases en ligne** : Airtable et Google Sheets, que vous avez utilisés pour votre portfolio, ont une API. Vous avez fait exactement ce que font les entreprises : un contenu géré ailleurs, affiché par votre code.
+- **Les tableurs et les bases en ligne** : Airtable et Google Sheets ont une API. Le contenu est géré dans un outil simple, et le site l'affiche avec `fetch()`. C'est ce qu'ont fait ceux qui ont choisi Airtable pour leur portfolio.
 
 ### Et les métiers? { #metiers }
 
@@ -51,7 +51,7 @@ Navigateur (Vue, React...) → fetch() → API → base de données → JSON →
 
 Ce trio, vous l'avez déjà mis en pratique, sans forcément le nommer :
 
-- **dans votre portfolio** : vos projets venaient d'un fichier JSON, de Google Sheets ou d'Airtable, chargés avec `fetch()`;
+- **dans votre portfolio** : vos projets venaient d'un fichier JSON, chargé avec `fetch()` (ou d'Airtable, par son API, pour quelques-uns);
 - **dans votre récit** : à la *phase 2*{ .w5-phase .w5-phase-2 }, vos chapitres viennent de `data.json`;
 - **dans votre moment dataviz** : les données viendront d'une **API externe**, sur le site de quelqu'un d'autre.
 
@@ -119,7 +119,7 @@ Avant `fetch()`, on utilisait `XMLHttpRequest`, la technique qu'on appelait **AJ
 
 ## Pourquoi ce trio change tout { #pourquoi }
 
-**1. Pas de rechargement.** Grâce à `fetch()`, une page va chercher de nouvelles données en arrière-plan, et les affiche sans se recharger. Une messagerie qui affiche un nouveau courriel, un fil qui charge la suite quand on arrive en bas, une carte qui se met à jour quand on la déplace : c'est ce trio. Votre récit fait la même chose avec ses chapitres.
+**1. Pas de nouvelle page.** Grâce à `fetch()`, une page va chercher de nouvelles données en arrière-plan, et les affiche sur place : pas de nouvelle adresse, pas d'écran qui se vide. Une messagerie qui affiche un nouveau courriel, un fil qui charge la suite quand on arrive en bas, une carte qui se met à jour quand on la déplace : c'est ce trio. Votre récit fait la même chose avec ses chapitres.
 
 **2. Un serveur, plusieurs clients.** Le serveur peut être écrit dans n'importe quel langage : il expose une API et renvoie du JSON. Le site web, l'application mobile et la montre connectée peuvent tous utiliser **la même API**.
 

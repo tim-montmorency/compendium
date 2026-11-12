@@ -210,7 +210,7 @@ Les clés communes, elles, sont lues par `main.js`, un fichier commun : si vous 
 
 ## Le moment dataviz
 
-Votre récit doit contenir au moins un moment où des **données réelles** apparaissent : un graphique, un chiffre qui bouge, un élément « vivant » (la météo du jour, l'heure du coucher du soleil, etc.). Ces données viendront d'une **API**, un service en ligne qui renvoie des données en JSON quand on lui envoie une requête avec `fetch()`.
+Votre récit doit contenir au moins un moment où des **données réelles** apparaissent : un graphique, un chiffre qui bouge, un élément « vivant » (la météo du jour, l'heure du coucher du soleil, etc.). Ces données viendront d'une **API** (*Application Programming Interface*), un service en ligne qui renvoie des données en JSON quand on lui envoie une requête avec `fetch()`.
 
 **Au cahier de charges, pas besoin de trouver l'API.** On apprend à interroger une API externe au cours du **ven. 13 nov.**, et c'est là que vous la choisirez et la testerez. Pour l'instant, décrivez seulement :
 
