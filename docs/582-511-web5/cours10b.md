@@ -44,18 +44,18 @@ Une scène épinglée, 5 calques, deux personnages : un exemple complet.
 
 ### *Phase 1*{ .w5-phase .w5-phase-1 }: intégration *statique*
 
-*Phase 1*{ .w5-phase .w5-phase-1 }, **intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. **Du 6 au 13 nov.**, accepté jusqu'au prototype (ven. 13 nov.).
+*Phase 1*{ .w5-phase .w5-phase-1 }, **intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. **Du 6 au ~~13~~ 18 nov.**, accepté jusqu'au prototype (~~ven. 13 nov.~~ mer. 18 nov.).
 
 ### *Phase 2*{ .w5-phase .w5-phase-2 }: intégration *dynamique*
 
-*Phase 2*{ .w5-phase .w5-phase-2 }, intégration **dynamique** : le texte et les médias déplacés dans `data.json`. **Du 13 au 20 nov.**, exigé à la bêta (ven. 20 nov.).
+*Phase 2*{ .w5-phase .w5-phase-2 }, intégration **dynamique** : le texte et les médias déplacés dans `data.json`. **Du ~~13 au 20 nov.~~ 18 nov. à la bêta**, exigé à la bêta (~~ven. 20 nov.~~ reportée, date à confirmer).
 
 Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la *phase 2*{ .w5-phase .w5-phase-2 }.
 
 **Comment faire :**
 
-- *Phase 1*{ .w5-phase .w5-phase-1 } : du 6 au 13 nov., dès aujourd'hui, [écrire vos chapitres en HTML (*phase 1*{ .w5-phase .w5-phase-1 })](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1), et [où mettre vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre);
-- *Phase 2*{ .w5-phase .w5-phase-2 } : du 13 au 20 nov., [passer à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/arborescence-recit-defilant.md#phase-2), puis [les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md).
+- *Phase 1*{ .w5-phase .w5-phase-1 } : du 6 au ~~13~~ 18 nov., dès aujourd'hui, [écrire vos chapitres en HTML (*phase 1*{ .w5-phase .w5-phase-1 })](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1), et [où mettre vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre);
+- *Phase 2*{ .w5-phase .w5-phase-2 } : du ~~13 au 20 nov.~~ 18 nov. à la bêta, [passer à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/arborescence-recit-defilant.md#phase-2), puis [les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md).
 
 ## Rappel pour les images non créées pas vous même
 
@@ -188,6 +188,8 @@ Avec la grille **Vérifiez votre travail** de chaque énoncé, puis *push* :
 - [Exercice : le monstre responsive](exercices/ex-spritesheet/index.md#verifier);
 - [Exercice : la parallaxe en calques](exercices/ex-parallaxe/index.md#verifier).
 
-### D'ici le ven. 13 nov. : le prototype (formatif), en *phase 1*{ .w5-phase .w5-phase-1 }
+### D'ici le ~~ven. 13 nov.~~ mer. 18 nov. : le prototype (formatif), en *phase 1*{ .w5-phase .w5-phase-1 }
 
-Rien à déposer : une **démo de 60 secondes** de votre récit qui défile, sur votre poste, pendant le cours. *Phase 1*{ .w5-phase .w5-phase-1 } : **intégration statique** acceptée : vos chapitres peuvent encore être en HTML statique. [Ce que je dois voir](projets/recit-defilant/index.md#prototype). La *phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique** sera exigée à la bêta (ven. 20 nov.). [Voir le calendrier](projets/recit-defilant/index.md#calendrier).
+Reporté pour cause de levée de cours. La **bêta est aussi reportée** : nouvelle date à confirmer, au moins une semaine après le prototype.
+
+Rien à déposer : une **démo de 60 secondes** de votre récit qui défile, sur votre poste, pendant le cours. *Phase 1*{ .w5-phase .w5-phase-1 } : **intégration statique** acceptée : vos chapitres peuvent encore être en HTML statique. [Ce que je dois voir](projets/recit-defilant/index.md#prototype). La *phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique** sera exigée à la bêta (~~ven. 20 nov.~~ reportée, date à confirmer). [Voir le calendrier](projets/recit-defilant/index.md#calendrier).

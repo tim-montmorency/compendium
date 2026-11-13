@@ -1,7 +1,10 @@
 # Cours 11.2
-<!-- ven. 13 nov. -->
+<!-- mer. 18 nov. (reporté du ven. 13 nov. : levée de cours) -->
 
 ![](assets/cours11b-banniere.webp){.w-100}
+
+!!! warning "Cours reporté : ~~ven. 13 nov.~~ mer. 18 nov."
+    En raison de la levée de cours, ce cours et la démo du prototype ont lieu le **mer. 18 nov.** La **bêta est aussi reportée** : nouvelle date à confirmer, au moins une semaine après le prototype.
 
 <div class="class-content-link">
   <img src="assets/IA-restreinte.png">
@@ -108,6 +111,8 @@ Vous avez déjà le geste : dans votre portfolio, `fetch()` chargeait vos projet
 
 ## 2. :material-code-braces:  Le composant Vue, construit en direct { #composant }
 
+<video class="w-100" src="assets/cours11b-navigateur-chapitres.webm" autoplay muted loop playsinline aria-label="Le navigateur de chapitres en action : en défilant, le chapitre actif s'allume dans la liste et la barre de progression avance; un clic sur un chapitre y mène directement"></video>
+
 Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de films. Aujourd'hui, on assemble le tout : le composant de votre récit, pièce par pièce. **Vous codez avec moi**, dans un bac à sable : un petit dossier à part, **hors de votre dépôt**.
 
 **Le bac à sable**, à créer avant de commencer :
@@ -177,6 +182,8 @@ Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de 
 
 ## 3. :material-api:  Le *fetch* externe : choisir et tester votre API
 
+<video class="w-100" src="assets/cours11b-fetch-dataviz.webm" autoplay muted loop playsinline aria-label="La démo La Terre bouge : en arrivant à chaque moment, un fetch() part vers une API externe (USGS, puis Open-Meteo), le JSON revient, et la dataviz s'anime : un compteur et des points pour les séismes, puis des barres qui poussent pour la météo"></video>
+
 Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est **le même `fetch()`**, avec une adresse sur un autre site. Ce qui est nouveau :
 
 - **choisir** une API : **sans clé d'identification** (dans les listes d'API, la colonne **Auth : `No`**, plutôt que `apiKey` ou `OAuth`), **CORS : `Yes`** (ou `Unknown`, à tester d'abord), du JSON, et votre donnée;
@@ -196,9 +203,11 @@ Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interro
 
     **L'autre personne** fait la même chose avec une API de la [liste de la démo](projets/recit-defilant/dataviz.md#demo) : tout le monde doit savoir lire une réponse d'API.
 
-## 4. :material-play-box-outline:  Le prototype
+## 4. :material-play-box-outline:  Remise : Le prototype (~~ven. 13 nov.~~ mer. 18 nov.)
 
-Pendant le travail en équipe, je passe vous voir. **Préparez votre démo** : Live Server ouvert, la console ouverte, la page en haut du récit.
+Pendant le travail en équipe, je passe vous voir. 
+
+**Préparez votre démo** : Live Server ouvert, la console ouverte, la page en haut du récit.
 
 En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre. On regarde ensemble ce qui fonctionne, et ce qui reste à faire d'ici la bêta.
 

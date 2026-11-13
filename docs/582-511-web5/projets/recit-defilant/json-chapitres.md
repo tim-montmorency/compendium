@@ -15,7 +15,7 @@
 </div>
 
 !!! info "C'est la *phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique"
-    Votre récit se construit [en deux phases](arborescence-recit-defilant.md#deux-phases). Commencez par vos chapitres **en HTML statique**, animés : c'est la *phase 1*{ .w5-phase .w5-phase-1 }, l'intégration statique, du 6 au 13 nov., acceptée jusqu'au prototype (ven. 13 nov.). Cette page, c'est la **phase 2**, l'intégration dynamique : les chapitres construits depuis `data.json`, du 13 au 20 nov., **exigés à la bêta** (ven. 20 nov.).
+    Votre récit se construit [en deux phases](arborescence-recit-defilant.md#deux-phases). Commencez par vos chapitres **en HTML statique**, animés : c'est la *phase 1*{ .w5-phase .w5-phase-1 }, l'intégration statique, du 6 au ~~13~~ 18 nov., acceptée jusqu'au prototype (~~ven. 13 nov.~~ mer. 18 nov.). Cette page, c'est la **phase 2**, l'intégration dynamique : les chapitres construits depuis `data.json`, du ~~13 au 20 nov.~~ 18 nov. à la bêta, **exigés à la bêta** (~~ven. 20 nov.~~ reportée, date à confirmer).
 
     Votre chargement JSON fonctionne déjà? Gardez-le : vous êtes en avance.
 

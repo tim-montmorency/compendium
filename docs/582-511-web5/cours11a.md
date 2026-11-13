@@ -31,11 +31,11 @@ Le plus gros du cours : animer vos chapitres pour le prototype.
 </div>
 
 <div class="card" markdown>
-:material-play-box-outline: __Le prototype, vendredi__
+:material-play-box-outline: __Le prototype, ~~ven. 13 nov.~~ mer. 18 nov.__
 
 ---
 
-Une démo de 60 secondes de votre récit, sur votre poste. Rien à déposer.
+Une démo de 60 secondes de votre récit, sur votre poste. Rien à déposer. La bêta est aussi reportée, date à confirmer.
 
 [:octicons-arrow-right-24: Ce que je dois voir](projets/recit-defilant/index.md#prototype){ .stretched-link }
 </div>
@@ -47,7 +47,7 @@ Une démo de 60 secondes de votre récit, sur votre poste. Rien à déposer.
 - [ ] Vos exercices GSAP : auto-validés et poussés sur `main`
 - [ ] Vue.js : pourquoi, et les 4 notions de votre composant (20 min)
 - [ ] Exercice : Collection de films (45 min)
-- [ ] Dans votre projet : vos chapitres, pour le prototype de vendredi (le reste du cours)
+- [ ] Dans votre projet : vos chapitres, pour le prototype du ~~ven. 13 nov.~~ mer. 18 nov. (le reste du cours)
 
 ## 1. :simple-vuedotjs:  Vue.js : pourquoi un cadriciel?
 
@@ -56,7 +56,7 @@ Un navigateur de chapitres se fait aussi en JavaScript seul. Vue est là pour de
 - **c'est comme ça que le web se construit** : la plupart des interfaces professionnelles utilisent un cadriciel (React, Vue, Svelte), et Vue est la porte d'entrée la plus douce;
 - **ça change votre façon de coder** : au lieu de dire **comment** changer la page, étape par étape, vous décrivez **à quoi** elle doit ressembler selon vos données. Vue s'occupe du reste.
 
-[:simple-vuedotjs: Pourquoi Vue, ici?](projets/recit-defilant/composant-vue.md#pourquoi){ .md-button }
+[:simple-vuedotjs: Intro et installation de Vue.js](./vue/index.md){ .md-button }
 
 ## 2. :material-book-open-variant:  Les 4 notions de votre composant { #principes }
 
@@ -106,7 +106,7 @@ Ensuite, **vos chapitres** : c'est le plus important aujourd'hui. Pour pratiquer
 
 ## 4. :material-account-multiple-outline:  Dans votre projet
 
-**D'abord vos chapitres** : le prototype de vendredi porte sur les animations de vos chapitres, pas sur Vue.
+**D'abord vos chapitres** : le prototype du ~~ven. 13 nov.~~ mer. 18 nov. porte sur les animations de vos chapitres, pas sur Vue.
 
 [:material-file-tree: *Phase 1*{ .w5-phase .w5-phase-1 } : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
 
@@ -119,13 +119,17 @@ Ensuite, **vos chapitres** : c'est le plus important aujourd'hui. Pour pratiquer
   <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
 </div>
 
-### D'ici le ven. 13 nov. : le prototype (formatif), en *phase 1*{ .w5-phase .w5-phase-1 }
+### D'ici le ~~ven. 13 nov.~~ mer. 18 nov. : le prototype (formatif), en *phase 1*{ .w5-phase .w5-phase-1 }
+
+Reporté au mer. 18 nov. (levée de cours le ven. 13). La **bêta est aussi reportée** : nouvelle date à confirmer, au moins une semaine après le prototype.
 
 Rien à déposer : une **démo de 60 secondes** de votre récit qui défile, sur votre poste, pendant le cours.
 
 - Le récit défile du premier au dernier chapitre, sans erreur dans la console.
 - Chaque chapitre a son texte et au moins un média, même provisoires.
-- Chaque personne : au moins une animation au défilement, et son travail fusionné dans `main`.
+- Chaque personne : le texte de ses chapitres intégré dans le HTML (un premier jet réel, aucun lorem ipsum).
+- Chaque personne : dans **chacun** de ses chapitres, au moins une animation activée par le défilement, dont au moins une qui anime un média.
+- Chaque personne : son travail fusionné dans `main`.
 - Chaque personne : son journal, les [5 questions](projets/recit-defilant/index.md#journal-de-bord-individuel) pour ce **bloc 3**, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure) qui les sépare des blocs précédents.
 
 [:material-play-box-outline: Le prototype : ce que je dois voir](projets/recit-defilant/index.md#prototype){ .md-button .md-button--primary }

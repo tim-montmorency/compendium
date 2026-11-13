@@ -7,7 +7,7 @@
 
 1. Votre récit contient au moins un **moment dataviz** : des **données réelles** qui apparaissent au bon moment et font avancer l'histoire.
 2. Une bonne dataviz de récit, c'est **une question, une donnée, une forme simple, une révélation au défilement, une chute**.
-3. L'API (Application Programming Interface) se choisit et se teste au cours du **ven. 13 nov.** : [choisir et tester votre API](#api). Elle doit fonctionner **à la bêta** (ven. 20 nov.).
+3. L'API (Application Programming Interface) se choisit et se teste au cours du ~~ven. 13 nov.~~ **mer. 18 nov.** : [choisir et tester votre API](#api). Elle doit fonctionner **à la bêta** (~~ven. 20 nov.~~ reportée, date à confirmer).
 
 </div>
 
@@ -307,4 +307,4 @@ Dans la **section 6** du gabarit, décrivez votre idée :
 - **la forme** que vous imaginez : une donnée qui change le décor, des unités à l'image de votre sujet, une donnée qui pilote une animation, une échelle au défilement… (voir [plus haut](#plus-loin));
 - **la chute** : ce que la donnée raconte dans votre histoire.
 
-Ajoutez un cadre pour ce moment dans votre storyboard. L'API se choisit au cours du **ven. 13 nov.** : voir [Choisir et tester votre API](#api).
+Ajoutez un cadre pour ce moment dans votre storyboard. L'API se choisit au cours du ~~ven. 13 nov.~~ **mer. 18 nov.** : voir [Choisir et tester votre API](#api).
