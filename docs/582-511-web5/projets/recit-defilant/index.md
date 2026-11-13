@@ -266,7 +266,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
 | **ven. 6 nov.** | **Point de contrôle** (formatif) : la structure, les chapitres et une première animation GSAP. Construction des chapitres. |
 | mer. 11 nov. | Initiation à Vue.js : les principes, et deux exercices. |
-| ~~ven. 13 nov.~~ **mer. 18 nov.** | Cours 11.2 (reporté : levée de cours le 13) : [le composant Vue](composant-vue.md), construit en direct. **[Prototype](#prototype)** (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée. Puis : le *fetch* externe, [choisir et tester votre API](dataviz.md#api). |
+| ~~ven. 13 nov.~~ **mer. 18 nov.** | Reporté (levée de cours le 13) : [le composant Vue](composant-vue.md), construit en direct. **[Prototype](#prototype)** (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée. Puis : le *fetch* externe, [choisir et tester votre API](dataviz.md#api). |
 | ven. 20 nov. | Responsive, `prefers-reduced-motion`, performance |
 | ~~ven. 20 nov.~~ **à confirmer** | **Bêta**, reportée (au moins une semaine après le prototype) : [*phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, **chapitres chargés depuis `data.json`**. Médias finaux intégrés. [Composant Vue](composant-vue.md) en place. Dataviz **fonctionnelle** : les données de l'API s'affichent (elle sera soignée d'ici la remise finale). Prête pour la QA |
 | **Après la bêta** (dates à confirmer) | **Contrôle de la qualité croisé** (issues GitHub) |
@@ -334,10 +334,10 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
     - La *pull request* : [Git en équipe](git-en-equipe.md).
     - Les médias : [Les médias et les crédits](#les-medias-et-les-credits), et [Un média animable par personne](#un-media-animable-par-personne).
 
-## Prototype (~~ven. 13 nov.~~ mer. 18 nov., cours 11.2) { #prototype }
+## Prototype (~~ven. 13 nov.~~ mer. 18 nov.) { #prototype }
 
 !!! warning "Reporté : ~~ven. 13 nov.~~ mer. 18 nov."
-    En raison de la levée de cours du ven. 13 nov., le cours 11.2 et le prototype ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus élevées.
+    En raison de la levée de cours du ven. 13 nov., le cours et le prototype prévus ce jour-là ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus élevées.
 
     La **bêta est aussi reportée** : nouvelle date à confirmer, au moins une semaine après le prototype.
 
