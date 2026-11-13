@@ -28,21 +28,6 @@ export function gsapAnimations() {
 }
 ```
 
-<!-- Les plugins vus aujourd'hui&nbsp;:
-
-| Plugin | En une phrase | Idée pour un site de jeu |
-| :--- | :--- | :--- |
-| [SplitText](https://gsap.com/docs/v3/Plugins/SplitText/) | Découpe un texte en lettres, mots ou lignes | Titre du jeu qui tombe lettre par lettre |
-| [ScrambleTextPlugin](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin/) | Brouille un texte avant de le révéler | « Appuyez sur Start », message décodé |
-| [TextPlugin](https://gsap.com/docs/v3/Plugins/TextPlugin/) | Remplace un texte caractère par caractère | Effet machine à écrire |
-| [DrawSVGPlugin](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/) | Dessine le contour d'un SVG | Route sur une carte, signature, logo |
-| [MorphSVGPlugin](https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/) | Transforme une forme SVG en une autre | Coffre qui s'ouvre, icône lecture → pause |
-| [MotionPathPlugin](https://gsap.com/docs/v3/Plugins/MotionPathPlugin/) | Fait suivre un tracé à un élément | Bateau, vaisseau, personnage en déplacement |
-| [CustomEase](https://gsap.com/docs/v3/Eases/CustomEase/) / [CustomWiggle](https://gsap.com/docs/v3/Eases/CustomWiggle/) | Crée ses propres courbes d'accélération | Tremblement, impact, rebond |
-| [Draggable](https://gsap.com/docs/v3/Plugins/Draggable/) | Rend un élément déplaçable à la souris ou au doigt | Objet d'inventaire à glisser |
-| [Flip](https://gsap.com/docs/v3/Plugins/Flip/) | Anime un changement de mise en page | Galerie de captures filtrée |
-| [ScrollToPlugin](https://gsap.com/docs/v3/Plugins/ScrollToPlugin/) | Fait défiler la page jusqu'à une cible | Bouton « Découvrir le jeu » | -->
-
 ## Le texte
 
 ### SplitText
@@ -293,6 +278,14 @@ On peut aussi très bien cacher le tracé avec `stroke="none"` sur le path du mo
     On peut utiliser DrawSVG avec MotionPath ! Il suffit d'animer les deux simultanément avec une timeline.
 
     <iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-motionpath-drawsvg&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+
+
+<div class="grid grid-1-2" markdown>
+  ![](./activite/loop/preview.png){.aspect-4-3}
+
+  <small>Exercice - GSAP</small><br>
+  **[Loop](./activite/loop/index.md){.stretched-link .back}**
+</div>
 
 ## Lissage personnalisé
 
