@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "@fontsource/cedarville-cursive";
+
+@theme {
+  --font-cedarville: "Cedarville Cursive", cursive;
+}
