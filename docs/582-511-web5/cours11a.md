@@ -102,7 +102,7 @@ Seul, dans Classroom 50 : le lien d'acceptation est au début de l'exercice. Gar
 
 [:simple-vuedotjs: Exercice : Collection de films](exercices/ex-vue-films/index.md){ .md-button .md-button--primary }
 
-Ensuite, **vos chapitres** : c'est le plus important aujourd'hui. Pour pratiquer Vue plus tard, si vous voulez : [Tableau NBA](exercices/ex-vue-nba/index.md) et [Cheese Kanye says](exercices/ex-vue-kanye/index.md), un premier `fetch()` vers une API (*Application Programming Interface*) externe.
+Ensuite, **vos chapitres** : c'est le plus important aujourd'hui. Pour pratiquer Vue plus tard, si vous voulez : [Tableau NBA](exercices/ex-vue-nba/index.md) et [Cheese Kanye says](exercices/ex-vue-kanye/index.md), un premier `fetch()` vers une API (Application Programming Interface) externe.
 
 ## 4. :material-account-multiple-outline:  Dans votre projet
 

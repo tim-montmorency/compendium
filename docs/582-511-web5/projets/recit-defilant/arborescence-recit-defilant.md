@@ -273,7 +273,7 @@ Les clés communes sont identiques dans les deux chapitres. Seul le `contenu` ch
 
 ### `contenu` : libre, au responsable du chapitre
 
-Tout ce qui est propre à votre chapitre va dans `contenu` : vos images, vos calques et leur vitesse, le nombre d'images de votre spritesheet, des répliques, le lieu pour votre API (*Application Programming Interface*)... Vous inventez les clés dont vous avez besoin, et **vous les changez quand vous voulez** : seul le module de votre chapitre (`ch-03.js`) lit son `contenu`. Votre coéquipier ne peut pas planter à cause de vos changements.
+Tout ce qui est propre à votre chapitre va dans `contenu` : vos images, vos calques et leur vitesse, le nombre d'images de votre spritesheet, des répliques, le lieu pour votre API (Application Programming Interface)... Vous inventez les clés dont vous avez besoin, et **vous les changez quand vous voulez** : seul le module de votre chapitre (`ch-03.js`) lit son `contenu`. Votre coéquipier ne peut pas planter à cause de vos changements.
 
 Vous ne savez pas encore ce qu'il vous faut? C'est normal. Commencez avec `"contenu": {}`, et ajoutez des clés à mesure que vous découvrez ce dont votre chapitre a besoin.
 

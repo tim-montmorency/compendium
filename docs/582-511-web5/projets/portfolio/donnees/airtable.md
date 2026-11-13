@@ -52,7 +52,7 @@ Contrairement à opensheet, cette URL ne fonctionne **pas** directement dans le 
 
 ## 4. Créer le jeton d'accès (PAT), restreint
 
-Airtable n'utilise plus de clé API (*Application Programming Interface*) classique depuis 2024 : il faut un **jeton d'accès personnel** (*Personal Access Token*).
+Airtable n'utilise plus de clé API (Application Programming Interface) classique depuis 2024 : il faut un **jeton d'accès personnel** (*Personal Access Token*).
 
 1. Avatar (coin supérieur droit) → **Builder hub** (ou *Developer hub*).
 2. **Personal access tokens** → **Create token**.
