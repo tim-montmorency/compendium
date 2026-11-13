@@ -1,4 +1,4 @@
-# Cours 11.2
+# Cours 12.1
 <!-- mer. 18 nov. (reporté du ven. 13 nov. : levée de cours) -->
 
 ![](assets/cours11b-banniere.webp){.w-100}
@@ -239,12 +239,12 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
   <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
 </div>
 
-### D'ici le mer. 18 nov. (cours 12.1)
+### D'ici le ven. 20 nov. (cours 12.2)
 
 - L'API documentée dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)), *commit* `Cahier : ajoute l'API de la dataviz`.
 - La *phase 2*{ .w5-phase .w5-phase-2 } bien entamée : [les étapes faites ensemble](projets/recit-defilant/json-chapitres.md#ensemble) sont sur `main`.
 
-### D'ici le ven. 20 nov. : la bêta, en *phase 2*{ .w5-phase .w5-phase-2 }
+### D'ici la bêta (~~ven. 20 nov.~~ date à confirmer), en *phase 2*{ .w5-phase .w5-phase-2 }
 
 - *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique** exigée, chapitres chargés depuis `data.json` ([les instructions](projets/recit-defilant/json-chapitres.md)).
 - Médias finaux intégrés.
