@@ -163,6 +163,7 @@ grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     Pour une grille de cartes qui doit toujours remplir la largeur, `auto-fit` est presque toujours le bon choix.
 
 [:material-view-grid-outline: CSS Grid, intro](css/grid/intro.md){ .md-button :target="_blank" }
+
 [:material-table-column: Conteneur et template](css/grid/grid-template-cols-rows.md){ .md-button :target="_blank" }
 
 ### Étape 2 : Flexbox pour l'intérieur d'une carte

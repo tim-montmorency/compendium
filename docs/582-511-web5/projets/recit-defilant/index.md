@@ -56,7 +56,7 @@ Un récit sur un thème de votre choix, par exemple :
 |---|---|
 | **Chapitres** | 6 à 8 chapitres, environ 100 à 250 mots chacun. Au moins 3 chapitres par personne. |
 | **Données** | Les chapitres et leurs médias sont chargés avec `fetch()` depuis un fichier JSON. On y arrive [en deux phases](arborescence-recit-defilant.md#deux-phases) : d'abord l'intégration statique (les chapitres en HTML, du 6 au 13 nov.), puis l'intégration dynamique (les données, du 13 au 20 nov.), exigée à la bêta. |
-| **Dataviz** | Au moins un `fetch()` vers une **API** (*Application Programming Interface*) **externe gratuite**, pour un moment de visualisation de données ou un élément « vivant ». Au cahier de charges, vous décrivez seulement l'idée et le genre de données : l'API se choisit au cours du ven. 13 nov. ([Choisir et tester votre API](dataviz.md#api)). Le `fetch()` est lancé par **IntersectionObserver**, quand le visiteur approche du moment dataviz ([déclencher une fois](../../js/intersection-observer.md)). Elle doit fonctionner à la bêta. |
+| **Dataviz** | Au moins un `fetch()` vers une **API** (Application Programming Interface) **externe gratuite**, pour un moment de visualisation de données ou un élément « vivant ». Au cahier de charges, vous décrivez seulement l'idée et le genre de données : l'API se choisit au cours du ven. 13 nov. ([Choisir et tester votre API](dataviz.md#api)). Le `fetch()` est lancé par **IntersectionObserver**, quand le visiteur approche du moment dataviz ([déclencher une fois](../../js/intersection-observer.md)). Elle doit fonctionner à la bêta. |
 | **Animations** | Au moins une animation de chaque technique : **CSS au défilement** (`animation-timeline`) et **GSAP + ScrollTrigger**. |
 | **Extension GSAP** | Au moins **un effet** fait avec une [extension de GSAP](../../js/gsap-bases.md#extensions), au moins une fois dans le récit (par équipe) : SplitText, ScrambleText, TextPlugin, MotionPath, DrawSVG, MorphSVG, Flip ou ScrollTo. ScrollTrigger ne compte pas : il est déjà exigé. La personne qui l'intègre est inscrite dans la [matrice de responsabilités](cahier-de-charges.md#le-gabarit) du cahier de charges. |
 | **Vue.js** | Un composant imposé : le **navigateur de chapitres** ou la **barre de progression**. Vue est chargé par CDN, sans *build*. Voir [Le composant Vue](composant-vue.md). |
@@ -146,6 +146,19 @@ Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`
 3. Qu'est-ce que j'ai appris que je ne savais pas avant?
 4. Quelle est ma prochaine étape concrète?
 5. Si j'ai utilisé l'IA comme source pour un média : qu'est-ce que j'ai préparé moi-même, et qu'est-ce que ça m'a appris?
+
+!!! warning "Un titre par bloc"
+    Chaque bloc commence par **son propre titre**, pour qu'on voie clairement où finissent les réponses d'un bloc et où commencent celles du suivant. Prenez le niveau de titre qui convient à la structure de votre journal (`##` ou `###`), et gardez le même pour tous les blocs :
+
+    ```markdown
+    ## Questions bloc 2
+
+    1. ...
+
+    ## Questions bloc 3
+
+    1. ...
+    ```
 
 Votre **première entrée** contient aussi votre processus créatif :
 
@@ -240,7 +253,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 <!-- MM : barème interne par remise : Absent 0, Bâclé 0,5, De bonne foi 2, Complet 3. -->
 
-## Calendrier
+## Calendrier { #calendrier }
 
 | Date | Étape |
 |---|---|
@@ -302,7 +315,7 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
 - [ ] Au moins **une animation test** GSAP dans **un de ses chapitres**, dans sa fonction `animate()` : un `gsap.from()`, `gsap.to()` ou `gsap.fromTo()`. **Pas de `scrollTrigger`** pour cette remise : l'animation joue au chargement de la page, c'est normal. Une animation simple suffit, par exemple le titre du chapitre qui glisse en place.
 - [ ] Au moins **une *pull request*** à son nom, **fusionnée** dans `main`.
 - [ ] Au moins **le tiers (33 %) des médias de ses chapitres**, créés ou trouvés, ajoutés au dépôt au bon endroit et bien nommés (voir ci-dessous). Le tiers des médias prévus dans votre storyboard : fonds, calques, personnages, SVG, spritesheets.
-- [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 2**.
+- [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 2**, sous un titre `## Questions bloc 2` (ou `###`, selon votre structure).
 
 **Vos médias : où et comment les nommer**
 
@@ -339,5 +352,6 @@ Ce n'est pas un récit fini : c'est un récit **qui se tient du début à la fin
 
 - [ ] Au moins **une animation au défilement** qui fonctionne dans un de ses chapitres : GSAP + ScrollTrigger, ou CSS au défilement.
 - [ ] Son travail **fusionné dans `main`** par *pull request*.
+- [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 3**, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure).
 
 Le composant Vue n'est pas exigé au prototype : il doit être en place à la bêta.

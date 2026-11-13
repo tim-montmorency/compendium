@@ -25,7 +25,7 @@ allowfullscreen></iframe>
 Les **exemples officiels** de Vue fonctionnent dans la page : on peut modifier le code et voir le résultat. En haut à gauche, choisissez **Options** et **HTML** : c'est la façon d'écrire Vue de ce cours.
 
 - [Éditeur markdown](https://fr.vuejs.org/examples/#markdown) : le texte se met en forme pendant qu'on tape.
-- [Récupération de données](https://fr.vuejs.org/examples/#fetching-data) : un `fetch()` vers l'API (*Application Programming Interface*) de GitHub, affiché avec Vue.
+- [Récupération de données](https://fr.vuejs.org/examples/#fetching-data) : un `fetch()` vers l'API (Application Programming Interface) de GitHub, affiché avec Vue.
 - [Grille avec tri et filtres](https://fr.vuejs.org/examples/#grid) : un tableau qu'on trie et qu'on filtre.
 - [Graphique SVG](https://fr.vuejs.org/examples/#svg) : un graphique qui change quand on bouge les curseurs.
 - [Modale avec transitions](https://fr.vuejs.org/examples/#modal) et [liste avec transitions](https://fr.vuejs.org/examples/#list-transition) : Vue et l'animation.

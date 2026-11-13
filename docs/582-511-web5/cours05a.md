@@ -47,6 +47,7 @@ Voici la suite :
     Toujours réviser un changement avant de l'accepter. Jamais une action autonome sur plusieurs fichiers sans supervision.
 
     [:material-swap-horizontal: Ce que vous voyez selon votre poste](ia/modes-copilot-ancien-nouveau.md){ .md-button }
+
     [:material-github: Paramétrage complet](ia/parametrage-copilot.md){ .md-button }
 
 [:material-sync: La boucle IA par composant, en un schéma](./ia/boucle-ia-par-composant.md){ .md-button .md-button--primary :target="_blank" }

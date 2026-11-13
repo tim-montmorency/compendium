@@ -7,7 +7,7 @@
 
 1. Votre récit contient au moins un **moment dataviz** : des **données réelles** qui apparaissent au bon moment et font avancer l'histoire.
 2. Une bonne dataviz de récit, c'est **une question, une donnée, une forme simple, une révélation au défilement, une chute**.
-3. L'API (*Application Programming Interface*) se choisit et se teste au cours du **ven. 13 nov.** : [choisir et tester votre API](#api). Elle doit fonctionner **à la bêta** (ven. 20 nov.).
+3. L'API (Application Programming Interface) se choisit et se teste au cours du **ven. 13 nov.** : [choisir et tester votre API](#api). Elle doit fonctionner **à la bêta** (ven. 20 nov.).
 
 </div>
 
@@ -134,14 +134,13 @@ Le code est commenté dans `js/dataviz.js`. Il suit toujours les mêmes 4 étape
 
 [:material-chart-bar: Voir la démo](demo-dataviz/index.html){ .md-button .md-button--primary :target="_blank" }
 
-!!! info "Pas besoin de tout comprendre aujourd'hui"
-    Regardez d'abord **ce que fait** la démo. Le comment est expliqué plus bas, étape par étape : [choisir et tester votre API](#api).
+### Des pistes pour choisir votre API { #pistes }
 
-!!! tip "Pour explorer, si vous êtes curieux (facultatif)"
+Voici plusieurs pistes à explorer pour trouver l'API de votre moment dataviz :
 
-    - [**Public APIs**](https://github.com/public-apis/public-apis){ :target="_blank" } : une grande liste d'API gratuites, classées par thème. Visez les colonnes **Auth : `No`** (sans clé) et **CORS : `Yes`** (utilisable depuis le navigateur).
-    - [**Données Québec**](https://www.donneesquebec.ca/){ :target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ :target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
-    - Quelques API sans clé, à tester le 13 nov. : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Art Institute of Chicago](https://api.artic.edu/docs/){ :target="_blank" } (œuvres d'art), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
+- [**Public APIs**](https://github.com/public-apis/public-apis#index){ :target="_blank" } : une grande liste d'API gratuites, classées par thème. Visez les colonnes **Auth : `No`** (sans clé d'identification : ni `apiKey`, ni `OAuth`) et **CORS : `Yes`** (utilisable depuis le navigateur; `Unknown` est permis, mais testez avant de choisir). L'index des catégories est loin dans la page : [les liens directs par catégorie](#api-categories).
+- [**Données Québec**](https://www.donneesquebec.ca/){ :target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ :target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
+- **Quelques API sans clé**, prêtes à tester : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ :target="_blank" } (œuvres d'art, avec images), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
 
 ## Choisir et tester votre API { #api }
 
@@ -153,12 +152,41 @@ Ce qui est nouveau, c'est seulement : **choisir** l'API, **lire** sa réponse, e
 
 Une bonne API pour votre récit coche ces 4 cases :
 
-- **sans clé** : pas d'inscription, pas de jeton (colonne **Auth : `No`** dans Public APIs);
-- **CORS : `Yes`** : utilisable depuis le navigateur. Sans CORS, le navigateur bloque la réponse;
+- **sans clé d'identification** : pas d'inscription, pas de jeton (token). Dans Public APIs, c'est la colonne **Auth** : visez `No`. Évitez `apiKey` (une clé à demander et à cacher) et `OAuth` (une connexion avec un compte);
+- **CORS : `Yes`** (ou `Unknown`) : utilisable depuis le navigateur. Sans CORS, le navigateur bloque la réponse. `Unknown` veut dire que personne ne l'a vérifié : l'API fonctionne peut-être. **Testez-la avant de la choisir** ([tester le CORS](#api-cors)) : si la console affiche *blocked by CORS policy*, choisissez-en une autre;
 - elle renvoie du **JSON**;
 - elle contient **votre donnée**, celle qui répond à la question de votre moment dataviz.
 
-Des pistes : la liste [Public APIs](https://github.com/public-apis/public-apis){ :target="_blank" }, et les API sans clé de l'encadré *Pour explorer*, [sous la démo](#demo).
+!!! info "CORS, c'est quoi?"
+    **CORS** (Cross-Origin Resource Sharing, le partage entre origines) est une règle de sécurité du navigateur. Par défaut, votre page n'a **pas le droit de lire** une réponse qui vient d'un autre site. L'API doit donner sa permission, dans un en-tête de sa réponse (`Access-Control-Allow-Origin`).
+
+    - *Avec la permission* (CORS : `Yes`) : votre `fetch()` reçoit les données.
+    - *Sans la permission* : le serveur répond quand même, mais le navigateur **bloque la réponse** avant que votre code la voie.
+
+    C'est pourquoi une API peut très bien s'afficher dans la barre d'adresse, et échouer dans votre page : la barre d'adresse n'est pas « un autre site » qui demande.
+
+Des pistes : la liste [Public APIs](https://github.com/public-apis/public-apis#index){ :target="_blank" }, et les API sans clé de la section [Des pistes pour choisir votre API](#pistes).
+
+#### Public APIs, par catégorie { #api-categories }
+
+La liste [Public APIs](https://github.com/public-apis/public-apis#index){ :target="_blank" } est classée par thème, mais l'index des catégories est loin dans la page. Allez-y directement :
+
+- [Animaux](https://github.com/public-apis/public-apis#animals){ :target="_blank" }
+- [Art et design](https://github.com/public-apis/public-apis#art--design){ :target="_blank" }
+- [Livres](https://github.com/public-apis/public-apis#books){ :target="_blank" }
+- [Environnement](https://github.com/public-apis/public-apis#environment){ :target="_blank" }
+- [Nourriture](https://github.com/public-apis/public-apis#food--drink){ :target="_blank" }
+- [Jeux et BD](https://github.com/public-apis/public-apis#games--comics){ :target="_blank" }
+- [Géolocalisation](https://github.com/public-apis/public-apis#geocoding){ :target="_blank" }
+- [Santé](https://github.com/public-apis/public-apis#health){ :target="_blank" }
+- [Musique](https://github.com/public-apis/public-apis#music){ :target="_blank" }
+- [Données ouvertes](https://github.com/public-apis/public-apis#open-data){ :target="_blank" }
+- [Sciences et maths](https://github.com/public-apis/public-apis#science--math){ :target="_blank" }
+- [Sports](https://github.com/public-apis/public-apis#sports--fitness){ :target="_blank" }
+- [Transport](https://github.com/public-apis/public-apis#transportation){ :target="_blank" }
+- [Météo](https://github.com/public-apis/public-apis#weather){ :target="_blank" }
+
+Dans chaque catégorie, un tableau : regardez les colonnes **Auth** (`No`) et **CORS** (`Yes`, ou `Unknown` à tester).
 
 !!! tip "Pas d'API pour votre donnée?"
     Un jeu de données ouvert (Données Québec, Montréal, Statistique Canada) est souvent un fichier CSV à télécharger, pas une API. Vous pouvez le convertir en JSON et le mettre dans votre dépôt, comme au portfolio. Mais le `fetch()` vers une **API externe** reste exigé : ajoutez alors un petit élément « vivant » (la météo, l'heure du coucher du soleil) ailleurs dans le récit.
@@ -170,6 +198,29 @@ Avant d'écrire une ligne de code, **collez l'adresse dans la barre d'adresse** 
 Par exemple, la température maximale des 7 prochains jours à Montréal : [l'adresse Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=auto){ :target="_blank" }.
 
 La plupart des API se **règlent dans l'adresse**, après le `?` : `latitude=45.5`, `daily=temperature_2m_max`. Changez une valeur, rechargez : vous voyez tout de suite ce que ça change. Plusieurs API, comme Open-Meteo, ont même un **générateur d'adresse** dans leur documentation.
+
+#### Tester le CORS { #api-cors }
+
+La barre d'adresse **ne vérifie pas le CORS** : une API peut s'afficher très bien là, et être bloquée dans votre page. Le test se fait **depuis une page web** :
+
+1. Ouvrez n'importe quelle page web, par exemple ces notes de cours.
+2. Ouvrez la console (++f12++, onglet **Console**).
+3. Collez ces lignes, avec l'adresse de votre API, puis ++enter++ :
+
+    ```js
+    const url = "https://openaccess-api.clevelandart.org/api/artworks/";
+    await fetch(url + "?limit=1").then((r) => r.json());
+    ```
+
+4. Lisez le résultat :
+    - **un objet s'affiche** : le CORS passe, l'API est utilisable;
+    - **un message rouge** avec *blocked by CORS policy* : le navigateur bloque la réponse. Choisissez une autre API.
+
+!!! tip "Rien ne s'affiche?"
+    Vérifiez le menu des niveaux, en haut à droite de la console : **Infos** doit être coché. Sinon, la console cache les `console.log()`.
+
+!!! example "Un vrai cas : deux musées"
+    L'API du **Cleveland Museum of Art** passe le test. Celle de l'**Art Institute of Chicago** répond dans la barre d'adresse, mais la console affiche une erreur CORS : elle est inutilisable dans votre page.
 
 ### 3. Trouver le chemin vers votre donnée { #api-chemin }
 
@@ -183,7 +234,7 @@ data                        l'objet reçu
 
 En code : `data.daily.temperature_2m_max`. Un tableau d'objets? `data.features[0].properties.mag`.
 
-[:material-code-json: Trouver une donnée dans un JSON complexe : la méthode, et un outil pour tester vos chemins](../../js/api-json-fetch.md#chemin){ .md-button }
+[:material-code-json: Trouver une donnée dans un JSON complexe : la méthode, et un outil pour tester vos chemins](../../js/json-chemin.md){ .md-button }
 
 !!! tip "Copier le chemin dans Chrome"
     Outils de développement, onglet **Réseau** (*Network*), filtre **Fetch/XHR**. Cliquez sur la requête, onglet **Aperçu** (*Preview*), puis clic droit sur la valeur : **Copier le chemin de la propriété**.

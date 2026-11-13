@@ -49,6 +49,7 @@ Les deux exercices de la semaine 9 n'ont pas eu de retour : le monstre responsiv
 Le piège commun aux deux : `overflow: hidden` fige une animation au défilement, `overflow: clip` la laisse vivre.
 
 [:material-check-all: Spritesheet : vérifiez votre travail](exercices/ex-spritesheet/index.md#verifier){ .md-button }
+
 [:material-check-all: Parallaxe : vérifiez votre travail](exercices/ex-parallaxe/index.md#verifier){ .md-button }
 
 <!-- MM : déroulement, 10 min
@@ -77,6 +78,7 @@ Dans la démo du Petit Chaperon rouge :
 `gsap.to()`, `from()`, `fromTo()`, `set()` : une cible, des propriétés, des paramètres. Vous connaissez déjà le principe avec Anime.js.
 
 [:material-animation-play-outline: GSAP : tweens et timelines](js/gsap-bases.md){ .md-button .md-button--primary }
+
 [:material-pencil-ruler: Exercice : Zombi](exercices/ex-gsap-zombi/index.md){ .md-button }
 
 ## 4. :material-timeline-outline:  La timeline
@@ -84,6 +86,7 @@ Dans la démo du Petit Chaperon rouge :
 Enchaîner plusieurs tweens, comme un scénario, et régler le moment de chacun avec le paramètre de position.
 
 [:material-timeline-outline: La timeline](js/gsap-bases.md#la-timeline){ .md-button .md-button--primary }
+
 [:material-pencil-ruler: Exercice : Magie](exercices/ex-gsap-magie/index.md){ .md-button }
 
 ## 5. :material-gesture-swipe-vertical:  ScrollTrigger
@@ -91,6 +94,7 @@ Enchaîner plusieurs tweens, comme un scénario, et régler le moment de chacun 
 On accroche la timeline au défilement : `start`, `end`, `markers`, puis `scrub` et `pin`. Vous reprenez **votre** timeline de Magie : vous ne la réécrivez pas, vous lui ajoutez un `scrollTrigger`.
 
 [:material-gesture-swipe-vertical: GSAP : ScrollTrigger](js/gsap-scrolltrigger.md){ .md-button .md-button--primary }
+
 [:material-pencil-ruler: Exercice : la magie au défilement](exercices/ex-gsap-magie-defilement/index.md){ .md-button }
 
 <!-- MM : IntersectionObserver déplacé au cours 10.2, faute de temps. -->

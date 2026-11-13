@@ -161,6 +161,7 @@ Puis *commit* (`Cahier : ajoute l'extension GSAP`) et *push*.
 4. *Pull request* quand une étape fonctionne : on fusionne souvent, par petits morceaux.
 
 [:material-file-tree: *Phase 1*{ .w5-phase .w5-phase-1 } : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
+
 [:material-language-javascript: *Phase 1*{ .w5-phase .w5-phase-1 } : vos animations en JavaScript](projets/recit-defilant/arborescence-recit-defilant.md#fichier-chapitre){ .md-button }
 
 [:material-movie-open-outline: Exemple : un chapitre, plusieurs médias en timeline](projets/recit-defilant/exemple-chapitre-complexe.md){ .md-button }

@@ -107,7 +107,7 @@ Dans l'exemple suivant, au clic du bouton, on appelle la méthode `toggleOrange(
 
 ## Dans un exemple réel { #exemple-reel }
 
-Les personnages de Rick and Morty, chargés depuis une API (*Application Programming Interface*) publique. Dans l'onglet HTML, deux boucles `v-for` : une sur les boutons de filtre, l'autre sur les personnages reçus de l'API, chacune avec son `:key`.
+Les personnages de Rick and Morty, chargés depuis une API (Application Programming Interface) publique. Dans l'onglet HTML, deux boucles `v-for` : une sur les boutons de filtre, l'autre sur les personnages reçus de l'API, chacune avec son `:key`.
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=html,js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
 

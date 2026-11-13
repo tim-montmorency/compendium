@@ -114,6 +114,7 @@ Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **
 **Puis, le travail à deux** : la *pull request*, la mise à jour de sa branche, les conflits et la convention de *commits*.
 
 [:material-account-multiple-outline: Git en équipe](projets/recit-defilant/git-en-equipe.md){ .md-button .md-button--primary }
+
 [:material-presentation-play: Présentation (PowerPoint)](assets/documents/Web5_git-en-equipe.pptx){ .md-button }
 
 ## 3. Exercice : provoquer et régler un conflit 🤼‍♂️
@@ -140,6 +141,7 @@ Un des trois formats de **média animable**. La parallaxe, un autre format, sera
 **La spritesheet** : toutes les images d'une animation côte à côte dans un seul fichier, montrées une à la fois avec `steps()`. Pour votre projet, la version responsive, avec `transform`.
 
 [:material-filmstrip: Animation par spritesheet](css/animation-spritesheet.md){ .md-button .md-button--primary }
+
 [:material-pencil-ruler: Exercice : le monstre 👹 responsive](exercices/ex-spritesheet/index.md){ .md-button }
 
 **À faire** : chacun commence la préparation de **son** média animable (calques, spritesheet ou SVG), sur **sa** branche.

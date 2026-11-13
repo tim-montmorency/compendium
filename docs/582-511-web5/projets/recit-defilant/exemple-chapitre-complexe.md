@@ -281,4 +281,5 @@ Mêmes classes, même ordre : la fonction `animate()` est **exactement la même*
 4. **Pas plus d'une scène comme celle-là** par chapitre : elle est épinglée, et chacun épingle [au plus la moitié de ses chapitres](index.md).
 
 [:material-file-tree: Arborescence du dépôt](arborescence-recit-defilant.md){ .md-button }
+
 [:material-gesture-swipe-vertical: GSAP : ScrollTrigger](../../js/gsap-scrolltrigger.md){ .md-button }

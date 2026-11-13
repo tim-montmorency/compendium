@@ -68,6 +68,7 @@ Aujourd'hui, **vous les tapez vous-mêmes** : je code une notion devant vous, vo
 4. Les deux règles obligatoires : `@supports` et `prefers-reduced-motion`.
 
 [:material-gesture-swipe-vertical: Animation au scroll. Vu au cours 6.1](css/animations-scroll.md){ .md-button .md-button--primary}
+
 [:material-pencil-ruler: Exercice : animer au défilement](exercices/ex-scroll/index.md){ .md-button  }
 
 
@@ -78,6 +79,7 @@ Un des trois formats de **média animable** : une scène découpée en plans, ch
 Techniquement, c'est une animation au défilement de plus : `view-timeline-name` sur la scène, une animation par calque.
 
 [:material-layers-outline: L'effet parallaxe : définition et exemples](css/parallaxe.md){ .md-button .md-button--primary }
+
 [:material-pencil-ruler: Exercice : la parallaxe en calques](exercices/ex-parallaxe/index.md){ .md-button }
 
 ## 4. :material-code-json:  Dans votre projet : du JSON aux chapitres
@@ -85,6 +87,7 @@ Techniquement, c'est une animation au défilement de plus : `view-timeline-name`
 **En équipe.** Vous connaissez la mécanique du `fetch` depuis le portfolio. Cette fois, c'est votre récit : la structure commune (si ce n'est pas déjà fait), puis une personne code le chargement des chapitres pendant que l'autre remplit les siens. Chacun sur sa branche, et on fusionne par *pull request*.
 
 [:material-code-json: Du JSON aux chapitres : les étapes](projets/recit-defilant/json-chapitres.md){ .md-button .md-button--primary }
+
 [:material-file-tree: Arborescence du dépôt](projets/recit-defilant/arborescence-recit-defilant.md){ .md-button }
 
 

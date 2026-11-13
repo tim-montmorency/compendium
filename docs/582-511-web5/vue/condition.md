@@ -134,6 +134,6 @@ La différence est qu'un élément avec `v-show` sera toujours rendu et restera 
 
 ## Dans un exemple réel { #exemple-reel }
 
-Les personnages de Rick and Morty, chargés depuis une API (*Application Programming Interface*) publique. Dans l'onglet HTML, `v-if="message"` : le message (« Chargement... », « Aucun personnage trouvé. ») s'affiche seulement s'il n'est pas vide.
+Les personnages de Rick and Morty, chargés depuis une API (Application Programming Interface) publique. Dans l'onglet HTML, `v-if="message"` : le message (« Chargement... », « Aucun personnage trouvé. ») s'affiche seulement s'il n'est pas vide.
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=html,js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>

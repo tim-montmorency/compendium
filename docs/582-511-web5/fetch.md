@@ -17,6 +17,7 @@ Référence complète : [Promise (MDN)](https://developer.mozilla.org/fr/docs/We
 `fetch()` avec les deux syntaxes, `async` / `await` et `.then()`, puis la gestion des erreurs :
 
 [fetch, async / await et .then()](js/recap-js.md#async){ .md-button }
+
 [Gérer les erreurs](js/recap-js.md#erreurs){ .md-button }
 
 Appliqué au portfolio, selon votre source de données :
