@@ -425,16 +425,16 @@ mm.add("(max-width: 767px)", () => {
 
     <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-gsap-reduced-motion&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
-<!-- ### Exercice - Carte au trésor
+## Exercice
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/carte-tresor/preview.webp){.aspect-4-3}
+  ![](./activite/potion/preview.png){.aspect-4-3}
 
   <small>Exercice - GSAP</small><br>
-  **[Carte au trésor](./activite/carte-tresor/index.md){.stretched-link .back}**
-</div> -->
+  **[La potion magique](./activite/potion/index.md){.stretched-link .back}**
+</div>
 
-## Projet final
+<!-- ## Projet final
 
 L'énoncé du projet final est présenté aujourd'hui&nbsp;: le **microsite de lancement** d'un jeu vidéo. Par défaut, c'est le jeu développé en **Interactivité ludique**&nbsp;; pour les personnes qui ne suivent pas ce cours, un jeu existant ou fictif, avec **les mêmes exigences**. Les plugins vus aujourd'hui y trouvent directement leur place.
 
@@ -445,4 +445,4 @@ L'énoncé du projet final est présenté aujourd'hui&nbsp;: le **microsite de l
 - [ ] Choisir son **volet** (A&nbsp;: mon jeu d'Interactivité ludique&nbsp;; B&nbsp;: un jeu existant ou fictif, à faire approuver)
 - [ ] Rassembler les **médias**&nbsp;: logo, captures d'écran, une séquence vidéo, musique et effets sonores
 - [ ] Commencer le fichier `CREDITS.md`&nbsp;: chaque média, sa source, sa licence
-- [ ] Repérer les **plugins** qui serviront le mieux le jeu, et où (titre, carte, galerie…)
+- [ ] Repérer les **plugins** qui serviront le mieux le jeu, et où (titre, carte, galerie…) -->

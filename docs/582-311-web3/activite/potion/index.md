@@ -7,7 +7,7 @@ tags:
 
 # Potion
 
-<!-- ![type:video](./preview.webm){.h-auto} -->
+![type:video](./preview.webm){.h-auto}
 
 L'objectif de cet exercice est de mettre en pratique les plugins **Draggable**, **SplitText** et **ScrollToPlugin**&nbsp;: des bulles qui bouillonnent dans un chaudron, un champignon à y glisser, un message qui apparaît lettre par lettre, puis un défilement jusqu'au bas de la page, où attend une grenouille.
 
@@ -61,7 +61,7 @@ Tout le HTML et le CSS sont déjà faits, y compris la police Cedarville Cursive
 - [ ] Avec un `fromTo()`, animer les `.bulle` :
   - [ ] Au départ : `y`, `x` et `scale` à `0`
   - [ ] À l'arrivée, des valeurs aléatoires :
-    - [ ] `y` entre `-40` et `-15`
+    - [ ] `y` entre `-100` et `-15`
     - [ ] `x` entre `-10` et `10`
     - [ ] `scale` entre `0.6` et `1.3`
     - [ ] Durée entre `0.8` et `1.6`
@@ -72,7 +72,7 @@ Tout le HTML et le CSS sont déjà faits, y compris la police Cedarville Cursive
 
 ??? tip "Indices"
 
-    - Une valeur aléatoire s'écrit `"random(-40, -15)"`.
+    - Une valeur aléatoire s'écrit `"random(-100, -15)"`.
     - Pour que **chaque bulle** se répète à son propre rythme, `repeat` doit être placé **dans l'objet `stagger`**, et non directement dans le tween. Sinon, c'est tout le groupe qui attend la dernière bulle avant de recommencer.
     - Sans `repeatRefresh: true` (aussi dans l'objet `stagger`), les valeurs aléatoires sont tirées une seule fois&nbsp;: chaque bulle referait toujours exactement le même trajet.
 
