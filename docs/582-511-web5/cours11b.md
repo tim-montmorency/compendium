@@ -54,9 +54,12 @@ Une démo de 60 secondes, sur votre poste. Je passe d'équipe en équipe.
 
 **Le web moderne tourne sur trois morceaux : les API (*Application Programming Interface*), le JSON et `fetch()`.** 
 
-*Avant*, le serveur fabriquait chaque page avec sa base de données, et chaque clic chargeait une nouvelle page : une nouvelle adresse dans la barre du navigateur, et tout l'écran redessiné. 
+Un site dynamique peut se construire de deux façons, et les deux existent aujourd'hui :
 
-*Aujourd'hui*, le serveur envoie seulement les **données**, en **JSON**, et c'est le navigateur qui les place dans la page avec **`fetch()`** : l'adresse (URL) ne change pas, et seule une partie de l'écran se met à jour, dynamiquement, en temps réel, sans charger une nouvelle page.
+- **Site multipage (web classique)** : le serveur fabrique chaque page avec sa base de données, et chaque clic charge une nouvelle page : une nouvelle adresse dans la barre du navigateur, et tout l'écran redessiné;
+- **Application web (web moderne)** : le serveur envoie seulement les **données**, en **JSON**, et c'est le navigateur qui les place dans la page avec **`fetch()`** : l'adresse (URL) ne change pas, et seule une partie de l'écran se met à jour, dynamiquement, en temps réel, sans charger une nouvelle page.
+
+Les trois morceaux :
 
 - **L'API**, la porte d'un service : la même API sert le site web, l'application iOS et l'application Android;
 - **le JSON**, la langue de ces données, que tous les langages comprennent;
@@ -143,11 +146,13 @@ Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interro
 
 [:material-api: Choisir et tester votre API : les 7 étapes](projets/recit-defilant/dataviz.md#api){ .md-button .md-button--primary }
 
+[:material-code-json: Trouver une donnée dans un JSON](js/json-chemin.md){ .md-button }
+
 !!! example "À vous : 10 minutes"
     **La personne responsable de la dataviz**, avec ses deux API candidates :
 
     1. Collez l'adresse de chacune dans le navigateur. Laquelle contient **votre** donnée?
-    2. Trouvez le **chemin** vers la valeur, comme `data.daily.temperature_2m_max`.
+    2. Trouvez le [**chemin**](js/json-chemin.md) vers la valeur, comme `data.daily.temperature_2m_max`.
     3. Faites le `fetch()` dans votre bac à sable, et affichez la valeur avec `console.log()`.
 
     **L'autre personne** fait la même chose avec une API de la [liste de la démo](projets/recit-defilant/dataviz.md#demo) : tout le monde doit savoir lire une réponse d'API.
