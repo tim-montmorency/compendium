@@ -23,7 +23,7 @@ Avancez **une étape à la fois**. Le premier `undefined` vous montre où le che
 
 ## Un exemple : la PokéAPI { #exemple }
 
-Ouvrez [pokeapi.co/api/v2/pokemon/pikachu](https://pokeapi.co/api/v2/pokemon/pikachu){ :target="_blank" } dans *Firefox*, qui affiche le JSON avec des triangles pour plier et déplier (voir [Firefox](#firefox), plus bas). La réponse est longue! Voici quatre chemins, du plus simple au plus difficile :
+Ouvrez [pokeapi.co/api/v2/pokemon/pikachu](https://pokeapi.co/api/v2/pokemon/pikachu){ :target="_blank" } dans Firefox, qui affiche le JSON avec des triangles pour plier et déplier (voir [Firefox](#firefox), plus bas). La réponse est longue! Voici quatre chemins, du plus simple au plus difficile :
 
 ```js
 data.name
@@ -48,15 +48,29 @@ La démo charge la réponse de la PokéAPI. Essayez les chemins proposés, du pl
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-json-chemin&onglets=resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:550px;border:0" loading="lazy"></iframe>
 
-!!! question "Défi : les points de vie (*hp*) de Pikachu"
-    Dans la réponse, cherchez `stats`. C'est un tableau d'objets : lequel contient `hp`, et où est la valeur?
+!!! question "Défi : les points de vie (hp) de Pikachu"
+    Dans le champ **Le chemin** de la démo ci-dessus, trouvez le chemin qui donne le **nombre** de points de vie de Pikachu : la démo doit afficher **35**.
+
+    Indice : cherchez `stats` dans la réponse. C'est un tableau d'objets. Le **nom** de la statistique (`"hp"`) vous dit dans quelle case regarder, mais ce n'est pas la valeur que vous cherchez.
 
 ??? success "Réponse"
-    `data.stats[0].base_stat`. La 1re case du tableau `stats` est l'objet dont `stat.name` vaut `"hp"`, et sa valeur est dans `base_stat`.
+    `data.stats[0].base_stat`, qui donne `35`.
+
+    Chaque case du tableau `stats` est un objet comme celui-ci :
+
+    ```js
+    {
+      base_stat: 35,        // la valeur : c'est elle qu'on veut
+      effort: 0,
+      stat: { name: "hp" }  // l'étiquette : elle dit de quelle statistique on parle
+    }
+    ```
+
+    `data.stats[0].stat.name` donne `"hp"` : ça confirme qu'on est dans la bonne case, mais c'est l'étiquette, pas le nombre.
 
 ## Plusieurs valeurs : `map()` { #map }
 
-`data.abilities[0].ability.name` donne le nom de la **première** capacité du Pokémon, et seulement elle. Pour avoir **toutes** les capacités, on utilise `map()` : il parcourt un tableau (*array*) et **crée un nouveau tableau**, en gardant de chaque élément seulement ce qu'on lui demande.
+`data.abilities[0].ability.name` donne le nom de la **première** capacité du Pokémon, et seulement elle. Pour avoir **toutes** les capacités, on utilise `map()` : il parcourt un tableau (array) et **crée un nouveau tableau**, en gardant de chaque élément seulement ce qu'on lui demande.
 
 ```js
 const abilities = data.abilities.map((item) => item.ability.name);
@@ -84,7 +98,8 @@ Voir [Récap JS : `map()`](recap-js.md#map-join).
 
 ## Voir la réponse : Firefox ou Chrome { #outils }
 
-**Firefox** : on ouvre l'adresse de l'API, pour **explorer** avant de coder. **Chrome** : on ouvre **votre page**, pour **vérifier** ce que votre code reçoit vraiment.
+- *Firefox* : on ouvre l'adresse de l'API, pour **explorer** avant de coder. 
+- *Chrome* : on ouvre **votre page**, pour **vérifier** ce que votre code reçoit vraiment.
 
 ### Firefox : l'adresse de l'API, seule { #firefox }
 
@@ -107,12 +122,12 @@ On ouvre la page qui fait le `fetch()` (votre récit, ou [la démo Pokémon](htt
   ![Les outils de développement de Chrome, onglet Réseau : le filtre Fetch/XHR, la requête pikachu, l'onglet Aperçu, puis un clic droit sur la valeur name et la commande Copy property path. Chaque étape est numérotée de 1 à 6.](assets/chrome-reseau-chemin.webp){ data-zoom-image }
 
   <ol>
-    <li>Onglet <strong>Réseau</strong> (<em>Network</em>). S'il est vide, rechargez la page (<kbd>F5</kbd>) : Chrome note seulement les requêtes faites pendant que l'onglet est ouvert.</li>
+    <li>Onglet <strong>Réseau</strong> (Network). S'il est vide, rechargez la page (<kbd>F5</kbd>) : Chrome note seulement les requêtes faites pendant que l'onglet est ouvert.</li>
     <li>Filtre <strong>Fetch/XHR</strong> : il garde seulement les appels d'API, sans les images ni le CSS.</li>
     <li>Cliquez sur la <strong>requête</strong> de votre API (ici, <code>pikachu</code>).</li>
-    <li>Onglet <strong>Aperçu</strong> (<em>Preview</em>) : la réponse, en JSON, avec des triangles pour déplier.</li>
+    <li>Onglet <strong>Aperçu</strong> (Preview) : la réponse, en JSON, avec des triangles pour déplier.</li>
     <li><strong>Clic droit</strong> sur la valeur qui vous intéresse.</li>
-    <li><strong>Copier le chemin de la propriété</strong> (<em>Copy property path</em>). Collez-le dans votre code, après <code>data.</code></li>
+    <li><strong>Copier le chemin de la propriété</strong> (Copy property path). Collez-le dans votre code, après <code>data.</code></li>
   </ol>
 </div>
 

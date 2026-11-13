@@ -52,6 +52,43 @@ Une démo de 60 secondes, sur votre poste. Je passe d'équipe en équipe.
 
 ## 1. :material-api:  API, JSON et fetch : pourquoi ils sont partout { #pourquoi-api }
 
+
+<div class="w5-schema-cadre" style="margin:1.5em 0;padding:1rem 1.2rem;background:var(--md-code-bg-color);border:1px solid var(--md-default-fg-color--lightest);border-radius:0.4rem;text-align:center">
+<svg class="w5-schema" style="width:100%;height:auto;max-width:720px" viewBox="0 0 720 200" role="img" aria-labelledby="t-trio d-trio" font-family="inherit" font-size="14" fill="currentColor">
+<title id="t-trio">Le trio : fetch(), l'API et le JSON</title>
+<desc id="d-trio">Votre page envoie une demande avec fetch(), le messager. L'API, la porte du service, la reçoit et consulte le serveur et sa base de données. La réponse revient à la page en JSON, la langue des données.</desc>
+<defs>
+<marker id="ft" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="currentColor" fill-opacity=".7"/></marker>
+<marker id="fta" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#FF2B47"/></marker>
+</defs>
+<!-- Votre page -->
+<rect x="10" y="30" width="140" height="90" rx="10" fill="none" stroke="currentColor" stroke-opacity=".45"/>
+<text x="80" y="62" text-anchor="middle" font-weight="600">Votre page</text>
+<rect x="35" y="78" width="90" height="8" rx="2" fill="currentColor" fill-opacity=".15"/>
+<rect x="35" y="92" width="56" height="16" rx="2" fill="#FF2B47"/>
+<rect x="97" y="92" width="28" height="16" rx="2" fill="currentColor" fill-opacity=".15"/>
+<!-- fetch() : la demande -->
+<line x1="152" y1="60" x2="416" y2="60" stroke="currentColor" stroke-opacity=".6" stroke-width="2" marker-end="url(#ft)"/>
+<rect x="222" y="42" width="124" height="36" rx="18" fill="#FF2B47"/>
+<text x="284" y="65" text-anchor="middle" font-weight="700" fill="#fff" font-family="ui-monospace, monospace">fetch()</text>
+<text x="284" y="28" text-anchor="middle" font-size="12" fill-opacity=".75">le messager</text>
+<!-- L'API -->
+<rect x="420" y="20" width="150" height="100" rx="10" fill="none" stroke="currentColor" stroke-width="2"/>
+<text x="495" y="66" text-anchor="middle" font-size="26" font-weight="700">API</text>
+<text x="495" y="92" text-anchor="middle" font-size="12" fill-opacity=".75">la porte du service</text>
+<!-- Derrière l'API -->
+<line x1="572" y1="70" x2="606" y2="70" stroke="currentColor" stroke-opacity=".35" stroke-dasharray="4 4"/>
+<rect x="608" y="38" width="104" height="64" rx="10" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-dasharray="4 4"/>
+<text x="660" y="66" text-anchor="middle" font-size="12" fill-opacity=".6">serveur et</text>
+<text x="660" y="82" text-anchor="middle" font-size="12" fill-opacity=".6">base de données</text>
+<!-- La réponse : du JSON -->
+<path d="M495 122 L495 160 L80 160 L80 124" fill="none" stroke="#FF2B47" stroke-width="2.5" marker-end="url(#fta)"/>
+<rect x="222" y="142" width="124" height="36" rx="18" fill="#FF2B47"/>
+<text x="284" y="165" text-anchor="middle" font-weight="700" fill="#fff" font-family="ui-monospace, monospace">{ } JSON</text>
+<text x="284" y="196" text-anchor="middle" font-size="12" fill-opacity=".75">la langue des données</text>
+</svg>
+</div>
+
 **Le web moderne tourne sur trois morceaux : les API (*Application Programming Interface*), le JSON et `fetch()`.** 
 
 Un site dynamique peut se construire de deux façons, et les deux existent aujourd'hui :

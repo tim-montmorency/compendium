@@ -3,15 +3,15 @@
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
-1. Une **API** (*Application Programming Interface*), c'est la porte d'entrée d'un service : on lui envoie une requête, elle répond avec des **données**, pas avec une page.
-2. Le **JSON**, c'est la langue de ces données : des paires clé-valeur, que tous les langages savent lire.
-3. **`fetch()`**, c'est le messager du navigateur : il va chercher ces données **sans charger une nouvelle page**. C'est ainsi que le web professionnel est construit aujourd'hui.
+1. Une *API* (Application Programming Interface), c'est la porte d'entrée d'un service : on lui envoie une requête, elle répond avec des **données**, pas avec une page.
+2. Le *JSON*, c'est la langue de ces données : des paires clé-valeur, que tous les langages savent lire.
+3. *`fetch()`*, c'est le messager du navigateur : il va chercher ces données **sans charger une nouvelle page**. C'est ainsi que le web professionnel est construit aujourd'hui.
 
 </div>
 
 ## Le trio en un schéma { #trio }
 
-`fetch()` porte la demande, l'API y répond, et la réponse revient en JSON.
+*`fetch()`* porte la demande, l'*API* y répond, et la réponse revient en *JSON*.
 
 <div class="w5-schema-cadre" style="margin:1.5em 0;padding:1rem 1.2rem;background:var(--md-code-bg-color);border:1px solid var(--md-default-fg-color--lightest);border-radius:0.4rem;text-align:center">
 <svg class="w5-schema" style="width:100%;height:auto;max-width:720px" viewBox="0 0 720 200" role="img" aria-labelledby="t-trio d-trio" font-family="inherit" font-size="14" fill="currentColor">
@@ -61,7 +61,7 @@ Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. 
 
 ### Site multipage (web classique) { #avant }
 
-**Le serveur envoie la page** (rendu côté serveur, *SSR*). À chaque clic, il interroge la base de données, fabrique le HTML et renvoie une page complète : l'adresse change, et tout l'écran est redessiné.
+*Le serveur envoie la page* (rendu côté serveur, SSR). À chaque clic, il interroge la base de données, fabrique le HTML et renvoie une page complète : l'adresse change, et tout l'écran est redessiné.
 
 <div class="w5-schema-cadre" style="margin:1.5em 0;padding:1rem 1.2rem;background:var(--md-code-bg-color);border:1px solid var(--md-default-fg-color--lightest);border-radius:0.4rem;text-align:center">
 <svg class="w5-schema" style="width:100%;height:auto;max-width:720px" viewBox="0 0 720 225" role="img" aria-labelledby="t-mpa d-mpa"
@@ -114,7 +114,7 @@ Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. 
 
 ### Application web (web moderne) { #maintenant }
 
-**Le serveur envoie les données** (rendu côté client, *CSR*). Il expose une API qui répond en JSON, et votre JavaScript les place dans la page avec `fetch()` : l'adresse ne change pas, et seule une zone se met à jour, sans charger une nouvelle page.
+*Le serveur envoie les données* (rendu côté client, CSR). Il expose une API qui répond en JSON, et votre JavaScript les place dans la page avec `fetch()` : l'adresse ne change pas, et seule une zone se met à jour, sans charger une nouvelle page.
 
 <div class="w5-schema-cadre" style="margin:1.5em 0;padding:1rem 1.2rem;background:var(--md-code-bg-color);border:1px solid var(--md-default-fg-color--lightest);border-radius:0.4rem;text-align:center">
 <svg class="w5-schema" style="width:100%;height:auto;max-width:720px" viewBox="0 0 720 225" role="img" aria-labelledby="t-app d-app"
@@ -170,32 +170,32 @@ Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. 
 
 ### Vous le faites tous les jours { #exemples }
 
-- **« Charger plus » et le défilement infini** : TikTok, Reddit, Twitch. La suite s'ajoute en bas, et vous restez où vous êtes.
-- **Les suggestions pendant la frappe** : la recherche de jeux sur Steam, de chaînes sur Twitch.
-- **La recherche de GIF dans Discord** : les résultats s'affichent sans quitter la conversation.
+- *« Charger plus » et le défilement infini* : TikTok, Reddit, Twitch. La suite s'ajoute en bas, et vous restez où vous êtes.
+- *Les suggestions pendant la frappe* : la recherche de jeux sur Steam, de chaînes sur Twitch.
+- *La recherche de GIF dans Discord* : les résultats s'affichent sans quitter la conversation.
 
 ??? info "Et le clavardage en direct de Discord ou de Twitch?"
     Il utilise une autre technique : les **WebSockets**. La connexion reste ouverte, et le serveur envoie chaque nouveau message dès qu'il arrive, sans attendre qu'on le demande.
 
 ??? example "Des API ouvertes, pour créer"
-    - **Les collections de musées** : le [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ :target="_blank" } (la source de la démo) et le [Met (New York)](https://metmuseum.github.io/){ :target="_blank" }, avec les images.
-    - **Les couleurs** : [The Color API](https://www.thecolorapi.com/){ :target="_blank" } donne le nom d'une couleur et ses harmonies.
-    - **Les mots** : [PoetryDB](https://poetrydb.org/){ :target="_blank" } renvoie des poèmes classiques (en anglais).
+    - *Les collections de musées* : le [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ :target="_blank" } (la source de la démo) et le [Met (New York)](https://metmuseum.github.io/){ :target="_blank" }, avec les images.
+    - *Les couleurs* : [The Color API](https://www.thecolorapi.com/){ :target="_blank" } donne le nom d'une couleur et ses harmonies.
+    - *Les mots* : [PoetryDB](https://poetrydb.org/){ :target="_blank" } renvoie des poèmes classiques (en anglais).
 
 ### Dans le monde professionnel { #metiers }
 
-- **Une seule API pour tout** : l'application iOS, l'application Android et le site d'une banque ou d'un réseau social reçoivent le même JSON.
-- **Des services qu'on ne construit pas** : le paiement, les cartes, l'envoi de courriels, la traduction. Un site les branche par API.
-- **Les CMS « sans tête »** (*headless*) : le contenu reste géré dans WordPress, et le site est construit avec n'importe quel outil frontend.
-- **Les métiers** : le développeur **frontend** (vous) **consomme** les API; le développeur **backend** les **construit**. Entre les deux, le contrat, c'est l'API et son JSON.
+- *Une seule API pour tout* : l'application iOS, l'application Android et le site d'une banque ou d'un réseau social reçoivent le même JSON.
+- *Des services qu'on ne construit pas* : le paiement, les cartes, l'envoi de courriels, la traduction. Un site les branche par API.
+- *Les CMS « sans tête »* (headless) : le contenu reste géré dans WordPress, et le site est construit avec n'importe quel outil frontend.
+- *Les métiers* : le développeur **frontend** (vous) **consomme** les API; le développeur **backend** les **construit**. Entre les deux, le contrat, c'est l'API et son JSON.
 
 ## L'API : la porte d'un service { #api }
 
-Une **API** permet à deux applications d'**échanger des données**, à l'aide de requêtes HTTP. Pensez à un restaurant :
+Une *API* permet à deux applications d'**échanger des données**, à l'aide de requêtes HTTP. Pensez à un restaurant :
 
-- le **menu**, c'est l'**API** : ce qu'on peut commander, et comment;
-- la **cuisine**, c'est le **serveur web** : on n'y entre jamais, et le plat arrive;
-- la personne qui prend la commande et rapporte l'assiette? Piège du mot « serveur » : ici, c'est **`fetch()`**, le messager.
+- le *menu*, c'est l'*API* : ce qu'on peut commander, et comment;
+- la *cuisine*, c'est le *serveur web* : on n'y entre jamais, et le plat arrive;
+- la *personne qui prend la commande et rapporte l'assiette*? C'est *`fetch()`*, le messager.
 
 | Requête HTTP | Elle sert à... | Exemple |
 |---|---|---|
@@ -208,7 +208,7 @@ Dans ce cours, vous utilisez seulement `GET`, ce que fait `fetch()` par défaut.
 
 ## Le JSON : la langue commune { #json }
 
-Le **JSON** (*JavaScript Object Notation*) écrit les données en paires **clé-valeur**, avec la syntaxe des objets JavaScript. Né de JavaScript, il est lu par **presque tous les langages** : c'est la langue commune entre serveur et navigateur.
+Le *JSON* (JavaScript Object Notation) écrit les données en paires **clé-valeur**, avec la syntaxe des objets JavaScript. Né de JavaScript, il est lu par **presque tous les langages** : c'est la langue commune entre serveur et navigateur.
 
 ```json
 {
@@ -259,7 +259,7 @@ La réponse d'une vraie API est rarement petite : des objets dans des tableaux d
 
 - **votre portfolio** chargeait ses projets depuis un fichier JSON, avec `fetch()`;
 - **votre récit**, à la *phase 2*{ .w5-phase .w5-phase-2 }, charge ses chapitres depuis `data.json`;
-- **votre moment dataviz** réunit les trois : une API externe, qui répond en JSON, appelée avec `fetch()` au bon moment, grâce à IntersectionObserver.
+- **votre moment dataviz** réunit les trois : une *API* externe, qui répond en *JSON*, appelée avec *`fetch()`* au bon moment, grâce à IntersectionObserver.
 
 [:material-chart-bar: Choisir et tester votre API](../projets/recit-defilant/dataviz.md#api){ .md-button .md-button--primary }
 
