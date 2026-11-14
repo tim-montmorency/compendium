@@ -33,10 +33,10 @@ Voyez-vous l'oubli? La classe `actif` n'est jamais retirée des anciens liens. A
 Avec Vue, on décrit l'état une fois, dans le HTML :
 
 ```html
-<a :class="{ actif: index === activeIndex }">
+<a :class="{ actif: index === activeChapterIndex }">
 ```
 
-Et pour changer de chapitre, une seule ligne : `this.activeIndex = index`. Le jour où vous ajoutez un 4e élément qui dépend du chapitre actif, comme une couleur de fond ou un compteur, c'est une ligne de plus dans le HTML. Rien d'autre à retoucher. C'est la **réactivité**.
+Et pour changer de chapitre, une seule ligne : `this.activeChapterIndex = index`. Le jour où vous ajoutez un 4e élément qui dépend du chapitre actif, comme une couleur de fond ou un compteur, c'est une ligne de plus dans le HTML. Rien d'autre à retoucher. C'est la **réactivité**.
 
 !!! info "Vue, c'est un cadriciel (*framework*)"
     Anime.js et GSAP vous donnent des **fonctions** à appeler. Vue, lui, vous donne une **façon d'organiser** votre code : vous remplissez des cases (`data`, `methods`...), et Vue s'occupe du reste. C'est ce qui le rend si rapide à lire, une fois qu'on connaît les cases.
@@ -72,19 +72,23 @@ Le composant vit dans une **zone** de `index.html`, ici `<div id="navigation">`.
 
 ```html
 <div id="navigation" v-cloak>
-  <!-- La barre de progression -->
+  <!-- La barre de progression (fourni) -->
   <div class="progression"
        :style="{ transform: 'scaleX(' + progress + ')' }"></div>
 
   <!-- Le navigateur de chapitres -->
   <nav class="chapitres-nav" aria-label="Chapitres">
     <ol>
-      <li v-for="(chapter, index) in chapters" :key="chapter.id">
-        <a :href="'#' + chapter.id"
-           :class="{ actif: index === activeIndex }"
-           :aria-current="index === activeIndex ? 'step' : null"
-           @click.prevent="goTo(chapter.id)">
-          {{ chapter.titre }}
+      <!-- TODO : répéter ce <li> pour chaque chapitre de chapters,
+           avec une :key unique (l'id du chapitre) -->
+      <li>
+        <!-- TODO : le href mène à la section du chapitre (# + son id) -->
+        <!-- TODO : la classe actif, seulement si c'est le chapitre actif
+             (son index est égal à activeChapterIndex) -->
+        <!-- TODO : aria-current="step", seulement pour le chapitre actif -->
+        <!-- TODO : au clic, appeler goTo(), sans le saut habituel du lien -->
+        <a href="#">
+          <!-- TODO : afficher le titre du chapitre -->
         </a>
       </li>
     </ol>
@@ -92,7 +96,7 @@ Le composant vit dans une **zone** de `index.html`, ici `<div id="navigation">`.
 </div>
 ```
 
-Ce HTML contient tout ce qu'il faut savoir de Vue pour votre composant :
+Chaque `TODO` se règle avec une des notions de ce tableau : tout ce qu'il faut savoir de Vue pour votre composant.
 
 | Dans le HTML | Nom | Ce que ça fait |
 |---|---|---|
@@ -117,7 +121,7 @@ Le CSS qui va avec `v-cloak`, dans `commun.css` :
 
 ## Le JavaScript : un fichier, trois parties { #js }
 
-Le composant, au complet, dans `js/navigation.js` :
+Le squelette du composant, dans `js/navigation.js`. Ce qui est **fourni** ne demande pas de Vue : c'est du calcul. Les `TODO`, c'est à vous : ce sont les notions vues au cours et dans les exercices.
 
 ```js
 // js/navigation.js : le composant Vue (Options API)
@@ -128,60 +132,91 @@ export function createNavigation(chapters) {
     // 1. Les données : ce qui peut changer
     data() {
       return {
-        chapters: chapters, // la liste reçue de main.js
-        activeIndex: 0,     // le chapitre à l'écran
-        progress: 0,        // de 0 à 1 : où en est-on dans la page
+        // TODO : 3 données, avec ces noms (le HTML les utilise)
+        // - chapters : la liste reçue en paramètre
+        // - activeChapterIndex : le chapitre à l'écran (au départ : 0)
+        // - progress : de 0 à 1, où en est-on dans la page (au départ : 0)
       };
     },
 
     // 2. Les méthodes : les actions
     methods: {
       goTo(id) {
+        // Fourni : le mouvement réduit est-il activé?
         const reduced = window.matchMedia(
           "(prefers-reduced-motion: reduce)"
         ).matches;
-        document.getElementById(id).scrollIntoView({
-          behavior: reduced ? "auto" : "smooth",
-        });
+        // TODO : faire défiler jusqu'à la section qui a cet id,
+        // avec scrollIntoView() : "auto" si reduced, sinon "smooth"
       },
 
+      // Appelée à chaque défilement : la barre et le chapitre actif
       updateScroll() {
-        const max = document.documentElement.scrollHeight
-          - window.innerHeight;
+        // Fourni : la barre de progression
+        // max : la distance qu'on peut défiler en tout
+        // (la hauteur de la page, moins la hauteur de la fenêtre)
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        // progress : de 0 (en haut) à 1 (en bas), utilisé par scaleX()
+        // max > 0 : évite une division par 0 si la page ne défile pas
         this.progress = max > 0 ? window.scrollY / max : 0;
 
-        // Le chapitre actif : le dernier dont le haut
-        // a dépassé le milieu de l'écran
+        // Fourni : la ligne du milieu et la boucle
+        // middle : une ligne invisible qui coupe l'écran en deux, au milieu
         const middle = window.innerHeight / 2;
+        // Fonction fléchée : elle garde le this du composant
         this.chapters.forEach((chapter, index) => {
           const section = document.getElementById(chapter.id);
+          // Chaque section dont le haut a passé cette ligne répond « oui ».
+          // La boucle va dans l'ordre et garde le DERNIER « oui » :
+          // c'est la section qu'on est en train de lire.
           if (section.getBoundingClientRect().top <= middle) {
-            this.activeIndex = index;
+            // TODO : ce chapitre devient le chapitre actif
           }
         });
       },
     },
 
-    // 3. Au démarrage du composant (à copier tel quel)
+    // 3. Au démarrage du composant
     mounted() {
-      window.addEventListener("scroll", this.updateScroll, {
-        passive: true,
-      });
-      this.updateScroll();
+      // TODO : à chaque défilement de la fenêtre ("scroll"),
+      // appeler updateScroll, avec l'option { passive: true }
+      // TODO : puis appeler updateScroll une première fois
     },
   }).mount("#navigation");
 }
 ```
 
+!!! warning "Les `TODO` ne restent pas dans votre code final"
+    Les commentaires `TODO` sont des **instructions** pour vous. Remplacez chacun par votre code, puis **effacez-le**. Dans votre récit final, il ne reste **aucun** `TODO` : seulement vos propres commentaires, qui expliquent ce que fait le code. Pour vérifier : ++ctrl+shift+f++ dans VS Code, cherchez `TODO`.
+
+!!! danger "À la défense, chaque ligne compte"
+    Vous expliquerez chaque ligne de ce composant, et vous devrez pouvoir la modifier en direct. Un code copié sans être compris se voit tout de suite.
+
+Bloqué? Un indice à la fois :
+
+??? tip "Indice : `data()`"
+    Trois paires `clé: valeur`, séparées par des virgules. La valeur de `chapters`, c'est le paramètre reçu par `createNavigation(chapters)`.
+
+??? tip "Indice : `goTo()`"
+    `document.getElementById(id)` trouve la section. La méthode `scrollIntoView()` reçoit un objet d'options, avec une clé `behavior` (sans « u »!). Pour choisir entre deux valeurs : `condition ? siVrai : siFaux`.
+
+??? tip "Indice : le chapitre actif"
+    Dans une méthode, on change une donnée avec `this`. La boucle vous donne déjà l'`index` du chapitre.
+
+??? tip "Indice : `mounted()`"
+    `window.addEventListener(type, fonction, options)`. La fonction, c'est `this.updateScroll`, **sans parenthèses** : on la donne, on ne l'appelle pas. L'appel « une première fois », lui, prend des parenthèses.
+
+Toujours coincé? Les étapes de la démo, faites en classe, sont le meilleur point de départ : venez me voir.
+
 ### Les trois parties, une à une { #quatre-parties }
 
 **`createApp({...}).mount("#navigation")`** crée le composant et le **branche** sur la zone `#navigation` du HTML. Le sélecteur fonctionne comme avec `querySelector`.
 
-**`data()`** retourne un objet : **les données qui peuvent changer**. Chaque fois que `activeIndex` ou `progress` change, Vue met à jour tout ce qui en dépend dans le HTML. Vous ne touchez jamais au DOM vous-même.
+**`data()`** retourne un objet : **les données qui peuvent changer**. Chaque fois que `activeChapterIndex` ou `progress` change, Vue met à jour tout ce qui en dépend dans le HTML. Vous ne touchez jamais au DOM vous-même.
 
-**`methods`** : les **actions**, appelées par un événement (`@click`) ou par votre code. Dans une méthode, `this.chapters`, `this.activeIndex` : ce sont les données de `data()`.
+**`methods`** : les **actions**, appelées par un événement (`@click`) ou par votre code. Dans une méthode, `this.chapters`, `this.activeChapterIndex` : ce sont les données de `data()`.
 
-**`mounted()`** s'exécute **une fois**, quand le composant est branché sur la page. C'est le bon endroit pour écouter le défilement. On appelle aussi `updateScroll()` tout de suite, pour le cas où la page est déjà défilée au chargement. Ce bloc, vous pouvez le copier tel quel.
+**`mounted()`** s'exécute **une fois**, quand le composant est branché sur la page. C'est le bon endroit pour écouter le défilement. On appelle aussi `updateScroll()` tout de suite, pour le cas où la page est déjà défilée au chargement.
 
 !!! warning "`this` dans Vue : pas de fonction fléchée dans `methods`"
     Dans `data` et `methods`, `this` désigne **le composant**. Écrivez donc vos méthodes avec la forme courte `goTo(id) { ... }`, jamais `goTo: (id) => { ... }` : une [fonction fléchée](../../js/recap-js.md#fonctions-flechees) n'a pas son propre `this`, et `this.chapters` serait `undefined`.
@@ -203,15 +238,15 @@ Vos sections sont écrites à la main dans `index.html`. On en fait une liste av
 // js/main.js, phase 1
 import { createNavigation } from "./navigation.js";
 
-const sections = document.querySelectorAll(".chapitre");
+const sectionsNodeList = document.querySelectorAll(".chapitre");
 
 // Une liste { id, titre } faite à partir des sections du HTML
-const chapters = Array.from(sections).map((section) => ({
+const chaptersArr = Array.from(sectionsNodeList).map((section) => ({
   id: section.id,
   titre: section.querySelector("h2").textContent,
 }));
 
-createNavigation(chapters);
+createNavigation(chaptersArr);
 ```
 
 `Array.from()` transforme le résultat de `querySelectorAll` en vrai tableau, pour pouvoir utiliser `.map()` : voir [Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join).
@@ -271,8 +306,8 @@ Pour afficher le titre du chapitre actif, par exemple « 3/8 · Le loup », ajou
 ```js
     computed: {
       activeTitle() {
-        const chapter = this.chapters[this.activeIndex];
-        return `${this.activeIndex + 1}/${this.chapters.length} · `
+        const chapter = this.chapters[this.activeChapterIndex];
+        return `${this.activeChapterIndex + 1}/${this.chapters.length} · `
           + chapter.titre;
       },
     },
@@ -323,7 +358,7 @@ Vue s'écrit de deux façons. Dans ce cours, on utilise **l'Options API** : des 
 | `Vue is not defined` dans la console | La balise `<script>` de Vue manque, ou elle est placée après `main.js`. |
 | `Cannot read properties of null` dans `updateScroll()` | Un chapitre de la liste n'a pas de section avec cet `id`. Ou le composant démarre avant les sections (*phase 2*{ .w5-phase .w5-phase-2 }). |
 | `this.chapters` est `undefined` | Une fonction fléchée dans `methods`. |
-| Rien ne change au défilement | `updateScroll` n'est pas branché dans `mounted()`, ou il ne modifie pas `this.activeIndex`. |
+| Rien ne change au défilement | `updateScroll` n'est pas branché dans `mounted()`, ou il ne modifie pas `this.activeChapterIndex`. |
 
 ## Pour aller plus loin { #plus-loin }
 
