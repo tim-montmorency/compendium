@@ -48,7 +48,7 @@ Une scène épinglée, 5 calques, deux personnages : un exemple complet.
 
 ### *Phase 2*{ .w5-phase .w5-phase-2 }: intégration *dynamique*
 
-*Phase 2*{ .w5-phase .w5-phase-2 }, intégration **dynamique** : le texte et les médias déplacés dans `data.json`. **Du ~~13 au 20 nov.~~ 18 nov. à la bêta**, exigé à la bêta (~~ven. 20 nov.~~ reportée, date à confirmer).
+*Phase 2*{ .w5-phase .w5-phase-2 }, intégration **dynamique** : le texte et les médias déplacés dans `data.json`. **Du ~~13 au 20 nov.~~ 18 nov. à la bêta**, exigé à la bêta (~~ven. 20 nov.~~ **ven. 27 nov.**).
 
 Écrivez votre HTML comme le JavaScript le construira : vos animations ne changeront pas à la *phase 2*{ .w5-phase .w5-phase-2 }.
 
@@ -190,6 +190,6 @@ Avec la grille **Vérifiez votre travail** de chaque énoncé, puis *push* :
 
 ### D'ici le ~~ven. 13 nov.~~ mer. 18 nov. : le prototype (formatif), en *phase 1*{ .w5-phase .w5-phase-1 }
 
-Reporté pour cause de levée de cours. La **bêta est aussi reportée** : nouvelle date à confirmer, au moins une semaine après le prototype.
+Reporté pour cause de levée de cours. La **bêta est aussi reportée**, au **ven. 27 nov.**
 
-Rien à déposer : une **démo de 60 secondes** de votre récit qui défile, sur votre poste, pendant le cours. *Phase 1*{ .w5-phase .w5-phase-1 } : **intégration statique** acceptée : vos chapitres peuvent encore être en HTML statique. [Ce que je dois voir](projets/recit-defilant/index.md#prototype). La *phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique** sera exigée à la bêta (~~ven. 20 nov.~~ reportée, date à confirmer). [Voir le calendrier](projets/recit-defilant/index.md#calendrier).
+Rien à déposer : une **démo de 60 secondes** de votre récit qui défile, sur votre poste, pendant le cours. *Phase 1*{ .w5-phase .w5-phase-1 } : **intégration statique** acceptée : vos chapitres peuvent encore être en HTML statique. [Ce que je dois voir](projets/recit-defilant/index.md#prototype). La *phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique** sera exigée à la bêta (~~ven. 20 nov.~~ **ven. 27 nov.**). [Voir le calendrier](projets/recit-defilant/index.md#calendrier).

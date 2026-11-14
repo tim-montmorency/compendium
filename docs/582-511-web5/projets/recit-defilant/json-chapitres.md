@@ -15,7 +15,7 @@
 </div>
 
 !!! info "C'est la *phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique"
-    Votre récit se construit [en deux phases](arborescence-recit-defilant.md#deux-phases). Commencez par vos chapitres **en HTML statique**, animés : c'est la *phase 1*{ .w5-phase .w5-phase-1 }, l'intégration statique, du 6 au ~~13~~ 18 nov., acceptée jusqu'au prototype (~~ven. 13 nov.~~ mer. 18 nov.). Cette page, c'est la **phase 2**, l'intégration dynamique : les chapitres construits depuis `data.json`, du ~~13 au 20 nov.~~ 18 nov. à la bêta, **exigés à la bêta** (~~ven. 20 nov.~~ reportée, date à confirmer).
+    Votre récit se construit [en deux phases](arborescence-recit-defilant.md#deux-phases). Commencez par vos chapitres **en HTML statique**, animés : c'est la *phase 1*{ .w5-phase .w5-phase-1 }, l'intégration statique, du 6 au ~~13~~ 18 nov., acceptée jusqu'au prototype (~~ven. 13 nov.~~ mer. 18 nov.). Cette page, c'est la **phase 2**, l'intégration dynamique : les chapitres construits depuis `data.json`, du ~~13 au 20 nov.~~ 18 nov. à la bêta, **exigés à la bêta** (~~ven. 20 nov.~~ **ven. 27 nov.**).
 
     Votre chargement JSON fonctionne déjà? Gardez-le : vous êtes en avance.
 
@@ -97,6 +97,12 @@ Ajoutez un deuxième paramètre à `createChapter` : le module du chapitre. Puis
 À la fin de `init()`, une fois tout le HTML dans la page, appelez la fonction `animate` du module de chaque chapitre, avec sa `<section>` et ses données. Le code est fourni dans [L'arborescence du dépôt](arborescence-recit-defilant.md#main-js).
 
 **Vérification** : les animations que vous aviez à la *phase 1*{ .w5-phase .w5-phase-1 } fonctionnent de nouveau. Un chapitre n'a pas encore d'animation? Ajoutez temporairement un `console.log("chapitre 3 prêt")` dans son `animate` : le message apparaît dans la console.
+
+!!! tip "Les animations se déclenchent au mauvais endroit?"
+    ScrollTrigger calcule ses repères quand vous créez vos animations. Vos chapitres arrivent maintenant par `fetch()` : si la page change de hauteur après, les repères sont décalés (activez `markers: true` pour le voir). Deux réflexes :
+
+    - à la fin de `init()`, après les `animate()`, ajoutez `ScrollTrigger.refresh();` : ScrollTrigger recalcule tous ses repères;
+    - donnez un `width` et un `height` à vos `<img>` : la place est réservée avant le chargement, la page ne bouge plus.
 
 *Commit* (`Commun : charge les chapitres depuis data.json`), puis *push*. L'autre personne fait un *pull*.
 

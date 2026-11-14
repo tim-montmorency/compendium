@@ -1,11 +1,11 @@
-# :simple-vuedotjs:  Le composant Vue : navigateur de chapitres et barre de progression
+# :simple-vuedotjs:  Les composants Vue : navigateur de chapitres et barre de progression
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. Avec Vue, **on change une donnée, et la page suit**. Plus besoin d'ajouter ou de retirer des classes à la main : on décrit le HTML une fois, Vue le tient à jour.
-2. Votre composant tient dans **un seul fichier**, `js/navigation.js`, avec trois parties : `data`, `methods` et `mounted`.
-3. Il fonctionne aux deux phases : à la *phase 1*{ .w5-phase .w5-phase-1 }, la liste des chapitres est **lue dans le HTML**; à la *phase 2*{ .w5-phase .w5-phase-2 }, elle vient de **`data.json`**. Le composant, lui, ne change pas.
+2. **Deux composants, une personne par composant** : le navigateur de chapitres (`js/navigation.js`) et la barre de progression (`js/progression.js`). Chacun a trois parties : `data`, `methods` et `mounted`.
+3. Il fonctionne aux deux phases : à la *phase 1*{ .w5-phase .w5-phase-1 }, la liste des chapitres est **lue dans le HTML**; à la *phase 2*{ .w5-phase .w5-phase-2 }, elle vient de **`data.json`**. Les composants, eux, ne changent pas.
 
 </div>
 
@@ -54,27 +54,34 @@ Par CDN, comme GSAP, sans *build*. Dans `index.html`, **avant** `main.js`, la ve
 !!! tip "Avant de publier : la version de production"
     Remplacez `vue.global.js` par `vue.global.prod.js` : trois fois plus légère, sans les messages de développement. Un bogue apparaît après le changement? Revenez à `vue.global.js` pour lire ses messages. Voir [la documentation de Vue](https://fr.vuejs.org/guide/best-practices/production-deployment.html#without-build-tools){ :target="_blank" }.
 
-## Le HTML : la zone que Vue contrôle { #html }
+## Le HTML : deux zones que Vue contrôle { #html }
 
-Le composant vit dans une **zone** de `index.html`, ici `<div id="navigation">`. Vue contrôle cette zone et ses enfants, **rien d'autre**. Vos chapitres, eux, restent à vous et à GSAP.
+Chaque composant vit dans **sa zone** de `index.html` : `#barre-progression` pour la barre, `#navigation` pour le navigateur. Vue contrôle ces zones et leurs enfants, **rien d'autre**. Vos chapitres, eux, restent à vous et à GSAP.
+
+Chaque `TODO` dit à qui il revient : **barre** ou **navigateur**.
 
 ```html
-<div id="navigation" v-cloak>
-  <div class="progression"
-       :style="{ transform: 'scaleX(' + progress + ')' }"></div>
+<div id="barre-progression" v-cloak>
+  <!-- TODO barre : un :style qui applique transform: scaleX(...),
+       avec la valeur de progress -->
+  <div class="progression"></div>
+</div>
 
+<div id="navigation" v-cloak>
   <nav class="chapitres-nav" aria-label="Chapitres">
     <ol>
-      <!-- TODO : répéter ce <li> pour chaque chapitre de chapters,
+      <!-- TODO navigateur : répéter ce <li> pour chaque chapitre de chapters,
            avec une :key unique (l'id du chapitre) -->
       <li>
-        <!-- TODO : le href mène à la section du chapitre (# + son id) -->
-        <!-- TODO : la classe actif, seulement si c'est le chapitre actif
-             (son index est égal à activeChapterIndex) -->
-        <!-- TODO : aria-current="step", seulement pour le chapitre actif -->
-        <!-- TODO : au clic, appeler goTo(), sans le saut habituel du lien -->
+        <!-- TODO navigateur : le href mène à la section (# + son id) -->
+        <!-- TODO navigateur : la classe actif, seulement si c'est le
+             chapitre actif (son index est égal à activeChapterIndex) -->
+        <!-- TODO navigateur : aria-current="step", seulement pour le
+             chapitre actif -->
+        <!-- TODO navigateur : au clic, appeler goTo(), sans le saut
+             habituel du lien -->
         <a href="#">
-          <!-- TODO : afficher le titre du chapitre -->
+          <!-- TODO navigateur : afficher le titre du chapitre -->
         </a>
       </li>
     </ol>
@@ -82,7 +89,7 @@ Le composant vit dans une **zone** de `index.html`, ici `<div id="navigation">`.
 </div>
 ```
 
-Chaque `TODO` se règle avec une des notions de ce tableau : tout ce qu'il faut savoir de Vue pour votre composant.
+Chaque `TODO` se règle avec une des notions de ce tableau : tout ce qu'il faut savoir de Vue pour vos composants.
 
 | Dans le HTML | Nom | Ce que ça fait |
 |---|---|---|
@@ -90,7 +97,7 @@ Chaque `TODO` se règle avec une des notions de ce tableau : tout ce qu'il faut 
 | `v-for="... in chapters"` | Directive `v-for` | Répète l'élément pour chaque chapitre du tableau. C'est le `forEach` de Vue, directement dans le HTML. |
 | `:key="chapter.id"` | Clé | Un identifiant unique par élément répété : Vue s'en sert pour s'y retrouver. |
 | `:class="{ actif: ... }"` | Classe dynamique | Ajoute la classe `actif` **si** la condition est vraie, et la retire sinon. |
-| `:style`, `:href`, `:aria-current` | Attribut lié (`v-bind`) | Le deux-points veut dire : « la valeur est du JavaScript, pas du texte ». Forme longue : `v-bind:href`. |
+| `:style`, `:href`, `:aria-current` | Attribut lié (`v-bind`) | Le deux-points veut dire : « la valeur est du JavaScript, pas du texte ». `:style` reçoit un objet, comme `:class`. Forme longue : `v-bind:href`. |
 | `@click.prevent="goTo(...)"` | Événement (`v-on`) | Appelle une méthode au clic. `.prevent`, c'est le `event.preventDefault()` : le lien ne saute pas brusquement. Forme longue : `v-on:click`. |
 | `v-cloak` | Directive `v-cloak` | Cache la zone **tant que Vue n'a pas démarré** (voir le CSS plus bas). |
 
@@ -102,19 +109,20 @@ Le CSS qui va avec `v-cloak`, dans `commun.css` :
 }
 ```
 
-## Le JavaScript : un fichier, 3 parties { #js }
+## Le JavaScript : deux fichiers, trois parties chacun { #js }
 
-Le squelette du composant, dans `js/navigation.js`. Ce qui est fourni, c'est du calcul, sans Vue. Les `TODO`, c'est à vous. Le code fourni n'a **aucun commentaire**, et c'est voulu : commentez-le dans vos mots, pour montrer que vous le comprenez. Ça vaut aussi pour le HTML, `main.js` et le CSS de cette page.
+Un fichier par composant, une personne par fichier. Ce qui est fourni, c'est du calcul, sans Vue. Les `TODO`, c'est à vous. Le code fourni n'a **aucun commentaire**, et c'est voulu : commentez-le dans vos mots, pour montrer que vous le comprenez. Ça vaut aussi pour le HTML, `main.js` et le CSS de cette page.
+
+### Le navigateur : `js/navigation.js` { #js-navigation }
 
 ```js
 export function createNavigation(chapters) {
   Vue.createApp({
     data() {
       return {
-        // TODO : 3 données, avec ces noms (le HTML les utilise)
+        // TODO navigateur : 2 données, avec ces noms (le HTML les utilise)
         // - chapters : la liste reçue en paramètre
         // - activeChapterIndex : le chapitre à l'écran (au départ : 0)
-        // - progress : de 0 à 1, où en est-on dans la page (au départ : 0)
       };
     },
 
@@ -123,30 +131,56 @@ export function createNavigation(chapters) {
         const reduced = window.matchMedia(
           "(prefers-reduced-motion: reduce)"
         ).matches;
-        // TODO : faire défiler jusqu'à la section qui a cet id,
+        // TODO navigateur : faire défiler jusqu'à la section qui a cet id,
         // avec scrollIntoView() : "auto" si reduced, sinon "smooth"
       },
 
-      updateScroll() {
-        const max = document.documentElement.scrollHeight - window.innerHeight;
-        this.progress = max > 0 ? window.scrollY / max : 0;
-
+      updateActive() {
         const middle = window.innerHeight / 2;
         this.chapters.forEach((chapter, index) => {
           const section = document.getElementById(chapter.id);
           if (section.getBoundingClientRect().top <= middle) {
-            // TODO : ce chapitre devient le chapitre actif
+            // TODO navigateur : ce chapitre devient le chapitre actif
           }
         });
       },
     },
 
     mounted() {
-      // TODO : à chaque défilement de la fenêtre ("scroll"),
-      // appeler updateScroll, avec l'option { passive: true }
-      // TODO : puis appeler updateScroll une première fois
+      // TODO navigateur : à chaque défilement de la fenêtre ("scroll"),
+      // appeler updateActive, avec l'option { passive: true }
+      // TODO navigateur : puis appeler updateActive une première fois
     },
   }).mount("#navigation");
+}
+```
+
+### La barre : `js/progression.js` { #js-progression }
+
+```js
+export function createProgressBar() {
+  Vue.createApp({
+    data() {
+      return {
+        // TODO barre : 1 donnée, avec ce nom (le HTML l'utilise)
+        // - progress : de 0 (en haut) à 1 (en bas de la page), au départ : 0
+      };
+    },
+
+    methods: {
+      updateProgress() {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        // TODO barre : progress vaut la distance défilée divisée par max,
+        // ou 0 si max n'est pas plus grand que 0
+      },
+    },
+
+    mounted() {
+      // TODO barre : à chaque défilement de la fenêtre ("scroll"),
+      // appeler updateProgress, avec l'option { passive: true }
+      // TODO barre : puis appeler updateProgress une première fois
+    },
+  }).mount("#barre-progression");
 }
 ```
 
@@ -154,27 +188,33 @@ export function createNavigation(chapters) {
     Les commentaires `TODO` sont des **instructions** pour vous. Remplacez chacun par votre code, puis **effacez-le**. Dans votre récit final, il ne reste **aucun** `TODO` : seulement vos propres commentaires, qui expliquent ce que fait le code. Pour vérifier : ++ctrl+shift+f++ dans VS Code, cherchez `TODO`.
 
 !!! danger "À la défense (cours 15.1, mer. 9 déc.), chaque ligne compte"
-    À la [défense individuelle](index.md#calendrier), en privé, vous expliquerez chaque ligne de ce composant, et vous devrez pouvoir la modifier en direct. Un code copié sans être compris se voit tout de suite.
+    À la [défense individuelle](index.md#calendrier), en privé, vous expliquerez chaque ligne de **votre** composant, et vous devrez pouvoir la modifier en direct. Un code copié sans être compris se voit tout de suite.
 
 Bloqué? Un indice à la fois :
 
-??? tip "Indice : `data()`"
-    Trois paires `clé: valeur`, séparées par des virgules. La valeur de `chapters`, c'est le paramètre reçu par `createNavigation(chapters)`.
+??? tip "Indice navigateur : `data()`"
+    Deux paires `clé: valeur`, séparées par une virgule. La valeur de `chapters`, c'est le paramètre reçu par `createNavigation(chapters)`.
 
-??? tip "Indice : `goTo()`"
+??? tip "Indice navigateur : `goTo()`"
     `document.getElementById(id)` trouve la section. La méthode `scrollIntoView()` reçoit un objet d'options, avec une clé `behavior` (sans « u »!). Pour choisir entre deux valeurs : `condition ? siVrai : siFaux`.
 
-??? tip "Indice : le chapitre actif"
+??? tip "Indice navigateur : le chapitre actif"
     Dans une méthode, on change une donnée avec `this`. La boucle vous donne déjà l'`index` du chapitre.
 
-??? tip "Indice : `mounted()`"
-    `window.addEventListener(type, fonction, options)`. La fonction, c'est `this.updateScroll`, **sans parenthèses** : on la donne, on ne l'appelle pas. L'appel « une première fois », lui, prend des parenthèses. Un exemple complet, avec `"resize"` : [Le cycle de vie : `mounted()`](../../vue/mounted.md#syntaxe).
+??? tip "Indice barre : `:style`"
+    `:style` reçoit un objet : la propriété CSS, puis sa valeur. La valeur est une chaîne, comme `scaleX(0.5)` : collez du texte et la donnée `progress` avec `+`.
+
+??? tip "Indice barre : `progress`"
+    `window.scrollY` : la distance déjà défilée, en pixels. Pour choisir entre deux valeurs : `condition ? siVrai : siFaux`. Dans une méthode, on change une donnée avec `this`.
+
+??? tip "Indice pour les deux : `mounted()`"
+    `window.addEventListener(type, fonction, options)`. La fonction, c'est votre méthode, `this.updateActive` ou `this.updateProgress`, **sans parenthèses** : on la donne, on ne l'appelle pas. L'appel « une première fois », lui, prend des parenthèses. Un exemple complet, avec `"resize"` : [Le cycle de vie : `mounted()`](../../vue/mounted.md#syntaxe).
 
 Toujours coincé? Les étapes de la démo, faites en classe, sont le meilleur point de départ : venez me voir.
 
 ### Les trois parties { #quatre-parties }
 
-Le composant, c'est une classe JS en plus guidé : vous remplissez des cases.
+Un composant, c'est une classe JS en plus guidé : vous remplissez des cases.
 
 | Partie | Son rôle | Dans une classe JS |
 |---|---|---|
@@ -182,14 +222,16 @@ Le composant, c'est une classe JS en plus guidé : vous remplissez des cases.
 | `methods` | Les **actions**, appelées par un événement (`@click`) ou par votre code. | Les méthodes |
 | `mounted()` | S'exécute **une fois**, quand le composant est branché : on y écoute le défilement. Voir [Le cycle de vie : `mounted()`](../../vue/mounted.md). | Le constructeur |
 
-`createApp({...}).mount("#navigation")` crée le composant et le branche sur la zone `#navigation`, comme un `querySelector`. Dans une méthode, `this.chapters` ou `this.progress` désignent les données de `data()`.
+`createApp({...}).mount("#navigation")` crée le composant et le branche sur sa zone, comme un `querySelector`. Deux composants, deux zones : chacun ne voit que la sienne. Dans une méthode, `this.chapters` ou `this.progress` désignent les données de `data()`.
 
 !!! warning "`this` dans Vue : pas de fonction fléchée dans `methods`"
-    Écrivez `goTo(id) { ... }`, jamais `goTo: (id) => { ... }` : une [fonction fléchée](../../js/recap-js.md#fonctions-flechees) n'a pas son propre `this`, et `this.chapters` serait `undefined`. À l'intérieur d'une méthode, par contre, elle est la bonne : dans le `forEach` de `updateScroll()`, elle **garde** le `this` du composant.
+    Écrivez `goTo(id) { ... }`, jamais `goTo: (id) => { ... }` : une [fonction fléchée](../../js/recap-js.md#fonctions-flechees) n'a pas son propre `this`, et `this.chapters` serait `undefined`. À l'intérieur d'une méthode, par contre, elle est la bonne : dans le `forEach` de `updateActive()`, elle **garde** le `this` du composant.
 
 ## Brancher le composant dans `main.js` { #brancher }
 
-Le composant reçoit la liste des chapitres en paramètre : `createNavigation(chapters)`. Seul l'endroit d'où vient cette liste change d'une phase à l'autre.
+Le navigateur reçoit la liste des chapitres en paramètre : `createNavigation(chapters)`. La barre, elle, n'a besoin de rien : `createProgressBar()`. Seul l'endroit d'où vient la liste change d'une phase à l'autre.
+
+`main.js` est un fichier **commun** : chaque personne y ajoute son `import` et son appel. Prévenez-vous avant de le modifier.
 
 ### À la *phase 1*{ .w5-phase .w5-phase-1 } : la liste, lue dans le HTML { #brancher-phase-1 }
 
@@ -197,6 +239,7 @@ Vos sections sont écrites à la main dans `index.html`. On en fait une liste av
 
 ```js
 import { createNavigation } from "./navigation.js";
+import { createProgressBar } from "./progression.js";
 
 const sectionsNodeList = document.querySelectorAll(".chapitre");
 
@@ -206,6 +249,7 @@ const chaptersArr = Array.from(sectionsNodeList).map((section) => ({
 }));
 
 createNavigation(chaptersArr);
+createProgressBar();
 ```
 
 `Array.from()` transforme le résultat de `querySelectorAll` en vrai tableau, pour pouvoir utiliser `.map()` : voir [Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join).
@@ -220,10 +264,11 @@ recit.innerHTML = chapters
   .join("");
 
 createNavigation(chapters);
+createProgressBar();
 ```
 
 !!! warning "Après les sections, pas avant"
-    `updateScroll()` cherche les sections avec `getElementById`. Si le composant démarre avant que les sections existent, il ne les trouve pas, et la console affiche une erreur. Appelez `createNavigation()` **après** le `innerHTML`.
+    `updateActive()` cherche les sections avec `getElementById`, et `updateProgress()` mesure la hauteur de la page. Si les composants démarrent avant que les sections existent, le navigateur affiche une erreur et la barre calcule mal. Appelez-les **après** le `innerHTML`.
 
 ## Le CSS de départ { #css }
 
@@ -257,14 +302,14 @@ La barre utilise `transform: scaleX()` plutôt que `width` : `transform` ne reca
 
 ## Votre composant à vous { #votre-composant }
 
-Le composant imposé réunit **les deux** : le navigateur de chapitres **et** la barre de progression. La personne responsable est inscrite dans la matrice du cahier de charges.
+Les deux composants sont imposés, **une personne par composant** : l'une fait le navigateur de chapitres, l'autre la barre de progression. Inscrivez qui fait quoi dans la matrice du cahier de charges.
 
 Prenez le code de cette page comme **départ**, puis faites-le vôtre :
 
-- **Le style** : des points plutôt que des titres, des numéros de chapitre, une icône par chapitre (ajoutez une clé dans vos chapitres).
-- **Sur mobile** : le navigateur prend de la place. Affichez seulement le chapitre actif, et la liste au toucher (`v-if`, une donnée `isOpen`).
+- **Le navigateur** : des points plutôt que des titres, des numéros de chapitre, une icône par chapitre (ajoutez une clé dans vos chapitres). Sur mobile, il prend de la place : affichez seulement le chapitre actif, et la liste au toucher (`v-if`, une donnée `isOpen`).
+- **La barre** : verticale plutôt qu'horizontale, plus épaisse, un pourcentage affiché avec `{{ }}`, une forme qui rappelle votre thème.
 
-Les données, les directives (`v-for`, `:class`) et les méthodes de votre composant : c'est ce que vous devrez expliquer à la [défense](index.md#calendrier) (cours 15.1, mer. 9 déc.).
+Chaque personne explique les données, les directives et les méthodes de **son** composant à la [défense](index.md#calendrier) (cours 15.1, mer. 9 déc.).
 
 !!! tip "Avec ScrollTo, une extension GSAP"
     Dans `goTo()`, vous pouvez remplacer `scrollIntoView()` par [ScrollTo](../../js/gsap-scrollto.md) : il tient compte des sections épinglées, et la durée et l'*easing* se règlent. Chargez le plugin par CDN et enregistrez-le dans `main.js`.
@@ -275,9 +320,10 @@ Les données, les directives (`v-for`, `:class`) et les méthodes de votre compo
 |---|---|
 | Les `{{ }}` s'affichent tels quels | Vue n'est pas chargé, ou chargé **après** `main.js`. Ou la zone n'a pas le bon `id` dans `mount()`. |
 | `Vue is not defined` dans la console | La balise `<script>` de Vue manque, ou elle est placée après `main.js`. |
-| `Cannot read properties of null` dans `updateScroll()` | Un chapitre de la liste n'a pas de section avec cet `id`. Ou le composant démarre avant les sections (*phase 2*{ .w5-phase .w5-phase-2 }). |
+| `Cannot read properties of null` dans `updateActive()` | Un chapitre de la liste n'a pas de section avec cet `id`. Ou le composant démarre avant les sections (*phase 2*{ .w5-phase .w5-phase-2 }). |
 | `this.chapters` est `undefined` | Une fonction fléchée dans `methods`. |
-| Rien ne change au défilement | `updateScroll` n'est pas branché dans `mounted()`, ou il ne modifie pas `this.activeChapterIndex`. |
+| Rien ne change au défilement | La méthode (`updateActive` ou `updateProgress`) n'est pas branchée dans `mounted()`, ou elle ne modifie pas sa donnée avec `this`. |
+| La barre reste vide | Le `:style` manque, ou la chaîne est mal formée : vérifiez `scaleX(` et `)` dans l'inspecteur. |
 
 ## Pour aller plus loin { #plus-loin }
 

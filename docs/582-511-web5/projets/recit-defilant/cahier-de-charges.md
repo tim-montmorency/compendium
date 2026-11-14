@@ -60,7 +60,7 @@ Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le
 - **La fiche d'annotation complète**, à droite des deux cadres (voir ci-dessous).
 - **Des images qui montrent ce qu'on doit voir**, pas des boîtes grises : un croquis, ou une image trouvée ou générée, collée dans le cadre pour représenter chaque élément (le décor, le personnage, l'objet). Ce n'est pas l'image finale, c'est une **référence**. Avec des boîtes grises, personne ne sait ce qui est quoi dans le cadre.
 - Si un élément n'est pas évident, **nommez-le** avec une petite étiquette (« loup », « calque avant »).
-- Repérez votre **moment dataviz** et votre **composant Vue** (navigateur de chapitres et barre de progression).
+- Repérez votre **moment dataviz** et vos **composants Vue** : le navigateur de chapitres et la barre de progression, une personne par composant.
 - **Poussez votre concept** : la v2 est le moment d'aller plus loin que le minimum. Votre angle, votre identité visuelle et votre moment surprenant doivent se voir dans les cadres (voir [La créativité compte](index.md#creativite)).
 
 ### La fiche d'annotation
@@ -290,7 +290,8 @@ Vérification : les deux techniques (CSS au défilement, GSAP + ScrollTrigger) a
 | Chapitres [numéros] | [Prénom] | Contenu, intégration, animations |
 | Média animable 1 : [format] | [Prénom] | Préparation et intégration |
 | Média animable 2 : [format] | [Prénom] | Préparation et intégration |
-| Composant Vue : navigateur de chapitres et barre de progression | [Prénom] | |
+| Composant Vue : navigateur de chapitres | [Prénom] | `js/navigation.js` |
+| Composant Vue : barre de progression | [Prénom] | `js/progression.js` |
 | Extension GSAP : [nom de l'extension], chapitre [numéro] | [Prénom] | L'effet et son intégration |
 | *Fetch* externe et dataviz | [Prénom] | |
 | Chargement des chapitres (JSON) | [Prénom] | |

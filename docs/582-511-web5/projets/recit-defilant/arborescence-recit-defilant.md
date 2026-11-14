@@ -11,7 +11,7 @@
 
 !!! info "Votre récit se construit en deux phases { #deux-phases }"
     1. *Phase 1*{ .w5-phase .w5-phase-1 } : **intégration statique.** Vous écrivez vos chapitres **directement en HTML et en CSS**, puis vous les animez. Vous voyez vos éléments dans le code et dans l'inspecteur : c'est plus simple pour concevoir et animer. **Du 6 au ~~13~~ 18 nov.**, accepté jusqu'au **prototype** (~~ven. 13 nov.~~ mer. 18 nov.).
-    2. *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique.** Vous déplacez le texte et les médias de vos chapitres dans `data.json`, et le JavaScript construit les sections. **Du ~~13 au 20 nov.~~ 18 nov. à la bêta**, **exigé à la bêta** (~~ven. 20 nov.~~ reportée, date à confirmer).
+    2. *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique.** Vous déplacez le texte et les médias de vos chapitres dans `data.json`, et le JavaScript construit les sections. **Du ~~13 au 20 nov.~~ 18 nov. à la bêta**, **exigé à la bêta** (~~ven. 20 nov.~~ **ven. 27 nov.**).
 
     Si votre HTML statique est écrit **comme le JavaScript le construira** (même `<section>`, mêmes classes), le passage à la *phase 2*{ .w5-phase .w5-phase-2 } ne change pas une ligne de vos animations. [Comment passer à la *phase 2*{ .w5-phase .w5-phase-2 }](#phase-2).
 
@@ -105,7 +105,7 @@ Chaque chapitre est une `<section>`, écrite à la main dans `index.html`. Écri
 
 ### *Phase 2*{ .w5-phase .w5-phase-2 }, intégration dynamique : les chapitres construits par le JavaScript { #html-phase-2 }
 
-> Du ~~13 au 20 novembre~~ 18 novembre à la bêta (date à confirmer)
+> Du ~~13 au 20 novembre~~ 18 au 27 novembre (bêta)
 
 Le `<main>` est vide : les chapitres sont construits par le JavaScript, à partir de `data.json`.
 
@@ -412,7 +412,7 @@ L'ordre du tableau `chapterModules` doit suivre l'ordre des chapitres dans `data
 
 ## Passer à la *phase 2*{ .w5-phase .w5-phase-2 } { #phase-2 }
 
-> Du ~~13 au 20 novembre~~ 18 novembre à la bêta (date à confirmer)
+> Du ~~13 au 20 novembre~~ 18 au 27 novembre (bêta)
 
 Votre chapitre fonctionne en HTML statique? Pour le passer aux données, chapitre par chapitre :
 

@@ -7,7 +7,7 @@
 
 1. Votre récit contient au moins un **moment dataviz** : des **données réelles** qui apparaissent au bon moment et font avancer l'histoire.
 2. Une bonne dataviz de récit, c'est **une question, une donnée, une forme simple, une révélation au défilement, une chute**.
-3. L'API (Application Programming Interface) se choisit et se teste au cours du ~~ven. 13 nov.~~ **mer. 18 nov.** : [choisir et tester votre API](#api). Elle doit fonctionner **à la bêta** (~~ven. 20 nov.~~ reportée, date à confirmer).
+3. L'API (Application Programming Interface) se choisit et se teste au cours du ~~ven. 13 nov.~~ **mer. 18 nov.** : [choisir et tester votre API](#api). Elle doit fonctionner **à la bêta** (~~ven. 20 nov.~~ **ven. 27 nov.**) : les vraies données s'affichent. L'animation de la dataviz peut attendre après la bêta.
 
 </div>
 
