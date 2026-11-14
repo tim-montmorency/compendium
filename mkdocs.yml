@@ -375,6 +375,7 @@ nav:
         - "Méthodes et événements": 582-511-web5/vue/methodes-evenements.md
         - "Classe dynamique": 582-511-web5/vue/classe-dynamique.md
         - "Boucle v-for": 582-511-web5/vue/boucle.md
+        - "Cycle de vie: mounted()": 582-511-web5/vue/mounted.md
       - Exercices:
           - "Conflit Git (en duo)": 582-511-web5/exercices/ex-conflit-git/index.md
           - "Spritesheet: monstre qui marche": 582-511-web5/exercices/ex-spritesheet/index.md

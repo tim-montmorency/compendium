@@ -126,14 +126,71 @@ Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de 
 <head>
   <meta charset="UTF-8">
   <title>Bac à sable Vue</title>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700">
   <style>
-    .chapitre { min-height: 100vh; padding: 2rem; }
+    body {
+      margin: 0;
+      background: #0b0b0c;
+      color: #f4f4f5;
+      font-family: "Poppins", sans-serif;
+    }
     [v-cloak] { display: none; }
-    .actif { font-weight: 700; color: #FF2B47; }
-    .chapitres-nav { position: fixed; top: 40%; right: 1rem; }
+
+    /* Les chapitres : un écran chacun, un fond différent */
+    .chapitre {
+      min-height: 100vh;
+      display: grid;
+      place-content: center;
+      text-align: center;
+    }
+    .chapitre h2 { margin: 0; font-size: 4rem; }
+    .surtitre {
+      margin: 0;
+      color: #a1a1aa;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+    #la-foret {
+      background: radial-gradient(circle at 30% 70%, #1d3b2a, #0b0b0c 70%);
+    }
+    #la-maison {
+      background: radial-gradient(circle at 70% 30%, #3b2a1d, #0b0b0c 70%);
+    }
+    #le-loup {
+      background: radial-gradient(circle at 40% 40%, #2a2d3b, #0b0b0c 70%);
+    }
+    #la-fin {
+      background: radial-gradient(circle at 60% 60%, #3b1d24, #0b0b0c 70%);
+    }
+
+    /* Le navigateur de chapitres */
+    .chapitres-nav {
+      position: fixed;
+      top: 50%;
+      right: 2rem;
+      transform: translateY(-50%);
+      padding: 1rem 1.5rem 1rem 1rem;
+      background: rgb(20 20 22 / 0.85);
+      border: 1px solid #2c2c31;
+      border-radius: 12px;
+    }
+    .chapitres-nav__actuel {
+      margin: 0 0 0.5rem;
+      color: #a1a1aa;
+      font-size: 0.8rem;
+    }
+    .chapitres-nav a { color: inherit; text-decoration: none; }
+    .chapitres-nav a.actif { font-weight: 700; color: #FF2B47; }
+
+    /* La barre de progression */
     .progression {
-      position: fixed; inset: 0 0 auto 0; height: 4px;
-      background: #FF2B47; transform-origin: left;
+      position: fixed;
+      inset: 0 0 auto 0;
+      z-index: 1;
+      height: 6px;
+      background: #FF2B47;
+      transform-origin: left;
     }
   </style>
 </head>
@@ -141,10 +198,22 @@ Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de 
   <div id="navigation"></div>
 
   <main>
-    <section class="chapitre" id="la-foret"><h2>La forêt</h2></section>
-    <section class="chapitre" id="la-maison"><h2>La maison</h2></section>
-    <section class="chapitre" id="le-loup"><h2>Le loup</h2></section>
-    <section class="chapitre" id="la-fin"><h2>La fin</h2></section>
+    <section class="chapitre" id="la-foret">
+      <p class="surtitre">Chapitre 1</p>
+      <h2>La forêt</h2>
+    </section>
+    <section class="chapitre" id="la-maison">
+      <p class="surtitre">Chapitre 2</p>
+      <h2>La maison</h2>
+    </section>
+    <section class="chapitre" id="le-loup">
+      <p class="surtitre">Chapitre 3</p>
+      <h2>Le loup</h2>
+    </section>
+    <section class="chapitre" id="la-fin">
+      <p class="surtitre">Chapitre 4</p>
+      <h2>La fin</h2>
+    </section>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.js">
@@ -175,7 +244,7 @@ Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de 
 - [ ] `v-for` : la liste des chapitres
 - [ ] `:class` : le chapitre actif
 - [ ] `@click` et une méthode : aller au chapitre
-- [ ] `mounted()` : écouter le défilement
+- [ ] `mounted()` : écouter le défilement. C'est nouveau : [Le cycle de vie : `mounted()`](vue/mounted.md)
 - [ ] Pour aller plus loin, si on a le temps : `computed`, le titre du chapitre actif
 
 [:simple-vuedotjs: Le composant Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }

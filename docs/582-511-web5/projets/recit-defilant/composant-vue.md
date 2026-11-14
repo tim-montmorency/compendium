@@ -204,7 +204,7 @@ Bloqué? Un indice à la fois :
     Dans une méthode, on change une donnée avec `this`. La boucle vous donne déjà l'`index` du chapitre.
 
 ??? tip "Indice : `mounted()`"
-    `window.addEventListener(type, fonction, options)`. La fonction, c'est `this.updateScroll`, **sans parenthèses** : on la donne, on ne l'appelle pas. L'appel « une première fois », lui, prend des parenthèses.
+    `window.addEventListener(type, fonction, options)`. La fonction, c'est `this.updateScroll`, **sans parenthèses** : on la donne, on ne l'appelle pas. L'appel « une première fois », lui, prend des parenthèses. Un exemple complet, avec `"resize"` : [Le cycle de vie : `mounted()`](../../vue/mounted.md#syntaxe).
 
 Toujours coincé? Les étapes de la démo, faites en classe, sont le meilleur point de départ : venez me voir.
 
@@ -216,7 +216,7 @@ Toujours coincé? Les étapes de la démo, faites en classe, sont le meilleur po
 
 **`methods`** : les **actions**, appelées par un événement (`@click`) ou par votre code. Dans une méthode, `this.chapters`, `this.activeChapterIndex` : ce sont les données de `data()`.
 
-**`mounted()`** s'exécute **une fois**, quand le composant est branché sur la page. C'est le bon endroit pour écouter le défilement. On appelle aussi `updateScroll()` tout de suite, pour le cas où la page est déjà défilée au chargement.
+**`mounted()`** s'exécute **une fois**, quand le composant est branché sur la page. C'est le bon endroit pour écouter le défilement. On appelle aussi `updateScroll()` tout de suite, pour le cas où la page est déjà défilée au chargement. Nouveau pour vous? Voir [Le cycle de vie : `mounted()`](../../vue/mounted.md).
 
 !!! warning "`this` dans Vue : pas de fonction fléchée dans `methods`"
     Dans `data` et `methods`, `this` désigne **le composant**. Écrivez donc vos méthodes avec la forme courte `goTo(id) { ... }`, jamais `goTo: (id) => { ... }` : une [fonction fléchée](../../js/recap-js.md#fonctions-flechees) n'a pas son propre `this`, et `this.chapters` serait `undefined`.
