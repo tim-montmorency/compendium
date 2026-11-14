@@ -284,7 +284,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 ## 5. :material-account-multiple-outline:  Dans votre projet
 
-**La personne responsable du composant Vue** (voir votre matrice de responsabilités) l'intègre d'ici la **bêta** (ven. 20 nov.) :
+**La personne responsable du composant Vue** (voir votre matrice de responsabilités) l'intègre d'ici la **bêta** (~~ven. 20 nov.~~ date à confirmer) :
 
 1. Sur sa branche, crée `js/navigation.js` à partir du bac à sable.
 2. Ajoute la zone `#navigation` et la balise de Vue dans `index.html` : c'est un fichier **commun**, prévenez votre coéquipier ou coéquipière.

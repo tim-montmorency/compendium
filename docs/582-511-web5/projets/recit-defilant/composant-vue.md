@@ -257,15 +257,14 @@ La barre utilise `transform: scaleX()` plutôt que `width` : `transform` ne reca
 
 ## Votre composant à vous { #votre-composant }
 
-Le composant imposé, c'est **le navigateur de chapitres ou la barre de progression**, au choix. La personne responsable est inscrite dans la matrice du cahier de charges.
+Le composant imposé réunit **les deux** : le navigateur de chapitres **et** la barre de progression. La personne responsable est inscrite dans la matrice du cahier de charges.
 
 Prenez le code de cette page comme **départ**, puis faites-le vôtre :
 
-- **Navigateur seulement?** Retirez la barre et `progress`. **Barre seulement?** Retirez la liste, et gardez `progress`.
 - **Le style** : des points plutôt que des titres, des numéros de chapitre, une icône par chapitre (ajoutez une clé dans vos chapitres).
 - **Sur mobile** : le navigateur prend de la place. Affichez seulement le chapitre actif, et la liste au toucher (`v-if`, une donnée `isOpen`).
 
-Dans tous les cas, votre composant utilise **une donnée**, **une directive** (`v-for` ou `:class`) et **une méthode** : c'est ce que vous devrez expliquer à la [défense](index.md#calendrier) (cours 15.1, mer. 9 déc.).
+Les données, les directives (`v-for`, `:class`) et les méthodes de votre composant : c'est ce que vous devrez expliquer à la [défense](index.md#calendrier) (cours 15.1, mer. 9 déc.).
 
 !!! tip "Avec ScrollTo, une extension GSAP"
     Dans `goTo()`, vous pouvez remplacer `scrollIntoView()` par [ScrollTo](../../js/gsap-scrollto.md) : il tient compte des sections épinglées, et la durée et l'*easing* se règlent. Chargez le plugin par CDN et enregistrez-le dans `main.js`.
