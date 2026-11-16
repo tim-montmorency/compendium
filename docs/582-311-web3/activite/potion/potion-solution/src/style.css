@@ -1,6 +1,6 @@
 @import "tailwindcss";
-@import "@fontsource/cedarville-cursive";
+@import "@fontsource/princess-sofia";
 
 @theme {
-  --font-cedarville: "Cedarville Cursive", cursive;
+  --font-display: "Princess Sofia", cursive;
 }
