@@ -89,17 +89,18 @@ Chaque `TODO` dit à qui il revient : **barre** ou **navigateur**.
 </div>
 ```
 
-Chaque `TODO` se règle avec une des notions de ce tableau : tout ce qu'il faut savoir de Vue pour vos composants.
+Chaque `TODO` se règle avec une notion vue au cours 11.1 et dans les exercices. **Cherchez d'abord par vous-même** : vos exercices et vos notes sont là pour ça.
 
-| Dans le HTML | Nom | Ce que ça fait |
-|---|---|---|
-| `{{ chapter.titre }}` | Interpolation | Affiche la valeur d'une donnée. Quand elle change, le texte change. |
-| `v-for="... in chapters"` | Directive `v-for` | Répète l'élément pour chaque chapitre du tableau. C'est le `forEach` de Vue, directement dans le HTML. |
-| `:key="chapter.id"` | Clé | Un identifiant unique par élément répété : Vue s'en sert pour s'y retrouver. |
-| `:class="{ actif: ... }"` | Classe dynamique | Ajoute la classe `actif` **si** la condition est vraie, et la retire sinon. |
-| `:style`, `:href`, `:aria-current` | Attribut lié (`v-bind`) | Le deux-points veut dire : « la valeur est du JavaScript, pas du texte ». `:style` reçoit un objet, comme `:class`. Forme longue : `v-bind:href`. |
-| `@click.prevent="goTo(...)"` | Événement (`v-on`) | Appelle une méthode au clic. `.prevent`, c'est le `event.preventDefault()` : le lien ne saute pas brusquement. Forme longue : `v-on:click`. |
-| `v-cloak` | Directive `v-cloak` | Cache la zone **tant que Vue n'a pas démarré** (voir le CSS plus bas). |
+??? tip "Coincé? Les notions de Vue, en un tableau"
+    | Dans le HTML | Nom | Ce que ça fait |
+    |---|---|---|
+    | `{{ chapter.titre }}` | [Interpolation](../../vue/interpolation.md#interpolation) | Affiche la valeur d'une donnée. Quand elle change, le texte change. |
+    | `v-for="... in chapters"` | [Directive `v-for`](../../vue/boucle.md#v-for) | Répète l'élément pour chaque chapitre du tableau. C'est le `forEach` de Vue, directement dans le HTML. |
+    | `:key="chapter.id"` | [Clé](../../vue/boucle.md#key) | Un identifiant unique par élément répété : Vue s'en sert pour s'y retrouver. |
+    | `:class="{ actif: ... }"` | [Classe dynamique](../../vue/classe-dynamique.md#class) | Ajoute la classe `actif` **si** la condition est vraie, et la retire sinon. |
+    | `:style`, `:href`, `:aria-current` | [Attribut lié (`v-bind`)](../../vue/interpolation.md#v-bind) | Le deux-points veut dire : « la valeur est du JavaScript, pas du texte ». `:style` reçoit un objet, comme `:class`. Forme longue : `v-bind:href`. |
+    | `@click.prevent="goTo(...)"` | [Événement (`v-on`)](../../vue/methodes-evenements.md#v-on) | Appelle une méthode au clic. [`.prevent`](../../vue/methodes-evenements.md#prevent), c'est le `event.preventDefault()` : le lien ne saute pas brusquement. Forme longue : `v-on:click`. |
+    | `v-cloak` | [Directive `v-cloak`](../../vue/creation-app.md#v-cloak) | Cache la zone **tant que Vue n'a pas démarré** (voir le CSS plus bas). |
 
 Le CSS qui va avec `v-cloak`, dans `commun.css` :
 
@@ -302,7 +303,7 @@ La barre utilise `transform: scaleX()` plutôt que `width` : `transform` ne reca
 
 ## Votre composant à vous { #votre-composant }
 
-Les deux composants sont imposés, **une personne par composant** : l'une fait le navigateur de chapitres, l'autre la barre de progression. Inscrivez qui fait quoi dans la matrice du cahier de charges.
+Les deux composants sont imposés, **une personne par composant** : l'une fait le navigateur de chapitres, l'autre la barre de progression. Inscrivez qui fait quoi dans la matrice du cahier de charges. Une équipe de 3? La 3e personne fait [le panneau de l'équipe](#equipe).
 
 Prenez le code de cette page comme **départ**, puis faites-le vôtre :
 
@@ -313,6 +314,110 @@ Chaque personne explique les données, les directives et les méthodes de **son*
 
 !!! tip "Avec ScrollTo, une extension GSAP"
     Dans `goTo()`, vous pouvez remplacer `scrollIntoView()` par [ScrollTo](../../js/gsap-scrollto.md) : il tient compte des sections épinglées, et la durée et l'*easing* se règlent. Chargez le plugin par CDN et enregistrez-le dans `main.js`.
+
+## Équipe de 3 : le panneau de l'équipe { #equipe }
+
+Votre équipe compte trois personnes? La 3e personne code un 3e composant : **le panneau de l'équipe**. Un bouton « L'équipe » ouvre un panneau qui présente les auteurs du récit et leur rôle, et le cadre du projet. Même recette que les deux autres : des données, des méthodes, `mounted()`. Deux notions de plus : [`v-show`](../../vue/condition.md#v-show) et le clavier.
+
+### Le HTML { #equipe-html }
+
+Une 3e zone dans `index.html` :
+
+```html
+<div id="equipe" v-cloak>
+  <!-- TODO equipe : au clic, ouvrir ou fermer le panneau -->
+  <!-- TODO equipe : aria-expanded vaut isOpen -->
+  <button class="equipe-bouton" aria-controls="equipe-panneau">
+    L'équipe
+  </button>
+
+  <!-- TODO equipe : le panneau s'affiche seulement si isOpen est vrai -->
+  <aside id="equipe-panneau" class="equipe-panneau">
+    <h2>L'équipe</h2>
+    <ul>
+      <!-- TODO equipe : répéter ce <li> pour chaque membre de members,
+           avec une :key unique -->
+      <li>
+        <!-- TODO equipe : le nom du membre, puis son rôle -->
+      </li>
+    </ul>
+    <p>Projet réalisé dans le cadre du cours Web 5, en Techniques
+      d'intégration multimédia, au Collège Montmorency, automne 2026.</p>
+    <!-- TODO equipe : au clic, fermer le panneau -->
+    <button>Fermer</button>
+  </aside>
+</div>
+```
+
+### Le JavaScript : `js/equipe.js` { #js-equipe }
+
+```js
+export function createTeamPanel() {
+  Vue.createApp({
+    data() {
+      return {
+        // TODO equipe : 2 données, avec ces noms (le HTML les utilise)
+        // - members : un tableau, un objet { nom, role } par membre
+        // - isOpen : le panneau est-il ouvert? (au départ : false)
+      };
+    },
+
+    methods: {
+      toggle() {
+        // TODO equipe : isOpen devient son contraire
+      },
+
+      close() {
+        // TODO equipe : isOpen devient false
+      },
+
+      closeOnEscape(event) {
+        if (event.key === "Escape") {
+          // TODO equipe : fermer le panneau
+        }
+      },
+    },
+
+    mounted() {
+      // TODO equipe : à chaque touche du clavier ("keydown"),
+      // appeler closeOnEscape
+    },
+  }).mount("#equipe");
+}
+```
+
+Dans `main.js`, comme les deux autres : `import { createTeamPanel } from "./equipe.js";`, puis `createTeamPanel();`.
+
+### Le CSS de départ { #equipe-css }
+
+```css
+.equipe-bouton {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 10;
+}
+
+.equipe-panneau {
+  position: fixed;
+  bottom: 4rem;
+  left: 1rem;
+  max-width: 24rem;
+  padding: 1.5rem;
+  background: #111;
+  color: #fff;
+  z-index: 10;
+}
+```
+
+??? tip "Indice equipe : `v-show`"
+    `v-show` reçoit une condition, comme `v-if`. L'élément reste dans le HTML, mais il est caché quand la condition est fausse : parfait pour un panneau qu'on ouvre et ferme souvent. Voir [Affichage conditionnel avec `v-show`](../../vue/condition.md#v-show).
+
+??? tip "Indice equipe : son contraire"
+    En JavaScript, `!` inverse un booléen : `!true` vaut `false`. Dans une méthode, on change une donnée avec `this`.
+
+??? tip "Indice equipe : `mounted()`"
+    La même recette que `"scroll"` dans les deux autres composants, avec `"keydown"`. Pas besoin d'appel « une première fois » : au départ, le panneau est fermé. Voir [Le cycle de vie : `mounted()`](../../vue/mounted.md#syntaxe).
 
 ## Les erreurs fréquentes { #erreurs }
 

@@ -13,18 +13,23 @@
 </head>
 <body>
 
-  <!-- Composant Vue : barre de progression + navigateur de chapitres -->
+  <!-- Composant Vue 1 : la barre de progression (Personne B) -->
+  <div id="barre-progression" v-cloak>
+    <div class="progression"
+         :style="{ transform: 'scaleX(' + progress + ')' }"></div>
+  </div>
+
+  <!-- Composant Vue 2 : le navigateur de chapitres (Personne A) -->
   <div id="navigation" v-cloak>
-    <div class="progression" :style="{ transform: 'scaleX(' + progression + ')' }"></div>
     <nav class="chapitres-nav" aria-label="Chapitres">
       <ol>
-        <li v-for="(chapitre, index) in chapitres" :key="chapitre.id">
-          <a :href="'#' + chapitre.id"
-             :class="{ actif: index === actif }"
-             :aria-current="index === actif ? 'step' : null"
-             @click.prevent="aller(chapitre.id)">
-            <span class="chapitres-nav__numero">{{ chapitre.numero }}</span>
-            <span class="chapitres-nav__titre">{{ chapitre.titre }}</span>
+        <li v-for="(chapter, index) in chapters" :key="chapter.id">
+          <a :href="'#' + chapter.id"
+             :class="{ actif: index === activeChapterIndex }"
+             :aria-current="index === activeChapterIndex ? 'step' : null"
+             @click.prevent="goTo(chapter.id)">
+            <span class="chapitres-nav__numero">{{ chapter.numero }}</span>
+            <span class="chapitres-nav__titre">{{ chapter.titre }}</span>
           </a>
         </li>
       </ol>
@@ -37,7 +42,7 @@
     <p class="consigne">Faites défiler pour commencer</p>
   </header>
 
-  <!-- Les chapitres sont générés en JavaScript à partir de data/chapitres.json -->
+  <!-- Les chapitres sont générés en JavaScript à partir de data/data.json -->
   <main id="recit" aria-live="polite"></main>
 
   <footer class="pied">

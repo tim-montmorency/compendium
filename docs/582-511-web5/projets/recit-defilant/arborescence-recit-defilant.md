@@ -18,6 +18,8 @@
 
 ## L'arborescence
 
+Comment ces fichiers se parlent : [Le récit en un coup d'œil](schema-du-recit.md), en un schéma.
+
 Exemple pour 6 chapitres. Le `README.md` et le dossier `documentation/` existent déjà depuis la remise du cahier de charges : on ajoute le reste autour.
 
 ```text
@@ -41,6 +43,8 @@ css/
     ch-06.css
 js/
   main.js                    ← commun : fetch, construction des chapitres
+  navigation.js              ← composant Vue : une personne
+  progression.js             ← composant Vue : l'autre personne
   chapitres/
     ch-01.js                 ← le responsable du chapitre 1
     ch-02.js
@@ -432,6 +436,7 @@ Vos animations, elles, **ne changent pas** : `animate(section)` reçoit la même
 | `css/chapitres/ch-03.css`, `js/chapitres/ch-03.js` | Le responsable du chapitre 3 | Sur sa branche, librement |
 | `data.json`, le `contenu` d'un chapitre | Le responsable du chapitre | Librement : seul son module le lit |
 | `data.json`, les clés communes | Toute l'équipe | On s'entend avant, et une personne modifie tous les chapitres d'un coup ([voir plus haut](#data-json)) |
+| `js/navigation.js`, `js/progression.js` | Une personne par composant Vue | Sur sa branche, librement |
 | `index.html`, `commun.css`, `main.js`, `style.css` | Toute l'équipe | On se prévient avant d'y toucher, et on fusionne vite |
 
 ## Créer la structure, au début

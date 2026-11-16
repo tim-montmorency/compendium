@@ -1,6 +1,6 @@
 # Rendu de liste avec `v-for`
 
-## Boucle `v-for`
+## Boucle `v-for` { #v-for }
 
 Vue permet de parcourir rendre une liste d'items basée sur un tableau `[ ]` d'objets `{prop:value}` grâce à la directive `v-for`.
 
@@ -30,6 +30,19 @@ Si l’on veut accéder à une propriété de cet objet (comme `picture`, `first
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+
+## La clé `:key` { #key }
+
+Dans une boucle, donnez à chaque élément répété un **identifiant unique**, avec `:key`. Vue s'en sert pour savoir quel élément est lequel quand la liste change : il met à jour le bon élément, au lieu de tout reconstruire.
+
+```html
+<div v-for="role in rolesArr" :key="role.id">
+  <img :src="role.picture">
+</div>
+```
+
+- La clé doit être **unique** dans la liste : un `id` est idéal.
+- Le deux-points est important : `:key` reçoit une valeur JavaScript (`role.id`), pas le texte « role.id ».
 
 ## Index de la boucle
 

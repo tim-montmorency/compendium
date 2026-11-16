@@ -59,11 +59,13 @@ Un récit sur un thème de votre choix, par exemple :
 | **Dataviz** | Au moins un `fetch()` vers une **API** (Application Programming Interface) **externe gratuite**, pour un moment de visualisation de données ou un élément « vivant ». Au cahier de charges, vous décrivez seulement l'idée et le genre de données : l'API se choisit au cours du ~~ven. 13 nov.~~ mer. 18 nov. ([Choisir et tester votre API](dataviz.md#api)). Le `fetch()` est lancé par **IntersectionObserver**, quand le visiteur approche du moment dataviz ([déclencher une fois](../../js/intersection-observer.md)). Elle doit fonctionner à la bêta. |
 | **Animations** | Au moins une animation de chaque technique : **CSS au défilement** (`animation-timeline`) et **GSAP + ScrollTrigger**. |
 | **Extension GSAP** | Au moins **un effet** fait avec une [extension de GSAP](../../js/gsap-bases.md#extensions), au moins une fois dans le récit (par équipe) : SplitText, ScrambleText, TextPlugin, MotionPath, DrawSVG, MorphSVG, Flip ou ScrollTo. ScrollTrigger ne compte pas : il est déjà exigé. La personne qui l'intègre est inscrite dans la [matrice de responsabilités](cahier-de-charges.md#le-gabarit) du cahier de charges. |
-| **Vue.js** | Deux composants imposés, **une personne par composant** : le **navigateur de chapitres** et la **barre de progression**. Vue est chargé par CDN, sans *build*. Voir [Les composants Vue](composant-vue.md). |
+| **Vue.js** | Deux composants imposés, **une personne par composant** : le **navigateur de chapitres** et la **barre de progression**. Une équipe de 3 ajoute un 3e composant : le [panneau de l'équipe](composant-vue.md#equipe). Vue est chargé par CDN, sans *build*. Voir [Les composants Vue](composant-vue.md). |
 | **Média animable** | Un par personne, préparé pour l'animation (voir plus bas). |
 | **Responsive** | Le récit fonctionne sur desktop et sur mobile. Les animations peuvent y être simplifiées. |
 | **Accessibilité** | Le récit reste lisible **sans animation**, avec `prefers-reduced-motion`. |
 | **Déploiement** | En ligne sur GitHub Pages. |
+
+[:material-sitemap-outline: Le récit en un coup d'œil : les fichiers et comment ils se parlent](schema-du-recit.md){ .md-button }
 
 ### La créativité compte { #creativite }
 

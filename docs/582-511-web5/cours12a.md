@@ -6,6 +6,17 @@
 !!! warning "Cours reporté : ~~ven. 13 nov.~~ mer. 18 nov."
     En raison de la levée de cours, ce cours et la démo du prototype ont lieu le **mer. 18 nov.** La **bêta est aussi reportée**, au **ven. 27 nov.**
 
+!!! danger "Changement : un composant Vue par personne, obligatoire"
+    Il n'y a **plus de choix** entre le navigateur de chapitres et la barre de progression : **les deux sont exigés**, et **chaque personne en code un**.
+
+    - Une personne : le **navigateur de chapitres** (`js/navigation.js`).
+    - L'autre personne : la **barre de progression** (`js/progression.js`).
+    - Une équipe de 3 : la 3e personne code le **panneau de l'équipe** (`js/equipe.js`), qui présente les auteurs et leur rôle. [Le squelette](projets/recit-defilant/composant-vue.md#equipe).
+
+    Chacun l'intègre, le commente et le défend à la [défense](projets/recit-defilant/index.md#calendrier) (cours 15.1, mer. 9 déc.).
+
+    **À faire d'ici le ven. 20 nov.** : mettez à jour la **section 4, matrice de responsabilités**, de votre `CAHIER-DE-CHARGES.md`. Remplacez la ligne du composant Vue par deux lignes, une par composant, avec le prénom de la personne responsable ([le gabarit](projets/recit-defilant/cahier-de-charges.md#le-gabarit)). *Commit* : `Cahier : un composant Vue par personne`.
+
 <div class="class-content-link">
   <img src="assets/IA-restreinte.png">
   <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
@@ -306,6 +317,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 ### D'ici le ven. 20 nov. (cours 12.2)
 
+- **La matrice de responsabilités à jour** (section 4 du `CAHIER-DE-CHARGES.md`) : une ligne par composant Vue, avec son responsable.
 - **Votre composant Vue terminé dans votre bac à sable** : on l'intègre au projet ensemble, en atelier.
 - **Votre API testée** : l'appel fonctionne, et `console.log()` affiche la donnée que vous voulez montrer ([les 7 étapes](projets/recit-defilant/dataviz.md#api)).
 - L'API documentée dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)), *commit* `Cahier : ajoute l'API de la dataviz`.
