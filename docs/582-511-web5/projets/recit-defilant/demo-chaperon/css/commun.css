@@ -1,0 +1,225 @@
+/* =========================================================
+   Commun : la base de tout le récit (toute l'équipe)
+   Le Petit Chaperon rouge : démo de récit défilant (Web 5)
+   ========================================================= */
+
+:root {
+  --noir: #0A0A0A;
+  --nuit: #1A1B1F;
+  --blanc: #F2F2F2;
+  --creme: #E9E4D8;
+  --gris: #A8A8A8;
+  --rouge: #FF2B47;
+  --jaune: #FFC83D;
+  --largeur-texte: 38rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Les objets qui arrivent de très loin ne doivent pas créer de défilement horizontal */
+html,
+body {
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  background: var(--noir);
+  color: var(--blanc);
+  font-family: "Poppins", system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  transition: background-color 0.8s, color 0.8s;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+/* ---------- En-tête ---------- */
+
+.entete {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8vw;
+}
+
+.surtitre,
+.chapitre__numero {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gris);
+}
+
+h1 {
+  margin: 0.5rem 0 0;
+  font-size: clamp(2.8rem, 9vw, 7rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.point {
+  color: var(--rouge);
+}
+
+.consigne {
+  margin-top: 3rem;
+  color: var(--gris);
+}
+
+/* Le titre explose en quittant l'écran (CSS au défilement) */
+@supports (animation-timeline: view()) {
+  .entete h1 {
+    animation: titre-sortie linear both;
+    animation-timeline: view();
+    animation-range: exit 0% exit 80%;
+    transform-origin: left center;
+  }
+}
+
+@keyframes titre-sortie {
+  to { transform: scale(2.6) translateY(-20%); opacity: 0; }
+}
+
+/* ---------- Chapitres ---------- */
+
+.chapitre {
+  position: relative;
+  min-height: 100vh;
+  padding: 20vh 8vw;
+}
+
+.chapitre__texte {
+  position: relative;
+  z-index: 2;
+  max-width: var(--largeur-texte);
+}
+
+.chapitre h2 {
+  margin: 0.4rem 0 1.5rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/* ---------- Composants Vue : la barre et le navigateur ---------- */
+
+.progression {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 4px;
+  background: var(--rouge);
+  transform-origin: left;
+}
+
+.chapitres-nav {
+  position: fixed;
+  top: 50%;
+  right: 1.5rem;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+.chapitres-nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.chapitres-nav a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.6rem;
+  color: var(--gris);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.chapitres-nav__numero {
+  display: grid;
+  place-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+}
+
+/* Le titre est positionné à gauche du numéro : les numéros restent alignés */
+.chapitres-nav a {
+  position: relative;
+}
+
+.chapitres-nav__titre {
+  position: absolute;
+  right: calc(100% + 0.6rem);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.chapitres-nav a:hover .chapitres-nav__titre,
+.chapitres-nav a:focus-visible .chapitres-nav__titre {
+  opacity: 1;
+}
+
+.chapitres-nav a.actif {
+  color: var(--rouge);
+}
+
+.chapitres-nav a:focus-visible {
+  outline: 2px solid var(--rouge);
+  outline-offset: 4px;
+}
+
+/* ---------- Pied de page ---------- */
+
+.pied {
+  padding: 4rem 8vw;
+  font-size: 0.8rem;
+  color: var(--gris);
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 700px) {
+  .chapitres-nav {
+    display: none;
+  }
+  .chapitre {
+    padding: 15vh 6vw;
+  }
+}
+
+/* ---------- Accessibilité : moins de mouvement ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  body {
+    transition: none;
+  }
+  .entete h1 {
+    animation: none;
+  }
+}

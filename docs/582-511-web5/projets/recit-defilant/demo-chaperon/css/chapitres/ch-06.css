@@ -1,0 +1,43 @@
+/* =========================================================
+   Chapitre 6 : la maison (SVG et GSAP, épinglée)
+   Responsable : Personne A
+   Toutes les règles ciblent la section #chez-la-mere-grand.
+   ========================================================= */
+
+/* La section est épinglée : elle doit tenir dans un écran */
+#chez-la-mere-grand {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4vw;
+  height: 100vh;
+  min-height: 0;
+  padding: 0 8vw;
+  overflow: hidden;
+}
+
+#chez-la-mere-grand .maison {
+  position: relative;
+  z-index: 3; /* la maison passe devant le texte quand elle grossit */
+  max-width: 34rem;
+}
+
+#chez-la-mere-grand .maison svg {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  #chez-la-mere-grand {
+    grid-template-columns: 1fr;
+    align-content: center;
+    gap: 1rem;
+    padding: 0 6vw;
+  }
+  #chez-la-mere-grand h2 {
+    margin-bottom: 0.5rem;
+  }
+  #chez-la-mere-grand .maison {
+    max-width: 70vw;
+  }
+}

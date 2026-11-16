@@ -1,0 +1,69 @@
+/* =========================================================
+   Chapitre 7 : le dialogue (CSS au défilement)
+   Responsable : Personne A
+   Toutes les règles ciblent la section #grandes-dents.
+   ========================================================= */
+
+#grandes-dents .dialogue {
+  list-style: none;
+  margin: 4rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 18vh;
+}
+
+#grandes-dents .replique__question {
+  margin: 0;
+  font-size: clamp(1.4rem, 3.5vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+#grandes-dents .replique__reponse {
+  margin: 0.6rem 0 0;
+  color: var(--gris);
+  font-style: italic;
+}
+
+/* La dernière réplique : énorme, en rouge */
+#grandes-dents .replique:last-child .replique__question {
+  font-size: clamp(2.4rem, 8vw, 6rem);
+  color: var(--rouge);
+}
+
+#grandes-dents .replique:last-child .replique__reponse {
+  font-size: clamp(1.6rem, 4vw, 3rem);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--blanc);
+}
+
+/* Chaque réplique part minuscule et grossit en entrant dans l'écran */
+@supports (animation-timeline: view()) {
+  #grandes-dents .replique {
+    animation: grossir linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%; /* finie bien avant d'atteindre le haut de l'écran */
+    transform-origin: left center;
+  }
+  #grandes-dents .replique:last-child {
+    animation-name: grossir-fort;
+  }
+}
+
+@keyframes grossir {
+  from { transform: scale(0.3); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+
+@keyframes grossir-fort {
+  0%   { transform: scale(0.1) rotate(-6deg); opacity: 0; }
+  80%  { transform: scale(1.15) rotate(2deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #grandes-dents .replique {
+    animation: none;
+  }
+}

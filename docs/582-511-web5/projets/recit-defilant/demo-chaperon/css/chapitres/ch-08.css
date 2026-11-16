@@ -1,0 +1,40 @@
+/* =========================================================
+   Chapitre 8 : la morale (IntersectionObserver)
+   Responsable : Personne B
+   Toutes les règles ciblent la section #la-morale.
+   ========================================================= */
+
+#la-morale p:last-child {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--rouge);
+}
+
+/* Classe ajoutée sur <body> par IntersectionObserver : toute la page vire au rouge.
+   Exception voulue : ces règles touchent toute la page (body, navigation). */
+body.fin-rouge {
+  background-color: var(--rouge);
+  color: var(--noir);
+}
+
+body.fin-rouge #la-morale p:last-child {
+  color: var(--blanc);
+}
+
+body.fin-rouge .chapitre__numero,
+body.fin-rouge .pied {
+  color: var(--noir);
+}
+
+body.fin-rouge .progression {
+  background: var(--noir);
+}
+
+body.fin-rouge .chapitres-nav a {
+  color: var(--noir);
+}
+
+body.fin-rouge .chapitres-nav a.actif {
+  color: var(--blanc);
+}
