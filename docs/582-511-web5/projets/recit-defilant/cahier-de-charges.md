@@ -60,7 +60,7 @@ Pour l'ouvrir : dans l'accueil de Figma, cliquez sur **Importer** (ou glissez le
 - **La fiche d'annotation complète**, à droite des deux cadres (voir ci-dessous).
 - **Des images qui montrent ce qu'on doit voir**, pas des boîtes grises : un croquis, ou une image trouvée ou générée, collée dans le cadre pour représenter chaque élément (le décor, le personnage, l'objet). Ce n'est pas l'image finale, c'est une **référence**. Avec des boîtes grises, personne ne sait ce qui est quoi dans le cadre.
 - Si un élément n'est pas évident, **nommez-le** avec une petite étiquette (« loup », « calque avant »).
-- Repérez votre **moment dataviz** et votre **composant Vue** (navigateur de chapitres ou barre de progression).
+- Repérez votre **moment dataviz** et vos **composants Vue** : le navigateur de chapitres et la barre de progression, une personne par composant.
 - **Poussez votre concept** : la v2 est le moment d'aller plus loin que le minimum. Votre angle, votre identité visuelle et votre moment surprenant doivent se voir dans les cadres (voir [La créativité compte](index.md#creativite)).
 
 ### La fiche d'annotation
@@ -212,7 +212,7 @@ Les clés communes, elles, sont lues par `main.js`, un fichier commun : si vous 
 
 Votre récit doit contenir au moins un moment où des **données réelles** apparaissent : un graphique, un chiffre qui bouge, un élément « vivant » (la météo du jour, l'heure du coucher du soleil, etc.). Ces données viendront d'une **API** (Application Programming Interface), un service en ligne qui renvoie des données en JSON quand on lui envoie une requête avec `fetch()`.
 
-**Au cahier de charges, pas besoin de trouver l'API.** On apprend à interroger une API externe au cours du **ven. 13 nov.**, et c'est là que vous la choisirez et la testerez. Pour l'instant, décrivez seulement :
+**Au cahier de charges, pas besoin de trouver l'API.** On apprend à interroger une API externe au cours du ~~ven. 13 nov.~~ **mer. 18 nov.**, et c'est là que vous la choisirez et la testerez. Pour l'instant, décrivez seulement :
 
 - **le moment** : dans quel chapitre, et ce que les données apportent à votre histoire;
 - **le genre de données** que vous aimeriez montrer (ex. « la température dans une ville », « le nombre de séismes cette semaine », « des œuvres d'un musée »).
@@ -225,7 +225,7 @@ Restez souple : si aucune API ne fournit exactement vos données, on ajustera l'
 
     - [**Public APIs**](https://github.com/public-apis/public-apis#index){ :target="_blank" } : une grande liste d'API gratuites, classées par thème. Visez les colonnes **Auth : `No`** (sans clé d'identification : ni `apiKey`, ni `OAuth`) et **CORS : `Yes`** (utilisable depuis le navigateur; `Unknown` est permis, mais testez avant de choisir). L'index des catégories est loin dans la page : [les liens directs par catégorie](dataviz.md#api-choisir).
     - [**Données Québec**](https://www.donneesquebec.ca/){ :target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ :target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
-    - Quelques API sans clé, à tester le 13 nov. : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Art Institute of Chicago](https://api.artic.edu/docs/){ :target="_blank" } (œuvres d'art), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
+    - Quelques API sans clé, à tester le ~~13~~ 18 nov. : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Art Institute of Chicago](https://api.artic.edu/docs/){ :target="_blank" } (œuvres d'art), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
 
 ## Le gabarit
 
@@ -290,7 +290,8 @@ Vérification : les deux techniques (CSS au défilement, GSAP + ScrollTrigger) a
 | Chapitres [numéros] | [Prénom] | Contenu, intégration, animations |
 | Média animable 1 : [format] | [Prénom] | Préparation et intégration |
 | Média animable 2 : [format] | [Prénom] | Préparation et intégration |
-| Composant Vue : [navigateur de chapitres ou barre de progression] | [Prénom] | |
+| Composant Vue : navigateur de chapitres | [Prénom] | `js/navigation.js` |
+| Composant Vue : barre de progression | [Prénom] | `js/progression.js` |
 | Extension GSAP : [nom de l'extension], chapitre [numéro] | [Prénom] | L'effet et son intégration |
 | *Fetch* externe et dataviz | [Prénom] | |
 | Chargement des chapitres (JSON) | [Prénom] | |
@@ -319,7 +320,7 @@ Version de départ : elle va évoluer, et vous la mettrez à jour à la fin du p
 
 ## 6. La dataviz
 
-L'API sera choisie au cours du ven. 13 nov. Pour l'instant, décrivez l'idée.
+L'API sera choisie au cours du ~~ven. 13 nov.~~ mer. 18 nov. Pour l'instant, décrivez l'idée.
 
 - **Chapitre** : [numéro]
 - **La question** à laquelle le moment répond : [ex. combien de fois la Terre a-t-elle tremblé cette semaine?]

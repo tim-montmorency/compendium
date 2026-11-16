@@ -1,7 +1,10 @@
-# Cours 11.2
-<!-- ven. 13 nov. -->
+# Cours 12.1
+<!-- mer. 18 nov. (reporté du ven. 13 nov. : levée de cours) -->
 
 ![](assets/cours11b-banniere.webp){.w-100}
+
+!!! warning "Cours reporté : ~~ven. 13 nov.~~ mer. 18 nov."
+    En raison de la levée de cours, ce cours et la démo du prototype ont lieu le **mer. 18 nov.** La **bêta est aussi reportée**, au **ven. 27 nov.**
 
 <div class="class-content-link">
   <img src="assets/IA-restreinte.png">
@@ -11,11 +14,11 @@
 <div class="grid" markdown>
 
 <div class="card" markdown>
-:simple-vuedotjs: __Le composant Vue__
+:simple-vuedotjs: __Les composants Vue__
 
 ---
 
-Navigateur de chapitres et barre de progression, construit ensemble, en direct.
+Navigateur de chapitres et barre de progression, construits ensemble, en direct.
 
 [:octicons-arrow-right-24: La référence](projets/recit-defilant/composant-vue.md){ .stretched-link }
 </div>
@@ -45,10 +48,10 @@ Une démo de 60 secondes, sur votre poste. Je passe d'équipe en équipe.
 ## Aujourd'hui
 
 - [ ] API, JSON et fetch : pourquoi ils sont partout
-- [ ] Le composant Vue, construit en direct : vous codez avec moi, dans un bac à sable
+- [ ] Les composants Vue, construits en direct : vous codez avec moi, dans un bac à sable
 - [ ] Le *fetch* externe : choisir et tester votre API
 - [ ] Prototype : votre démo de 60 secondes, pendant que je passe d'équipe en équipe
-- [ ] Dans votre projet : le composant Vue, l'API, et le début de la *phase 2*{ .w5-phase .w5-phase-2 }
+- [ ] Dans votre projet : les composants Vue, l'API, et le début de la *phase 2*{ .w5-phase .w5-phase-2 }
 
 ## 1. :material-api:  API, JSON et fetch : pourquoi ils sont partout { #pourquoi-api }
 
@@ -106,9 +109,11 @@ Vous avez déjà le geste : dans votre portfolio, `fetch()` chargeait vos projet
 
 [:material-api: API, JSON et fetch : le trio du web moderne](js/api-json-fetch.md){ .md-button .md-button--primary }
 
-## 2. :material-code-braces:  Le composant Vue, construit en direct { #composant }
+## 2. :material-code-braces:  Les composants Vue, construits en direct { #composant }
 
-Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de films. Aujourd'hui, on assemble le tout : le composant de votre récit, pièce par pièce. **Vous codez avec moi**, dans un bac à sable : un petit dossier à part, **hors de votre dépôt**.
+<video class="w-100" src="assets/cours11b-navigateur-chapitres.webm" autoplay muted loop playsinline aria-label="Le navigateur de chapitres en action : en défilant, le chapitre actif s'allume dans la liste et la barre de progression avance; un clic sur un chapitre y mène directement"></video>
+
+Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de films. Aujourd'hui, on assemble le tout : les deux composants de votre récit, pièce par pièce. Le navigateur de chapitres d'abord, puis la barre de progression, avec la même recette. **Vous codez avec moi**, dans un bac à sable : un petit dossier à part, **hors de votre dépôt**.
 
 **Le bac à sable**, à créer avant de commencer :
 
@@ -121,14 +126,67 @@ Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de 
 <head>
   <meta charset="UTF-8">
   <title>Bac à sable Vue</title>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700">
   <style>
-    .chapitre { min-height: 100vh; padding: 2rem; }
+    body {
+      margin: 0;
+      background: #0b0b0c;
+      color: #f4f4f5;
+      font-family: "Poppins", sans-serif;
+    }
     [v-cloak] { display: none; }
-    .actif { font-weight: 700; color: #FF2B47; }
-    .chapitres-nav { position: fixed; top: 40%; right: 1rem; }
+
+    /* Les chapitres : un écran chacun, un fond différent */
+    .chapitre {
+      min-height: 100vh;
+      display: grid;
+      place-content: center;
+      text-align: center;
+    }
+    .chapitre h2 { margin: 0; font-size: 4rem; }
+    .surtitre {
+      margin: 0;
+      color: #a1a1aa;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+    #la-foret {
+      background: radial-gradient(circle at 30% 70%, #1d3b2a, #0b0b0c 70%);
+    }
+    #la-maison {
+      background: radial-gradient(circle at 70% 30%, #3b2a1d, #0b0b0c 70%);
+    }
+    #le-loup {
+      background: radial-gradient(circle at 40% 40%, #2a2d3b, #0b0b0c 70%);
+    }
+    #la-fin {
+      background: radial-gradient(circle at 60% 60%, #3b1d24, #0b0b0c 70%);
+    }
+
+    /* Le navigateur de chapitres */
+    .chapitres-nav {
+      position: fixed;
+      top: 50%;
+      right: 2rem;
+      transform: translateY(-50%);
+      padding: 1rem 1.5rem 1rem 1rem;
+      background: rgb(20 20 22 / 0.85);
+      border: 1px solid #2c2c31;
+      border-radius: 12px;
+    }
+    .chapitres-nav ol { margin: 0; }
+    .chapitres-nav a { color: inherit; text-decoration: none; }
+    .chapitres-nav a.actif { font-weight: 700; color: #FF2B47; }
+
+    /* La barre de progression */
     .progression {
-      position: fixed; inset: 0 0 auto 0; height: 4px;
-      background: #FF2B47; transform-origin: left;
+      position: fixed;
+      inset: 0 0 auto 0;
+      z-index: 1;
+      height: 6px;
+      background: #FF2B47;
+      transform-origin: left;
     }
   </style>
 </head>
@@ -136,10 +194,22 @@ Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de 
   <div id="navigation"></div>
 
   <main>
-    <section class="chapitre" id="la-foret"><h2>La forêt</h2></section>
-    <section class="chapitre" id="la-maison"><h2>La maison</h2></section>
-    <section class="chapitre" id="le-loup"><h2>Le loup</h2></section>
-    <section class="chapitre" id="la-fin"><h2>La fin</h2></section>
+    <section class="chapitre" id="la-foret">
+      <p class="surtitre">Chapitre 1</p>
+      <h2>La forêt</h2>
+    </section>
+    <section class="chapitre" id="la-maison">
+      <p class="surtitre">Chapitre 2</p>
+      <h2>La maison</h2>
+    </section>
+    <section class="chapitre" id="le-loup">
+      <p class="surtitre">Chapitre 3</p>
+      <h2>Le loup</h2>
+    </section>
+    <section class="chapitre" id="la-fin">
+      <p class="surtitre">Chapitre 4</p>
+      <h2>La fin</h2>
+    </section>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.js">
@@ -149,7 +219,7 @@ Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de 
 </html>
 ```
 
-3. Deux fichiers vides : `js/main.js` et `js/navigation.js`.
+3. Trois fichiers vides : `js/main.js`, `js/navigation.js` et `js/progression.js`.
 4. Ouvert avec **Live Server**.
 
 !!! tip "Avant de publier : la version de production de Vue"
@@ -165,17 +235,19 @@ Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de 
 **Les pièces, dans l'ordre :**
 
 - [ ] `main.js` : la liste des chapitres, lue dans le HTML
-- [ ] `createApp()` et `mount()` : Vue prend le contrôle de `#navigation`
+- [ ] Le navigateur, `createApp()` et `mount()` : Vue prend le contrôle de `#navigation`
 - [ ] `data()` et `{{ }}` : la réactivité
 - [ ] `v-for` : la liste des chapitres
 - [ ] `:class` : le chapitre actif
 - [ ] `@click` et une méthode : aller au chapitre
-- [ ] `mounted()` : écouter le défilement
-- [ ] Pour aller plus loin, si on a le temps : `computed`, le titre du chapitre actif
+- [ ] `mounted()` : écouter le défilement. C'est nouveau : [Le cycle de vie : `mounted()`](vue/mounted.md)
+- [ ] La barre de progression : un 2e composant, la même recette
 
-[:simple-vuedotjs: Le composant Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
+[:simple-vuedotjs: Les composants Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
 
 ## 3. :material-api:  Le *fetch* externe : choisir et tester votre API
+
+<video class="w-100" src="assets/cours11b-fetch-dataviz.webm" autoplay muted loop playsinline aria-label="La démo La Terre bouge : en arrivant à chaque moment, un fetch() part vers une API externe (USGS, puis Open-Meteo), le JSON revient, et la dataviz s'anime : un compteur et des points pour les séismes, puis des barres qui poussent pour la météo"></video>
 
 Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est **le même `fetch()`**, avec une adresse sur un autre site. Ce qui est nouveau :
 
@@ -196,9 +268,11 @@ Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interro
 
     **L'autre personne** fait la même chose avec une API de la [liste de la démo](projets/recit-defilant/dataviz.md#demo) : tout le monde doit savoir lire une réponse d'API.
 
-## 4. :material-play-box-outline:  Le prototype
+## 4. :material-play-box-outline:  Remise : Le prototype (~~ven. 13 nov.~~ mer. 18 nov.)
 
-Pendant le travail en équipe, je passe vous voir. **Préparez votre démo** : Live Server ouvert, la console ouverte, la page en haut du récit.
+Pendant le travail en équipe, je passe vous voir. 
+
+**Préparez votre démo** : Live Server ouvert, la console ouverte, la page en haut du récit.
 
 En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre. On regarde ensemble ce qui fonctionne, et ce qui reste à faire d'ici la bêta.
 
@@ -206,14 +280,14 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 ## 5. :material-account-multiple-outline:  Dans votre projet
 
-**La personne responsable du composant Vue** (voir votre matrice de responsabilités) l'intègre d'ici la **bêta** (ven. 20 nov.) :
+**Chaque personne intègre son composant Vue** (voir votre matrice de responsabilités) au cours du **ven. 20 nov.**, en atelier : le navigateur de chapitres pour l'une, la barre de progression pour l'autre.
 
-1. Sur sa branche, crée `js/navigation.js` à partir du bac à sable.
-2. Ajoute la zone `#navigation` et la balise de Vue dans `index.html` : c'est un fichier **commun**, prévenez votre coéquipier ou coéquipière.
-3. Branche le composant dans `main.js`, avec la liste des chapitres lue dans le HTML (*phase 1*{ .w5-phase .w5-phase-1 }).
+1. Sur sa branche, crée son fichier à partir du bac à sable : `js/navigation.js` ou `js/progression.js`.
+2. Ajoute sa zone dans `index.html`, `#navigation` ou `#barre-progression`. La balise de Vue, une seule fois. C'est un fichier **commun** : prévenez votre coéquipier ou coéquipière.
+3. Branche son composant dans `main.js` (*phase 1*{ .w5-phase .w5-phase-1 }) : son `import` et son appel. Fichier commun, lui aussi.
 4. *Pull request* dès qu'il s'affiche, même sans style.
 
-[:simple-vuedotjs: Brancher le composant à la *phase 1*{ .w5-phase .w5-phase-1 }](projets/recit-defilant/composant-vue.md#brancher-phase-1){ .md-button }
+[:simple-vuedotjs: Brancher les composants à la *phase 1*{ .w5-phase .w5-phase-1 }](projets/recit-defilant/composant-vue.md#brancher-phase-1){ .md-button }
 
 **La personne responsable de la dataviz** : l'API choisie, testée et documentée dans le cahier de charges (étape 7).
 
@@ -221,7 +295,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 [:material-swap-horizontal: *Phase 2*{ .w5-phase .w5-phase-2 } : les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md){ .md-button }
 
-[:simple-vuedotjs: Le composant Vue à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/composant-vue.md#brancher-phase-2){ .md-button }
+[:simple-vuedotjs: Les composants Vue à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/composant-vue.md#brancher-phase-2){ .md-button }
 
 ## Devoirs
 
@@ -230,17 +304,22 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
   <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
 </div>
 
-### D'ici le mer. 18 nov. (cours 12.1)
+### D'ici le ven. 20 nov. (cours 12.2)
 
+- **Votre composant Vue terminé dans votre bac à sable** : on l'intègre au projet ensemble, en atelier.
+- **Votre API testée** : l'appel fonctionne, et `console.log()` affiche la donnée que vous voulez montrer ([les 7 étapes](projets/recit-defilant/dataviz.md#api)).
 - L'API documentée dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)), *commit* `Cahier : ajoute l'API de la dataviz`.
 - La *phase 2*{ .w5-phase .w5-phase-2 } bien entamée : [les étapes faites ensemble](projets/recit-defilant/json-chapitres.md#ensemble) sont sur `main`.
 
-### D'ici le ven. 20 nov. : la bêta, en *phase 2*{ .w5-phase .w5-phase-2 }
+### D'ici la bêta (~~ven. 20 nov.~~ **ven. 27 nov.**), en *phase 2*{ .w5-phase .w5-phase-2 }
+
+La bêta doit être **fonctionnelle**, pas finie : l'autre équipe doit pouvoir la tester.
 
 - *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique** exigée, chapitres chargés depuis `data.json` ([les instructions](projets/recit-defilant/json-chapitres.md)).
 - Médias finaux intégrés.
-- Le composant Vue en place ([le brancher à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/composant-vue.md#brancher-phase-2)).
-- Dataviz **fonctionnelle** : les données de l'API s'affichent ([les 7 étapes](projets/recit-defilant/dataviz.md#api)). Elle sera soignée d'ici la remise finale.
+- Les deux composants Vue en place ([les brancher à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/composant-vue.md#brancher-phase-2)).
+- Dataviz **branchée** : les vraies données de l'API s'affichent ([les 7 étapes](projets/recit-defilant/dataviz.md#api)). Son animation viendra après la bêta.
+- Au minimum, les animations du prototype : une par chapitre. Les autres viendront après la bêta.
 
 [:material-swap-horizontal: *Phase 2*{ .w5-phase .w5-phase-2 } : passer du HTML statique au JSON](projets/recit-defilant/arborescence-recit-defilant.md#phase-2){ .md-button }
 
