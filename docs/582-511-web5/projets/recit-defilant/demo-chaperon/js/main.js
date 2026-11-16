@@ -30,31 +30,19 @@ async function loadChapters() {
   return response.json();
 }
 
-// 2. Le texte, commun à tous les chapitres :
-//    un <p> par paragraphe du tableau texte
-function createText(chapter) {
-  const paragraphs = chapter.texte.map((p) => `<p>${p}</p>`).join("");
-  return `
-    <div class="chapitre__texte">
-      <p class="chapitre__numero">Chapitre ${chapter.numero}</p>
-      <h2>${chapter.titre}</h2>
-      ${paragraphs}
-    </div>
-  `;
-}
-
-// 3. Une section par chapitre : le texte (commun), puis le média,
-//    créé par le module du chapitre lui-même
+// 2. Une section par chapitre : le numéro et le titre (communs),
+//    puis le texte et le média, créés par le module du chapitre
 function createChapter(chapter, chapterModule) {
   return `
     <section class="chapitre" id="${chapter.id}">
-      ${createText(chapter)}
+      <p class="chapitre__numero">Chapitre ${chapter.numero}</p>
+      <h2>${chapter.titre}</h2>
       ${chapterModule.createMedia(chapter)}
     </section>
   `;
 }
 
-// 4. Insérer un fichier SVG directement dans la page,
+// 3. Insérer un fichier SVG directement dans la page,
 //    pour que GSAP (DrawSVG) atteigne ses traits
 async function injectSvg() {
   const containers = document.querySelectorAll("[data-svg]");
@@ -64,10 +52,13 @@ async function injectSvg() {
   }
 }
 
-// 5. Tout lancer, dans l'ordre : construire, animer, brancher
+// 4. Tout lancer, dans l'ordre : construire, animer, brancher
 async function init() {
   try {
+    // 1. Charger les chapitres (voir « Du JSON aux chapitres »)
     const chapters = await loadChapters();
+
+    // 2. Le HTML de chaque chapitre, avec le module du même rang
     recit.innerHTML = chapters
       .map((chapter, index) => createChapter(chapter, chapterModules[index]))
       .join("");
@@ -76,7 +67,7 @@ async function init() {
     // GSAP et ses plugins sont chargés par CDN dans index.html
     gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
 
-    // Chaque chapitre anime sa propre section, avec ses données
+    // 3. Chaque chapitre anime sa propre section, avec ses données
     chapters.forEach((chapter, index) => {
       const section = document.getElementById(chapter.id);
       chapterModules[index].animate(section, chapter);
@@ -86,7 +77,7 @@ async function init() {
     createNavigation(chapters); // navigation.js (Personne A)
     createProgressBar();        // progression.js (Personne B)
 
-    // La page est complète : ScrollTrigger recalcule ses repères
+    // 4. La page est complète : ScrollTrigger recalcule ses repères
     ScrollTrigger.refresh();
   } catch (error) {
     console.error(error);

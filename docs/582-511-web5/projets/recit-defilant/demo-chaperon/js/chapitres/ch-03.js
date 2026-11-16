@@ -4,13 +4,18 @@
 // La spritesheet du Chaperon est animée en CSS (ch-03.css).
 // =========================================================
 
-import { moinsDeMouvement } from "../outils.js";
+import { reducedMotion } from "../utils.js";
 
 // Appelée par main.js pour construire la section du chapitre.
-// Lit chapitre.contenu : la partie libre du JSON, à ce chapitre.
-export function createMedia(chapitre) {
-  const [sprite, arbres] = chapitre.contenu.medias;
+// Retourne tout ce qui suit le <h2> : le texte, puis le média.
+// Lit chapter.texte et chapter.contenu (la partie libre du JSON).
+export function createMedia(chapter) {
+  // Le texte du chapitre : un <p> par paragraphe de chapter.texte
+  const paragraphs = chapter.texte.map((p) => `<p>${p}</p>`).join("");
+
+  const [sprite, trees] = chapter.contenu.medias;
   return `
+    <div class="chapitre__texte">${paragraphs}</div>
     <div class="foret">
       <div class="foret__ombre" aria-hidden="true"></div>
       <div class="yeux yeux--1" aria-hidden="true">
@@ -20,41 +25,41 @@ export function createMedia(chapitre) {
       <div class="yeux yeux--3" aria-hidden="true">
         <span></span><span></span></div>
       <div class="marcheur" role="img" aria-label="${sprite.alt}"></div>
-      <img class="foret__arbres" src="${arbres.src}" alt="${arbres.alt}">
+      <img class="foret__arbres" src="${trees.src}" alt="${trees.alt}">
     </div>
   `;
 }
 
 // Appelée par main.js une fois tout le HTML dans la page.
-export function animate(section, chapitre) {
-  if (moinsDeMouvement) return; // les états finaux sont gérés en CSS
+export function animate(section, chapter) {
+  if (reducedMotion) return; // les états finaux sont gérés en CSS
 
-  const foret = section.querySelector(".foret");
+  const forest = section.querySelector(".foret");
   // q(".marcheur") : cherche seulement DANS cette section
   const q = gsap.utils.selector(section);
 
   // 1. L'entrée : dès que la forêt apparaît au bas de l'écran,
   //    le Chaperon entre en scène
-  const entree = gsap.timeline({
+  const entrance = gsap.timeline({
     scrollTrigger: {
-      trigger: foret,
+      trigger: forest,
       start: "top bottom",   // le haut de la forêt touche le bas de l'écran...
       end: "center center",  // ...jusqu'à ce qu'elle soit au centre
       scrub: 1,              // 1 s de « retard » : le mouvement glisse
     },
   });
-  entree
+  entrance
     .fromTo(q(".marcheur"),
       { x: -200, scale: 0.8 },
-      { x: () => foret.offsetWidth * 0.3, scale: 1.1, ease: "none" }, 0)
+      { x: () => forest.offsetWidth * 0.3, scale: 1.1, ease: "none" }, 0)
     .fromTo(q(".foret__arbres"),
       { xPercent: 30 }, { xPercent: 0, ease: "none" }, 0);
 
   // 2. La traversée : la forêt reste épinglée au centre
   //    pendant 2,5 écrans de défilement
-  const traversee = gsap.timeline({
+  const crossing = gsap.timeline({
     scrollTrigger: {
-      trigger: foret,
+      trigger: forest,
       start: "center center",
       end: "+=250%",
       scrub: 1,
@@ -62,12 +67,12 @@ export function animate(section, chapitre) {
     },
   });
 
-  traversee
+  crossing
     // immediateRender: false : la timeline d'entrée place
     // les éléments au départ
     .fromTo(q(".marcheur"),
-      { x: () => foret.offsetWidth * 0.3, scale: 1.1 },
-      { x: () => foret.offsetWidth, scale: 1.6, ease: "none",
+      { x: () => forest.offsetWidth * 0.3, scale: 1.1 },
+      { x: () => forest.offsetWidth, scale: 1.6, ease: "none",
         duration: 1, immediateRender: false }, 0)
     // Les arbres de l'avant-plan défilent beaucoup plus vite :
     // effet de profondeur

@@ -17,7 +17,7 @@ Le site charge ses chapitres avec `fetch()` et ses scripts sont des **modules** 
 |---|---|---|
 | Chapitres chargés en **JSON** (*phase 2*) | Tout le récit | `data/data.json`, `js/main.js` |
 | **CSS au défilement** (`animation-timeline: view()`) | Le titre qui explose, chapitre 1 (parallaxe), chapitre 7 (les répliques grossissent) | `css/commun.css`, `css/chapitres/ch-01.css`, `ch-07.css` |
-| **IntersectionObserver** : un déclencheur | Chapitre 5 : lance le `fetch()` de la météo quand le chapitre approche. Aussi chapitre 2 (le panier) et chapitre 8 (la page vire au rouge) | `js/outils.js`, `js/chapitres/ch-02.js`, `ch-05.js`, `ch-08.js` |
+| **IntersectionObserver** : un déclencheur | Chapitre 5 : lance le `fetch()` de la météo quand le chapitre approche. Aussi chapitre 2 (le panier) et chapitre 8 (la page vire au rouge) | `js/utils.js`, `js/chapitres/ch-02.js`, `ch-05.js`, `ch-08.js` |
 | **GSAP + ScrollTrigger** (section épinglée 1 sur 2) | Chapitre 3 : la forêt s'assombrit, les yeux s'allument | `js/chapitres/ch-03.js` |
 | **Extension GSAP : DrawSVG** | Chapitre 4 : le loup se dessine trait par trait. Chapitre 5 : les deux chemins | `js/chapitres/ch-04.js`, `ch-05.js` |
 | **GSAP + ScrollTrigger** (section épinglée 2 sur 2) | Chapitre 6 : la maison, puis on plonge dans la porte | `js/chapitres/ch-06.js` |
@@ -28,7 +28,7 @@ Le site charge ses chapitres avec `fetch()` et ses scripts sont des **modules** 
 | **Média animable : calques** | Chapitre 1 : 3 plans de forêt | `assets/images/foret-*.svg` |
 | **Média animable : spritesheet** | Chapitre 3 : 8 images de marche | `assets/images/chaperon-marche.webp` |
 | **Média animable : SVG préparé** | Chapitre 4 (traits `.loup-trait`) et chapitre 6 (groupes `#porte`, `#lumiere`, `#fumee`) | `assets/images/loup.svg`, `assets/images/maison.svg` |
-| `prefers-reduced-motion` | Tout le récit reste lisible sans animation | `css/commun.css`, chaque `css/chapitres/ch-0X.css`, `js/outils.js` |
+| `prefers-reduced-motion` | Tout le récit reste lisible sans animation | `css/commun.css`, chaque `css/chapitres/ch-0X.css`, `js/utils.js` |
 | Responsive | Navigation masquée et maison empilée sous 700 px | `css/commun.css`, `css/chapitres/ch-06.css` |
 
 **DrawSVG est gratuit** depuis GSAP 3.13 (2025), comme tous les plugins de GSAP. On le charge par CDN, comme ScrollTrigger, puis on l'enregistre : `gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin)`. Il dessine le **contour** (*stroke*) d'un `path`, `line`, `polyline`, `polygon`, `rect` ou `circle` : vos traits doivent donc avoir un `stroke`, pas seulement un `fill`.
@@ -66,7 +66,7 @@ demo-chaperon/
 │       └── ch-08.css
 ├── js/
 │   ├── main.js              commun : charger le JSON, construire les sections
-│   ├── outils.js            commun : moinsDeMouvement, observerUneFois
+│   ├── utils.js             commun : reducedMotion, observeOnce
 │   ├── navigation.js        composant Vue : navigateur (Personne A)
 │   ├── progression.js       composant Vue : barre (Personne B)
 │   └── chapitres/
@@ -79,10 +79,10 @@ demo-chaperon/
 
 Chaque chapitre exporte deux fonctions :
 
-- `createMedia(chapitre)` : retourne le HTML du média du chapitre;
-- `animate(section, chapitre)` : anime la `<section>` du chapitre, une fois tout le HTML dans la page.
+- `createMedia(chapter)` : retourne le HTML du chapitre sous le `<h2>` : **son texte** (un `<p>` par paragraphe de `chapter.texte`) **et son média**;
+- `animate(section, chapter)` : anime la `<section>` du chapitre, une fois tout le HTML dans la page.
 
-`main.js` importe les 8 modules, construit chaque section (le texte, puis `createMedia()`), appelle `animate()` pour chaque chapitre, branche les deux composants Vue (`createNavigation(chapters)`, `createProgressBar()`), puis appelle `ScrollTrigger.refresh()`. Les chapitres 1 et 7 n'ont pas d'animation en JavaScript (CSS seulement) : leur `animate()` est vide, mais elle existe.
+`main.js` importe les 8 modules, construit chaque section (le numéro et le `<h2>`, puis ce que retourne `createMedia()`), appelle `animate()` pour chaque chapitre, branche les deux composants Vue (`createNavigation(chapters)`, `createProgressBar()`), puis appelle `ScrollTrigger.refresh()`. Les chapitres 1 et 7 n'ont pas d'animation en JavaScript (CSS seulement) : leur `animate()` est vide, mais elle existe.
 
 ## Le modèle de données
 

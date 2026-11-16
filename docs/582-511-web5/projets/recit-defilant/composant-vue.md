@@ -16,6 +16,7 @@ Un navigateur de chapitres se fait aussi en JavaScript seul. Vue est là pour de
 1. **C'est comme ça que le web se construit aujourd'hui.** React, Vue, Svelte : la plupart des interfaces professionnelles reposent sur la même idée. Vue est la porte d'entrée la plus douce : rien à installer, et une organisation en cases (`data`, `methods`...) proche des classes JS que vous connaissez.
 2. **Cette idée change votre façon de coder.** En JavaScript seul, vous dites **comment** changer la page. Avec Vue, vous décrivez **à quoi** elle doit ressembler selon vos données.
 
+<!-- 
 En JavaScript seul, à chaque changement de chapitre :
 
 ```js
@@ -37,6 +38,8 @@ Avec Vue, on décrit l'état une fois, dans le HTML :
 ```
 
 On change le chapitre actif, et Vue met à jour tout ce qui en dépend. Un élément de plus qui dépend du chapitre actif? Une ligne de plus dans le HTML, rien d'autre à retoucher. C'est la **réactivité**.
+
+-->
 
 ## Installer Vue { #installer }
 
@@ -133,7 +136,8 @@ export function createNavigation(chapters) {
           "(prefers-reduced-motion: reduce)"
         ).matches;
         // TODO navigateur : faire défiler jusqu'à la section qui a cet id,
-        // avec scrollIntoView() : "auto" si reduced, sinon "smooth"
+        // avec scrollIntoView() : dont le behavior : "auto" si reduced, 
+        // sinon le behavior : "smooth"
       },
 
       updateActive() {
@@ -197,7 +201,7 @@ Bloqué? Un indice à la fois :
     Deux paires `clé: valeur`, séparées par une virgule. La valeur de `chapters`, c'est le paramètre reçu par `createNavigation(chapters)`.
 
 ??? tip "Indice navigateur : `goTo()`"
-    `document.getElementById(id)` trouve la section. La méthode `scrollIntoView()` reçoit un objet d'options, avec une clé `behavior` (sans « u »!). Pour choisir entre deux valeurs : `condition ? siVrai : siFaux`.
+    `document.getElementById(id)` trouve la section. La méthode `scrollIntoView()` reçoit un objet d'options, avec une clé `behavior`. Pour choisir entre deux valeurs : `condition ? siVrai : siFaux`.
 
 ??? tip "Indice navigateur : le chapitre actif"
     Dans une méthode, on change une donnée avec `this`. La boucle vous donne déjà l'`index` du chapitre.

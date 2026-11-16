@@ -46,13 +46,13 @@ Sans Flip, changer une classe fait « sauter » les éléments d'un coup à leur
 
 ```js
 // 1. Mémoriser : où sont les cartes, et quelle taille elles ont
-const etat = Flip.getState(".carte");
+const state = Flip.getState(".carte");
 
 // 2. Changer : la nouvelle mise en page, en CSS
-grille.classList.toggle("en-ligne");
+grid.classList.toggle("en-ligne");
 
 // 3. Animer : de l'ancien état vers le nouveau
-Flip.from(etat, {
+Flip.from(state, {
   duration: 0.8,
   ease: "power2.inOut",
 });
@@ -80,15 +80,15 @@ export function animate(section, chapter) {
   ScrollTrigger.create({
     trigger: section,
     start: "top center",
-    onEnter: () => basculer(image),
-    onLeaveBack: () => basculer(image),
+    onEnter: () => toggleFullscreen(image),
+    onLeaveBack: () => toggleFullscreen(image),
   });
 }
 
-function basculer(image) {
-  const etat = Flip.getState(image);
+function toggleFullscreen(image) {
+  const state = Flip.getState(image);
   image.classList.toggle("plein-ecran");
-  Flip.from(etat, { duration: 0.8, ease: "power2.inOut" });
+  Flip.from(state, { duration: 0.8, ease: "power2.inOut" });
 }
 ```
 

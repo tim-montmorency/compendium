@@ -88,7 +88,7 @@ Techniquement, c'est une animation au défilement de plus : `view-timeline-name`
 
 [:material-code-json: Du JSON aux chapitres : les étapes](projets/recit-defilant/json-chapitres.md){ .md-button .md-button--primary }
 
-[:material-file-tree: Arborescence du dépôt](projets/recit-defilant/arborescence-recit-defilant.md){ .md-button }
+[:material-file-tree: Arborescence et code de départ](projets/recit-defilant/arborescence-recit-defilant.md){ .md-button }
 
 
 ## Devoirs

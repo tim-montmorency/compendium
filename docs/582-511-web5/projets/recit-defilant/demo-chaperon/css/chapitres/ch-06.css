@@ -8,15 +8,24 @@
 #chez-la-mere-grand {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 4vw;
+  align-content: center;
+  column-gap: 4vw;
   height: 100vh;
   min-height: 0;
   padding: 0 8vw;
   overflow: hidden;
 }
 
+/* À gauche : le numéro, le titre et le texte, l'un sous l'autre */
+#chez-la-mere-grand > :not(.maison) {
+  grid-column: 1;
+}
+
+/* À droite : la maison, sur toute la hauteur */
 #chez-la-mere-grand .maison {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  align-self: center;
   position: relative;
   z-index: 3; /* la maison passe devant le texte quand elle grossit */
   max-width: 34rem;
@@ -36,6 +45,11 @@
   }
   #chez-la-mere-grand h2 {
     margin-bottom: 0.5rem;
+  }
+  #chez-la-mere-grand > :not(.maison),
+  #chez-la-mere-grand .maison {
+    grid-column: 1;
+    grid-row: auto;
   }
   #chez-la-mere-grand .maison {
     max-width: 70vw;

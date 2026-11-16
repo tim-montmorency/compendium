@@ -3,20 +3,27 @@
 // GSAP + ScrollTrigger, section épinglée no 2.
 // =========================================================
 
-import { moinsDeMouvement } from "../outils.js";
+import { reducedMotion } from "../utils.js";
 
 // Appelée par main.js pour construire la section du chapitre.
-// Lit chapitre.contenu : la partie libre du JSON, à ce chapitre.
-export function createMedia(chapitre) {
+// Retourne tout ce qui suit le <h2> : le texte, puis le média.
+// Lit chapter.texte et chapter.contenu (la partie libre du JSON).
+export function createMedia(chapter) {
+  // Le texte du chapitre : un <p> par paragraphe de chapter.texte
+  const paragraphs = chapter.texte.map((p) => `<p>${p}</p>`).join("");
+
   // data-svg : main.js insère le SVG dans la page,
   // pour que GSAP puisse cibler ses id
-  const maison = chapitre.contenu.medias[0];
-  return `<div class="maison" data-svg="${maison.src}"></div>`;
+  const house = chapter.contenu.medias[0];
+  return `
+    <div class="chapitre__texte">${paragraphs}</div>
+    <div class="maison" data-svg="${house.src}"></div>
+  `;
 }
 
 // Appelée par main.js une fois tout le HTML dans la page.
-export function animate(section, chapitre) {
-  if (moinsDeMouvement) return;
+export function animate(section, chapter) {
+  if (reducedMotion) return;
 
   const q = gsap.utils.selector(section);
 
@@ -33,7 +40,7 @@ export function animate(section, chapitre) {
   });
 
   // 2. La section épinglée : la fumée, la lumière, la porte
-  const maison = gsap.timeline({
+  const house = gsap.timeline({
     scrollTrigger: {
       trigger: section,
       start: "top top",
@@ -43,7 +50,7 @@ export function animate(section, chapitre) {
     },
   });
 
-  maison
+  house
     // La fumée monte et gonfle
     .from(q(".bouffee"), { y: 60, scale: 0, opacity: 0,
       transformOrigin: "center", stagger: 0.06, duration: 0.2 })
@@ -58,5 +65,6 @@ export function animate(section, chapitre) {
     // On fonce dans le noir de la porte, et le texte s'efface
     .to(q(".maison svg"), { scale: 40, transformOrigin: "42% 80%",
       ease: "power2.in", duration: 0.3 })
-    .to(q(".chapitre__texte"), { opacity: 0, duration: 0.1 }, "<");
+    .to(q(".chapitre__numero, h2, .chapitre__texte"),
+      { opacity: 0, duration: 0.1 }, "<");
 }

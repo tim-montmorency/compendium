@@ -103,6 +103,10 @@ h1 {
   padding: 20vh 8vw;
 }
 
+/* Le numéro et le titre (main.js), puis le texte (chaque module) :
+   au-dessus des médias */
+.chapitre__numero,
+.chapitre > h2,
 .chapitre__texte {
   position: relative;
   z-index: 2;

@@ -65,6 +65,9 @@ Un récit sur un thème de votre choix, par exemple :
 | **Accessibilité** | Le récit reste lisible **sans animation**, avec `prefers-reduced-motion`. |
 | **Déploiement** | En ligne sur GitHub Pages. |
 
+!!! warning "*Phase 2*{ .w5-phase .w5-phase-2 } et ScrollTrigger : `ScrollTrigger.refresh()` obligatoire"
+    Vos chapitres arrivent maintenant par `fetch()`, après le chargement de la page. ScrollTrigger, lui, a calculé ses repères avant : vos animations risquent de partir au mauvais endroit. À la fin de `init()`, après les `animate()`, ajoutez **`ScrollTrigger.refresh();`**, et donnez un `width` et un `height` à vos `<img>`. [Pourquoi, et comment le vérifier](../../js/gsap-scrolltrigger.md#refresh).
+
 [:material-sitemap-outline: Le récit en un coup d'œil : les fichiers et comment ils se parlent](schema-du-recit.md){ .md-button }
 
 ### La créativité compte { #creativite }
@@ -137,7 +140,7 @@ Dès le cahier de charges, une **matrice de responsabilités** dit qui possède 
 - **Un seul dépôt par équipe**, privé au départ. Invitez votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
 - Des *commits* réguliers et bien nommés, faits **par la personne qui a écrit le code** : c'est la trace de votre travail.
 - Une **branche par personne**, fusionnée dans `main` par *pull request* (voir [Git en équipe](git-en-equipe.md)).
-- **Un fichier CSS et un fichier JS par chapitre**, à la personne responsable (voir [L'arborescence du dépôt](arborescence-recit-defilant.md)).
+- **Un fichier CSS et un fichier JS par chapitre**, à la personne responsable (voir [Arborescence et code de départ](arborescence-recit-defilant.md)).
 
 ### Journal de bord individuel
 
@@ -309,7 +312,7 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
 
 **En équipe**
 
-- [ ] L'**arborescence** est en place, comme dans [L'arborescence du dépôt](arborescence-recit-defilant.md) : les dossiers, `index.html`, `style.css` et ses `@import`, `main.js` et ses `import`, **un fichier CSS et un fichier JS par chapitre** (même presque vides).
+- [ ] L'**arborescence** est en place, comme dans [Arborescence et code de départ](arborescence-recit-defilant.md) : les dossiers, `index.html`, `style.css` et ses `@import`, `main.js` et ses `import`, **un fichier CSS et un fichier JS par chapitre** (même presque vides).
 - [ ] Chaque chapitre a sa **`<section class="chapitre">` avec son `id`** (unique, en minuscules, sans espace ni accent). Pour ce point de contrôle, les sections peuvent être **écrites en HTML** ([la *phase 1*{ .w5-phase .w5-phase-1 }, intégration statique](arborescence-recit-defilant.md#html-phase-1)) : pas besoin du chargement JSON. Vérifiez dans l'inspecteur.
 - [ ] **GSAP et ScrollTrigger** sont chargés dans `index.html`, avant `main.js`, et `gsap.registerPlugin(ScrollTrigger)` est appelé **une fois**, dans `main.js`.
 
@@ -331,7 +334,7 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
     **Chaque média** ajouté au dépôt a sa ligne dans le tableau des crédits du `README.md` : média, chapitre, source, auteur, licence, modifié ou non. Ça vaut aussi pour les images de banques libres et les images générées par IA (l'outil est la source). Un média sans crédit compte comme manquant. [Voir le modèle de tableau](#les-medias-et-les-credits).
 
 !!! tip "Où trouver l'aide"
-    - La structure : [L'arborescence du dépôt](arborescence-recit-defilant.md), section « Créer la structure, au début ».
+    - La structure : [Arborescence et code de départ](arborescence-recit-defilant.md), section « Créer la structure, au début ».
     - Les sections avec leur `id`, en HTML : [*Phase 1*{ .w5-phase .w5-phase-1 } : vos chapitres écrits en HTML](arborescence-recit-defilant.md#html-phase-1), et [`main.js` à la *phase 1*{ .w5-phase .w5-phase-1 }](arborescence-recit-defilant.md#main-js-phase-1).
     - L'animation test : [GSAP : tweens et timelines](../../js/gsap-bases.md). Pour trouver vos éléments dans votre chapitre, voyez « D'où vient `section`? » dans [Dans votre récit : un module de chapitre](../../js/gsap-scrolltrigger.md#dans-votre-recit).
     - La *pull request* : [Git en équipe](git-en-equipe.md).

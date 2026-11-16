@@ -5,36 +5,41 @@
 //    chargée seulement quand le chapitre approche.
 // =========================================================
 
-import { moinsDeMouvement, observerUneFois } from "../outils.js";
+import { reducedMotion, observeOnce } from "../utils.js";
 
 // Appelée par main.js pour construire la section du chapitre.
-// Lit chapitre.contenu : la partie libre du JSON, à ce chapitre.
-export function createMedia(chapitre) {
+// Retourne tout ce qui suit le <h2> : le texte, puis le média.
+// Lit chapter.texte et chapter.contenu (la partie libre du JSON).
+export function createMedia(chapter) {
+  // Le texte du chapitre : un <p> par paragraphe de chapter.texte
+  const paragraphs = chapter.texte.map((p) => `<p>${p}</p>`).join("");
+
   // Les deux chemins (SVG + DrawSVG), puis la météo,
-  // remplie plus tard par afficherMeteo()
-  const chemins = chapitre.contenu.medias[0];
+  // remplie plus tard par showWeather()
+  const pathsMedia = chapter.contenu.medias[0];
   return `
-    <div class="chemins" data-svg="${chemins.src}"></div>
+    <div class="chapitre__texte">${paragraphs}</div>
+    <div class="chemins" data-svg="${pathsMedia.src}"></div>
     <div class="meteo">
       <p>Chargement des données de la forêt...</p></div>
   `;
 }
 
 // Appelée par main.js une fois tout le HTML dans la page.
-export function animate(section, chapitre) {
+export function animate(section, chapter) {
   // La météo se charge même avec moins de mouvement
-  const meteo = section.querySelector(".meteo");
-  const lieu = chapitre.contenu.lieu;
-  observerUneFois(
-    meteo,
-    (el) => afficherMeteo(el, lieu),
+  const weather = section.querySelector(".meteo");
+  const place = chapter.contenu.lieu;
+  observeOnce(
+    weather,
+    (el) => showWeather(el, place),
     "0px 0px 50% 0px"
   );
 
-  if (moinsDeMouvement) return;
+  if (reducedMotion) return;
 
   const q = gsap.utils.selector(section);
-  const course = gsap.timeline({
+  const race = gsap.timeline({
     scrollTrigger: {
       trigger: section.querySelector(".chemins"),
       start: "top 95%",
@@ -43,7 +48,7 @@ export function animate(section, chapitre) {
     },
   });
 
-  course
+  race
     // Le chemin du loup se dessine vite : il arrive en premier
     .from(q("#chemin-court"),
       { drawSVG: 0, ease: "power1.in", duration: 0.35 }, 0)
@@ -56,59 +61,61 @@ export function animate(section, chapitre) {
 
 // ---------- La dataviz : fonctions privées au chapitre 5 ----------
 
-async function chargerMeteo(latitude, longitude, fuseau) {
+async function loadWeather(latitude, longitude, timezone) {
   const url = "https://api.open-meteo.com/v1/forecast"
     + `?latitude=${latitude}&longitude=${longitude}`
     + "&hourly=temperature_2m&daily=sunset&forecast_days=1"
-    + `&timezone=${encodeURIComponent(fuseau)}`;
+    + `&timezone=${encodeURIComponent(timezone)}`;
 
   const response = await fetch(url);
   if (!response.ok) {
     throw new Error("Météo indisponible (" + response.status + ")");
   }
-  const donnees = await response.json();
+  const data = await response.json();
   return {
-    temperatures: donnees.hourly.temperature_2m, // 24 valeurs, de 0 h à 23 h
-    coucher: donnees.daily.sunset[0].slice(11),  // "2026-10-09T18:57" devient "18:57"
+    temperatures: data.hourly.temperature_2m, // 24 valeurs, de 0 h à 23 h
+    sunset: data.daily.sunset[0].slice(11),  // "2026-10-09T18:57" devient "18:57"
   };
 }
 
 // Un graphique en barres, dessiné en SVG
-function dessinerGraphique(temperatures, heureCoucher) {
-  const largeur = 720;
-  const hauteur = 220;
-  const barre = largeur / temperatures.length;
+function drawChart(temperatures, sunsetTime) {
+  const width = 720;
+  const height = 220;
+  const barWidth = width / temperatures.length;
   const max = Math.max(...temperatures, 1);
-  const coucher = parseInt(heureCoucher, 10);
+  const sunset = parseInt(sunsetTime, 10);
 
-  const barres = temperatures.map((t, heure) => {
-    const h = Math.max(2, (Math.max(t, 0) / max) * (hauteur - 40));
-    const couleur = heure >= coucher ? "#FF2B47" : "#E9E4D8";
-    return `<rect x="${heure * barre + 2}" y="${hauteur - 20 - h}" width="${barre - 4}" height="${h}" fill="${couleur}"><title>${heure} h : ${t} °C</title></rect>`;
+  const bars = temperatures.map((t, hour) => {
+    const h = Math.max(2, (Math.max(t, 0) / max) * (height - 40));
+    const color = hour >= sunset ? "#FF2B47" : "#E9E4D8";
+    return `<rect x="${hour * barWidth + 2}" y="${height - 20 - h}" width="${barWidth - 4}" height="${h}" fill="${color}"><title>${hour} h : ${t} °C</title></rect>`;
   }).join("");
 
   return `
-    <svg class="meteo__graphique" viewBox="0 0 ${largeur} ${hauteur}" role="img"
+    <svg class="meteo__graphique" viewBox="0 0 ${width} ${height}" role="img"
          aria-label="Température heure par heure aujourd'hui. En rouge, les heures après le coucher du soleil.">
-      ${barres}
-      <text x="0" y="${hauteur - 2}" fill="#A8A8A8" font-size="12">0 h</text>
-      <text x="${largeur / 2}" y="${hauteur - 2}" fill="#A8A8A8" font-size="12" text-anchor="middle">12 h</text>
-      <text x="${largeur}" y="${hauteur - 2}" fill="#A8A8A8" font-size="12" text-anchor="end">23 h</text>
+      ${bars}
+      <text x="0" y="${height - 2}" fill="#A8A8A8" font-size="12">0 h</text>
+      <text x="${width / 2}" y="${height - 2}" fill="#A8A8A8" font-size="12" text-anchor="middle">12 h</text>
+      <text x="${width}" y="${height - 2}" fill="#A8A8A8" font-size="12" text-anchor="end">23 h</text>
     </svg>
   `;
 }
 
-async function afficherMeteo(conteneur, lieu) {
-  const { latitude, longitude, fuseau } = lieu;
+async function showWeather(container, place) {
+  // fuseau : la clé du JSON; timezone : le nom dans le code
+  const { latitude, longitude, fuseau: timezone } = place;
   try {
-    const { temperatures, coucher } = await chargerMeteo(latitude, longitude, fuseau);
-    conteneur.innerHTML = `
-      <p class="meteo__phrase">Aujourd'hui, dans ${lieu.nom}, le soleil se couche à <strong>${coucher.replace(":", " h ")}</strong>. Après, la forêt appartient au loup.</p>
-      ${dessinerGraphique(temperatures, coucher)}
+    const { temperatures, sunset } =
+      await loadWeather(latitude, longitude, timezone);
+    container.innerHTML = `
+      <p class="meteo__phrase">Aujourd'hui, dans ${place.nom}, le soleil se couche à <strong>${sunset.replace(":", " h ")}</strong>. Après, la forêt appartient au loup.</p>
+      ${drawChart(temperatures, sunset)}
       <p class="meteo__source">Température heure par heure, aujourd'hui. Données : <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>.</p>
     `;
-  } catch (erreur) {
-    console.error(erreur);
-    conteneur.innerHTML = `<p class="meteo__phrase">Le jour baisse vite en automne. Le loup, lui, connaît le chemin le plus court.</p>`;
+  } catch (error) {
+    console.error(error);
+    container.innerHTML = `<p class="meteo__phrase">Le jour baisse vite en automne. Le loup, lui, connaît le chemin le plus court.</p>`;
   }
 }

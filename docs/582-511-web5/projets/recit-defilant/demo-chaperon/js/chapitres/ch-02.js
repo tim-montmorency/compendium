@@ -4,23 +4,30 @@
 // ajoute une classe, la transition est en CSS (ch-02.css).
 // =========================================================
 
-import { observerUneFois } from "../outils.js";
+import { observeOnce } from "../utils.js";
 
 // Appelée par main.js pour construire la section du chapitre.
-// Lit chapitre.contenu : la partie libre du JSON, à ce chapitre.
-export function createMedia(chapitre) {
-  const objets = chapitre.contenu.objets
+// Retourne tout ce qui suit le <h2> : le texte, puis le média.
+// Lit chapter.texte et chapter.contenu (la partie libre du JSON).
+export function createMedia(chapter) {
+  // Le texte du chapitre : un <p> par paragraphe de chapter.texte
+  const paragraphs = chapter.texte.map((p) => `<p>${p}</p>`).join("");
+
+  const items = chapter.contenu.objets
     .map((o) => `<li>${o}</li>`)
     .join("");
-  return `<ul class="panier">${objets}</ul>`;
+  return `
+    <div class="chapitre__texte">${paragraphs}</div>
+    <ul class="panier">${items}</ul>
+  `;
 }
 
 // Appelée par main.js une fois tout le HTML dans la page.
-export function animate(section, chapitre) {
-  const panier = section.querySelector(".panier");
+export function animate(section, chapter) {
+  const basket = section.querySelector(".panier");
   // Marge de -5 % : ça part dès que le panier entre dans le bas de l'écran
-  observerUneFois(
-    panier,
+  observeOnce(
+    basket,
     (el) => el.classList.add("est-visible"),
     "0px 0px -5% 0px"
   );

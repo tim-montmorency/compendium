@@ -1,20 +1,11 @@
 # :material-sitemap-outline:  Le récit en un coup d'œil
 
-<div class="essentiel" markdown>
-<p class="essentiel__titre">L'essentiel en 3 points</p>
-
-1. **Un chef d'orchestre : `main.js`.** Il charge les chapitres, construit la page, puis donne la main aux modules des chapitres et aux composants Vue.
-2. **Commun ou à une personne** : `index.html`, `main.js`, `data.json` et `style.css` sont à l'équipe. Un module de chapitre ou un composant Vue est à **une** personne.
-3. Perdu? Revenez ici : chaque pièce du schéma a sa page de référence, dans le tableau plus bas.
-
-</div>
-
-## Le schéma { #schema }
+## La "big picture" { #big-picture }
 
 À la *phase 2*{ .w5-phase .w5-phase-2 }, quand tout est en place.
 
 <div class="w5-schema-cadre" style="margin:1.5em 0;padding:1rem 1.2rem;background:var(--md-code-bg-color);border:1px solid var(--md-default-fg-color--lightest);border-radius:0.4rem;text-align:center">
-<svg viewBox="0 0 960 600" width="100%" role="img" aria-label="Vue d'ensemble du récit défilant : main.js charge data.json, construit les chapitres dans main id recit avec createMedia, puis appelle animate de chaque module de chapitre et branche les deux composants Vue; le chapitre dataviz appelle une API externe; index.html contient les trois zones; style.css importe les autres feuilles" style="max-width:960px;font-family:inherit">
+<svg viewBox="0 0 960 600" width="100%" role="img" aria-label="Vue d'ensemble du récit défilant : main.js charge data.json, construit les chapitres dans main id recit, le texte et le média venant du createMedia de chaque module, puis appelle animate de chaque module de chapitre et branche les deux composants Vue; le chapitre dataviz appelle une API externe; index.html contient les trois zones; style.css importe les autres feuilles" style="max-width:960px;font-family:inherit">
   <defs>
     <marker id="ve-f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
@@ -77,7 +68,7 @@
 
     <!-- modules -->
     <text x="265" y="346" font-weight="700" font-size="15">js/chapitres/ch-03.js</text>
-    <text x="265" y="364" opacity="0.75">un module par chapitre</text>
+    <text x="265" y="364" opacity="0.75">son texte et son média</text>
     <text x="265" y="392" font-family="monospace">createMedia(chapter)</text>
     <text x="265" y="414" font-family="monospace">animate(section, chapter)</text>
     <text x="265" y="442" opacity="0.75">GSAP, ScrollTrigger,</text>
@@ -128,7 +119,7 @@ Au chargement de la page :
 
 1. `index.html` charge **GSAP et Vue** (par CDN), puis `main.js`.
 2. `init()` appelle `loadChapters()`, qui va chercher `data.json`.
-3. `createChapter()` construit chaque `<section>`, avec le média retourné par le `createMedia()` du chapitre. Le tout va dans `<main id="recit">`.
+3. `createChapter()` construit chaque `<section>` et son `<h2>`. Sous le titre, le `createMedia()` du chapitre ajoute **son texte et son média**. Le tout va dans `<main id="recit">`.
 4. Le `animate()` de **chaque** module : GSAP, ScrollTrigger, IntersectionObserver.
 5. `createNavigation(chapters)` et `createProgressBar()` : les composants Vue démarrent.
 6. `ScrollTrigger.refresh()` : les repères sont recalculés, maintenant que la page est complète.
@@ -145,12 +136,12 @@ Puis, **au défilement** : ScrollTrigger anime, IntersectionObserver lance le `f
 | `index.html` | La page : les zones `#navigation`, `#barre-progression` et `<main id="recit">`, les balises de GSAP et de Vue, puis `main.js`. | L'équipe | [Le HTML](arborescence-recit-defilant.md#html-phase-2) |
 | `data/data.json` | Les chapitres : les clés communes (`id`, `titre`, `texte`...) et le `contenu` de chacun. | Clés communes : l'équipe. `contenu` : le responsable du chapitre. | [Les données](arborescence-recit-defilant.md#data-json) |
 | `js/main.js` | Charge, construit, puis appelle les modules et les composants. | L'équipe, écrit ensemble | [Du JSON aux chapitres](json-chapitres.md) |
-| `js/chapitres/ch-03.js` | Le média (`createMedia`) et les animations (`animate`) d'**un** chapitre. | Le responsable du chapitre | [Le fichier d'un chapitre](arborescence-recit-defilant.md#fichier-chapitre) |
+| `js/chapitres/ch-03.js` | Le texte et le média (`createMedia`), et leurs animations (`animate`), d'**un** chapitre. | Le responsable du chapitre | [Le fichier d'un chapitre](arborescence-recit-defilant.md#fichier-chapitre) |
 | La dataviz | Dans le module de son chapitre : IntersectionObserver, `fetch()` vers l'API, puis la forme qui se révèle. | Le responsable de la dataviz | [La dataviz](dataviz.md), [Choisir et tester votre API](dataviz.md#api) |
 | `js/navigation.js` | Composant Vue : la liste des chapitres, le chapitre actif. | Une personne | [Le navigateur](composant-vue.md#js-navigation) |
 | `js/progression.js` | Composant Vue : la barre de progression. | L'autre personne | [La barre](composant-vue.md#js-progression) |
-| `css/style.css` | Importe `commun.css` (l'équipe) et le CSS de chaque chapitre (`ch-03.css`, son responsable). | L'équipe | [L'arborescence](arborescence-recit-defilant.md) |
+| `css/style.css` | Importe `commun.css` (l'équipe) et le CSS de chaque chapitre (`ch-03.css`, son responsable). | L'équipe | [Arborescence et code de départ](arborescence-recit-defilant.md#css) |
 
-[:material-file-tree: L'arborescence du dépôt, en détail](arborescence-recit-defilant.md){ .md-button .md-button--primary }
+[:material-file-tree: Arborescence et code de départ](arborescence-recit-defilant.md){ .md-button .md-button--primary }
 
 [:material-book-open-page-variant-outline: Les consignes complètes](index.md){ .md-button }

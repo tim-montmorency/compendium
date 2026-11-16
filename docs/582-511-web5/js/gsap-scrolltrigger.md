@@ -310,6 +310,29 @@ export function animate(section, chapter) {
 ??? example "Voir la vidéo de la démo du Petit Chaperon rouge"
     <video class="w-100" src="../projets/recit-defilant/assets/demo-chaperon-defilement.webm" controls muted playsinline preload="none" aria-label="La démo du Petit Chaperon rouge, en défilement, du premier au dernier chapitre"></video>
 
+### Les repères décalés : `ScrollTrigger.refresh()` { #refresh }
+
+!!! warning "Après un `fetch()` ou des images : `ScrollTrigger.refresh()`"
+    ScrollTrigger calcule la position de ses repères (`start`, `end`) **au moment où vous créez l'animation**. Si la page change de hauteur **après** (des chapitres ajoutés par `fetch()`, des images qui finissent de se charger), les repères restent à l'ancienne position : l'animation part trop tôt ou trop tard, et l'épinglage saute.
+
+    **Le symptôme** : avec `markers: true`, les repères ne sont plus vis-à-vis de vos éléments.
+
+    **Les deux réflexes** :
+
+    1. Une fois toutes les animations créées, demandez à ScrollTrigger de tout recalculer :
+
+        ```js
+        // main.js, à la fin de init(), après les animate()
+        ScrollTrigger.refresh();
+        ```
+
+    2. Donnez un `width` et un `height` à chaque `<img>` : la place est réservée avant le chargement, la page ne change plus de hauteur.
+
+        ```html
+        <img src="assets/images/ch-03/loup.webp" alt="Le loup"
+             width="800" height="600">
+        ```
+
 ## Les pièges fréquents
 
 | Symptôme | Cause probable |
@@ -317,7 +340,7 @@ export function animate(section, chapter) {
 | Rien ne bouge, aucune erreur | Le plugin n'est pas chargé, ou `registerPlugin` manque |
 | `ScrollTrigger is not defined` | La balise de ScrollTrigger est **avant** celle de GSAP, ou absente |
 | L'animation est finie avant qu'on la voie | Pas de `scrollTrigger` : elle joue au chargement de la page |
-| Les repères sont décalés après le chargement des images | Les images ont changé la hauteur de la page : appelez `ScrollTrigger.refresh()` une fois les images chargées |
+| Les repères sont décalés après le chargement des images ou du JSON | La page a changé de hauteur après la création des animations : [`ScrollTrigger.refresh()`](#refresh), et un `width`/`height` sur les `<img>` |
 | La section épinglée tremble ou saute | Un `transform` CSS sur l'élément épinglé ou son parent : épinglez un conteneur sans `transform` |
 
 ## Pour pratiquer

@@ -1,4 +1,4 @@
-# :material-file-tree:  Arborescence du dépôt récit défilant
+# :material-file-tree:  Arborescence et code de départ
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
@@ -16,7 +16,19 @@
     Si votre HTML statique est écrit **comme le JavaScript le construira** (même `<section>`, mêmes classes), le passage à la *phase 2*{ .w5-phase .w5-phase-2 } ne change pas une ligne de vos animations. [Comment passer à la *phase 2*{ .w5-phase .w5-phase-2 }](#phase-2).
 
 
-## L'arborescence
+## Le code de départ { #code-depart }
+
+Tout le code à copier pour démarrer est sur cette page :
+
+- [`index.html`, *phase 1*{ .w5-phase .w5-phase-1 }](#html-phase-1) : vos chapitres écrits en HTML;
+- [`index.html`, *phase 2*{ .w5-phase .w5-phase-2 }](#html-phase-2) : le `<main>` vide, rempli par le JavaScript;
+- [`style.css`](#css) : le fichier qui importe tous les autres;
+- [`data.json`](#data-json) : un chapitre simple, un chapitre en plans, le fichier complet;
+- [Le fichier d'un chapitre](#fichier-chapitre) : `createMedia()` et `animate()`;
+- [`main.js`, *phase 1*{ .w5-phase .w5-phase-1 }](#main-js-phase-1) : animer les sections du HTML;
+- [`main.js`, *phase 2*{ .w5-phase .w5-phase-2 }](#main-js) : charger, construire, animer.
+
+## L'arborescence { #arborescence }
 
 Comment ces fichiers se parlent : [Le récit en un coup d'œil](schema-du-recit.md), en un schéma.
 
@@ -79,15 +91,16 @@ Une seule page.
 
 > Du 6 au ~~13~~ 18 novembre (~~13~~ 18 = remise prototype)
 
-Chaque chapitre est une `<section>`, écrite à la main dans `index.html`. Écrivez-la **exactement comme le JavaScript la construira à la phase 2** : la classe `chapitre`, l'`id` du chapitre, un `<h2>`, les paragraphes, puis le média.
+Chaque chapitre est une `<section>`, écrite à la main dans `index.html`. Écrivez-la **exactement comme le JavaScript la construira à la phase 2** : la classe `chapitre`, l'`id` du chapitre, un `<h2>`, puis votre contenu. Sous le `<h2>`, c'est **votre** chapitre : le texte et le média, dans l'ordre et la structure dont votre chapitre a besoin.
 
 ```html
 <main id="recit">
   <!-- Chapitre 1 : responsable, Prénom -->
   <section class="chapitre" id="la-foret">
     <h2>La forêt</h2>
+    <!-- Tout ce qui suit le <h2> : à la phase 2, createMedia()
+         le retournera (le texte et le média) -->
     <p>Il était une fois...</p>
-    <!-- Le média : à la phase 2, createMedia() le retournera -->
     <div class="foret">
       <img class="foret__fond" alt=""
            src="assets/images/ch-01/foret-fond.webp">
@@ -131,7 +144,7 @@ Le `<main>` est vide : les chapitres sont construits par le JavaScript, à parti
 </html>
 ```
 
-## Le CSS : un fichier qui importe tous les autres
+## Le CSS : un fichier qui importe tous les autres { #css }
 
 `style.css` ne contient que des `@import`, dans l'ordre : le commun, puis chaque chapitre.
 
@@ -179,7 +192,7 @@ Un texte et un média : ici, une parallaxe en deux calques.
 
 ### Un chapitre en plusieurs plans
 
-Quand un chapitre est une **séquence** de moments animés, chacun avec son média, son `contenu` peut contenir un tableau `plans`. Le module du chapitre boucle sur les plans, exactement comme `main.js` boucle sur les chapitres.
+Quand un chapitre est une **séquence** de moments animés, chacun avec son média, son `contenu` peut contenir un tableau `plans`. Le module du chapitre boucle sur les plans, exactement comme `main.js` boucle sur les chapitres. Comme c'est le module qui construit le texte, chaque plan peut placer **son** texte à côté de **son** média.
 
 ```json
 {
@@ -273,7 +286,7 @@ Les clés communes sont identiques dans les deux chapitres. Seul le `contenu` ch
 
 ### Les clés communes : fixes
 
-`id`, `numero`, `titre`, `responsable` et `texte` : `main.js` s'en sert pour construire chaque section. Elles sont **les mêmes pour toutes les équipes et tous les chapitres**, et elles **ne changent pas** en cours de route.
+`id`, `numero`, `titre`, `responsable` et `texte` : `main.js` se sert de l'`id` et du `titre` pour construire chaque section, et le module de chaque chapitre lit son `texte`. Elles sont **les mêmes pour toutes les équipes et tous les chapitres**, et elles **ne changent pas** en cours de route.
 
 ### `contenu` : libre, au responsable du chapitre
 
@@ -311,10 +324,16 @@ Chaque chapitre exporte **deux fonctions**, toujours les mêmes. `main.js` les a
 // Chapitre 3 : responsable, Prénom
 
 // Appelée par main.js pendant la construction de la section.
-// Retourne le HTML du média de ce chapitre.
+// Retourne le HTML du chapitre sous le <h2> : le texte et le média.
 export function createMedia(chapter) {
+  // Le texte : un <p> par paragraphe de chapter.texte
+  const paragraphs = chapter.texte.map((p) => `<p>${p}</p>`).join("");
+
   // Vos données : chapter.contenu (ex. chapter.contenu.sprite)
-  return `<div class="foret"></div>`;
+  return `
+    ${paragraphs}
+    <div class="foret"></div>
+  `;
 }
 
 // Appelée par main.js, une fois tout le HTML dans la page.
@@ -326,7 +345,9 @@ export function animate(section, chapter) {
 }
 ```
 
-- Pas encore de média? `return "";`.
+Le texte est à vous, comme le média : vous le placez où votre chapitre en a besoin (avant, après ou dans le média, un texte par plan...), et vous l'animez dans `animate()`, à votre façon. `.map()` et `.join("")` : voir [Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join).
+
+- Pas encore de média? Retournez seulement le texte : `return paragraphs;`.
 - Pas d'animation en JavaScript (tout est en CSS)? Laissez `animate` vide.
 - Mais les deux fonctions **doivent exister** : `main.js` les appelle pour chaque chapitre.
 
@@ -371,14 +392,12 @@ import * as ch03 from "./chapitres/ch-03.js";
 
 const chapterModules = [ch01, ch02, ch03];
 
-// Une section par chapitre : le texte (commun à tous),
-// puis le média, créé par le module du chapitre
+// Une section par chapitre : le titre (commun à tous),
+// puis le texte et le média, créés par le module du chapitre
 function createChapter(chapter, chapterModule) {
-  // ... les paragraphes (voir « Du JSON aux chapitres », étape 3)
   return `
     <section class="chapitre" id="${chapter.id}">
       <h2>${chapter.titre}</h2>
-      ${paragraphs}
       ${chapterModule.createMedia(chapter)}
     </section>
   `;
@@ -399,6 +418,9 @@ async function init() {
     const section = document.getElementById(chapter.id);
     chapterModules[index].animate(section, chapter);
   });
+
+  // 4. La page est complète : ScrollTrigger recalcule ses repères
+  ScrollTrigger.refresh();
 }
 
 init();
@@ -420,8 +442,8 @@ L'ordre du tableau `chapterModules` doit suivre l'ordre des chapitres dans `data
 
 Votre chapitre fonctionne en HTML statique? Pour le passer aux données, chapitre par chapitre :
 
-1. **Le texte** : copiez le titre et les paragraphes de votre `<section>` dans votre objet de `data.json` (`titre`, `texte`).
-2. **Le média** : copiez le HTML de votre média dans `createMedia()`, dans le [gabarit littéral](../../js/recap-js.md#gabarits) (les accents graves). Remplacez ce qui vient des données par `${...}`, par exemple les chemins des images : `${chapter.contenu.fond}`.
+1. **Les données** : copiez le titre et les paragraphes de votre `<section>` dans votre objet de `data.json` (`titre`, `texte`).
+2. **Le contenu** : copiez **tout ce qui suit votre `<h2>`** (le texte et le média) dans `createMedia()`, dans le [gabarit littéral](../../js/recap-js.md#gabarits) (les accents graves). Remplacez ce qui vient des données par `${...}` : vos paragraphes par ceux de `chapter.texte`, les chemins des images par `${chapter.contenu.fond}`.
 3. **Retirez** votre `<section>` du `index.html`.
 4. Quand toute l'équipe a fait les étapes 1 à 3, `index.html` n'a plus qu'un `<main id="recit"></main>` vide, et `main.js` passe à [la version de la *phase 2*{ .w5-phase .w5-phase-2 }](#main-js).
 

@@ -294,7 +294,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 **Chaque personne intègre son composant Vue** (voir votre matrice de responsabilités) au cours du **ven. 20 nov.**, en atelier : le navigateur de chapitres pour l'une, la barre de progression pour l'autre.
 
 1. Sur sa branche, crée son fichier à partir du bac à sable : `js/navigation.js` ou `js/progression.js`.
-2. Ajoute sa zone dans `index.html`, `#navigation` ou `#barre-progression`. La balise de Vue, une seule fois. C'est un fichier **commun** : prévenez votre coéquipier ou coéquipière.
+2. Ajoute sa zone dans `index.html`, `#navigation` ou `#barre-progression`. La balise `<script>`de Vue, une seule fois. C'est un fichier **commun** : prévenez votre coéquipier ou coéquipière.
 3. Branche son composant dans `main.js` (*phase 1*{ .w5-phase .w5-phase-1 }) : son `import` et son appel. Fichier commun, lui aussi.
 4. *Pull request* dès qu'il s'affiche, même sans style.
 

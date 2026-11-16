@@ -206,7 +206,7 @@ Questions à vous poser, pour chaque chapitre :
 
 Dans le code, chaque chapitre a son propre fichier JavaScript, qui crée son média et l'anime. Ce fichier est le **seul** à lire le `contenu` de son chapitre. Vous pouvez donc changer le `contenu` de vos chapitres sans rien briser chez votre coéquipier.
 
-Les clés communes, elles, sont lues par `main.js`, un fichier commun : si vous voulez en changer une, on s'entend d'abord en équipe. Tous les détails sont dans [L'arborescence du dépôt](arborescence-recit-defilant.md#data-json).
+Les clés communes, elles, sont lues par `main.js`, un fichier commun : si vous voulez en changer une, on s'entend d'abord en équipe. Tous les détails sont dans [Arborescence et code de départ](arborescence-recit-defilant.md#data-json).
 
 ## Le moment dataviz
 

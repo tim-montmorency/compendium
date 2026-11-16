@@ -92,17 +92,21 @@ const MORPH = `
 export function createMedia(chapter) {
   const c = chapter.contenu;
 
+  // Le texte du chapitre, au-dessus de la scène
+  const paragraphs = chapter.texte.map((p) => `<p>${p}</p>`).join("");
+
   // Un <img> par calque, du plus loin au plus proche
-  const calques = c.calques
-    .map((calque) => `
-      <img class="calque calque--${calque.id}"
-           src="${calque.src}" alt="">`)
+  const layers = c.calques
+    .map((layer) => `
+      <img class="calque calque--${layer.id}"
+           src="${layer.src}" alt="">`)
     .join("");
 
   // L'ordre du HTML = l'ordre d'empilement
   return `
+    ${paragraphs}
     <div class="scene">
-      ${calques}
+      ${layers}
       <div class="voile"></div>
       ${MORPH}
       <img class="perso perso--gauche"
@@ -271,7 +275,7 @@ Cinq choses à remarquer :
 </section>
 ```
 
-Mêmes classes, même ordre : la fonction `animate()` est **exactement la même**. À la *phase 2*{ .w5-phase .w5-phase-2 }, vous déplacez les chemins et les textes alternatifs dans le JSON, et le HTML dans `createMedia()`. Le SVG du morph, lui, reste dans le module. Voir [Passer à la *phase 2*{ .w5-phase .w5-phase-2 }](arborescence-recit-defilant.md#phase-2).
+Mêmes classes, même ordre : la fonction `animate()` est **exactement la même**. À la *phase 2*{ .w5-phase .w5-phase-2 }, vous déplacez le texte, les chemins et les textes alternatifs dans le JSON, et tout ce qui suit le `<h2>` (le texte et la scène) dans `createMedia()`. Le SVG du morph, lui, reste dans le module. Voir [Passer à la *phase 2*{ .w5-phase .w5-phase-2 }](arborescence-recit-defilant.md#phase-2).
 
 ## À retenir { #a-retenir }
 
@@ -280,6 +284,6 @@ Mêmes classes, même ordre : la fonction `animate()` est **exactement la même*
 3. **Une seule timeline** pour toute la scène : l'ordre du récit devient l'ordre des tweens.
 4. **Pas plus d'une scène comme celle-là** par chapitre : elle est épinglée, et chacun épingle [au plus la moitié de ses chapitres](index.md).
 
-[:material-file-tree: Arborescence du dépôt](arborescence-recit-defilant.md){ .md-button }
+[:material-file-tree: Arborescence et code de départ](arborescence-recit-defilant.md){ .md-button }
 
 [:material-gesture-swipe-vertical: GSAP : ScrollTrigger](../../js/gsap-scrolltrigger.md){ .md-button }

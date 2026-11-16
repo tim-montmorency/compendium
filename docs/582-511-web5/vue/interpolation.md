@@ -153,7 +153,7 @@ En JavaScript
 const app = Vue.createApp({
   data() {
     return{
-      monTitre: '<h2>Vue.js est formidable!</h2>'
+      myTitle: '<h2>Vue.js est formidable!</h2>'
     }
   }
 });
@@ -163,7 +163,7 @@ app.mount('#app');
 En HTML
 
 ```html title="En HTML"
-<div v-html="monTitre">
+<div v-html="myTitle">
     
 </div>
 ```
