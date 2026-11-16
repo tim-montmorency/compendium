@@ -61,14 +61,35 @@ export function gsapAnimations() {
 | `"words"` | `titre.words` | Chaque mot |
 | `"words, chars"` | les deux | Combiner (les lettres restent groupées par mot) |
 
+#### stagger
+
+Quand on anime **plusieurs éléments** avec un seul tween (ici `txt.chars`, un tableau de lettres), ils partent normalement **tous en même temps**. L'option [`stagger`](https://gsap.com/resources/getting-started/Staggers/) décale le départ de chacun.
+
+`stagger: 0.05` signifie : chaque lettre démarre **0,05 s après la précédente**.
+
+| Lettre | Départ | Fin (`duration: 0.8`) |
+| :--- | :--- | :--- |
+| 1re | 0 s | 0,8 s |
+| 2e | 0,05 s | 0,85 s |
+| 3e | 0,1 s | 0,9 s |
+| … | … | … |
+
+Pour plus de contrôle, on peut passer un objet :
+
+```js
+stagger: {
+  each: 0.05,       // délai entre chaque élément
+  from: "center"    // part du centre : "start", "end", "center", "edges", "random" ou un index
+}
+```
+
+!!! note ""
+
+    `stagger` n'est pas propre à SplitText : il fonctionne avec **n'importe quelle liste d'éléments**, par exemple `gsap.from(".carte", { y: 50, stagger: 0.1 })`.
+
 ??? tip "Pour le fun"
     
     Essayez `rotation: "random(-120, 120)"`
-
-<!-- 
-!!! note "Accessibilité"
-
-    Un lecteur d'écran qui lirait chaque lettre séparément serait pénible à écouter. SplitText ajoute automatiquement un `aria-label` avec le texte complet&nbsp;: rien à faire de plus. -->
 
 ### ScrambleTextPlugin
 

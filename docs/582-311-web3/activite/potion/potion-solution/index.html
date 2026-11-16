@@ -3,28 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Potion</title>
+    <title>La potion</title>
   </head>
-  <body class="bg-slate-900 text-slate-100 font-serif">
+  <body class="bg-slate-900 text-slate-400">
 
-    <!-- L'atelier : l'ingrédient, le chaudron et le message -->
-    <section id="atelier" class="min-h-screen flex flex-col items-center justify-center gap-10 px-6 py-16 overflow-hidden">
+    <header class="min-h-screen flex flex-col items-center justify-center">
 
-      <h1 class="font-cedarville text-6xl md:text-8xl">La potion</h1>
-
-      <!-- Le message, invisible au départ -->
-      <button id="message" class="invisible cursor-pointer text-3xl md:text-5xl text-lime-300">
+      <button id="cta" class="invisible cursor-pointer text-2xl text-lime-300 my-7 py-5 px-15 rounded-xl bg-black/20 hover:bg-black/40">
         Boire la potion
       </button>
 
-      <div class="flex items-end justify-center gap-16 md:gap-40">
+      <div class="flex items-center justify-between w-3xl max-w-full p-4">
 
         <!-- Le champignon à déplacer -->
-        <img id="ingredient" class="w-20 md:w-28 cursor-grab" src="./images/champi.png" alt="Champignon" />
+        <img id="ingredient" class="w-28 cursor-grab" src="./images/champi.png" alt="Champignon" />
 
         <!-- Le chaudron : l'arrière, les bulles, puis l'avant par-dessus -->
-        <div id="chaudron" class="relative w-64 md:w-80 aspect-537/407">
-          <img class="absolute inset-0 w-full" src="./images/chaudron-arriere.png" alt="" />
+        <div id="chaudron" class="relative w-[33vw]">
+          <img class="inset-0 w-full" src="./images/chaudron-arriere.png" alt="" />
 
           <img class="bulle absolute left-[30%] top-[30%] w-[10%]" src="./images/bulle.png" alt="" />
           <img class="bulle absolute left-[40%] top-[30%] w-[10%]" src="./images/bulle.png" alt="" />
@@ -35,21 +31,22 @@
           <img class="absolute inset-0 w-full" src="./images/chaudron-avant.png" alt="Chaudron" />
         </div>
 
+        <div class="w-28"></div>
+        
       </div>
+    </header>
+
+
+    <section class="min-h-[150vh] bg-linear-to-b from-slate-900 to-emerald-950 flex flex-col items-center justify-around font-display text-6xl text-emerald-300/60">
+      <p id="abra">abra</p>
+      <p id="cada">cada</p>
+      <p id="bra">bra</p>
     </section>
 
-    <!-- La descente -->
-    <section class="min-h-[150vh] bg-linear-to-b from-slate-900 to-emerald-950 flex flex-col items-center justify-around text-2xl italic text-emerald-300/60">
-      <p>Abra</p>
-      <p>cada</p>
-      <p>bra</p>
-    </section>
 
-    <!-- Tout en bas -->
-    <footer id="fin" class="min-h-screen bg-emerald-950 grid place-items-center px-6 text-center">
+    <footer id="fin" class="min-h-screen bg-emerald-950 grid place-items-end px-6 text-center">
       <div>
         <img id="grenouille" class="w-64 mx-auto" src="./images/grenouille.png" alt="Grenouille" />
-        <p class="font-cedarville text-6xl md:text-8xl">Croâ!</p>
       </div>
     </footer>
 

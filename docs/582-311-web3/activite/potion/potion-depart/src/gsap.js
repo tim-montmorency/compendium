@@ -2,18 +2,15 @@ import gsap from "gsap"
 
 export function gsapAnimations() {
 
-  // Les bulles
+  // ScrollTrigger + SplitText
 
 
-  // La grenouille
+  // Draggable + SplitText
 
 
-  // Déplacer l'ingrédient
+  // ScrollTo
 
 
-  // La potion est prête
-
-
-  // Boire la potion
+  // Finition
 
 }
