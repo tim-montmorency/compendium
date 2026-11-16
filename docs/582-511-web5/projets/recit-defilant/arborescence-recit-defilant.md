@@ -11,7 +11,7 @@
 
 !!! info "Votre récit se construit en deux phases { #deux-phases }"
     1. *Phase 1*{ .w5-phase .w5-phase-1 } : **intégration statique.** Vous écrivez vos chapitres **directement en HTML et en CSS**, puis vous les animez. Vous voyez vos éléments dans le code et dans l'inspecteur : c'est plus simple pour concevoir et animer. **Du 6 au ~~13~~ 18 nov.**, accepté jusqu'au **prototype** (~~ven. 13 nov.~~ mer. 18 nov.).
-    2. *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique.** Vous déplacez le texte et les médias de vos chapitres dans `data.json`, et le JavaScript construit les sections. **Du ~~13 au 20 nov.~~ 18 nov. à la bêta**, **exigé à la bêta** (~~ven. 20 nov.~~ **ven. 27 nov.**).
+    2. *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique.** Vous déplacez le texte et les médias de vos chapitres dans `data.json`, et le JavaScript construit les sections. **Du ~~13 au 20 nov.~~ 18 nov. à la bêta**, **exigé à la bêta** (~~ven. 20 nov.~~ **mer. 2 déc.**).
 
     Si votre HTML statique est écrit **comme le JavaScript le construira** (même `<section>`, mêmes classes), le passage à la *phase 2*{ .w5-phase .w5-phase-2 } ne change pas une ligne de vos animations. [Comment passer à la *phase 2*{ .w5-phase .w5-phase-2 }](#phase-2).
 
@@ -122,7 +122,7 @@ Chaque chapitre est une `<section>`, écrite à la main dans `index.html`. Écri
 
 ### *Phase 2*{ .w5-phase .w5-phase-2 }, intégration dynamique : les chapitres construits par le JavaScript { #html-phase-2 }
 
-> Du ~~13 au 20 novembre~~ 18 au 27 novembre (bêta)
+> Du ~~13 au 20 novembre~~ 18 novembre au 2 décembre (bêta)
 
 Le `<main>` est vide : les chapitres sont construits par le JavaScript, à partir de `data.json`.
 
@@ -190,7 +190,7 @@ Un texte et un média : ici, une parallaxe en deux calques.
 }
 ```
 
-### Un chapitre en plusieurs plans
+### Un chapitre en plusieurs plans { #plans }
 
 Quand un chapitre est une **séquence** de moments animés, chacun avec son média, son `contenu` peut contenir un tableau `plans`. Le module du chapitre boucle sur les plans, exactement comme `main.js` boucle sur les chapitres. Comme c'est le module qui construit le texte, chaque plan peut placer **son** texte à côté de **son** média.
 
@@ -226,6 +226,46 @@ Quand un chapitre est une **séquence** de moments animés, chacun avec son méd
 ```
 
 Les clés communes sont identiques dans les deux chapitres. Seul le `contenu` change : chaque responsable y met ce dont **son** chapitre a besoin.
+
+### Texte et médias en alternance { #alternance }
+
+Un paragraphe, une image, un autre paragraphe : quand votre chapitre **alterne** texte et médias, rangez tout dans le `contenu`, dans **une liste ordonnée de blocs**. Chaque bloc dit ce qu'il est (`type`). La clé commune `texte` reste là, mais vide.
+
+```json
+{
+  "id": "chez-la-mere-grand",
+  "numero": 6,
+  "titre": "Chez la mère-grand",
+  "responsable": "Zoé",
+  "texte": [],
+  "contenu": {
+    "blocs": [
+      { "type": "texte", "valeur": "Le loup arrive le premier." },
+      {
+        "type": "image",
+        "src": "assets/images/ch-06/porte.webp",
+        "alt": "La porte entrouverte"
+      },
+      { "type": "texte", "valeur": "Il frappe trois coups." }
+    ]
+  }
+}
+```
+
+Dans `createMedia()`, on parcourt les blocs **dans l'ordre**, et chaque bloc devient la balise qui lui convient :
+
+```js
+export function createMedia(chapter) {
+  return chapter.contenu.blocs.map((bloc) => {
+    if (bloc.type === "image") {
+      return `<img src="${bloc.src}" alt="${bloc.alt}">`;
+    }
+    return `<p>${bloc.valeur}</p>`;
+  }).join("");
+}
+```
+
+Les noms (`blocs`, `type`, `valeur`) sont des exemples : c'est **votre** `contenu`, vous choisissez la structure dont votre chapitre a besoin.
 
 ### Le fichier complet, avec 2 chapitres
 
@@ -288,6 +328,8 @@ Les clés communes sont identiques dans les deux chapitres. Seul le `contenu` ch
 
 `id`, `numero`, `titre`, `responsable` et `texte` : `main.js` se sert de l'`id` et du `titre` pour construire chaque section, et le module de chaque chapitre lit son `texte`. Elles sont **les mêmes pour toutes les équipes et tous les chapitres**, et elles **ne changent pas** en cours de route.
 
+`texte`, c'est le texte principal du chapitre, en tableau de paragraphes : pratique pour un chapitre simple. Votre chapitre alterne texte et médias? Laissez `"texte": []`, et mettez tout dans votre `contenu` (voir [Texte et médias en alternance](#alternance)).
+
 ### `contenu` : libre, au responsable du chapitre
 
 Tout ce qui est propre à votre chapitre va dans `contenu` : vos images, vos calques et leur vitesse, le nombre d'images de votre spritesheet, des répliques, le lieu pour votre API (Application Programming Interface)... Vous inventez les clés dont vous avez besoin, et **vous les changez quand vous voulez** : seul le module de votre chapitre (`ch-03.js`) lit son `contenu`. Votre coéquipier ne peut pas planter à cause de vos changements.
@@ -326,7 +368,8 @@ Chaque chapitre exporte **deux fonctions**, toujours les mêmes. `main.js` les a
 // Appelée par main.js pendant la construction de la section.
 // Retourne le HTML du chapitre sous le <h2> : le texte et le média.
 export function createMedia(chapter) {
-  // Le texte : un <p> par paragraphe de chapter.texte
+  // Un point de départ : un <p> par paragraphe de chapter.texte.
+  // Texte et images en alternance? Voir plus haut, dans les données.
   const paragraphs = chapter.texte.map((p) => `<p>${p}</p>`).join("");
 
   // Vos données : chapter.contenu (ex. chapter.contenu.sprite)
@@ -345,7 +388,7 @@ export function animate(section, chapter) {
 }
 ```
 
-Le texte est à vous, comme le média : vous le placez où votre chapitre en a besoin (avant, après ou dans le média, un texte par plan...), et vous l'animez dans `animate()`, à votre façon. `.map()` et `.join("")` : voir [Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join).
+Ce gabarit, c'est le cas le plus simple : le texte, puis le média. Ce n'est pas une obligation. **La structure de votre JSON décide de celle de votre HTML** : le texte avant, après ou dans le média, [un texte par plan](#plans), [texte et images en alternance](#alternance). Et vous l'animez dans `animate()`, à votre façon. `.map()` et `.join("")` : voir [Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join).
 
 - Pas encore de média? Retournez seulement le texte : `return paragraphs;`.
 - Pas d'animation en JavaScript (tout est en CSS)? Laissez `animate` vide.
@@ -438,13 +481,23 @@ L'ordre du tableau `chapterModules` doit suivre l'ordre des chapitres dans `data
 
 ## Passer à la *phase 2*{ .w5-phase .w5-phase-2 } { #phase-2 }
 
-> Du ~~13 au 20 novembre~~ 18 au 27 novembre (bêta)
+> Du ~~13 au 20 novembre~~ 18 novembre au 2 décembre (bêta)
+
+!!! danger "Avant de retirer quoi que ce soit : une copie de sécurité"
+    Vos `<section>` statiques contiennent tout le travail de la *phase 1*{ .w5-phase .w5-phase-1 } : votre texte, la structure et les classes de vos médias. Avant de les retirer, **faites une copie de `index.html`** :
+
+    1. Dans VS Code, clic droit sur `index.html`, **Copier**.
+    2. Clic droit sur le dossier `documentation/`, **Coller**.
+    3. Renommez la copie **`index-phase-1.html`**.
+    4. *Commit* : `Commun : copie de sécurité de la phase 1`.
+
+    C'est dans cette copie que vous irez chercher le HTML de vos chapitres. N'y touchez plus : elle reste telle quelle jusqu'à la fin du projet.
 
 Votre chapitre fonctionne en HTML statique? Pour le passer aux données, chapitre par chapitre :
 
 1. **Les données** : copiez le titre et les paragraphes de votre `<section>` dans votre objet de `data.json` (`titre`, `texte`).
-2. **Le contenu** : copiez **tout ce qui suit votre `<h2>`** (le texte et le média) dans `createMedia()`, dans le [gabarit littéral](../../js/recap-js.md#gabarits) (les accents graves). Remplacez ce qui vient des données par `${...}` : vos paragraphes par ceux de `chapter.texte`, les chemins des images par `${chapter.contenu.fond}`.
-3. **Retirez** votre `<section>` du `index.html`.
+2. **Le contenu** : copiez **tout ce qui suit votre `<h2>`** (le texte et le média), depuis `documentation/index-phase-1.html`, dans `createMedia()`, dans le [gabarit littéral](../../js/recap-js.md#gabarits) (les accents graves). Remplacez ce qui vient des données par `${...}` : vos paragraphes par ceux de `chapter.texte`, les chemins des images par `${chapter.contenu.fond}`.
+3. **Retirez** votre `<section>` du `index.html`, **seulement** une fois la copie de sécurité faite et votre `createMedia()` rempli.
 4. Quand toute l'équipe a fait les étapes 1 à 3, `index.html` n'a plus qu'un `<main id="recit"></main>` vide, et `main.js` passe à [la version de la *phase 2*{ .w5-phase .w5-phase-2 }](#main-js).
 
 Vos animations, elles, **ne changent pas** : `animate(section)` reçoit la même `<section>`, avec les mêmes classes. Si une animation ne marche plus, comparez dans l'inspecteur le HTML construit avec votre ancien HTML statique : une classe a changé.

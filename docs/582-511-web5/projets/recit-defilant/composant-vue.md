@@ -192,7 +192,7 @@ export function createProgressBar() {
 !!! warning "Les `TODO` ne restent pas dans votre code final"
     Les commentaires `TODO` sont des **instructions** pour vous. Remplacez chacun par votre code, puis **effacez-le**. Dans votre récit final, il ne reste **aucun** `TODO` : seulement vos propres commentaires, qui expliquent ce que fait le code. Pour vérifier : ++ctrl+shift+f++ dans VS Code, cherchez `TODO`.
 
-!!! danger "À la défense (cours 15.1, mer. 9 déc.), chaque ligne compte"
+!!! danger "À la défense (cours 15.2, ven. 11 déc.), chaque ligne compte"
     À la [défense individuelle](index.md#calendrier), en privé, vous expliquerez chaque ligne de **votre** composant, et vous devrez pouvoir la modifier en direct. Un code copié sans être compris se voit tout de suite.
 
 Bloqué? Un indice à la fois :
@@ -314,7 +314,7 @@ Prenez le code de cette page comme **départ**, puis faites-le vôtre :
 - **Le navigateur** : des points plutôt que des titres, des numéros de chapitre, une icône par chapitre (ajoutez une clé dans vos chapitres). Sur mobile, il prend de la place : affichez seulement le chapitre actif, et la liste au toucher (`v-if`, une donnée `isOpen`).
 - **La barre** : verticale plutôt qu'horizontale, plus épaisse, un pourcentage affiché avec `{{ }}`, une forme qui rappelle votre thème.
 
-Chaque personne explique les données, les directives et les méthodes de **son** composant à la [défense](index.md#calendrier) (cours 15.1, mer. 9 déc.).
+Chaque personne explique les données, les directives et les méthodes de **son** composant à la [défense](index.md#calendrier) (cours 15.2, ven. 11 déc.).
 
 !!! tip "Avec ScrollTo, une extension GSAP"
     Dans `goTo()`, vous pouvez remplacer `scrollIntoView()` par [ScrollTo](../../js/gsap-scrollto.md) : il tient compte des sections épinglées, et la durée et l'*easing* se règlent. Chargez le plugin par CDN et enregistrez-le dans `main.js`.
