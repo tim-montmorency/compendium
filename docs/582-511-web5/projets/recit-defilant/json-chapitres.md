@@ -141,7 +141,7 @@ Sur **votre** branche, mise à jour avec `main` ([étape 5 de Git en équipe](gi
 - [ ] **Le média** : dans `createMedia()`, ce qui vient des données devient `${...}` (les chemins des images, les textes alternatifs). Ces valeurs vont dans le `contenu` de votre chapitre. Le détail : [Passer à la *phase 2*{ .w5-phase .w5-phase-2 }](arborescence-recit-defilant.md#phase-2).
 - [ ] **Vérification** : vos chapitres s'affichent comme avant, et vos animations fonctionnent toujours.
 
-## Les *pull requests* { #pull-requests }
+## Les pull requests { #pull-requests }
 
 1. *Commit* et *push* sur votre branche (ex. `Chapitre 3 : passe le texte et le média dans data.json`).
 2. :material-github: Une *pull request* vers `main`, comme à la partie 4 de l'[exercice du conflit](../../exercices/ex-conflit-git/index.md).

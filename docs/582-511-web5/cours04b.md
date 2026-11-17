@@ -50,7 +50,7 @@ Les [media queries](https://tim-montmorency.com/timdoc/582-211/css/media-queries
 
 
 
-## La méthode *Pomodoro*, pour aujourd'hui
+## La méthode Pomodoro, pour aujourd'hui
 
 !!! info "Le principe"
     Des *sprints* de travail minutés, entrecoupés de vraies *pauses*. Un objectif annoncé et une fin en vue, ça coupe court à la dérive, contrairement à « vous avez le reste du cours pour travailler ».
@@ -80,7 +80,7 @@ Les [media queries](https://tim-montmorency.com/timdoc/582-211/css/media-queries
 
 *Pendant les pauses :* une *vraie pause*, pas une suite déguisée du travail à l'écran.
 
-## Comment *démarrer un composant*
+## Comment démarrer un composant
 
 Vous n'avez pas fait de HTML/CSS depuis un moment (Web 4 étant surtout de la gestion WordPress). 
 

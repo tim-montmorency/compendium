@@ -171,7 +171,7 @@ Indices :
 - Pensez à `transform-origin` pour la rotation : une montgolfière se balance depuis le haut, pas depuis son centre.
 - La montgolfière rouge a déjà l'animation `proche`. Écrivez votre règle `.calque--montgolfiere-1` **après** celle de `.proche` : à spécificité égale, la dernière règle gagne.
 
-## Vos *commits* et la remise
+## Vos commits et la remise
 
 Un *commit* à la **fin de chaque partie**, puis *push* :
 

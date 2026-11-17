@@ -265,7 +265,7 @@ museumStore.currentRoom // Pour un getter qui retourne le contenu de la salle co
 museumStore.deleteRoom(4) // Pour une action qui supprime la salle ayant l'id 4
 ```
 
-## Exemple complet d'un *compteur* utilisant un store Pinia
+## Exemple complet d'un compteur utilisant un store Pinia
 
 Si vous souhaitez explorer cet exemple, voici les fichiers de cet exemple de *compteur utilisant Pinia* à télécharger et installer localement (n'oubliez pas le `npm install` et le `npm run dev`).
 
@@ -378,7 +378,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
 ```
 
 
-## Configuration de stores pour le projet *App web créative*
+## Configuration de stores pour le projet App web créative
 
 ### Pour *Mémoires interactives*
 

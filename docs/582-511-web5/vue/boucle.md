@@ -124,7 +124,7 @@ Les personnages de Rick and Morty, chargés depuis une API (Application Programm
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-personnages&onglets=html,js,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:700px;border:0" loading="lazy"></iframe>
 
-## Récapitulatif de ce que on a *Vue.js* jusqu'à maintenant
+## Récapitulatif de ce que on a Vue.js jusqu'à maintenant
 
 <p>Analysons ensemble cet exemple de brassage de carte réalisé par le développeur Torontois <a href="https://codepen.io/itslit" target="_blank" rel="noopener noreferrer">Hassan Dj (@itslit</a>)</p>
 

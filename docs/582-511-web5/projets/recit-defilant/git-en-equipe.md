@@ -55,11 +55,11 @@ Une branche à **votre prénom**, en minuscules, sans accents : `zoe`, `leo`, `m
 
 **Le réflexe** : avant de coder, un coup d'œil à la branche active. Ce doit être **la vôtre**, jamais `main`.
 
-## Étape 3 : travailler et *commit* sur sa branche
+## Étape 3 : travailler et commit sur sa branche
 
 Vous travaillez comme d'habitude : de petits *commits* fréquents, puis *push*. Vos *commits* vont sur votre branche, et `main` ne bouge pas.
 
-## C'est quoi, une *pull request*?
+## C'est quoi, une pull request?
 
 Une *pull request* (PR), c'est une **demande** faite sur GitHub : « J'ai fait des changements sur ma branche. Je propose de les intégrer dans `main`. » Le nom vient du point de vue de l'équipe : vous lui demandez de **tirer** (*pull*) vos changements dans la version commune.
 
@@ -88,7 +88,7 @@ Une PR est une page de votre dépôt sur github.com, avec :
 | *Pull request* | GitHub | Propose d'intégrer votre branche dans `main` |
 | *Merge* | GitHub | Accepte la proposition : vos *commits* entrent dans `main` |
 
-## Étape 4 : fusionner dans `main` avec une *pull request*
+## Étape 4 : fusionner dans `main` avec une pull request
 
 Une partie de votre travail fonctionne (ex. le chapitre 3 s'affiche et s'anime)? Proposez-la à l'équipe :
 
@@ -165,7 +165,7 @@ Dans GitHub Desktop, la fenêtre de fusion liste les fichiers en conflit : ouvre
 - **Les fichiers communs** (`index.html`, `commun.css`, `main.js`, `data.json`) : on se prévient avant d'y toucher, et on fusionne vite.
 - **Mettez votre branche à jour souvent** : un petit conflit aujourd'hui vaut mieux qu'un gros dans deux semaines.
 
-## La convention de *commits* de l'équipe
+## La convention de commits de l'équipe
 
 Les deux membres de l'équipe écrivent leurs messages **de la même façon** :
 

@@ -1242,3 +1242,15 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .md-typeset .w5-phase-2 {
   background-color: #C8243A;
 }
+
+/* Titres h2 à deux niveaux : l'italique est la partie secondaire.
+   Ex. : ## Quiz Wooclap *10 min* */
+.finishing .md-typeset h2 em:not(.w5-phase) {
+  margin-left: 0.4em;
+  font-size: 0.5em;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: var(--md-default-fg-color--light);
+  vertical-align: middle;
+}

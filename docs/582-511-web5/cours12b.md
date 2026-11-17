@@ -95,7 +95,7 @@ Vous avez déjà le geste : dans votre portfolio, `fetch()` chargeait vos projet
 
 [:material-api: API, JSON et fetch : le trio du web moderne](js/api-json-fetch.md){ .md-button .md-button--primary }
 
-## 2. :material-api:  Le *fetch* externe : choisir et tester votre API
+## 2. :material-api:  Le fetch externe : choisir et tester votre API
 
 <video class="w-100" src="assets/cours11b-fetch-dataviz.webm" autoplay muted loop playsinline aria-label="La démo La Terre bouge : en arrivant à chaque moment, un fetch() part vers une API externe (USGS, puis Open-Meteo), le JSON revient, et la dataviz s'anime : un compteur et des points pour les séismes, puis des barres qui poussent pour la météo"></video>
 

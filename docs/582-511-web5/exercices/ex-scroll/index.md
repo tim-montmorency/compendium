@@ -75,7 +75,7 @@ Les cartes **disparaissent aussi** en sortant par le haut de l'écran : elles p�
 - [ ] Une deuxième animation sur `.carte`, avec sa propre plage : `exit`.
 - [ ] Indice : `animation`, `animation-timeline` et `animation-range` acceptent **plusieurs valeurs, séparées par des virgules**, une par animation.
 
-## Vos *commits* et la remise
+## Vos commits et la remise
 
 Un *commit* à la **fin de chaque partie**, puis *push* :
 

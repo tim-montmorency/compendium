@@ -506,7 +506,7 @@ Vous pouvez donc la styliser pour lui donner un aspect différent des autres lie
 
 
 
-## 🗂️ 6: Organisation des routes pour le projet *App web créative*
+## 🗂️ 6: Organisation des routes pour le projet App web créative
 
 ### Pour "Mémoires interactives"
 

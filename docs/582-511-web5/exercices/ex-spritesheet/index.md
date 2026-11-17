@@ -188,7 +188,7 @@ C'est l'**épinglage** (*pin*), en CSS pur, avec `position: sticky`. Remplacez v
 
 **Pour aller plus loin** : pendant qu'il marche sur place, faites aussi **traverser l'écran** au monstre, de gauche à droite. Indice : une deuxième animation, sur le conteneur (`.monstre`), avec la même timeline et la même plage.
 
-## Vos *commits* et la remise
+## Vos commits et la remise
 
 Un *commit* à la **fin de chaque partie**, puis *push* :
 

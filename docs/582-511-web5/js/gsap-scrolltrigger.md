@@ -212,7 +212,7 @@ Avec des étiquettes, vous choisissez les arrêts vous-même : ici, un arrêt à
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-scrolltrigger-snap-tag&onglets=js,resultat&modifiable=1&disposition=pile&boutons=rejouer,ouvrir" style="width:100%;height:800px;border:0" loading="lazy"></iframe>
 
-## Déclencher du JavaScript : les *callbacks*
+## Déclencher du JavaScript : les callbacks
 
 ScrollTrigger peut aussi appeler **vos fonctions** à des moments précis, sans rien animer. C'est utile pour changer une classe, mettre à jour un compteur, lancer un `fetch`.
 

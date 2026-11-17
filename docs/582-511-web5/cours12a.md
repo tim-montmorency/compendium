@@ -68,14 +68,14 @@ Du bac à sable au projet : chacun intègre le sien.
 - [ ] Prototype : votre démo de 60 secondes, pendant que je passe d'équipe en équipe
 - [ ] Atelier : chaque personne intègre son composant Vue dans le projet (65 min)
 
-## 1. :material-head-question-outline:  Quiz Wooclap : les principes de Vue (10 min) { #quiz }
+## 1. :material-head-question-outline:  Quiz Wooclap : les principes de Vue *10 min* { #quiz }
 
 Six questions pour réactiver ce qu'on a vu mercredi, avant de construire vos composants. Rejoignez l'événement de votre groupe :
 
 - [Gr1 mercredi AM](https://app.wooclap.com/CTKRJEJ) (code `CTKRJEJ`)
 - [Gr2 mercredi PM](https://app.wooclap.com/KSMDBMM) (code `KSMDBMM`)
 
-## 2. :simple-vuedotjs:  Exercices : Films ou Kanye (30 min) { #exercices }
+## 2. :simple-vuedotjs:  Exercices : Films ou Kanye *30 min* { #exercices }
 
 **Vous n'avez pas terminé *Collection de films*?** Terminez-le. Si le temps manque, visez la **partie C** (`v-for` sur un tableau) : c'est votre navigateur de chapitres, en version simple.
 
@@ -83,13 +83,13 @@ Six questions pour réactiver ce qu'on a vu mercredi, avant de construire vos co
 
 [:simple-vuedotjs: Collection de films](exercices/ex-vue-films/index.md){ .md-button } ou [:simple-vuedotjs: Cheese Kanye says](exercices/ex-vue-kanye/index.md){ .md-button }
 
-## 3. :material-bug-outline:  Révision : la chasse aux bogues (20 min) { #revision }
+## 3. :material-bug-outline:  Révision : la chasse aux bogues *20 min* { #revision }
 
 Le code de l'exercice Collection de films, avec 5 bogues cachés dedans. En duo, vous les trouvez en lisant, puis vous les corrigez un à la fois, la console ouverte.
 
 [:material-bug-outline: La chasse aux bogues](exercices/ex-vue-films/chasse-aux-bogues.md){ .md-button }
 
-## 4. :material-code-braces:  Les composants Vue, dans un bac à sable (70 min) { #composant }
+## 4. :material-code-braces:  Les composants Vue, dans un bac à sable *70 min* { #composant }
 
 <video class="w-100" src="assets/cours11b-navigateur-chapitres.webm" autoplay muted loop playsinline aria-label="Le navigateur de chapitres en action : en défilant, le chapitre actif s'allume dans la liste et la barre de progression avance; un clic sur un chapitre y mène directement"></video>
 
@@ -217,7 +217,7 @@ Pour relire après le cours, ou si vous étiez absent :
 
 [:simple-vuedotjs: Les composants Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
 
-## 5. :material-play-box-outline:  Remise : Le prototype, 60 secondes par équipe ( mer. 18 nov.)
+## 5. :material-play-box-outline:  Remise : Le prototype, 60 secondes par équipe (mer. 18 nov.)
 
 Pendant le travail en équipe, je passe vous voir. 
 
@@ -227,7 +227,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 [:material-play-box-outline: Le prototype : ce que je dois voir](projets/recit-defilant/index.md#prototype){ .md-button }
 
-## 6. :material-account-multiple-outline:  Atelier : intégrer votre composant Vue (65 min) { #atelier-vue }
+## 6. :material-account-multiple-outline:  Atelier : intégrer votre composant Vue *65 min* { #atelier-vue }
 
 **Chaque personne intègre son composant Vue** (voir votre matrice de responsabilités), à partir du bac à sable de la démo, **pendant que je passe d'équipe en équipe** pour le prototype : le navigateur de chapitres pour l'une, la barre de progression pour l'autre.
 
