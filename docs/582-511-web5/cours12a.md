@@ -3,7 +3,7 @@
 
 ![](assets/cours11b-banniere.webp){.w-100}
 
-!!! warning "Cours reporté : ~~ven. 13 nov.~~ mer. 18 nov."
+!!! warning "Cours reporté :mer. 18 nov."
     En raison de la levée de cours, ce cours et la démo du prototype ont lieu le **mer. 18 nov.** Le cours du 13 nov. sera repris le **jeu. 17 déc.** : tout le calendrier qui suit est décalé d'un cours. La **bêta** a lieu le **mer. 2 déc.**, la **défense** le **ven. 11 déc.** et la **remise finale** le **jeu. 17 déc.** [Voir le calendrier](projets/recit-defilant/index.md#calendrier).
 
 ??? danger "Changement : un composant Vue par personne, obligatoire. Cliquer pour les détails."
@@ -217,7 +217,7 @@ Pour relire après le cours, ou si vous étiez absent :
 
 [:simple-vuedotjs: Les composants Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
 
-## 5. :material-play-box-outline:  Remise : Le prototype, 60 secondes par équipe (~~ven. 13 nov.~~ mer. 18 nov.)
+## 5. :material-play-box-outline:  Remise : Le prototype, 60 secondes par équipe ( mer. 18 nov.)
 
 Pendant le travail en équipe, je passe vous voir. 
 
