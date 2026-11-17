@@ -60,12 +60,15 @@ Du bac à sable au projet : chacun intègre le sien.
 
 ## Aujourd'hui
 
+- [ ] Quiz Wooclap : les principes de Vue (10 min)
+  - [Gr1 mercredi AM](https://app.wooclap.com/CTKRJEJ)
+  - [Gr2 mercredi PM](https://app.wooclap.com/KSMDBMM)
 - [ ] Exercices : terminer *Collection de films*, ou *Cheese Kanye says* si c'est fait (30 min)
 - [ ] Révision de l'exercice [*Collection de films*](./exercices/ex-vue-films/index.md) : la chasse aux bogues, en duo (20 min)
 - [ ] Les composants Vue, dans un bac à sable : on démarre ensemble, vous construisez le reste (70 min)
 - [ ] Pause (15 min)
 - [ ] Prototype : votre démo de 60 secondes, pendant que je passe d'équipe en équipe
-- [ ] Atelier : chaque personne intègre son composant Vue dans le projet (70 min)
+- [ ] Atelier : chaque personne intègre son composant Vue dans le projet (65 min)
 
 ## 1. :simple-vuedotjs:  Exercices : Films ou Kanye (30 min) { #exercices }
 
@@ -318,7 +321,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 [:material-play-box-outline: Le prototype : ce que je dois voir](projets/recit-defilant/index.md#prototype){ .md-button }
 
-## 5. :material-account-multiple-outline:  Atelier : intégrer votre composant Vue (70 min) { #atelier-vue }
+## 5. :material-account-multiple-outline:  Atelier : intégrer votre composant Vue (65 min) { #atelier-vue }
 
 **Chaque personne intègre son composant Vue** (voir votre matrice de responsabilités), à partir du bac à sable de la démo, **pendant que je passe d'équipe en équipe** pour le prototype : le navigateur de chapitres pour l'une, la barre de progression pour l'autre.
 

@@ -889,6 +889,35 @@ stop:before {
   font-size: 2.7rem;
 }
 
+/* h1 à deux niveaux : **surtitre** avant le titre, *sous-titre* après.
+   Ex. : # **Récit défilant** Les composants Vue *Navigateur et barre* */
+.finishing .md-typeset>div>h1 {
+  text-wrap: balance;
+}
+
+.finishing .md-typeset>div>h1 strong,
+.finishing .md-typeset>div>h1 em {
+  display: block;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.finishing .md-typeset>div>h1 strong {
+  margin-bottom: 0.45em;
+  font-size: 0.26em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.finishing .md-typeset>div>h1 em {
+  margin-top: 0.35em;
+  font-size: 0.42em;
+  font-weight: 300;
+  color: var(--md-default-fg-color--light);
+}
+
 .finishing .md-typeset h2 {
   padding-top: 3.8rem;
   margin-top: 4.3rem;
@@ -981,7 +1010,7 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .finishing .md-typeset details summary {
   font-size: 1.6em;
   font-weight: 300;
-  line-height: 1.3em;
+  line-height: 1.2em;
 }
 
 .finishing .md-typeset em {
