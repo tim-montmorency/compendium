@@ -61,8 +61,6 @@ Du bac à sable au projet : chacun intègre le sien.
 ## Aujourd'hui
 
 - [ ] Quiz Wooclap : les principes de Vue (10 min)
-  - [Gr1 mercredi AM](https://app.wooclap.com/CTKRJEJ)
-  - [Gr2 mercredi PM](https://app.wooclap.com/KSMDBMM)
 - [ ] Exercices : terminer *Collection de films*, ou *Cheese Kanye says* si c'est fait (30 min)
 - [ ] Révision de l'exercice [*Collection de films*](./exercices/ex-vue-films/index.md) : la chasse aux bogues, en duo (20 min)
 - [ ] Les composants Vue, dans un bac à sable : on démarre ensemble, vous construisez le reste (70 min)
@@ -70,7 +68,14 @@ Du bac à sable au projet : chacun intègre le sien.
 - [ ] Prototype : votre démo de 60 secondes, pendant que je passe d'équipe en équipe
 - [ ] Atelier : chaque personne intègre son composant Vue dans le projet (65 min)
 
-## 1. :simple-vuedotjs:  Exercices : Films ou Kanye (30 min) { #exercices }
+## 1. :material-head-question-outline:  Quiz Wooclap : les principes de Vue (10 min) { #quiz }
+
+Six questions pour réactiver ce qu'on a vu mercredi, avant de construire vos composants. Rejoignez l'événement de votre groupe :
+
+- [Gr1 mercredi AM](https://app.wooclap.com/CTKRJEJ) (code `CTKRJEJ`)
+- [Gr2 mercredi PM](https://app.wooclap.com/KSMDBMM) (code `KSMDBMM`)
+
+## 2. :simple-vuedotjs:  Exercices : Films ou Kanye (30 min) { #exercices }
 
 **Vous n'avez pas terminé *Collection de films*?** Terminez-le. Si le temps manque, visez la **partie C** (`v-for` sur un tableau) : c'est votre navigateur de chapitres, en version simple.
 
@@ -78,19 +83,19 @@ Du bac à sable au projet : chacun intègre le sien.
 
 [:simple-vuedotjs: Collection de films](exercices/ex-vue-films/index.md){ .md-button } ou [:simple-vuedotjs: Cheese Kanye says](exercices/ex-vue-kanye/index.md){ .md-button }
 
-## 2. :material-bug-outline:  Révision : la chasse aux bogues (20 min) { #revision }
+## 3. :material-bug-outline:  Révision : la chasse aux bogues (20 min) { #revision }
 
 Le code de l'exercice Collection de films, avec 5 bogues cachés dedans. En duo, vous les trouvez en lisant, puis vous les corrigez un à la fois, la console ouverte.
 
 [:material-bug-outline: La chasse aux bogues](exercices/ex-vue-films/chasse-aux-bogues.md){ .md-button }
 
-## 3. :material-code-braces:  Les composants Vue, dans un bac à sable (70 min) { #composant }
+## 4. :material-code-braces:  Les composants Vue, dans un bac à sable (70 min) { #composant }
 
 <video class="w-100" src="assets/cours11b-navigateur-chapitres.webm" autoplay muted loop playsinline aria-label="Le navigateur de chapitres en action : en défilant, le chapitre actif s'allume dans la liste et la barre de progression avance; un clic sur un chapitre y mène directement"></video>
 
 Le navigateur de chapitres, c'est l'exercice Collection de films avec des chapitres à la place des films. Aujourd'hui, on assemble le tout : les deux composants de votre récit, pièce par pièce. Le navigateur de chapitres d'abord, puis la barre de progression, avec la même recette. **Tout le monde fait les deux**, dans un bac à sable : un petit dossier à part, **hors de votre dépôt**. Dans le projet, chacun n'intègre que le sien.
 
-Pas de dictée : on démarre ensemble, vous écrivez ce que vous connaissez déjà, et je vous fournis seulement les pièces difficiles.
+Pas de dictée : on démarre ensemble, vous écrivez ce que vous connaissez déjà, et je vous donne les pièces difficiles au fil de l'explication.
 
 **Le bac à sable**, à créer avant de commencer :
 
@@ -200,118 +205,19 @@ Pas de dictée : on démarre ensemble, vous écrivez ce que vous connaissez déj
 3. Trois fichiers vides : `js/main.js`, `js/navigation.js` et `js/progression.js`.
 4. Ouvert avec **Live Server**.
 
-### Avec moi : `main.js` et le branchement (10 min) { #avec-moi }
+**Les étapes**, on les fait ensemble :
 
-Vous me suivez en direct.
+- [ ] Avec moi : `main.js` et le branchement (10 min)
+- [ ] À vous : les données, la liste, le chapitre actif (15 min + 5)
+- [ ] Aller au chapitre : `goTo()` (10 min)
+- [ ] Suivre le défilement : `mounted()` (15 min)
+- [ ] La barre de progression : à vous (15 min)
 
-- [ ] `main.js` : la liste des chapitres, lue dans le HTML
-- [ ] Le navigateur, `createApp()` et `mount()` : Vue prend le contrôle de `#navigation`
-
-*Cible* : la page affiche « Vue fonctionne : 2 ».
-
-### À vous : les données, la liste, le chapitre actif (15 min + 5) { #a-vous }
-
-**Environ 15 minutes, seuls.** Le navigateur, c'est l'exercice Collection de films, avec des chapitres :
-
-| Collection de films | Navigateur de chapitres |
-|---|---|
-| le tableau `movies` | le tableau `chapters`, reçu en paramètre |
-| la donnée `year` | la donnée `activeChapterIndex`, à `0` |
-| la classe `selectedYear` | la classe `actif`, sur le `<a>` |
-| `movie.year === year` | `index === activeChapterIndex` |
-
-- [ ] **`data()` et `{{ }}`** : les données `chapters` et `activeChapterIndex`. Affichez-les dans `#navigation` : le chapitre actif, et le nombre de chapitres (`.length`).
-  - *Cible* : « Chapitre actif : 0 » et « 4 chapitres » s'affichent.
-- [ ] **`v-for`** : dans `#navigation`, une `<nav class="chapitres-nav" aria-label="Chapitres">`, avec une `<ol>`. Un seul `<li>`, répété pour chaque chapitre, avec un lien vers sa section (`href`) et son titre.
-  - *Cible* : 4 liens, générés par un seul `<li>`.
-- [ ] **`:class`** : la classe `actif` sur le lien du chapitre actif.
-  - *Cible* : le 1er lien est rouge.
-  - *Votre test* : tapez `nav.activeChapterIndex = 2` dans la console. Le rouge se déplace.
-
-??? tip "Indice : le lien vers la section"
-    Le `href` d'un lien vers une section, c'est `#` suivi de son `id`. Ici, la valeur est du JavaScript : une chaîne et une variable, collées avec `+`. Voir [`v-bind`](vue/interpolation.md#v-bind).
-
-??? tip "Indice : `nav is not defined`"
-    La ligne `window.nav = createNavigation(chaptersArr);` manque dans `main.js`. Elle sert seulement au test dans la console : pas dans votre projet.
-
-### Aller au chapitre : `goTo()` fournie (10 min) { #goto }
-
-Je vous explique `goTo()` et `.prevent`. À vous :
-
-- [ ] Ajoutez la méthode `goTo()` ci-dessous dans un `methods`.
-- [ ] Appelez-la **au clic** sur chaque lien, avec `.prevent`, en lui passant **l'`id` du chapitre**. Voir [`.prevent`](vue/methodes-evenements.md#prevent).
-  - *Cible* : un clic sur un chapitre y mène en douceur, et l'adresse ne change pas.
-
-??? example "La méthode fournie : `goTo()`"
-
-    ```js
-    goTo(id) {
-      const reduced = window.matchMedia(
-        "(prefers-reduced-motion: reduce)"
-      ).matches;
-      document.getElementById(id).scrollIntoView({
-        behavior: reduced ? "auto" : "smooth",
-      });
-    },
-    ```
-
-### Suivre le défilement : `mounted()` (15 min) { #mounted }
-
-Je vous explique `updateActive()` et `mounted()`. À vous :
-
-- [ ] Ajoutez la méthode `updateActive()` ci-dessous dans `methods`.
-- [ ] **Écrivez `mounted()` vous-mêmes**, à partir de l'exemple de la page [`mounted()`](vue/mounted.md#syntaxe) : le même principe, avec le défilement plutôt que le redimensionnement.
-- [ ] Ajoutez `v-cloak` sur la zone `#navigation`.
-  - *Cible* : on défile, le lien actif suit. On recharge au milieu de la page : le bon lien est actif dès le départ.
-
-??? example "La méthode fournie : `updateActive()`"
-
-    ```js
-    updateActive() {
-      const middle = window.innerHeight / 2;
-      this.chapters.forEach((chapter, index) => {
-        const section = document.getElementById(chapter.id);
-        if (section.getBoundingClientRect().top <= middle) {
-          this.activeChapterIndex = index;
-        }
-      });
-    },
-    ```
-
-### La barre de progression : à vous (15 min) { #barre }
-
-**Environ 15 minutes, seuls.** C'est la même recette que le navigateur : une donnée, une méthode, `mounted()`. Un fichier à elle, `js/progression.js`, et une zone à elle, `#barre-progression`. Je vous fournis deux pièces : la zone HTML et la formule.
-
-- [ ] Ajoutez la zone ci-dessous au début du `<body>`. `:style`, c'est comme `:class`, mais pour une propriété CSS : la valeur est du JavaScript.
-- [ ] Dans `js/progression.js`, une fonction `createProgressBar()` qui crée l'app et la monte sur `#barre-progression`, avec :
-  - la donnée `progress`, de `0` (en haut de la page) à `1` (en bas);
-  - la méthode `updateProgress()`, qui calcule `progress` avec la formule ci-dessous;
-  - `mounted()`, comme pour le navigateur.
-- [ ] Dans `main.js`, son `import`, puis `window.bar = createProgressBar();`.
-  - *Cible* : on défile, la barre avance.
-  - *Votre test* : `bar.progress = 0.5` dans la console. La barre saute à la moitié.
-
-??? example "Les pièces fournies : la zone HTML et la formule"
-
-    ```html
-    <div id="barre-progression" v-cloak>
-      <div class="progression"
-           :style="{ transform: 'scaleX(' + progress + ')' }"></div>
-    </div>
-    ```
-
-    ```js
-    const max = document.documentElement.scrollHeight - window.innerHeight;
-    this.progress = max > 0 ? window.scrollY / max : 0;
-    ```
-
-    *max* : la distance qu'on peut défiler en tout. `max > 0` évite une division par 0 si la page ne défile pas.
-
-Pas terminée? Si la barre est votre composant, vous la finissez pendant l'atelier, directement dans votre projet.
+Pour relire après le cours, ou si vous étiez absent :
 
 [:simple-vuedotjs: Les composants Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
 
-## 4. :material-play-box-outline:  Remise : Le prototype, 60 secondes par équipe (~~ven. 13 nov.~~ mer. 18 nov.)
+## 5. :material-play-box-outline:  Remise : Le prototype, 60 secondes par équipe (~~ven. 13 nov.~~ mer. 18 nov.)
 
 Pendant le travail en équipe, je passe vous voir. 
 
@@ -321,7 +227,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 [:material-play-box-outline: Le prototype : ce que je dois voir](projets/recit-defilant/index.md#prototype){ .md-button }
 
-## 5. :material-account-multiple-outline:  Atelier : intégrer votre composant Vue (65 min) { #atelier-vue }
+## 6. :material-account-multiple-outline:  Atelier : intégrer votre composant Vue (65 min) { #atelier-vue }
 
 **Chaque personne intègre son composant Vue** (voir votre matrice de responsabilités), à partir du bac à sable de la démo, **pendant que je passe d'équipe en équipe** pour le prototype : le navigateur de chapitres pour l'une, la barre de progression pour l'autre.
 

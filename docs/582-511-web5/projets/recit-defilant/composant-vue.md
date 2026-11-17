@@ -3,244 +3,248 @@
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
-1. Avec Vue, **on change une donnée, et la page suit**. Plus besoin d'ajouter ou de retirer des classes à la main : on décrit le HTML une fois, Vue le tient à jour.
-2. **Deux composants, une personne par composant** : le navigateur de chapitres (`js/navigation.js`) et la barre de progression (`js/progression.js`). Chacun a trois parties : `data`, `methods` et `mounted`.
-3. Il fonctionne aux deux phases : à la *phase 1*{ .w5-phase .w5-phase-1 }, la liste des chapitres est **lue dans le HTML**; à la *phase 2*{ .w5-phase .w5-phase-2 }, elle vient de **`data.json`**. Les composants, eux, ne changent pas.
+1. Avec Vue, **on change une donnée, et la page suit**.
+2. Tout le monde construit **les deux composants** dans un bac à sable, puis chacun intègre **le sien** dans le projet.
+3. Le code fourni n'a **aucun commentaire** : commentez-le dans vos mots. C'est ce qui vous prépare à la [défense](index.md#calendrier).
 
 </div>
 
-## Pourquoi Vue, ici? { #pourquoi }
+## 1. Le bac à sable { #bac-a-sable }
 
-Un navigateur de chapitres se fait aussi en JavaScript seul. Vue est là pour deux raisons :
+Un dossier à part, **hors de votre dépôt**.
 
-1. **C'est comme ça que le web se construit aujourd'hui.** React, Vue, Svelte : la plupart des interfaces professionnelles reposent sur la même idée. Vue est la porte d'entrée la plus douce : rien à installer, et une organisation en cases (`data`, `methods`...) proche des classes JS que vous connaissez.
-2. **Cette idée change votre façon de coder.** En JavaScript seul, vous dites **comment** changer la page. Avec Vue, vous décrivez **à quoi** elle doit ressembler selon vos données.
+1. Un dossier `bac-a-sable-vue/`, ouvert dans VS Code.
+2. Un fichier `index.html` :
 
-<!-- 
-En JavaScript seul, à chaque changement de chapitre :
-
-```js
-function setActive(index) {
-  links[index].classList.add("actif");
-  title.textContent = chapters[index].titre;
-}
-```
-
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-oubli-actif&onglets=js,resultat&actif=resultat" class="aspect-3-2" style="width:100%;border:0" loading="lazy"></iframe>
-
-
-Voyez-vous l'oubli? La classe `actif` n'est jamais retirée des anciens liens. Après trois chapitres, trois liens sont en rouge. Le piège du code qui dit *comment* : tout ce qu'on ajoute, il faut penser à l'enlever.
-
-Avec Vue, on décrit l'état une fois, dans le HTML :
-
-```html
-<a :class="{ actif: index === activeChapterIndex }">
-```
-
-On change le chapitre actif, et Vue met à jour tout ce qui en dépend. Un élément de plus qui dépend du chapitre actif? Une ligne de plus dans le HTML, rien d'autre à retoucher. C'est la **réactivité**.
-
--->
-
-## Installer Vue { #installer }
-
-Par CDN, comme GSAP, sans *build*. Dans `index.html`, **avant** `main.js`, la version de **développement** pendant que vous codez :
-
-```html
-<!-- Vue, version de développement : messages d'erreur clairs -->
-<script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.js">
-</script>
-<script type="module" src="js/main.js"></script>
-```
-
-`Vue` est alors disponible partout, y compris dans vos modules, sans `import`.
-
-!!! tip "Avant de publier : la version de production"
-    Remplacez `vue.global.js` par `vue.global.prod.js` : trois fois plus légère, sans les messages de développement. Un bogue apparaît après le changement? Revenez à `vue.global.js` pour lire ses messages. Voir [la documentation de Vue](https://fr.vuejs.org/guide/best-practices/production-deployment.html#without-build-tools){ :target="_blank" }.
-
-## Le HTML : deux zones que Vue contrôle { #html }
-
-Chaque composant vit dans **sa zone** de `index.html` : `#barre-progression` pour la barre, `#navigation` pour le navigateur. Vue contrôle ces zones et leurs enfants, **rien d'autre**. Vos chapitres, eux, restent à vous et à GSAP.
-
-Chaque `TODO` dit à qui il revient : **barre** ou **navigateur**.
-
-```html
-<div id="barre-progression" v-cloak>
-  <!-- TODO barre : un :style qui applique transform: scaleX(...),
-       avec la valeur de progress -->
-  <div class="progression"></div>
-</div>
-
-<div id="navigation" v-cloak>
-  <nav class="chapitres-nav" aria-label="Chapitres">
-    <ol>
-      <!-- TODO navigateur : répéter ce <li> pour chaque chapitre de chapters,
-           avec une :key unique (l'id du chapitre) -->
-      <li>
-        <!-- TODO navigateur : le href mène à la section (# + son id) -->
-        <!-- TODO navigateur : la classe actif, seulement si c'est le
-             chapitre actif (son index est égal à activeChapterIndex) -->
-        <!-- TODO navigateur : aria-current="step", seulement pour le
-             chapitre actif -->
-        <!-- TODO navigateur : au clic, appeler goTo(), sans le saut
-             habituel du lien -->
-        <a href="#">
-          <!-- TODO navigateur : afficher le titre du chapitre -->
-        </a>
-      </li>
-    </ol>
-  </nav>
-</div>
-```
-
-Chaque `TODO` se règle avec une notion vue au cours 11.1 et dans les exercices. **Cherchez d'abord par vous-même** : vos exercices et vos notes sont là pour ça.
-
-??? tip "Coincé? Les notions de Vue, en un tableau"
-    | Dans le HTML | Nom | Ce que ça fait |
-    |---|---|---|
-    | `{{ chapter.titre }}` | [Interpolation](../../vue/interpolation.md#interpolation) | Affiche la valeur d'une donnée. Quand elle change, le texte change. |
-    | `v-for="... in chapters"` | [Directive `v-for`](../../vue/boucle.md#v-for) | Répète l'élément pour chaque chapitre du tableau. C'est le `forEach` de Vue, directement dans le HTML. |
-    | `:key="chapter.id"` | [Clé](../../vue/boucle.md#key) | Un identifiant unique par élément répété : Vue s'en sert pour s'y retrouver. |
-    | `:class="{ actif: ... }"` | [Classe dynamique](../../vue/classe-dynamique.md#class) | Ajoute la classe `actif` **si** la condition est vraie, et la retire sinon. |
-    | `:style`, `:href`, `:aria-current` | [Attribut lié (`v-bind`)](../../vue/interpolation.md#v-bind) | Le deux-points veut dire : « la valeur est du JavaScript, pas du texte ». `:style` reçoit un objet, comme `:class`. Forme longue : `v-bind:href`. |
-    | `@click.prevent="goTo(...)"` | [Événement (`v-on`)](../../vue/methodes-evenements.md#v-on) | Appelle une méthode au clic. [`.prevent`](../../vue/methodes-evenements.md#prevent), c'est le `event.preventDefault()` : le lien ne saute pas brusquement. Forme longue : `v-on:click`. |
-    | `v-cloak` | [Directive `v-cloak`](../../vue/creation-app.md#v-cloak) | Cache la zone **tant que Vue n'a pas démarré** (voir le CSS plus bas). |
-
-Le CSS qui va avec `v-cloak`, dans `commun.css` :
-
-```css
-[v-cloak] {
-  display: none;
-}
-```
-
-## Le JavaScript : deux fichiers, trois parties chacun { #js }
-
-Un fichier par composant, une personne par fichier. Ce qui est fourni, c'est du calcul, sans Vue. Les `TODO`, c'est à vous. Le code fourni n'a **aucun commentaire**, et c'est voulu : commentez-le dans vos mots, pour montrer que vous le comprenez. Ça vaut aussi pour le HTML, `main.js` et le CSS de cette page.
-
-### Le navigateur : `js/navigation.js` { #js-navigation }
-
-```js
-export function createNavigation(chapters) {
-  Vue.createApp({
-    data() {
-      return {
-        // TODO navigateur : 2 données, avec ces noms (le HTML les utilise)
-        // - chapters : la liste reçue en paramètre
-        // - activeChapterIndex : le chapitre à l'écran (au départ : 0)
-      };
-    },
-
-    methods: {
-      goTo(id) {
-        const reduced = window.matchMedia(
-          "(prefers-reduced-motion: reduce)"
-        ).matches;
-        // TODO navigateur : faire défiler jusqu'à la section qui a cet id,
-        // avec scrollIntoView() : dont le behavior : "auto" si reduced, 
-        // sinon le behavior : "smooth"
-      },
-
-      updateActive() {
-        const middle = window.innerHeight / 2;
-        this.chapters.forEach((chapter, index) => {
-          const section = document.getElementById(chapter.id);
-          if (section.getBoundingClientRect().top <= middle) {
-            // TODO navigateur : ce chapitre devient le chapitre actif
+  ??? example "Le code de départ : `index.html` Cliquez pour ouvrir le panneau."
+      ```html
+      <!DOCTYPE html>
+      <html lang="fr">
+      <head>
+        <meta charset="UTF-8">
+        <title>Bac à sable Vue</title>
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700">
+        <style>
+          body {
+            margin: 0;
+            background: #0b0b0c;
+            color: #f4f4f5;
+            font-family: "Poppins", sans-serif;
           }
-        });
-      },
+          [v-cloak] { display: none; }
+
+          /* Les chapitres : un écran chacun, un fond différent */
+          .chapitre {
+            min-height: 100vh;
+            display: grid;
+            place-content: center;
+            text-align: center;
+          }
+          .chapitre h2 { margin: 0; font-size: 4rem; }
+          .surtitre {
+            margin: 0;
+            color: #a1a1aa;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+          }
+          #la-foret {
+            background: radial-gradient(circle at 30% 70%, #1d3b2a, #0b0b0c 70%);
+          }
+          #la-maison {
+            background: radial-gradient(circle at 70% 30%, #3b2a1d, #0b0b0c 70%);
+          }
+          #le-loup {
+            background: radial-gradient(circle at 40% 40%, #2a2d3b, #0b0b0c 70%);
+          }
+          #la-fin {
+            background: radial-gradient(circle at 60% 60%, #3b1d24, #0b0b0c 70%);
+          }
+
+          /* Le navigateur de chapitres */
+          .chapitres-nav {
+            position: fixed;
+            top: 50%;
+            right: 2rem;
+            transform: translateY(-50%);
+            padding: 1rem 1.5rem 1rem 1rem;
+            background: rgb(20 20 22 / 0.85);
+            border: 1px solid #2c2c31;
+            border-radius: 12px;
+          }
+          .chapitres-nav ol { margin: 0; }
+          .chapitres-nav a { color: inherit; text-decoration: none; }
+          .chapitres-nav a.actif { font-weight: 700; color: #FF2B47; }
+
+          /* La barre de progression */
+          .progression {
+            position: fixed;
+            inset: 0 0 auto 0;
+            z-index: 1;
+            height: 6px;
+            background: #FF2B47;
+            transform-origin: left;
+          }
+        </style>
+      </head>
+      <body>
+        <div id="navigation"></div>
+
+        <main>
+          <section class="chapitre" id="la-foret">
+            <p class="surtitre">Chapitre 1</p>
+            <h2>La forêt</h2>
+          </section>
+          <section class="chapitre" id="la-maison">
+            <p class="surtitre">Chapitre 2</p>
+            <h2>La maison</h2>
+          </section>
+          <section class="chapitre" id="le-loup">
+            <p class="surtitre">Chapitre 3</p>
+            <h2>Le loup</h2>
+          </section>
+          <section class="chapitre" id="la-fin">
+            <p class="surtitre">Chapitre 4</p>
+            <h2>La fin</h2>
+          </section>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.js">
+        </script>
+        <script type="module" src="js/main.js"></script>
+      </body>
+      </html>
+      ```
+
+3. Trois fichiers vides : `js/main.js`, `js/navigation.js`, `js/progression.js`.
+4. Live Server.
+
+## 2. Le navigateur de chapitres { #js-navigation }
+
+### Brancher Vue { #brancher-vue }
+
+??? example "`main.js` et `navigation.js`"
+
+    ```js
+    // js/main.js
+    import { createNavigation } from "./navigation.js";
+
+    const chaptersNodeList = document.querySelectorAll(".chapitre");
+
+    const chaptersArr = Array.from(chaptersNodeList).map((section) => ({
+      id: section.id,
+      titre: section.querySelector("h2").textContent,
+    }));
+
+    window.nav = createNavigation(chaptersArr);
+    ```
+
+    ```js
+    // js/navigation.js
+    export function createNavigation(chapters) {
+      return Vue.createApp({}).mount("#navigation");
+    }
+    ```
+
+    `window.nav` : pour tester dans la console, **bac à sable seulement**.
+
+*Cible* : `<p>Vue fonctionne : {{ 1 + 1 }}</p>` dans `#navigation` affiche « 2 ».
+
+### Les données, la liste, le chapitre actif { #a-vous }
+
+C'est l'exercice Collection de films : `movies` devient `chapters`, `year` devient `activeChapterIndex`, `selectedYear` devient `actif`.
+
+- [ ] `data()` : `chapters` (le paramètre) et `activeChapterIndex` (`0`).
+- [ ] `v-for` : un `<li>` par chapitre, dans `<nav class="chapitres-nav"><ol>`, avec un lien vers sa section.
+- [ ] `:class` : `actif` sur le lien du chapitre actif.
+
+*Cible* : 4 liens, le 1er en rouge. `nav.activeChapterIndex = 2` dans la console : le rouge se déplace.
+
+### Aller au chapitre { #goto }
+
+- [ ] Ajoutez `goTo()` dans `methods`, et appelez-la au clic, avec `.prevent` et l'`id` du chapitre.
+
+*Cible* : un clic mène au chapitre en douceur.
+
+??? example "Fourni : `goTo()`"
+
+    ```js
+    goTo(id) {
+      const reduced = window.matchMedia(
+        "(prefers-reduced-motion: reduce)"
+      ).matches;
+      document.getElementById(id).scrollIntoView({
+        behavior: reduced ? "auto" : "smooth",
+      });
     },
+    ```
 
-    mounted() {
-      // TODO navigateur : à chaque défilement de la fenêtre ("scroll"),
-      // appeler updateActive, avec l'option { passive: true }
-      // TODO navigateur : puis appeler updateActive une première fois
+### Suivre le défilement { #mounted }
+
+- [ ] Ajoutez `updateActive()` dans `methods`.
+- [ ] Écrivez `mounted()` vous-mêmes, comme l'[exemple de `mounted()`](../../vue/mounted.md#syntaxe), avec `"scroll"`.
+- [ ] `v-cloak` sur la zone.
+
+*Cible* : en défilant, le lien actif suit.
+
+??? example "Fourni : `updateActive()`"
+
+    ```js
+    updateActive() {
+      const middle = window.innerHeight / 2;
+      this.chapters.forEach((chapter, index) => {
+        const section = document.getElementById(chapter.id);
+        if (section.getBoundingClientRect().top <= middle) {
+          this.activeChapterIndex = index;
+        }
+      });
     },
-  }).mount("#navigation");
-}
-```
+    ```
 
-### La barre : `js/progression.js` { #js-progression }
+## 3. La barre de progression { #js-progression }
 
-```js
-export function createProgressBar() {
-  Vue.createApp({
-    data() {
-      return {
-        // TODO barre : 1 donnée, avec ce nom (le HTML l'utilise)
-        // - progress : de 0 (en haut) à 1 (en bas de la page), au départ : 0
-      };
-    },
+La même recette, seul : `js/progression.js`, une fonction `createProgressBar()`, la donnée `progress` (de 0 à 1), la méthode `updateProgress()`, `mounted()`. Puis son `import` et `window.bar = createProgressBar();` dans `main.js`.
 
-    methods: {
-      updateProgress() {
-        const max = document.documentElement.scrollHeight - window.innerHeight;
-        // TODO barre : progress vaut la distance défilée divisée par max,
-        // ou 0 si max n'est pas plus grand que 0
-      },
-    },
+*Cible* : la barre avance en défilant. `bar.progress = 0.5` : elle saute à la moitié.
 
-    mounted() {
-      // TODO barre : à chaque défilement de la fenêtre ("scroll"),
-      // appeler updateProgress, avec l'option { passive: true }
-      // TODO barre : puis appeler updateProgress une première fois
-    },
-  }).mount("#barre-progression");
-}
-```
+??? example "Fourni : la zone HTML et la formule"
 
-!!! warning "Les `TODO` ne restent pas dans votre code final"
-    Les commentaires `TODO` sont des **instructions** pour vous. Remplacez chacun par votre code, puis **effacez-le**. Dans votre récit final, il ne reste **aucun** `TODO` : seulement vos propres commentaires, qui expliquent ce que fait le code. Pour vérifier : ++ctrl+shift+f++ dans VS Code, cherchez `TODO`.
+    ```html
+    <div id="barre-progression" v-cloak>
+      <div class="progression"
+           :style="{ transform: 'scaleX(' + progress + ')' }"></div>
+    </div>
+    ```
 
-!!! danger "À la défense (cours 15.2, ven. 11 déc.), chaque ligne compte"
-    À la [défense individuelle](index.md#calendrier), en privé, vous expliquerez chaque ligne de **votre** composant, et vous devrez pouvoir la modifier en direct. Un code copié sans être compris se voit tout de suite.
+    ```js
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    this.progress = max > 0 ? window.scrollY / max : 0;
+    ```
 
-Bloqué? Un indice à la fois :
+    `:style`, c'est comme `:class`, pour une propriété CSS.
 
-??? tip "Indice navigateur : `data()`"
-    Deux paires `clé: valeur`, séparées par une virgule. La valeur de `chapters`, c'est le paramètre reçu par `createNavigation(chapters)`.
+??? tip "Coincé? Les notions de Vue"
+    | Dans le HTML | Notion |
+    |---|---|
+    | `{{ chapter.titre }}` | [Interpolation](../../vue/interpolation.md#interpolation) |
+    | `v-for` et `:key` | [Boucle](../../vue/boucle.md#v-for), [clé](../../vue/boucle.md#key) |
+    | `:class` | [Classe dynamique](../../vue/classe-dynamique.md#class) |
+    | `:href`, `:style` | [`v-bind`](../../vue/interpolation.md#v-bind) |
+    | `@click.prevent` | [`v-on`](../../vue/methodes-evenements.md#v-on), [`.prevent`](../../vue/methodes-evenements.md#prevent) |
+    | `mounted()` | [Le cycle de vie](../../vue/mounted.md#syntaxe) |
+    | `v-cloak` | [`v-cloak`](../../vue/creation-app.md#v-cloak) |
 
-??? tip "Indice navigateur : `goTo()`"
-    `document.getElementById(id)` trouve la section. La méthode `scrollIntoView()` reçoit un objet d'options, avec une clé `behavior`. Pour choisir entre deux valeurs : `condition ? siVrai : siFaux`.
+    Dans `methods`, jamais de fonction fléchée : `goTo(id) { }`, pas `goTo: (id) => { }`.
 
-??? tip "Indice navigateur : le chapitre actif"
-    Dans une méthode, on change une donnée avec `this`. La boucle vous donne déjà l'`index` du chapitre.
+## 4. Dans votre projet { #integrer }
 
-??? tip "Indice barre : `:style`"
-    `:style` reçoit un objet : la propriété CSS, puis sa valeur. La valeur est une chaîne, comme `scaleX(0.5)` : collez du texte et la donnée `progress` avec `+`.
+Chacun **son** composant, sur sa branche. Pas de `window.nav` ni de `window.bar`.
 
-??? tip "Indice barre : `progress`"
-    `window.scrollY` : la distance déjà défilée, en pixels. Pour choisir entre deux valeurs : `condition ? siVrai : siFaux`. Dans une méthode, on change une donnée avec `this`.
+1. Dans `index.html`, Vue **avant** `main.js` (`vue.global.prod.js` une fois en ligne), et votre zone, `#navigation` ou `#barre-progression`.
+2. Votre fichier, `js/navigation.js` ou `js/progression.js`.
+3. Dans `main.js`, votre `import` et votre appel. `index.html` et `main.js` sont **communs** : prévenez l'autre.
 
-??? tip "Indice pour les deux : `mounted()`"
-    `window.addEventListener(type, fonction, options)`. La fonction, c'est votre méthode, `this.updateActive` ou `this.updateProgress`, **sans parenthèses** : on la donne, on ne l'appelle pas. L'appel « une première fois », lui, prend des parenthèses. Un exemple complet, avec `"resize"` : [Le cycle de vie : `mounted()`](../../vue/mounted.md#syntaxe).
-
-Toujours coincé? Les étapes de la démo, faites en classe, sont le meilleur point de départ : venez me voir.
-
-### Les trois parties { #quatre-parties }
-
-Un composant, c'est une classe JS en plus guidé : vous remplissez des cases.
-
-| Partie | Son rôle | Dans une classe JS |
-|---|---|---|
-| `data()` | Les **données qui peuvent changer**. Quand l'une change, Vue met à jour le HTML. | Les propriétés (`this.score`) |
-| `methods` | Les **actions**, appelées par un événement (`@click`) ou par votre code. | Les méthodes |
-| `mounted()` | S'exécute **une fois**, quand le composant est branché : on y écoute le défilement. Voir [Le cycle de vie : `mounted()`](../../vue/mounted.md). | Le constructeur |
-
-`createApp({...}).mount("#navigation")` crée le composant et le branche sur sa zone, comme un `querySelector`. Deux composants, deux zones : chacun ne voit que la sienne. Dans une méthode, `this.chapters` ou `this.progress` désignent les données de `data()`.
-
-!!! warning "`this` dans Vue : pas de fonction fléchée dans `methods`"
-    Écrivez `goTo(id) { ... }`, jamais `goTo: (id) => { ... }` : une [fonction fléchée](../../js/recap-js.md#fonctions-flechees) n'a pas son propre `this`, et `this.chapters` serait `undefined`. À l'intérieur d'une méthode, par contre, elle est la bonne : dans le `forEach` de `updateActive()`, elle **garde** le `this` du composant.
-
-## Brancher le composant dans `main.js` { #brancher }
-
-Le navigateur reçoit la liste des chapitres en paramètre : `createNavigation(chapters)`. La barre, elle, n'a besoin de rien : `createProgressBar()`. Seul l'endroit d'où vient la liste change d'une phase à l'autre.
-
-`main.js` est un fichier **commun** : chaque personne y ajoute son `import` et son appel. Prévenez-vous avant de le modifier.
-
-### À la *phase 1*{ .w5-phase .w5-phase-1 } : la liste, lue dans le HTML { #brancher-phase-1 }
-
-Vos sections sont écrites à la main dans `index.html`. On en fait une liste avec leur `id` et le texte de leur `<h2>` :
+### *Phase 1*{ .w5-phase .w5-phase-1 } { #brancher-phase-1 }
 
 ```js
 import { createNavigation } from "./navigation.js";
@@ -257,11 +261,11 @@ createNavigation(chaptersArr);
 createProgressBar();
 ```
 
-`Array.from()` transforme le résultat de `querySelectorAll` en vrai tableau, pour pouvoir utiliser `.map()` : voir [Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join).
+Navigateur vide? Vos sections n'ont pas la classe `.chapitre`, ou le titre n'est pas dans un `<h2>` : adaptez le sélecteur.
 
-### À la *phase 2*{ .w5-phase .w5-phase-2 } : la liste, reçue de `data.json` { #brancher-phase-2 }
+### *Phase 2*{ .w5-phase .w5-phase-2 } { #brancher-phase-2 }
 
-Les chapitres de `data.json` ont déjà un `id` et un `titre`. On les passe directement, **après** avoir construit les sections :
+Les chapitres de `data.json` ont déjà un `id` et un `titre`. Appelez les composants **après** le `innerHTML` :
 
 ```js
 recit.innerHTML = chapters
@@ -272,14 +276,11 @@ createNavigation(chapters);
 createProgressBar();
 ```
 
-!!! warning "Après les sections, pas avant"
-    `updateActive()` cherche les sections avec `getElementById`, et `updateProgress()` mesure la hauteur de la page. Si les composants démarrent avant que les sections existent, le navigateur affiche une erreur et la barre calcule mal. Appelez-les **après** le `innerHTML`.
-
-## Le CSS de départ { #css }
-
-Un point de départ, à mettre à votre image : votre palette, votre typographie.
+### Le CSS de départ { #css }
 
 ```css
+[v-cloak] { display: none; }
+
 .progression {
   position: fixed;
   inset: 0 0 auto 0;
@@ -303,150 +304,75 @@ Un point de départ, à mettre à votre image : votre palette, votre typographie
 }
 ```
 
-La barre utilise `transform: scaleX()` plutôt que `width` : `transform` ne recalcule pas la mise en page, l'animation reste fluide.
+### Faites-le vôtre { #votre-composant }
 
-## Votre composant à vous { #votre-composant }
-
-Les deux composants sont imposés, **une personne par composant** : l'une fait le navigateur de chapitres, l'autre la barre de progression. Inscrivez qui fait quoi dans la matrice du cahier de charges. Une équipe de 3? La 3e personne fait [le panneau de l'équipe](#equipe).
-
-Prenez le code de cette page comme **départ**, puis faites-le vôtre :
-
-- **Le navigateur** : des points plutôt que des titres, des numéros de chapitre, une icône par chapitre (ajoutez une clé dans vos chapitres). Sur mobile, il prend de la place : affichez seulement le chapitre actif, et la liste au toucher (`v-if`, une donnée `isOpen`).
-- **La barre** : verticale plutôt qu'horizontale, plus épaisse, un pourcentage affiché avec `{{ }}`, une forme qui rappelle votre thème.
-
-Chaque personne explique les données, les directives et les méthodes de **son** composant à la [défense](index.md#calendrier) (cours 15.2, ven. 11 déc.).
-
-!!! tip "Avec ScrollTo, une extension GSAP"
-    Dans `goTo()`, vous pouvez remplacer `scrollIntoView()` par [ScrollTo](../../js/gsap-scrollto.md) : il tient compte des sections épinglées, et la durée et l'*easing* se règlent. Chargez le plugin par CDN et enregistrez-le dans `main.js`.
+- **Navigateur** : des points, des numéros, une icône par chapitre. Sur mobile, seulement le chapitre actif.
+- **Barre** : verticale, plus épaisse, un pourcentage, une forme qui rappelle votre thème.
 
 ## Équipe de 3 : le panneau de l'équipe { #equipe }
 
-Votre équipe compte trois personnes? La 3e personne code un 3e composant : **le panneau de l'équipe**. Un bouton « L'équipe » ouvre un panneau qui présente les auteurs du récit et leur rôle, et le cadre du projet. Même recette que les deux autres : des données, des méthodes, `mounted()`. Deux notions de plus : [`v-show`](../../vue/condition.md#v-show) et le clavier.
+La 3e personne code un bouton « L'équipe » qui ouvre un panneau : les auteurs, leur rôle, et le cadre du projet. Même recette, plus [`v-show`](../../vue/condition.md#v-show) et la touche ++escape++.
 
-### Le HTML { #equipe-html }
+??? example "Le squelette : HTML et `js/equipe.js`"
 
-Une 3e zone dans `index.html` :
+    ```html
+    <div id="equipe" v-cloak>
+      <!-- TODO equipe : au clic, ouvrir ou fermer -->
+      <!-- TODO equipe : aria-expanded vaut isOpen -->
+      <button class="equipe-bouton" aria-controls="equipe-panneau">
+        L'équipe
+      </button>
 
-```html
-<div id="equipe" v-cloak>
-  <!-- TODO equipe : au clic, ouvrir ou fermer le panneau -->
-  <!-- TODO equipe : aria-expanded vaut isOpen -->
-  <button class="equipe-bouton" aria-controls="equipe-panneau">
-    L'équipe
-  </button>
+      <!-- TODO equipe : affiché seulement si isOpen est vrai -->
+      <aside id="equipe-panneau" class="equipe-panneau">
+        <h2>L'équipe</h2>
+        <ul>
+          <!-- TODO equipe : un <li> par membre (nom, rôle), avec :key -->
+          <li></li>
+        </ul>
+        <p>Projet réalisé dans le cadre du cours Web 5, en Techniques
+          d'intégration multimédia, au Collège Montmorency, automne 2026.</p>
+        <!-- TODO equipe : au clic, fermer -->
+        <button>Fermer</button>
+      </aside>
+    </div>
+    ```
 
-  <!-- TODO equipe : le panneau s'affiche seulement si isOpen est vrai -->
-  <aside id="equipe-panneau" class="equipe-panneau">
-    <h2>L'équipe</h2>
-    <ul>
-      <!-- TODO equipe : répéter ce <li> pour chaque membre de members,
-           avec une :key unique -->
-      <li>
-        <!-- TODO equipe : le nom du membre, puis son rôle -->
-      </li>
-    </ul>
-    <p>Projet réalisé dans le cadre du cours Web 5, en Techniques
-      d'intégration multimédia, au Collège Montmorency, automne 2026.</p>
-    <!-- TODO equipe : au clic, fermer le panneau -->
-    <button>Fermer</button>
-  </aside>
-</div>
-```
-
-### Le JavaScript : `js/equipe.js` { #js-equipe }
-
-```js
-export function createTeamPanel() {
-  Vue.createApp({
-    data() {
-      return {
-        // TODO equipe : 2 données, avec ces noms (le HTML les utilise)
-        // - members : un tableau, un objet { nom, role } par membre
-        // - isOpen : le panneau est-il ouvert? (au départ : false)
-      };
-    },
-
-    methods: {
-      toggle() {
-        // TODO equipe : isOpen devient son contraire
-      },
-
-      close() {
-        // TODO equipe : isOpen devient false
-      },
-
-      closeOnEscape(event) {
-        if (event.key === "Escape") {
-          // TODO equipe : fermer le panneau
-        }
-      },
-    },
-
-    mounted() {
-      // TODO equipe : à chaque touche du clavier ("keydown"),
-      // appeler closeOnEscape
-    },
-  }).mount("#equipe");
-}
-```
-
-Dans `main.js`, comme les deux autres : `import { createTeamPanel } from "./equipe.js";`, puis `createTeamPanel();`.
-
-### Le CSS de départ { #equipe-css }
-
-```css
-.equipe-bouton {
-  position: fixed;
-  bottom: 1rem;
-  left: 1rem;
-  z-index: 10;
-}
-
-.equipe-panneau {
-  position: fixed;
-  bottom: 4rem;
-  left: 1rem;
-  max-width: 24rem;
-  padding: 1.5rem;
-  background: #111;
-  color: #fff;
-  z-index: 10;
-}
-```
-
-??? tip "Indice equipe : `v-show`"
-    `v-show` reçoit une condition, comme `v-if`. L'élément reste dans le HTML, mais il est caché quand la condition est fausse : parfait pour un panneau qu'on ouvre et ferme souvent. Voir [Affichage conditionnel avec `v-show`](../../vue/condition.md#v-show).
-
-??? tip "Indice equipe : son contraire"
-    En JavaScript, `!` inverse un booléen : `!true` vaut `false`. Dans une méthode, on change une donnée avec `this`.
-
-??? tip "Indice equipe : `mounted()`"
-    La même recette que `"scroll"` dans les deux autres composants, avec `"keydown"`. Pas besoin d'appel « une première fois » : au départ, le panneau est fermé. Voir [Le cycle de vie : `mounted()`](../../vue/mounted.md#syntaxe).
+    ```js
+    export function createTeamPanel() {
+      Vue.createApp({
+        data() {
+          return {
+            // TODO equipe : members (un objet { nom, role } par membre)
+            // et isOpen (false)
+          };
+        },
+        methods: {
+          toggle() {
+            // TODO equipe : isOpen devient son contraire (!)
+          },
+          close() {
+            // TODO equipe : isOpen devient false
+          },
+          closeOnEscape(event) {
+            if (event.key === "Escape") {
+              // TODO equipe : fermer
+            }
+          },
+        },
+        mounted() {
+          // TODO equipe : à chaque "keydown", appeler closeOnEscape
+        },
+      }).mount("#equipe");
+    }
+    ```
 
 ## Les erreurs fréquentes { #erreurs }
 
 | Ce que vous voyez | La cause probable |
 |---|---|
-| Les `{{ }}` s'affichent tels quels | Vue n'est pas chargé, ou chargé **après** `main.js`. Ou la zone n'a pas le bon `id` dans `mount()`. |
-| `Vue is not defined` dans la console | La balise `<script>` de Vue manque, ou elle est placée après `main.js`. |
-| `Cannot read properties of null` dans `updateActive()` | Un chapitre de la liste n'a pas de section avec cet `id`. Ou le composant démarre avant les sections (*phase 2*{ .w5-phase .w5-phase-2 }). |
-| `this.chapters` est `undefined` | Une fonction fléchée dans `methods`. |
-| Rien ne change au défilement | La méthode (`updateActive` ou `updateProgress`) n'est pas branchée dans `mounted()`, ou elle ne modifie pas sa donnée avec `this`. |
-| La barre reste vide | Le `:style` manque, ou la chaîne est mal formée : vérifiez `scaleX(` et `)` dans l'inspecteur. |
-
-## Pour aller plus loin { #plus-loin }
-
-Les pages de référence sur Vue, si vous voulez creuser une notion :
-
-- [Création d'une app](../../vue/creation-app.md)
-- [Interpolation](../../vue/interpolation.md)
-- [Boucle `v-for`](../../vue/boucle.md)
-- [Classe dynamique](../../vue/classe-dynamique.md)
-- [Méthodes et événements](../../vue/methodes-evenements.md)
-- [Condition `v-if`](../../vue/condition.md)
-
-## Références
-
-- [Vue.js : guide officiel, en français](https://fr.vuejs.org/guide/introduction.html){ :target="_blank" }
-- [Vue.js : utiliser Vue par CDN](https://fr.vuejs.org/guide/quick-start.html#using-vue-from-cdn){ :target="_blank" }
-- [MDN : `scrollIntoView()`](https://developer.mozilla.org/fr/docs/Web/API/Element/scrollIntoView){ :target="_blank" }
+| Les `{{ }}` s'affichent tels quels | Vue pas chargé, chargé après `main.js`, ou mauvais `id` dans `mount()` |
+| `this.chapters` est `undefined` | Une fonction fléchée dans `methods` |
+| Le lien actif ne bouge plus après le chargement | `this.updateActive()` avec parenthèses dans `addEventListener` |
+| `Cannot read properties of null` | Un `id` sans section, ou les composants appelés avant les sections (*phase 2*) |
+| La barre reste vide | Le `:style` manque ou la chaîne est mal formée |
