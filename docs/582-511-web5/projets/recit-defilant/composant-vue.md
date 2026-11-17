@@ -246,9 +246,9 @@ Vos sections sont écrites à la main dans `index.html`. On en fait une liste av
 import { createNavigation } from "./navigation.js";
 import { createProgressBar } from "./progression.js";
 
-const sectionsNodeList = document.querySelectorAll(".chapitre");
+const chaptersNodeList = document.querySelectorAll(".chapitre");
 
-const chaptersArr = Array.from(sectionsNodeList).map((section) => ({
+const chaptersArr = Array.from(chaptersNodeList).map((section) => ({
   id: section.id,
   titre: section.querySelector("h2").textContent,
 }));

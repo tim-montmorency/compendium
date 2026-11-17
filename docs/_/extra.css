@@ -975,6 +975,13 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 
 .finishing .md-typeset .admonition-title {
   font-size: 1.6em;
+
+}
+
+.finishing .md-typeset details summary {
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 1.3em;
 }
 
 .finishing .md-typeset em {
