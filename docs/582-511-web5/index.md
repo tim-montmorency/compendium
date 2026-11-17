@@ -27,7 +27,7 @@ L’élève apprend, au sein d’une équipe, à faciliter la réalisation d’u
   **Marie-Michelle Ouellet**<br>
   _Enseignante en Techniques d'intégration multimédia_<br>
   :material-microsoft-teams: [marie-michelle.ouellet@cmontmorency.qc.ca](mailto:marie-michelle.ouellet@cmontmorency.qc.ca)<br><br>
-  [Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQDXooJrgWRgQ6S6RuZzfUw8Abkl4V6Htlw8goZR3lUx69E?e=qyXjzC){ .md-button .md-button--primary }
+  [Plan de cours :material-download:](https://cmontmorency365-my.sharepoint.com/:b:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/01_plan_de_cours/582-511_web5_plan-de-cours_A2026_V5.pdf?d=w73b61fa54f7345f2856736735b1ac593&csf=1&web=1&e=TtHuyu){ .md-button .md-button--primary }
 </div>
 <br> <br>
 
