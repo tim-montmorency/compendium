@@ -64,16 +64,15 @@ Du bac à sable au projet : chacun intègre le sien.
 - [ ] Exercices : terminer *Collection de films*, ou *Cheese Kanye says* si c'est fait (30 min)
 - [ ] Révision de l'exercice [*Collection de films*](./exercices/ex-vue-films/index.md) : la chasse aux bogues, en duo (20 min)
 - [ ] Les composants Vue, dans un bac à sable : on démarre ensemble, vous construisez le reste (70 min)
-- [ ] Pause (15 min)
-- [ ] Prototype : votre démo de 60 secondes, pendant que je passe d'équipe en équipe
-- [ ] Atelier : chaque personne intègre son composant Vue dans le projet (65 min)
+- [ ] Remise du prototype : vous me faites une démo de 60 secondes, pendant que je passe d'équipe en équipe
+- [ ] Atelier : chaque personne intègre son composant Vue dans le projet (60 min)
 
 ## 1. :material-head-question-outline:  Quiz Wooclap : les principes de Vue *10 min* { #quiz }
 
 Six questions pour réactiver ce qu'on a vu mercredi, avant de construire vos composants. Rejoignez l'événement de votre groupe :
 
-- [Gr1 mercredi AM](https://app.wooclap.com/CTKRJEJ) (code `CTKRJEJ`)
-- [Gr2 mercredi PM](https://app.wooclap.com/KSMDBMM) (code `KSMDBMM`)
+- [Gr1 mercredi AM](https://app.wooclap.com/KSMDBMM) (code `KSMDBMM`)
+- [Gr2 mercredi PM](https://app.wooclap.com/JOPRDHS) (code `JOPRDHS`)
 
 ## 2. :simple-vuedotjs:  Exercices : Films ou Kanye *30 min* { #exercices }
 

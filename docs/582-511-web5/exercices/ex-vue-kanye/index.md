@@ -22,7 +22,6 @@
 2. **Clonez** votre dépôt et ouvrez-le dans VS Code.
 3. Ouvrez `index.html` avec **Live Server**.
 
-L'app Vue est déjà créée dans `js/script.js`, avec une donnée `quote`. Le CSS est déjà fait.
 
 ## Aperçu du résultat
 
@@ -30,7 +29,12 @@ L'app Vue est déjà créée dans `js/script.js`, avec une donnée `quote`. Le C
 
 ## Partie A : une méthode au clic (10 min)
 
-- [ ] Créez une méthode `getQuote()`, appelée au clic sur le bouton **Nouvelle citation fromagée**.
+
+!!! alert "L'App Vue est déjà créée dans `js/script.js`"
+    L'app Vue est déjà créée dans `js/script.js`, avec une donnée `quote`. Le CSS est déjà fait.
+
+
+- [ ] Créez une méthode Vue nommée `getQuote()`, appelée au clic sur le bouton **Nouvelle citation fromagée**.
 - [ ] Pour l'instant, la méthode remplace la citation par ce texte : « La plus grande douleur de ma vie, c'est que je ne pourrai jamais me voir en spectacle. »
 
 ??? quote "Ce que vous devriez voir"
