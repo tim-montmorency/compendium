@@ -1,4 +1,4 @@
-# Props (composante Vue)
+# **Vue.js** Props (composante Vue)
 
 Une `prop` (propriété) est un moyen de passer des *données du parent vers l'enfant* (de l'app Vue principale vers la composante enfant). C'est comme passer un paramètre vers fonction JavaScript, mais pour les composantes.
 

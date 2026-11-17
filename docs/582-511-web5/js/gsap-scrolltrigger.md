@@ -1,4 +1,4 @@
-# :material-gesture-swipe-vertical: GSAP: ScrollTrigger
+# **GSAP** :material-gesture-swipe-vertical: ScrollTrigger
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

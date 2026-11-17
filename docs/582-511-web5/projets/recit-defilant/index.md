@@ -1,4 +1,4 @@
-# :material-book-open-page-variant-outline:  Le récit défilant : consignes complètes
+# **Projet intégrateur** :material-book-open-page-variant-outline:  Le récit défilant *Consignes complètes*
 
 ![](assets/recit-defilant-banniere.webp){.w-100}
 

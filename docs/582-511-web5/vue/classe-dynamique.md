@@ -1,5 +1,5 @@
 
-# :class dynamique
+# **Vue.js** :class dynamique
 
 ## Classes CSS dynamiques :class { #class }
 

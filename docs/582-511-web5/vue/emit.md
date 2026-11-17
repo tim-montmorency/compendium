@@ -1,4 +1,4 @@
-# Émettre événements via `$emit`
+# **Vue.js** Émettre événements via `$emit`
 
 ## Qu'est-ce que $emit?
 

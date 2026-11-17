@@ -1,4 +1,4 @@
-# Éléments de formulaire v-model
+# **Vue.js** Éléments de formulaire v-model
 
 La grande force de *Vue* réside dans sa fonctionnalité de relation bidirectionnelle *two-way binding* permettant de mettre à jour automatiquement différentes informations dans une interface (*View*) en fonction de la valeur de certaines propriétés du modèle (*Model*) et vice-versa.
 

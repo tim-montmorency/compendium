@@ -1,4 +1,4 @@
-# :material-sitemap-outline:  Le récit en un coup d'œil
+# **Récit défilant** :material-sitemap-outline:  Le récit en un coup d'œil
 
 ## La "big picture" { #big-picture }
 

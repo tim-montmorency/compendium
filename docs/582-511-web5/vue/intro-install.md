@@ -6,7 +6,7 @@
  Considérer intégrer des templates genre: https://www.landingfolio.com/library/all/vue pour exercices Vue, peiut-être un TP qui se build à mesure qu'ils apprenent un nouveau concept...
 -->
 
-# Intro à Vue.js [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
+# **Vue.js** Intro à Vue.js [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
 
 **Vue** (prononciation: View) est un framework JavaScript progressif utilisé pour construire des interfaces utilisateur. Il est conçu pour être adaptable et peut être intégré dans des projets existants ou utilisé pour créer des applications web complètes.
 

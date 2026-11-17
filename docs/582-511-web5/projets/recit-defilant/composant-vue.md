@@ -1,4 +1,4 @@
-# :simple-vuedotjs:  Les composants Vue : navigateur de chapitres et barre de progression
+# **Récit défilant** :simple-vuedotjs:  Les composants Vue *Navigateur de chapitres et barre de progression*
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

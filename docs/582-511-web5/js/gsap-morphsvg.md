@@ -1,4 +1,4 @@
-# :material-shape-outline: GSAP : MorphSVG
+# **GSAP** :material-shape-outline: MorphSVG
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

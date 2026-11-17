@@ -1,4 +1,4 @@
-# Méthodes et événements
+# **Vue.js** Méthodes et événements
 
 <!--
  Considérer intégrer des templates genre: https://www.landingfolio.com/library/all/vue pour exercices Vue, peiut-être un TP qui se build à mesure qu'ils apprenent un nouveau concept...

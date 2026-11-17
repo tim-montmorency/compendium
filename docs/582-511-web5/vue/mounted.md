@@ -1,4 +1,4 @@
-# :simple-vuedotjs:  Le cycle de vie : `mounted()`
+# **Vue.js** :simple-vuedotjs:  Le cycle de vie : `mounted()`
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

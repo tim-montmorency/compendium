@@ -1,4 +1,4 @@
-# :material-swap-horizontal:  Modes du chat Copilot
+# **Travail assisté par IA** :material-swap-horizontal:  Modes du chat Copilot
 
 ## Le principe, peu importe l'interface
 

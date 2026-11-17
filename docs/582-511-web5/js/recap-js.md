@@ -1,4 +1,4 @@
-# :material-language-javascript:  Récap JS : les concepts clés
+# **JavaScript** :material-language-javascript:  Récap JS : les concepts clés
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

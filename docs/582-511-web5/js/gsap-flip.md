@@ -1,4 +1,4 @@
-# :material-view-grid-outline: GSAP : Flip
+# **GSAP** :material-view-grid-outline: Flip
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

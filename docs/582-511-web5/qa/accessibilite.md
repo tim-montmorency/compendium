@@ -1,4 +1,4 @@
-# :material-human:  L'accessibilité : les 4 points de la grille (WCAG AA)
+# **Contrôle de la qualité** :material-human:  L'accessibilité : les 4 points de la grille (WCAG AA)
 
 *[WCAG]: Web Content Accessibility Guidelines
 *[ARIA]: Accessible Rich Internet Applications

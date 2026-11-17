@@ -1,4 +1,4 @@
-# :material-arrow-down-circle-outline: GSAP : ScrollTo
+# **GSAP** :material-arrow-down-circle-outline: ScrollTo
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

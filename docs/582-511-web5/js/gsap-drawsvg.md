@@ -1,4 +1,4 @@
-# :material-draw: GSAP : DrawSVG
+# **GSAP** :material-draw: DrawSVG
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

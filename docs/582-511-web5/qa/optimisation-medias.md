@@ -1,4 +1,4 @@
-# :material-image-size-select-large:  Optimiser les médias
+# **Contrôle de la qualité** :material-image-size-select-large:  Optimiser les médias
 
 ![](assets/optimisation-medias-banniere.webp){.w-100}
 

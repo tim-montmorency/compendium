@@ -1,4 +1,4 @@
-# :material-format-letter-case: GSAP : SplitText
+# **GSAP** :material-format-letter-case: SplitText
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

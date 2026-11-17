@@ -1,4 +1,4 @@
-# :material-eye-outline:  Intersection Observer: déclencher 1 fois
+# **JavaScript** :material-eye-outline:  Intersection Observer: déclencher 1 fois
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

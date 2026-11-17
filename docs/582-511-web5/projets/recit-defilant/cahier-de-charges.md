@@ -1,4 +1,4 @@
-# :material-file-document-edit-outline:  Le cahier de charges et le scénarimage (storyboard)
+# **Récit défilant** :material-file-document-edit-outline:  Le cahier de charges et le scénarimage (storyboard)
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">

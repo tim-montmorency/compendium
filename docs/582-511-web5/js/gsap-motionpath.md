@@ -1,4 +1,4 @@
-# :material-vector-curve: GSAP : MotionPath
+# **GSAP** :material-vector-curve: MotionPath
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

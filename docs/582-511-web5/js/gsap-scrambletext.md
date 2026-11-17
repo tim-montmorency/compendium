@@ -1,4 +1,4 @@
-# :material-shuffle-variant: GSAP : ScrambleText
+# **GSAP** :material-shuffle-variant: ScrambleText
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

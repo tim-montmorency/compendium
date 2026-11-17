@@ -1,4 +1,4 @@
-# :material-file-tree:  Arborescence et code de départ
+# **Récit défilant** :material-file-tree:  Arborescence et code de départ
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
