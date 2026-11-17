@@ -14,7 +14,7 @@
 
 </div>
 
-## Obtenir votre dépôt (5 min)
+## Obtenir votre dépôt *5 min*
 
 **[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-vue-tableau-nba/accept?k=rthn1z36){ :target="_blank" }**
 
@@ -28,7 +28,7 @@ Vue est chargé par CDN, avec une balise `<script>` dans `index.html`, **avant**
 
 <video class="w-100" src="assets/apercu-nba.webm" autoplay muted loop playsinline aria-label="Aperçu du résultat : un clic sur le logo d'une équipe ajoute 2 points à son pointage, et le texte sous VS indique quelle équipe mène"></video>
 
-## Partie A : l'app et les données (10 min)
+## Partie A : l'app et les données *10 min*
 
 - [ ] Dans `js/script.js`, créez l'app avec `Vue.createApp()`, et montez-la sur `#app`.
 - [ ] Dans `data()`, créez deux données pour les pointages : `scoreRaptors` et `scoreCeltics`, toutes deux à `80`.
@@ -39,7 +39,7 @@ Vue est chargé par CDN, avec une balise `<script>` dans `index.html`, **avant**
 
 - [ ] *Commit* (`Partie A : les pointages viennent des données`), puis *push*.
 
-## Partie B : le clic sur les logos (10 min)
+## Partie B : le clic sur les logos *10 min*
 
 - [ ] Créez deux méthodes, une par équipe, qui ajoutent **2 points** au pointage de l'équipe.
 - [ ] Dans `index.html`, appelez la bonne méthode au clic sur chaque logo, avec `@click`.
@@ -49,7 +49,7 @@ Vue est chargé par CDN, avec une balise `<script>` dans `index.html`, **avant**
 
 - [ ] *Commit* (`Partie B : un clic ajoute 2 points`), puis *push*.
 
-## Partie C : une seule méthode, avec un paramètre (10 min)
+## Partie C : une seule méthode, avec un paramètre *10 min*
 
 Deux méthodes qui font presque la même chose, c'est du code en double.
 
@@ -63,7 +63,7 @@ Deux méthodes qui font presque la même chose, c'est du code en double.
 
 - [ ] *Commit* (`Partie C : une seule méthode avec un paramètre`), puis *push*.
 
-## Partie D : la propriété calculée (10 min)
+## Partie D : la propriété calculée *10 min*
 
 Sous le **VS**, affichez qui mène : « Raptors en tête », « Celtics en tête » ou « Égalité ».
 

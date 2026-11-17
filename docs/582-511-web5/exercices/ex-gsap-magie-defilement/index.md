@@ -16,7 +16,7 @@
 
 Gardez la page [GSAP : ScrollTrigger](../../js/gsap-scrolltrigger.md) ouverte à côté.
 
-## Obtenir votre dépôt (5 min)
+## Obtenir votre dépôt *5 min*
 
 **[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-gsap-magie-defilement/accept?k=rthn1z36){ :target="_blank" }**
 
@@ -32,7 +32,7 @@ Dans `index.html`, GSAP **et** le plugin ScrollTrigger sont déjà chargés. Dan
 
 <video class="w-100" src="assets/apercu-magie-defilement.mp4" autoplay muted loop playsinline aria-label="Aperçu du résultat : on défile, la scène du chapeau reste en place à l'écran, et le numéro de magie avance au rythme du défilement, puis la page repart"></video>
 
-## Partie 1 : déclencher au défilement (10 min)
+## Partie 1 : déclencher au défilement *10 min*
 
 - [ ] En haut de `js/script.js`, enregistrez le plugin : `gsap.registerPlugin(ScrollTrigger);`
 - [ ] Ajoutez un objet de paramètres à `gsap.timeline()`, avec un `scrollTrigger` :
@@ -57,7 +57,7 @@ Dans `index.html`, GSAP **et** le plugin ScrollTrigger sont déjà chargés. Dan
 
 - [ ] *Commit* (`Partie 1 : déclenche le numéro au défilement`), puis *push*.
 
-## Partie 2 : suivre le défilement (5 min)
+## Partie 2 : suivre le défilement *5 min*
 
 Avec `toggleActions`, le numéro joue tout seul, à sa vitesse. Dans un récit, c'est le visiteur qui doit le faire avancer.
 
@@ -69,7 +69,7 @@ Avec `toggleActions`, le numéro joue tout seul, à sa vitesse. Dans un récit, 
 
 - [ ] *Commit* (`Partie 2 : le numéro suit le défilement`), puis *push*.
 
-## Partie 3 : épingler la scène (10 min)
+## Partie 3 : épingler la scène *10 min*
 
 - [ ] Le numéro commence quand le **haut de la scène** touche le **haut de l'écran** : réglez `start`.
 - [ ] Ajoutez `pin: true` : la scène reste en place pendant tout le numéro.
@@ -82,7 +82,7 @@ Avec `toggleActions`, le numéro joue tout seul, à sa vitesse. Dans un récit, 
 - [ ] Retirez les `markers`.
 - [ ] *Commit* (`Partie 3 : épingle la scène`), puis *push*.
 
-## Partie 4 : le mouvement réduit (5 min)
+## Partie 4 : le mouvement réduit *5 min*
 
 Avec le mouvement réduit, le numéro ne doit pas jouer, **et** rien ne doit rester caché : le chapeau, la baguette et la main restent visibles, à leur place.
 

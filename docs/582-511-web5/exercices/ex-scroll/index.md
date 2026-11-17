@@ -16,7 +16,7 @@
 
 **Seul, environ 40 minutes.** Gardez la page [Animations pilotées par le défilement](../../css/animations-scroll.md) ouverte à côté : tout y est expliqué.
 
-## Obtenir votre dépôt (5 min)
+## Obtenir votre dépôt *5 min*
 
 **[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-scroll/accept?k=rthn1z36){ :target="_blank" }**
 
@@ -29,7 +29,7 @@ Les styles de mise en page sont prêts. Vous écrivez vos animations **à la fin
 !!! warning "Le piège de l'ordre"
     La propriété raccourcie `animation` remet `animation-timeline` à sa valeur par défaut. Écrivez donc toujours **`animation` d'abord, puis `animation-timeline`**. Dans l'autre ordre, l'animation joue une seule fois au chargement, au lieu de suivre le défilement.
 
-## Partie 1 : la barre de progression (5 min)
+## Partie 1 : la barre de progression *5 min*
 
 La barre rouge en haut de la page (`.progression`) doit grandir de **0 à 100 % de sa largeur**, à mesure qu'on défile **toute la page**.
 
@@ -39,7 +39,7 @@ La barre rouge en haut de la page (`.progression`) doit grandir de **0 à 100 % 
 
 **Vérifiez** : en haut de la page, la barre est vide; en bas, elle est pleine.
 
-## Partie 2 : les cartes apparaissent (10 min)
+## Partie 2 : les cartes apparaissent *10 min*
 
 Chaque carte (`.carte`) apparaît **en entrant dans l'écran** : elle passe de transparente et un peu plus bas, à visible et à sa place.
 
@@ -49,7 +49,7 @@ Chaque carte (`.carte`) apparaît **en entrant dans l'écran** : elle passe de t
 
 **Vérifiez** : défilez lentement. Chaque carte apparaît à son tour, et elle est complètement visible bien avant le milieu de l'écran.
 
-## Partie 3 : le grand texte glisse (5 min)
+## Partie 3 : le grand texte glisse *5 min*
 
 Le grand texte du bandeau (`.bandeau__texte`) **glisse vers la gauche** pendant toute sa traversée de l'écran.
 
@@ -59,7 +59,7 @@ Le grand texte du bandeau (`.bandeau__texte`) **glisse vers la gauche** pendant 
 !!! tip "Le texte ne bouge pas?"
     Ce n'est pas votre animation. Regardez une propriété du **bandeau** dans le CSS de départ, et relisez le piège de la page sur les animations au défilement.
 
-## Partie 4 : les deux règles obligatoires (5 min)
+## Partie 4 : les deux règles obligatoires *5 min*
 
 - [ ] **`@supports`** : vos animations ne s'appliquent que si le navigateur comprend `animation-timeline`. Sinon, la page reste lisible et fixe.
 - [ ] **`prefers-reduced-motion`** : avec le mouvement réduit, rien ne bouge.

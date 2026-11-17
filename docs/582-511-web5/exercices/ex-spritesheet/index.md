@@ -11,7 +11,7 @@
 
 **Seul, environ 40 minutes.** Gardez la page [Animation par spritesheet](../../css/animation-spritesheet.md) ouverte à côté.
 
-## Obtenir votre dépôt (5 min)
+## Obtenir votre dépôt *5 min*
 
 Votre dépôt est créé pour vous par **Classroom 50**, avec les fichiers de départ.
 
@@ -60,7 +60,7 @@ Et dans `css/style.css` :
 }
 ```
 
-## Partie 1 : lire le code de départ (5 min)
+## Partie 1 : lire le code de départ *5 min*
 
 Avant de toucher au code, répondez dans le commentaire prévu en haut de `css/style.css` :
 
@@ -68,7 +68,7 @@ Avant de toucher au code, répondez dans le commentaire prévu en haut de `css/s
 2. Pourquoi `steps(19)`? Remplacez-le par `linear` : que se passe-t-il? Remettez `steps(19)`.
 3. Quelle propriété est animée? Selon les garde-fous du récit défilant, est-ce une bonne propriété à animer?
 
-## Partie 2 : convertir à la version 2 (15 min)
+## Partie 2 : convertir à la version 2 *15 min*
 
 Transformez le code pour utiliser la méthode **responsive et performante** :
 
@@ -82,7 +82,7 @@ Transformez le code pour utiliser la méthode **responsive et performante** :
 !!! tip "Si le monstre glisse ou tremble"
     Ajoutez temporairement une bordure au conteneur (`outline: 2px solid red`) et mettez l'animation en pause (`animation-play-state: paused`). Changez la valeur de `transform` à la main dans l'inspecteur : chaque image doit remplir exactement le conteneur.
 
-## Partie 3 : régler (10 min)
+## Partie 3 : régler *10 min*
 
 - [ ] **La vitesse** : le monstre doit marcher à **12 images par seconde**. Calculez la durée (formule dans la page sur la spritesheet) et écrivez le calcul en commentaire.
 - [ ] **La pause au survol** : quand la souris est sur le monstre, il s'arrête.
@@ -90,7 +90,7 @@ Transformez le code pour utiliser la méthode **responsive et performante** :
 
 Pour tester `prefers-reduced-motion` sans changer les réglages de votre ordinateur : dans Chrome, inspecteur → menu **⋮** → **More tools** → **Rendering** → *Emulate CSS media feature prefers-reduced-motion*.
 
-## Partie 4 : le monstre marche au défilement (10 min)
+## Partie 4 : le monstre marche au défilement *10 min*
 
 Dans votre récit défilant, c'est le visiteur qui fait avancer l'animation. Faites la même chose ici : **le monstre fait ses pas quand on défile**, et s'arrête quand on arrête de défiler.
 
@@ -153,7 +153,7 @@ Ouvrez **un indice à la fois**, et essayez avant d'ouvrir le suivant. Le dernie
 ??? tip "Partie 4, indice 2 : le monstre reste figé"
     Regardez le conteneur. Avec `overflow: hidden`, il devient un conteneur de défilement, et `view()` suit **ce conteneur**, qui ne défile jamais. Aucune erreur, juste une animation figée. La solution : `overflow: clip`. Voir [le piège de `overflow: hidden`](../../css/animations-scroll.md#piege-overflow).
 
-## Bonus : le monstre reste au centre (15 min)
+## Bonus : le monstre reste au centre *15 min*
 
 *Facultatif, pour ceux qui veulent aller plus loin. L'épinglage reviendra au cours 10.1, avec GSAP.*
 

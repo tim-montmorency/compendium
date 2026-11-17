@@ -14,7 +14,7 @@
 
 </div>
 
-## Obtenir votre dépôt (5 min)
+## Obtenir votre dépôt *5 min*
 
 **[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-vue-collection-de-films/accept?k=rthn1z36){ :target="_blank" }**
 
@@ -28,7 +28,7 @@ Vue est chargé par CDN dans `index.html`, **avant** `js/script.js`. Le CSS est 
 
 <video class="w-100" src="assets/apercu-films.webm" autoplay muted loop playsinline aria-label="Aperçu du résultat : les boutons moins et plus changent l'année, et les films de cette année passent en orange et en gras"></video>
 
-## Partie A : l'année et les boutons (15 min)
+## Partie A : l'année et les boutons *15 min*
 
 - [ ] Créez l'app Vue dans `js/script.js`, et montez-la sur `#app`.
 - [ ] Créez une donnée `year`, à `2022`. Affichez-la entre les boutons **-** et **+**, à la place du `2022` écrit dans le HTML.
@@ -39,7 +39,7 @@ Vue est chargé par CDN dans `index.html`, **avant** `js/script.js`. Le CSS est 
 
 - [ ] *Commit* (`Partie A : l'année change avec les boutons`), puis *push*.
 
-## Partie B : la classe dynamique (15 min)
+## Partie B : la classe dynamique *15 min*
 
 - [ ] Sur chaque `<li>`, ajoutez la classe `selectedYear` **seulement si** l'année du film est égale à `year`.
 - [ ] Gardez la classe `static-class` déjà là : un élément peut avoir une classe fixe (`class`) et une classe dynamique (`:class`) en même temps.
@@ -54,7 +54,7 @@ Vue est chargé par CDN dans `index.html`, **avant** `js/script.js`. Le CSS est 
 
 Vous avez écrit la même condition 12 fois, en changeant l'année à la main. Ça fonctionne, mais imaginez 200 films. C'est le problème que règle la partie C.
 
-## Partie C : les films dans un tableau, avec `v-for` (15 min)
+## Partie C : les films dans un tableau, avec `v-for` *15 min*
 
 - [ ] Dans `data()`, ajoutez le tableau `movies` ci-dessous.
 - [ ] Dans `index.html`, effacez les 12 `<li>`, et remplacez-les par **un seul** `<li>`, répété avec `v-for` pour chaque film du tableau.

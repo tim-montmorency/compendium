@@ -20,7 +20,7 @@
 
 Dézippez le dossier, mais **ne l'ouvrez pas tout de suite avec Live Server** : on commence par lire.
 
-## Étape 1 : lire, sans exécuter (5 min) { #lire }
+## Étape 1 : lire, sans exécuter *5 min* { #lire }
 
 - [ ] Lisez le code ci-dessous, ensemble, **sans lancer la page**.
 - [ ] Pour chaque bogue que vous soupçonnez, notez le **fichier**, la **ligne** et ce qui, selon vous, va se passer à l'écran.
@@ -100,7 +100,7 @@ const app = Vue.createApp({
 app.mount("app");
 ```
 
-## Étape 2 : vérifier, et corriger un bogue à la fois (8 min) { #corriger }
+## Étape 2 : vérifier, et corriger un bogue à la fois *8 min* { #corriger }
 
 - [ ] Ouvrez maintenant `index.html` avec **Live Server**, la **console** ouverte.
 - [ ] Corrigez **un seul bogue à la fois**, puis rechargez. Pour chacun, notez :
@@ -129,7 +129,7 @@ app.mount("app");
 
 **Défi : le 6e bogue, qui ne se voit pas.** Tout fonctionne, et pourtant il manque quelque chose dans le `<li>`. Aucun symptôme à l'écran ni dans la console : c'est la page [Boucle `v-for`](../../vue/boucle.md) qui vous le dira.
 
-## Étape 3 : le pont vers votre composant (2 min) { #pont }
+## Étape 3 : le pont vers votre composant *2 min* { #pont }
 
 Le navigateur de chapitres, c'est **cet exercice**, avec des chapitres à la place des films. Trouvez la correspondance de chaque ligne :
 

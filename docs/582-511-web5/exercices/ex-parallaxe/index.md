@@ -11,7 +11,7 @@
 
 **Seul, environ 40 minutes.** Pour le principe et des exemples, voyez [La parallaxe](../../css/parallaxe.md). Gardez aussi la section [Le faire en CSS](../../css/parallaxe.md#en-css) ouverte à côté, et jouez avec le [Labo parallaxe](../../css/labo-parallaxe.html){ :target="_blank" } : c'est le même principe.
 
-## Obtenir votre dépôt (5 min)
+## Obtenir votre dépôt *5 min*
 
 **[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exercice-parallaxe/accept?k=rthn1z36){ :target="_blank" }**
 
@@ -52,7 +52,7 @@ premier-plan   la montgolfière géante                à l'envers, encore
 
 L'effet se voit surtout **là où les calques se croisent** : les montgolfières qui passent devant les collines, le gros nuage qui passe devant la montgolfière rouge, la montgolfière géante qui traverse tout.
 
-## Partie 1 : lire la scène (5 min)
+## Partie 1 : lire la scène *5 min*
 
 Dans le commentaire prévu en haut de `css/style.css`, répondez :
 
@@ -60,7 +60,7 @@ Dans le commentaire prévu en haut de `css/style.css`, répondez :
 2. Pourquoi la petite montgolfière du ciel (`calque--ballon-loin`) est-elle si petite, et la montgolfière géante (`calque--ballon-geant`) si grande?
 3. Repérez la propriété de `.scene` qui va empêcher votre animation de fonctionner. Que faut-il mettre à la place? (Relisez [le piège de `overflow: hidden`](../../css/animations-scroll.md#piege-overflow).)
 
-## Partie 2 : animer les calques (20 min)
+## Partie 2 : animer les calques *20 min*
 
 Ici, la scène **est** la page : on n'a pas besoin de nommer sa timeline. Les calques suivent le défilement de toute la page, avec `scroll()` : 0 % tout en haut, 100 % tout en bas.
 
@@ -95,7 +95,7 @@ Chaque animation commence à `translateY(0)` (`from`).
 !!! info "`scroll()` ou une timeline nommée?"
     Dans votre récit, un chapitre est **une section parmi d'autres** : ses calques suivront la visibilité de **la section**, avec une [timeline nommée](../../css/parallaxe.md#en-css) (`view-timeline-name`), comme dans le [Labo parallaxe](../../css/labo-parallaxe.html){ :target="_blank" }. Ici, la scène occupe toute la page : le défilement de la page, `scroll()`, suffit.
 
-## Partie 3 : les deux règles obligatoires (5 min)
+## Partie 3 : les deux règles obligatoires *5 min*
 
 - [ ] **`@supports`** : les animations ne s'appliquent que si le navigateur comprend `animation-timeline`. Sinon, la scène reste fixe, et tout est lisible.
 - [ ] **`prefers-reduced-motion`** : avec le mouvement réduit, aucun calque ne bouge.
@@ -155,7 +155,7 @@ Ouvrez **un indice à la fois**, et essayez avant d'ouvrir le suivant. Le dernie
 
     Les `@keyframes` peuvent rester à l'extérieur : sans règle qui les utilise, ils ne font rien. Si rien ne fonctionne plus, vérifiez vos accolades : il en faut une après chaque condition.
 
-## Bonus : les montgolfières décollent (10 min)
+## Bonus : les montgolfières décollent *10 min*
 
 *Facultatif, pour ceux qui veulent aller plus loin.*
 

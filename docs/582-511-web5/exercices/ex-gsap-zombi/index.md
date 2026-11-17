@@ -14,7 +14,7 @@
 
 </div>
 
-## Obtenir votre dépôt (5 min)
+## Obtenir votre dépôt *5 min*
 
 **[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-gsap-zombi/accept?k=rthn1z36){ :target="_blank" }**
 
@@ -30,7 +30,7 @@ Tout votre code va dans `js/script.js`. Ouvrez aussi `index.html` et repérez l'
 
 <video class="w-100" src="assets/apercu-zombi.webm" autoplay muted loop playsinline aria-label="Aperçu du résultat : un coeur de zombi bat en rebondissant, pendant que le fond change lentement de couleur"></video>
 
-## Animation A : le coeur (5 min)
+## Animation A : le coeur *5 min*
 
 ### Un premier tween (interpolation)
 
@@ -59,7 +59,7 @@ Tout votre code va dans `js/script.js`. Ouvrez aussi `index.html` et repérez l'
 
 - [ ] *Commit* (`Animation A : le coeur bat`), puis *push*.
 
-## Animation B : le fond (5 min)
+## Animation B : le fond *5 min*
 
 - [ ] Sous l'animation du coeur, animez la couleur de fond du `body` avec `gsap.fromTo()` :
   - couleur de départ : `#838B2F`;

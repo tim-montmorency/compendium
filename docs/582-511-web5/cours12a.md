@@ -3,10 +3,17 @@
 
 ![](assets/cours11b-banniere.webp){.w-100}
 
-!!! warning "Cours reporté :mer. 18 nov."
-    En raison de la levée de cours, ce cours et la démo du prototype ont lieu le **mer. 18 nov.** Le cours du 13 nov. sera repris le **jeu. 17 déc.** : tout le calendrier qui suit est décalé d'un cours. La **bêta** a lieu le **mer. 2 déc.**, la **défense** le **ven. 11 déc.** et la **remise finale** le **jeu. 17 déc.** [Voir le calendrier](projets/recit-defilant/index.md#calendrier).
+!!! warning "Grève du 13 nov."
+    En raison de la levée de cours du 13 novembre, il sera repris le **jeudi 17 déc.**
+    
+    Tout le calendrier qui suit est décalé d'un cours mais quelques dates ont quand même été changées, notamment celle de la Beta. Grâce à cela, vous avez maintenant 2 semaines entre aujourd'hui (remise du prototype) et la remise de la Beta finale (avant le QA).
+    
+    [Voir le calendrier](projets/recit-defilant/index.md#calendrier)
 
-??? danger "Changement : un composant Vue par personne, obligatoire. Cliquer pour les détails."
+    [Voir le plan de cours révisé](https://cmontmorency365-my.sharepoint.com/:b:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/01_plan_de_cours/582-511_web5_plan-de-cours_A2026_V5.pdf?d=w73b61fa54f7345f2856736735b1ac593&csf=1&web=1&e=TtHuyu)
+
+??? danger "Un composant Vue par personne, obligatoire. Cliquer pour les détails."
+
     Il n'y a **plus de choix** entre le navigateur de chapitres et la barre de progression : **les deux sont exigés**, et **chaque personne en code un**.
 
     - Une personne : le **navigateur de chapitres** (`js/navigation.js`).
@@ -76,9 +83,17 @@ Six questions pour réactiver ce qu'on a vu mercredi, avant de construire vos co
 
 ## 2. :simple-vuedotjs:  Exercices : Films ou Kanye *30 min* { #exercices }
 
-**Vous n'avez pas terminé *Collection de films*?** Terminez-le. Si le temps manque, visez la **partie C** (`v-for` sur un tableau) : c'est votre navigateur de chapitres, en version simple.
+- ❌ **Vous n'avez pas terminé *Collection de films* partie A, B et C?**
+  
+  **Terminez-le!**
 
-**Vous l'avez terminé?** Faites *Cheese Kanye says*, parties A et B : une méthode Vue qui va chercher des données avec `fetch()`, puis `mounted()`. C'est la recette de votre dataviz, et `mounted()` revient dans la démo. La partie C est un bonus.
+  Si le temps manque, visez la partie C (`v-for` sur un tableau) : c'est un peu comme votre futur navigateur de chapitres du récit défilant, en version simple.
+
+- ☑️ **Vous avez terminé les parties A, B et C de *Collection de films*?**
+  
+  **Faites *Cheese Kanye says*, parties A et B :**
+  
+  une méthode Vue qui va chercher des données avec `fetch()`, puis `mounted()`. C'est la recette de votre dataviz, et `mounted()` revient dans la démo. La partie C est un bonus.
 
 [:simple-vuedotjs: Collection de films](exercices/ex-vue-films/index.md){ .md-button } ou [:simple-vuedotjs: Cheese Kanye says](exercices/ex-vue-kanye/index.md){ .md-button }
 
@@ -216,11 +231,15 @@ Pour relire après le cours, ou si vous étiez absent :
 
 [:simple-vuedotjs: Les composants Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
 
-## 5. :material-play-box-outline:  Remise : Le prototype, 60 secondes par équipe (mer. 18 nov.)
+## 5. :material-play-box-outline:  Remise : Le prototype, 60 secondes par équipe
 
 Pendant le travail en équipe, je passe vous voir. 
 
-**Préparez votre démo** : Live Server ouvert, la console ouverte, la page en haut du récit.
+**Préparez votre démo avant que j'arrive**, trois onglets ouverts :
+
+- [ ] **Votre récit**, avec Live Server, la console ouverte, la page en haut du récit.
+- [ ] **Votre dépôt sur github.com**, à l'onglet **Pull requests**, filtre **Closed** : les *pull requests* fusionnées dans `main`, de chaque personne.
+- [ ] **Votre journal de bord**, chaque personne : `documentation/JOURNAL-prenom.md`, ouvert à la section `## Questions bloc 3`.
 
 En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre. On regarde ensemble ce qui fonctionne, et ce qui reste à faire d'ici la bêta.
 
@@ -242,7 +261,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 - [ ] **Commentez-le, dans vos mots.** Le code fourni n'a pas de commentaires : c'est à vous d'expliquer ce que fait chaque partie. C'est aussi ce qui vous prépare à la [défense](projets/recit-defilant/index.md#calendrier).
 - [ ] **Retournez à vos chapitres** : les animations et les médias qui manquaient au prototype, en visant la **bêta du mer. 2 déc.** C'est le dernier cours avec du temps en classe sur vos chapitres avant la *phase 2*{ .w5-phase .w5-phase-2 }.
 
-!!! tip "Le navigateur reste vide dans votre projet?"
+!!! tip "Le navigateur de chapitres reste vide dans votre projet?"
     `main.js` lit les sections qui ont la classe `.chapitre`, et le titre dans leur `<h2>`. Si votre HTML est différent, adaptez le sélecteur à **votre** structure.
 
 [:simple-vuedotjs: Brancher les composants à la *phase 1*{ .w5-phase .w5-phase-1 }](projets/recit-defilant/composant-vue.md#brancher-phase-1){ .md-button }

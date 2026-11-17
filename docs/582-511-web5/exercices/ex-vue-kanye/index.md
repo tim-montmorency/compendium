@@ -14,7 +14,7 @@
 
 </div>
 
-## Obtenir votre dépôt (5 min)
+## Obtenir votre dépôt *5 min*
 
 **[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-vue-cheese-kanye-says/accept?k=rthn1z36){ :target="_blank" }**
 
@@ -27,27 +27,31 @@
 
 <video class="w-100" src="assets/apercu-kanye.webm" autoplay muted loop playsinline aria-label="Aperçu du résultat : à chaque clic sur le bouton, une nouvelle citation s'affiche dans la bulle"></video>
 
-## Partie A : une méthode au clic (10 min)
+## Partie A : une méthode au clic *10 min*
 
 
 !!! alert "L'App Vue est déjà créée dans `js/script.js`"
-    L'app Vue est déjà créée dans `js/script.js`, avec une donnée `quote`. Le CSS est déjà fait.
+    L'app Vue est déjà créée dans `js/script.js`, avec une donnée `citation`. La bulle l'affiche déjà : `{{ citation }}` dans `index.html`. Le CSS est déjà fait.
 
 
 - [ ] Créez une méthode Vue nommée `getQuote()`, appelée au clic sur le bouton **Nouvelle citation fromagée**.
-- [ ] Pour l'instant, la méthode remplace la citation par ce texte : « La plus grande douleur de ma vie, c'est que je ne pourrai jamais me voir en spectacle. »
+- [ ] Pour l'instant, la méthode change la **donnée `citation`** pour ce texte : « La plus grande douleur de ma vie, c'est que je ne pourrai jamais me voir en spectacle. » 
+
+  On change la donnée, pas le HTML. C'est Vue qui met la bulle à jour.
 
 ??? quote "Ce que vous devriez voir"
-    Au clic, le texte de la bulle change. Un deuxième clic ne change plus rien : c'est toujours le même texte. La partie B règle ça.
+    Au clic, le texte de la bulle change. Un deuxième clic ne change plus rien : c'est toujours le même texte. 
+    
+    La partie B règle ça.
 
 - [ ] *Commit* (`Partie A : la méthode getQuote au clic`), puis *push*.
 
-## Partie B : la citation vient de l'API (15 min)
+## Partie B : la citation vient de l'API *15 min*
 
 L'API [Kanye.rest](https://kanye.rest/){ :target="_blank" } renvoie une citation au hasard à chaque requête.
 
 - [ ] **D'abord, testez l'adresse** dans le navigateur : collez `https://api.kanye.rest/` dans la barre d'adresse. Que contient la réponse? Quel est le **chemin** vers le texte de la citation?
-- [ ] Dans `getQuote()`, effacez le texte fixe. Faites plutôt un `fetch()` vers `https://api.kanye.rest/`, puis mettez la citation reçue dans la donnée `quote`.
+- [ ] Dans `getQuote()`, effacez le texte fixe. Faites plutôt un `fetch()` vers `https://api.kanye.rest/`, puis mettez la citation reçue dans la donnée `citation`.
 
 ??? tip "Indice : une méthode `async`"
     Pour utiliser `await` dans une méthode, la méthode doit être `async` :
@@ -57,19 +61,21 @@ L'API [Kanye.rest](https://kanye.rest/){ :target="_blank" } renvoie une citation
       async getQuote() {
         const response = await fetch("...");
         const data = await response.json();
-        // ... puis la donnée : this.quote = ...
+        // ... puis la donnée : this.citation = ...
       },
     },
     ```
 
     C'est le même `fetch()` que pour votre `data.json`, avec une adresse sur un autre site.
 
+    Attention aux deux noms : `citation`, c'est **votre** donnée Vue. `quote`, c'est la propriété de l'objet **reçu de l'API** (`data.quote`).
+
 ??? quote "Ce que vous devriez voir"
     Chaque clic affiche une **nouvelle** citation, en anglais. Dans l'onglet **Réseau** des outils de développement, une requête vers `api.kanye.rest` apparaît à chaque clic.
 
 - [ ] *Commit* (`Partie B : la citation vient de l'API`), puis *push*.
 
-## Partie C : prévoir la panne (10 min)
+## Partie C : prévoir la panne *10 min*
 
 Une API externe peut être lente, changer ou tomber en panne. Votre page doit rester utilisable.
 

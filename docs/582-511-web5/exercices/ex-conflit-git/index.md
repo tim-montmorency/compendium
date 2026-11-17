@@ -27,7 +27,7 @@ Quand une étape se fait dans VS Code **ou** dans GitHub Desktop, il y a deux on
 
 **À retenir** : sur votre poste, vous travaillez sur **votre branche**. Sur github.com, vous **fusionnez dans `main`**.
 
-## Partie 1 : obtenir votre dépôt de duo (5 min)
+## Partie 1 : obtenir votre dépôt de duo *5 min*
 
 Votre dépôt est créé pour vous par **Classroom 50**, avec le fichier `index.html` de départ déjà dedans.
 
@@ -82,7 +82,7 @@ gitGraph
   commit id: "départ"
 ```
 
-## Partie 2 : une branche chacun (3 min)
+## Partie 2 : une branche chacun *3 min*
 
 Chacun, **sur son poste**, crée **sa** branche à partir de `main`, à son prénom (en minuscules, sans accents), puis la **publie** sur GitHub.
 
@@ -112,7 +112,7 @@ gitGraph
   branch leo
 ```
 
-## Partie 3 : modifier la même ligne (5 min)
+## Partie 3 : modifier la même ligne *5 min*
 
 :material-microsoft-visual-studio-code: **En même temps**, chacun modifie **la même ligne** de `index.html`, chacun à sa façon :
 
@@ -147,7 +147,7 @@ gitGraph
   commit id: "B : titre"
 ```
 
-## Partie 4 : la première fusion passe (3 min)
+## Partie 4 : la première fusion passe *3 min*
 
 **Personne A**, tout se passe sur :material-github: **github.com**, dans l'onglet de votre dépôt.
 
@@ -177,7 +177,7 @@ gitGraph
   merge zoe id: "PR 1"
 ```
 
-## Partie 5 : la deuxième fusion bloque (2 min)
+## Partie 5 : la deuxième fusion bloque *2 min*
 
 **Personne B**, sur :material-github: **github.com** : ouvrez à votre tour une *pull request*, exactement comme aux étapes 1 à 4 de la partie 4, avec **compare: `leo`**.
 
@@ -190,7 +190,7 @@ Normal : `main` contient maintenant le titre de A, et votre branche, celui de B,
 
 **Où on en est** : rien n'a changé depuis la partie 4. La PR no 2 attend : `leo` et `main` ont modifié la même ligne depuis leur point de départ commun.
 
-## Partie 6 : régler le conflit (7 min)
+## Partie 6 : régler le conflit *7 min*
 
 **Personne B**, sur votre poste, sur **votre** branche : mettez votre branche à jour avec `main`. C'est là que le conflit apparaît.
 

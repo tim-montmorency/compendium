@@ -14,7 +14,7 @@
 
 </div>
 
-## Obtenir votre dépôt (5 min)
+## Obtenir votre dépôt *5 min*
 
 **[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-gsap-magie/accept?k=rthn1z36){ :target="_blank" }**
 
@@ -30,14 +30,14 @@ Tout le HTML et le CSS sont faits. Votre code va dans `js/script.js`.
 
 <video class="w-100" src="assets/apercu-magie.webm" autoplay muted loop playsinline aria-label="Aperçu du résultat : un chapeau de magicien apparaît et se retourne, une baguette s'agite, puis une main de zombi sort du chapeau"></video>
 
-## Explorer la scène (3 min)
+## Explorer la scène *3 min*
 
 - [ ] Dans `index.html`, repérez les 3 images à l'intérieur de `#chapeau`, et les identifiants `#chapeau`, `#main` et `#baguette` : ce sont les cibles des animations.
 
 ??? question "Comment la main peut-elle sortir de *l'intérieur* du chapeau?"
     C'est un jeu de `position: absolute` et de `z-index` (dans `css/style.css`). La main est **devant** l'image de l'arrière du chapeau, mais **derrière** le chapeau lui-même.
 
-## L'état de départ (5 min)
+## L'état de départ *5 min*
 
 Au chargement, tout est visible. Avant d'animer, on place chaque élément dans son état de départ, **sans animation** : c'est le rôle de `gsap.set()`.
 
@@ -51,7 +51,7 @@ Au chargement, tout est visible. Avant d'animer, on place chaque élément dans 
 
 - [ ] *Commit* (`Magie : prépare l'état de départ`), puis *push*.
 
-## La timeline (15 min)
+## La timeline *15 min*
 
 La timeline joue les animations **les unes après les autres**. Construisez-la une étape à la fois : après chaque étape, sauvegardez et regardez le résultat.
 
