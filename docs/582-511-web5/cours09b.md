@@ -1,4 +1,4 @@
-# Cours 9.2
+# **Cours 9.2** Animer au défilement
 <!-- ven. 30 oct. -->
 
 ![](assets/cours09b-banniere.webp){.w-100}

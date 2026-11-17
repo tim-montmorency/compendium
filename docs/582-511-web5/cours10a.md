@@ -1,4 +1,4 @@
-# Cours 10.1
+# **Cours 10.1** GSAP et ScrollTrigger
 <!-- mer. 4 nov. -->
 
 ![](assets/cours10a-banniere.webp){.w-100}

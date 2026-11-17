@@ -1,4 +1,4 @@
-# Cours 12.2
+# **Cours 12.2** Les API externes
 <!-- ven. 20 nov. -->
 
 !!! info "Calendrier décalé d'un cours"

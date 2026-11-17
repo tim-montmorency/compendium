@@ -1,4 +1,4 @@
-# Cours 10.2
+# **Cours 10.2** Construire vos chapitres
 <!-- ven. 6 nov. -->
 
 <div class="class-content-link">

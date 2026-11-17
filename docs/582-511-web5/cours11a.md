@@ -1,4 +1,4 @@
-# Cours 11.1
+# **Cours 11.1** Initiation à Vue.js
 <!-- mer. 11 nov. -->
 
 ![](assets/cours11a-banniere.webp){.w-100}

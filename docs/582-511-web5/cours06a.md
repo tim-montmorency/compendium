@@ -1,4 +1,4 @@
-# Cours 6.1
+# **Cours 6.1** En route vers la bêta
 <!-- merc. 30 sept. -->
 
 [:material-clipboard-check: Liste de vérification de la remise bêta](projets/portfolio/remise-beta.md){ .md-button .md-button--primary }

@@ -30,7 +30,7 @@
 4. Parcourir les 5 étapes de la procédure pas-à-pas pour mieux comprendre l'interface et les fonctionnalités de Copilot. Cocher lorsque vous avez bien compris l'étape.
 
 -->
-# Cours 2.1
+# **Cours 2.1** Copilot et CSS moderne
 
 ## Aujourd'hui
 

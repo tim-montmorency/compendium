@@ -1,4 +1,4 @@
-# Cours 7.2
+# **Cours 7.2** Lancement du récit défilant
 <!-- ven. 9 oct. -->
 
 ![](assets/cours07b-banniere.webp){.w-100}

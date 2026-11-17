@@ -1,4 +1,4 @@
-# Cours 9.1
+# **Cours 9.1** Git en équipe
 <!-- mer. 28 oct. -->
 
 ![](assets/cours09a-banniere.webp){.w-100}

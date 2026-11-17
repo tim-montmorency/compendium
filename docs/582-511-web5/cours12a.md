@@ -1,4 +1,4 @@
-# Cours 12.1
+# **Cours 12.1** Les composants Vue
 <!-- mer. 18 nov. (reporté du ven. 13 nov. : levée de cours) -->
 
 ![](assets/cours11b-banniere.webp){.w-100}

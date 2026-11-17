@@ -1,4 +1,4 @@
-# Cours 4.2
+# **Cours 4.2** Responsive et sprints
 <!-- vend. 18 sept. -->
 
 ## Projet portfolio

@@ -1,4 +1,4 @@
-# Cours 3.2
+# **Cours 3.2** Vos choix technologiques
 
 ## Projet portfolio
 
