@@ -1,4 +1,4 @@
-# Placement des éléments enfants `grid-column` et `grid-row`
+# **CSS** Placement des éléments enfants `grid-column` et `grid-row`
 
 Les propriétés CSS présentées dans cette page sont appliquées sur les *éléments-enfants de la grille*, afin de les positionner à l'intérieur
 de celle-ci.

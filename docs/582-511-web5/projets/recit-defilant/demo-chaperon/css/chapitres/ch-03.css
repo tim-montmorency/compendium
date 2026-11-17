@@ -1,0 +1,81 @@
+/* =========================================================
+   Chapitre 3 : la forêt (GSAP, épinglée) et la spritesheet
+   Responsable : Personne B
+   Toutes les règles ciblent la section #la-foret.
+   ========================================================= */
+
+#la-foret .foret {
+  position: relative;
+  height: 75vh;
+  margin-top: 3rem;
+  overflow: hidden;
+  /* Fond : les arbres gris du chapitre 1, sur un ciel plus clair */
+  background:
+    url("../../assets/images/foret-milieu.svg") center bottom / cover no-repeat,
+    linear-gradient(#3A3D45, var(--nuit));
+}
+
+/* L'ombre qui tombe sur la forêt (animée en opacité par GSAP) */
+#la-foret .foret__ombre {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: #000;
+  opacity: 0;
+}
+
+/* Les arbres de l'avant-plan, plus larges que la scène : ils défilent vite */
+#la-foret .foret__arbres {
+  position: absolute;
+  bottom: -12%;
+  left: 0;
+  z-index: 4;
+  width: 130%;
+  max-width: none;
+  pointer-events: none;
+}
+
+#la-foret .yeux {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  gap: 1.4rem;
+}
+
+#la-foret .yeux--1 { top: 22%; right: 12%; }
+#la-foret .yeux--2 { top: 45%; right: 34%; transform: scale(0.7); }
+#la-foret .yeux--3 { top: 14%; left: 30%; transform: scale(0.5); }
+
+#la-foret .yeux span {
+  width: 28px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--jaune);
+  box-shadow: 0 0 24px 6px var(--jaune);
+}
+
+/* La spritesheet : 8 images de 160 × 200 px sur une seule rangée */
+#la-foret .marcheur {
+  position: absolute;
+  z-index: 3;
+  bottom: 6%;
+  transform-origin: left bottom;
+  left: 0;
+  width: 160px;
+  height: 200px;
+  background-image: url("../../assets/images/chaperon-marche.webp");
+  background-repeat: no-repeat;
+  animation: marcher 0.8s steps(8) infinite;
+}
+
+@keyframes marcher {
+  from { background-position: 0 0; }
+  to   { background-position: -1280px 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #la-foret .marcheur {
+    animation: none;
+    left: 40%; /* sans animation, le Chaperon reste visible au centre de la forêt */
+  }
+}

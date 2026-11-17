@@ -1,4 +1,4 @@
-# Conditions v-if et v-show
+# **Vue.js** Conditions v-if et v-show
 
 ## Rendu conditionnel avec `v-if`
 
@@ -87,7 +87,7 @@ app.mount('#app')
 ```
 
 
-## Affichage conditionnel avec `v-show`
+## Affichage conditionnel avec `v-show` { #v-show }
 
 Une autre option pour afficher conditionnellement un élément est la directive `v-show`. L'utilisation est sensiblement la même :
 

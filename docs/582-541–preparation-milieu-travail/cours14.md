@@ -7,7 +7,10 @@
 
 ## Retour sur la journée carrière et évaluation des comités
 Activité en groupe    
-[🛠️ Tableau Miro](https://miro.com/app/board/uXjVEPex1dk=/?share_link_id=583301590126){ .md-button }   
+[🛠️ Tableau Miro Gr. Lora](https://miro.com/app/board/uXjVEPex1dk=/?share_link_id=583301590126){ .md-button }   
+
+[🛠️ Tableau Miro Gr. Enric](https://miro.com/app/board/uXjVENB618w=/?share_link_id=893188341602){ .md-button }  
+
 
 Ensuite:     
 [🛠️ Formulaire à remplir](https://forms.cloud.microsoft/r/TtcRz14ev6){ .md-button }   

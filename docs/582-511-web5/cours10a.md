@@ -1,4 +1,4 @@
-# Cours 10.1
+# **Cours 10.1** GSAP et ScrollTrigger
 <!-- mer. 4 nov. -->
 
 ![](assets/cours10a-banniere.webp){.w-100}
@@ -107,7 +107,7 @@ On accroche la timeline au défilement : `start`, `end`, `markers`, puis `scrub`
 2. **Chacun, sur sa branche** : dans la fonction `animate()` d'un de vos chapitres, une première animation GSAP, avec `gsap.from()`, `gsap.to()` ou `gsap.fromTo()`. Pas de `scrollTrigger` pour l'instant : elle joue au chargement de la page, c'est normal. Voir [GSAP : tweens et timelines](js/gsap-bases.md).
 3. Rappel des garde-fous : chacun épingle **au plus la moitié de ses chapitres** (sur 3 chapitres, 1 au plus), et au moins une animation de chaque technique (CSS au défilement, GSAP + ScrollTrigger, IntersectionObserver).
 
-[:material-file-tree: Arborescence du dépôt](projets/recit-defilant/arborescence-recit-defilant.md){ .md-button }
+[:material-file-tree: Arborescence et code de départ](projets/recit-defilant/arborescence-recit-defilant.md){ .md-button }
 
 !!! warning "Rappel : le point de contrôle, ven. 6 nov., au début du cours"
     Pas besoin d'avancer vos chapitres : on vérifie que **la base fonctionne**. La structure du dépôt, une `<section>` avec son `id` par chapitre (en HTML statique : le JSON viendra ensuite), GSAP et ScrollTrigger branchés, une animation test par personne (sans `scrollTrigger` : un simple `from()`, `to()` ou `fromTo()`), une *pull request* fusionnée par personne, au moins le tiers de vos médias dans le dépôt, bien nommés et **crédités dans le `README.md`**, et le journal du bloc 2.

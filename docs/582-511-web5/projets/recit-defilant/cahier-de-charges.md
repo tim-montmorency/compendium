@@ -1,4 +1,4 @@
-# :material-file-document-edit-outline:  Le cahier de charges et le scénarimage (storyboard)
+# **Récit défilant** :material-file-document-edit-outline:  Le cahier de charges et le scénarimage (storyboard)
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
@@ -206,7 +206,7 @@ Questions à vous poser, pour chaque chapitre :
 
 Dans le code, chaque chapitre a son propre fichier JavaScript, qui crée son média et l'anime. Ce fichier est le **seul** à lire le `contenu` de son chapitre. Vous pouvez donc changer le `contenu` de vos chapitres sans rien briser chez votre coéquipier.
 
-Les clés communes, elles, sont lues par `main.js`, un fichier commun : si vous voulez en changer une, on s'entend d'abord en équipe. Tous les détails sont dans [L'arborescence du dépôt](arborescence-recit-defilant.md#data-json).
+Les clés communes, elles, sont lues par `main.js`, un fichier commun : si vous voulez en changer une, on s'entend d'abord en équipe. Tous les détails sont dans [Arborescence et code de départ](arborescence-recit-defilant.md#data-json).
 
 ## Le moment dataviz
 
@@ -233,6 +233,18 @@ Copiez tout le bloc ci-dessous (bouton de copie en haut à droite) dans `documen
 
 !!! warning "Ajout de novembre : l'extension GSAP dans la matrice"
     Votre cahier est déjà remis? Ajoutez simplement, dans la **section 4** de votre `CAHIER-DE-CHARGES.md`, la ligne **Extension GSAP** : quelle extension, dans quel chapitre, et **qui** l'intègre. Voir [l'exigence](index.md#ce-qui-est-obligatoire).
+
+!!! warning "Ajout de novembre : un composant Vue par personne"
+    Les deux composants Vue sont maintenant **exigés**, un par personne. Dans la **section 4** de votre `CAHIER-DE-CHARGES.md`, remplacez la ligne du composant Vue par ces deux lignes, avec vos prénoms :
+
+    ```markdown
+    | Composant Vue : navigateur de chapitres | [Prénom] | `js/navigation.js` |
+    | Composant Vue : barre de progression | [Prénom] | `js/progression.js` |
+    ```
+
+    Une équipe de 3 ajoute une 3e ligne : `| Composant Vue : panneau de l'équipe | [Prénom] | js/equipe.js |`.
+
+    Voir [Les composants Vue](composant-vue.md#votre-composant).
 
 !!! info "Ajout de novembre : IntersectionObserver, un déclencheur"
     IntersectionObserver n'est plus une technique d'**animation** exigée : il sert à **déclencher** une action une seule fois. Dans votre récit, c'est lui qui lance le `fetch()` de votre moment dataviz. Vous aviez prévu une animation avec IntersectionObserver dans un chapitre? Gardez-la, rien à refaire : elle ne compte simplement plus parmi les deux techniques exigées.

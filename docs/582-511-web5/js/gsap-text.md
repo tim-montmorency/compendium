@@ -1,4 +1,4 @@
-# :material-format-text: GSAP : TextPlugin
+# **GSAP** :material-format-text: TextPlugin
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

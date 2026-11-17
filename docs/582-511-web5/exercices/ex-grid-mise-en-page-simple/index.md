@@ -1,4 +1,4 @@
-# Exercice 3 — Mise en page simple (2 colonnes)
+# **Exercice** Mise en page simple (2 colonnes)
 
 **Objectif :** réaliser une mise en page basique avec un header pleine largeur, une grille principale à 2 colonnes (nav + contenu), puis un footer pleine largeur. On reste dans les **bases de Grid**.
 

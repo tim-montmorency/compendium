@@ -1,4 +1,4 @@
-# Cours 6.2
+# **Cours 6.2** Le contrôle de la qualité
 <!-- ven. 2 oct. -->
 
 

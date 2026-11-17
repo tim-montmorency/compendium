@@ -1,4 +1,4 @@
-# Citer IA: journal.md
+# **Travail assisté par IA** Citer IA: journal.md
  
 Pour ce cours, cette citation se fait directement dans votre `JOURNAL.md`.
  

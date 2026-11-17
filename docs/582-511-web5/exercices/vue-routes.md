@@ -1,4 +1,4 @@
-# Exercice pratique avec *Vue Router*
+# **Exercice** Vue Router
 
 
 ## Aperçu du résultat

@@ -1,4 +1,4 @@
-# Cours 8.1
+# **Cours 8.1** Planifier le récit
 <!-- mer. 21 oct. -->
 
 ![](assets/cours08a-banniere.webp){.w-100}

@@ -1,4 +1,4 @@
-# :material-github:  GitHub Education, Copilot, VS Code
+# **Travail assisté par IA** :material-github:  GitHub Education, Copilot, VS Code
 
 ## 🚀 GitHub Education
 

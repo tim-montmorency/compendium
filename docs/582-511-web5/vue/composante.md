@@ -1,5 +1,5 @@
 
-# Composantes Vue
+# **Vue.js** Composantes Vue
 
 Les composantes sont une partie importante de Vue. Elles permettent de créer des sites complexes ou, même des applications web à l’aide de composantes autonomes pouvant être réutilisables.
 

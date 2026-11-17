@@ -1,4 +1,4 @@
-# :material-lightbulb-on-outline:  Le récit défilant : exemples et inspirations
+# **Récit défilant** :material-lightbulb-on-outline:  Exemples et inspirations
 
 <!-- MM : vérifier chaque lien avant le cours. Les sites anciens disparaissent ou cassent souvent. -->
 

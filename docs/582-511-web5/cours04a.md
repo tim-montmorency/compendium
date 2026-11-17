@@ -1,4 +1,4 @@
-# Cours 4.1
+# **Cours 4.1** La boucle IA avec Copilot
 <!-- merc. 16 sept. -->
 
 !!! danger "📱 Téléphones cellulaires en classe"

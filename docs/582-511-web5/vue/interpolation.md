@@ -1,4 +1,4 @@
-# Interpolation de données [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
+# **Vue.js** Interpolation de données [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
 
 
 <!--
@@ -43,7 +43,7 @@ const app = Vue.createApp({
 `data` est donc une fonction retournant un objet constitué dans ce cas-ci des propriétés: `firstName`, `lastName` et `picture`.
 
 
-## Interpolation des données {{ }}
+## Interpolation des données `{{ }}` { #interpolation }
 
 Une fois, les données définies, il est possible d'y faire référence à l'aide de moustaches `{{...}}`. Leurs contenus, incluant les moustaches elles-mêmes, seront remplacés par la donnée qui lui est associée. Qui plus est, si la valeur de cette donnée vient à changer, celle-ci se mettra automatiquement à jour dans le HTML.
 
@@ -87,7 +87,7 @@ Affichera en fait:
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
 
-## Attributs des balises `:v-bind`&nbsp;ou&nbsp;`:`
+## Attributs des balises `:v-bind`&nbsp;ou&nbsp;`:` { #v-bind }
 
 Les données peuvent aussi être insérées dynamiquement dans un attribut HTML (`class`, `src`, `alt`, `style`, etc.). Cependant, les moustaches ne sont pas fonctionnelles dans ce contexte ❌. Il faut donc plutôt utiliser une directive `v-bind` en début d'attribut afin que son contenu se popule avec une donnée présente dans l'objet data.
 
@@ -153,7 +153,7 @@ En JavaScript
 const app = Vue.createApp({
   data() {
     return{
-      monTitre: '<h2>Vue.js est formidable!</h2>'
+      myTitle: '<h2>Vue.js est formidable!</h2>'
     }
   }
 });
@@ -163,7 +163,7 @@ app.mount('#app');
 En HTML
 
 ```html title="En HTML"
-<div v-html="monTitre">
+<div v-html="myTitle">
     
 </div>
 ```

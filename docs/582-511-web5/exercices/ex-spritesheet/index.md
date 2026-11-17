@@ -1,4 +1,4 @@
-# :material-pencil-ruler:  Exercice : le monstre responsive
+# **Exercice** :material-pencil-ruler:  Le monstre responsive
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

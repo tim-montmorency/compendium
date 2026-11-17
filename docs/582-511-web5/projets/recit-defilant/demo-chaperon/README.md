@@ -15,18 +15,20 @@ Le site charge ses chapitres avec `fetch()` et ses scripts sont des **modules** 
 
 | Exigence | Où | Fichier |
 |---|---|---|
-| Chapitres chargés en **JSON** | Tout le récit | `data/chapitres.json`, `js/main.js` |
+| Chapitres chargés en **JSON** (*phase 2*) | Tout le récit | `data/data.json`, `js/main.js` |
 | **CSS au défilement** (`animation-timeline: view()`) | Le titre qui explose, chapitre 1 (parallaxe), chapitre 7 (les répliques grossissent) | `css/commun.css`, `css/chapitres/ch-01.css`, `ch-07.css` |
-| **IntersectionObserver** | Chapitre 2 (le panier), chapitre 5 (déclenchement de la météo), chapitre 8 (la page vire au rouge) | `js/outils.js`, `js/chapitres/ch-02.js`, `ch-05.js`, `ch-08.js` |
+| **IntersectionObserver** : un déclencheur | Chapitre 5 : lance le `fetch()` de la météo quand le chapitre approche. Aussi chapitre 2 (le panier) et chapitre 8 (la page vire au rouge) | `js/utils.js`, `js/chapitres/ch-02.js`, `ch-05.js`, `ch-08.js` |
 | **GSAP + ScrollTrigger** (section épinglée 1 sur 2) | Chapitre 3 : la forêt s'assombrit, les yeux s'allument | `js/chapitres/ch-03.js` |
-| **GSAP + DrawSVG** | Chapitre 4 : le loup se dessine trait par trait. Chapitre 5 : les deux chemins | `js/chapitres/ch-04.js`, `ch-05.js` |
+| **Extension GSAP : DrawSVG** | Chapitre 4 : le loup se dessine trait par trait. Chapitre 5 : les deux chemins | `js/chapitres/ch-04.js`, `ch-05.js` |
 | **GSAP + ScrollTrigger** (section épinglée 2 sur 2) | Chapitre 6 : la maison, puis on plonge dans la porte | `js/chapitres/ch-06.js` |
-| ***Fetch* externe** et dataviz | Chapitre 5 : la météo du jour (Open-Meteo, sans clé) | `js/chapitres/ch-05.js` |
-| **Composant Vue** (Options API, par CDN) | Barre de progression et navigateur de chapitres | `js/navigation.js`, `index.html` |
+| ***Fetch* externe** et dataviz | Chapitre 5 : la météo du jour (Open-Meteo, sans clé, CORS accepté), déclenchée par IntersectionObserver | `js/chapitres/ch-05.js` |
+| **Composant Vue 1** : le navigateur de chapitres (Options API, par CDN) | La liste à droite, le chapitre actif | `js/navigation.js`, zone `#navigation` |
+| **Composant Vue 2** : la barre de progression | La barre rouge, en haut | `js/progression.js`, zone `#barre-progression` |
+| `ScrollTrigger.refresh()` | Après les `animate()` et les composants : les repères sont recalculés | `js/main.js` |
 | **Média animable : calques** | Chapitre 1 : 3 plans de forêt | `assets/images/foret-*.svg` |
 | **Média animable : spritesheet** | Chapitre 3 : 8 images de marche | `assets/images/chaperon-marche.webp` |
 | **Média animable : SVG préparé** | Chapitre 4 (traits `.loup-trait`) et chapitre 6 (groupes `#porte`, `#lumiere`, `#fumee`) | `assets/images/loup.svg`, `assets/images/maison.svg` |
-| `prefers-reduced-motion` | Tout le récit reste lisible sans animation | `css/commun.css`, chaque `css/chapitres/ch-0X.css`, `js/outils.js` |
+| `prefers-reduced-motion` | Tout le récit reste lisible sans animation | `css/commun.css`, chaque `css/chapitres/ch-0X.css`, `js/utils.js` |
 | Responsive | Navigation masquée et maison empilée sous 700 px | `css/commun.css`, `css/chapitres/ch-06.css` |
 
 **DrawSVG est gratuit** depuis GSAP 3.13 (2025), comme tous les plugins de GSAP. On le charge par CDN, comme ScrollTrigger, puis on l'enregistre : `gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin)`. Il dessine le **contour** (*stroke*) d'un `path`, `line`, `polyline`, `polygon`, `rect` ou `circle` : vos traits doivent donc avoir un `stroke`, pas seulement un `fill`.
@@ -41,8 +43,12 @@ Le **repli Firefox** : si le navigateur ne supporte pas `animation-timeline`, le
 | Chapitres 3, 4, 5 et 8 | Personne B |
 | Média animable : calques (ch. 1) | Personne A |
 | Média animable : spritesheet (ch. 3) | Personne B |
-| Composant Vue | Personne A |
+| Composant Vue : navigateur de chapitres (`js/navigation.js`) | Personne A |
+| Composant Vue : barre de progression (`js/progression.js`) | Personne B |
+| Extension GSAP : DrawSVG, chapitres 4 et 5 | Personne B |
 | *Fetch* externe et dataviz | Personne B |
+| Chargement des chapitres (JSON) | Ensemble |
+| Structure commune (HTML, CSS de base, mise en page) | Ensemble |
 
 ## Structure
 
@@ -60,26 +66,27 @@ demo-chaperon/
 │       └── ch-08.css
 ├── js/
 │   ├── main.js              commun : charger le JSON, construire les sections
-│   ├── outils.js            commun : moinsDeMouvement, observerUneFois
-│   ├── navigation.js        commun : composant Vue
+│   ├── utils.js             commun : reducedMotion, observeOnce
+│   ├── navigation.js        composant Vue : navigateur (Personne A)
+│   ├── progression.js       composant Vue : barre (Personne B)
 │   └── chapitres/
 │       ├── ch-01.js         createMedia() et animate()
 │       ├── ...
 │       └── ch-08.js
-├── data/chapitres.json      commun
+├── data/data.json           commun
 └── assets/images/
 ```
 
 Chaque chapitre exporte deux fonctions :
 
-- `createMedia(chapitre)` : retourne le HTML du média du chapitre;
-- `animate(section, chapitre)` : anime la `<section>` du chapitre, une fois tout le HTML dans la page.
+- `createMedia(chapter)` : retourne le HTML du chapitre sous le `<h2>` : **son texte** (un `<p>` par paragraphe de `chapter.texte`) **et son média**;
+- `animate(section, chapter)` : anime la `<section>` du chapitre, une fois tout le HTML dans la page.
 
-`main.js` importe les 8 modules, construit chaque section (le texte, puis `createMedia()`), puis appelle `animate()` pour chaque chapitre. Les chapitres 1 et 7 n'ont pas d'animation en JavaScript (CSS seulement) : leur `animate()` est vide, mais elle existe.
+`main.js` importe les 8 modules, construit chaque section (le numéro et le `<h2>`, puis ce que retourne `createMedia()`), appelle `animate()` pour chaque chapitre, branche les deux composants Vue (`createNavigation(chapters)`, `createProgressBar()`), puis appelle `ScrollTrigger.refresh()`. Les chapitres 1 et 7 n'ont pas d'animation en JavaScript (CSS seulement) : leur `animate()` est vide, mais elle existe.
 
 ## Le modèle de données
 
-Dans `data/chapitres.json`, chaque chapitre a les mêmes clés communes (`id`, `numero`, `titre`, `responsable`, `texte`) et un objet **`contenu`**, libre : les calques du chapitre 1, les objets du panier du chapitre 2, le lieu de la météo du chapitre 5, les répliques du chapitre 7. Seul le module du chapitre lit son `contenu`.
+Dans `data/data.json`, chaque chapitre a les mêmes clés communes (`id`, `numero`, `titre`, `responsable`, `texte`) et un objet **`contenu`**, libre : les calques du chapitre 1, les objets du panier du chapitre 2, le lieu de la météo du chapitre 5, les répliques du chapitre 7. Seul le module du chapitre lit son `contenu`.
 
 ## Crédits des médias
 

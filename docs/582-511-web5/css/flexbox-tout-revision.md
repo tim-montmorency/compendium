@@ -2,7 +2,7 @@
 canonical: https://tim-montmorency.com/compendium/582-211-web2/css/flexbox-tout.html
 ---
 
-# Flexbox
+# **CSS** Flexbox
 
 ## C'est quoi, Flexbox ?
 

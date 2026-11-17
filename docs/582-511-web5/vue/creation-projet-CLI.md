@@ -2,7 +2,7 @@
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote
 -->
 
-# Création d’un projet Vue incluant déjà Vite [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
+# **Vue.js** Création d’un projet Vue incluant déjà Vite [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
 
 `npm create vue@latest` inclut Vite. Cette commande utilise `create-vue` , qui est le moyen officiellement recommandé pour échafauder un nouveau projet *Vue* et utilise *Vite* comme outil de construction par défaut. 
 

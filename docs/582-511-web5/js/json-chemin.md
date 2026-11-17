@@ -1,4 +1,4 @@
-# :material-code-json:  Trouver une donnée dans un JSON
+# **JavaScript** :material-code-json:  Trouver une donnée dans un JSON
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

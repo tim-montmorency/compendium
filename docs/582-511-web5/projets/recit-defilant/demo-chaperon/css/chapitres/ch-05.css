@@ -1,0 +1,45 @@
+/* =========================================================
+   Chapitre 5 : deux chemins (DrawSVG) et la dataviz (fetch externe)
+   Responsable : Personne B
+   Toutes les règles ciblent la section #deux-chemins.
+   ========================================================= */
+
+#deux-chemins .chemins {
+  max-width: 52rem;
+  margin-top: 3rem;
+}
+
+#deux-chemins .chemins svg {
+  width: 100%;
+  height: auto;
+}
+
+#deux-chemins .meteo {
+  margin-top: 3rem;
+  max-width: 48rem;
+}
+
+#deux-chemins .meteo__phrase {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#deux-chemins .meteo__phrase strong {
+  color: var(--rouge);
+  font-weight: 700;
+}
+
+#deux-chemins .meteo__graphique {
+  width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+#deux-chemins .meteo__source {
+  font-size: 0.8rem;
+  color: var(--gris);
+}
+
+#deux-chemins .meteo__source a {
+  color: inherit;
+}

@@ -1,4 +1,4 @@
-# :material-pencil-ruler:  Exercice : la magie au défilement
+# **Exercice** :material-pencil-ruler:  La magie au défilement
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">

@@ -1,4 +1,4 @@
-# :material-format-letter-case: GSAP : SplitText
+# **GSAP** :material-format-letter-case: SplitText
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
@@ -46,12 +46,12 @@ Comme ScrollTrigger, l'extension est ensuite disponible dans tous vos modules de
 
 ```js
 // Découper le titre en mots et en lettres
-const titre = SplitText.create(".titre", {
+const title = SplitText.create(".titre", {
   type: "words, chars",
 });
 
 // Animer les lettres, une après l'autre
-gsap.from(titre.chars, {
+gsap.from(title.chars, {
   y: 40,
   opacity: 0,
   stagger: 0.04,   // 0,04 s entre chaque lettre
@@ -103,11 +103,11 @@ export function animate(section, chapter) {
 
   mm.add("(prefers-reduced-motion: no-preference)", () => {
     const h2 = section.querySelector("h2");
-    const titre = SplitText.create(h2, {
+    const title = SplitText.create(h2, {
       type: "words, chars",
     });
 
-    gsap.from(titre.chars, {
+    gsap.from(title.chars, {
       y: 40,
       opacity: 0,
       stagger: 0.03,

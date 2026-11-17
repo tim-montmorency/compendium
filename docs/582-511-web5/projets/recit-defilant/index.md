@@ -1,4 +1,4 @@
-# :material-book-open-page-variant-outline:  Le récit défilant : consignes complètes
+# **Projet intégrateur** :material-book-open-page-variant-outline:  Le récit défilant *Consignes complètes*
 
 ![](assets/recit-defilant-banniere.webp){.w-100}
 
@@ -55,15 +55,20 @@ Un récit sur un thème de votre choix, par exemple :
 | Élément | Exigence |
 |---|---|
 | **Chapitres** | 6 à 8 chapitres, environ 100 à 250 mots chacun. Au moins 3 chapitres par personne. |
-| **Données** | Les chapitres et leurs médias sont chargés avec `fetch()` depuis un fichier JSON. On y arrive [en deux phases](arborescence-recit-defilant.md#deux-phases) : d'abord l'intégration statique (les chapitres en HTML, du 6 au ~~13~~ 18 nov.), puis l'intégration dynamique (les données, du 18 au 27 nov.), exigée à la bêta. |
+| **Données** | Les chapitres et leurs médias sont chargés avec `fetch()` depuis un fichier JSON. On y arrive [en deux phases](arborescence-recit-defilant.md#deux-phases) : d'abord l'intégration statique (les chapitres en HTML, du 6 au ~~13~~ 18 nov.), puis l'intégration dynamique (les données, du 18 nov. à la bêta du 2 déc.), exigée à la bêta. |
 | **Dataviz** | Au moins un `fetch()` vers une **API** (Application Programming Interface) **externe gratuite**, pour un moment de visualisation de données ou un élément « vivant ». Au cahier de charges, vous décrivez seulement l'idée et le genre de données : l'API se choisit au cours du ~~ven. 13 nov.~~ mer. 18 nov. ([Choisir et tester votre API](dataviz.md#api)). Le `fetch()` est lancé par **IntersectionObserver**, quand le visiteur approche du moment dataviz ([déclencher une fois](../../js/intersection-observer.md)). Elle doit fonctionner à la bêta. |
 | **Animations** | Au moins une animation de chaque technique : **CSS au défilement** (`animation-timeline`) et **GSAP + ScrollTrigger**. |
 | **Extension GSAP** | Au moins **un effet** fait avec une [extension de GSAP](../../js/gsap-bases.md#extensions), au moins une fois dans le récit (par équipe) : SplitText, ScrambleText, TextPlugin, MotionPath, DrawSVG, MorphSVG, Flip ou ScrollTo. ScrollTrigger ne compte pas : il est déjà exigé. La personne qui l'intègre est inscrite dans la [matrice de responsabilités](cahier-de-charges.md#le-gabarit) du cahier de charges. |
-| **Vue.js** | Deux composants imposés, **une personne par composant** : le **navigateur de chapitres** et la **barre de progression**. Vue est chargé par CDN, sans *build*. Voir [Les composants Vue](composant-vue.md). |
+| **Vue.js** | Deux composants imposés, **une personne par composant** : le **navigateur de chapitres** et la **barre de progression**. Une équipe de 3 ajoute un 3e composant : le [panneau de l'équipe](composant-vue.md#equipe). Vue est chargé par CDN, sans *build*. Voir [Les composants Vue](composant-vue.md). |
 | **Média animable** | Un par personne, préparé pour l'animation (voir plus bas). |
 | **Responsive** | Le récit fonctionne sur desktop et sur mobile. Les animations peuvent y être simplifiées. |
 | **Accessibilité** | Le récit reste lisible **sans animation**, avec `prefers-reduced-motion`. |
 | **Déploiement** | En ligne sur GitHub Pages. |
+
+!!! warning "*Phase 2*{ .w5-phase .w5-phase-2 } et ScrollTrigger : `ScrollTrigger.refresh()` obligatoire"
+    Vos chapitres arrivent maintenant par `fetch()`, après le chargement de la page. ScrollTrigger, lui, a calculé ses repères avant : vos animations risquent de partir au mauvais endroit. À la fin de `init()`, après les `animate()`, ajoutez **`ScrollTrigger.refresh();`**, et donnez un `width` et un `height` à vos `<img>`. [Pourquoi, et comment le vérifier](../../js/gsap-scrolltrigger.md#refresh).
+
+[:material-sitemap-outline: Le récit en un coup d'œil : les fichiers et comment ils se parlent](schema-du-recit.md){ .md-button }
 
 ### La créativité compte { #creativite }
 
@@ -135,7 +140,7 @@ Dès le cahier de charges, une **matrice de responsabilités** dit qui possède 
 - **Un seul dépôt par équipe**, privé au départ. Invitez votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
 - Des *commits* réguliers et bien nommés, faits **par la personne qui a écrit le code** : c'est la trace de votre travail.
 - Une **branche par personne**, fusionnée dans `main` par *pull request* (voir [Git en équipe](git-en-equipe.md)).
-- **Un fichier CSS et un fichier JS par chapitre**, à la personne responsable (voir [L'arborescence du dépôt](arborescence-recit-defilant.md)).
+- **Un fichier CSS et un fichier JS par chapitre**, à la personne responsable (voir [Arborescence et code de départ](arborescence-recit-defilant.md)).
 
 ### Journal de bord individuel
 
@@ -218,18 +223,18 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 - **Une étape sautée est à recommencer.** Si je sens qu'une partie a été générée sans passer par les étapes (planifier, coder par incréments, comprendre), je vous demanderai de la refaire. Pas de passe-droit.
 
 !!! danger "Le code que vous ne comprenez pas se voit à la défense"
-    Le 9 décembre, en privé, vous devrez montrer, expliquer et modifier en direct le code de **vos** zones, avec des demandes pigées au hasard. Du code produit par l'IA dans votre projet : plagiat.
+    Le ven. 11 décembre (cours 15.2), en privé, vous devrez montrer, expliquer et modifier en direct le code de **vos** zones, avec des demandes pigées au hasard. Du code produit par l'IA dans votre projet : plagiat.
 
 ## Évaluation : 60&nbsp;% de la note finale
 
 | Volet | % | Type | Quand |
 |---|---|---|---|
-| Planification : cahier de charges et storyboard (version finale) | 5 | équipe | ven. 11 déc. |
+| Planification : cahier de charges et storyboard (version finale) | 5 | équipe | jeu. 17 déc. |
 | Respect des échéances (toutes les remises) | 5 | équipe | à chaque remise |
-| Produit final et présentation | 15 | équipe | ven. 11 déc. |
-| Réalisation de vos zones (chapitres, média animable, code) | 15 | **individuel** | ven. 11 déc. |
-| Contrôle de la qualité croisé (tester une autre équipe, corriger vos écarts) | 10 | **individuel** | 27 nov. au 4 déc. |
-| Défense individuelle | 10 | **individuel** | mer. 9 déc. |
+| Produit final et présentation | 15 | équipe | jeu. 17 déc. |
+| Réalisation de vos zones (chapitres, média animable, code) | 15 | **individuel** | jeu. 17 déc. |
+| Contrôle de la qualité croisé (tester une autre équipe, corriger vos écarts) | 10 | **individuel** | 2 au 9 déc. |
+| Défense individuelle | 10 | **individuel** | ven. 11 déc. |
 | **Total** | **60** | **25 équipe, 35 individuel** | |
 
 Le cahier de charges et le storyboard sont **notés dans leur version finale**, à la fin du projet, comme au portfolio. D'ici là, ils évoluent avec mes rétroactions.
@@ -266,14 +271,15 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
 | **ven. 6 nov.** | **Point de contrôle** (formatif) : la structure, les chapitres et une première animation GSAP. Construction des chapitres. |
 | mer. 11 nov. | Initiation à Vue.js : les principes, et deux exercices. |
-| ~~ven. 13 nov.~~ **mer. 18 nov.** | Reporté (levée de cours le 13) : [les composants Vue](composant-vue.md), construits en direct. **[Prototype](#prototype)** (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée. Puis : le *fetch* externe, [choisir et tester votre API](dataviz.md#api). |
-| ven. 20 nov. | **Atelier** (formatif) : chaque personne intègre **son** [composant Vue](composant-vue.md) dans le projet (*pull request* fusionnée). L'API est [choisie et testée](dataviz.md#api) : l'appel fonctionne, la donnée s'affiche dans la console. Début de la *phase 2*{ .w5-phase .w5-phase-2 }, ensemble. |
-| mer. 25 nov. | Atelier : *phase 2*{ .w5-phase .w5-phase-2 } et dataviz |
-| ~~ven. 20 nov.~~ **ven. 27 nov.** | **Bêta** : un récit **fonctionnel**, pas fini. [*Phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, **chapitres chargés depuis `data.json`**. Médias finaux intégrés. Les deux composants Vue en place. Dataviz **branchée** : les vraies données de l'API s'affichent, sans animation pour l'instant. Au minimum, les animations du prototype (une par chapitre). Prête pour la QA. |
-| ven. 27 nov. au mer. 2 déc. | **Contrôle de la qualité croisé** (issues GitHub) |
-| mer. 2 et ven. 4 déc. | Correctifs. **Finition** : l'animation de la dataviz, toutes vos autres animations. Déploiement final, préparation de la défense. |
-| **mer. 9 déc.** | **Défenses individuelles**, en privé |
-| **ven. 11 déc.** | **Remise finale et présentations d'équipe** devant la classe |
+| ~~ven. 13 nov.~~ **mer. 18 nov.** | Cours 12.1 (reporté : levée de cours le 13) : [les composants Vue](composant-vue.md), construits en direct. **[Prototype](#prototype)** (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée. **Atelier** : chaque personne intègre **son** composant Vue dans le projet. |
+| ven. 20 nov. | Cours 12.2 : API, JSON et *fetch*. Le *fetch* externe : [choisir et tester votre API](dataviz.md#api). Atelier : l'API dans votre bac à sable, et la fin de l'intégration de votre composant Vue. |
+| **mer. 25 nov.** | Cours 13.1 : **Mini-jalon** (formatif) : les composants Vue intégrés (*pull request* fusionnée), l'API testée (la donnée s'affiche dans la console). Atelier : la *phase 2*{ .w5-phase .w5-phase-2 }, [ensemble](json-chapitres.md#ensemble). |
+| ven. 27 nov. | Cours 13.2 : atelier, la *phase 2*{ .w5-phase .w5-phase-2 } [chacun ses chapitres](json-chapitres.md#chacun-ses-chapitres), la dataviz branchée. |
+| ~~ven. 20 nov.~~ **mer. 2 déc.** | Cours 14.1 : **Bêta** : un récit **fonctionnel**, pas fini. [*Phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, **chapitres chargés depuis `data.json`**. Médias finaux intégrés. Les deux composants Vue en place. Dataviz **branchée** : les vraies données de l'API s'affichent, sans animation pour l'instant. Au minimum, les animations du prototype (une par chapitre). Prête pour la QA. |
+| mer. 2 au mer. 9 déc. | Cours 14.1 à 15.1 : **Contrôle de la qualité croisé** (issues GitHub) : tests et rapport (ven. 4 déc.), puis correctifs. |
+| mer. 9 déc. | Cours 15.1 : correctifs. **Finition** : l'animation de la dataviz, toutes vos autres animations. Déploiement final, préparation de la défense. |
+| **ven. 11 déc.** | Cours 15.2 : **Défenses individuelles**, en privé. Correctifs. |
+| **jeu. 17 déc.** | Cours 15.3 (reprise du cours du 13 nov.) : **Remise finale et présentations d'équipe** devant la classe |
 
 ## Remise 1 : le cahier de charges (ven. 23 oct., 23 h 59) { #remise-1 }
 
@@ -307,7 +313,7 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
 
 **En équipe**
 
-- [ ] L'**arborescence** est en place, comme dans [L'arborescence du dépôt](arborescence-recit-defilant.md) : les dossiers, `index.html`, `style.css` et ses `@import`, `main.js` et ses `import`, **un fichier CSS et un fichier JS par chapitre** (même presque vides).
+- [ ] L'**arborescence** est en place, comme dans [Arborescence et code de départ](arborescence-recit-defilant.md) : les dossiers, `index.html`, `style.css` et ses `@import`, `main.js` et ses `import`, **un fichier CSS et un fichier JS par chapitre** (même presque vides).
 - [ ] Chaque chapitre a sa **`<section class="chapitre">` avec son `id`** (unique, en minuscules, sans espace ni accent). Pour ce point de contrôle, les sections peuvent être **écrites en HTML** ([la *phase 1*{ .w5-phase .w5-phase-1 }, intégration statique](arborescence-recit-defilant.md#html-phase-1)) : pas besoin du chargement JSON. Vérifiez dans l'inspecteur.
 - [ ] **GSAP et ScrollTrigger** sont chargés dans `index.html`, avant `main.js`, et `gsap.registerPlugin(ScrollTrigger)` est appelé **une fois**, dans `main.js`.
 
@@ -329,7 +335,7 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
     **Chaque média** ajouté au dépôt a sa ligne dans le tableau des crédits du `README.md` : média, chapitre, source, auteur, licence, modifié ou non. Ça vaut aussi pour les images de banques libres et les images générées par IA (l'outil est la source). Un média sans crédit compte comme manquant. [Voir le modèle de tableau](#les-medias-et-les-credits).
 
 !!! tip "Où trouver l'aide"
-    - La structure : [L'arborescence du dépôt](arborescence-recit-defilant.md), section « Créer la structure, au début ».
+    - La structure : [Arborescence et code de départ](arborescence-recit-defilant.md), section « Créer la structure, au début ».
     - Les sections avec leur `id`, en HTML : [*Phase 1*{ .w5-phase .w5-phase-1 } : vos chapitres écrits en HTML](arborescence-recit-defilant.md#html-phase-1), et [`main.js` à la *phase 1*{ .w5-phase .w5-phase-1 }](arborescence-recit-defilant.md#main-js-phase-1).
     - L'animation test : [GSAP : tweens et timelines](../../js/gsap-bases.md). Pour trouver vos éléments dans votre chapitre, voyez « D'où vient `section`? » dans [Dans votre récit : un module de chapitre](../../js/gsap-scrolltrigger.md#dans-votre-recit).
     - La *pull request* : [Git en équipe](git-en-equipe.md).
@@ -340,7 +346,7 @@ On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur la
 !!! warning "Reporté : ~~ven. 13 nov.~~ mer. 18 nov."
     En raison de la levée de cours du ven. 13 nov., le cours et le prototype prévus ce jour-là ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus élevées.
 
-    La **bêta est aussi reportée**, au **ven. 27 nov.**
+    Le cours du 13 nov. sera repris le **jeu. 17 déc.** : tout le calendrier qui suit le prototype est décalé d'un cours. La **bêta** a lieu le **mer. 2 déc.**, la **défense** le **ven. 11 déc.** et la **remise finale** le **jeu. 17 déc.** Voir le [calendrier](#calendrier).
 
 !!! danger "Remise formative : l'échéance compte"
     Rien à déposer : vous me **montrez** votre récit pendant le cours. Comme les autres remises, le prototype est noté selon les [4 niveaux](#echeances).
@@ -362,4 +368,4 @@ Ce n'est pas un récit fini : c'est un récit **qui se tient du début à la fin
 - [ ] Son travail **fusionné dans `main`** par *pull request*.
 - [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 3**, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure).
 
-Les composants Vue ne sont pas exigés au prototype : chaque personne intègre le sien au cours du ven. 20 nov., en atelier.
+Les composants Vue ne sont pas exigés au prototype : chaque personne intègre le sien pendant le même cours, en atelier, après la démo. Ils sont vérifiés au mini-jalon du mer. 25 nov.

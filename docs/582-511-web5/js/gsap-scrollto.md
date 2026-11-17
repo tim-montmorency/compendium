@@ -1,4 +1,4 @@
-# :material-arrow-down-circle-outline: GSAP : ScrollTo
+# **GSAP** :material-arrow-down-circle-outline: ScrollTo
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
@@ -85,13 +85,13 @@ Chaque bouton du sommaire indique son chapitre dans un attribut `data-cible` :
 ```
 
 ```js
-const boutons = document.querySelectorAll(".sommaire button");
+const buttons = document.querySelectorAll(".sommaire button");
 
-boutons.forEach((bouton) => {
-  bouton.addEventListener("click", () => {
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
     gsap.to(window, {
       duration: 1,
-      scrollTo: bouton.dataset.cible,
+      scrollTo: button.dataset.cible,
       ease: "power2.inOut",
     });
   });
@@ -102,13 +102,13 @@ boutons.forEach((bouton) => {
     Un long défilement automatique peut donner le vertige. Avec le mouvement réduit, allez directement au chapitre : `duration: 0`.
 
     ```js
-    const reduit = window.matchMedia(
+    const reduced = window.matchMedia(
       "(prefers-reduced-motion: reduce)"
     ).matches;
 
     gsap.to(window, {
-      duration: reduit ? 0 : 1,
-      scrollTo: bouton.dataset.cible,
+      duration: reduced ? 0 : 1,
+      scrollTo: button.dataset.cible,
     });
     ```
 

@@ -1,4 +1,4 @@
-# :simple-vuedotjs:  Exercice : Collection de films
+# **Exercice** :simple-vuedotjs:  Collection de films
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">

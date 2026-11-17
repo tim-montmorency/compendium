@@ -1,4 +1,4 @@
-# Exercice 2 — Carte de bingo (5×5)
+# **Exercice** Carte de bingo (5×5)
 
 **Objectif :** créer une grille 5 colonnes × 5 rangées avec un `gap`. La cellule centrale doit afficher **★** (déjà placée dans le HTML).
 

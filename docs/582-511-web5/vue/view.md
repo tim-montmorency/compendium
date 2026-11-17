@@ -1,4 +1,4 @@
-# View dans une application monopage (SPA)
+# **Vue.js** View dans une application monopage (SPA)
 
 Dans les applications monopage (SPA: Single Page Application), les composants de type `views` se différencient des composants généraux puisqu'ils représentent une page accessible via un URL comme par exemple pour *mémoires interactives*: `/rooms/memory/65/` ou pour *trace ton chemin*: `/story/chapter/4b/`.
 

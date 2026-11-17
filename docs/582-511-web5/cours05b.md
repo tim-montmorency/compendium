@@ -1,4 +1,4 @@
-# Cours 5.2
+# **Cours 5.2** Du JSON à l'affichage
 <!-- ven. 25 sept. -->
 
 ## Aujourd'hui

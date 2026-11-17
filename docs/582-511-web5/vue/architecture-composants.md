@@ -1,4 +1,4 @@
-# Arborescence (architecture) des composants
+# **Vue.js** Arborescence (architecture) des composants
 
 ## Table des matière de la page
 

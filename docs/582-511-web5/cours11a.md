@@ -1,4 +1,4 @@
-# Cours 11.1
+# **Cours 11.1** Initiation à Vue.js
 <!-- mer. 11 nov. -->
 
 ![](assets/cours11a-banniere.webp){.w-100}
@@ -35,7 +35,7 @@ Le plus gros du cours : animer vos chapitres pour le prototype.
 
 ---
 
-Une démo de 60 secondes de votre récit, sur votre poste. Rien à déposer. La bêta est aussi reportée, au ven. 27 nov.
+Une démo de 60 secondes de votre récit, sur votre poste. Rien à déposer. La bêta est aussi reportée, au mer. 2 déc.
 
 [:octicons-arrow-right-24: Ce que je dois voir](projets/recit-defilant/index.md#prototype){ .stretched-link }
 </div>
@@ -110,7 +110,7 @@ Ensuite, **vos chapitres** : c'est le plus important aujourd'hui. Pour pratiquer
 
 [:material-file-tree: *Phase 1*{ .w5-phase .w5-phase-1 } : vos chapitres en HTML](projets/recit-defilant/arborescence-recit-defilant.md#html-phase-1){ .md-button }
 
-**Les composants Vue**, on les construit ensemble mercredi prochain, en direct : chaque personne intégrera le sien ensuite, en atelier, le ven. 20 nov.
+**Les composants Vue**, on les construit ensemble mercredi prochain, en direct : chaque personne intégrera le sien dans votre projet, en atelier, pendant le même cours.
 
 ## Devoirs
 
@@ -121,7 +121,7 @@ Ensuite, **vos chapitres** : c'est le plus important aujourd'hui. Pour pratiquer
 
 ### D'ici le ~~ven. 13 nov.~~ mer. 18 nov. : le prototype (formatif), en *phase 1*{ .w5-phase .w5-phase-1 }
 
-Reporté au mer. 18 nov. (levée de cours le ven. 13). La **bêta est aussi reportée**, au **ven. 27 nov.**
+Reporté au mer. 18 nov. (levée de cours le ven. 13). La **bêta est aussi reportée**, au **mer. 2 déc.**
 
 Rien à déposer : une **démo de 60 secondes** de votre récit qui défile, sur votre poste, pendant le cours.
 

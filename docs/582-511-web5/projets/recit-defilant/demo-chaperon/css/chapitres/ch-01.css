@@ -1,0 +1,68 @@
+/* =========================================================
+   Chapitre 1 : parallaxe en calques (CSS au défilement)
+   Responsable : Personne A
+   Toutes les règles ciblent la section #il-etait-une-fois.
+   ========================================================= */
+
+#il-etait-une-fois .parallaxe {
+  position: relative;
+  height: 90vh;
+  margin-top: 4rem;
+  /* clip, pas hidden : overflow: hidden crée un conteneur de défilement,
+     et view() suivrait alors ce conteneur (qui ne défile pas) au lieu de la page */
+  overflow: clip;
+  /* La boîte donne son nom à sa ligne du temps : les 3 calques la partagent */
+  view-timeline-name: --foret;
+}
+
+#il-etait-une-fois .calque {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+/* Animation pilotée par le défilement : seulement si le navigateur la supporte */
+@supports (animation-timeline: view()) {
+  #il-etait-une-fois .calque {
+    animation: entrer-foret linear both;
+    animation-timeline: --foret;              /* la ligne du temps de la boîte .parallaxe */
+    animation-range: entry 40% exit 80%;      /* dès que la boîte est à moitié entrée, jusqu'à sa sortie par le haut */
+    transform-origin: center bottom;
+  }
+  /* Le fond descend (il semble plus lent que la page), l'avant-plan monte et grossit (plus rapide) :
+     ces écarts très marqués donnent la profondeur, et on a l'impression d'entrer dans la forêt */
+  #il-etait-une-fois .calque--lente { --deplacement: 30%;  --zoom: 1.1; }
+  #il-etait-une-fois .calque--moyenne { --deplacement: 0%;   --zoom: 1.35; }
+  #il-etait-une-fois .calque--rapide { --deplacement: -15%; --zoom: 1.8; }
+}
+
+/* L'avant-plan monte plus vite que la page : son image (foret-avant-sol.svg)
+   est plus haute que le cadre (viewBox 1600 x 1500 au lieu de 900), avec
+   un sol qui dépasse sous le bas du cadre. Quand le calque monte, c'est
+   ce sol qui apparaît, jamais le bas coupé de l'image. */
+#il-etait-une-fois .calque--rapide {
+  bottom: auto;
+  height: calc(100% * 1500 / 900);   /* 900 visibles + 600 de sol caché */
+  object-position: top;
+}
+
+@supports (animation-timeline: view()) {
+  #il-etait-une-fois .calque--rapide {
+    /* le pivot reste au bas du cadre (900 / 1500 = 60 %) */
+    transform-origin: center 60%;
+  }
+}
+
+@keyframes entrer-foret {
+  from { transform: translateY(0) scale(1); }
+  to   { transform: translateY(var(--deplacement)) scale(var(--zoom)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #il-etait-une-fois .calque {
+    animation: none;
+  }
+}

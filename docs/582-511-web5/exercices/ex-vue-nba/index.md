@@ -1,4 +1,4 @@
-# :simple-vuedotjs:  Exercice : Tableau NBA
+# **Exercice** :simple-vuedotjs:  Tableau NBA
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">

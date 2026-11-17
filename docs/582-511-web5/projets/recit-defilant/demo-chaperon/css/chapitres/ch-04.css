@@ -1,0 +1,20 @@
+/* =========================================================
+   Chapitre 4 : le loup (SVG et DrawSVG)
+   Responsable : Personne B
+   Toutes les règles ciblent la section #la-rencontre.
+   ========================================================= */
+
+#la-rencontre .loup {
+  max-width: 28rem;
+  margin: 4rem auto 0;
+}
+
+#la-rencontre .loup svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+#la-rencontre .loup-oeil {
+  filter: drop-shadow(0 0 10px var(--jaune));
+}

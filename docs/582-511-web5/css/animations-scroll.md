@@ -1,4 +1,4 @@
-# :material-gesture-swipe-vertical:  Animations pilotées par le défilement (CSS)
+# **CSS** :material-gesture-swipe-vertical:  Animations pilotées par le défilement (CSS)
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

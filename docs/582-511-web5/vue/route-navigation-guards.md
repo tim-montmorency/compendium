@@ -1,5 +1,5 @@
 
-# 🛡️ Protection de routes (navigation guards)
+# **Vue.js** 🛡️ Protection de routes (navigation guards)
 
 ## Cas d'usage
 

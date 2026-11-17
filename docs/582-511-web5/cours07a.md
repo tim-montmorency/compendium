@@ -1,4 +1,4 @@
-# Cours 7.1
+# **Cours 7.1** Finaliser le portfolio
 <!-- mer. 7 oct. -->
 
 ![](assets/cours07a-banniere.webp){.w-100}

@@ -1,4 +1,4 @@
-# Déploiement Vite sur GitHub Pages
+# **Vue.js** Déploiement Vite sur GitHub Pages
 
 
 ## ÉTAPE 1 : Configurer `vite.config.js`

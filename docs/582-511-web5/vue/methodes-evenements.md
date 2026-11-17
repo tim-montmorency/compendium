@@ -1,4 +1,4 @@
-# Méthodes et événements
+# **Vue.js** Méthodes et événements
 
 <!--
  Considérer intégrer des templates genre: https://www.landingfolio.com/library/all/vue pour exercices Vue, peiut-être un TP qui se build à mesure qu'ils apprenent un nouveau concept...
@@ -61,7 +61,7 @@ deviendrait, cela, avec `{{ showActor() }}` :
 </p>
 
 
-### Appeler une méthode avec `v-on` ou `@`
+### Appeler une méthode avec `v-on` ou `@` { #v-on }
 
 Il est plus commmun d'appeler une méthode sur un événement, par exemple sur un clic d'un bouton.
 
@@ -94,6 +94,19 @@ Salut {{ firstName }}
 <a href="https://fr.vuejs.org/guide/essentials/event-handling" class="md-button "><img src="./assets/logo-vue.svg" style="width: 15px; height: auto;">&nbsp;En savoir plus sur <em>Gestion d'événement - Event Handling</em></a>
 <br>
 
+
+### Les modificateurs : `.prevent` { #prevent }
+
+Un **modificateur** s'ajoute au nom de l'événement, après un point. Le plus utile : `.prevent`, l'équivalent de `event.preventDefault()`. Il empêche le comportement habituel de la balise, comme l'envoi d'un formulaire ou le saut d'un lien.
+
+```html
+<form @submit.prevent="search()">
+  <input>
+  <button>Rechercher</button>
+</form>
+```
+
+Sans `.prevent`, le formulaire rechargerait la page. Avec lui, seule la méthode `search()` s'exécute.
 
 ## Méthode dynamisée avec des paramètres
 

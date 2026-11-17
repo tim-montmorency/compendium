@@ -1,4 +1,4 @@
-# Propriété calculée
+# **Vue.js** Propriété calculée
 
 ## Qu'est-ce que c'est
 

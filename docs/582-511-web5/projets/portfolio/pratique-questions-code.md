@@ -1,4 +1,4 @@
-# :material-dice-multiple:  Pratique : « Mon code, je le comprends et je l'assume »
+# **Portfolio** :material-dice-multiple:  Pratique : « Mon code, je le comprends et je l'assume »
 
 En duo, chacun son tour : l'un **pige** et joue le jury, l'autre **répond** sur son propre portfolio, dans VS Code, **Copilot fermé**. Puis on inverse, et on recommence avec une nouvelle pige.
 

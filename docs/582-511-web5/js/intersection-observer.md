@@ -1,4 +1,4 @@
-# :material-eye-outline:  Intersection Observer: déclencher 1 fois
+# **JavaScript** :material-eye-outline:  Intersection Observer: déclencher 1 fois
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
@@ -54,33 +54,33 @@ Les morceaux :
 
 ## Dans votre récit
 
-Dans la démo du Petit Chaperon rouge, le fichier commun `js/outils.js` contient une petite fonction réutilisable, et le chapitre 5 s'en sert pour charger la météo seulement quand le chapitre approche :
+Dans la démo du Petit Chaperon rouge, le fichier commun `js/utils.js` contient une petite fonction réutilisable, et le chapitre 5 s'en sert pour charger la météo seulement quand le chapitre approche :
 
 ```js
-// js/outils.js
-export function observerUneFois(element, action, marge = "0px") {
+// js/utils.js
+export function observeOnce(element, callback, margin = "0px") {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
-      action(entry.target);
+      callback(entry.target);
       observer.unobserve(entry.target);
     });
-  }, { rootMargin: marge });
+  }, { rootMargin: margin });
   observer.observe(element);
 }
 ```
 
 ```js
 // js/chapitres/ch-05.js
-import { observerUneFois } from "../outils.js";
+import { observeOnce } from "../utils.js";
 
-export function animate(section, chapitre) {
-  const meteo = section.querySelector(".meteo");
-  const lieu = chapitre.contenu.lieu;
+export function animate(section, chapter) {
+  const weather = section.querySelector(".meteo");
+  const place = chapter.contenu.lieu;
   // Le fetch part une demi-hauteur d'écran AVANT le chapitre
-  observerUneFois(
-    meteo,
-    (el) => afficherMeteo(el, lieu),
+  observeOnce(
+    weather,
+    (el) => showWeather(el, place),
     "0px 0px 50% 0px"
   );
 }

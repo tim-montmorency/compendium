@@ -1,4 +1,4 @@
-# Cours 5.1
+# **Cours 5.1** La boucle IA, la suite
 <!-- mer. 23 sept. -->
 
 ## Aujourd'hui

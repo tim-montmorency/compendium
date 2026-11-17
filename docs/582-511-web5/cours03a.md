@@ -1,4 +1,4 @@
-# Cours 3.1
+# **Cours 3.1** Le design assisté par IA
 
 <!--https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 ✏️note, 📄abstract, ℹ️info, 🔥tip, ✔️success, ❔question, ⚠️warning, ❌failure, ⚡danger, 🐞bug, 🧪example, ❜❜quote

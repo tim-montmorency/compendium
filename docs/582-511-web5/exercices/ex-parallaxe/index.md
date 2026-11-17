@@ -1,4 +1,4 @@
-# :material-pencil-ruler:  Exercice : la parallaxe en calques
+# **Exercice** :material-pencil-ruler:  La parallaxe en calques
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

@@ -1,7 +1,7 @@
 
-# :class dynamique
+# **Vue.js** :class dynamique
 
-## Classes CSS dynamiques :class
+## Classes CSS dynamiques :class { #class }
 
 Il est fréquent qu'une classe css doit-être ajoutée ou retirée à un élément HTML afin de changer son apparence pour refléter une action commise par un usager.
 

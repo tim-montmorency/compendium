@@ -1,4 +1,4 @@
-# :simple-vuedotjs:  Exercice : Cheese Kanye says
+# **Exercice** :simple-vuedotjs:  Cheese Kanye says
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">

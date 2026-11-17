@@ -1,4 +1,4 @@
-# Pinia en bref
+# **Vue.js** Pinia en bref
 
 <!-- https://laconsole.dev/formations/vue/pinia -->
 

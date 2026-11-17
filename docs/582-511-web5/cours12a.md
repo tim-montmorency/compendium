@@ -1,11 +1,24 @@
-# Cours 12.1
+# **Cours 12.1** Les composants Vue
 <!-- mer. 18 nov. (reporté du ven. 13 nov. : levée de cours) -->
 
 ![](assets/cours11b-banniere.webp){.w-100}
 
 !!! warning "Cours reporté : ~~ven. 13 nov.~~ mer. 18 nov."
-    En raison de la levée de cours, ce cours et la démo du prototype ont lieu le **mer. 18 nov.** La **bêta est aussi reportée**, au **ven. 27 nov.**
+    En raison de la levée de cours, ce cours et la démo du prototype ont lieu le **mer. 18 nov.** Le cours du 13 nov. sera repris le **jeu. 17 déc.** : tout le calendrier qui suit est décalé d'un cours. La **bêta** a lieu le **mer. 2 déc.**, la **défense** le **ven. 11 déc.** et la **remise finale** le **jeu. 17 déc.** [Voir le calendrier](projets/recit-defilant/index.md#calendrier).
 
+??? danger "Changement : un composant Vue par personne, obligatoire. Cliquer pour les détails."
+    Il n'y a **plus de choix** entre le navigateur de chapitres et la barre de progression : **les deux sont exigés**, et **chaque personne en code un**.
+
+    - Une personne : le **navigateur de chapitres** (`js/navigation.js`).
+    - L'autre personne : la **barre de progression** (`js/progression.js`).
+    - Une équipe de 3 : la 3e personne code le **panneau de l'équipe** (`js/equipe.js`), qui présente les auteurs et leur rôle. [Le squelette](projets/recit-defilant/composant-vue.md#equipe).
+
+    Chacun l'intègre, le commente et le défend à la [défense](projets/recit-defilant/index.md#calendrier) (cours 15.2, ven. 11 déc.).
+
+    **À faire d'ici le ven. 20 nov.** : mettez à jour la **section 4, matrice de responsabilités**, de votre `CAHIER-DE-CHARGES.md`. Remplacez la ligne du composant Vue par deux lignes, une par composant, avec le prénom de la personne responsable ([le gabarit](projets/recit-defilant/cahier-de-charges.md#le-gabarit)). *Commit* : `Cahier : un composant Vue par personne`.
+
+
+<br>
 <div class="class-content-link">
   <img src="assets/IA-restreinte.png">
   <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
@@ -18,19 +31,9 @@
 
 ---
 
-Navigateur de chapitres et barre de progression, construits ensemble, en direct.
+Navigateur de chapitres et barre de progression : on démarre ensemble, vous construisez le reste.
 
 [:octicons-arrow-right-24: La référence](projets/recit-defilant/composant-vue.md){ .stretched-link }
-</div>
-
-<div class="card" markdown>
-:material-api: __Choisir et tester votre API__
-
----
-
-Trouver l'adresse, lire la réponse, prévoir la panne.
-
-[:octicons-arrow-right-24: Les 7 étapes](projets/recit-defilant/dataviz.md#api){ .stretched-link }
 </div>
 
 <div class="card" markdown>
@@ -43,232 +46,272 @@ Une démo de 60 secondes, sur votre poste. Je passe d'équipe en équipe.
 [:octicons-arrow-right-24: Ce que je dois voir](projets/recit-defilant/index.md#prototype){ .stretched-link }
 </div>
 
+<div class="card" markdown>
+:simple-vuedotjs: __Atelier : votre composant Vue__
+
+---
+
+Du bac à sable au projet : chacun intègre le sien.
+
+[:octicons-arrow-right-24: Brancher le composant](projets/recit-defilant/composant-vue.md#brancher-phase-1){ .stretched-link }
+</div>
+
 </div>
 
 ## Aujourd'hui
 
-- [ ] API, JSON et fetch : pourquoi ils sont partout
-- [ ] Les composants Vue, construits en direct : vous codez avec moi, dans un bac à sable
-- [ ] Le *fetch* externe : choisir et tester votre API
+- [ ] Quiz Wooclap : les principes de Vue (10 min)
+  - [Gr1 mercredi AM](https://app.wooclap.com/CTKRJEJ)
+  - [Gr2 mercredi PM](https://app.wooclap.com/KSMDBMM)
+- [ ] Exercices : terminer *Collection de films*, ou *Cheese Kanye says* si c'est fait (30 min)
+- [ ] Révision de l'exercice [*Collection de films*](./exercices/ex-vue-films/index.md) : la chasse aux bogues, en duo (20 min)
+- [ ] Les composants Vue, dans un bac à sable : on démarre ensemble, vous construisez le reste (70 min)
+- [ ] Pause (15 min)
 - [ ] Prototype : votre démo de 60 secondes, pendant que je passe d'équipe en équipe
-- [ ] Dans votre projet : les composants Vue, l'API, et le début de la *phase 2*{ .w5-phase .w5-phase-2 }
+- [ ] Atelier : chaque personne intègre son composant Vue dans le projet (65 min)
 
-## 1. :material-api:  API, JSON et fetch : pourquoi ils sont partout { #pourquoi-api }
+## 1. :simple-vuedotjs:  Exercices : Films ou Kanye (30 min) { #exercices }
 
+**Vous n'avez pas terminé *Collection de films*?** Terminez-le. Si le temps manque, visez la **partie C** (`v-for` sur un tableau) : c'est votre navigateur de chapitres, en version simple.
 
-<div class="w5-schema-cadre" style="margin:1.5em 0;padding:1rem 1.2rem;background:var(--md-code-bg-color);border:1px solid var(--md-default-fg-color--lightest);border-radius:0.4rem;text-align:center">
-<svg class="w5-schema" style="width:100%;height:auto;max-width:720px" viewBox="0 0 720 200" role="img" aria-labelledby="t-trio d-trio" font-family="inherit" font-size="14" fill="currentColor">
-<title id="t-trio">Le trio : fetch(), l'API et le JSON</title>
-<desc id="d-trio">Votre page envoie une demande avec fetch(), le messager. L'API, la porte du service, la reçoit et consulte le serveur et sa base de données. La réponse revient à la page en JSON, la langue des données.</desc>
-<defs>
-<marker id="ft" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="currentColor" fill-opacity=".7"/></marker>
-<marker id="fta" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#FF2B47"/></marker>
-</defs>
-<!-- Votre page -->
-<rect x="10" y="30" width="140" height="90" rx="10" fill="none" stroke="currentColor" stroke-opacity=".45"/>
-<text x="80" y="62" text-anchor="middle" font-weight="600">Votre page</text>
-<rect x="35" y="78" width="90" height="8" rx="2" fill="currentColor" fill-opacity=".15"/>
-<rect x="35" y="92" width="56" height="16" rx="2" fill="#FF2B47"/>
-<rect x="97" y="92" width="28" height="16" rx="2" fill="currentColor" fill-opacity=".15"/>
-<!-- fetch() : la demande -->
-<line x1="152" y1="60" x2="416" y2="60" stroke="currentColor" stroke-opacity=".6" stroke-width="2" marker-end="url(#ft)"/>
-<rect x="222" y="42" width="124" height="36" rx="18" fill="#FF2B47"/>
-<text x="284" y="65" text-anchor="middle" font-weight="700" fill="#fff" font-family="ui-monospace, monospace">fetch()</text>
-<text x="284" y="28" text-anchor="middle" font-size="12" fill-opacity=".75">le messager</text>
-<!-- L'API -->
-<rect x="420" y="20" width="150" height="100" rx="10" fill="none" stroke="currentColor" stroke-width="2"/>
-<text x="495" y="66" text-anchor="middle" font-size="26" font-weight="700">API</text>
-<text x="495" y="92" text-anchor="middle" font-size="12" fill-opacity=".75">la porte du service</text>
-<!-- Derrière l'API -->
-<line x1="572" y1="70" x2="606" y2="70" stroke="currentColor" stroke-opacity=".35" stroke-dasharray="4 4"/>
-<rect x="608" y="38" width="104" height="64" rx="10" fill="none" stroke="currentColor" stroke-opacity=".3" stroke-dasharray="4 4"/>
-<text x="660" y="66" text-anchor="middle" font-size="12" fill-opacity=".6">serveur et</text>
-<text x="660" y="82" text-anchor="middle" font-size="12" fill-opacity=".6">base de données</text>
-<!-- La réponse : du JSON -->
-<path d="M495 122 L495 160 L80 160 L80 124" fill="none" stroke="#FF2B47" stroke-width="2.5" marker-end="url(#fta)"/>
-<rect x="222" y="142" width="124" height="36" rx="18" fill="#FF2B47"/>
-<text x="284" y="165" text-anchor="middle" font-weight="700" fill="#fff" font-family="ui-monospace, monospace">{ } JSON</text>
-<text x="284" y="196" text-anchor="middle" font-size="12" fill-opacity=".75">la langue des données</text>
-</svg>
-</div>
+**Vous l'avez terminé?** Faites *Cheese Kanye says*, parties A et B : une méthode Vue qui va chercher des données avec `fetch()`, puis `mounted()`. C'est la recette de votre dataviz, et `mounted()` revient dans la démo. La partie C est un bonus.
 
-**Le web moderne tourne sur trois morceaux : les API (Application Programming Interface), le JSON et `fetch()`.** 
+[:simple-vuedotjs: Collection de films](exercices/ex-vue-films/index.md){ .md-button } ou [:simple-vuedotjs: Cheese Kanye says](exercices/ex-vue-kanye/index.md){ .md-button }
 
-Un site dynamique peut se construire de deux façons, et les deux existent aujourd'hui :
+## 2. :material-bug-outline:  Révision : la chasse aux bogues (20 min) { #revision }
 
-- **Site multipage (web classique)** : le serveur fabrique chaque page avec sa base de données, et chaque clic charge une nouvelle page : une nouvelle adresse dans la barre du navigateur, et tout l'écran redessiné;
-- **Application web (web moderne)** : le serveur envoie seulement les **données**, en **JSON**, et c'est le navigateur qui les place dans la page avec **`fetch()`** : l'adresse (URL) ne change pas, et seule une partie de l'écran se met à jour, dynamiquement, en temps réel, sans charger une nouvelle page.
+Le code de l'exercice Collection de films, avec 5 bogues cachés dedans. En duo, vous les trouvez en lisant, puis vous les corrigez un à la fois, la console ouverte.
 
-Les trois morceaux :
+[:material-bug-outline: La chasse aux bogues](exercices/ex-vue-films/chasse-aux-bogues.md){ .md-button }
 
-- **L'API**, la porte d'un service : la même API sert le site web, l'application iOS et l'application Android;
-- **le JSON**, la langue de ces données, que tous les langages comprennent;
-- **`fetch()`**, le messager du navigateur, qui va les chercher sans charger une nouvelle page.
-
-Vous avez déjà le geste : dans votre portfolio, `fetch()` chargeait vos projets depuis un fichier JSON. Interroger une API, c'est le même `fetch()`, avec une adresse sur un autre serveur. Ceux qui ont choisi Airtable l'ont déjà fait.
-
-[:material-api: API, JSON et fetch : le trio du web moderne](js/api-json-fetch.md){ .md-button .md-button--primary }
-
-## 2. :material-code-braces:  Les composants Vue, construits en direct { #composant }
+## 3. :material-code-braces:  Les composants Vue, dans un bac à sable (70 min) { #composant }
 
 <video class="w-100" src="assets/cours11b-navigateur-chapitres.webm" autoplay muted loop playsinline aria-label="Le navigateur de chapitres en action : en défilant, le chapitre actif s'allume dans la liste et la barre de progression avance; un clic sur un chapitre y mène directement"></video>
 
-Mercredi, vous avez vu les 4 notions et pratiqué avec l'exercice Collection de films. Aujourd'hui, on assemble le tout : les deux composants de votre récit, pièce par pièce. Le navigateur de chapitres d'abord, puis la barre de progression, avec la même recette. **Vous codez avec moi**, dans un bac à sable : un petit dossier à part, **hors de votre dépôt**.
+Le navigateur de chapitres, c'est l'exercice Collection de films avec des chapitres à la place des films. Aujourd'hui, on assemble le tout : les deux composants de votre récit, pièce par pièce. Le navigateur de chapitres d'abord, puis la barre de progression, avec la même recette. **Tout le monde fait les deux**, dans un bac à sable : un petit dossier à part, **hors de votre dépôt**. Dans le projet, chacun n'intègre que le sien.
+
+Pas de dictée : on démarre ensemble, vous écrivez ce que vous connaissez déjà, et je vous fournis seulement les pièces difficiles.
 
 **Le bac à sable**, à créer avant de commencer :
 
 1. Un dossier `bac-a-sable-vue/`, ouvert dans VS Code.
-2. Un fichier `index.html`, avec ce départ :
+2. Un fichier `index.html`, avec le code de départ ci-dessous.
 
-```html
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Bac à sable Vue</title>
-  <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700">
-  <style>
-    body {
-      margin: 0;
-      background: #0b0b0c;
-      color: #f4f4f5;
-      font-family: "Poppins", sans-serif;
-    }
-    [v-cloak] { display: none; }
+  ??? example "Le code de départ : `index.html` Cliquez pour ouvrir le panneau."
+      ```html
+      <!DOCTYPE html>
+      <html lang="fr">
+      <head>
+        <meta charset="UTF-8">
+        <title>Bac à sable Vue</title>
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700">
+        <style>
+          body {
+            margin: 0;
+            background: #0b0b0c;
+            color: #f4f4f5;
+            font-family: "Poppins", sans-serif;
+          }
+          [v-cloak] { display: none; }
 
-    /* Les chapitres : un écran chacun, un fond différent */
-    .chapitre {
-      min-height: 100vh;
-      display: grid;
-      place-content: center;
-      text-align: center;
-    }
-    .chapitre h2 { margin: 0; font-size: 4rem; }
-    .surtitre {
-      margin: 0;
-      color: #a1a1aa;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-    }
-    #la-foret {
-      background: radial-gradient(circle at 30% 70%, #1d3b2a, #0b0b0c 70%);
-    }
-    #la-maison {
-      background: radial-gradient(circle at 70% 30%, #3b2a1d, #0b0b0c 70%);
-    }
-    #le-loup {
-      background: radial-gradient(circle at 40% 40%, #2a2d3b, #0b0b0c 70%);
-    }
-    #la-fin {
-      background: radial-gradient(circle at 60% 60%, #3b1d24, #0b0b0c 70%);
-    }
+          /* Les chapitres : un écran chacun, un fond différent */
+          .chapitre {
+            min-height: 100vh;
+            display: grid;
+            place-content: center;
+            text-align: center;
+          }
+          .chapitre h2 { margin: 0; font-size: 4rem; }
+          .surtitre {
+            margin: 0;
+            color: #a1a1aa;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+          }
+          #la-foret {
+            background: radial-gradient(circle at 30% 70%, #1d3b2a, #0b0b0c 70%);
+          }
+          #la-maison {
+            background: radial-gradient(circle at 70% 30%, #3b2a1d, #0b0b0c 70%);
+          }
+          #le-loup {
+            background: radial-gradient(circle at 40% 40%, #2a2d3b, #0b0b0c 70%);
+          }
+          #la-fin {
+            background: radial-gradient(circle at 60% 60%, #3b1d24, #0b0b0c 70%);
+          }
 
-    /* Le navigateur de chapitres */
-    .chapitres-nav {
-      position: fixed;
-      top: 50%;
-      right: 2rem;
-      transform: translateY(-50%);
-      padding: 1rem 1.5rem 1rem 1rem;
-      background: rgb(20 20 22 / 0.85);
-      border: 1px solid #2c2c31;
-      border-radius: 12px;
-    }
-    .chapitres-nav ol { margin: 0; }
-    .chapitres-nav a { color: inherit; text-decoration: none; }
-    .chapitres-nav a.actif { font-weight: 700; color: #FF2B47; }
+          /* Le navigateur de chapitres */
+          .chapitres-nav {
+            position: fixed;
+            top: 50%;
+            right: 2rem;
+            transform: translateY(-50%);
+            padding: 1rem 1.5rem 1rem 1rem;
+            background: rgb(20 20 22 / 0.85);
+            border: 1px solid #2c2c31;
+            border-radius: 12px;
+          }
+          .chapitres-nav ol { margin: 0; }
+          .chapitres-nav a { color: inherit; text-decoration: none; }
+          .chapitres-nav a.actif { font-weight: 700; color: #FF2B47; }
 
-    /* La barre de progression */
-    .progression {
-      position: fixed;
-      inset: 0 0 auto 0;
-      z-index: 1;
-      height: 6px;
-      background: #FF2B47;
-      transform-origin: left;
-    }
-  </style>
-</head>
-<body>
-  <div id="navigation"></div>
+          /* La barre de progression */
+          .progression {
+            position: fixed;
+            inset: 0 0 auto 0;
+            z-index: 1;
+            height: 6px;
+            background: #FF2B47;
+            transform-origin: left;
+          }
+        </style>
+      </head>
+      <body>
+        <div id="navigation"></div>
 
-  <main>
-    <section class="chapitre" id="la-foret">
-      <p class="surtitre">Chapitre 1</p>
-      <h2>La forêt</h2>
-    </section>
-    <section class="chapitre" id="la-maison">
-      <p class="surtitre">Chapitre 2</p>
-      <h2>La maison</h2>
-    </section>
-    <section class="chapitre" id="le-loup">
-      <p class="surtitre">Chapitre 3</p>
-      <h2>Le loup</h2>
-    </section>
-    <section class="chapitre" id="la-fin">
-      <p class="surtitre">Chapitre 4</p>
-      <h2>La fin</h2>
-    </section>
-  </main>
+        <main>
+          <section class="chapitre" id="la-foret">
+            <p class="surtitre">Chapitre 1</p>
+            <h2>La forêt</h2>
+          </section>
+          <section class="chapitre" id="la-maison">
+            <p class="surtitre">Chapitre 2</p>
+            <h2>La maison</h2>
+          </section>
+          <section class="chapitre" id="le-loup">
+            <p class="surtitre">Chapitre 3</p>
+            <h2>Le loup</h2>
+          </section>
+          <section class="chapitre" id="la-fin">
+            <p class="surtitre">Chapitre 4</p>
+            <h2>La fin</h2>
+          </section>
+        </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.js">
-  </script>
-  <script type="module" src="js/main.js"></script>
-</body>
-</html>
-```
+        <script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.js">
+        </script>
+        <script type="module" src="js/main.js"></script>
+      </body>
+      </html>
+      ```
 
 3. Trois fichiers vides : `js/main.js`, `js/navigation.js` et `js/progression.js`.
 4. Ouvert avec **Live Server**.
 
-!!! tip "Avant de publier : la version de production de Vue"
-    Le bac à sable utilise `vue.global.js`, la version de **développement** : ses messages d'erreur sont clairs. Quand votre récit est **en ligne**, remplacez la balise par celle-ci, trois fois plus légère :
+### Avec moi : `main.js` et le branchement (10 min) { #avec-moi }
 
-    ```html
-    <script src="https://cdn.jsdelivr.net/npm/vue@3.5.13/dist/vue.global.prod.js">
-    </script>
-    ```
-
-    Pour comprendre la différence : [le guide des fichiers de Vue](https://github.com/vuejs/core/tree/main/packages/vue#which-dist-file-to-use){ :target="_blank" } (en anglais).
-
-**Les pièces, dans l'ordre :**
+Vous me suivez en direct.
 
 - [ ] `main.js` : la liste des chapitres, lue dans le HTML
 - [ ] Le navigateur, `createApp()` et `mount()` : Vue prend le contrôle de `#navigation`
-- [ ] `data()` et `{{ }}` : la réactivité
-- [ ] `v-for` : la liste des chapitres
-- [ ] `:class` : le chapitre actif
-- [ ] `@click` et une méthode : aller au chapitre
-- [ ] `mounted()` : écouter le défilement. C'est nouveau : [Le cycle de vie : `mounted()`](vue/mounted.md)
-- [ ] La barre de progression : un 2e composant, la même recette
+
+*Cible* : la page affiche « Vue fonctionne : 2 ».
+
+### À vous : les données, la liste, le chapitre actif (15 min + 5) { #a-vous }
+
+**Environ 15 minutes, seuls.** Le navigateur, c'est l'exercice Collection de films, avec des chapitres :
+
+| Collection de films | Navigateur de chapitres |
+|---|---|
+| le tableau `movies` | le tableau `chapters`, reçu en paramètre |
+| la donnée `year` | la donnée `activeChapterIndex`, à `0` |
+| la classe `selectedYear` | la classe `actif`, sur le `<a>` |
+| `movie.year === year` | `index === activeChapterIndex` |
+
+- [ ] **`data()` et `{{ }}`** : les données `chapters` et `activeChapterIndex`. Affichez-les dans `#navigation` : le chapitre actif, et le nombre de chapitres (`.length`).
+  - *Cible* : « Chapitre actif : 0 » et « 4 chapitres » s'affichent.
+- [ ] **`v-for`** : dans `#navigation`, une `<nav class="chapitres-nav" aria-label="Chapitres">`, avec une `<ol>`. Un seul `<li>`, répété pour chaque chapitre, avec un lien vers sa section (`href`) et son titre.
+  - *Cible* : 4 liens, générés par un seul `<li>`.
+- [ ] **`:class`** : la classe `actif` sur le lien du chapitre actif.
+  - *Cible* : le 1er lien est rouge.
+  - *Votre test* : tapez `nav.activeChapterIndex = 2` dans la console. Le rouge se déplace.
+
+??? tip "Indice : le lien vers la section"
+    Le `href` d'un lien vers une section, c'est `#` suivi de son `id`. Ici, la valeur est du JavaScript : une chaîne et une variable, collées avec `+`. Voir [`v-bind`](vue/interpolation.md#v-bind).
+
+??? tip "Indice : `nav is not defined`"
+    La ligne `window.nav = createNavigation(chaptersArr);` manque dans `main.js`. Elle sert seulement au test dans la console : pas dans votre projet.
+
+### Aller au chapitre : `goTo()` fournie (10 min) { #goto }
+
+Je vous explique `goTo()` et `.prevent`. À vous :
+
+- [ ] Ajoutez la méthode `goTo()` ci-dessous dans un `methods`.
+- [ ] Appelez-la **au clic** sur chaque lien, avec `.prevent`, en lui passant **l'`id` du chapitre**. Voir [`.prevent`](vue/methodes-evenements.md#prevent).
+  - *Cible* : un clic sur un chapitre y mène en douceur, et l'adresse ne change pas.
+
+??? example "La méthode fournie : `goTo()`"
+
+    ```js
+    goTo(id) {
+      const reduced = window.matchMedia(
+        "(prefers-reduced-motion: reduce)"
+      ).matches;
+      document.getElementById(id).scrollIntoView({
+        behavior: reduced ? "auto" : "smooth",
+      });
+    },
+    ```
+
+### Suivre le défilement : `mounted()` (15 min) { #mounted }
+
+Je vous explique `updateActive()` et `mounted()`. À vous :
+
+- [ ] Ajoutez la méthode `updateActive()` ci-dessous dans `methods`.
+- [ ] **Écrivez `mounted()` vous-mêmes**, à partir de l'exemple de la page [`mounted()`](vue/mounted.md#syntaxe) : le même principe, avec le défilement plutôt que le redimensionnement.
+- [ ] Ajoutez `v-cloak` sur la zone `#navigation`.
+  - *Cible* : on défile, le lien actif suit. On recharge au milieu de la page : le bon lien est actif dès le départ.
+
+??? example "La méthode fournie : `updateActive()`"
+
+    ```js
+    updateActive() {
+      const middle = window.innerHeight / 2;
+      this.chapters.forEach((chapter, index) => {
+        const section = document.getElementById(chapter.id);
+        if (section.getBoundingClientRect().top <= middle) {
+          this.activeChapterIndex = index;
+        }
+      });
+    },
+    ```
+
+### La barre de progression : à vous (15 min) { #barre }
+
+**Environ 15 minutes, seuls.** C'est la même recette que le navigateur : une donnée, une méthode, `mounted()`. Un fichier à elle, `js/progression.js`, et une zone à elle, `#barre-progression`. Je vous fournis deux pièces : la zone HTML et la formule.
+
+- [ ] Ajoutez la zone ci-dessous au début du `<body>`. `:style`, c'est comme `:class`, mais pour une propriété CSS : la valeur est du JavaScript.
+- [ ] Dans `js/progression.js`, une fonction `createProgressBar()` qui crée l'app et la monte sur `#barre-progression`, avec :
+  - la donnée `progress`, de `0` (en haut de la page) à `1` (en bas);
+  - la méthode `updateProgress()`, qui calcule `progress` avec la formule ci-dessous;
+  - `mounted()`, comme pour le navigateur.
+- [ ] Dans `main.js`, son `import`, puis `window.bar = createProgressBar();`.
+  - *Cible* : on défile, la barre avance.
+  - *Votre test* : `bar.progress = 0.5` dans la console. La barre saute à la moitié.
+
+??? example "Les pièces fournies : la zone HTML et la formule"
+
+    ```html
+    <div id="barre-progression" v-cloak>
+      <div class="progression"
+           :style="{ transform: 'scaleX(' + progress + ')' }"></div>
+    </div>
+    ```
+
+    ```js
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    this.progress = max > 0 ? window.scrollY / max : 0;
+    ```
+
+    *max* : la distance qu'on peut défiler en tout. `max > 0` évite une division par 0 si la page ne défile pas.
+
+Pas terminée? Si la barre est votre composant, vous la finissez pendant l'atelier, directement dans votre projet.
 
 [:simple-vuedotjs: Les composants Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
 
-## 3. :material-api:  Le *fetch* externe : choisir et tester votre API
-
-<video class="w-100" src="assets/cours11b-fetch-dataviz.webm" autoplay muted loop playsinline aria-label="La démo La Terre bouge : en arrivant à chaque moment, un fetch() part vers une API externe (USGS, puis Open-Meteo), le JSON revient, et la dataviz s'anime : un compteur et des points pour les séismes, puis des barres qui poussent pour la météo"></video>
-
-Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est **le même `fetch()`**, avec une adresse sur un autre site. Ce qui est nouveau :
-
-- **choisir** une API : **sans clé d'identification** (dans les listes d'API, la colonne **Auth : `No`**, plutôt que `apiKey` ou `OAuth`), **CORS : `Yes`** (ou `Unknown`, à tester d'abord), du JSON, et votre donnée;
-- **lire** sa réponse : tester l'adresse dans le navigateur, trouver le chemin vers votre valeur;
-- **prévoir la panne** : des valeurs de secours, pour que le récit reste lisible.
-
-[:material-api: Choisir et tester votre API : les 7 étapes](projets/recit-defilant/dataviz.md#api){ .md-button .md-button--primary }
-
-[:material-code-json: Trouver une donnée dans un JSON](js/json-chemin.md){ .md-button }
-
-!!! example "À vous : 10 minutes"
-    **La personne responsable de la dataviz**, avec ses deux API candidates :
-
-    1. Collez l'adresse de chacune dans le navigateur. Laquelle contient **votre** donnée?
-    2. Trouvez le [**chemin**](js/json-chemin.md) vers la valeur, comme `data.daily.temperature_2m_max`.
-    3. Faites le `fetch()` dans votre bac à sable, et affichez la valeur avec `console.log()`.
-
-    **L'autre personne** fait la même chose avec une API de la [liste de la démo](projets/recit-defilant/dataviz.md#demo) : tout le monde doit savoir lire une réponse d'API.
-
-## 4. :material-play-box-outline:  Remise : Le prototype (~~ven. 13 nov.~~ mer. 18 nov.)
+## 4. :material-play-box-outline:  Remise : Le prototype, 60 secondes par équipe (~~ven. 13 nov.~~ mer. 18 nov.)
 
 Pendant le travail en équipe, je passe vous voir. 
 
@@ -278,24 +321,26 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 [:material-play-box-outline: Le prototype : ce que je dois voir](projets/recit-defilant/index.md#prototype){ .md-button }
 
-## 5. :material-account-multiple-outline:  Dans votre projet
+## 5. :material-account-multiple-outline:  Atelier : intégrer votre composant Vue (65 min) { #atelier-vue }
 
-**Chaque personne intègre son composant Vue** (voir votre matrice de responsabilités) au cours du **ven. 20 nov.**, en atelier : le navigateur de chapitres pour l'une, la barre de progression pour l'autre.
+**Chaque personne intègre son composant Vue** (voir votre matrice de responsabilités), à partir du bac à sable de la démo, **pendant que je passe d'équipe en équipe** pour le prototype : le navigateur de chapitres pour l'une, la barre de progression pour l'autre.
 
-1. Sur sa branche, crée son fichier à partir du bac à sable : `js/navigation.js` ou `js/progression.js`.
-2. Ajoute sa zone dans `index.html`, `#navigation` ou `#barre-progression`. La balise de Vue, une seule fois. C'est un fichier **commun** : prévenez votre coéquipier ou coéquipière.
-3. Branche son composant dans `main.js` (*phase 1*{ .w5-phase .w5-phase-1 }) : son `import` et son appel. Fichier commun, lui aussi.
-4. *Pull request* dès qu'il s'affiche, même sans style.
+1. **D'abord, la matrice de responsabilités à jour** : dans la section 4 du `CAHIER-DE-CHARGES.md`, une ligne par composant Vue, avec le prénom de la personne responsable ([le gabarit](projets/recit-defilant/cahier-de-charges.md#le-gabarit)). *Commit* : `Cahier : un composant Vue par personne`.
+2. Sur sa branche, crée son fichier à partir du bac à sable : `js/navigation.js` ou `js/progression.js`.
+3. Ajoute sa zone dans `index.html`, `#navigation` ou `#barre-progression`. La balise `<script>` de Vue, une seule fois. C'est un fichier **commun** : prévenez votre coéquipier ou coéquipière.
+4. Branche son composant dans `main.js` (*phase 1*{ .w5-phase .w5-phase-1 }) : son `import` et son appel. Fichier commun, lui aussi.
+5. *Pull request* dès qu'il s'affiche, même sans style.
+
+**Votre composant est intégré? La suite, dans l'ordre :**
+
+- [ ] **Adaptez-le au style de votre récit** : couleurs, police, position. Le CSS du bac à sable n'est qu'un départ.
+- [ ] **Commentez-le, dans vos mots.** Le code fourni n'a pas de commentaires : c'est à vous d'expliquer ce que fait chaque partie. C'est aussi ce qui vous prépare à la [défense](projets/recit-defilant/index.md#calendrier).
+- [ ] **Retournez à vos chapitres** : les animations et les médias qui manquaient au prototype, en visant la **bêta du mer. 2 déc.** C'est le dernier cours avec du temps en classe sur vos chapitres avant la *phase 2*{ .w5-phase .w5-phase-2 }.
+
+!!! tip "Le navigateur reste vide dans votre projet?"
+    `main.js` lit les sections qui ont la classe `.chapitre`, et le titre dans leur `<h2>`. Si votre HTML est différent, adaptez le sélecteur à **votre** structure.
 
 [:simple-vuedotjs: Brancher les composants à la *phase 1*{ .w5-phase .w5-phase-1 }](projets/recit-defilant/composant-vue.md#brancher-phase-1){ .md-button }
-
-**La personne responsable de la dataviz** : l'API choisie, testée et documentée dans le cahier de charges (étape 7).
-
-**Tout le monde** : la *phase 2*{ .w5-phase .w5-phase-2 } commence aujourd'hui. Vos chapitres passent du HTML statique à `data.json`, en suivant les étapes, ensemble puis chacun ses chapitres.
-
-[:material-swap-horizontal: *Phase 2*{ .w5-phase .w5-phase-2 } : les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md){ .md-button }
-
-[:simple-vuedotjs: Les composants Vue à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/composant-vue.md#brancher-phase-2){ .md-button }
 
 ## Devoirs
 
@@ -306,23 +351,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 
 ### D'ici le ven. 20 nov. (cours 12.2)
 
-- **Votre composant Vue terminé dans votre bac à sable** : on l'intègre au projet ensemble, en atelier.
-- **Votre API testée** : l'appel fonctionne, et `console.log()` affiche la donnée que vous voulez montrer ([les 7 étapes](projets/recit-defilant/dataviz.md#api)).
-- L'API documentée dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)), *commit* `Cahier : ajoute l'API de la dataviz`.
-- La *phase 2*{ .w5-phase .w5-phase-2 } bien entamée : [les étapes faites ensemble](projets/recit-defilant/json-chapitres.md#ensemble) sont sur `main`.
-
-### D'ici la bêta (~~ven. 20 nov.~~ **ven. 27 nov.**), en *phase 2*{ .w5-phase .w5-phase-2 }
-
-La bêta doit être **fonctionnelle**, pas finie : l'autre équipe doit pouvoir la tester.
-
-- *Phase 2*{ .w5-phase .w5-phase-2 } : **intégration dynamique** exigée, chapitres chargés depuis `data.json` ([les instructions](projets/recit-defilant/json-chapitres.md)).
-- Médias finaux intégrés.
-- Les deux composants Vue en place ([les brancher à la *phase 2*{ .w5-phase .w5-phase-2 }](projets/recit-defilant/composant-vue.md#brancher-phase-2)).
-- Dataviz **branchée** : les vraies données de l'API s'affichent ([les 7 étapes](projets/recit-defilant/dataviz.md#api)). Son animation viendra après la bêta.
-- Au minimum, les animations du prototype : une par chapitre. Les autres viendront après la bêta.
-
-[:material-swap-horizontal: *Phase 2*{ .w5-phase .w5-phase-2 } : passer du HTML statique au JSON](projets/recit-defilant/arborescence-recit-defilant.md#phase-2){ .md-button }
-
-[:material-code-json: *Phase 2*{ .w5-phase .w5-phase-2 } : les étapes du chargement JSON](projets/recit-defilant/json-chapitres.md){ .md-button }
+- **La matrice de responsabilités à jour** (section 4 du `CAHIER-DE-CHARGES.md`) : une ligne par composant Vue, avec son responsable.
+- **Votre composant Vue intégré** dans le projet, si ce n'est pas terminé en classe : *pull request* fusionnée dans `main` d'ici le mini-jalon du mer. 25 nov. (cours 13.1).
 
 [Voir le calendrier](projets/recit-defilant/index.md#calendrier)

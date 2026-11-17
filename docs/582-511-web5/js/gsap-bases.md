@@ -1,4 +1,4 @@
-# :material-animation-play-outline:  GSAP : tweens et timelines
+# **GSAP** :material-animation-play-outline:  Tweens et timelines
 
 <video class="w-100" src="assets/gsap-website.webm" autoplay muted loop playsinline aria-label="Aperçu du site de GSAP : des animations web de toutes sortes"></video>
 

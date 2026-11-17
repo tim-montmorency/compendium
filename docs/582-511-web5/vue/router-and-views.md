@@ -1,4 +1,4 @@
-# Cours: Vue Router et Views
+# **Vue.js** Cours: Vue Router et Views
 
 <!-- https://laconsole.dev/formations/vue/vue-router 
 

@@ -1,4 +1,4 @@
-# :simple-vuedotjs:  Le cycle de vie : `mounted()`
+# **Vue.js** :simple-vuedotjs:  Le cycle de vie : `mounted()`
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
@@ -56,6 +56,10 @@ Vue.createApp({
 }).mount("#app");
 ```
 
+**Essayez** : redimensionnez la fenêtre, et regardez le nombre suivre. Pour plus de place, ouvrez la démo dans un nouvel onglet (bouton **Ouvrir**).
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-vue-mounted&onglets=resultat,js,html&actif=resultat&disposition=cote&boutons=rejouer,ouvrir" class="aspect-3-2" style="width:100%; height:600px;border:0" loading="lazy"></iframe>
+
 Trois détails qui font la différence :
 
 | Dans le code | Pourquoi |
@@ -77,9 +81,9 @@ Vue offre d'autres « crochets » (*hooks*) du cycle de vie. Dans ce cours, vous
 
 ## Dans votre récit { #dans-votre-recit }
 
-Dans le navigateur de chapitres, `mounted()` fait exactement la même chose que l'exemple, avec `"scroll"` au lieu de `"resize"`, et la méthode `updateScroll` au lieu de `updateWidth`.
+Dans le navigateur de chapitres, `mounted()` fait exactement la même chose que l'exemple, avec `"scroll"` au lieu de `"resize"`, et la méthode `updateActive` au lieu de `updateWidth`.
 
-[:simple-vuedotjs: Le composant Vue de votre récit](../projets/recit-defilant/composant-vue.md#js){ .md-button .md-button--primary }
+[:simple-vuedotjs: Le composant Vue de votre récit](../projets/recit-defilant/composant-vue.md#js-navigation){ .md-button .md-button--primary }
 
 ## Références
 

@@ -1,4 +1,4 @@
-# Composante Vue et SFC
+# **Vue.js** Composante Vue et SFC
 
 ## Les Composantes Vue.js
 

@@ -1,4 +1,4 @@
-# Création d'une app Vue [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
+# **Vue.js** Création d'une app Vue [<img src="assets/logo-vue.svg" width="40"/>](assets/logo-vue.svg)
 
 !!! abstract
 
@@ -45,6 +45,30 @@ const vm = app.mount('#app');
 ```
 
 .
+
+## Cacher la zone avant le démarrage : `v-cloak` { #v-cloak }
+
+Le navigateur affiche le HTML **avant** que Vue démarre. Pendant une fraction de seconde, on voit donc les `{{ }}` tels quels. `v-cloak` règle ça, en deux temps :
+
+1. Ajoutez l'attribut `v-cloak` à la zone de l'app :
+
+    ```html
+    <div id="app" v-cloak>
+      {{ message }}
+    </div>
+    ```
+
+2. Dans votre CSS, cachez tout ce qui porte cet attribut :
+
+    ```css
+    [v-cloak] {
+      display: none;
+    }
+    ```
+
+Quand l'app est montée (`mount()`), Vue **retire** l'attribut `v-cloak` : la zone apparaît, avec les vraies valeurs.
+
+[La directive `v-cloak`, dans la documentation de Vue](https://fr.vuejs.org/api/built-in-directives.html#v-cloak){ :target="_blank" }
 
 [Plus d'info sur <code>createApp()</code>](https://fr.vuejs.org/guide/essentials/application.html#creating-an-application-instance){ .md-button :target="_blank" }
 

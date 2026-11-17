@@ -1,4 +1,4 @@
-# :material-code-json:  Du JSON aux chapitres : dans votre projet
+# **Récit défilant** :material-code-json:  Du JSON aux chapitres : dans votre projet
 
 <div class="class-content-link">
   <img src="../../assets/IA-restreinte.png">
@@ -14,10 +14,10 @@
 
 </div>
 
-!!! info "La *phase 2*{ .w5-phase .w5-phase-2 } : exigée à la bêta (~~ven. 20 nov.~~ **ven. 27 nov.**)"
+!!! info "La *phase 2*{ .w5-phase .w5-phase-2 } : exigée à la bêta (~~ven. 20 nov.~~ **mer. 2 déc.**)"
     Vos chapitres passent du HTML statique (*phase 1*{ .w5-phase .w5-phase-1 }) à `data.json`. Votre chargement JSON fonctionne déjà? Gardez-le : vous êtes en avance.
 
-[:material-file-tree: Arborescence du dépôt](arborescence-recit-defilant.md){ .md-button }
+[:material-file-tree: Arborescence et code de départ](arborescence-recit-defilant.md){ .md-button }
 
 [:material-swap-horizontal: Passer du HTML statique au JSON](arborescence-recit-defilant.md#phase-2){ .md-button }
 
@@ -58,7 +58,7 @@
     <text x="715" y="65" font-weight="700">animate()</text>
     <text x="715" y="83" font-size="12" opacity="0.7">étape 6</text>
     <text x="405" y="175" font-weight="700">createMedia()</text>
-    <text x="405" y="193" font-size="12" opacity="0.7">étape 5 : ch-03.js</text>
+    <text x="405" y="193" font-size="12" opacity="0.7">étape 5 : texte, média</text>
     <text x="715" y="175" font-weight="700">vos animations</text>
     <text x="715" y="193" font-size="12" opacity="0.7">ch-03.js</text>
     <text x="555" y="225" font-size="12" opacity="0.7">en pointillé : le module de chaque chapitre, à chacun</text>
@@ -71,7 +71,7 @@
 Votre dépôt a déjà toute l'[arborescence](arborescence-recit-defilant.md) sur `main` (un fichier CSS et un fichier JS par chapitre), et une branche par personne? Passez à la suite.
 
 ??? note "Sinon : l'étape 0, ensemble, sur `main`"
-    1. Créez tous les fichiers de [L'arborescence du dépôt](arborescence-recit-defilant.md), **même vides**, avec tous les `@import` et les `import` déjà écrits.
+    1. Créez tous les fichiers de [Arborescence et code de départ](arborescence-recit-defilant.md#arborescence), **même vides**, avec tous les `@import` et les `import` déjà écrits.
     2. Dans `index.html` : un `<main id="recit">`, et `main.js` chargé comme module (`type="module"`). Vos `<section>` statiques restent là jusqu'à l'étape 4.
     3. Dans `data/data.json` : **le squelette de tous vos chapitres**, dans l'ordre du récit. Un objet par chapitre, avec les clés communes (`id`, `numero`, `titre`, `responsable`, `texte`) et un `"contenu": {}` vide. Le format : [Les données : `data.json`](arborescence-recit-defilant.md#data-json). Vos autres idées du cahier de charges iront dans le `contenu`, au besoin.
     4. *Commit* `Commun : ajoute la structure de départ`, puis *push*.
@@ -83,35 +83,51 @@ Votre dépôt a déjà toute l'[arborescence](arborescence-recit-defilant.md) su
 
 | | Personne A | Personne B |
 |---|---|---|
-| **1. Ensemble, un seul poste, sur `main`** | Au clavier, étapes 1 à 3 | Au clavier, étapes 4 à 6 |
+| **1. Ensemble, en équipe, un seul poste, sur `main`** | Au clavier, étapes 1 à 3 | Au clavier, étapes 4 à 6 |
 | **2. Chacun, sur sa branche** | **Ses** chapitres dans les données | **Ses** chapitres dans les données |
 | **3. À la fin** | Une *pull request* | Une *pull request* |
 
-`main.js` est un fichier commun : on l'écrit ensemble, sinon c'est le conflit garanti. En alternant au clavier, **les deux** écrivent du code de chargement, et les deux devront l'expliquer. Celui qui n'est pas au clavier lit, propose et repère les erreurs.
+`main.js` est un fichier commun : on l'écrit ensemble, en équipe, sinon c'est le conflit garanti. En alternant au clavier, **les deux** écrivent du code de chargement, et les deux devront l'expliquer. Celui qui n'est pas au clavier lit, propose et repère les erreurs.
 
-## Partie 1 : ensemble, en 6 étapes { #ensemble }
+## Partie 1 : ensemble, en équipe, en 6 étapes { #ensemble }
 
 C'est la même chose que l'[exercice « Du JSON à la carte »](../../exercices/ex-json-cartes/index.md) : gardez-le ouvert. **Vérifiez chaque étape** dans le navigateur avant de passer à la suivante.
 
-| Étape | Vous codez | Vérification |
-|---|---|---|
-| **1. Charger** | `async loadChapters()` : va chercher `data/data.json` et retourne le tableau. Appelée dans `init()`. Voir [`fetch` et `async`](../../js/recap-js.md#async), [`init()`](../../js/recap-js.md#init). | `console.table()` : une ligne par chapitre |
-| **2. Parcourir** | Avec [`forEach`](../../js/recap-js.md#foreach) : le numéro et le titre de chaque chapitre, dans la console. | Vos chapitres, dans l'ordre du récit |
-| **3. Le HTML d'un chapitre** | `createChapter(chapter)` retourne une `<section>` : l'`id` du chapitre, un `<h2>`, un `<p>` par paragraphe de `texte`. Indice : [`map()` puis `join("")`](../../js/recap-js.md#map-join). | Le HTML du 1er chapitre, dans la console |
-| **4. Dans la page** | Retirez vos `<section>` statiques : `<main id="recit">` est vide. Ajoutez-y le HTML de **chaque** chapitre. | Tous vos titres, dans l'ordre. Sans texte, un chapitre n'affiche que son titre : normal. |
-| **5. Le média** | 2e paramètre de `createChapter` : le module du chapitre. Après les paragraphes : le HTML de `chapterModule.createMedia(chapter)`. | Vos médias réapparaissent |
-| **6. Les animations** | À la fin de `init()` : la fonction `animate` du module de chaque chapitre, avec sa `<section>` et ses données. | Vos animations de la *phase 1*{ .w5-phase .w5-phase-1 } fonctionnent |
+!!! danger "Étape 4 : une copie de sécurité AVANT de retirer vos sections"
+    Vos `<section>` statiques contiennent tout votre travail de la *phase 1*{ .w5-phase .w5-phase-1 } : à l'étape 5, chacun en aura besoin pour remplir son `createMedia()`. Avant de les retirer de `index.html` :
 
-Le code des étapes 5 et 6 est fourni : [`main.js` dans l'arborescence](arborescence-recit-defilant.md#main-js).
+    1. Dans VS Code, clic droit sur `index.html`, **Copier**.
+    2. Clic droit sur le dossier `documentation/`, **Coller**.
+    3. Renommez la copie **`index-phase-1.html`**.
+    4. *Commit* : `Commun : copie de sécurité de la phase 1`.
+
+    Ensuite seulement, retirez les sections. Vous irez chercher votre HTML dans `documentation/index-phase-1.html`.
+
+- [ ] **1. Charger** : coder la fonction `async loadChapters()` qui va chercher `data/data.json` et retourne le tableau. Appelée dans `init()`. Voir [`fetch` et `async`](../../js/recap-js.md#async), [`init()`](../../js/recap-js.md#init).
+  - *Vérification* : `console.table()` affiche une ligne par chapitre.
+- [ ] **2. Parcourir** : avec [`forEach`](../../js/recap-js.md#foreach), le numéro et le titre de chaque chapitre, dans la console.
+  - *Vérification* : vos chapitres, dans l'ordre du récit.
+- [ ] **3. Le HTML d'un chapitre** : coder la fonction `createChapter(chapter)` qui retourne une `<section>` : l'`id` du chapitre et un `<h2>` avec son titre.
+  - *Vérification* : le HTML du 1er chapitre, dans la console.
+- [ ] **4. Dans la page** : **d'abord, la copie de sécurité** (voir l'encadré). Puis retirez vos `<section>` statiques : `<main id="recit">` est vide. Ajoutez-y le HTML de **chaque** chapitre.
+  - *Vérification* : tous vos titres, dans l'ordre. Le texte et les médias reviennent à l'étape 5.
+- [ ] **5. Le contenu** : 2e paramètre de `createChapter` : le module du chapitre. Sous le `<h2>` : le HTML de `chapterModule.createMedia(chapter)`, qui retourne le texte **et** le média.
+  - *Vérification* : vos textes et vos médias réapparaissent.
+- [ ] **6. Les animations** : à la fin de `init()`, la fonction `animate` du module de chaque chapitre, avec sa `<section>` et ses données.
+  - *Vérification* : vos animations de la *phase 1*{ .w5-phase .w5-phase-1 } fonctionnent.
+
+Le code des étapes 5 et 6 est fourni : [`main.js`, dans Arborescence et code de départ](arborescence-recit-defilant.md#main-js).
 
 !!! tip "Étape 5 : pourquoi le module du chapitre?"
-    Chaque média est différent : une parallaxe, une spritesheet, une dataviz. C'est donc le module du chapitre qui le crée, pas `main.js`. Pour l'instant, chacun **copie le HTML de son média, tel quel**, depuis son ancienne `<section>`, dans le `return` de son `createMedia()`. Vous le relierez aux données à la partie 2.
+    Chaque chapitre est différent : un texte avant la parallaxe, un texte par plan, un titre qui s'écrit lettre par lettre. C'est donc le module du chapitre qui crée **son texte et son média**, pas `main.js`. Pour l'instant, chacun **copie tout ce qui suit le `<h2>`** de son ancienne `<section>`, dans `documentation/index-phase-1.html`, tel quel, dans le `return` de son `createMedia()`. Vous le relierez aux données à la partie 2.
 
-!!! tip "Les animations se déclenchent au mauvais endroit?"
-    ScrollTrigger calcule ses repères quand vous créez vos animations. Si la page change de hauteur après, ils sont décalés (activez `markers: true` pour le voir). Deux réflexes :
+!!! warning "Obligatoire : `ScrollTrigger.refresh()` à la fin de `init()`"
+    ScrollTrigger calcule ses repères quand vous créez vos animations. Vos chapitres arrivent par `fetch()`, et la page change de hauteur après : sans recalcul, vos animations partent au mauvais endroit (activez `markers: true` pour le voir). Deux réflexes :
 
     - à la fin de `init()`, après les `animate()`, ajoutez `ScrollTrigger.refresh();`;
     - donnez un `width` et un `height` à vos `<img>` : la place est réservée avant le chargement.
+
+    [Pourquoi, et comment le vérifier](../../js/gsap-scrolltrigger.md#refresh)
 
 Un chapitre n'a pas encore d'animation? Un `console.log("chapitre 3 prêt")` dans son `animate` suffit pour vérifier l'étape 6.
 
@@ -121,9 +137,9 @@ Un chapitre n'a pas encore d'animation? Un `console.log("chapitre 3 prêt")` dan
 
 Sur **votre** branche, mise à jour avec `main` ([étape 5 de Git en équipe](git-en-equipe.md#etape-5)) :
 
-1. **Le texte** : le vrai titre et les vrais paragraphes, dans **vos** objets de `data.json`.
-2. **Le média** : dans `createMedia()`, ce qui vient des données devient `${...}` (les chemins des images, les textes alternatifs). Ces valeurs vont dans le `contenu` de votre chapitre. Le détail : [Passer à la *phase 2*{ .w5-phase .w5-phase-2 }](arborescence-recit-defilant.md#phase-2).
-3. **Vérification** : vos chapitres s'affichent comme avant, et vos animations fonctionnent toujours.
+- [ ] **Le texte** : le vrai titre, et le vrai texte de **vos** chapitres dans `data.json`. Votre `createMedia()` le lit et construit le HTML **dans l'ordre dont votre chapitre a besoin** : c'est la structure de votre JSON qui décide. Un chapitre simple? Le tableau `texte`, avec [`map()` puis `join("")`](../../js/recap-js.md#map-join). Texte et images en alternance? Une liste de blocs dans votre `contenu` : voir [Texte et médias en alternance](arborescence-recit-defilant.md#alternance).
+- [ ] **Le média** : dans `createMedia()`, ce qui vient des données devient `${...}` (les chemins des images, les textes alternatifs). Ces valeurs vont dans le `contenu` de votre chapitre. Le détail : [Passer à la *phase 2*{ .w5-phase .w5-phase-2 }](arborescence-recit-defilant.md#phase-2).
+- [ ] **Vérification** : vos chapitres s'affichent comme avant, et vos animations fonctionnent toujours.
 
 ## Les *pull requests* { #pull-requests }
 

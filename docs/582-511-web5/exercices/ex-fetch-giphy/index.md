@@ -1,4 +1,4 @@
-# Exercice JavaScript Fetch API
+# **Exercice** JavaScript Fetch API
 
 ## Dossier de départ
 

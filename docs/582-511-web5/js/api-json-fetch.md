@@ -1,4 +1,4 @@
-# :material-api:  API, JSON et fetch : le trio du web moderne
+# **JavaScript** :material-api:  API, JSON et fetch : le trio du web moderne
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
