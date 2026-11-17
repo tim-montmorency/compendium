@@ -1,4 +1,4 @@
-# Bootcamp JS
+# **Exercice** Bootcamp JS
 
 ## 1. Écouteurs d’événements (`addEventListener`)
 

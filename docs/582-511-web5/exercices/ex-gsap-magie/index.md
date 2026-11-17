@@ -1,4 +1,4 @@
-# :material-pencil-ruler:  Exercice : Magie
+# **Exercice** :material-pencil-ruler:  Magie
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">

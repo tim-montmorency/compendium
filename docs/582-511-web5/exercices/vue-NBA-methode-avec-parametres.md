@@ -1,4 +1,4 @@
-# Exercice NBA - Méthode unique avec paramètres
+# **Exercice** NBA - Méthode unique avec paramètres
 
 - [ ] Faire un *fork* du pen complété de votre [exercice NBA complété la semaine dernière](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-tableau-nba/). Le Pen était nommé: *EXERC Vue.js: Tableau NBA*, faites en un *fork* et renommez le *EXERC Vue.js: Tableau NBA - Méthode unique avec paramètres*.
 - [ ] Modifiez votre code afin de n’avoir *qu'une seule méthode* pour gérer l’augmentation des scores (au lieu de deux, comme dans votre premier essai).

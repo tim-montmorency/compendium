@@ -1,4 +1,4 @@
-# :material-layers-outline:  L'effet parallaxe
+# **CSS** :material-layers-outline:  L'effet parallaxe
 
 ![](./assets/parallex-BG-composition-layers.png)
 

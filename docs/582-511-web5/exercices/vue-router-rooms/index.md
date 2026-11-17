@@ -1,4 +1,4 @@
-# Exercice "Navigation parmi les salles" via Router
+# **Exercice** "Navigation parmi les salles" via Router
 
 ## Aperçu du résultat
 

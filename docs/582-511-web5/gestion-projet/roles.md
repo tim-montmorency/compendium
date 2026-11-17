@@ -21,7 +21,7 @@
 * Reponsable des opérations
 -->
 
-# 🌐 Rôles classiques dans une équipe de projet web
+# **Gestion de projet** 🌐 Rôles classiques dans une équipe de projet web
 
 ## 🧭 Gestion et coordination
 

@@ -1,4 +1,4 @@
-# Collection de films part.2 - Boucle v-for
+# **Exercice** Collection de films part.2 - Boucle v-for
 
 - [ ] Faire un **fork** du pen complété de votre exercice [Collection de films](https://tim-montmorency.com/timdoc/582-518MO/exercices/vue-collection-films-1/). Le Pen était nommé:  *EXERC - Vue.js - Collection de films Part.1 - Classes CSS dynamiques*, faites en un **fork** et renommez le *EXERC - Vue.js - Collection de films Part.2 - Boucle v-for*.
 - [ ] Modifiez votre code afin de faire une boucle sur le tableau de données ci-compte (voir ci-bas). N'oubliez pas de changer le contenu de la balise ainsi que sa classe dynamique pour fonctionner dans la boucle et réfléter le résultat attendu de la *Partie 1* de l'exercice.

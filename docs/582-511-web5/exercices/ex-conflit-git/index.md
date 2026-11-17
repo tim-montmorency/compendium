@@ -1,4 +1,4 @@
-# :material-source-merge:  Exercice : provoquer et régler un conflit
+# **Exercice** :material-source-merge:  Provoquer et régler un conflit
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>

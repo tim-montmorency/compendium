@@ -1,5 +1,5 @@
 
-# CSS Grid - Intro
+# **CSS** CSS Grid - Intro
 
 Tout comme [flexbox](https://tim-montmorency.com/timdoc/582-211/css/flexbox/), la propriété `display: grid;` ou sa variante `display: inline-grid;`, influence l'affichage de ses enfants. Cependant, contrairement à flexbox qui les positionne en fonction d'une seule dimension (x *ou* y), **grid** permet de les positionner sur une grille quadrillée en deux dimensions
 (x *&* y).

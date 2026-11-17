@@ -1,4 +1,4 @@
-# Vue: Mini-catalogue *Jeux retro*
+# **Exercice** Vue: Mini-catalogue Jeux retro
 
 
 ## Fichiers de départ

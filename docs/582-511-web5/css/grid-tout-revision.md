@@ -2,7 +2,7 @@
 canonical: https://tim-montmorency.com/compendium/582-511-web5/css/grid/intro.html
 ---
 
-# CSS Grid
+# **CSS** CSS Grid
 
 Tout comme flexbox, la propriété `display: grid` (ou sa variante `display: inline-grid`) influence l'affichage des enfants d'un élément. Mais contrairement à flexbox, qui positionne ses items sur une seule dimension (x ou y), grid les positionne sur une grille en deux dimensions (x et y).
 

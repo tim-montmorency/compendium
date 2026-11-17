@@ -1,4 +1,4 @@
-# Exercice Vue.js: Badge VIP Festif
+# **Exercice** Badge VIP Festif
 
 ## Démo
 ![](./assets/vue-badge-vip-demo.png)

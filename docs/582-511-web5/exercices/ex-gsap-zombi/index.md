@@ -1,4 +1,4 @@
-# :material-pencil-ruler:  Exercice : Zombi
+# **Exercice** :material-pencil-ruler:  Zombi
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">

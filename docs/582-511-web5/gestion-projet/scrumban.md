@@ -1,4 +1,4 @@
-# Mélanger Scrum et Kanban
+# **Gestion de projet** Mélanger Scrum et Kanban
 
 Ce mélange des 2 méthode est **très courant** : on appelle ça un *hybride “Scrumban”* (contraction de *Scrum* + *Kanban*).
 

@@ -1,4 +1,4 @@
-# Grid - Joker: The Killing Joke
+# **Exercice** Grid - Joker: The Killing Joke
 
 Dans le cadre de cet exercice, vous devrez recréer l’une des planches du célèbre roman graphique <a href="https://en.wikipedia.org/wiki/Batman:_The_Killing_Joke">Batman: The killing joke</a> à l’aide d’une grille&nbsp;CSS.
 

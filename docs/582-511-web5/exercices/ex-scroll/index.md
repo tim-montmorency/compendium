@@ -1,4 +1,4 @@
-# :material-pencil-ruler:  Exercice : animer au défilement
+# **Exercice** :material-pencil-ruler:  Animer au défilement
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">

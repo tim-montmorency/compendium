@@ -1,4 +1,4 @@
-# Vue — Composante `like-button`
+# **Exercice** Vue : composante `like-button`
 
 ## Fichiers de départ
 

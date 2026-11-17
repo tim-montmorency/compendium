@@ -1,4 +1,4 @@
-# Exercice 1 — Grille de couleurs (3×2)
+# **Exercice** Grille de couleurs (3×2)
 
 **Objectif :** pratiquer les bases de CSS Grid (colonnes, rangées, gap).
 

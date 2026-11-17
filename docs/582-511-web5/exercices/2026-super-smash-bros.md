@@ -1,4 +1,4 @@
-# Super Smash Bros
+# **Exercice** Super Smash Bros
 
 Pour cet exercice, vous devez compléter un menu du jeu Super Smash Bros déjà entamé.
 

@@ -1,4 +1,4 @@
-# Grid - Offres Samsung
+# **Exercice** Grid - Offres Samsung
 
 
 Pour cet exercice, vous devez compléter une grille d’offres promotionnelles présentant divers produits Samsung mis en vedette lors de la semaine Galaxy. Pour ce faire, vous devez maximiser vos connaissances de SASS et de&nbsp;Grid.

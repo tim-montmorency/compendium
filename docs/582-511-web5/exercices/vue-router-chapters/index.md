@@ -1,4 +1,4 @@
-# Exercice "Navigation parmi les chapitres" via Router
+# **Exercice** "Navigation parmi les chapitres" via Router
 
 ## Aperçu du résultat
 

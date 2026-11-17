@@ -1,4 +1,4 @@
-# :simple-vuedotjs:  Révision : la chasse aux bogues
+# **Exercice** :simple-vuedotjs:  Révision : la chasse aux bogues
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">
