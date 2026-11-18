@@ -1,16 +1,15 @@
 # **Cours 12.1** Les composants Vue
 <!-- mer. 18 nov. (reporté du ven. 13 nov. : levée de cours) -->
 
-![](assets/cours11b-banniere.webp){.w-100}
+![](assets/cours12a-banniere.webp){.w-100}
 
 !!! warning "Grève du 13 nov."
     En raison de la levée de cours du 13 novembre, il sera repris le **jeudi 17 déc.**
     
     Tout le calendrier qui suit est décalé d'un cours mais quelques dates ont quand même été changées, notamment celle de la Bêta. Grâce à cela, vous avez maintenant 2 semaines entre aujourd'hui (remise du prototype) et la remise de la Bêta finale (avant le QA).
     
-    [Voir le calendrier](projets/recit-defilant/index.md#calendrier)
-
-    [Voir le plan de cours révisé](https://cmontmorency365-my.sharepoint.com/:b:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/01_plan_de_cours/582-511_web5_plan-de-cours_A2026_V5.pdf?d=w73b61fa54f7345f2856736735b1ac593&csf=1&web=1&e=TtHuyu)
+    - [Voir le calendrier](projets/recit-defilant/index.md#calendrier)
+    - [Voir le plan de cours révisé](https://cmontmorency365-my.sharepoint.com/:b:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/01_plan_de_cours/582-511_web5_plan-de-cours_A2026_V5.pdf?d=w73b61fa54f7345f2856736735b1ac593&csf=1&web=1&e=TtHuyu)
 
 ??? danger "Un composant Vue par personne, obligatoire"
 
@@ -281,6 +280,7 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 ### D'ici le ven. 20 nov. (cours 12.2)
 
 - **La matrice de responsabilités à jour** (section 4 du `CAHIER-DE-CHARGES.md`) : une ligne par composant Vue, avec son responsable.
-- **Votre composant Vue intégré** dans le projet, si ce n'est pas terminé en classe : *pull request* fusionnée dans `main` d'ici le mini-jalon du mer. 25 nov. (cours 13.1).
+- **Votre composant Vue intégré** dans le projet ([la marche à suivre](projets/recit-defilant/composant-vue.md#integrer)), si ce n'est pas terminé en classe : *pull request* fusionnée dans `main` d'ici le mini-jalon du mer. 25 nov. (cours 13.1).
+- **L'exercice [*Cheese Kanye says*](exercices/ex-vue-kanye/index.md)** : la première API dans une app Vue. Il prépare le cours 12.2, sur les API externes.
 
 [Voir le calendrier](projets/recit-defilant/index.md#calendrier)
