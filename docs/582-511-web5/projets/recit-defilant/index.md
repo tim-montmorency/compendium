@@ -298,7 +298,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Remise 1 : le cahier de charges *ven 23 oct, 23h59* { #remise-1 }
 
-??? note "Les consignes"
+??? note "Les consignes pour Cahier de charges"
 
     - [ ] Le **dépôt GitHub de l'équipe** existe, avec votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
     - [ ] `README.md` : les noms de l'équipe, le titre et le thème du récit, le lien vers le Figma.
@@ -310,9 +310,9 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
     [:material-file-document-edit-outline: Le cahier de charges et le scénarimage (storyboard)](cahier-de-charges.md){ .md-button .md-button--primary }
 
-### Storyboard v2 *ven 30 oct, 23h59* { #storyboard-v2 }
+#### Remise 1.2 : Storyboard v2 *ven 30 oct, 23h59* { #storyboard-v2 }
 
-??? note "Les consignes"
+??? note "Les consignes pour Storyboard v2"
 
     Après nos rencontres du mer. 28 oct., vous reprenez votre storyboard avec les exigences précisées : un cadre mobile pour chaque cadre desktop, le texte de chaque chapitre placé dans le cadre (en *lorem ipsum*), et la fiche d'annotation complète.
 
@@ -320,7 +320,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Remise 2: Point de contrôle *ven 6 nov, début du cours 10.2* { #point-de-controle }
 
-??? note "Les consignes"
+??? note "Les consignes pour Point de contrôle"
 
     !!! danger "Remise formative : l'échéance compte"
         Comme les autres remises, le point de contrôle est noté selon les [4 niveaux](#echeances). Ce qui compte : que **votre base fonctionne**, pas qu'elle soit belle.
@@ -359,12 +359,10 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Remise 3: Prototype *~~ven 13 nov~~ mer 18 nov* { #prototype }
 
-???+ note "Les consignes"
+???+ note "Les consignes pour Prototype"
 
-    !!! warning "Reporté : ~~ven. 13 nov.~~ mer. 18 nov."
-        En raison de la levée de cours du ven. 13 nov., le cours et le prototype prévus ce jour-là ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus élevées.
-
-        Le cours du 13 nov. sera repris le **jeu. 17 déc.** : tout le calendrier qui suit le prototype est décalé d'un cours. La **bêta** a lieu le **mer. 2 déc.**, la **défense** le **ven. 11 déc.** et la **remise finale** le **jeu. 17 déc.** Voir le [calendrier](#calendrier).
+    !!! warning "Reporté : ~~ven. 13 nov~~ mer. 18 nov : attentes + élevées"
+        En raison de la levée de cours du ven. 13 nov., le cours et le prototype prévus ce jour-là ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus 
 
     !!! danger "Remise formative : l'échéance compte"
         Rien à déposer : vous me **montrez** votre récit pendant le cours. Comme les autres remises, le prototype est noté selon les [4 niveaux](#echeances).
@@ -390,7 +388,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Mini-jalon *mer 25 nov, début du cours 13.1* { #mini-jalon }
 
-??? note "Les consignes"
+??? note "Les consignes pour Mini-jalon"
 
     Un court arrêt entre le prototype et la bêta, pour ne pas tout accumuler à la fin. Rien à déposer : je passe d'équipe en équipe.
 
@@ -403,9 +401,9 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
     - [ ] La **matrice de responsabilités à jour** (section 4 du cahier de charges) : une ligne par composant Vue.
     - [ ] **L'API choisie et testée** : la donnée reçue s'affiche dans la console avec `console.log()`, et l'API est documentée dans la section 6 du cahier de charges. [Choisir et tester votre API](dataviz.md#api)
 
-### Remise 4: Bêta *~~ven 20 nov~~ mer 2 déc, début du cours 14.1* { #beta }
+### Remise 4: Bêta *mer 2 déc, début du cours 14.1* { #beta }
 
-??? note "Les consignes"
+??? note "Les consignes pour Bêta"
 
     !!! danger "Remise formative : l'échéance compte"
         Comme les autres remises, la bêta est notée selon les [4 niveaux](#echeances).
@@ -432,12 +430,12 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Défense individuelle *ven 11 déc, cours 15.2* { #defense }
 
-??? note "Les consignes"
+??? note "Les consignes pour Défense individuelle"
 
     À venir.
 
 ### Remise 5 : la finale *jeu 17 déc, cours 15.3* { #remise-finale }
 
-??? note "Les consignes"
+??? note "Les consignes pour Remise finale"
 
     À venir.
