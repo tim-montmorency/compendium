@@ -27,7 +27,7 @@ Cela signifie que lorsque l'utilisateur navigue vers une nouvelle URL, Vue Route
 
     ## 🤔 Pourquoi utiliser Router?
 
-    ### Dans une application monopage *SPA* (Single Page App)
+    ### Dans une application monopage SPA (Single Page App)
 
     #### Sans Vue Router 
 
@@ -402,7 +402,7 @@ export default {
 </script>
 ```
 
-### 4.2. Paramètre de requête (*query parameters*)
+### 4.2. Paramètre de requête (query parameters)
 
 Un paramètre de requête est une information ajoutée à la fin d’une URL pour transmettre des données à une page web ou à une API.
 

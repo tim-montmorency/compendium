@@ -42,11 +42,11 @@ Une scène épinglée, 5 calques, deux personnages : un exemple complet.
 
 ## Nouveau : votre récit se construit en deux phases.
 
-### *Phase 1*{ .w5-phase .w5-phase-1 }: intégration *statique*
+### *Phase 1*{ .w5-phase .w5-phase-1 }: intégration statique
 
 *Phase 1*{ .w5-phase .w5-phase-1 }, **intégration statique** : vos chapitres écrits **directement en HTML et en CSS**, puis animés. **Du 6 au ~~13~~ 18 nov.**, accepté jusqu'au prototype (~~ven. 13 nov.~~ mer. 18 nov.).
 
-### *Phase 2*{ .w5-phase .w5-phase-2 }: intégration *dynamique*
+### *Phase 2*{ .w5-phase .w5-phase-2 }: intégration dynamique
 
 *Phase 2*{ .w5-phase .w5-phase-2 }, intégration **dynamique** : le texte et les médias déplacés dans `data.json`. **Du ~~13 au 20 nov.~~ 18 nov. à la bêta**, exigé à la bêta (~~ven. 20 nov.~~ **mer. 2 déc.**).
 

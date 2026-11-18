@@ -30,14 +30,14 @@ La philosophie agile repose sur le **Manifeste Agile (2001)**, qui valorise :
 
 ## 🧩 Les concepts clés
 
-### 🔹 Itération (ou *sprint*)
+### 🔹 Itération (ou sprint)
 
 Une **itération** est un cycle de travail court (souvent de 1 à 4 semaines) où l’équipe conçoit, développe, teste et livre une **version utilisable** du produit.  
 Chaque itération se conclut par une **revue** (démonstration du travail accompli) et une **rétrospective** (analyse de ce qui peut être amélioré).
 
 ---
 
-### 🔹 User Story → ⚙️ *Histoire utilisateur*
+### 🔹 User Story → ⚙️ Histoire utilisateur
 
 Une **user story** (ou *histoire utilisateur* en français) est une **description simple et concrète** d’un besoin du point de vue de l’utilisateur final.
 

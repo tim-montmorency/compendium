@@ -141,7 +141,7 @@ Commit final avant de partir.
 
 ## Devoirs
 
-### Portfolio, pour le cours 6.1 (mercredi 30 sept.)
+### Portfolio, pour le cours 6.1 *mercredi 30 sept*
 
 **Obligatoire** :
 

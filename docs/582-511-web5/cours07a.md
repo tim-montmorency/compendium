@@ -202,7 +202,7 @@ N'oubliez pas : **chaque question posée à l'IA depuis la bêta**, avec la date
 
 ## Devoirs
 
-### Portfolio : remise finale (gr. Lora jeu. 8 oct. · gr. Enric jeu. 15 oct.)
+### Portfolio : remise finale *gr Lora jeu 8 oct · gr Enric jeu 15 oct*
 
 - [ ] GitHub Pages publie `main`, sans la ligne `noindex`, et l'adresse est dans votre `README.md`.
 - [ ] Vos correctifs (au moins les bloquants et les majeurs) sont validés dans l'onglet **Correctifs**.

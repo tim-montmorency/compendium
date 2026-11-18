@@ -136,7 +136,7 @@ Je le vérifie avec vous au début du cours. Il est formatif.
 
 Au cours 13.1, on commence la *phase 2*{ .w5-phase .w5-phase-2 } ensemble : lisez d'avance [les étapes](projets/recit-defilant/json-chapitres.md#ensemble).
 
-### D'ici la bêta (~~ven. 20 nov.~~ **mer. 2 déc.**, cours 14.1), en *phase 2*{ .w5-phase .w5-phase-2 }
+### D'ici la bêta, en *phase 2*{ .w5-phase .w5-phase-2 } *~~ven 20 nov~~ mer 2 déc, cours 14.1*
 
 La bêta doit être **fonctionnelle**, pas finie : l'autre équipe doit pouvoir la tester.
 

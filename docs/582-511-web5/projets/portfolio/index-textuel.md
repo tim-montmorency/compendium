@@ -117,7 +117,7 @@ Vous devrez mener et documenter une démarche de contrôle de qualité dans un f
 
 ### Remises formatives
 
-#### Remise 1 : Planification et design *(gr. Enric 14 sept. | gr. Lora 17 sept.)*
+#### Remise 1 : Planification et design *gr Enric 14 sept · gr Lora 17 sept*
 
 - dépôt GitHub initialisé et doit contenir:
   - <span class="important-label">IMPORTANT</span>, le dépôt doit être privé et vous devez inviter *marie-michelle-ouellet* comme collaboratrice
@@ -139,7 +139,7 @@ Vous devrez mener et documenter une démarche de contrôle de qualité dans un f
 
 **Rétroaction formative individuelle** de l'enseignante.
   
-#### Remise 2 : Version bêta *(vendredi 2 octobre)* { #remise-2-version-beta-vendredi-2-octobre }
+#### Remise 2 : Version bêta *vendredi 2 octobre* { #remise-2-version-beta-vendredi-2-octobre }
 
 - design corrigé et adapté, suite à la rétroaction de la remise 1,
 - dépôt GitHub mis à jour :
@@ -166,7 +166,7 @@ Vous devrez mener et documenter une démarche de contrôle de qualité dans un f
 
 ### Remise finale : sommative (40%)
 
-#### Remise 3 (FINALE) : Portfolio complet et présentation devant le jury *(gr Lora: 8 oct | gr Enric: 15 oct)*
+#### Remise 3 (FINALE) : Portfolio complet et présentation devant le jury *gr Lora 8 oct · gr Enric 15 oct*
 
 - dépôt du site en ligne (déploiement sur un serveur web de votre choix),
 - justification des choix technologiques tel que présenté à la remise 1 (PLANIFICATION.md) et s'il y a eu des changements en cours de projet, justification de ces changements dans le journal de bord (JOURNAL.md),

@@ -121,7 +121,7 @@ Commit final avant de partir.
 
 ## Devoirs
 
-### Portfolio: remise bêta (vend. 2 octobre)
+### Portfolio: remise bêta *vend 2 octobre*
 
 Compléter tous les éléments de la [liste de vérification de la remise bêta](projets/portfolio/remise-beta.md), en particulier :
 

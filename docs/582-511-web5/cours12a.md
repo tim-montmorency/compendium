@@ -6,7 +6,7 @@
 !!! warning "Grève du 13 nov."
     En raison de la levée de cours du 13 novembre, il sera repris le **jeudi 17 déc.**
     
-    Tout le calendrier qui suit est décalé d'un cours mais quelques dates ont quand même été changées, notamment celle de la Beta. Grâce à cela, vous avez maintenant 2 semaines entre aujourd'hui (remise du prototype) et la remise de la Beta finale (avant le QA).
+    Tout le calendrier qui suit est décalé d'un cours mais quelques dates ont quand même été changées, notamment celle de la Bêta. Grâce à cela, vous avez maintenant 2 semaines entre aujourd'hui (remise du prototype) et la remise de la Bêta finale (avant le QA).
     
     [Voir le calendrier](projets/recit-defilant/index.md#calendrier)
 

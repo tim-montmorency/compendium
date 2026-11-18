@@ -380,7 +380,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
 
 ## Configuration de stores pour le projet App web créative
 
-### Pour *Mémoires interactives*
+### Pour Mémoires interactives
 
 *Structure des stores suggérée:*
 
@@ -420,7 +420,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
      - `logout()`
      - `register()`
 
-#### Checklist *Mémoires interactives*
+#### Checklist Mémoires interactives
 
 - [ ] Création des 2 *stores* obligatoires:
   - [ ] `museum.js` (structure de base)
@@ -431,7 +431,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
   - [ ] `MemoryCard.vue` (carte de mémoire)
   - [ ] `MemoryList.vue` (grille de mémoires)
 
-### Pour *Trace ton chemin*
+### Pour Trace ton chemin
 
 *Structure des stores suggérée:*
 
@@ -492,7 +492,7 @@ Je récupère la valeur du compteur du store depuis `ComponentB`:
      - `toggleMute()`
      - `setVolume()`
 
-#### Checklist *Trace ton chemin*
+#### Checklist Trace ton chemin
 
 - [ ] Création des 2 premier *stores*:
   - [ ] `story.js` (chapitres, navigation)

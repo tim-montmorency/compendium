@@ -1,4 +1,4 @@
-# **Portfolio** Remise 3 : remise finale (gr. Lora jeu. 8 oct. · gr. Enric jeu. 15 oct.)
+# **Portfolio** Remise 3 : remise finale *Gr Lora jeu 8 oct · gr Enric jeu 15 oct*
 
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
