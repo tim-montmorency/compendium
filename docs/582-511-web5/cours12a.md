@@ -96,7 +96,7 @@ Six questions pour réactiver ce qu'on a vu mercredi, avant de construire vos co
 
 [:simple-vuedotjs: Collection de films](exercices/ex-vue-films/index.md){ .md-button } ou [:simple-vuedotjs: Cheese Kanye says](exercices/ex-vue-kanye/index.md){ .md-button }
 
-## 3. :material-bug-outline:  Révision : la chasse aux bogues *20 min* { #revision }
+## 3. :material-bug-outline: Films: la chasse aux bogues *20 min* { #revision }
 
 Le code de l'exercice Collection de films, avec 5 bogues cachés dedans. En duo, vous les trouvez en lisant, puis vous les corrigez un à la fois, la console ouverte.
 
