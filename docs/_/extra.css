@@ -1010,7 +1010,6 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .finishing .md-typeset details summary {
   font-size: 1.6em;
   font-weight: 300;
-  line-height: 1.2em;
 }
 
 /* Un accordéon ou une admonition DANS un autre : titre plus petit */
@@ -1025,6 +1024,12 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 }
 
 .finishing .md-typeset em {
+  color: #fabc2a;
+}
+
+/* Gras italique (***texte***) : jaune ET gras, même dans un tableau.
+   Le gras d'une cellule est blanc : on force le jaune. */
+.finishing .md-typeset :is(p, li, td) :is(em strong, strong em) {
   color: #fabc2a;
 }
 
@@ -1265,3 +1270,50 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   color: var(--md-default-fg-color--light);
   vertical-align: middle;
 }
+
+/* ===== Accordéons : une étiquette « Afficher / Masquer » ===== */
+/* L'étiquette « Afficher » remplace la petite flèche, à droite */
+.finishing .md-typeset details > summary {
+  padding-right: 6.5em;
+  transition: background-color 0.2s;
+}
+
+.finishing .md-typeset details > summary::after {
+  content: "Afficher ›";
+  -webkit-mask-image: none;
+  mask-image: none;
+  background: none;
+  width: auto;
+  height: auto;
+  top: 50%;
+  right: 0.8rem;
+  transform: translateY(-50%);
+  padding: 0.3em 0.8em;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.45em;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0.75;
+  transition: opacity 0.2s, background-color 0.2s;
+}
+
+/* Ouvert : « Masquer », visible seulement au survol */
+.finishing .md-typeset details[open] > summary::after {
+  content: "Masquer ‹";
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+/* Survol et clavier : le titre s'allume, l'étiquette ressort */
+.finishing .md-typeset details > summary:is(:hover, :focus-visible) {
+  background-image: linear-gradient(rgb(255 255 255 / 0.06), rgb(255 255 255 / 0.06));
+}
+
+.finishing .md-typeset details > summary:is(:hover, :focus-visible)::after {
+  opacity: 1;
+}
+/* ===== Fin des accordéons ===== */

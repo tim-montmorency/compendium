@@ -270,24 +270,24 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 | Date | Étape |
 |---|---|
-| **ven. 9 oct.** | Lancement : inspirations (seul), équipes, brainstorm et thème (en équipe), début du cahier de charges |
-| 9 au 20 oct. | **Travail autonome** : concept, chapitres, début du storyboard |
-| **mer. 21 oct.** | Cours : storyboard, modèle de données, matrice de responsabilités. Vous me présentez votre avancement. |
-| **ven. 23 oct.** | Pas de cours. *Remise 1 : cahier de charges*, déposé au plus tard à 23 h 59 |
+| ven. 9 oct. | Lancement : inspirations (seul), équipes, brainstorm et thème (en équipe), début du cahier de charges |
+| 9 au 20 oct. | Travail autonome : concept, chapitres, début du storyboard |
+| mer. 21 oct. | Cours : storyboard, modèle de données, matrice de responsabilités. Vous me présentez votre avancement. |
+| ***ven. 23 oct.*** | Pas de cours. ***Remise 1 : cahier de charges***, déposé au plus tard à 23 h 59 |
 | mer. 28 oct. | Rencontres éclair : rétroaction sur votre storyboard et votre cahier. Branches Git. Animations CSS : parallaxe, spritesheet. |
-| **ven. 30 oct.** | *Remise 1.2 : Storyboard amélioré*, déposé au plus tard à 23 h 59. Animations CSS au défilement. Chargement des chapitres en JSON. |
+| ***ven. 30 oct.*** | ***Remise 1.2 : Storyboard amélioré***, déposé au plus tard à 23 h 59. Animations CSS au défilement. Chargement des chapitres en JSON. |
 | mer. 4 nov. | GSAP + ScrollTrigger, IntersectionObserver |
-| **ven. 6 nov.** | *Remise 2 : Point de contrôle* (formatif) : la structure, les chapitres et une première animation GSAP. Construction des chapitres. |
+| ***ven. 6 nov.*** | ***Remise 2 : Point de contrôle*** (formatif) : la structure, les chapitres et une première animation GSAP. Construction des chapitres. |
 | mer. 11 nov. | Initiation à Vue.js : les principes, et deux exercices. |
-| ~~ven. 13 nov.~~ **mer. 18 nov.** | *Remise 3 : [Prototype](#prototype)* (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée.<br><br>Cours 12.1 : [les composants Vue](composant-vue.md), construits en direct. **Atelier** : chaque personne intègre **son** composant Vue dans le projet. |
+| ~~ven. 13 nov.~~ ***mer. 18 nov.*** | ***Remise 3 : [Prototype](#prototype)*** (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée.<br><br>Cours 12.1 : [les composants Vue](composant-vue.md), construits en direct. Atelier : chaque personne intègre son composant Vue dans le projet. |
 | ven. 20 nov. | Cours 12.2 : API, JSON et fetch. Le fetch externe : [choisir et tester votre API](dataviz.md#api). Atelier : l'API dans votre bac à sable, et la fin de l'intégration de votre composant Vue. |
-| **mer. 25 nov.** | *Mini jalon pour point de contrôle* (formatif) : les composants Vue intégrés (*pull request* fusionnée), l'API testée (la donnée s'affiche dans la console). <br><br>Cours 13.1 : Atelier : la *phase 2*{ .w5-phase .w5-phase-2 }, [ensemble](json-chapitres.md#ensemble). |
+| ***mer. 25 nov.*** | ***Mini-jalon*** (formatif) : les composants Vue intégrés (*pull request* fusionnée), l'API testée (la donnée s'affiche dans la console). <br><br>Cours 13.1 : Atelier : la *phase 2*{ .w5-phase .w5-phase-2 }, [ensemble](json-chapitres.md#ensemble). |
 | ven. 27 nov. | Cours 13.2 : atelier, la *phase 2*{ .w5-phase .w5-phase-2 } [chacun ses chapitres](json-chapitres.md#chacun-ses-chapitres), la dataviz branchée. |
-| ~~ven. 20 nov.~~ **mer. 2 déc.** | *Remise 4: Bêta* : un récit **fonctionnel**, pas fini. [*Phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, **chapitres chargés depuis `data.json`**. Médias finaux intégrés. Les deux composants Vue en place. Dataviz **branchée** : les vraies données de l'API s'affichent, sans animation pour l'instant. Au minimum, les animations du prototype (une par chapitre). Prête pour la QA. |
-| mer. 2 au mer. 9 déc. | Cours 14.1 à 15.1 : **Contrôle de la qualité croisé** (issues GitHub) : tests et rapport (ven. 4 déc.), puis correctifs. |
-| mer. 9 déc. | Cours 15.1 : correctifs. **Finition** : l'animation de la dataviz, toutes vos autres animations. Déploiement final, préparation de la défense. |
-| **ven. 11 déc.** | *Défenses individuelles*, entrevue individuelle en privé avec prof. <br> <br>Cours 15.2 Correctifs et ajustements finaux. |
-| **jeu. 17 déc.** | *Remise 5, la finale*. Présentations des projets d'équipe devant la classe |
+| ~~ven. 20 nov.~~ ***mer. 2 déc.*** | ***Remise 4 : Bêta*** : un récit fonctionnel, pas fini. [*Phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, chapitres chargés depuis `data.json`. Médias finaux intégrés. Les deux composants Vue en place. Dataviz branchée : les vraies données de l'API s'affichent, sans animation pour l'instant. Au minimum, les animations du prototype (une par chapitre). Prête pour la QA. |
+| mer. 2 au mer. 9 déc. | Cours 14.1 à 15.1 : Contrôle de la qualité croisé (issues GitHub) : tests et rapport (ven. 4 déc.), puis correctifs. |
+| mer. 9 déc. | Cours 15.1 : correctifs. Finition : l'animation de la dataviz, toutes vos autres animations. Déploiement final, préparation de la défense. |
+| ***ven. 11 déc.*** | ***Défenses individuelles***, entrevue individuelle en privé avec prof. <br> <br>Cours 15.2 Correctifs et ajustements finaux. |
+| ***jeu. 17 déc.*** | ***Remise 5 : la finale***. Présentations des projets d'équipe devant la classe |
 
 ## Remises et points de contrôle
 
@@ -359,32 +359,34 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Remise 3: Prototype *~~ven 13 nov~~ mer 18 nov* { #prototype }
 
-!!! warning "Reporté : ~~ven. 13 nov.~~ mer. 18 nov."
-    En raison de la levée de cours du ven. 13 nov., le cours et le prototype prévus ce jour-là ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus élevées.
+???+ note "Les consignes"
 
-    Le cours du 13 nov. sera repris le **jeu. 17 déc.** : tout le calendrier qui suit le prototype est décalé d'un cours. La **bêta** a lieu le **mer. 2 déc.**, la **défense** le **ven. 11 déc.** et la **remise finale** le **jeu. 17 déc.** Voir le [calendrier](#calendrier).
+    !!! warning "Reporté : ~~ven. 13 nov.~~ mer. 18 nov."
+        En raison de la levée de cours du ven. 13 nov., le cours et le prototype prévus ce jour-là ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus élevées.
 
-!!! danger "Remise formative : l'échéance compte"
-    Rien à déposer : vous me **montrez** votre récit pendant le cours. Comme les autres remises, le prototype est noté selon les [4 niveaux](#echeances).
+        Le cours du 13 nov. sera repris le **jeu. 17 déc.** : tout le calendrier qui suit le prototype est décalé d'un cours. La **bêta** a lieu le **mer. 2 déc.**, la **défense** le **ven. 11 déc.** et la **remise finale** le **jeu. 17 déc.** Voir le [calendrier](#calendrier).
 
-Pendant le cours, je passe d'équipe en équipe. Vous avez **60 secondes** pour faire défiler votre récit sur votre poste, avec Live Server, du premier au dernier chapitre. On regarde ensemble où vous en êtes, et ce qui reste à faire d'ici la bêta.
+    !!! danger "Remise formative : l'échéance compte"
+        Rien à déposer : vous me **montrez** votre récit pendant le cours. Comme les autres remises, le prototype est noté selon les [4 niveaux](#echeances).
 
-Ce n'est pas un récit fini : c'est un récit **qui se tient du début à la fin**. *Phase 1*{ .w5-phase .w5-phase-1 }, intégration statique, acceptée.
+    Pendant le cours, je passe d'équipe en équipe. Vous avez **60 secondes** pour faire défiler votre récit sur votre poste, avec Live Server, du premier au dernier chapitre. On regarde ensemble où vous en êtes, et ce qui reste à faire d'ici la bêta.
 
-**En équipe**
+    Ce n'est pas un récit fini : c'est un récit **qui se tient du début à la fin**. *Phase 1*{ .w5-phase .w5-phase-1 }, intégration statique, acceptée.
 
-- [ ] Le récit défile **du premier au dernier chapitre**, sans erreur dans la console.
-- [ ] Chaque chapitre a **son texte et au moins un média**, même provisoires.
+    **En équipe**
 
-**Chaque personne**
+    - [ ] Le récit défile **du premier au dernier chapitre**, sans erreur dans la console.
+    - [ ] Chaque chapitre a **son texte et au moins un média**, même provisoires.
 
-- [ ] **Le texte de ses chapitres** est intégré dans le HTML : un premier jet réel et complet, **aucun lorem ipsum**. Il pourra encore être retravaillé.
-- [ ] **Chacun de ses chapitres** a au moins **une animation activée par le défilement** : GSAP + ScrollTrigger, ou CSS au défilement. Elle peut encore être simple : on cherche ce qui bouge, pas ce qui est fini.
-- [ ] Au moins une de ces animations anime un **média** (image, SVG, spritesheet), pas seulement du texte.
-- [ ] Son travail **fusionné dans `main`** par *pull request*.
-- [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 3**, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure).
+    **Chaque personne**
 
-Les composants Vue ne sont pas exigés au prototype : chaque personne intègre le sien pendant le même cours, en atelier, après la démo. Ils sont vérifiés au mini-jalon du mer. 25 nov.
+    - [ ] **Le texte de ses chapitres** est intégré dans le HTML : un premier jet réel et complet, **aucun lorem ipsum**. Il pourra encore être retravaillé.
+    - [ ] **Chacun de ses chapitres** a au moins **une animation activée par le défilement** : GSAP + ScrollTrigger, ou CSS au défilement. Elle peut encore être simple : on cherche ce qui bouge, pas ce qui est fini.
+    - [ ] Au moins une de ces animations anime un **média** (image, SVG, spritesheet), pas seulement du texte.
+    - [ ] Son travail **fusionné dans `main`** par *pull request*.
+    - [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 3**, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure).
+
+    Les composants Vue ne sont pas exigés au prototype : chaque personne intègre le sien pendant le même cours, en atelier, après la démo. Ils sont vérifiés au mini-jalon du mer. 25 nov.
 
 ### Mini-jalon *mer 25 nov, début du cours 13.1* { #mini-jalon }
 

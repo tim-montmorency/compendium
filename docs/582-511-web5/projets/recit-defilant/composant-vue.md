@@ -16,7 +16,7 @@ Un dossier à part, **hors de votre dépôt**.
 1. Un dossier `bac-a-sable-vue/`, ouvert dans VS Code.
 2. Un fichier `index.html` :
 
-  ??? example "Le code de départ : `index.html` Cliquez pour ouvrir le panneau."
+  ??? example "Le code de départ : `index.html`"
       ```html
       <!DOCTYPE html>
       <html lang="fr">

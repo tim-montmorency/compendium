@@ -12,7 +12,7 @@
 
     [Voir le plan de cours révisé](https://cmontmorency365-my.sharepoint.com/:b:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/01_plan_de_cours/582-511_web5_plan-de-cours_A2026_V5.pdf?d=w73b61fa54f7345f2856736735b1ac593&csf=1&web=1&e=TtHuyu)
 
-??? danger "Un composant Vue par personne, obligatoire. Cliquer pour les détails."
+??? danger "Un composant Vue par personne, obligatoire"
 
     Il n'y a **plus de choix** entre le navigateur de chapitres et la barre de progression : **les deux sont exigés**, et **chaque personne en code un**.
 
@@ -116,7 +116,7 @@ Pas de dictée : on démarre ensemble, vous écrivez ce que vous connaissez déj
 1. Un dossier `bac-a-sable-vue/`, ouvert dans VS Code.
 2. Un fichier `index.html`, avec le code de départ ci-dessous.
 
-  ??? example "Le code de départ : `index.html` Cliquez pour ouvrir le panneau."
+  ??? example "Le code de départ : `index.html`"
       ```html
       <!DOCTYPE html>
       <html lang="fr">
