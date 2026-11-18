@@ -1,5 +1,10 @@
 # **Récit défilant** :material-movie-open-outline: Exemple : un chapitre, plusieurs médias en timeline
 
+<div class="class-content-link">
+  <img src="../../assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
+</div>
+
 <div class="essentiel" markdown>
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 

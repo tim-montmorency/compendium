@@ -1,5 +1,10 @@
 # **Récit défilant** :material-chart-bar:  Le moment dataviz
 
+<div class="class-content-link">
+  <img src="../../assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
+</div>
+
 <!-- MM : vérifier chaque lien avant le cours. -->
 
 <div class="essentiel" markdown>
