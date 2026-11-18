@@ -1356,3 +1356,14 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
 .finishing .md-typeset hr + * {
   margin-top: 0;
 }
+
+/* Contenu des pages : plus d'air autour des listes, des encadrés et des boutons
+   (sauf juste sous un titre, qui garde sa marge) */
+.finishing .md-content__inner > :not(h1, h2, h3, h4, hr)
+  + :is(ol, ul, .admonition, details, p:has(> .md-button)) {
+  /* en rem, pour que les encadrés (police plus petite) aient le même espace */
+  margin-top: 1.45rem;
+}
+.finishing .md-content__inner > :not(h1, h2, h3, h4, hr) + .w5-groupe {
+  margin-top: 2.2em;
+}

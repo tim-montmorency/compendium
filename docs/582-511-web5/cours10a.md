@@ -4,8 +4,8 @@
 ![](assets/cours10a-banniere.webp){.w-100}
 
 <div class="class-content-link">
-  <img src="assets/IA-restreinte.png">
-  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <img src="assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
 </div>
 
 <div class="grid" markdown>
@@ -119,8 +119,8 @@ On accroche la timeline au défilement : `start`, `end`, `markers`, puis `scrub`
 ## Devoirs
 
 <div class="class-content-link">
-  <img src="assets/IA-restreinte.png">
-  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <img src="assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
 </div>
 
 ### D'ici le ven. 6 nov., au début du cours 10.2 : le point de contrôle

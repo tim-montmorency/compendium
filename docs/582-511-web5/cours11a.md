@@ -4,8 +4,8 @@
 ![](assets/cours11a-banniere.webp){.w-100}
 
 <div class="class-content-link">
-  <img src="assets/IA-restreinte.png">
-  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <img src="assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
 </div>
 
 <div class="grid" markdown>
@@ -115,8 +115,8 @@ Ensuite, **vos chapitres** : c'est le plus important aujourd'hui. Pour pratiquer
 ## Devoirs
 
 <div class="class-content-link">
-  <img src="assets/IA-restreinte.png">
-  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <img src="assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
 </div>
 
 ### D'ici le ~~ven. 13 nov.~~ mer. 18 nov. : le prototype (formatif), en *phase 1*{ .w5-phase .w5-phase-1 }

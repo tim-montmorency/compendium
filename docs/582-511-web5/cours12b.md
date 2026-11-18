@@ -5,8 +5,8 @@
     Le cours du 13 nov. sera repris le **jeu. 17 déc.** La **bêta** a lieu le **mer. 2 déc.**, la **défense** le **ven. 11 déc.** et la **remise finale** le **jeu. 17 déc.** [Voir le calendrier](projets/recit-defilant/index.md#calendrier).
 
 <div class="class-content-link">
-  <img src="assets/IA-restreinte.png">
-  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <img src="assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
 </div>
 
 <div class="grid" markdown>
@@ -122,8 +122,8 @@ Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interro
 ## Devoirs
 
 <div class="class-content-link">
-  <img src="assets/IA-restreinte.png">
-  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <img src="assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
 </div>
 
 ### D'ici le mer. 25 nov. (cours 13.1) : le mini-jalon

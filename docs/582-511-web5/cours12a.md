@@ -26,8 +26,8 @@
 
 <br>
 <div class="class-content-link">
-  <img src="assets/IA-restreinte.png">
-  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <img src="assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
 </div>
 
 <div class="grid" markdown>
@@ -259,7 +259,8 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 4. Branche son composant dans `main.js` (*phase 1*{ .w5-phase .w5-phase-1 }) : son `import` et son appel. Fichier commun, lui aussi.
 5. *Pull request* dès qu'il s'affiche, même sans style.
 
-**Votre composant est intégré? La suite, dans l'ordre :**
+Votre composant est intégré? La suite, dans l'ordre
+{ .w5-groupe }
 
 - [ ] **Adaptez-le au style de votre récit** : couleurs, police, position. Le CSS du bac à sable n'est qu'un départ.
 - [ ] **Commentez-le, dans vos mots.** Le code fourni n'a pas de commentaires : c'est à vous d'expliquer ce que fait chaque partie. C'est aussi ce qui vous prépare à la [défense](projets/recit-defilant/index.md#calendrier).
@@ -273,8 +274,8 @@ En 60 secondes, vous faites défiler votre récit du premier au dernier chapitre
 ## Devoirs
 
 <div class="class-content-link">
-  <img src="assets/IA-restreinte.png">
-  <span>Utilisation de l'IA restreinte : permise <strong>seulement pour créer vos médias</strong>. Le code, c'est vous! <a class="lien-details" href="projets/recit-defilant/index.html#ia">Détails</a></span>
+  <img src="assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
 </div>
 
 ### D'ici le ven. 20 nov. (cours 12.2)
