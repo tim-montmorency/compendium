@@ -1,15 +1,6 @@
 # **Récit défilant** :simple-vuedotjs:  Les composants Vue *Navigateur de chapitres et barre de progression*
 
-<div class="essentiel" markdown>
-<p class="essentiel__titre">L'essentiel en 3 points</p>
-
-1. Avec Vue, **on change une donnée, et la page suit**.
-2. Tout le monde construit **les deux composants** dans un bac à sable, puis chacun intègre **le sien** dans le projet.
-3. Le code fourni n'a **aucun commentaire** : commentez-le dans vos mots. C'est ce qui vous prépare à la [défense](index.md#calendrier).
-
-</div>
-
-## 1. Le bac à sable { #bac-a-sable }
+## Le bac à sable { #bac-a-sable }
 
 Un dossier à part, **hors de votre dépôt**.
 
@@ -119,14 +110,17 @@ Un dossier à part, **hors de votre dépôt**.
 3. Trois fichiers vides : `js/main.js`, `js/navigation.js`, `js/progression.js`.
 4. Live Server.
 
-## 2. Le navigateur de chapitres { #js-navigation }
+## Le navigateur de chapitres *étapes 0 à 6* { #js-navigation }
 
-### Brancher Vue { #brancher-vue }
+:material-human-male-board: En démo, avec l'enseignante. :material-laptop: Seuls : les consignes sont ici.
 
-??? example "`main.js` et `navigation.js`"
+### :material-human-male-board: Étape 0 : la liste des chapitres *En démo* { #etape-0 }
+
+Dans `main.js` : les sections de la page deviennent un tableau de `{ id, titre }`.
+
+??? example "Le code : `js/main.js`"
 
     ```js
-    // js/main.js
     import { createNavigation } from "./navigation.js";
 
     const chaptersNodeList = document.querySelectorAll(".chapitre");
@@ -139,6 +133,24 @@ Un dossier à part, **hors de votre dépôt**.
     window.nav = createNavigation(chaptersArr);
     ```
 
+    `window.nav` : pour tester dans la console, **bac à sable seulement**.
+
+*Cible* : `console.log(chaptersArr)` affiche 4 objets.
+
+---
+
+### :material-human-male-board: Étape 1 : brancher Vue *En démo* { #etape-1 }
+
+`createApp()` crée l'app, `mount()` la branche sur une zone.
+
+??? example "Le code : la zone et `js/navigation.js`"
+
+    ```html
+    <div id="navigation">
+      <p>Vue fonctionne : {{ 1 + 1 }}</p>
+    </div>
+    ```
+
     ```js
     // js/navigation.js
     export function createNavigation(chapters) {
@@ -146,25 +158,58 @@ Un dossier à part, **hors de votre dépôt**.
     }
     ```
 
-    `window.nav` : pour tester dans la console, **bac à sable seulement**.
+*Cible* : « Vue fonctionne : 2 ».
 
-*Cible* : `<p>Vue fonctionne : {{ 1 + 1 }}</p>` dans `#navigation` affiche « 2 ».
+---
 
-### Les données, la liste, le chapitre actif { #a-vous }
+Les étapes 2 à 4 reprennent l'exercice [Collection de films](../../exercices/ex-vue-films/index.md). Le même code, avec d'autres noms :
 
-C'est l'exercice Collection de films : `movies` devient `chapters`, `year` devient `activeChapterIndex`, `selectedYear` devient `actif`.
+| Collection de films | Navigateur de chapitres |
+|---|---|
+| `movies` | `chapters` |
+| `year` | `activeChapterIndex` |
+| `selectedYear` | `actif` |
 
-- [ ] `data()` : `chapters` (le paramètre) et `activeChapterIndex` (`0`).
-- [ ] `v-for` : un `<li>` par chapitre, dans `<nav class="chapitres-nav"><ol>`, avec un lien vers sa section.
-- [ ] `:class` : `actif` sur le lien du chapitre actif.
+### :material-laptop: Étape 2 : les données *Seuls* { #etape-2 }
 
-*Cible* : 4 liens, le 1er en rouge. `nav.activeChapterIndex = 2` dans la console : le rouge se déplace.
+- [ ] `data()` : `chapters` (le paramètre) et `activeChapterIndex` (`0`)
+- [ ] Test dans `#navigation` : `{{ activeChapterIndex }}` et `{{ chapters.length }}`
 
-### Aller au chapitre { #goto }
+*Cible* : « 0 » et « 4 ».
 
-- [ ] Ajoutez `goTo()` dans `methods`, et appelez-la au clic, avec `.prevent` et l'`id` du chapitre.
+---
 
-*Cible* : un clic mène au chapitre en douceur.
+### :material-laptop: Étape 3 : la liste *Seuls* { #etape-3 }
+
+- [ ] `<nav class="chapitres-nav">`, puis `<ol>`, puis un seul `<li>`
+- [ ] `v-for="(chapter, index) in chapters"` et `:key`
+- [ ] Un `<a>` : le titre, et `:href="'#' + chapter.id"`
+
+*Cible* : 4 liens.
+
+---
+
+### :material-laptop: Étape 4 : le chapitre actif *Seuls* { #etape-4 }
+
+- [ ] `:class` sur le `<a>` : `actif` si `index === activeChapterIndex`
+- [ ] Console : `nav.activeChapterIndex = 2`
+
+*Cible* : le rouge passe au 3e lien. Une donnée change, la page suit.
+
+??? tip "Coincé aux étapes 2 à 4?"
+    - **Aucun chapitre** : `chapters: chapters` manque dans `data()`.
+    - **`:href="#chapter.id"`** : il faut `'#' + chapter.id`.
+    - **Pas de rouge** : le `:class` est sur le `<li>`; le CSS vise `a.actif`.
+    - **`nav is not defined`** : `window.nav = ...` manque dans `main.js`.
+
+---
+
+### :material-human-male-board: :material-laptop: Étape 5 : aller au chapitre *En démo, puis seuls* { #etape-5 }
+
+- [ ] `goTo()` fournie, dans `methods`
+- [ ] Au clic : `@click.prevent="goTo(chapter.id)"`
+
+*Cible* : un défilement en douceur, l'adresse ne change pas.
 
 ??? example "Fourni : `goTo()`"
 
@@ -179,13 +224,15 @@ C'est l'exercice Collection de films : `movies` devient `chapters`, `year` devie
     },
     ```
 
-### Suivre le défilement { #mounted }
+---
 
-- [ ] Ajoutez `updateActive()` dans `methods`.
-- [ ] Écrivez `mounted()` vous-mêmes, comme l'[exemple de `mounted()`](../../vue/mounted.md#syntaxe), avec `"scroll"`.
-- [ ] `v-cloak` sur la zone.
+### :material-human-male-board: :material-laptop: Étape 6 : suivre le défilement *En démo, puis seuls* { #etape-6 }
 
-*Cible* : en défilant, le lien actif suit.
+- [ ] `updateActive()` fournie, dans `methods`
+- [ ] `mounted()` : comme l'[exemple](../../vue/mounted.md#syntaxe), avec `"scroll"` et `updateActive`
+- [ ] `v-cloak` sur `#navigation`
+
+*Cible* : le lien actif suit le défilement, même après un rechargement au milieu.
 
 ??? example "Fourni : `updateActive()`"
 
@@ -201,11 +248,18 @@ C'est l'exercice Collection de films : `movies` devient `chapters`, `year` devie
     },
     ```
 
-## 3. La barre de progression { #js-progression }
+## La barre de progression *étape 7* { #js-progression }
 
-La même recette, seul : `js/progression.js`, une fonction `createProgressBar()`, la donnée `progress` (de 0 à 1), la méthode `updateProgress()`, `mounted()`. Puis son `import` et `window.bar = createProgressBar();` dans `main.js`.
+### :material-laptop: Étape 7 : la même recette *Seuls* { #etape-7 }
 
-*Cible* : la barre avance en défilant. `bar.progress = 0.5` : elle saute à la moitié.
+- [ ] La zone fournie dans `index.html`, après `#navigation`
+- [ ] `js/progression.js` : `createProgressBar()`, montée sur `#barre-progression`
+- [ ] `data()` : `progress` (`0`)
+- [ ] `updateProgress()` : la formule fournie
+- [ ] `mounted()` : comme à l'étape 6
+- [ ] `main.js` : l'`import` et `window.bar = createProgressBar();`
+
+*Cible* : la barre avance. Console : `bar.progress = 0.5`.
 
 ??? example "Fourni : la zone HTML et la formule"
 
@@ -236,7 +290,7 @@ La même recette, seul : `js/progression.js`, une fonction `createProgressBar()`
 
     Dans `methods`, jamais de fonction fléchée : `goTo(id) { }`, pas `goTo: (id) => { }`.
 
-## 4. Dans votre projet { #integrer }
+## Dans votre projet { #integrer }
 
 Chacun **son** composant, sur sa branche. Pas de `window.nav` ni de `window.bar`.
 

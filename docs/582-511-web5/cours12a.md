@@ -103,6 +103,11 @@ Le code de l'exercice Collection de films, avec 5 bogues cachés dedans. En duo,
 
 [:material-bug-outline: La chasse aux bogues](exercices/ex-vue-films/chasse-aux-bogues.md){ .md-button }
 
+Vos réponses vont dans le Wooclap de votre groupe : elles restent cachées aux autres duos jusqu'à la mise en commun.
+
+- [Gr1 mercredi AM](https://app.wooclap.com/BPYIIIL) (code `BPYIIIL`)
+- [Gr2 mercredi PM](https://app.wooclap.com/OXZABKP) (code `OXZABKP`)
+
 ## 4. :material-code-braces:  Les composants Vue, dans un bac à sable *70 min* { #composant }
 
 <video class="w-100" src="assets/cours11b-navigateur-chapitres.webm" autoplay muted loop playsinline aria-label="Le navigateur de chapitres en action : en défilant, le chapitre actif s'allume dans la liste et la barre de progression avance; un clic sur un chapitre y mène directement"></video>
@@ -219,15 +224,15 @@ Pas de dictée : on démarre ensemble, vous écrivez ce que vous connaissez déj
 3. Trois fichiers vides : `js/main.js`, `js/navigation.js` et `js/progression.js`.
 4. Ouvert avec **Live Server**.
 
-**Les étapes**, on les fait ensemble :
+**Les étapes** : certaines en démo, d'autres seuls. Pour les étapes seuls, les consignes sont dans la page [Les composants Vue](projets/recit-defilant/composant-vue.md#js-navigation).
 
-- [ ] Avec moi : `main.js` et le branchement (10 min)
-- [ ] À vous : les données, la liste, le chapitre actif (15 min + 5)
-- [ ] Aller au chapitre : `goTo()` (10 min)
-- [ ] Suivre le défilement : `mounted()` (15 min)
-- [ ] La barre de progression : à vous (15 min)
+- [ ] [Étapes 0 et 1](projets/recit-defilant/composant-vue.md#etape-0)), en démo : `main.js` et le branchement *10 min*
+- [ ] [Étapes 2 à 4](projets/recit-defilant/composant-vue.md#etape-2), seuls : les données, la liste, le chapitre actif *15 min + 5*
+- [ ] [Étape 5](projets/recit-defilant/composant-vue.md#etape-5), en démo puis seuls : aller au chapitre, `goTo()` *10 min*
+- [ ] [Étape 6](projets/recit-defilant/composant-vue.md#etape-6), en démo puis seuls : suivre le défilement, `mounted()` *15 min*
+- [ ] [Étape 7](projets/recit-defilant/composant-vue.md#etape-7), seuls : la barre de progression *15 min*
 
-Pour relire après le cours, ou si vous étiez absent :
+Pour suivre les consignes en classe, relire après le cours, ou si vous étiez absent :
 
 [:simple-vuedotjs: Les composants Vue : la référence complète](projets/recit-defilant/composant-vue.md){ .md-button .md-button--primary }
 

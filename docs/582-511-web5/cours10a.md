@@ -101,10 +101,10 @@ On accroche la timeline au défilement : `start`, `end`, `markers`, puis `scrub`
 
 ## 6. :material-account-multiple-outline:  Dans votre projet
 
-**En équipe, puis chacun dans ses chapitres.**
+:material-account-group-outline: **En équipe**, puis :material-account-outline: **chacun dans ses chapitres**.
 
-1. **Ensemble, sur `main`** : dans `index.html`, les balises de GSAP et de ScrollTrigger, **avant** `main.js`. Dans `main.js`, `gsap.registerPlugin(ScrollTrigger);`, une seule fois, avant d'appeler les `animate()`.
-2. **Chacun, sur sa branche** : dans la fonction `animate()` d'un de vos chapitres, une première animation GSAP, avec `gsap.from()`, `gsap.to()` ou `gsap.fromTo()`. Pas de `scrollTrigger` pour l'instant : elle joue au chargement de la page, c'est normal. Voir [GSAP : tweens et timelines](js/gsap-bases.md).
+1. :material-account-group-outline: **Ensemble, sur `main`** : dans `index.html`, les balises de GSAP et de ScrollTrigger, **avant** `main.js`. Dans `main.js`, `gsap.registerPlugin(ScrollTrigger);`, une seule fois, avant d'appeler les `animate()`.
+2. :material-account-outline: **Chacun, sur sa branche** : dans la fonction `animate()` d'un de vos chapitres, une première animation GSAP, avec `gsap.from()`, `gsap.to()` ou `gsap.fromTo()`. Pas de `scrollTrigger` pour l'instant : elle joue au chargement de la page, c'est normal. Voir [GSAP : tweens et timelines](js/gsap-bases.md).
 3. Rappel des garde-fous : chacun épingle **au plus la moitié de ses chapitres** (sur 3 chapitres, 1 au plus), et au moins une animation de chaque technique (CSS au défilement, GSAP + ScrollTrigger, IntersectionObserver).
 
 [:material-file-tree: Arborescence et code de départ](projets/recit-defilant/arborescence-recit-defilant.md){ .md-button }
@@ -125,12 +125,14 @@ On accroche la timeline au défilement : `start`, `end`, `markers`, puis `scrub`
 
 ### D'ici le ven. 6 nov., au début du cours 10.2 : le point de contrôle
 
-En équipe, sur `main` :
+:material-account-group-outline: En équipe, sur `main`
+{ .w5-groupe }
 
 - l'arborescence en place, une `<section>` avec son `id` par chapitre, **écrite en HTML** pour l'instant (le JSON viendra ensuite);
 - GSAP et ScrollTrigger branchés, `registerPlugin` une fois dans `main.js`.
 
-Chaque personne :
+:material-account-outline: Chaque personne
+{ .w5-groupe }
 
 - une animation test GSAP (`from()`, `to()` ou `fromTo()`) dans un de ses chapitres, sans `scrollTrigger`;
 - une *pull request* fusionnée dans `main`;

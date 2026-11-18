@@ -889,6 +889,16 @@ stop:before {
   font-size: 2.7rem;
 }
 
+/* Lien d'ancre du h1 : en bas à gauche */
+.finishing .md-typeset h1 {
+  position: relative;
+}
+.finishing .md-typeset h1 .headerlink {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 /* h1 à deux niveaux : **surtitre** avant le titre, *sous-titre* après.
    Ex. : # **Récit défilant** Les composants Vue *Navigateur et barre* */
 .finishing .md-typeset>div>h1 {
@@ -1317,3 +1327,32 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   opacity: 1;
 }
 /* ===== Fin des accordéons ===== */
+
+/* Sous-groupes dans les consignes (En équipe, Chaque personne) :
+   un paragraphe avec { .w5-groupe }, pas un titre (n'encombre pas la table des matières) */
+.finishing .md-typeset .w5-groupe {
+  margin: 1.8em 0 0.6em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+/* Dans un accordéon : le même espace entre tous les blocs */
+.finishing .md-typeset details > :not(summary) + :not(summary) {
+  margin-top: 1.8em;
+}
+
+/* ... sauf juste sous un intertitre .w5-groupe : la liste reste collée */
+.finishing .md-typeset details > .w5-groupe + * {
+  margin-top: 0.6em;
+}
+
+/* Séparateurs --- : autant d'espace avant qu'après */
+.finishing .md-typeset hr {
+  margin: 2.5em 0;
+}
+/* L'élément qui suit (p, h3...) n'ajoute pas sa propre marge */
+.finishing .md-typeset hr + * {
+  margin-top: 0;
+}

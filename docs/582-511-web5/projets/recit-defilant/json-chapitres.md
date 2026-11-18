@@ -9,7 +9,7 @@
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. La mécanique, vous la connaissez : [`fetch`](../../js/recap-js.md#async), [`forEach`](../../js/recap-js.md#foreach), [gabarit littéral](../../js/recap-js.md#gabarits), comme dans votre portfolio. Cette fois, ce sont **vos chapitres**.
-2. **Ensemble**, sur un seul poste : le chargement dans `main.js`. Puis **chacun sur sa branche** : ses chapitres dans `data.json` et dans `createMedia()`.
+2. :material-account-group-outline: **Ensemble**, sur un seul poste : le chargement dans `main.js`. Puis :material-account-outline: **chacun sur sa branche** : ses chapitres dans `data.json` et dans `createMedia()`.
 3. Résultat : tous vos chapitres chargés depuis le JSON, et une *pull request* par personne.
 
 </div>
@@ -66,7 +66,7 @@
 </svg>
 </div>
 
-## Avant de commencer : la structure commune { #etape-0 }
+## :material-account-group-outline: Avant de commencer : la structure commune { #etape-0 }
 
 Votre dépôt a déjà toute l'[arborescence](arborescence-recit-defilant.md) sur `main` (un fichier CSS et un fichier JS par chapitre), et une branche par personne? Passez à la suite.
 
@@ -81,19 +81,19 @@ Votre dépôt a déjà toute l'[arborescence](arborescence-recit-defilant.md) su
 
 ## Qui fait quoi { #qui-fait-quoi }
 
-| | Personne A | Personne B |
+| | :material-account-outline: Personne A | :material-account-outline: Personne B |
 |---|---|---|
-| **1. Ensemble, en équipe, un seul poste, sur `main`** | Au clavier, étapes 1 à 3 | Au clavier, étapes 4 à 6 |
-| **2. Chacun, sur sa branche** | **Ses** chapitres dans les données | **Ses** chapitres dans les données |
+| :material-account-group-outline: **1. Ensemble, en équipe, un seul poste, sur `main`** | Au clavier, étapes 1 à 3 | Au clavier, étapes 4 à 6 |
+| :material-account-outline: **2. Chacun, sur sa branche** | **Ses** chapitres dans les données | **Ses** chapitres dans les données |
 | **3. À la fin** | Une *pull request* | Une *pull request* |
 
 `main.js` est un fichier commun : on l'écrit ensemble, en équipe, sinon c'est le conflit garanti. En alternant au clavier, **les deux** écrivent du code de chargement, et les deux devront l'expliquer. Celui qui n'est pas au clavier lit, propose et repère les erreurs.
 
-## Partie 1 : ensemble, en équipe, en 6 étapes { #ensemble }
+## :material-account-group-outline: Partie 1 : ensemble, en équipe, en 6 étapes { #ensemble }
 
 C'est la même chose que l'[exercice « Du JSON à la carte »](../../exercices/ex-json-cartes/index.md) : gardez-le ouvert. **Vérifiez chaque étape** dans le navigateur avant de passer à la suivante.
 
-!!! danger "Étape 4 : une copie de sécurité AVANT de retirer vos sections"
+??? danger "Étape 4: copie de sécurité AVANT de retirer vos sections"
     Vos `<section>` statiques contiennent tout votre travail de la *phase 1*{ .w5-phase .w5-phase-1 } : à l'étape 5, chacun en aura besoin pour remplir son `createMedia()`. Avant de les retirer de `index.html` :
 
     1. Dans VS Code, clic droit sur `index.html`, **Copier**.
@@ -118,10 +118,10 @@ C'est la même chose que l'[exercice « Du JSON à la carte »](../../exercices/
 
 Le code des étapes 5 et 6 est fourni : [`main.js`, dans Arborescence et code de départ](arborescence-recit-defilant.md#main-js).
 
-!!! tip "Étape 5 : pourquoi le module du chapitre?"
+??? tip "Étape 5 : pourquoi le module du chapitre?"
     Chaque chapitre est différent : un texte avant la parallaxe, un texte par plan, un titre qui s'écrit lettre par lettre. C'est donc le module du chapitre qui crée **son texte et son média**, pas `main.js`. Pour l'instant, chacun **copie tout ce qui suit le `<h2>`** de son ancienne `<section>`, dans `documentation/index-phase-1.html`, tel quel, dans le `return` de son `createMedia()`. Vous le relierez aux données à la partie 2.
 
-!!! warning "Obligatoire : `ScrollTrigger.refresh()` à la fin de `init()`"
+??? warning "`ScrollTrigger.refresh()` à la fin de `init()`"
     ScrollTrigger calcule ses repères quand vous créez vos animations. Vos chapitres arrivent par `fetch()`, et la page change de hauteur après : sans recalcul, vos animations partent au mauvais endroit (activez `markers: true` pour le voir). Deux réflexes :
 
     - à la fin de `init()`, après les `animate()`, ajoutez `ScrollTrigger.refresh();`;
@@ -129,11 +129,15 @@ Le code des étapes 5 et 6 est fourni : [`main.js`, dans Arborescence et code de
 
     [Pourquoi, et comment le vérifier](../../js/gsap-scrolltrigger.md#refresh)
 
-Un chapitre n'a pas encore d'animation? Un `console.log("chapitre 3 prêt")` dans son `animate` suffit pour vérifier l'étape 6.
+??? top "Un chapitre n'a pas encore d'animation?" 
+    Un `console.log("chapitre 3 prêt")` dans son `animate` suffit pour vérifier l'étape 6.
 
-*Commit* `Commun : charge les chapitres depuis data.json`, puis *push*. L'autre personne fait un *pull*.
+- [ ] **7. Mise en commun git** :
+  - *Commit* nommé `Commun : charge les chapitres depuis data.json`
+  - *Push*
+  - L'autre personne fait un *pull*.
 
-## Partie 2 : chacun ses chapitres { #chacun-ses-chapitres }
+## :material-account-outline: Partie 2 : chacun ses chapitres { #chacun-ses-chapitres }
 
 Sur **votre** branche, mise à jour avec `main` ([étape 5 de Git en équipe](git-en-equipe.md#etape-5)) :
 
@@ -141,7 +145,7 @@ Sur **votre** branche, mise à jour avec `main` ([étape 5 de Git en équipe](gi
 - [ ] **Le média** : dans `createMedia()`, ce qui vient des données devient `${...}` (les chemins des images, les textes alternatifs). Ces valeurs vont dans le `contenu` de votre chapitre. Le détail : [Passer à la *phase 2*{ .w5-phase .w5-phase-2 }](arborescence-recit-defilant.md#phase-2).
 - [ ] **Vérification** : vos chapitres s'affichent comme avant, et vos animations fonctionnent toujours.
 
-## Les pull requests { #pull-requests }
+## :material-account-outline: Les pull requests { #pull-requests }
 
 1. *Commit* et *push* sur votre branche (ex. `Chapitre 3 : passe le texte et le média dans data.json`).
 2. :material-github: Une *pull request* vers `main`, comme à la partie 4 de l'[exercice du conflit](../../exercices/ex-conflit-git/index.md).

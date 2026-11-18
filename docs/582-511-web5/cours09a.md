@@ -125,7 +125,7 @@ Pour le même jour, complétez aussi la **section 1 de votre cahier** : votre **
 
 ## 4. Dans votre projet
 
-**En équipe, 20 minutes.** Maintenant, pour vrai :
+:material-account-group-outline: **En équipe, 20 minutes.** Maintenant, pour vrai :
 
 1. **Ensemble, sur un seul poste**, sur `main` : toute l'[arborescence du dépôt](projets/recit-defilant/arborescence-recit-defilant.md), avec **un fichier CSS et un fichier JS par chapitre** (même vides) et le **squelette de tous vos chapitres** dans `data.json`. *Commit* (`Commun : ajoute la structure de départ`), puis *push*.
 2. L'autre personne fait un *pull*.

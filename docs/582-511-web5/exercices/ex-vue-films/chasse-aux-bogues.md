@@ -14,16 +14,17 @@
 
 </div>
 
-## Les fichiers { #fichiers }
+## Le Wooclap de votre groupe { #wooclap }
 
-[📥 Télécharger les fichiers](chasse-aux-bogues.zip){ .md-button }
+Vos réponses aux étapes 1 et 2 vont dans le Wooclap de votre groupe : elles restent cachées aux autres duos jusqu'à la mise en commun.
 
-Dézippez le dossier, mais **ne l'ouvrez pas tout de suite avec Live Server** : on commence par lire.
+- [Gr1 mercredi AM](https://app.wooclap.com/BPYIIIL) (code `BPYIIIL`)
+- [Gr2 mercredi PM](https://app.wooclap.com/OXZABKP) (code `OXZABKP`)
 
 ## Étape 1 : lire, sans exécuter *5 min* { #lire }
 
 - [ ] Lisez le code ci-dessous, ensemble, **sans lancer la page**.
-- [ ] Pour chaque bogue que vous soupçonnez, notez le **fichier**, la **ligne** et ce qui, selon vous, va se passer à l'écran.
+- [ ] Pour chaque bogue que vous soupçonnez, notez dans le Wooclap le **fichier**, la **ligne** et ce qui, selon vous, va se passer à l'écran.
 
 On cherche à **prédire** : un bon programmeur sait ce que son code va faire avant de l'exécuter.
 
@@ -102,7 +103,11 @@ app.mount("app");
 
 ## Étape 2 : vérifier, et corriger un bogue à la fois *8 min* { #corriger }
 
-- [ ] Ouvrez maintenant `index.html` avec **Live Server**, la **console** ouverte.
+Les mêmes bogues qu'à l'étape 1 : maintenant, vous **vérifiez vos prédictions**.
+
+[📥 Télécharger les fichiers](chasse-aux-bogues.zip){ .md-button }
+
+- [ ] Dézippez le dossier, puis ouvrez `index.html` avec **Live Server**, la **console** ouverte.
 - [ ] Corrigez **un seul bogue à la fois**, puis rechargez. Pour chacun, notez :
   - *le symptôme* : ce qu'on voit à l'écran ou dans la console;
   - *la correction*;

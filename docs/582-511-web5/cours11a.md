@@ -125,12 +125,19 @@ Reporté au mer. 18 nov. (levée de cours le ven. 13). La **bêta est aussi repo
 
 Rien à déposer : une **démo de 60 secondes** de votre récit qui défile, sur votre poste, pendant le cours.
 
+:material-account-group-outline: En équipe
+{ .w5-groupe }
+
 - Le récit défile du premier au dernier chapitre, sans erreur dans la console.
 - Chaque chapitre a son texte et au moins un média, même provisoires.
-- Chaque personne : le texte de ses chapitres intégré dans le HTML (un premier jet réel, aucun lorem ipsum).
-- Chaque personne : dans **chacun** de ses chapitres, au moins une animation activée par le défilement, dont au moins une qui anime un média.
-- Chaque personne : son travail fusionné dans `main`.
-- Chaque personne : son journal, les [5 questions](projets/recit-defilant/index.md#journal-de-bord-individuel) pour ce **bloc 3**, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure) qui les sépare des blocs précédents.
+
+:material-account-outline: Chaque personne
+{ .w5-groupe }
+
+- Le texte de ses chapitres intégré dans le HTML (un premier jet réel, aucun lorem ipsum).
+- Dans **chacun** de ses chapitres, au moins une animation activée par le défilement, dont au moins une qui anime un média.
+- Son travail fusionné dans `main`.
+- Son journal, les [5 questions](projets/recit-defilant/index.md#journal-de-bord-individuel) pour ce **bloc 3**, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure) qui les sépare des blocs précédents.
 
 [:material-play-box-outline: Le prototype : ce que je dois voir](projets/recit-defilant/index.md#prototype){ .md-button .md-button--primary }
 

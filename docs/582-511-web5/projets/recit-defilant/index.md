@@ -127,22 +127,22 @@ On verra en classe comment préparer chacun de ces formats. D'ici là, choisisse
 
 ## Travailler en équipe, être évalué individuellement
 
-### Inscrire votre équipe
+### :material-account-group-outline: Inscrire votre équipe { #inscrire-votre-equipe }
 
 Inscrivez les deux noms de votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" }. Ajoutez le thème dès que je l'ai validé.
 
-### Vos zones de responsabilité
+### :material-account-outline: Vos zones de responsabilité { #vos-zones-de-responsabilite }
 
-Dès le cahier de charges, une **matrice de responsabilités** dit qui possède quoi : chapitres, média animable, composants Vue, fetch externe. C'est elle qui permet de vous évaluer individuellement. Chaque personne doit pouvoir expliquer et modifier **tout le code de ses zones**.
+Dès le cahier de charges, une **matrice de responsabilités** dit qui possède quoi : chapitres, média animable, composants Vue, fetch externe. C'est elle qui permet de vous évaluer individuellement. :material-account-outline: Chaque personne doit pouvoir expliquer et modifier **tout le code de ses zones**.
 
 ### Git
 
-- **Un seul dépôt par équipe**, privé au départ. Invitez votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
-- Des *commits* réguliers et bien nommés, faits **par la personne qui a écrit le code** : c'est la trace de votre travail.
-- Une **branche par personne**, fusionnée dans `main` par *pull request* (voir [Git en équipe](git-en-equipe.md)).
-- **Un fichier CSS et un fichier JS par chapitre**, à la personne responsable (voir [Arborescence et code de départ](arborescence-recit-defilant.md)).
+- :material-account-group-outline: **Un seul dépôt par équipe**, privé au départ. Invitez votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
+- :material-account-outline: Des *commits* réguliers et bien nommés, faits **par la personne qui a écrit le code** : c'est la trace de votre travail.
+- :material-account-outline: Une **branche par personne**, fusionnée dans `main` par *pull request* (voir [Git en équipe](git-en-equipe.md)).
+- :material-account-outline: **Un fichier CSS et un fichier JS par chapitre**, à la personne responsable (voir [Arborescence et code de départ](arborescence-recit-defilant.md)).
 
-### Journal de bord individuel
+### :material-account-outline: Journal de bord individuel { #journal-de-bord-individuel }
 
 Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`. Comme au portfolio, à chaque bloc, vous répondez aux 5 questions. Les crédits des médias, y compris ceux générés par IA, vont dans le `README.md`, pas dans le journal.
 
@@ -175,10 +175,10 @@ Chaque personne tient **son propre journal** : `documentation/JOURNAL-prenom.md`
 
 Votre **première entrée** contient aussi votre processus créatif :
 
-- **2 ou 3 animations qui vous inspirent**, notées seul : le lien, ce qui bouge, ce que vous aimeriez emprunter;
-- **la trace du brainstorm** de votre équipe (voir ci-dessous). Chacun l'ajoute dans son propre journal, même si c'est la même trace pour les deux.
+- :material-account-outline: **2 ou 3 animations qui vous inspirent**, notées seul : le lien, ce qui bouge, ce que vous aimeriez emprunter;
+- :material-account-group-outline: **la trace du brainstorm** de votre équipe (voir ci-dessous). Chacun l'ajoute dans son propre journal, même si c'est la même trace pour les deux.
 
-### Votre brainstorm : une trace claire, exigée { #brainstorm }
+### :material-account-group-outline: Votre brainstorm : une trace claire, exigée { #brainstorm }
 
 **C'est votre processus qui est évalué, pas seulement l'idée finale.** Je veux voir comment votre équipe est arrivée à son thème. Cette trace est **obligatoire** pour la remise 1.
 
@@ -189,7 +189,7 @@ Elle peut prendre deux formes :
 
 Une trace claire montre :
 
-- **les idées de départ** : au moins 3 idées par personne;
+- **les idées de départ** : au moins 3 idées :material-account-outline: par personne;
 - **les idées écartées** : ne nettoyez pas, elles font partie du processus;
 - **le choix final**, identifié clairement (encerclé, surligné, déplacé à part).
 
@@ -237,12 +237,12 @@ Cette règle s'applique **jusqu'à nouvel ordre**. Si elle change en cours de pr
 
 | Volet | % | Type | Quand |
 |---|---|---|---|
-| Planification : cahier de charges et storyboard (version finale) | 5 | équipe | jeu. 17 déc. |
-| Respect des échéances (toutes les remises) | 5 | équipe | à chaque remise |
-| Produit final et présentation | 15 | équipe | jeu. 17 déc. |
-| Réalisation de vos zones (chapitres, média animable, code) | 15 | **individuel** | jeu. 17 déc. |
-| Contrôle de la qualité croisé (tester une autre équipe, corriger vos écarts) | 10 | **individuel** | 2 au 9 déc. |
-| Défense individuelle | 10 | **individuel** | ven. 11 déc. |
+| Planification : cahier de charges et storyboard (version finale) | 5 | :material-account-group-outline: équipe | jeu. 17 déc. |
+| Respect des échéances (toutes les remises) | 5 | :material-account-group-outline: équipe | à chaque remise |
+| Produit final et présentation | 15 | :material-account-group-outline: équipe | jeu. 17 déc. |
+| Réalisation de vos zones (chapitres, média animable, code) | 15 | :material-account-outline: **individuel** | jeu. 17 déc. |
+| Contrôle de la qualité croisé (tester une autre équipe, corriger vos écarts) | 10 | :material-account-outline: **individuel** | 2 au 9 déc. |
+| Défense individuelle | 10 | :material-account-outline: **individuel** | ven. 11 déc. |
 | **Total** | **60** | **25 équipe, 35 individuel** | |
 
 Le cahier de charges et le storyboard sont **notés dans leur version finale**, à la fin du projet, comme au portfolio. D'ici là, ils évoluent avec mes rétroactions.
@@ -270,7 +270,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 | Date | Étape |
 |---|---|
-| ven. 9 oct. | Lancement : inspirations (seul), équipes, brainstorm et thème (en équipe), début du cahier de charges |
+| ven. 9 oct. | Lancement : inspirations (:material-account-outline: seul), équipes, brainstorm et thème (:material-account-group-outline: en équipe), début du cahier de charges |
 | 9 au 20 oct. | Travail autonome : concept, chapitres, début du storyboard |
 | mer. 21 oct. | Cours : storyboard, modèle de données, matrice de responsabilités. Vous me présentez votre avancement. |
 | ***ven. 23 oct.*** | Pas de cours. ***Remise 1 : cahier de charges***, déposé au plus tard à 23 h 59 |
@@ -300,12 +300,12 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ??? note "Les consignes pour Cahier de charges"
 
-    - [ ] Le **dépôt GitHub de l'équipe** existe, avec votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
+    - [ ] Le **dépôt GitHub** de l'équipe existe, avec votre coéquipier ou coéquipière et `marie-michelle-ouellet` comme collaborateurs.
     - [ ] `README.md` : les noms de l'équipe, le titre et le thème du récit, le lien vers le Figma.
     - [ ] `documentation/CAHIER-DE-CHARGES.md` est **complet**, à partir du gabarit.
     - [ ] Le **storyboard** du défilement est remis de deux façons :
-      - le **lien Figma**, dans le `README.md` et le cahier, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`;
-      - un **export PDF**, déposé dans le dépôt : `documentation/storyboard.pdf`.
+      - le lien Figma, dans le `README.md` et le cahier, avec accès donné à `marie-michelle.ouellet@cmontmorency.qc.ca`;
+      - un export PDF, déposé dans le dépôt : `documentation/storyboard.pdf`.
     - [ ] Chaque personne a son `documentation/JOURNAL-prenom.md`, avec les 5 questions de ce premier bloc, ses 2 ou 3 inspirations et la trace du brainstorm (lien FigJam, ou lien vers les photos dans `documentation/brainstorm/`).
 
     [:material-file-document-edit-outline: Le cahier de charges et le scénarimage (storyboard)](cahier-de-charges.md){ .md-button .md-button--primary }
@@ -322,28 +322,28 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ??? note "Les consignes pour Point de contrôle"
 
-    !!! danger "Remise formative : l'échéance compte"
-        Comme les autres remises, le point de contrôle est noté selon les [4 niveaux](#echeances). Ce qui compte : que **votre base fonctionne**, pas qu'elle soit belle.
+    On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur laquelle vous allez les construire : qu'elle fonctionne, pas qu'elle soit belle. Tout est sur `main`, poussé avant le début du cours.
 
-    On ne vous demande pas d'avancer vos chapitres, mais de **poser la base** sur laquelle vous allez les construire. Tout est sur `main`, *poussé* avant le début du cours.
+    :material-account-group-outline: En équipe
+    { .w5-groupe }
 
-    **En équipe**
+    - [ ] L'**arborescence** est en place, comme dans [Arborescence et code de départ](arborescence-recit-defilant.md) : les dossiers, `index.html`, `style.css` et ses `@import`, `main.js` et ses `import`, un fichier CSS et un fichier JS par chapitre (même presque vides).
+    - [ ] Chaque chapitre a sa **`<section class="chapitre">`** avec son `id` (unique, en minuscules, sans espace ni accent). Les sections peuvent être écrites en HTML ([la *phase 1*{ .w5-phase .w5-phase-1 }, intégration statique](arborescence-recit-defilant.md#html-phase-1)) : pas besoin du chargement JSON. Vérifiez dans l'inspecteur.
+    - [ ] **GSAP et ScrollTrigger** sont chargés dans `index.html`, avant `main.js`, et `gsap.registerPlugin(ScrollTrigger)` est appelé une fois, dans `main.js`.
 
-    - [ ] L'**arborescence** est en place, comme dans [Arborescence et code de départ](arborescence-recit-defilant.md) : les dossiers, `index.html`, `style.css` et ses `@import`, `main.js` et ses `import`, **un fichier CSS et un fichier JS par chapitre** (même presque vides).
-    - [ ] Chaque chapitre a sa **`<section class="chapitre">` avec son `id`** (unique, en minuscules, sans espace ni accent). Pour ce point de contrôle, les sections peuvent être **écrites en HTML** ([la *phase 1*{ .w5-phase .w5-phase-1 }, intégration statique](arborescence-recit-defilant.md#html-phase-1)) : pas besoin du chargement JSON. Vérifiez dans l'inspecteur.
-    - [ ] **GSAP et ScrollTrigger** sont chargés dans `index.html`, avant `main.js`, et `gsap.registerPlugin(ScrollTrigger)` est appelé **une fois**, dans `main.js`.
+    :material-account-outline: Chaque personne
+    { .w5-groupe }
 
-    **Chaque personne**
+    - [ ] Au moins **une animation test** GSAP dans un de ses chapitres, dans sa fonction `animate()` : un `gsap.from()`, `gsap.to()` ou `gsap.fromTo()`. Pas de `scrollTrigger` pour cette remise : l'animation joue au chargement de la page, c'est normal. Une animation simple suffit, par exemple le titre du chapitre qui glisse en place.
+    - [ ] Au moins une ***pull request*** à son nom, fusionnée dans `main`.
+    - [ ] Au moins **le tiers des médias** de ses chapitres (33 %), créés ou trouvés, ajoutés au dépôt au bon endroit et bien nommés (voir ci-dessous) : fonds, calques, personnages, SVG, spritesheets.
+    - [ ] Son **journal** `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce bloc 2, sous un titre `## Questions bloc 2` (ou `###`, selon votre structure).
 
-    - [ ] Au moins **une animation test** GSAP dans **un de ses chapitres**, dans sa fonction `animate()` : un `gsap.from()`, `gsap.to()` ou `gsap.fromTo()`. **Pas de `scrollTrigger`** pour cette remise : l'animation joue au chargement de la page, c'est normal. Une animation simple suffit, par exemple le titre du chapitre qui glisse en place.
-    - [ ] Au moins **une *pull request*** à son nom, **fusionnée** dans `main`.
-    - [ ] Au moins **le tiers (33 %) des médias de ses chapitres**, créés ou trouvés, ajoutés au dépôt au bon endroit et bien nommés (voir ci-dessous). Le tiers des médias prévus dans votre storyboard : fonds, calques, personnages, SVG, spritesheets.
-    - [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 2**, sous un titre `## Questions bloc 2` (ou `###`, selon votre structure).
+    :material-image-multiple-outline: Vos médias : où et comment les nommer
+    { .w5-groupe }
 
-    **Vos médias : où et comment les nommer**
-
-    - **Un dossier par chapitre** : `assets/images/ch-01/`, `assets/images/ch-02/`, etc. Chacun dépose les médias de **ses** chapitres dans **ses** dossiers : pas de conflit.
-    - **Un média qui revient dans plusieurs chapitres** (un personnage, un nuage, une texture) va **une seule fois** directement dans `assets/images/`. Pas de copie dans chaque dossier de chapitre : le navigateur le charge une seule fois, et la page reste légère. On s'entend en équipe avant de l'y mettre, comme pour les fichiers communs.
+    - **Un dossier par chapitre** : `assets/images/ch-01/`, `assets/images/ch-02/`, etc. Chacun dépose les médias de ses chapitres dans ses dossiers : pas de conflit.
+    - **Un média qui revient dans plusieurs chapitres** (un personnage, un nuage, une texture) va une seule fois directement dans `assets/images/`. Pas de copie dans chaque dossier : le navigateur le charge une seule fois, et la page reste légère. On s'entend en équipe avant de l'y mettre, comme pour les fichiers communs.
     - **Des noms qui disent ce que c'est** : en minuscules, sans espace ni accent, avec des tirets. `foret-fond.webp`, `foret-avant.webp`, `loup-marche.png`, et non `image3.png` ou `Final FINAL v2.PNG`.
     - **Des formats pour le web** : `.webp` pour les photos et les illustrations, `.svg` pour les dessins vectoriels, `.png` pour une spritesheet qui a besoin de transparence.
 
@@ -362,27 +362,24 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 ???+ note "Les consignes pour Prototype"
 
     !!! warning "Reporté : ~~ven. 13 nov~~ mer. 18 nov : attentes + élevées"
-        En raison de la levée de cours du ven. 13 nov., le cours et le prototype prévus ce jour-là ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus 
+        En raison de la levée de cours du ven. 13 nov., le cours et le prototype prévus ce jour-là ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus élevées.
 
-    !!! danger "Remise formative : l'échéance compte"
-        Rien à déposer : vous me **montrez** votre récit pendant le cours. Comme les autres remises, le prototype est noté selon les [4 niveaux](#echeances).
+    Rien à déposer : en **60 secondes**, vous faites défiler votre récit sur votre poste, avec Live Server, du premier au dernier chapitre, pendant que je passe d'équipe en équipe. Un récit qui se tient du début à la fin, pas un récit fini : *Phase 1*{ .w5-phase .w5-phase-1 }, intégration statique, acceptée.
 
-    Pendant le cours, je passe d'équipe en équipe. Vous avez **60 secondes** pour faire défiler votre récit sur votre poste, avec Live Server, du premier au dernier chapitre. On regarde ensemble où vous en êtes, et ce qui reste à faire d'ici la bêta.
+    :material-account-group-outline: En équipe
+    { .w5-groupe }
 
-    Ce n'est pas un récit fini : c'est un récit **qui se tient du début à la fin**. *Phase 1*{ .w5-phase .w5-phase-1 }, intégration statique, acceptée.
+    - [ ] Le récit **défile** du premier au dernier chapitre, sans erreur dans la console.
+    - [ ] Chaque chapitre a son **texte et au moins un média**, même provisoires.
 
-    **En équipe**
+    :material-account-outline: Chaque personne
+    { .w5-groupe }
 
-    - [ ] Le récit défile **du premier au dernier chapitre**, sans erreur dans la console.
-    - [ ] Chaque chapitre a **son texte et au moins un média**, même provisoires.
-
-    **Chaque personne**
-
-    - [ ] **Le texte de ses chapitres** est intégré dans le HTML : un premier jet réel et complet, **aucun lorem ipsum**. Il pourra encore être retravaillé.
-    - [ ] **Chacun de ses chapitres** a au moins **une animation activée par le défilement** : GSAP + ScrollTrigger, ou CSS au défilement. Elle peut encore être simple : on cherche ce qui bouge, pas ce qui est fini.
+    - [ ] Le **texte** de ses chapitres est intégré dans le HTML : un premier jet réel et complet, aucun lorem ipsum. Il pourra encore être retravaillé.
+    - [ ] Chacun de ses chapitres a au moins **une animation au défilement** : GSAP + ScrollTrigger, ou CSS au défilement. Elle peut encore être simple : on cherche ce qui bouge, pas ce qui est fini.
     - [ ] Au moins une de ces animations anime un **média** (image, SVG, spritesheet), pas seulement du texte.
-    - [ ] Son travail **fusionné dans `main`** par *pull request*.
-    - [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 3**, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure).
+    - [ ] Son travail **fusionné** dans `main` par *pull request*.
+    - [ ] Son **journal** `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce bloc 3, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure).
 
     Les composants Vue ne sont pas exigés au prototype : chaque personne intègre le sien pendant le même cours, en atelier, après la démo. Ils sont vérifiés au mini-jalon du mer. 25 nov.
 
@@ -392,41 +389,42 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
     Un court arrêt entre le prototype et la bêta, pour ne pas tout accumuler à la fin. Rien à déposer : je passe d'équipe en équipe.
 
-    **Chaque personne**
+    :material-account-group-outline: En équipe
+    { .w5-groupe }
 
-    - [ ] **Son composant Vue intégré au projet** : le navigateur de chapitres, la barre de progression ou, pour une équipe de 3, le panneau de l'équipe. *Pull request* fusionnée dans `main`. [Les composants Vue](composant-vue.md#integrer)
+    - [ ] La **matrice de responsabilités** à jour (section 4 du cahier de charges) : une ligne par composant Vue.
+    - [ ] **L'API** choisie et testée : la donnée reçue s'affiche dans la console avec `console.log()`, et l'API est documentée dans la section 6 du cahier de charges. [Choisir et tester votre API](dataviz.md#api)
 
-    **En équipe**
+    :material-account-outline: Chaque personne
+    { .w5-groupe }
 
-    - [ ] La **matrice de responsabilités à jour** (section 4 du cahier de charges) : une ligne par composant Vue.
-    - [ ] **L'API choisie et testée** : la donnée reçue s'affiche dans la console avec `console.log()`, et l'API est documentée dans la section 6 du cahier de charges. [Choisir et tester votre API](dataviz.md#api)
+    - [ ] Son **composant Vue** intégré au projet : le navigateur de chapitres, la barre de progression ou, pour une équipe de 3, le panneau de l'équipe. *Pull request* fusionnée dans `main`. [Les composants Vue](composant-vue.md#integrer)
 
 ### Remise 4: Bêta *mer 2 déc, début du cours 14.1* { #beta }
 
 ??? note "Les consignes pour Bêta"
 
-    !!! danger "Remise formative : l'échéance compte"
-        Comme les autres remises, la bêta est notée selon les [4 niveaux](#echeances).
+    Un récit fonctionnel, pas fini : il doit être prêt pour le contrôle de la qualité croisé, qui commence le jour même.
 
-    Un récit **fonctionnel, pas fini** : il doit être prêt pour le contrôle de la qualité croisé, qui commence le jour même.
+    :material-account-group-outline: En équipe
+    { .w5-groupe }
 
-    **En équipe**
+    - [ ] La [*phase 2*{ .w5-phase .w5-phase-2 }](arborescence-recit-defilant.md#phase-2) : les **chapitres** sont chargés depuis `data.json`. La copie de sécurité de la *phase 1* est dans `documentation/index-phase-1.html`.
+    - [ ] **`ScrollTrigger.refresh()`** est appelé après les animations : les repères sont justes.
+    - [ ] La **dataviz** est branchée : les vraies données de l'API s'affichent, déclenchées par IntersectionObserver. Sans animation pour l'instant.
+    - [ ] Les **composants Vue** sont en place et reçoivent la liste des chapitres de `data.json`.
+    - [ ] Le récit est **en ligne** sur GitHub Pages, et son adresse est en haut du `README.md`. C'est cette version que l'autre équipe testera, aussi sur un vrai téléphone. [Mettre en ligne avec GitHub Pages](../portfolio/deploiement-github-pages.md)
+    - [ ] Aucune **erreur** dans la console.
 
-    - [ ] La [*phase 2*{ .w5-phase .w5-phase-2 }](arborescence-recit-defilant.md#phase-2) : les **chapitres sont chargés depuis `data.json`**. La copie de sécurité de la *phase 1* est dans `documentation/index-phase-1.html`.
-    - [ ] `ScrollTrigger.refresh()` est appelé après les animations : les repères sont justes.
-    - [ ] La **dataviz est branchée** : les vraies données de l'API s'affichent, déclenchées par IntersectionObserver. Sans animation pour l'instant.
-    - [ ] Les **composants Vue sont en place** et reçoivent la liste des chapitres de `data.json`.
-    - [ ] Le récit est **en ligne sur GitHub Pages**, et son adresse est en haut du `README.md`. C'est cette version que l'autre équipe testera, aussi sur un vrai téléphone. [Mettre en ligne avec GitHub Pages](../portfolio/deploiement-github-pages.md)
-    - [ ] Aucune erreur dans la console.
-
-    **Chaque personne**
+    :material-account-outline: Chaque personne
+    { .w5-groupe }
 
     - [ ] Les **médias finaux** de ses chapitres sont intégrés, et leurs crédits sont dans le `README.md`.
-    - [ ] Au minimum, **les animations du prototype** (une par chapitre) fonctionnent toujours en *phase 2*.
-    - [ ] Son travail **fusionné dans `main`** par *pull request*.
-    - [ ] Son `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce **bloc 4**, sous un titre `## Questions bloc 4` (ou `###`, selon votre structure).
+    - [ ] Au minimum, les **animations du prototype** (une par chapitre) fonctionnent toujours en *phase 2*.
+    - [ ] Son travail **fusionné** dans `main` par *pull request*.
+    - [ ] Son **journal** `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce bloc 4, sous un titre `## Questions bloc 4` (ou `###`, selon votre structure).
 
-    **Pas exigé à la bêta**, mais à la remise finale du jeu. 17 déc. : l'animation de la dataviz, la finition de toutes les animations, le responsive, le mouvement réduit et les correctifs de la QA.
+    Pas exigé à la bêta, mais à la remise finale du jeu. 17 déc. : l'animation de la dataviz, la finition de toutes les animations, le responsive, le mouvement réduit et les correctifs de la QA.
 
 ### Défense individuelle *ven 11 déc, cours 15.2* { #defense }
 

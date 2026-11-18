@@ -41,9 +41,9 @@ Des récits défilants à décortiquer, avec une grille d'observation.
 
 - [ ] Lancement du projet : le récit défilant
 - [ ] Exemples et inspirations : décortiquer quelques récits défilants
-- [ ] **Seul** : noter 2 ou 3 animations qui vous inspirent dans votre journal
+- [ ] :material-account-outline: **Seul** : noter 2 ou 3 animations qui vous inspirent dans votre journal
 - [ ] Former les équipes de 2
-- [ ] **En équipe** : brainstorm (FigJam ou papier), puis choisir un thème
+- [ ] :material-account-group-outline: **En équipe** : brainstorm (FigJam ou papier), puis choisir un thème
 - [ ] Ajouter la trace du brainstorm dans votre journal (chacun)
 - [ ] Commencer le cahier de charges, en équipe
 - [ ] Devoir : vos deux semaines, jusqu'au ven. 23 oct.
@@ -82,7 +82,7 @@ Ce qu'on construit, comment on est évalué, et le calendrier jusqu'au 11 décem
 - Une compétence complémentaire aide : l'un plus à l'aise en design, l'autre en code, par exemple. Mais **chacun code ses propres chapitres**.
 - Inscrivez votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" } : les deux noms, puis le thème dès qu'il est validé.
 
-## S'inspirer, seul
+## :material-account-outline: S'inspirer, seul
 
 Parcourez les [exemples et inspirations](projets/recit-defilant/inspirations.md). **Individuellement**, notez dans votre journal **2 ou 3 animations** qui vous inspirent :
 
@@ -90,7 +90,7 @@ Parcourez les [exemples et inspirations](projets/recit-defilant/inspirations.md)
 - ce qui bouge, et ce qui le déclenche;
 - ce que vous aimeriez emprunter pour votre récit.
 
-## Choisir un thème : brainstorm en équipe
+## :material-account-group-outline: Choisir un thème : brainstorm en équipe
 
 On veut voir votre **processus créatif**, pas seulement l'idée finale. En équipe :
 

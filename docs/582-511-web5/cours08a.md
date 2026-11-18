@@ -180,7 +180,7 @@ Questions à vous poser :
 
 C'est la pièce maîtresse de votre **note individuelle**. Elle dit qui possède quoi, et c'est sur ces zones que porteront vos *commits*, votre contrôle de la qualité et votre défense du 9 décembre.
 
-- Chaque personne : **au moins 3 chapitres** et **un média animable**.
+- :material-account-outline: Chaque personne : **au moins 3 chapitres** et **un média animable**.
 - Le composant Vue, le *fetch* externe et le chargement du JSON ont chacun **un** responsable.
 - Faites-la **ensemble**, et prenez-la au sérieux : impossible de défendre le code d'une zone qui n'est pas la vôtre.
 
