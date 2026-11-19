@@ -177,7 +177,8 @@ Les étapes 2 à 4 reprennent l'exercice [Collection de films](../../exercices/e
 
 ### :material-laptop: Étape 2 : les données *Seuls* { #etape-2 }
 
-- [ ] `data()` : `chapters` (le paramètre) et `activeChapterIndex` (`0`)
+- [ ] Dans `data()`, `chapters` : la liste des chapitres. C'est le paramètre reçu par `createNavigation(chapters)` : rangez-le dans les données, pour que le HTML puisse l'afficher.
+- [ ] Dans `data()`, `activeChapterIndex` : la position du chapitre qu'on lit, dans la liste. Il commence à `0`, le 1er chapitre.
 - [ ] Test dans `#navigation` : `{{ activeChapterIndex }}` et `{{ chapters.length }}`
 
 *Cible* : « 0 » et « 4 ».
