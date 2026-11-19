@@ -1,7 +1,5 @@
 # Cours 12
 
-[STOP]
-
 ## La plateforme mobile
 
 Le personnage jouable et les structures en mouvements sont traditionnellement problématiques.

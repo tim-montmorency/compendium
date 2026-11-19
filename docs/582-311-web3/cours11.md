@@ -1,11 +1,15 @@
 # Cours 11
 
+[STOP]
+
 *[GSAP]: GreenSock Animation Platform
 *[SVG]: Scalable Vector Graphics
 
-[STOP]
-
 ![](./assets/images/gsap-banner.jpg){.w-100}
+
+## Post grève
+
+Dernier cours, le 17 décembre
 
 ## Retour sur les exercices
 
@@ -32,9 +36,9 @@ export function gsapAnimations() {
 
 ### SplitText
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-splittext&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
+[SplitText](https://gsap.com/docs/v3/Plugins/SplitText/) enveloppe chaque lettre, chaque mot ou chaque ligne dans sa propre balise.
 
-[SplitText](https://gsap.com/docs/v3/Plugins/SplitText/) enveloppe chaque lettre, chaque mot ou chaque ligne dans sa propre balise. On anime ensuite ces morceaux avec un `stagger`.
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-splittext-selector&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
 ```js title="src/gsap.js"
 import gsap from "gsap"
@@ -43,15 +47,13 @@ import { SplitText } from "gsap/SplitText"
 gsap.registerPlugin(SplitText)
 
 export function gsapAnimations() {
-  const txt = SplitText.create("#titre", { type: "chars" })
 
-  gsap.from(txt.chars, {
-    y: -100,
-    opacity: 0,
-    duration: 0.8,
-    ease: "back.out(2)",
-    stagger: 0.05     // 👈 une lettre après l'autre
+  const tableauDeLettres = SplitText.create("#titre", { type: "chars" })
+
+  gsap.from(tableauDeLettres.chars[2], {
+    opacity: 0
   })
+
 }
 ```
 
@@ -61,35 +63,57 @@ export function gsapAnimations() {
 | `"words"` | `titre.words` | Chaque mot |
 | `"words, chars"` | les deux | Combiner (les lettres restent groupées par mot) |
 
-#### stagger
+#### Animer avec Stagger
 
-Quand on anime **plusieurs éléments** avec un seul tween (ici `txt.chars`, un tableau de lettres), ils partent normalement **tous en même temps**. L'option [`stagger`](https://gsap.com/resources/getting-started/Staggers/) décale le départ de chacun.
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=gsap-splittext&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
-`stagger: 0.05` signifie : chaque lettre démarre **0,05 s après la précédente**.
+Plus souvent qu'autrement, on anime chacun des morceaux un après l'autre. L'option `stagger` permet cela.
 
-| Lettre | Départ | Fin (`duration: 0.8`) |
-| :--- | :--- | :--- |
-| 1re | 0 s | 0,8 s |
-| 2e | 0,05 s | 0,85 s |
-| 3e | 0,1 s | 0,9 s |
-| … | … | … |
+```js title="src/gsap.js"
+import gsap from "gsap"
+import { SplitText } from "gsap/SplitText"
 
-Pour plus de contrôle, on peut passer un objet :
+gsap.registerPlugin(SplitText)
 
-```js
-stagger: {
-  each: 0.05,       // délai entre chaque élément
-  from: "center"    // part du centre : "start", "end", "center", "edges", "random" ou un index
+export function gsapAnimations() {
+
+  const txt = SplitText.create("#titre", { type: "chars" })
+
+  gsap.from(txt.chars, {
+    y: -100,
+    opacity: 0,
+    duration: 0.8,
+    ease: "back.out(2)",
+    stagger: 0.05     // 👈 une lettre après l'autre
+  })
+
 }
 ```
 
-!!! note ""
-
-    `stagger` n'est pas propre à SplitText : il fonctionne avec **n'importe quelle liste d'éléments**, par exemple `gsap.from(".carte", { y: 50, stagger: 0.1 })`.
-
-??? tip "Pour le fun"
+!!! tip "Pour le fun"
     
     Essayez `rotation: "random(-120, 120)"`
+
+??? note "À propos de [`stagger`](https://gsap.com/resources/getting-started/Staggers/)"
+
+    `stagger: 0.05` signifie : chaque lettre démarre **0,05 s après la précédente**.
+
+    | Lettre | Départ | Fin (`duration: 0.8`) |
+    | :----- | :----- | :-------------------- |
+    | 1re    | 0 s    | 0,8 s                 |
+    | 2e     | 0,05 s | 0,85 s                |
+    | 3e     | 0,1 s  | 0,9 s                 |
+    | ...    | ...    | ...                   |
+
+
+    Pour plus de contrôle, on peut passer un objet à stagger :
+
+    ```js
+    stagger: {
+      each: 0.05,       // délai entre chaque élément
+      from: "center"    // part du centre : "start", "end", "center", "edges", "random" ou un index
+    }
+    ```
 
 ### ScrambleTextPlugin
 
@@ -97,19 +121,24 @@ stagger: {
 
 [ScrambleTextPlugin](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin/) remplace un texte par des caractères aléatoires qui se **stabilisent** peu à peu.
 
-```js
+```js title="src/gsap.js"
+import gsap from "gsap"
 import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin"
 
 gsap.registerPlugin(ScrambleTextPlugin)
 
-gsap.to("#slogan", {
-  duration: 1.5,
-  scrambleText: {
-    text: "Appuyez sur Start",  // le texte final
-    chars: "upperCase",         // les caractères de brouillage
-    revealDelay: 0.5            // brouille 0,5 s avant de commencer à révéler
-  }
-})
+export function gsapAnimations() {
+
+  gsap.to("#slogan", {
+    duration: 1.5,
+    scrambleText: {
+      text: "All your base ...",  // le texte final
+      chars: "upperCase",         // les caractères de brouillage
+      revealDelay: 0.5            // brouille 0,5 s avant de commencer à révéler
+    }
+  })
+
+}
 ```
 
 | Option | Rôle |
@@ -127,23 +156,44 @@ gsap.to("#slogan", {
 
 > Avec `ease: "none"`, on obtient un effet de machine à écrire, un peu comme Typed.js dans l'exercice Momo.
 
-```js
+```js title="src/gsap.js"
+import gsap from "gsap"
 import { TextPlugin } from "gsap/TextPlugin"
 
 gsap.registerPlugin(TextPlugin)
 
-gsap.to("#dialogue", {
-  duration: 3,
-  text: "Un brouillard étrange recouvre l'archipel...",
-  ease: "none"
-})
+export function gsapAnimations() {
+
+  gsap.to("#dialogue", {
+    duration: 3,
+    text: "Connais-toi toi-même",
+    ease: "none"
+  })
+
+}
 ```
+
+??? question "L'aphorisme de Socrate"
+
+    <div class="grid grid-1-3" markdown>
+    ![](./assets/images/herm-Socrates-half-original-Greek-Capitoline-Museums.webp)
+
+    
+    - Pourquoi est-ce que je **crois** ceci ?
+    - Pourquoi est-ce que je **veux** cela ?
+    - Qu’est-ce que je ferais **si personne ne regardait** ?
+    - Qu’est-ce qui me met en **colère** ou me fait **peur** ? Que disent ces réactions de mes **valeurs** et de mes **besoins** ?
+    </div>
+
+<!-- Un aphorisme est une formule brève, concise et percutante qui résume une vérité générale, un principe moral, scientifique ou une réflexion d'ordre philosophique. -->
 
 ## Animations SVG
 
 ![type:video](./assets/videos/aligator.webm){.w-100 .h-auto}
 
 Les trois plugins suivants travaillent sur du **SVG intégré directement dans le HTML** (`<svg></svg>`) et non sur un SVG chargé dans une balise `<img>`. GSAP doit pouvoir atteindre les `<path>` à l'intérieur.
+
+!!! tip "Suggestion : spécifier une taille responsive en css. Par exemple : `width: 50vw;`"
 
 **Trouver un svg**
 
@@ -153,9 +203,7 @@ Les trois plugins suivants travaillent sur du **SVG intégré directement dans l
 **Nettoyer un svg**
 
 * [svgomg.net](https://svgomg.net/)
-* Figma ! (on ouvre et on exporte en svg)
-
-Suggestion : spécifier une taille responsive en css. Par exemple : `width: 50vw;`
+* 👌👌👌 Figma ! (on ouvre et on exporte en svg)
 
 **Préparer un SVG**
 
@@ -180,16 +228,21 @@ Un SVG exporté de Figma ou d'Illustrator se colle tel quel dans le HTML. Donnez
 
 <!-- DrawSVG anime le **contour** (`stroke`) d'un `<path>`, `<line>`, `<circle>`. -->
 
-```js
+```js title="src/gsap.js"
+import gsap from "gsap"
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin"
 
 gsap.registerPlugin(DrawSVGPlugin)
 
-gsap.from("#signature path", {
-  drawSVG: "0%", // part d'un tracé invisible
-  duration: 2,
-  stagger: 0.2
-})
+export function gsapAnimations() {
+
+  gsap.fromTo(
+    "#catToDraw",
+    { drawSVG: "0%", visibility: "visible" },
+    { drawSVG: "100%", duration: 3, ease: "power1.inOut" },
+  );
+
+}
 ```
 
 | Valeur | Résultat |
@@ -243,14 +296,18 @@ Combiné à ScrollTrigger et `scrub`, le tracé avance avec la molette&nbsp;: pa
 
     La balise defs dans un SVG n'affiche pas son contenu. C'est parfait pour MorphSVG qui n'a besoin que tu code pour effectuer la transformation.
 
-```js
+```js title="src/gsap.js"
+import gsap from "gsap"
 import { MorphSVGPlugin } from "gsap/MorphSVGPlugin"
 
 gsap.registerPlugin(MorphSVGPlugin)
 
-gsap.to("#lecture", { morphSVG: "#pause", duration: 0.4 })
+export function gsapAnimations() {
 
-gsap.to("#lecture", { morphSVG: "#lecture", duration: 0.4 }) // 👈 Retourne à l'état initial
+  gsap.to("#lecture", { morphSVG: "#pause", duration: 0.4 })
+  gsap.to("#lecture", { morphSVG: "#lecture", duration: 0.4 }) // 👈 Retourne à l'état initial
+
+}
 ```
 
 ??? warning "`<circle>` et `<rect>`"
@@ -274,22 +331,27 @@ gsap.to("#lecture", { morphSVG: "#lecture", duration: 0.4 }) // 👈 Retourne à
 <img id="car" src="car.svg" />
 ```
 
-```js
+```js title="src/gsap.js"
+import gsap from "gsap"
 import { MotionPathPlugin } from "gsap/MotionPathPlugin"
 
 gsap.registerPlugin(MotionPathPlugin)
 
-gsap.to("#car", {
-  duration: 10,
-  ease: "none",
-  repeat: -1,
-  motionPath: {
-    path: "#route",        // un <path> SVG
-    align: "#route",       // place l'élément sur le tracé
-    alignOrigin: [0.5, 1], // le transformOrigin de l'auto posé sur le tracé
-    autoRotate: true,      // oriente l'élément selon la direction
-  },
-});
+export function gsapAnimations() {
+
+  gsap.to("#car", {
+    duration: 10,
+    ease: "none",
+    repeat: -1,
+    motionPath: {
+      path: "#route",        // un <path> SVG
+      align: "#route",       // place l'élément sur le tracé
+      alignOrigin: [0.5, 1], // le transformOrigin de l'auto posé sur le tracé
+      autoRotate: true,      // oriente l'élément selon la direction
+    },
+  });
+
+}
 ```
 
 On peut aussi très bien cacher le tracé avec `stroke="none"` sur le path du motionPath
@@ -312,14 +374,18 @@ On peut aussi très bien cacher le tracé avec `stroke="none"` sur le path du mo
 
 [CustomEase](https://gsap.com/docs/v3/Eases/CustomEase/) permet de **dessiner** sa propre courbe de lissage.
 
-```js
+```js title="src/gsap.js"
+import gsap from "gsap"
 import { CustomEase } from "gsap/CustomEase"
 
 gsap.registerPlugin(CustomEase)
 
-CustomEase.create("impact", "M0,0 C0.1,0.9 0.2,1.2 0.35,1 0.5,0.9 0.7,1 1,1")
+export function gsapAnimations() {
 
-gsap.from(".carte-boss", { y: -300, duration: 1, ease: "impact" })
+  CustomEase.create("impact", "M0,0 C0.1,0.9 0.2,1.2 0.35,1 0.5,0.9 0.7,1 1,1")
+  gsap.from(".carte-boss", { y: -300, duration: 1, ease: "impact" })
+
+}
 ```
 
 ## Interactions
@@ -330,17 +396,22 @@ gsap.from(".carte-boss", { y: -300, duration: 1, ease: "impact" })
 
 [Draggable](https://gsap.com/docs/v3/Plugins/Draggable/) rend n'importe quel élément **déplaçable** à la souris ou au doigt.
 
-```js
+```js title="src/gsap.js"
+import gsap from "gsap"
 import { Draggable } from "gsap/Draggable"
 import { InertiaPlugin } from "gsap/InertiaPlugin"
 
 gsap.registerPlugin(Draggable, InertiaPlugin)
 
-Draggable.create("#abc", {
-  type: "x,y",           // options : "x", "y" et ou "rotation"
-  bounds: "#xyz",        // ne sort pas de cette zone
-  inertia: true          // glisse un peu après le lâcher (InertiaPlugin)
-})
+export function gsapAnimations() {
+
+  Draggable.create("#abc", {
+    type: "x,y",           // options : "x", "y" et ou "rotation"
+    bounds: "#xyz",        // ne sort pas de cette zone
+    inertia: true          // glisse un peu après le lâcher (InertiaPlugin)
+  })
+
+}
 ```
 
 #### `onDragEnd() + hitTest()`
@@ -349,18 +420,27 @@ Draggable.create("#abc", {
 
 Pour savoir **où** l'élément a été déposé, on utilise `hitTest()` dans `onDragEnd`&nbsp;:
 
-```js
-Draggable.create("#abc", {
-  type: "x,y",
-  onDragEnd() {
-    // S'il y a 60% de chevauchement
-    if (this.hitTest("#xyz", "60%")) {         
-      // Animation A
-    } else {
-      // Animation B
+```js title="src/gsap.js"
+import gsap from "gsap"
+import { Draggable } from "gsap/Draggable"
+
+gsap.registerPlugin(Draggable)
+
+export function gsapAnimations() {
+
+  Draggable.create("#abc", {
+    type: "x,y",
+    onDragEnd() {
+      // S'il y a 60% de chevauchement
+      if (this.hitTest("#xyz", "60%")) {         
+        // Animation A
+      } else {
+        // Animation B
+      }
     }
-  }
-})
+  })
+
+}
 ```
 
 <!-- !!! info "`this` dans `onDragEnd`"
@@ -377,18 +457,23 @@ Draggable.create("#abc", {
 
 [ScrollToPlugin](https://gsap.com/docs/v3/Plugins/ScrollToPlugin/) fait défiler la page jusqu'à une cible.
 
-```js
+```js title="src/gsap.js"
+import gsap from "gsap"
 import { ScrollToPlugin } from "gsap/ScrollToPlugin"
 
 gsap.registerPlugin(ScrollToPlugin)
 
-document.querySelector("#bouton-decouvrir").addEventListener("click", () => {
-  gsap.to(window, {
-    duration: 1,
-    ease: "power2.inOut",
-    scrollTo: { y: "#concept", offsetY: 80 }   // 80 px pour laisser la place à la navbar
+export function gsapAnimations() {
+
+  document.querySelector("#bouton-decouvrir").addEventListener("click", () => {
+    gsap.to(window, {
+      duration: 1,
+      ease: "power2.inOut",
+      scrollTo: { y: "#concept", offsetY: 80 }   // 80 px pour laisser la place à la navbar
+    })
   })
-})
+
+}
 ```
 
 <!-- ??? question "Y'a pas déjà `scroll-behavior: smooth` en CSS ?"
@@ -399,35 +484,45 @@ document.querySelector("#bouton-decouvrir").addEventListener("click", () => {
 
 [`gsap.matchMedia()`](https://gsap.com/docs/v3/GSAP/gsap.matchMedia()) permet de définir des animations **différentes selon la taille de l'écran**.
 
-```js hl_lines="9-11 23-24"
-let mm = gsap.matchMedia()
+```js title="src/gsap.js" hl_lines="16-18 30-31"
+import gsap from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin"
 
-// Écran large
-mm.add("(min-width: 768px)", () => {
-  gsap.from("#abc", {
-    drawSVG: "0%",
-    scrollTrigger: { 
-      trigger: "#xyz", 
-      start: "top top", 
-      end: "+=2000", 
-      pin: true, 
-      scrub: 1 
-    }
-  })
-})
+gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin)
 
-// Mobile
-mm.add("(max-width: 767px)", () => {
-  gsap.from("#abc", {
-    drawSVG: "0%",
-    scrollTrigger: { 
-      trigger: "#xyz", 
-      start: "top 70%",
-      end: "bottom 30%", 
-      scrub: 1 
-    }
+export function gsapAnimations() {
+
+  let mm = gsap.matchMedia()
+
+  // Écran large
+  mm.add("(min-width: 768px)", () => {
+    gsap.from("#abc", {
+      drawSVG: "0%",
+      scrollTrigger: { 
+        trigger: "#xyz", 
+        start: "top top", 
+        end: "+=2000", 
+        pin: true, 
+        scrub: 1 
+      }
+    })
   })
-})
+
+  // Mobile
+  mm.add("(max-width: 767px)", () => {
+    gsap.from("#abc", {
+      drawSVG: "0%",
+      scrollTrigger: { 
+        trigger: "#xyz", 
+        start: "top 70%",
+        end: "bottom 30%", 
+        scrub: 1 
+      }
+    })
+  })
+
+}
 ```
 
 <!-- FRAGMENT: gsap-matchmedia (animation différente bureau / mobile) -->
