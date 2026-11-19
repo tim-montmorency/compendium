@@ -9,7 +9,7 @@ tags:
 
 ![type:video](./preview.webm){.h-auto}
 
-L'objectif de cet exercice est de mettre en pratique les plugins **SplitText**, **ScrollTrigger**, **Draggable** et **ScrollToPlugin**&nbsp;: un champignon à glisser dans un chaudron, un bouton d'appel à l'action (CTA) qui apparaît mot par mot, une formule magique qui s'écrit au défilement, puis une grenouille tout en bas de la page.
+L'objectif de cet exercice est de mettre en pratique les plugins **SplitText**, **ScrollTrigger**, **Draggable** et **ScrollToPlugin**&nbsp;. 
 
 <!--
 Notions mises en pratique :
