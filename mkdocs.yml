@@ -372,7 +372,7 @@ nav:
         - 582-511-web5/vue/index.md
         - "Intro à Vue.js": 582-511-web5/vue/index.md
         - "Création d'une app": 582-511-web5/vue/creation-app.md
-        - "Interpolation": 582-511-web5/vue/interpolation.md
+        - "Interpolation de données: data() et ": 582-511-web5/vue/interpolation.md
         - "Méthodes et événements": 582-511-web5/vue/methodes-evenements.md
         - "Classe dynamique": 582-511-web5/vue/classe-dynamique.md
         - "Boucle v-for": 582-511-web5/vue/boucle.md
