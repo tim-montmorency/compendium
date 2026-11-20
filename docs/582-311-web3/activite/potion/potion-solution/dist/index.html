@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La potion</title>
+    <script type="module" crossorigin src="./assets/index-DlX0xpcd.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CLj7j-_K.css">
+  </head>
+  <body class="bg-slate-900 text-slate-400">
+
+    <header class="min-h-screen flex flex-col items-center justify-center">
+
+      <button id="cta" class="invisible cursor-pointer text-2xl text-lime-300 my-7 py-5 px-15 rounded-xl bg-black/20 hover:bg-black/40">
+        Boire la potion
+      </button>
+
+      <div class="flex items-center justify-between w-3xl max-w-full p-4">
+
+        <!-- Le champignon à déplacer -->
+        <img id="ingredient" class="w-28 cursor-grab" src="./images/champi.png" alt="Champignon" />
+
+        <!-- Le chaudron : l'arrière, les bulles, puis l'avant par-dessus -->
+        <div id="chaudron" class="relative w-[33vw]">
+          <img class="inset-0 w-full" src="./images/chaudron-arriere.png" alt="" />
+
+          <img class="bulle absolute left-[30%] top-[30%] w-[10%]" src="./images/bulle.png" alt="" />
+          <img class="bulle absolute left-[40%] top-[30%] w-[10%]" src="./images/bulle.png" alt="" />
+          <img class="bulle absolute left-[48%] top-[30%] w-[10%]" src="./images/bulle.png" alt="" />
+          <img class="bulle absolute left-[56%] top-[30%] w-[10%]" src="./images/bulle.png" alt="" />
+          <img class="bulle absolute left-[64%] top-[30%] w-[10%]" src="./images/bulle.png" alt="" />
+
+          <img class="absolute inset-0 w-full" src="./images/chaudron-avant.png" alt="Chaudron" />
+        </div>
+
+        <div class="w-28"></div>
+        
+      </div>
+    </header>
+
+
+    <section class="min-h-[150vh] bg-linear-to-b from-slate-900 to-emerald-950 flex flex-col items-center justify-around font-display text-6xl text-emerald-300/60">
+      <p id="abra">abra</p>
+      <p id="cada">cada</p>
+      <p id="bra">bra</p>
+    </section>
+
+
+    <footer id="fin" class="min-h-screen bg-emerald-950 grid place-items-end px-6 text-center">
+      <div>
+        <img id="grenouille" class="w-64 mx-auto" src="./images/grenouille.png" alt="Grenouille" />
+      </div>
+    </footer>
+
+  </body>
+</html>

@@ -1,6 +1,1 @@
 @import "tailwindcss";
-@import "@fontsource/princess-sofia";
-
-@theme {
-  --font-display: "Princess Sofia", cursive;
-}
