@@ -187,9 +187,10 @@ Les étapes 2 à 4 reprennent l'exercice [Collection de films](../../exercices/e
 
 ### :material-laptop: Étape 3 : la liste *Seuls* { #etape-3 }
 
-- [ ] `<nav class="chapitres-nav">`, puis `<ol>`, puis un seul `<li>`
-- [ ] `v-for="(chapter, index) in chapters"` et `:key`
-- [ ] Un `<a>` : le titre, et `:href="'#' + chapter.id"`
+- [ ] Dans `#navigation`, une `<nav>` avec la classe `chapitres-nav`, qui contient une liste numérotée.
+- [ ] Un seul élément de liste, répété pour chaque chapitre avec [`v-for`](../../vue/boucle.md#v-for). N'oubliez pas la [clé](../../vue/boucle.md#key).
+- [ ] Dans ce même `v-for`, ajoutez l'[index](../../vue/boucle.md#index-de-la-boucle) de chaque chapitre, en plus du chapitre lui-même : sa position dans la liste (0, 1, 2, 3). Vous en aurez besoin à l'étape 4.
+- [ ] Dans chaque élément, un lien qui affiche le titre du chapitre et mène à sa section, grâce à son `id`.
 
 *Cible* : 4 liens.
 
@@ -197,25 +198,27 @@ Les étapes 2 à 4 reprennent l'exercice [Collection de films](../../exercices/e
 
 ### :material-laptop: Étape 4 : le chapitre actif *Seuls* { #etape-4 }
 
-- [ ] `:class` sur le `<a>` : `actif` si `index === activeChapterIndex`
-- [ ] Console : `nav.activeChapterIndex = 2`
+- [ ] Sur le lien, une [classe dynamique](../../vue/classe-dynamique.md#class) : la classe `actif` s'applique seulement si une condition est vraie, l'index du chapitre est égal à `activeChapterIndex`.
+- [ ] Testez dans la console : `nav.activeChapterIndex = 2`
 
 *Cible* : le rouge passe au 3e lien. Une donnée change, la page suit.
 
 ??? tip "Coincé aux étapes 2 à 4?"
     - **Aucun chapitre** : `chapters: chapters` manque dans `data()`.
-    - **`:href="#chapter.id"`** : il faut `'#' + chapter.id`.
-    - **Pas de rouge** : le `:class` est sur le `<li>`; le CSS vise `a.actif`.
+    - **Le lien ne mène nulle part** : le `href` doit être dynamique, et sa valeur doit coller le `#` à l'`id` du chapitre.
+    - **Pas de rouge** : la classe est sur l'élément de liste plutôt que sur le lien; le CSS vise `a.actif`.
     - **`nav is not defined`** : `window.nav = ...` manque dans `main.js`.
 
 ---
 
 ### :material-human-male-board: :material-laptop: Étape 5 : aller au chapitre *En démo, puis seuls* { #etape-5 }
 
-- [ ] `goTo()` fournie, dans `methods`
+- [ ] Ajouter `goTo()` fournie ci-bas dans `methods`
 - [ ] Au clic : `@click.prevent="goTo(chapter.id)"`
 
 *Cible* : un défilement en douceur, l'adresse ne change pas.
+
+> Sur MDN : [`scrollIntoView()` et son option `behavior`](https://developer.mozilla.org/fr/docs/Web/API/Element/scrollIntoView#behavior).
 
 ??? example "Fourni : `goTo()`"
 
@@ -234,13 +237,13 @@ Les étapes 2 à 4 reprennent l'exercice [Collection de films](../../exercices/e
 
 ### :material-human-male-board: :material-laptop: Étape 6 : suivre le défilement *En démo, puis seuls* { #etape-6 }
 
-- [ ] `updateActive()` fournie, dans `methods`
-- [ ] `mounted()` : comme l'[exemple](../../vue/mounted.md#syntaxe), avec `"scroll"` et `updateActive`
+- [ ] Ajouter `updateActive()` fournie ci-bas dans `methods`
+- [ ] `mounted()` : comme l'[exemple](../../vue/mounted.md#syntaxe), avec l'événement `"scroll"` et l'appel à la méthode `updateActive`
 - [ ] `v-cloak` sur `#navigation`
 
 *Cible* : le lien actif suit le défilement, même après un rechargement au milieu.
 
-??? example "Fourni : `updateActive()`"
+??? example "Fournie : `updateActive()`"
 
     ```js
     updateActive() {
@@ -258,10 +261,10 @@ Les étapes 2 à 4 reprennent l'exercice [Collection de films](../../exercices/e
 
 ### :material-laptop: Étape 7 : la même recette *Seuls* { #etape-7 }
 
-- [ ] La zone fournie dans `index.html`, après `#navigation`
+- [ ] La zone HTML fournie ci-bas dans `index.html`, après `#navigation`
 - [ ] `js/progression.js` : `createProgressBar()`, montée sur `#barre-progression`
 - [ ] `data()` : `progress` (`0`)
-- [ ] `updateProgress()` : la formule fournie
+- [ ] `updateProgress()` : la formule fournie ci-bas
 - [ ] `mounted()` : comme à l'étape 6
 - [ ] `main.js` : l'`import` et `window.bar = createProgressBar();`
 

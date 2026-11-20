@@ -1368,10 +1368,4 @@ body[data-md-color-scheme="slate"].finishing .md-typeset kbd {
   margin-top: 2.2em;
 }
 
-/* Ancres : défilement en douceur (tout le compendium),
-   sauf si la personne a demandé moins de mouvement */
-@media (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
-}
+

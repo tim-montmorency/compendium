@@ -53,12 +53,6 @@
 
 Un site dynamique se construit de deux façons. Toute la différence : **qui fabrique la page**, le serveur ou le navigateur? Les deux existent aujourd'hui, souvent dans le même site.
 
-### Essayez { #essayer }
-
-Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. Cliquez **Page suivante** en mode **Site multipage**, puis tapez quelques lettres et cliquez **Charger plus** en mode **Application web**. Comparez le panneau **Ce qui voyage**.
-
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-api-galerie&onglets=resultat,js&boutons=rejouer,ouvrir" style="width:100%;height:1000px;border:0" loading="lazy"></iframe>
-
 ### Site multipage (web classique) { #avant }
 
 *Le serveur envoie la page* (rendu côté serveur, SSR). À chaque clic, il interroge la base de données, fabrique le HTML et renvoie une page complète : l'adresse change, et tout l'écran est redessiné.
@@ -168,14 +162,18 @@ Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. 
 !!! note "Les deux cohabitent"
     Un site multipage n'est pas dépassé : des millions de sites WordPress fabriquent encore leurs pages en PHP, et c'est souvent le bon choix. Le même WordPress peut **aussi** offrir une API. Dans les deux cas, la base de données est toujours là, derrière le serveur ou derrière l'API.
 
+### Essayez { #essayer }
+
+Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. Cliquez **Page suivante** en mode **Site multipage**, puis tapez quelques lettres et cliquez **Charger plus** en mode **Application web**. Comparez le panneau **Ce qui voyage**.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-api-galerie&onglets=resultat,js&boutons=rejouer,ouvrir" style="width:100%;height:1000px;border:0" loading="lazy"></iframe>
+
 ### Vous le faites tous les jours { #exemples }
 
 - *« Charger plus » et le défilement infini* : TikTok, Reddit, Twitch. La suite s'ajoute en bas, et vous restez où vous êtes.
 - *Les suggestions pendant la frappe* : la recherche de jeux sur Steam, de chaînes sur Twitch.
 - *La recherche de GIF dans Discord* : les résultats s'affichent sans quitter la conversation.
 
-??? info "Et le clavardage en direct de Discord ou de Twitch?"
-    Il utilise une autre technique : les **WebSockets**. La connexion reste ouverte, et le serveur envoie chaque nouveau message dès qu'il arrive, sans attendre qu'on le demande.
 
 ??? example "Des API ouvertes, pour créer"
     - *Les collections de musées* : le [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ :target="_blank" } (la source de la démo) et le [Met (New York)](https://metmuseum.github.io/){ :target="_blank" }, avec les images.
