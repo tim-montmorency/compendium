@@ -1,7 +1,5 @@
 # Cours 11
 
-[STOP]
-
 *[GSAP]: GreenSock Animation Platform
 *[SVG]: Scalable Vector Graphics
 
