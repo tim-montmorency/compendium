@@ -174,8 +174,6 @@ Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. 
 - *Les suggestions pendant la frappe* : la recherche de jeux sur Steam, de chaînes sur Twitch.
 - *La recherche de GIF dans Discord* : les résultats s'affichent sans quitter la conversation.
 
-??? info "Et le clavardage en direct de Discord ou de Twitch?"
-    Il utilise une autre technique : les **WebSockets**. La connexion reste ouverte, et le serveur envoie chaque nouveau message dès qu'il arrive, sans attendre qu'on le demande.
 
 ??? example "Des API ouvertes, pour créer"
     - *Les collections de musées* : le [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ :target="_blank" } (la source de la démo) et le [Met (New York)](https://metmuseum.github.io/){ :target="_blank" }, avec les images.

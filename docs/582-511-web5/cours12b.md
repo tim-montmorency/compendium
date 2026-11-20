@@ -1,8 +1,7 @@
 # **Cours 12.2** Les API externes
 <!-- ven. 20 nov. -->
 
-!!! info "Calendrier décalé d'un cours"
-    Le cours du 13 nov. sera repris le **jeu. 17 déc.** La **bêta** a lieu le **mer. 2 déc.**, la **défense** le **ven. 11 déc.** et la **remise finale** le **jeu. 17 déc.** [Voir le calendrier](projets/recit-defilant/index.md#calendrier).
+![](assets/cours12b-banniere.webp){.w-100}
 
 <div class="class-content-link">
   <img src="assets/IA-interdite.png">
@@ -10,6 +9,16 @@
 </div>
 
 <div class="grid" markdown>
+
+<div class="card" markdown>
+:simple-vuedotjs: __Les composants Vue, la suite__
+
+---
+
+On termine le bac à sable du cours 12.1, là où on s'est arrêtés.
+
+[:octicons-arrow-right-24: Les étapes](projets/recit-defilant/composant-vue.md#js-navigation){ .stretched-link }
+</div>
 
 <div class="card" markdown>
 :material-api: __API, JSON et fetch__
@@ -35,11 +44,27 @@ Trouver l'adresse, lire la réponse, prévoir la panne.
 
 ## Aujourd'hui
 
+- [ ] Les composants Vue, la suite : on termine le bac à sable du cours 12.1
 - [ ] API, JSON et fetch : pourquoi ils sont partout
+- [ ] Où se cache la donnée? Chaque personne, dans Wooclap
 - [ ] Le *fetch* externe : choisir et tester votre API
-- [ ] Atelier : votre API dans votre bac à sable, puis documentée dans le cahier de charges. Votre composant Vue pas encore intégré? Terminez-le.
+- [ ] Atelier : en équipe, trouvez votre API et faites-la valider avant la fin du cours. Votre composant Vue pas encore intégré? Terminez-le.
 
-## 1. :material-api:  API, JSON et fetch : pourquoi ils sont partout { #pourquoi-api }
+## 1. :material-code-braces:  Les composants Vue, la suite { #composant }
+
+On reprend le bac à sable du [cours 12.1](cours12a.md#composant) là où on s'est arrêtés. Ouvrez votre dossier `bac-a-sable-vue/` avec **Live Server**, et cochez les étapes déjà faites.
+
+Pas de bac à sable, ou il ne fonctionne plus? Repartez du [code de départ](cours12a.md#composant), puis suivez les étapes dans l'ordre.
+
+- [ ] [Étapes 0 et 1](projets/recit-defilant/composant-vue.md#etape-0), en démo : `main.js` et le branchement
+- [ ] [Étapes 2 à 4](projets/recit-defilant/composant-vue.md#etape-2), seuls : les données, la liste, le chapitre actif
+- [ ] [Étape 5](projets/recit-defilant/composant-vue.md#etape-5), en démo puis seuls : aller au chapitre, `goTo()`
+- [ ] [Étape 6](projets/recit-defilant/composant-vue.md#etape-6), en démo puis seuls : suivre le défilement, `mounted()`
+- [ ] [Étape 7](projets/recit-defilant/composant-vue.md#etape-7), seuls : la barre de progression
+
+[:simple-vuedotjs: Les composants Vue : les étapes](projets/recit-defilant/composant-vue.md#js-navigation){ .md-button .md-button--primary }
+
+## 2. :material-api:  API, JSON et fetch : pourquoi ils sont partout { #pourquoi-api }
 
 
 <div class="w5-schema-cadre" style="margin:1.5em 0;padding:1rem 1.2rem;background:var(--md-code-bg-color);border:1px solid var(--md-default-fg-color--lightest);border-radius:0.4rem;text-align:center">
@@ -78,30 +103,35 @@ Trouver l'adresse, lire la réponse, prévoir la panne.
 </svg>
 </div>
 
-**Le web moderne tourne sur trois morceaux : les API (Application Programming Interface), le JSON et `fetch()`.** 
+Une **API** est la porte d'un service, le **JSON** est la langue de ses données, et **`fetch()`** est le messager qui va les chercher. Vous connaissez déjà `fetch()` : dans votre portfolio, il chargeait vos projets depuis un fichier JSON.
 
-Un site dynamique peut se construire de deux façons, et les deux existent aujourd'hui :
+[:material-api: API, JSON et fetch : le trio du web moderne](js/api-json-fetch.md){ .md-button .md-button--primary } 
 
-- **Site multipage (web classique)** : le serveur fabrique chaque page avec sa base de données, et chaque clic charge une nouvelle page : une nouvelle adresse dans la barre du navigateur, et tout l'écran redessiné;
-- **Application web (web moderne)** : le serveur envoie seulement les **données**, en **JSON**, et c'est le navigateur qui les place dans la page avec **`fetch()`** : l'adresse (URL) ne change pas, et seule une partie de l'écran se met à jour, dynamiquement, en temps réel, sans charger une nouvelle page.
 
-Les trois morceaux :
+### Où se cache la donnée? *10 min* { #ou-se-cache }
 
-- **L'API**, la porte d'un service : la même API sert le site web, l'application iOS et l'application Android;
-- **le JSON**, la langue de ces données, que tous les langages comprennent;
-- **`fetch()`**, le messager du navigateur, qui va les chercher sans charger une nouvelle page.
+Sur **votre** poste, pas celui de votre coéquipier. Trois adresses d'API, de la plus facile à la plus difficile. Pour chacune :
 
-Vous avez déjà le geste : dans votre portfolio, `fetch()` chargeait vos projets depuis un fichier JSON. Interroger une API, c'est le même `fetch()`, avec une adresse sur un autre serveur. Ceux qui ont choisi Airtable l'ont déjà fait.
+- [ ] Ouvrez l'adresse dans **Firefox** : il affiche le JSON de façon lisible ([voir la réponse](js/json-chemin.md#firefox)).
+- [ ] Trouvez le **chemin** vers la valeur demandée, à partir de `data` ([la méthode](js/json-chemin.md#methode)).
+- [ ] Écrivez le **chemin** et la **valeur** dans le Wooclap de votre groupe. Vos réponses restent cachées aux autres jusqu'à la mise en commun.
 
-[:material-api: API, JSON et fetch : le trio du web moderne](js/api-json-fetch.md){ .md-button .md-button--primary }
+- [Gr2 vendredi AM](https://app.wooclap.com/UQLJRRR) (code `UQLJRRR`)
+- [Gr1 vendredi PM](https://app.wooclap.com/BZUIEPD) (code `BZUIEPD`)
 
-## 2. :material-api:  Le fetch externe : choisir et tester votre API
+| | L'adresse | La valeur à trouver |
+|---|---|---|
+| 1 | [Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=America%2FToronto){ :target="_blank" } | La température maximale prévue **demain** à Montréal |
+| 2 | [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson){ :target="_blank" } | Le lieu du **premier** séisme de la liste |
+| 3 | [REST Countries](https://restcountries.com/v3.1/name/canada?fields=name,capital,population){ :target="_blank" } | La **capitale** du Canada |
+
+## 3. :material-api:  Le fetch externe : choisir et tester votre API
 
 <video class="w-100" src="assets/cours11b-fetch-dataviz.webm" autoplay muted loop playsinline aria-label="La démo La Terre bouge : en arrivant à chaque moment, un fetch() part vers une API externe (USGS, puis Open-Meteo), le JSON revient, et la dataviz s'anime : un compteur et des points pour les séismes, puis des barres qui poussent pour la météo"></video>
 
 Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est **le même `fetch()`**, avec une adresse sur un autre site. Ce qui est nouveau :
 
-- **choisir** une API : **sans clé d'identification** (dans les listes d'API, la colonne **Auth : `No`**, plutôt que `apiKey` ou `OAuth`), **CORS : `Yes`** (ou `Unknown`, à tester d'abord), du JSON, et votre donnée;
+- **choisir** une API : **sans clé d'identification** (dans les listes d'API, la colonne **Auth : `No`**, plutôt que `apiKey` ou `OAuth`), **Cross-Origin Resource Sharing (CORS) : `Yes`** (ou `Unknown`, à tester d'abord), du JSON, et votre donnée;
 - **lire** sa réponse : tester l'adresse dans le navigateur, trouver le chemin vers votre valeur;
 - **prévoir la panne** : des valeurs de secours, pour que le récit reste lisible.
 
@@ -109,15 +139,17 @@ Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interro
 
 [:material-code-json: Trouver une donnée dans un JSON](js/json-chemin.md){ .md-button }
 
-!!! example "À vous : 20 minutes"
-    **La personne responsable de la dataviz**, avec ses deux API candidates :
+### Votre API, dans votre projet *atelier* { #votre-api }
 
-    1. Collez l'adresse de chacune dans le navigateur. Laquelle contient **votre** donnée?
-    2. Trouvez le [**chemin**](js/json-chemin.md) vers la valeur, comme `data.daily.temperature_2m_max`.
-    3. Faites le `fetch()` dans votre bac à sable, et affichez la valeur avec `console.log()`.
-    4. Notez votre API dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)).
+:material-account-group-outline: **En équipe**, explorez les listes d'API ([les pistes](projets/recit-defilant/dataviz.md#pistes)) et trouvez celle de votre moment dataviz. Pas d'idée? [La donnée peut parler du contexte](projets/recit-defilant/dataviz.md#pas-d-idee).
 
-    **L'autre personne** fait la même chose avec une API de la [liste de la démo](projets/recit-defilant/dataviz.md#demo) : tout le monde doit savoir lire une réponse d'API.
+**Avant la fin du cours, venez me montrer votre trouvaille.** Je la valide avec vous. Préparez :
+
+- [ ] l'**adresse** de l'API, ouverte dans Firefox;
+- [ ] le **chemin** vers votre donnée, et sa valeur;
+- [ ] en **une phrase**, ce que cette donnée apporte à votre histoire.
+
+Une fois validée, la personne responsable de la dataviz fait le `fetch()` dans son bac à sable et documente l'API dans le cahier de charges ([les 7 étapes](projets/recit-defilant/dataviz.md#api)). C'est exigé au mini-jalon du mer 25 nov.
 
 ## Devoirs
 
@@ -131,8 +163,9 @@ Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interro
 Je le vérifie avec vous au début du cours. Il est formatif.
 
 - **Votre composant Vue intégré** dans le projet : *pull request* fusionnée dans `main` (commencé au cours 12.1).
+- **La matrice de responsabilités à jour** (section 4 du `CAHIER-DE-CHARGES.md`) : Qui est responsable de quel composant VUE.js
 - **Votre API testée** : l'appel fonctionne, et `console.log()` affiche la donnée que vous voulez montrer ([les 7 étapes](projets/recit-defilant/dataviz.md#api)).
-- L'API documentée dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)), *commit* `Cahier : ajoute l'API de la dataviz`.
+- **L'API documentée** dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)), *commit* `Cahier : ajoute l'API de la dataviz`.
 
 Au cours 13.1, on commence la *phase 2*{ .w5-phase .w5-phase-2 } ensemble : lisez d'avance [les étapes](projets/recit-defilant/json-chapitres.md#ensemble).
 

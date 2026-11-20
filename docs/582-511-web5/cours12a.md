@@ -225,11 +225,11 @@ Pas de dictée : on démarre ensemble, vous écrivez ce que vous connaissez déj
 
 **Les étapes** : certaines en démo, d'autres seuls. Pour les étapes seuls, les consignes sont dans la page [Les composants Vue](projets/recit-defilant/composant-vue.md#js-navigation).
 
-- [ ] [Étapes 0 et 1](projets/recit-defilant/composant-vue.md#etape-0)), en démo : `main.js` et le branchement *10 min*
-- [ ] [Étapes 2 à 4](projets/recit-defilant/composant-vue.md#etape-2), seuls : les données, la liste, le chapitre actif *15 min + 5*
-- [ ] [Étape 5](projets/recit-defilant/composant-vue.md#etape-5), en démo puis seuls : aller au chapitre, `goTo()` *10 min*
-- [ ] [Étape 6](projets/recit-defilant/composant-vue.md#etape-6), en démo puis seuls : suivre le défilement, `mounted()` *15 min*
-- [ ] [Étape 7](projets/recit-defilant/composant-vue.md#etape-7), seuls : la barre de progression *15 min*
+- [ ] [Étapes 0 et 1](projets/recit-defilant/composant-vue.md#etape-0), en démo : `main.js` et le branchement (10 min)
+- [ ] [Étapes 2 à 4](projets/recit-defilant/composant-vue.md#etape-2), seuls : les données, la liste, le chapitre actif (15 min + 5)
+- [ ] [Étape 5](projets/recit-defilant/composant-vue.md#etape-5), en démo puis seuls : aller au chapitre, `goTo()` (10 min)
+- [ ] [Étape 6](projets/recit-defilant/composant-vue.md#etape-6), en démo puis seuls : suivre le défilement, `mounted()` (15 min)
+- [ ] [Étape 7](projets/recit-defilant/composant-vue.md#etape-7), seuls : la barre de progression (15 min)
 
 Pour suivre les consignes en classe, relire après le cours, ou si vous étiez absent :
 
