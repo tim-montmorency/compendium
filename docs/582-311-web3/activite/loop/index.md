@@ -49,7 +49,7 @@ L'objectif de cet exercice est de **préparer un SVG** pour l'animer, puis de me
   - [ ] Ajouter les classes `w-[70vw] max-w-4xl` pour une taille responsive (ces classes ont déjà été vues ; au besoin, poser la question)
   - [ ] Ajouter la classe `overflow-visible` pour que la bille ne soit pas coupée aux extrémités du tracé
 - [ ] En code, ajouter `id="guide"` au `<path>`. C'est le tracé complet, pâle, qui reste affiché sous le trait qui sera dessiné.
-- [ ] Copier-coller le `<path>` juste **en dessous** de `#guide`. Sur la copie :
+- [ ] Dupliquer le `<path>` `#guide` (copier-coller).<br>Sur la copie :
   - [ ] Changer le `id` pour `trace`
   - [ ] Changer la couleur du trait pour `#7D7F8E`
 - [ ] Juste avant `</svg>`, ajouter la petite bille à animer :
