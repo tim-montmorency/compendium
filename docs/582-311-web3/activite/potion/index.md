@@ -196,7 +196,7 @@ Dans `index.html`, la section de la formule a déjà la classe `font-display`.
 ### Mise en ligne
 
 <figure markdown>
-![type:video](./github.webm){.h-auto .w-50}
+![type:video](./github.webm){.h-auto .w-25}
 </figure>
 
 
@@ -213,7 +213,7 @@ Le résultat doit être accessible en ligne, comme l'exemple du résultat attend
 ### Défi pour éviter la répétition
 
 <figure markdown>
-![type:video](./puzzle.webm){.h-auto .w-50}
+![type:video](./puzzle.webm){.h-auto .w-25}
 </figure>
 
 - [ ] Les animations de `#abra`, `#cada` et `#bra` sont identiques.<br>Il serait donc préférable d'écrire l'animation **une seule fois**, mais dans une boucle (`forEach`) qui passe sur les trois mots.

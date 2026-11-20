@@ -46,7 +46,7 @@ gsap.registerPlugin(SplitText)
 
 export function gsapAnimations() {
 
-  const tableauDeLettres = SplitText.create("#titre", { type: "chars" })
+  const tableauDeLettres = SplitText.create(".text", { type: "chars" })
 
   gsap.from(tableauDeLettres.chars[2], {
     opacity: 0
@@ -75,7 +75,7 @@ gsap.registerPlugin(SplitText)
 
 export function gsapAnimations() {
 
-  const txt = SplitText.create("#titre", { type: "chars" })
+  const txt = SplitText.create(".text", { type: "chars" })
 
   gsap.from(txt.chars, {
     y: -100,
@@ -88,11 +88,11 @@ export function gsapAnimations() {
 }
 ```
 
-!!! tip "Pour le fun"
+!!! example "Pour le fun"
     
-    Essayez `rotation: "random(-120, 120)"`
+    Essayez `rotation: "random(-360, 360)"`
 
-??? note "À propos de [`stagger`](https://gsap.com/resources/getting-started/Staggers/)"
+!!! note "À propos de [`stagger`](https://gsap.com/resources/getting-started/Staggers/)"
 
     `stagger: 0.05` signifie : chaque lettre démarre **0,05 s après la précédente**.
 
