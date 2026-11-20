@@ -153,7 +153,7 @@ Voici plusieurs pistes à explorer pour trouver l'API de votre moment dataviz :
 
 <a id="pas-d-idee"></a>
 
-!!! tip "Pas d'idée? La donnée peut parler du contexte"
+??? tip "Pas d'idée? La donnée peut parler du contexte"
     Votre donnée n'a pas besoin de porter sur le **sujet** de votre récit. Elle peut porter sur son **contexte** :
 
     - **le lieu** : la météo, le lever du soleil, la population du pays où se passe l'histoire (Open-Meteo, Sunrise-Sunset, REST Countries);
@@ -183,7 +183,7 @@ Une bonne API pour votre récit coche ces 4 cases :
 - elle renvoie du **JSON**;
 - elle contient **votre donnée**, celle qui répond à la question de votre moment dataviz.
 
-!!! info "CORS, c'est quoi?"
+??? info "CORS, c'est quoi?"
     **CORS** (Cross-Origin Resource Sharing, le partage entre origines) est une règle de sécurité du navigateur. Par défaut, votre page n'a **pas le droit de lire** une réponse qui vient d'un autre site. L'API doit donner sa permission, dans un en-tête de sa réponse (`Access-Control-Allow-Origin`).
 
     - *Avec la permission* (CORS : `Yes`) : votre `fetch()` reçoit les données.
