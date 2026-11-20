@@ -53,12 +53,6 @@
 
 Un site dynamique se construit de deux façons. Toute la différence : **qui fabrique la page**, le serveur ou le navigateur? Les deux existent aujourd'hui, souvent dans le même site.
 
-### Essayez { #essayer }
-
-Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. Cliquez **Page suivante** en mode **Site multipage**, puis tapez quelques lettres et cliquez **Charger plus** en mode **Application web**. Comparez le panneau **Ce qui voyage**.
-
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-api-galerie&onglets=resultat,js&boutons=rejouer,ouvrir" style="width:100%;height:1000px;border:0" loading="lazy"></iframe>
-
 ### Site multipage (web classique) { #avant }
 
 *Le serveur envoie la page* (rendu côté serveur, SSR). À chaque clic, il interroge la base de données, fabrique le HTML et renvoie une page complète : l'adresse change, et tout l'écran est redessiné.
@@ -167,6 +161,12 @@ Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. 
 
 !!! note "Les deux cohabitent"
     Un site multipage n'est pas dépassé : des millions de sites WordPress fabriquent encore leurs pages en PHP, et c'est souvent le bon choix. Le même WordPress peut **aussi** offrir une API. Dans les deux cas, la base de données est toujours là, derrière le serveur ou derrière l'API.
+
+### Essayez { #essayer }
+
+Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. Cliquez **Page suivante** en mode **Site multipage**, puis tapez quelques lettres et cliquez **Charger plus** en mode **Application web**. Comparez le panneau **Ce qui voyage**.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-api-galerie&onglets=resultat,js&boutons=rejouer,ouvrir" style="width:100%;height:1000px;border:0" loading="lazy"></iframe>
 
 ### Vous le faites tous les jours { #exemples }
 

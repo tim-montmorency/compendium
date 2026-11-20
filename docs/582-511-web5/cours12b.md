@@ -119,11 +119,11 @@ Sur **votre** poste, pas celui de votre coéquipier. Trois adresses d'API, de la
 - [Gr2 vendredi AM](https://app.wooclap.com/UQLJRRR) (code `UQLJRRR`)
 - [Gr1 vendredi PM](https://app.wooclap.com/BZUIEPD) (code `BZUIEPD`)
 
-| | L'adresse | La valeur à trouver |
+| L'API | La valeur à trouver | L'adresse à copier dans Firefox |
 |---|---|---|
-| 1 | [Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=America%2FToronto){ :target="_blank" } | La température maximale prévue **demain** à Montréal |
-| 2 | [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson){ :target="_blank" } | Le lieu du **premier** séisme de la liste |
-| 3 | [REST Countries](https://restcountries.com/v3.1/name/canada?fields=name,capital,population){ :target="_blank" } | La **capitale** du Canada |
+| [Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=America%2FToronto){ :target="_blank" } | La température maximale prévue **demain** à Montréal | `https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=America%2FToronto` |
+| [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson){ :target="_blank" } | Le lieu du **premier** séisme de la liste | `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson` |
+| [REST Countries](https://restcountries.com/v3.1/name/canada?fields=name,capital,population){ :target="_blank" } | La **capitale** du Canada | `https://restcountries.com/v3.1/name/canada?fields=name,capital,population` |
 
 ## 3. :material-api:  Le fetch externe : choisir et tester votre API
 
