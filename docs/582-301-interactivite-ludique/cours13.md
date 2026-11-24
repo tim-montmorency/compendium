@@ -1,61 +1,91 @@
-<!--
-Piste — Capsule d'enrichissement possible : Behavior (Unity 6)
-1. Rappel : ennemi codé avec un switch sur un état (patrouille → poursuite).
-2. Même ennemi refait dans Behavior, puis ajout d'une attaque et d'une fuite — montre l'intérêt de l'outil quand le comportement grossit.
-- Vérifier la compatibilité avec la version Unity du labo avant de préparer la démo.
--->
-
 # Cours 13
 
 [STOP]
 
-!!! tip "Où tu devrais être rendu"
-    Ton alpha est en ligne, tu as reçu les observations de trois camarades et tu les as transformées en tâches priorisées.
+## itch.io
 
-    **Cette semaine :** tu fermes les tâches prioritaires. La capsule d'enrichissement est **facultative** — si tu es en retard, tu la sautes sans remords et tu travailles.
+![](./assets/img/itchio-banner.png)
 
-    ⏭️ **La semaine prochaine, jalon 4 :** contenu complet et gel des fonctionnalités.
+### Finaliser la configuration
 
-<!-- ## Déroulement de la séance
+!!! tip "Tout doit être rédigé en français"
 
-| Temps | Activité |
-|---|---|
-| 0h00 – 0h15 | État des backlogs, qui est où |
-| 0h15 – 1h00 | Capsule d'enrichissement (facultative) |
-| 1h00 – 1h15 | Pause |
-| 1h15 – 3h35 | Production encadrée | -->
+![](./assets/img/itchio-edit-game-complete-1.png){data-zoom-image}
 
-## État des lieux
+- [ ] **Title**
+- [ ] **Project URL**
+- [ ] **Short description or tagline**
+- [ ] **Classification** = Games
+- [ ] **Kind of project** = HTML
+- [ ] **Release status** = In development
+- [ ] **Cover image**
+- [ ] **Screenshots**
 
-### Où en est ton backlog
+![](./assets/img/itchio-edit-game-complete-2.png){data-zoom-image}
 
-### Les *issues* `must` encore ouvertes
+- [ ] **Pricing** = No payments
+- [ ] **Uploads** = `.zip` du build Web
+- [ ] **This file will be played in the browser** = Cocher
+- [ ] **Embed options** = Click to launch in fullscreen
+- [ ] **Frame options** = Rien de coché
 
-## Capsule d'enrichissement
+![](./assets/img/itchio-edit-game-complete-3.png){data-zoom-image}
 
-!!! note "Facultative, et sans effet sur la note"
-    Une capsule de 30 à 45 minutes, choisie selon les besoins du groupe. Si tu es en retard sur tes `must`, ignore-la et travaille — c'est le bon choix.
+- [ ] **Description** = Un court paragraphe
+  - [ ] Ajouter une section **Contrôles**
+  - [ ] Ajouter une section **Crédits**
+  - [ ] Ajouter un lien vers votre dépot GitHub
+- [ ] **Genre** = Choisir un genre
+- [ ] **Tags** = minimum 5
 
-Au choix :
+![](./assets/img/itchio-edit-game-complete-4.png){data-zoom-image}
 
-* **Accessibilité** — contrastes, taille de texte, remappage des touches, options de confort
-* **[Tableau des meneurs avec Unity Gaming Services](./extra/leaderboard-ugs.md)**
-* **Localisation FR/EN**
-* **ScriptableObjects** pour les données de jeu
-* **[Recettes avancées](./extra/recettes-avancees.md)**
+- [ ] **AI generation disclosure**
+- [ ] **Community** = Comments
+- [ ] **Visibility & access** = Public
+- [ ] Cliquer sur **Save**
 
-## Production encadrée
+![](./assets/img/itchio-metadata-external-link.png){data-zoom-image}
 
-## Devoirs
+- [ ] **Metadata > External links** > _Add new link to_ = **GitHub**
+- [ ] Coller l'URL du dépot GitHub de votre jeu
+- [ ] Cliquer sur **Save links**
 
-<!--
-================================================================
-NOTES DE RÉDACTION — à supprimer une fois la séance écrite
-================================================================
-Séance d'atelier : peu de rédaction nécessaire.
+  ??? note "Web 3"
 
-À écrire : le contenu de la capsule Accessibilité (les autres pointent
-vers extra/). Prévoir 2-3 capsules prêtes d'avance et choisir sur place
-selon ce que révèle le jalon F3 du cours 12.
-================================================================
--->
+      Pour celles et ceux qui ont le cours Web 3, vous pourrez aussi ajouter un lien de type "Homepage" avec l'URL de votre page Web.
+
+![](./assets/img/itchio-metadata-classification.png){data-zoom-image}
+
+- [ ] **Metadata > Classification** > Input methods
+- [ ] **Average session duration**
+- [ ] **Player count**
+- [ ] **Languages** = French
+- [ ] Cliquer sur **Save changes**
+
+![](./assets/img/itchio-metadata-engines-tools.png){data-zoom-image}
+
+- [ ] **Metadata > Engines & tools** : Unity <br>_Laisser la version vide_
+- [ ] Cliquer sur **Save**
+
+### Intégrer le jeu dans un site Web
+
+L'onglet **Distribute** génère le code pour afficher le jeu dans un autre site Web (utile pour le cours de Web 3 😜) :
+
+- **Embed game** : le jeu lui-même, dans un `iframe`, avec un lien direct
+- **Widget** : une carte de présentation (couverture, titre, courte description) avec un bouton vers la page itch.io
+
+<div class="grid align-items-top" markdown>
+![](./assets/img/itchio-distribute-embed.png){data-zoom-image}
+
+![](./assets/img/itchio-distribute-widget.png){data-zoom-image}
+</div>
+
+### Ajuster le look de la page
+
+![](./assets/img/itchio-edit-theme.png){data-zoom-image}
+
+Aller sur la page publique de votre jeu et cliquez sur **Edit theme**
+
+- [ ] Configurer la page aux couleurs et images de votre jeu
+- [ ] Cliquer sur **Save** 👈👈👈👈👈👈👈👈👈

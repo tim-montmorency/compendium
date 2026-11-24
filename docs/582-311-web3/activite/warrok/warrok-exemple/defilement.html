@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warrok - Caméra au défilement</title>
+  </head>
+  <body class="bg-base-200">
+
+    <!-- Le modèle reste fixe en arrière-plan : seule la caméra bouge -->
+    <model-viewer
+      id="vitrine"
+      src="./modeles/phone.glb"
+      alt="Warrok, un guerrier ours en armure"
+      autoplay
+      camera-orbit="0deg 80deg 110%"
+      camera-target="0m 1.2m 0m"
+      min-camera-orbit="auto auto 10%"
+      shadow-intensity="1"
+      class="fixed inset-0 w-full h-screen">
+    </model-viewer>
+
+    <!-- Le texte défile par-dessus le modèle -->
+    <main class="relative">
+
+      <section class="min-h-screen flex items-center p-8">
+        <div class="card bg-base-100/80 max-w-md">
+          <div class="card-body">
+            <h1 class="card-title text-4xl">Warrok</h1>
+            <p>Faites défiler la page&nbsp;: la caméra se déplace toute seule.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tour" class="min-h-screen flex items-center p-8">
+        <div class="card bg-base-100/80 max-w-md">
+          <div class="card-body">
+            <h2 class="card-title">1. Le tour du propriétaire</h2>
+            <p>La caméra tourne autour du modèle au rythme du défilement.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gros-plan" class="min-h-screen flex items-center justify-end p-8">
+        <div class="card bg-base-100/80 max-w-md">
+          <div class="card-body">
+            <h2 class="card-title">2. Le gros plan</h2>
+            <p>La caméra s'approche et vise la tête.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="plongee" class="min-h-screen flex items-center p-8">
+        <div class="card bg-base-100/80 max-w-md">
+          <div class="card-body">
+            <h2 class="card-title">3. La vue plongeante</h2>
+            <p>La caméra recule et monte au-dessus du personnage.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="min-h-screen flex items-center justify-center p-8">
+        <a href="./index.html" class="btn btn-primary">Retour à la vitrine</a>
+      </section>
+
+    </main>
+
+    <script type="module" src="./src/defilement.js"></script>
+  </body>
+</html>
