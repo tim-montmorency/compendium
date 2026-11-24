@@ -46,9 +46,6 @@ Trouver l'adresse, lire la réponse, prévoir la panne.
 
 - [ ] Les composants Vue, la suite : on termine le bac à sable du cours 12.1
 - [ ] API, JSON et fetch : pourquoi ils sont partout
-- [ ] Où se cache la donnée? Chaque personne, dans Wooclap
-- [ ] Le *fetch* externe : choisir et tester votre API
-- [ ] Atelier : en équipe, trouvez votre API et faites-la valider avant la fin du cours. Votre composant Vue pas encore intégré? Terminez-le.
 
 ## 1. :material-code-braces:  Les composants Vue, la suite { #composant }
 
@@ -108,56 +105,8 @@ Une **API** est la porte d'un service, le **JSON** est la langue de ses données
 [:material-api: API, JSON et fetch : le trio du web moderne](js/api-json-fetch.md){ .md-button .md-button--primary } 
 
 
-### Où se cache la donnée? *10 min* { #ou-se-cache }
-
-Sur **votre** poste, pas celui de votre coéquipier. Trois adresses d'API, de la plus facile à la plus difficile. Pour chacune :
-
-- [ ] Ouvrez l'adresse dans **Firefox** : il affiche le JSON de façon lisible ([explorer la réponse reçue de l'API](js/json-chemin.md#firefox)).
-- [ ] Trouvez le **chemin** vers la valeur demandée, à partir de `data` ([la méthode](js/json-chemin.md#methode)).
-- [ ] Testez votre chemin dans la **console** de la page de l'API (++f12++), avec le code ci-dessous.
-- [ ] Écrivez le **chemin** et la **valeur** dans le Wooclap de votre groupe. Vos réponses restent cachées aux autres jusqu'à la mise en commun.
-
-- [Gr2 vendredi AM](https://app.wooclap.com/UQLJRRR) (code `UQLJRRR`)
-- [Gr1 vendredi PM](https://app.wooclap.com/BZUIEPD) (code `BZUIEPD`)
-
-**Tester un chemin dans la console** : collez ces deux lignes, puis remplacez `data.latitude` par votre chemin. La console affiche la valeur, ou `undefined` si le chemin est faux ([pourquoi ça marche](js/json-chemin.md#console)).
-
-```js
-const data = await (await fetch(location.href)).json();
-data.latitude
-```
-
-| L'API | La valeur à trouver | L'adresse à copier dans Firefox |
-|---|---|---|
-| [Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=America%2FToronto){ :target="_blank" } | La température maximale prévue **demain** à Montréal | `https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=America%2FToronto` |
-| [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson){ :target="_blank" } | Le lieu du **premier** séisme de la liste | `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson` |
-| [REST Countries](https://restcountries.com/v3.1/name/canada?fields=name,capital,population){ :target="_blank" } | La **capitale** du Canada | `https://restcountries.com/v3.1/name/canada?fields=name,capital,population` |
-
-## 3. :material-api:  Le fetch externe : choisir et tester votre API
-
-<video class="w-100" src="assets/cours11b-fetch-dataviz.webm" autoplay muted loop playsinline aria-label="La démo La Terre bouge : en arrivant à chaque moment, un fetch() part vers une API externe (USGS, puis Open-Meteo), le JSON revient, et la dataviz s'anime : un compteur et des points pour les séismes, puis des barres qui poussent pour la météo"></video>
-
-Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est **le même `fetch()`**, avec une adresse sur un autre site. Ce qui est nouveau :
-
-- **choisir** une API : **sans clé d'identification** (dans les listes d'API, la colonne **Auth : `No`**, plutôt que `apiKey` ou `OAuth`), **Cross-Origin Resource Sharing (CORS) : `Yes`** (ou `Unknown`, à tester d'abord), du JSON, et votre donnée;
-- **lire** sa réponse : tester l'adresse dans le navigateur, trouver le chemin vers votre valeur;
-- **prévoir la panne** : des valeurs de secours, pour que le récit reste lisible.
-
-[:material-api: Choisir et tester votre API : les 7 étapes](projets/recit-defilant/dataviz.md#api){ .md-button .md-button--primary }
-
-[:material-code-json: Trouver une donnée dans un JSON](js/json-chemin.md){ .md-button }
-
-### Votre API, dans votre projet *atelier* { #votre-api }
-
-:material-account-group-outline: **En équipe**, explorez les listes d'API ([les pistes](projets/recit-defilant/dataviz.md#pistes)) et trouvez celle de votre moment dataviz. Pas d'idée? [La donnée peut parler du contexte](projets/recit-defilant/dataviz.md#pas-d-idee).
-
-**Avant la fin du cours, venez me montrer votre trouvaille.** Je la valide avec vous. Préparez :
-
-- [ ] l'**adresse** de l'API, ouverte dans Firefox;
-- [ ] le **chemin** vers votre donnée, et sa valeur;
-- [ ] en **une phrase**, ce que cette donnée apporte à votre histoire.
-
-Une fois validée, la personne responsable de la dataviz fait le `fetch()` dans son bac à sable et documente l'API dans le cahier de charges ([les 7 étapes](projets/recit-defilant/dataviz.md#api)). C'est exigé au mini-jalon du mer 25 nov.
+!!! info "Reporté au cours 13.1"
+    L'exercice [Où se cache la donnée?](exercices/ex-ou-se-cache/index.md), le fetch externe et le choix de votre API sont reportés au [cours 13.1](cours13a.md).
 
 ## Devoirs
 
@@ -166,7 +115,7 @@ Une fois validée, la personne responsable de la dataviz fait le `fetch()` dans 
   <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
 </div>
 
-### D'ici le mer. 25 nov. (cours 13.1) : le mini-jalon
+### D'ici le ven 27 nov (cours 13.2) : le mini-jalon
 
 Je le vérifie avec vous au début du cours. Il est formatif.
 
@@ -175,7 +124,7 @@ Je le vérifie avec vous au début du cours. Il est formatif.
 <!--- **Votre API testée** : l'appel fonctionne, et `console.log()` affiche la donnée que vous voulez montrer ([les 7 étapes](projets/recit-defilant/dataviz.md#api)).
 - **L'API documentée** dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)), *commit* `Cahier : ajoute l'API de la dataviz`. -->
 
-Au cours 13.1, on commence la *phase 2*{ .w5-phase .w5-phase-2 } ensemble : lisez d'avance [les étapes](projets/recit-defilant/json-chapitres.md#ensemble).
+Au cours 13.1, on commence aussi la *phase 2*{ .w5-phase .w5-phase-2 } ensemble : lisez d'avance [les étapes](projets/recit-defilant/json-chapitres.md#ensemble).
 
 ### D'ici la bêta, en *phase 2*{ .w5-phase .w5-phase-2 } *~~ven 20 nov~~ mer 2 déc, cours 14.1*
 

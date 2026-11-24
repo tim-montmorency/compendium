@@ -42,31 +42,11 @@ data.sprites.other["official-artwork"].front_default
 !!! warning "Le piège du tiret"
     `data.sprites.other.official-artwork` ne fonctionne pas : JavaScript lit le tiret comme une **soustraction** (`official` moins `artwork`). Dès qu'une clé contient un tiret ou une espace, on passe aux crochets : `["official-artwork"]`.
 
-## À vous : tester vos chemins { #tester }
+## À vous { #tester }
 
-La démo charge la réponse de la PokéAPI. Essayez les chemins proposés, du plus simple au plus difficile, puis les deux versions du piège du tiret.
+Pikachu, puis trois vraies API : trouvez le chemin vers la donnée.
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-json-chemin&onglets=resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:550px;border:0" loading="lazy"></iframe>
-
-!!! question "Défi : les points de vie (hp) de Pikachu"
-    Dans le champ **Le chemin** de la démo ci-dessus, trouvez le chemin qui donne le **nombre** de points de vie de Pikachu : la démo doit afficher **35**.
-
-    Indice : cherchez `stats` dans la réponse. C'est un tableau d'objets. Le **nom** de la statistique (`"hp"`) vous dit dans quelle case regarder, mais ce n'est pas la valeur que vous cherchez.
-
-??? success "Réponse"
-    `data.stats[0].base_stat`, qui donne `35`.
-
-    Chaque case du tableau `stats` est un objet comme celui-ci :
-
-    ```js
-    {
-      base_stat: 35,        // la valeur : c'est elle qu'on veut
-      effort: 0,
-      stat: { name: "hp" }  // l'étiquette : elle dit de quelle statistique on parle
-    }
-    ```
-
-    `data.stats[0].stat.name` donne `"hp"` : ça confirme qu'on est dans la bonne case, mais c'est l'étiquette, pas le nombre.
+[:material-code-json: Exercice : Où se cache la donnée?](../exercices/ex-ou-se-cache/index.md){ .md-button .md-button--primary }
 
 ### Tester un chemin dans la console, avec n'importe quelle API { #console }
 

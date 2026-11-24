@@ -281,7 +281,7 @@ Votre composant est intégré? La suite, dans l'ordre
 ### D'ici le ven. 20 nov. (cours 12.2)
 
 - **La matrice de responsabilités à jour** (section 4 du `CAHIER-DE-CHARGES.md`) : une ligne par composant Vue, avec son responsable.
-- **Votre composant Vue intégré** dans le projet ([la marche à suivre](projets/recit-defilant/composant-vue.md#integrer)), si ce n'est pas terminé en classe : *pull request* fusionnée dans `main` d'ici le mini-jalon du mer. 25 nov. (cours 13.1).
+- **Votre composant Vue intégré** dans le projet ([la marche à suivre](projets/recit-defilant/composant-vue.md#integrer)), si ce n'est pas terminé en classe : *pull request* fusionnée dans `main` d'ici le mini-jalon du ven 27 nov (cours 13.2).
 - **L'exercice [*Cheese Kanye says*](exercices/ex-vue-kanye/index.md)** : la première API dans une app Vue. Il prépare le cours 12.2, sur les API externes.
 
 [Voir le calendrier](projets/recit-defilant/index.md#calendrier)
