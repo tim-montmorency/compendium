@@ -68,6 +68,18 @@ La démo charge la réponse de la PokéAPI. Essayez les chemins proposés, du pl
 
     `data.stats[0].stat.name` donne `"hp"` : ça confirme qu'on est dans la bonne case, mais c'est l'étiquette, pas le nombre.
 
+### Tester un chemin dans la console, avec n'importe quelle API { #console }
+
+Ouvrez l'adresse de l'API dans le navigateur, puis la console (++f12++), et collez :
+
+```js
+const data = await (await fetch(location.href)).json();
+```
+
+Tapez ensuite votre chemin, par exemple `data.name`, puis ++enter++. La console affiche la valeur, ou `undefined` si le chemin est faux.
+
+`location.href`, c'est l'adresse de la page ouverte. Le `fetch()` part de la même adresse que l'API : pas de problème de CORS.
+
 ## Plusieurs valeurs : `map()` { #map }
 
 `data.abilities[0].ability.name` donne le nom de la **première** capacité du Pokémon, et seulement elle. Pour avoir **toutes** les capacités, on utilise `map()` : il parcourt un tableau (array) et **crée un nouveau tableau**, en gardant de chaque élément seulement ce qu'on lui demande.
@@ -96,7 +108,7 @@ const abilities = data.abilities.map((item) => item.ability.name);
 
 Voir [Récap JS : `map()`](recap-js.md#map-join).
 
-## Voir la réponse : Firefox ou Chrome { #outils }
+## Explorer la réponse reçue de l'API : Firefox ou Chrome { #outils }
 
 - *Firefox* : on ouvre l'adresse de l'API, pour **explorer** avant de coder. 
 - *Chrome* : on ouvre **votre page**, pour **vérifier** ce que votre code reçoit vraiment.

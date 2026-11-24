@@ -112,12 +112,20 @@ Une **API** est la porte d'un service, le **JSON** est la langue de ses données
 
 Sur **votre** poste, pas celui de votre coéquipier. Trois adresses d'API, de la plus facile à la plus difficile. Pour chacune :
 
-- [ ] Ouvrez l'adresse dans **Firefox** : il affiche le JSON de façon lisible ([voir la réponse](js/json-chemin.md#firefox)).
+- [ ] Ouvrez l'adresse dans **Firefox** : il affiche le JSON de façon lisible ([explorer la réponse reçue de l'API](js/json-chemin.md#firefox)).
 - [ ] Trouvez le **chemin** vers la valeur demandée, à partir de `data` ([la méthode](js/json-chemin.md#methode)).
+- [ ] Testez votre chemin dans la **console** de la page de l'API (++f12++), avec le code ci-dessous.
 - [ ] Écrivez le **chemin** et la **valeur** dans le Wooclap de votre groupe. Vos réponses restent cachées aux autres jusqu'à la mise en commun.
 
 - [Gr2 vendredi AM](https://app.wooclap.com/UQLJRRR) (code `UQLJRRR`)
 - [Gr1 vendredi PM](https://app.wooclap.com/BZUIEPD) (code `BZUIEPD`)
+
+**Tester un chemin dans la console** : collez ces deux lignes, puis remplacez `data.latitude` par votre chemin. La console affiche la valeur, ou `undefined` si le chemin est faux ([pourquoi ça marche](js/json-chemin.md#console)).
+
+```js
+const data = await (await fetch(location.href)).json();
+data.latitude
+```
 
 | L'API | La valeur à trouver | L'adresse à copier dans Firefox |
 |---|---|---|
@@ -164,8 +172,8 @@ Je le vérifie avec vous au début du cours. Il est formatif.
 
 - **Votre composant Vue intégré** dans le projet : *pull request* fusionnée dans `main` (commencé au cours 12.1).
 - **La matrice de responsabilités à jour** (section 4 du `CAHIER-DE-CHARGES.md`) : Qui est responsable de quel composant VUE.js
-- **Votre API testée** : l'appel fonctionne, et `console.log()` affiche la donnée que vous voulez montrer ([les 7 étapes](projets/recit-defilant/dataviz.md#api)).
-- **L'API documentée** dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)), *commit* `Cahier : ajoute l'API de la dataviz`.
+<!--- **Votre API testée** : l'appel fonctionne, et `console.log()` affiche la donnée que vous voulez montrer ([les 7 étapes](projets/recit-defilant/dataviz.md#api)).
+- **L'API documentée** dans la section 6 du `CAHIER-DE-CHARGES.md` ([quoi écrire](projets/recit-defilant/dataviz.md#api-documenter)), *commit* `Cahier : ajoute l'API de la dataviz`. -->
 
 Au cours 13.1, on commence la *phase 2*{ .w5-phase .w5-phase-2 } ensemble : lisez d'avance [les étapes](projets/recit-defilant/json-chapitres.md#ensemble).
 
