@@ -1,8 +1,4 @@
-# Cours 12 | Médias par programmation, 3D et sauvegarde côté client
-
-[STOP]
-
-<!-- **Savoirs :** #3 Contrôle audio et vidéo · #13 Classe JavaScript · #14 Classes sur mesure · #12 Repérage d'erreur (DevTools) · #11 Sauvegarde côté client · #15 Interactivité · Intégration, classement et optimisation des médias · #16 Visualisation via librairie (bonus) -->
+# Cours 12
 
 *[DOM]: Document Object Model
 *[npm]: Node Package Manager
@@ -10,179 +6,179 @@
 *[AR]: Augmented Reality (réalité augmentée)
 *[glTF]: GL Transmission Format
 *[GLB]: glTF Binary
+*[JS]: JavaScript
 
-Ce cours s'appelle « Web **audiovisuel** »&nbsp;: au cours 7, les médias ont été **optimisés**. Aujourd'hui, on les **contrôle par programmation** 🎬🔊, puis vos modèles Maya entrent **dans le navigateur**, en 3D temps réel, et le site apprend à **se souvenir** des choix du visiteur 🪄. Au menu&nbsp;:
+[STOP]
 
 <div class="grid grid-1-4" markdown>
-  :material-play-circle: **Partie 1** - Audio et vidéo&nbsp;: API native, classes JavaScript et Howler.js
+  <div markdown>:material-play-circle:</div>
+   
+   Audio et vidéo : API native et effets sonores
 </div>
 
 <div class="grid grid-1-4" markdown>
-  :material-cube-outline: **Partie 2** - De Maya au navigateur&nbsp;: exporter et optimiser un modèle
+  <div markdown>:material-cube-outline:</div>
+   
+  **Partie 2** - De Maya au navigateur : exporter et optimiser un modèle
 </div>
 
 <div class="grid grid-1-4" markdown>
-  :material-rotate-3d-variant: **Partie 3** - `<model-viewer>`&nbsp;: une vitrine 3D en une balise HTML
+  <div markdown>:material-rotate-3d-variant:</div>
+   
+   **Partie 3** - `<model-viewer>` : une vitrine 3D en une balise HTML
 </div>
 
 <div class="grid grid-1-4" markdown>
-  :material-content-save-outline: **Partie 4** - Personnaliser et **mémoriser** les choix du visiteur avec `localStorage`
+  <div markdown>:material-content-save-outline:</div>
+   
+   **Partie 4** - Personnaliser et **mémoriser** les choix du visiteur avec `localStorage`
 </div>
 
 <div class="grid grid-1-4" markdown>
-  :material-star-plus: **Bonus** - Tone.js (musique générée), Chart.js (graphiques) et Three.js (3D sur mesure)
+  <div markdown>:material-chart-line:</div>
+   
+   **Partie 5** - Mesurer la fréquentation du site avec Google Analytics
+</div>
+
+<div class="grid grid-1-4" markdown>
+  <div markdown>:material-star-plus:</div>
+   
+   **Bonus** - Tone.js (musique générée) et Chart.js (graphiques)
 </div>
 
 ---
 
-# Partie 1 - Contrôler les médias par programmation
+## Médias et JavaScript
 
-Les balises `<video>` et `<audio>` viennent avec des contrôles par défaut. Mais dès qu'on veut un **lecteur sur mesure** (boutons stylisés, barre de progression maison, effets sonores au clic), on passe par le JavaScript.
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=lecteur-video&onglets=html,resultat&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-4-3" style="width:100%;border:0" loading="lazy"></iframe>
 
-## L'API native `<video>` / `<audio>`
+Les balises `<video>` et `<audio>` viennent avec plusieurs fonctionnalités contrôlables en JavaScript (**propriétés**, **méthodes** et **événements**). 
 
-Tout élément média expose des **propriétés**, des **méthodes** et des **événements** qu'on manipule en JS.
+```html title="HTML"
+<video id="film">
+  <source src="miaw.webm" type="video/webm" />
+</video>
+```
 
-| Propriété | Rôle |
-| :--- | :--- |
-| `currentTime` | Position de lecture (en secondes) |
-| `duration` | Durée totale |
-| `volume` | Volume (0 à 1) |
-| `muted` | Sourdine (booléen) |
-| `paused` | En pause ? (booléen) |
-| `playbackRate` | Vitesse de lecture |
+```js title="Sélectionner la vidéo"
+const media = document.querySelector("#film");
+```
 
-| Méthode | Effet |
-| :--- | :--- |
-| `.play()` | Lance la lecture |
-| `.pause()` | Met en pause |
-| `.load()` | Recharge la source |
+---
 
-| Événement | Se déclenche… |
-| :--- | :--- |
-| `play` / `pause` | À la lecture / pause |
-| `timeupdate` | À chaque avancée de lecture (pour une barre de progression) |
-| `ended` | À la fin |
-| `loadedmetadata` | Quand la durée est connue |
+<div class="grid align-items-top" markdown>
+```js title="Lancer la lecture"
+/* Set */
+media.play();
+```
 
-```js title="Bouton lecture/pause maison"
-const video = document.querySelector("#film")
-const bouton = document.querySelector("#lecture")
+```js title="Pause"
+/* Set */
+media.pause();
+
+/* Get (false ou true) */
+console.log( media.paused );
+```
+</div>
+
+```js title="Régler le volume"
+/* Set : 0 = muet, 1 = max */
+media.volume = 0.5;
+
+/* Set */
+media.muted = true;
+```
+
+```js title="Tête de lecture"
+/* Set (va à 12.34 secondes)*/
+media.currentTime = 12.34;
+
+/* Set : vitesse de lecture. 2 = vite, 0.5 = ralenti */
+media.playbackRate = 2;
+
+/* Get */
+console.log( media.currentTime );
+
+/* Get : durée totale. À utiliser avec loadedmetadata 👇 */
+console.log( media.duration );
+```
+
+```js title="Événements"
+/* Attend que le navigateur lise les métadonnées du fichier */
+media.addEventListener("loadedmetadata", () => {
+  // ...
+});
+
+/* Pendant la lecture (se déclenche ~4x / seconde)  */
+media.addEventListener("timeupdate", () => {
+  // ... 
+});
+
+/* Quand la lecture est terminée */
+media.addEventListener("ended", () => {
+  // ...
+});
+```
+
+### Un lecteur vidéo personnalisé
+
+Les contrôles natifs de `<video>` fonctionnent, mais ils ne ressemblent jamais au reste du site. En combinant quelques-uns des morceaux ci-dessus, on peut fabriquer son **propre lecteur** :
+
+| Contrôle maison | Morceaux de l'API utilisés |
+| --- | --- |
+| Bouton lecture / pause | `paused`, `play()`, `pause()` |
+| Temps écoulé / durée totale | `currentTime`, `duration`, `loadedmetadata`, `timeupdate` |
+| Barre de progression | `currentTime`, `duration`, `timeupdate` |
+| Bouton sourdine | `muted` |
+| Retour au bouton « lecture » à la fin | `ended` |
+
+C'est exactement ce que demande l'exercice **[Salle de projection](./exercices/medias-salle-projection.md)**, à la fin de cette partie.
+
+!!! tip "La recette"
+
+    Pour chaque contrôle : **sélectionner** l'élément HTML, **écouter** le bon événement, puis **lire ou modifier** la bonne propriété de la vidéo.
+
+### Les effets sonores
+
+Un effet sonore se pilote exactement comme la vidéo : une balise `<audio>`, **sans** l'attribut `controls` pour qu'elle reste invisible, puis les mêmes méthodes en JavaScript.
+
+```html title="HTML"
+<audio id="clic" src="./sons/clic.mp3"></audio>
+<button id="bouton">Cliquer</button>
+```
+
+```js title="Jouer un effet sonore au clic"
+const son = document.querySelector("#clic");
+const bouton = document.querySelector("#bouton");
 
 bouton.addEventListener("click", () => {
-  video.paused ? video.play() : video.pause()
-})
-
-// Barre de progression
-video.addEventListener("timeupdate", () => {
-  const pourcent = (video.currentTime / video.duration) * 100
-  document.querySelector("#barre").style.width = pourcent + "%"
-})
+  son.play();
+});
 ```
 
-<!-- CODEPEN: lecteur vidéo maison (play/pause + barre de progression) -->
-
-## Petit détour : les classes JavaScript
-
-Les librairies (GSAP depuis le cours 9, Howler aujourd'hui) nous donnent des **objets** créés avec le mot-clé `new`. Trois notions suffisent pour s'y retrouver&nbsp;:
-
-- une **classe** est un *moule* (ex.&nbsp;: `Howl`)&nbsp;;
-- `new` fabrique une **instance** à partir du moule&nbsp;;
-- une **méthode** est une action de l'instance (ex.&nbsp;: `.play()`).
-
-```js
-const son = new Howl({ src: ["saut.mp3"] })  // une instance de la classe Howl
-son.play()                                    // une méthode de cette instance
+```js title="Une ambiance sonore en boucle"
+const ambiance = document.querySelector("#ambiance");
+ambiance.loop = true;
+ambiance.volume = 0.3;
 ```
 
-!!! note "On les utilise plus qu'on les écrit"
+!!! warning "Autoplay bloqué"
 
-    À ce stade, l'important est de **savoir lire et utiliser** une classe fournie par une librairie, pas d'écrire les vôtres. Vous reconnaîtrez ce motif `new Quelquechose({...})` partout&nbsp;: Howler, Chart.js, Tone.js, GSAP…
+    Les navigateurs refusent de jouer du son avant une **première interaction** de l'utilisateur. Un son se déclenche donc toujours depuis un clic, jamais au chargement de la page.
 
-### Écrire sa propre classe (aperçu)
+### Déboguer : les DevTools
 
-Rien ne vous empêche d'écrire la vôtre. La structure minimale regroupe des **données** (dans le `constructor`) et des **méthodes** (des actions)&nbsp;:
+Quand un média ne réagit pas, ouvrez les **DevTools** (++f12++) :
 
-```js
-class Personnage {
-  constructor(nom, pv) {
-    this.nom = nom      // une propriété
-    this.pv = pv
-  }
-  saluer() {           // une méthode
-    console.log(`${this.nom} entre en scène !`)
-  }
-}
-
-const heros = new Personnage("Digger", 100)
-heros.saluer()   // "Digger entre en scène !"
-```
-
-!!! note "À garder simple"
-
-    Écrire ses propres classes devient utile quand on gère **plusieurs objets du même type**. Pour un site promotionnel, l'usage des classes **fournies par les librairies** suffit largement&nbsp;: retenez surtout comment les **lire et les instancier**.
-
-## Une librairie audio : Howler.js
-
-L'`<audio>` natif suffit pour lire un fichier, mais dès qu'on veut des **effets sonores** fiables (jeu, interactions), des **sprites audio** ou un contrôle multiplateforme, **[Howler.js](https://howlerjs.com/)** est la référence.
-
-```bash
-npm install howler
-```
-
-```js title="src/main.js"
-import { Howl, Howler } from "howler"
-```
-
-```js title="Un son avec repli de format"
-const son = new Howl({
-  src: ["bruit.webm", "bruit.mp3"],  // le navigateur prend le 1er compatible
-  volume: 0.8,
-  loop: false
-})
-
-son.play()
-```
-
-| Méthode | Effet |
-| :--- | :--- |
-| `son.play()` / `son.pause()` / `son.stop()` | Contrôle de lecture |
-| `son.volume(0.5)` | Règle le volume de ce son |
-| `son.rate(1.5)` | Change la vitesse |
-| `Howler.volume(0.5)` | Volume **global** de tous les sons |
-| `Howler.mute(true)` | Coupe tout |
-
-!!! tip "Les sprites audio"
-
-    Un **sprite audio** regroupe plusieurs sons dans un seul fichier - idéal pour les effets d'un jeu.
-
-    ```js
-    const fx = new Howl({
-      src: ["fx.webm"],
-      sprite: { saut: [0, 300], piece: [400, 150] }
-    })
-    fx.play("saut")
-    ```
-
-<!-- CODEPEN: effets sonores au clic avec Howler -->
-
-### Autres librairies (survol)
-
-- **[Video.js](https://videojs.com/)** - un lecteur **vidéo** entièrement habillable (thèmes, sous-titres, qualité).
-
-## Déboguer : les DevTools
-
-Quand un média ne réagit pas, ouvrez les **DevTools** (++f12++)&nbsp;:
-
-- la **Console** affiche les erreurs et vos `console.log(...)`&nbsp;;
-- l'onglet **Réseau** montre si le fichier média se charge (ou renvoie une erreur 404)&nbsp;;
+- la **Console** affiche les erreurs et vos `console.log(...)` ;
+- l'onglet **Réseau** montre si le fichier média se charge (ou renvoie une erreur 404) ;
 - un **point d'arrêt** (_breakpoint_) met le code en pause pour l'inspecter ligne par ligne.
 
 ```js
 console.log("durée :", video.duration)   // vérifier une valeur au vol
 ```
 
-## Exercice - Médias
+### Exercice - Médias
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/javascript_banner.png){.aspect-4-3}
@@ -191,248 +187,144 @@ console.log("durée :", video.duration)   // vérifier une valeur au vol
   **[Salle de projection](./exercices/medias-salle-projection.md){.stretched-link .back}**
 </div>
 
----
+## 3D
 
-# Partie 2 - De Maya au navigateur
+### Format Web
 
-## Le format de la 3D sur le Web : glTF
+Le format 3D en Web s'appelle [**glTF**](https://threejsresources.com/3d-models-for-websites). Il existe sous deux formes. 
 
-Le Web a ses formats d'image (JPEG, WebP, AVIF). Pour la 3D, le standard s'appelle **glTF**, surnommé le «&nbsp;JPEG de la 3D&nbsp;». Il existe en deux saveurs&nbsp;:
-
-| Format | Contenu | Usage |
-| :--- | :--- | :--- |
-| `.gltf` | Un fichier texte (JSON) + des fichiers séparés (géométrie `.bin`, textures `.png`/`.jpg`) | Pratique pour inspecter ou modifier |
-| `.glb` | **Tout** dans un seul fichier binaire | ⭐️ Le format à utiliser sur un site |
-
-Un `.glb` contient la géométrie, les matériaux (PBR), les textures et même les **animations**. Un seul fichier à placer dans le projet, comme une image.
-
-!!! question "Et le `.fbx` ou le `.obj` ?"
-
-    Ce sont des formats d'**échange** entre logiciels 3D, pas des formats de diffusion. Ils sont lourds, et les navigateurs ne les lisent pas directement. Sur le Web, on livre du `.glb`.
-
-## Le pipeline : Maya → FBX → Blender → GLB
-
-Maya n'offre pas (encore) d'export glTF natif. Le chemin le plus simple et gratuit passe par **Blender**, qui sert ici de convertisseur&nbsp;:
-
-```txt
-Maya ──(FBX)──▶ Blender ──(glTF 2.0)──▶ .glb ──(optimisation)──▶ .glb léger ──▶ site Vite
-```
-
-### 1. Préparer la scène dans Maya
-
-Quelques minutes de ménage évitent bien des surprises à l'arrivée&nbsp;:
-
-- [ ] **Centrer** le modèle à l'origine, pivot à la base (les pieds d'un personnage, le dessous d'un objet)
-- [ ] **Freeze Transformations** et **Delete History** sur les objets à exporter
-- [ ] Vérifier les **normales** (faces inversées = trous dans le modèle)
-- [ ] Utiliser des matériaux **Standard Surface** plutôt que Lambert / Phong, et des textures en `.png` ou `.jpg`
-- [ ] Animations&nbsp;: **cuire** (_bake_) les clés, et ne garder que les animations utiles
-
-### 2. Exporter en FBX
-
-**File → Export Selection…** → type **FBX export**. Dans les options&nbsp;: cocher **Smoothing Groups**, **Embed Media** (textures incluses) et, s'il y a lieu, **Animation**.
-
-### 3. Convertir dans Blender
-
-1. **File → Import → FBX (.fbx)**, puis vérifier visuellement le modèle (échelle, matériaux, textures).
-2. Si une texture manque, la reconnecter dans l'onglet **Shading**.
-3. **File → Export → glTF 2.0 (.glb/.gltf)** avec&nbsp;:
-    * **Format**&nbsp;: _glTF Binary (.glb)_
-    * **Include → Limit to**&nbsp;: _Selected Objects_ (si la scène contient autre chose)
-    * **Animation**&nbsp;: cochée si le modèle est animé
-
-!!! warning "L'échelle"
-
-    Maya travaille en **centimètres**, glTF en **mètres**. Un personnage peut arriver 100 fois trop grand. Pour une simple vitrine, ce n'est pas grave (la caméra s'ajuste toute seule), mais en **réalité augmentée**, l'objet apparaîtra à cette échelle dans la pièce. Vérifiez les dimensions dans Blender avant l'export.
-
-## Optimiser le modèle
-
-Comme pour les images et les vidéos du cours 7, un modèle 3D se **compresse**. Un `.glb` de 40&nbsp;Mo, c'est une page qui charge pendant de longues secondes sur un cellulaire.
-
-**[gltf.report](https://gltf.report/)** permet de glisser-déposer un `.glb` pour l'inspecter&nbsp;: poids, nombre de triangles, taille des textures. C'est le réflexe de base pour comprendre **ce qui pèse**.
-
-Pour compresser, l'outil en ligne de commande **gltf-transform** fait tout en une passe&nbsp;:
-
-```bash title="Terminal"
-npx @gltf-transform/cli optimize perso.glb perso-opt.glb --compress draco --texture-compress webp --texture-size 1024
-```
-
-| Option | Effet |
+| Format | Description |
 | :--- | :--- |
-| `--compress draco` | Compresse la **géométrie** |
-| `--texture-compress webp` | Convertit les textures en **WebP** |
-| `--texture-size 1024` | Limite les textures à 1024&nbsp;×&nbsp;1024&nbsp;px |
+| `.gltf` | Plus lourd, mais déboguable  |
+| `.glb` | Fichier binaire optimisé 👌 |
 
-!!! tip "Repères de poids"
+??? question "`.fbx` et `.obj`"
 
-    Pour un modèle vedette sur une page d'accueil, visez **quelques mégaoctets au maximum**. Ce sont presque toujours les **textures** qui pèsent le plus&nbsp;: une texture 4096&nbsp;px est rarement justifiée sur un écran de cellulaire.
+    Ce sont des formats d'**échange** entre logiciels 3D, pas des formats de diffusion.
 
-## Où placer le fichier ?
+    - `.obj` n'enregistre que les mesh
+    - `.fbx` est propriétaire (Autodesk)
+    - `.glb` est _open source_
 
-Dans un projet Vite, les modèles vont dans `public/`, classés comme les autres médias&nbsp;:
+### Export et optimisation
+
+Maya n'offre pas d'export glTF natif. Le chemin le plus simple et gratuit passe par **Blender**, qui servira ici de convertisseur :
+
+#### Maya :simple-autodeskmaya:
+
+- **Centrer** le modèle à l'origine, pivot à la base
+-  **Delete History** (_Edit > Delete by Type > History_) et **Freeze Transformations** (_Modify > Freeze Transformations_) sur les objets à exporter
+- Utiliser des textures en `.png` ou `.jpg` (fichiers images, pas de textures procédurales) et les garder dans le dossier `sourceimages` du projet
+
+  ??? warning "Une texture procédurale ou autres textures"
+
+      * Si le modèle a une texture procédurale, elle ne s'exporte malheureusement pas dans un fichier `.fbx`. Il faut donc la convertir en image. Dans l'**Hypershade**, sélectionner le matériau puis le modèle et choisir *Edit > Convert to File Texture (Maya Software)* avec une résolution de 1024×1024.
+      * Pour les formats d'image autres que `.png` ou `.jpg` (ex. : `.tga`, `.tif`, `.psd`, `.exr`), il faut les réenregistrer en `.png` ou en `.jpg`, puis rebrancher le noeud `file` sur la nouvelle image. La liste des images de la scène se trouve dans *Windows > General Editors > File Path Editor*.
+
+##### Export FBX
+
+- **File > Export Selection** > **FBX export**.
+  - Cocher **Smoothing Groups**
+  - Cocher **Embed Media** (textures incluses)
+  - Décocher **Animation** (si le modèle est statique)
+
+#### Blender :simple-blender:
+
+1. **File > Import > FBX (.fbx)**
+
+  !!! warning "Les matériaux de Maya ne survivent pas toujours au voyage"
+  
+      Le matériau par défaut de Maya (**OpenPBR Surface**) est mal reconnu par l'importateur FBX de Blender.
+
+      Vérifier les matériaux dans l'onglet **Shading** :
+      
+      - chacun doit utiliser un noeud **Principled BSDF**
+      - les textures branchées au bon endroit (couleur = *Base Color*, normales = *Normal* via un noeud *Normal Map*) et reconnecter ce qui manque au besoin
+      - ajuster **Roughness** et **Metallic** à l'oeil
+
+1. **File > Export > glTF 2.0 (.glb/.gltf)** avec :
+  * **Format** : _glTF Binary (.glb)_
+  * **Include > Limit to** : _Selected Objects_ (si la scène contient autre chose)
+
+### Optimiser
+
+![](./assets/images/glb-optim.png){data-zoom-image}
+
+- Passer votre objet dans **[optimizeglb.com](https://optimizeglb.com/dashboard)**.
+
+### Positionner le fichier
+
+Dans un projet Vite, les modèles vont dans `public/`, classés comme les autres médias :
 
 ```txt
 public/
 └── modeles/
-    ├── perso.glb
-    └── perso-poster.webp
+    └── shining-sword.glb
 ```
-
-Le fichier est alors accessible à l'adresse `/modeles/perso.glb`.
 
 !!! info "Pas de modèle sous la main ?"
 
-    Le répertoire **[glTF Sample Assets](https://github.com/KhronosGroup/glTF-Sample-Assets)** de Khronos offre des dizaines de modèles d'exemple libres, animés ou non, pour tester en attendant.
+    - <https://app.cinevva.com/game-assets/free-3d-character-models>
+    - <https://www.opensource3dassets.com/en/gallery?avatar=sakura01-art>
 
----
 
-# Partie 3 - Une vitrine 3D avec `<model-viewer>`
+### Mise en ligne
 
-**[`<model-viewer>`](https://modelviewer.dev/)**, développé par Google, affiche un modèle 3D interactif avec **une seule balise HTML**. Rotation à la souris, éclairage réaliste, animations, réalité augmentée&nbsp;: tout est inclus.
+**[`<model-viewer>`](https://modelviewer.dev/)** (Google) affiche un modèle 3D interactif avec **une balise HTML** 🤯.
 
-!!! note "Une composante Web"
-
-    `<model-viewer>` n'est pas une balise standard du HTML&nbsp;: c'est une **composante Web** (_Web Component_), une balise «&nbsp;maison&nbsp;» créée en JavaScript. Une fois la librairie importée, elle s'écrit dans `index.html` comme n'importe quelle autre balise, avec l'autocomplétion habituelle pour son contenu.
-
-## Installation
+### Installation
 
 ```bash title="Terminal"
 npm install @google/model-viewer three
 ```
 
 ```js title="src/main.js"
-import "./style.css"
 import "@google/model-viewer"
 ```
 
-C'est tout. L'import enregistre la balise `<model-viewer>` dans le navigateur.
-
-## Premier modèle
-
 ```html title="index.html"
 <model-viewer
-  src="/modeles/perso.glb"
-  alt="Le héros du jeu, tenant son épée"
-  camera-controls
-  auto-rotate
-  shadow-intensity="1"
-  class="w-full h-[60vh]">
-</model-viewer>
-```
-
-!!! warning "Donner une taille"
-
-    Par défaut, `<model-viewer>` est minuscule (300&nbsp;×&nbsp;150&nbsp;px). Il faut **toujours** lui donner une largeur et une hauteur, ici avec Tailwind (`w-full h-[60vh]`).
-
-!!! tip "L'attribut `alt`"
-
-    Comme pour une image, `alt` décrit le modèle pour les lecteurs d'écran. Sans lui, un visiteur non voyant ne sait pas ce que la vitrine présente.
-
-## Les attributs essentiels
-
-| Attribut | Rôle |
-| :--- | :--- |
-| `src` | Le fichier `.glb` |
-| `alt` | Description pour l'accessibilité |
-| `camera-controls` | Permet de tourner autour du modèle (souris, doigt) |
-| `disable-zoom` | Désactive le zoom à la molette |
-| `auto-rotate` | Rotation automatique lente |
-| `camera-orbit` | Angle de départ de la caméra (`"45deg 75deg 105%"`) |
-| `shadow-intensity` | Ombre portée au sol (`0` à `1`) |
-| `exposure` | Luminosité générale |
-| `environment-image` | Éclairage d'ambiance (`"neutral"` ou une image HDR) |
-| `poster` | Image affichée pendant le chargement |
-| `autoplay` | Joue l'animation au chargement |
-| `animation-name` | Choisit **quelle** animation jouer |
-| `ar` | Active le bouton de réalité augmentée |
-
-Tous les attributs sont documentés, avec exemples interactifs, sur **[modelviewer.dev](https://modelviewer.dev/docs/)**.
-
-!!! warning "`camera-controls` et défilement"
-
-    Sur une page qui défile (scrollytelling, ScrollTrigger), la molette risque de **zoomer** dans le modèle au lieu de faire défiler la page. Ajoutez `disable-zoom` dans ce cas.
-
-## Une vitrine soignée : `poster` et chargement
-
-Un modèle 3D prend un moment à charger. Une image `poster` (une capture du modèle, en WebP) s'affiche en attendant, comme le `poster` d'une `<video>`&nbsp;:
-
-```html
-<model-viewer
-  src="/modeles/perso.glb"
-  poster="/modeles/perso-poster.webp"
+  id="vitrine"
+  src="/modeles/epee.glb"
   loading="lazy"
-  alt="Le héros du jeu"
   camera-controls
-  class="w-full h-[60vh]">
+  class="w-full h-[60vh]"
+  alt="Le héros du jeu, tenant son épée">
 </model-viewer>
 ```
 
-`loading="lazy"` attend que le modèle approche de l'écran pour le télécharger, exactement comme pour les images.
+??? info "Attributs"
 
-## Jouer les animations de Maya
+    | Attribut | Rôle |
+    | :--- | :--- |
+    | `camera-controls` | Permet de tourner autour du modèle (souris ou doigt) |
+    | `disable-zoom` | Désactive le zoom à la molette |
+    | `auto-rotate` | Rotation automatique lente |
+    | `camera-orbit` | Angle de la caméra : _theta_, _phi_ et _radius_ (ex.: `"45deg 75deg 105%"`) |
+    | `shadow-intensity` | Ombre portée au sol (`0` à `1`) |
+    | `exposure` | Luminosité générale |
+    | `environment-image` | Éclairage d'ambiance (`"neutral"` ou une image HDR) |
+    | `poster` | Image affichée pendant le chargement |
 
-Si le `.glb` contient des animations, `autoplay` lance la première. `animation-name` permet de choisir laquelle&nbsp;:
+    Tous les attributs sont documentés, avec exemples interactifs, sur **[modelviewer.dev](https://modelviewer.dev/docs/)**.
 
-```html
-<model-viewer src="/modeles/perso.glb" autoplay animation-name="Idle" camera-controls></model-viewer>
+### `<model-viewer>` + GSAP
+
+GSAP ne modifie pas juste du CSS, on peut aussi le faire modifier `<model-viewer>` !
+
+Par exemple, la propriété `cameraOrbit` de `<model-viewer>` contrôle l'angle de la caméra. 
+
+Animons ça avec GSAP.
+
+```html title="index.html"
+<section class="scene-3d h-screen">
+  <model-viewer
+    id="mon-epee"
+    src="/modeles/epee.glb"
+    class="w-full h-full">
+  </model-viewer>
+</section>
 ```
-
-Pour connaître le nom des animations disponibles, on peut les afficher en console une fois le modèle chargé&nbsp;:
-
-```js
-const vitrine = document.querySelector("model-viewer")
-
-vitrine.addEventListener("load", () => {
-  console.log(vitrine.availableAnimations) // ["Idle", "Run", "Attack"]
-})
-```
-
-## Les points d'intérêt (_hotspots_)
-
-Un point d'intérêt est un élément HTML **accroché** à un endroit précis du modèle. Il suit le modèle quand on le fait tourner. Parfait pour présenter l'équipement d'un personnage ou les détails d'un objet.
-
-```html
-<model-viewer src="/modeles/perso.glb" camera-controls class="w-full h-[60vh]">
-
-  <button class="badge badge-primary"
-          slot="hotspot-epee"
-          data-position="0.35 1.1 0.1"
-          data-normal="0 0 1">
-    Épée légendaire
-  </button>
-
-</model-viewer>
-```
-
-| Attribut | Rôle |
-| :--- | :--- |
-| `slot="hotspot-…"` | Déclare l'élément comme point d'intérêt (le nom après `hotspot-` est libre) |
-| `data-position` | Coordonnées x y z sur le modèle |
-| `data-normal` | Direction de la surface (sert à masquer le point quand il passe derrière) |
-
-!!! tip "Trouver les coordonnées sans calcul"
-
-    L'**[éditeur de model-viewer](https://modelviewer.dev/editor/)** permet de glisser son `.glb`, de cliquer sur le modèle pour placer un point d'intérêt, puis de copier le code généré.
-
-Et comme le point d'intérêt est un élément HTML ordinaire, il se stylise avec Tailwind et DaisyUI (`badge`, `tooltip`, `btn`…).
-
-## La réalité augmentée
-
-Trois attributs suffisent pour qu'un bouton «&nbsp;Voir dans votre espace&nbsp;» apparaisse sur cellulaire&nbsp;:
-
-```html
-<model-viewer src="/modeles/perso.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls></model-viewer>
-```
-
-Sur Android comme sur iPhone, le visiteur peut alors poser le modèle dans la pièce, à travers la caméra 📱. Sur ordinateur, le bouton n'apparaît tout simplement pas.
-
-!!! info "Tester la réalité augmentée"
-
-    L'AR exige un **vrai cellulaire** et une page servie en **HTTPS**. Le plus simple&nbsp;: tester sur la version en ligne du site (GitHub Pages ou cPanel, cours 5).
-
-## Animer la vitrine avec GSAP
-
-`<model-viewer>` se pilote aussi en JavaScript. Sa propriété `cameraOrbit` contrôle l'angle de la caméra&nbsp;: en la liant au défilement avec ScrollTrigger, le modèle **tourne sur lui-même pendant qu'on fait défiler la page**.
 
 ```js title="src/main.js"
 import gsap from "gsap"
@@ -441,75 +333,26 @@ import "@google/model-viewer"
 
 gsap.registerPlugin(ScrollTrigger)
 
-const vitrine = document.querySelector("#vitrine")
-const camera = { angle: 0 }
+const monEpee = document.querySelector("#mon-epee")
+const maCamera = { monTheta: 0 }
 
-gsap.to(camera, {
-  angle: 360,
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".scene-3d",
-    start: "top top",
-    end: "+=1500",
-    pin: true,
-    scrub: 1
-  },
+gsap.to(maCamera, {
+  monTheta: 360,
+  duration: 3,
+  loop: -1,
   onUpdate: () => {
-    vitrine.cameraOrbit = `${camera.angle}deg 75deg 105%`
+    monEpee.cameraOrbit = `${maCamera.monTheta}deg 75deg 105%`
   }
 })
 ```
 
-!!! note "Animer un objet ordinaire"
+!!! tip "Facile maintenant de s'imaginer utiliser **ScrollTrigger**"
 
-    GSAP n'anime pas seulement du CSS&nbsp;: il peut animer **n'importe quelle propriété d'un objet JavaScript** (ici `camera.angle`). À chaque image, `onUpdate` recopie la valeur dans le modèle. Cette astuce fonctionne avec presque toutes les librairies.
+## Savegarde en Web
 
----
+Saviez-vous ? On peut savegarder plein de choses dans le navigateur grace à `localStorage` en JavaScript. C'est très semblable à la notion de cookie.
 
-# Partie 4 - Personnaliser et mémoriser avec `localStorage`
-
-## Changer la couleur d'un matériau
-
-Une fois le modèle chargé, ses matériaux sont accessibles en JavaScript. On peut en changer la couleur à la volée, pour créer un petit **configurateur**&nbsp;: couleur d'armure, variante d'un objet, édition spéciale...
-
-```html title="index.html"
-<model-viewer id="vitrine" src="/modeles/perso.glb" camera-controls class="w-full h-[60vh]"></model-viewer>
-
-<div class="flex gap-2">
-  <button class="btn btn-circle bg-[#e63946]" data-couleur="#e63946" aria-label="Rouge"></button>
-  <button class="btn btn-circle bg-[#2a9d8f]" data-couleur="#2a9d8f" aria-label="Turquoise"></button>
-  <button class="btn btn-circle bg-[#f4a261]" data-couleur="#f4a261" aria-label="Orange"></button>
-</div>
-```
-
-```js title="src/main.js"
-const vitrine = document.querySelector("#vitrine")
-const pastilles = document.querySelectorAll("[data-couleur]")
-
-vitrine.addEventListener("load", () => {
-  const materiau = vitrine.model.materials[0]
-
-  pastilles.forEach((pastille) => {
-    pastille.addEventListener("click", () => {
-      materiau.pbrMetallicRoughness.setBaseColorFactor(pastille.dataset.couleur)
-    })
-  })
-})
-```
-
-!!! info "Matériau texturé"
-
-    Si le matériau a une texture de couleur, `setBaseColorFactor` la **teinte** au lieu de la remplacer (la couleur est multipliée par la texture). Pour un changement franc, prévoir dans Maya un matériau sans texture de couleur pour la partie personnalisable.
-
-!!! tip "Trouver le bon matériau"
-
-    `vitrine.model.materials` est un tableau. Pour viser un matériau précis, nommez-le clairement dans Maya (`armure`, `cape`…) et utilisez `vitrine.model.getMaterialByName("armure")`.
-
-Problème&nbsp;: au rechargement de la page, la couleur choisie est **oubliée**. C'est ici qu'intervient la sauvegarde côté client.
-
-## Le `localStorage`
-
-Le `localStorage` est un petit espace de stockage **clé / valeur** offert par le navigateur. Ce qu'on y écrit **survit** au rechargement et à la fermeture de l'onglet, pour ce site seulement.
+Voyez ça comme une variable de texte. On peut la sauvegarder comme une variable (clé) et le nagivateur s'en souviendra, même après l'avoir fermé.
 
 ```js
 // Écrire
@@ -522,54 +365,13 @@ const couleur = localStorage.getItem("couleur-perso")
 localStorage.removeItem("couleur-perso")
 ```
 
-!!! warning "Seulement du texte"
-
-    Le `localStorage` ne stocke que des **chaînes de caractères**. Pour un objet ou un tableau, on le convertit avec `JSON.stringify()` à l'écriture, et `JSON.parse()` à la lecture&nbsp;:
-
-    ```js
-    localStorage.setItem("reglages", JSON.stringify({ couleur: "#e63946", animation: "Idle" }))
-
-    const reglages = JSON.parse(localStorage.getItem("reglages")) ?? {}
-    ```
-
 !!! tip "Voir le contenu du `localStorage`"
 
-    DevTools → onglet **Application** → **Local Storage**. On y voit chaque clé, on peut les modifier ou les supprimer à la main pour tester.
+    DevTools > onglet **Application** > **Local Storage**. On y voit chaque clé, on peut les modifier ou les supprimer à la main pour tester.
 
-## Le configurateur qui se souvient
+### `localStorage` et DaisyUI
 
-Le principe tient en deux temps&nbsp;: **au clic**, on applique et on sauvegarde&nbsp;; **au chargement**, on relit et on réapplique.
-
-```js title="src/main.js"
-const vitrine = document.querySelector("#vitrine")
-const pastilles = document.querySelectorAll("[data-couleur]")
-
-vitrine.addEventListener("load", () => {
-  const materiau = vitrine.model.materials[0]
-
-  function appliquerCouleur(couleur) {
-    materiau.pbrMetallicRoughness.setBaseColorFactor(couleur)
-    localStorage.setItem("couleur-perso", couleur)
-  }
-
-  // 1. Au chargement : relire le choix précédent
-  const couleurSauvegardee = localStorage.getItem("couleur-perso")
-  if (couleurSauvegardee) {
-    appliquerCouleur(couleurSauvegardee)
-  }
-
-  // 2. Au clic : appliquer et sauvegarder
-  pastilles.forEach((pastille) => {
-    pastille.addEventListener("click", () => appliquerCouleur(pastille.dataset.couleur))
-  })
-})
-```
-
-Rechargez la page&nbsp;: le personnage garde sa couleur 🎉.
-
-## Retour sur le thème DaisyUI
-
-Voici le chaînon manquant du cours 4&nbsp;: le `theme-controller` changeait le thème, mais **l'oubliait** au rechargement. Même recette&nbsp;:
+Vous vous souvenez du `theme-controller` de daisyUI ? Ça changeait le thème, mais ça « oubliait » sa sélection au rechargement de page. On peut maintenant y remédier.
 
 ```html title="index.html"
 <input type="checkbox" value="dark" class="toggle theme-controller" />
@@ -578,56 +380,99 @@ Voici le chaînon manquant du cours 4&nbsp;: le `theme-controller` changeait le 
 ```js title="src/main.js"
 const interrupteur = document.querySelector(".theme-controller")
 
-// Au chargement : remettre l'interrupteur dans l'état sauvegardé
-interrupteur.checked = localStorage.getItem("theme") === interrupteur.value
+// Au chargement, on vérifie le contenu du localstorage
+// et on coche le theme controller selon la condition
+if (localStorage.getItem('theme') === 'light') {
+  controller.checked = true
+}
 
-// Au changement : sauvegarder
+// Au changement, on sauvegarde
 interrupteur.addEventListener("change", () => {
-  localStorage.setItem("theme", interrupteur.checked ? interrupteur.value : "light")
+  if (interrupteur.checked) {
+    localStorage.setItem('theme', 'light')
+  } else {
+    localStorage.setItem('theme', 'dark')
+  }
 })
 ```
 
-DaisyUI applique le thème dès que la case est cochée&nbsp;; il suffit donc de **remettre la case** dans le bon état au chargement.
+!!! tip "Même principe si on a un bouton qui fait jouer de l'audio"
 
-!!! tip "Pour le projet final : le bouton son"
+## Statistiques de consultation
 
-    Même recette pour le **bouton son** du microsite&nbsp;: au clic, on sauvegarde `"actif"` ou `"coupe"`&nbsp;; au chargement de **chaque page**, on relit la valeur et on remet le bouton dans le bon état. La musique, elle, ne repart qu'au premier clic du visiteur (le navigateur bloque le son avant).
+Une fois le site en ligne, une question se pose : **est-ce que quelqu'un le visite ?**
 
-!!! success "Ce qu'on vient de faire"
+Pour le savoir, on install un analyseur de visite, souvent [Google Analytics](https://analytics.google.com/).
 
-    Un modèle conçu dans Maya, exporté et optimisé comme n'importe quel média (cours 7), présenté dans une vitrine interactive, animé au défilement avec GSAP (cours 9 à 11), et personnalisable avec une **mémoire** côté client (savoir #11). Exactement le genre de pièce vedette qui distingue un site promotionnel.
+1. Se connecter à [analytics.google.com](https://analytics.google.com/) avec un compte Google
+1. Créer un **compte** (ex. : le nom du studio), puis une **propriété** (ex. : le nom du jeu)
+1. Choisir la plateforme **Web** et créer un **flux de données** avec l'adresse du site en ligne
+1. Copier l'**ID de mesure**, de la forme `G-XXXXXXXXXX`
 
-## Exercices - 3D et `localStorage`
+### Connecter à son site
 
-<div class="grid grid-1-2" markdown>
-  <!-- ![](./assets/images/3d-vitrine.png){.aspect-4-3} -->
+Google fournit un court code à coller dans le `<head>`, juste après la balise `<title>` :
 
-  <small>Exercice - model-viewer</small><br>
-  **[Vitrine 3D](./exercices/3d-vitrine.md){.stretched-link .back}**
-</div>
+```html title="index.html"
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag("js", new Date());
+  gtag("config", "G-XXXXXXXXXX");
+</script>
+```
 
-<div class="grid grid-1-2" markdown>
-  <!-- ![](./assets/images/3d-atelier.png){.aspect-4-3} -->
+Remplacer les **deux** occurrences de `G-XXXXXXXXXX` par l'ID de mesure de la propriété.
 
-  <small>Exercice - model-viewer et localStorage</small><br>
-  **[Atelier de personnalisation](./exercices/3d-atelier.md){.stretched-link .back}**
-</div>
+!!! warning "Un site de plusieurs pages"
 
-*Salle de projection*, *Vitrine 3D* et *Atelier de personnalisation* font partie de la remise *Exercices 02*.
+    Le code doit être collé dans le `<head>` de **chaque** fichier HTML (`index.html`, `jeu.html`, `contact.html`, etc.).
+
+### Vérifier que ça fonctionne
+
+1. Mettre le site en ligne (`npm run build`, puis déploiement)
+1. Visiter le site en ligne
+1. Dans Google Analytics : **Rapports → Temps réel**. La visite apparaît en moins d'une minute.
+
+!!! tip "Rien n'apparaît ?"
+
+    Les **bloqueurs de publicité**, ou même le navigateur Brave, bloquent Google Analytics. Pour tester, désactiver le bloqueur ou utiliser un autre navigateur.
+
+### Mesurer un clic précis
+
+Par défaut, Google Analytics compte les pages vues. Pour savoir combien de visiteurs cliquent sur le bouton d'appel à l'action, on envoie un **événement** personnalisé :
+
+```js title="src/main.js"
+const boutonItch = document.querySelector("#bouton-itch");
+
+boutonItch.addEventListener("click", () => {
+  gtag("event", "clic_itchio");
+});
+```
+
+L'événement `clic_itchio` apparaît ensuite dans **Rapports → Engagement → Événements**.
+
+### Le consentement des visiteurs
+
+Google Analytics dépose des **témoins** (_cookies_) qui suivent le visiteur. Au Québec, la **Loi 25** encadre ce type de suivi : un site public devrait informer le visiteur et obtenir son consentement, d'où les bandeaux « Accepter / Refuser » présents sur la plupart des sites.
+
+Dans le cadre du cours, l'objectif est de comprendre l'outil ; la mise en place d'un bandeau de consentement complet dépasse le contenu de Web 3. Pour un vrai site en production, cette étape n'est pas facultative.
 
 ---
 
-# Bonus 1 - Tone.js (touche au choix)
+## Bonus 1 - Tone.js (touche supplémentaire)
 
-!!! info "Une touche au choix"
+!!! info "Ma touche supplémentaire"
 
-    Tone.js est l'une des trois **touches au choix** du projet final, avec `<model-viewer>` et Chart.js. L'exercice *Boîte à musique* est à faire si Tone.js est la touche retenue.
+    Tone.js est l'une des options de la **touche supplémentaire** du projet final, avec `<model-viewer>`, Chart.js et Swup. L'exercice *Boîte à musique* est à faire si Tone.js est la touche retenue.
 
 ![](./assets/images/tonejs-adsr.png){data-zoom-image .w-75}
 
-**[Tone.js](https://tonejs.github.io/)** est un cadre audio pour **créer du son et de la musique** dans le navigateur. Pour un site de jeu, c'est parfait&nbsp;: une ambiance sonore, un thème musical, ou des effets aux interactions.
+**[Tone.js](https://tonejs.github.io/)** est un cadre audio pour **créer du son et de la musique** dans le navigateur. Pour un site de jeu, c'est parfait : une ambiance sonore, un thème musical, ou des effets aux interactions.
 
-## Installation
+### Installation
 
 ```bash
 npm install tone
@@ -639,7 +484,7 @@ import * as Tone from "tone"
 
 !!! danger "Le son exige un clic d'abord"
 
-    Les navigateurs **bloquent** tout son tant que l'utilisateur n'a pas interagi avec la page. Il faut donc appeler **`Tone.start()`** depuis un événement déclenché par l'utilisateur (un clic), sinon&nbsp;: silence.
+    Les navigateurs **bloquent** tout son tant que l'utilisateur n'a pas interagi avec la page. Il faut donc appeler **`Tone.start()`** depuis un événement déclenché par l'utilisateur (un clic), sinon : silence.
 
     ```js
     document.querySelector("#demarrer").addEventListener("click", async () => {
@@ -648,7 +493,7 @@ import * as Tone from "tone"
     })
     ```
 
-## Jouer une note
+### Jouer une note
 
 L'objet de base est le **synthétiseur**. On le crée, on le branche aux haut-parleurs avec `.toDestination()`, puis on joue une note.
 
@@ -662,9 +507,9 @@ synth.triggerAttackRelease("C4", "8n")
 | Argument | Signifie |
 | :--- | :--- |
 | `"C4"` | La note (nom + octave), ou une fréquence en Hz (`440`) |
-| `"8n"` | La durée&nbsp;: `"4n"` = noire, `"8n"` = croche, `"1m"` = une mesure |
+| `"8n"` | La durée : `"4n"` = noire, `"8n"` = croche, `"1m"` = une mesure |
 
-## Enchaîner des notes
+### Enchaîner des notes
 
 Le 3ᵉ argument planifie **quand** jouer, en secondes à partir de maintenant (`Tone.now()`).
 
@@ -677,7 +522,7 @@ synth.triggerAttackRelease("E4", "8n", t + 0.5)
 synth.triggerAttackRelease("G4", "8n", t + 1)
 ```
 
-## Jouer un fichier audio
+### Jouer un fichier audio
 
 Pour une **musique** ou un effet à partir d'un fichier, on utilise `Tone.Player`.
 
@@ -698,7 +543,7 @@ musique.start()
 
 <!-- CODEPEN: clavier de quelques notes + bouton Tone.start() -->
 
-## Exercice bonus - Tone.js
+### Exercice bonus - Tone.js
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/tonejs-adsr.png){.aspect-4-3}
@@ -709,15 +554,15 @@ musique.start()
 
 ---
 
-# Bonus 2 - Chart.js (optionnel)
+## Bonus 2 - Chart.js (optionnel)
 
 !!! info "Pour les curieux - non obligatoire"
 
     Chart.js ne fait pas partie de la remise *Exercices 02*. Il reste admissible comme **librairie supplémentaire** dans le projet final.
 
-**[Chart.js](https://www.chartjs.org/)** transforme des données en **graphiques** clairs et animés, dessinés dans une balise `<canvas>`. C'est la librairie de visualisation la plus populaire&nbsp;: simple, responsive et gratuite.
+**[Chart.js](https://www.chartjs.org/)** transforme des données en **graphiques** clairs et animés, dessinés dans une balise `<canvas>`. C'est la librairie de visualisation la plus populaire : simple, responsive et gratuite.
 
-## Installation
+### Installation
 
 ```bash
 npm install chart.js
@@ -729,19 +574,19 @@ import Chart from 'chart.js/auto'
 
 !!! note "`chart.js/auto`"
 
-    L'import `chart.js/auto` enregistre automatiquement tous les types de graphiques. Pratique pour apprendre&nbsp;; en production, on peut n'importer que ce qu'on utilise pour alléger le _build_.
+    L'import `chart.js/auto` enregistre automatiquement tous les types de graphiques. Pratique pour apprendre ; en production, on peut n'importer que ce qu'on utilise pour alléger le _build_.
 
-## Un conteneur `<canvas>`
+### Un conteneur `<canvas>`
 
-Chart.js **dessine** le graphique&nbsp;; il lui faut donc une toile. On lui réserve un `<canvas>` avec un identifiant.
+Chart.js **dessine** le graphique ; il lui faut donc une toile. On lui réserve un `<canvas>` avec un identifiant.
 
 ```html
 <canvas id="monGraphique"></canvas>
 ```
 
-## Premier graphique
+### Premier graphique
 
-On crée une instance avec `new Chart(cible, configuration)`. La configuration est un objet à trois clés&nbsp;: **`type`**, **`data`** et **`options`**.
+On crée une instance avec `new Chart(cible, configuration)`. La configuration est un objet à trois clés : **`type`**, **`data`** et **`options`**.
 
 ```js
 const ctx = document.querySelector("#monGraphique")
@@ -763,13 +608,13 @@ new Chart(ctx, {
 
 <!-- CODEPEN: premier graphique Chart.js (barres) -->
 
-### Anatomie des données
+#### Anatomie des données
 
-C'est le cœur de Chart.js. Deux notions&nbsp;:
+C'est le coeur de Chart.js. Deux notions :
 
 | Clé | Rôle |
 | :--- | :--- |
-| `labels` | Les étiquettes de l'axe (ex.&nbsp;: les jours) |
+| `labels` | Les étiquettes de l'axe (ex. : les jours) |
 | `datasets` | Un ou plusieurs **jeux de données** à tracer |
 | `datasets[].label` | Le nom du jeu (affiché dans la légende) |
 | `datasets[].data` | Les valeurs, **alignées** sur les `labels` |
@@ -778,9 +623,9 @@ C'est le cœur de Chart.js. Deux notions&nbsp;:
 
     Le tableau `data` doit avoir **autant de valeurs** que `labels` a d'étiquettes. 5 jours → 5 valeurs. Sinon, le graphique sera décalé ou incomplet.
 
-## Les types de graphiques
+### Les types de graphiques
 
-Il suffit de changer la clé `type` pour obtenir un rendu complètement différent&nbsp;:
+Il suffit de changer la clé `type` pour obtenir un rendu complètement différent :
 
 <div class="grid" markdown>
 <figure markdown>
@@ -817,7 +662,7 @@ Il suffit de changer la clé `type` pour obtenir un rendu complètement différe
 </figure>
 </div>
 
-## Quelques options utiles
+### Quelques options utiles
 
 Les `options` personnalisent le comportement et l'apparence. Toutes sont dans la [documentation](https://www.chartjs.org/docs/latest/).
 
@@ -843,11 +688,11 @@ options: {
 
 !!! tip "Responsive : encadrez le canvas"
 
-    Pour maîtriser la taille, placez le `<canvas>` dans une `<div>` conteneur de dimensions fixes (ex.&nbsp;: `class="w-full max-w-xl"`) plutôt que de dimensionner le canvas directement.
+    Pour maîtriser la taille, placez le `<canvas>` dans une `<div>` conteneur de dimensions fixes (ex. : `class="w-full max-w-xl"`) plutôt que de dimensionner le canvas directement.
 
 <!-- CODEPEN: changer le type et les options d'un même jeu de données -->
 
-## Exercice bonus - Chart.js
+### Exercice bonus - Chart.js
 
 <div class="grid grid-1-2" markdown>
   ![](./assets/images/chartjs.png){.aspect-4-3}
@@ -858,56 +703,9 @@ options: {
 
 ---
 
-# Bonus 3 - Three.js (optionnel)
-
-!!! info "Pour les curieux - non obligatoire"
-
-    **[Three.js](https://threejs.org/)** permet d'afficher de la **3D** dans le navigateur (WebGL). C'est d'ailleurs le moteur sur lequel repose `<model-viewer>`. Là où `<model-viewer>` présente **un** modèle, Three.js permet de construire une **scène complète** sur mesure (lumières, caméras, effets), mais il est nettement plus **avancé**. Cette partie est un **survol facultatif**&nbsp;: elle n'est pas requise pour le projet final. Explorez-la si le cœur vous en dit&nbsp;!
-
-Toute scène 3D repose sur **trois objets**&nbsp;: une **scène** (le monde), une **caméra** (le point de vue) et un **renderer** (qui dessine).
-
-```bash
-npm install three
-```
-
-```js title="src/main.js"
-import * as THREE from "three"
-
-// 1. La scène, la caméra, le renderer
-const scene = new THREE.Scene()
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
-const renderer = new THREE.WebGLRenderer()
-renderer.setSize(window.innerWidth, window.innerHeight)
-document.body.appendChild(renderer.domElement)
-
-// 2. Un objet : une géométrie + un matériau = un « mesh »
-const cube = new THREE.Mesh(
-  new THREE.BoxGeometry(1, 1, 1),
-  new THREE.MeshBasicMaterial({ color: 0x00ff00 })
-)
-scene.add(cube)
-camera.position.z = 5
-
-// 3. La boucle d'animation
-function animate(temps) {
-  cube.rotation.x = temps / 2000
-  cube.rotation.y = temps / 1000
-  renderer.render(scene, camera)
-}
-renderer.setAnimationLoop(animate)
-```
-
-Ce code affiche un **cube vert qui tourne**. À partir de là, on peut charger des modèles 3D, ajouter des lumières, des textures…
-
-!!! tip "Où continuer"
-
-    Le [manuel officiel](https://threejs.org/manual/) et la [galerie d'exemples](https://threejs.org/examples/) de Three.js sont la meilleure porte d'entrée. Idéal pour un élément 3D vedette (personnage, objet du jeu) sur votre page d'accueil.
-
----
-
 !!! success "Ce qu'il faut retenir"
 
-    Chaque librairie suit le même rituel&nbsp;: **installer → préparer un conteneur (`<canvas>` ou `<div>`) → appeler la librairie avec une configuration**. Une fois ce réflexe acquis, vous pouvez apprivoiser **n'importe quelle** nouvelle librairie à partir de sa documentation. C'est l'autonomie visée par le cours 🎓.
+    Chaque librairie suit le même rituel : **installer → préparer un conteneur (`<canvas>` ou `<div>`) → appeler la librairie avec une configuration**. Une fois ce réflexe acquis, vous pouvez apprivoiser **n'importe quelle** nouvelle librairie à partir de sa documentation. C'est l'autonomie visée par le cours 🎓.
 
 
 ---

@@ -24,7 +24,7 @@ Il vaut **50 % de la note de session**.
 | Cours | Ce qui se passe |
 | :--: | --- |
 | **11** | Plugins GSAP · présentation de l'énoncé · choix du volet · collecte des médias |
-| **12** | Plan du site (contenu de chaque page) et **maquette de l'accueil** · médias par programmation (Howler, classes), 3D et `localStorage`, utiles au projet |
+| **12** | Plan du site (contenu de chaque page) et **maquette de l'accueil** · médias par programmation (API native `<video>`/`<audio>`), 3D et `localStorage`, utiles au projet |
 | **13** | Atelier encadré&nbsp;: intégration, médias, animations, formulaire EmailJS |
 | **14** | Atelier encadré&nbsp;: gel des fonctionnalités, validation, mise en ligne, préparation de l'oral · **remise la veille du cours 15, à 23 h 59** |
 | **15** | **Démonstration et entrevue individuelle** |
@@ -68,7 +68,7 @@ Le site compte **trois pages**. Chacune porte une partie des exigences technique
 | Page | Fichier | Contenu attendu | Notions mises en valeur |
 | --- | --- | --- | --- |
 | **Accueil** | `index.html` | Hero avec logo, accroche et bouton d'appel à l'action (itch.io ou page officielle) · aperçu des autres pages en cartes · bloc *Lancement*&nbsp;: date de sortie, plateformes, prix ou « gratuit » | Timeline d'introduction (SplitText, ScrambleText…) · apparitions au défilement |
-| **Le jeu** | `jeu.html` | Le concept et l'univers du jeu, en quelques sections courtes · le parcours du joueur (volet A&nbsp;: les **trois zones** du projet d'Interactivité ludique) · les **contrôles** · la *touche au choix* | Parallaxe · apparitions · animation pilotée par le défilement · plugin SVG (DrawSVG, MorphSVG ou MotionPath) |
+| **Le jeu** | `jeu.html` | Le concept et l'univers du jeu, en quelques sections courtes · le parcours du joueur (volet A&nbsp;: les **trois zones** du projet d'Interactivité ludique) · les **contrôles** · la *touche supplémentaire* (sauf Swup, qui touche tout le site) | Parallaxe · apparitions · animation pilotée par le défilement · plugin SVG (DrawSVG, MorphSVG ou MotionPath) |
 | **Contact** | `contact.html` | Formulaire de contact ou d'inscription à l'infolettre | EmailJS · message de succès ou d'erreur |
 
 La vidéo, les captures d'écran et les autres médias se placent là où ils servent le mieux le jeu.
@@ -140,7 +140,7 @@ Chaque exigence correspond à une ligne du barème. Le cours où la notion a ét
 ### JavaScript
 
 - [ ] Le code est découpé en **fonctions** et en **modules**&nbsp;: un fichier par rôle (son, formulaire, icônes…), importé dans `main.js` *(cours 7 et 9)*
-- [ ] Au moins une **classe de librairie** instanciée avec `new` (`new Howl()`, `new Chart()`…) *(cours 12)*
+- [ ] Au moins une **classe de librairie** instanciée avec `new` (`new Tone.Synth()`, `new Chart()`…) *(cours 12)*
 - [ ] Au moins une **classe sur mesure**, même simple&nbsp;: un `constructor` et au moins une méthode utilisée par le site (ex.&nbsp;: une classe qui regroupe la musique, les effets sonores et le réglage du son) *(cours 12)*
 
 ### Médias
@@ -151,7 +151,7 @@ Chaque exigence correspond à une ligne du barème. Le cours où la notion a ét
 - [ ] Cette vidéo est intégrée selon une **stratégie au choix** (voir l'encadré ci-dessous)
 - [ ] Médias classés dans `src/assets/` (`images/`, `videos/`, `audio/`) et nommés sans espace ni accent *(cours 8)*
 - [ ] **Musique d'ambiance** contrôlée par programmation&nbsp;: lancée et coupée par le bouton son, jamais au chargement *(cours 12)*
-- [ ] Au moins un **effet sonore** déclenché par une interaction (survol, clic, envoi du formulaire), avec Howler ou Tone.js *(cours 12)*
+- [ ] Au moins un **effet sonore** déclenché par une interaction (survol, clic, envoi du formulaire), avec une balise `<audio>` ou Tone.js *(cours 12)*
 
 !!! example "Stratégies vidéo"
 
@@ -183,13 +183,26 @@ Chaque exigence correspond à une ligne du barème. Le cours où la notion a ét
 
     Le navigateur bloque tout son tant que le visiteur n'a pas cliqué **sur la page courante**, même si le son était activé à la page précédente. Au chargement, on restaure donc l'**état du bouton**&nbsp;; la musique, elle, repart au premier clic.
 
-### Une touche au choix
+### Ma touche supplémentaire
 
-Au moins **une** des librairies suivantes, intégrée de façon pertinente&nbsp;:
+**Une** des options suivantes, choisie parce qu'elle sert le jeu, et intégrée de façon pertinente&nbsp;:
 
-* **`<model-viewer>`** — vitrine 3D d'un personnage ou d'un objet du jeu *(cours 12)*
-* **Tone.js** — petite séquence musicale, clavier ou ambiance générée *(cours 12, bonus)*
-* **Chart.js** — fiche de statistiques des personnages ou des zones *(cours 12, bonus)*
+| Option | Ce que ça donne | Source |
+| --- | --- | --- |
+| **Vitrine 3D** (`<model-viewer>`) | Un personnage ou un objet du jeu à manipuler | Cours 12 |
+| **Tone.js** | Petite séquence musicale, clavier ou ambiance générée | Cours 12, bonus |
+| **Chart.js** | Fiche de statistiques des personnages ou des zones | Cours 12, bonus |
+| **[Swup](https://swup.js.org/)** | Musique continue d'une page à l'autre et transitions animées entre les pages | Documentation |
+
+- [ ] L'option retenue est déclarée dans le `README.md`, avec une phrase qui justifie ce choix
+
+!!! warning "Swup, plus exigeant"
+
+    Avec Swup, les pages ne sont plus rechargées&nbsp;: les animations GSAP et ScrollTrigger doivent être relancées après chaque changement de contenu. Cette option n'est pas vue en classe et s'appuie uniquement sur la documentation.
+
+!!! note "Une seule option est notée"
+
+    Une deuxième option peut être ajoutée et présentée en démonstration, mais elle ne rapporte aucun point supplémentaire.
 
 ### Mise en page (acquis du bloc 1)
 
@@ -237,7 +250,7 @@ Le code peut être consulté à l'écran, mais sans IA, sans notes et sans aide.
 
     Un passage qu'il est impossible d'expliquer n'est pas considéré comme maîtrisé&nbsp;: en plus du point d'entrevue, le **critère du barème auquel ce passage se rattache** vaut 0 (par exemple, la classe sur mesure ou le plugin SVG).
 
-    Si **aucun** des deux passages n'est expliqué, l'entrevue se poursuit, au cours 15 ou lors d'une rencontre fixée par l'enseignant, sur d'autres passages couvrant les volets techniques du barème (JavaScript, Médias, Animation - GSAP, Interactivité et sauvegarde, Une touche au choix). Chaque critère dont le code ne peut pas être expliqué vaut 0.
+    Si **aucun** des deux passages n'est expliqué, l'entrevue se poursuit, au cours 15 ou lors d'une rencontre fixée par l'enseignant, sur d'autres passages couvrant les volets techniques du barème (JavaScript, Médias, Animation - GSAP, Interactivité et sauvegarde, Ma touche supplémentaire). Chaque critère dont le code ne peut pas être expliqué vaut 0.
 
 !!! tip "Se préparer à l'entrevue"
 
@@ -296,8 +309,8 @@ La plupart des critères valent **1 point&nbsp;: fait ou pas fait**. La colonne 
 | 39 | | Choix restauré sur chaque page | 11 | 1 |
 | 40 | | Formulaire EmailJS qui envoie réellement un courriel | 10, 15 | 1 |
 | 41 | | Message de succès ou d'erreur affiché au visiteur | 15 | 1 |
-| | **Une touche au choix** | | | **2** |
-| 42 | | `<model-viewer>`, Tone.js ou Chart.js, intégré de façon pertinente *(2 / 1 / 0)* | 15 | 2 |
+| | **Ma touche supplémentaire** | | | **2** |
+| 42 | | Une option (`<model-viewer>`, Tone.js, Chart.js ou Swup) intégrée de façon pertinente et justifiée dans le `README.md` *(2 / 1 / 0)* | 15 | 2 |
 | | **Mise en ligne, validation et compatibilité** | | | **6** |
 | 43 | | Site en ligne (GitHub Pages ou cPanel), tous les médias s'affichent | 5 | 1 |
 | 44 | | Tous les liens entre les pages fonctionnent en ligne | 5 | 1 |

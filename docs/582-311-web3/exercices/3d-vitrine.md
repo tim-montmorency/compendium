@@ -14,13 +14,11 @@ C'est le pipeline complet d'un média 3D&nbsp;: export, conversion, optimisation
 
 ## Résultat attendu
 
-Une section *hero* DaisyUI dont le visuel principal est un modèle 3D que le visiteur peut faire tourner. Une image s'affiche pendant le chargement, deux points d'intérêt présentent des détails du modèle, et un bouton permet de le voir en réalité augmentée sur cellulaire.
+Une section *hero* DaisyUI dont le visuel principal est un modèle 3D que le visiteur peut faire tourner. Une image s'affiche pendant le chargement, et un bouton permet de le voir en réalité augmentée sur cellulaire.
 
 ## Indices
 
 Le modèle part de Maya en `.fbx`, passe par Blender et en ressort en `.glb`. Avant de l'intégrer, glissez-le dans **[gltf.report](https://gltf.report/)**&nbsp;: si le poids vous surprend, regardez d'abord du côté des textures 😜
-
-Pour placer les points d'intérêt sans deviner les coordonnées, l'**[éditeur de model-viewer](https://modelviewer.dev/editor/)** fait le travail.
 
 ## Instructions
 
@@ -43,14 +41,11 @@ Pour placer les points d'intérêt sans deviner les coordonnées, l'**[éditeur 
 - [ ] Intégrez le modèle dans une section *hero*, avec une taille définie en Tailwind
 - [ ] Ajoutez les attributs `alt`, `camera-controls`, `poster`, `loading="lazy"` et `shadow-intensity`
 - [ ] Choisissez un angle de départ flatteur avec `camera-orbit`
-- [ ] Ajoutez **deux points d'intérêt** stylisés avec des composantes DaisyUI
-- [ ] Si le modèle est animé, jouez une animation avec `autoplay` et `animation-name`
 - [ ] Activez la réalité augmentée (`ar`)
 
 ### Vérification
 
 - [ ] Le modèle s'affiche, tourne à la souris, et le *poster* apparaît pendant le chargement (DevTools → onglet **Network** → limitation *Slow 4G*)
-- [ ] Les points d'intérêt suivent le modèle et disparaissent quand ils passent derrière
 - [ ] Le site est en ligne, et le bouton de réalité augmentée fonctionne sur un cellulaire
 
 [STOP]
@@ -69,25 +64,13 @@ Pour placer les points d'intérêt sans deviner les coordonnées, l'**[éditeur 
       camera-controls
       camera-orbit="30deg 75deg 105%"
       shadow-intensity="1"
-      autoplay
-      animation-name="Idle"
       ar
       class="w-full lg:w-1/2 h-[60vh]">
-
-      <button class="badge badge-primary" slot="hotspot-epee"
-              data-position="0.35 1.1 0.1" data-normal="0 0 1">
-        Épée légendaire
-      </button>
-      <button class="badge badge-secondary" slot="hotspot-cape"
-              data-position="0 1.4 -0.2" data-normal="0 0 -1">
-        Cape enchantée
-      </button>
-
     </model-viewer>
 
     <div>
       <h1 class="text-5xl font-bold">Le héros</h1>
-      <p class="py-6">Faites-le tourner, découvrez son équipement.</p>
+      <p class="py-6">Faites-le tourner pour le découvrir sous tous ses angles.</p>
     </div>
 
   </div>

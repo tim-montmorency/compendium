@@ -77,9 +77,9 @@ La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réuss
 | 11 | **Scène animée réactive** — ScrollTrigger et `matchMedia()` | 9 | 2 |
 | 12 | **Automobile turquoise** — boucles infinies, roues synchronisées | 10 | 2 |
 | 13 | **Labyrinthe** — MotionPath le long d'un tracé SVG | 10 | 2 |
-| 14 | **Salle de projection** — lecteur maison en classe JS + Howler | 11 | 2 |
+| 14 | **Salle de projection** — lecteur maison et effets sonores | 11 | 2 |
 | 15 | **Boîte à musique** — mélodie et effets sonores Tone.js | 11 | 2 |
-| 16 | **Vitrine 3D** — modèle Maya optimisé en `.glb`, `<model-viewer>`, points d'intérêt et réalité augmentée | 12 | 2 |
+| 16 | **Vitrine 3D** — modèle Maya optimisé en `.glb`, `<model-viewer>` et réalité augmentée | 12 | 2 |
 | 17 | **Atelier de personnalisation** — configurateur de couleur et thème mémorisés avec `localStorage` | 12 | 2 |
 | — | **Qualité générale** — indentation, nomenclature, arborescence, `.gitignore`, README complet | — | 2 |
 | | | **Total** | **/24** |

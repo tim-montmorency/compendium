@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warrok - Vitrine 3D</title>
+  </head>
+  <body class="bg-base-200">
+    <section class="hero min-h-screen">
+      <div class="hero-content flex-col lg:flex-row-reverse gap-8 w-full max-w-6xl">
+
+        <model-viewer
+          id="vitrine"
+          src="./modeles/phone.glb"
+          alt="Warrok, un guerrier ours en armure"
+          autoplay
+          disable-zoom
+          camera-orbit="25deg 80deg 105%"
+          shadow-intensity="1"
+          class="w-full lg:w-3/5 h-[70vh]">
+        </model-viewer>
+
+        <div class="lg:w-2/5">
+          <h1 class="text-5xl font-bold">Warrok</h1>
+          <p class="py-6">
+            Gardien des montagnes, Warrok ne quitte jamais son armure.
+            Activez l'interactivité pour le faire tourner et le découvrir sous tous ses angles.
+          </p>
+
+          <div class="flex flex-wrap gap-2">
+            <button id="interactivite" class="btn btn-primary">Activer l'interactivité</button>
+            <a href="./defilement.html" class="btn btn-outline">Voir la caméra au défilement</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

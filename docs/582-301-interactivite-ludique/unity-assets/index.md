@@ -98,6 +98,13 @@ Packager permettant de configurer un différent _Skybox_ dans Unity.
 
 [Skybox Series Free | :simple-unity: AssetStore](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633){ .md-button .md-button--primary }
 
+!!! warning "Lourd à charger"
+
+    Une fois installé, on choisi un skybox puis on supprime les autres :
+
+    - **Package Manager > My Assets > Skybox Series Free > Remove**.
+    - Dans la fenêtre qui apparaît, décocher seulement les `.mat` et `.hdr` utilisés (ex. : `DarkStorm.mat` et `DarkStorm4K.hdr`).
+
 ### Dialogue System
 
 ![](./Dialogue-System.webp)

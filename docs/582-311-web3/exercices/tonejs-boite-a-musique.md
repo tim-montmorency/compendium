@@ -6,7 +6,7 @@ tags:
 
 # 🎹 Boîte à musique
 
-Howler joue des fichiers. **Tone.js**, lui, *fabrique* le son&nbsp;: il synthétise les notes à la volée, sans le moindre fichier audio. L'objectif de cet exercice est de faire jouer une courte mélodie à votre page, puis d'habiller vos interactions d'un retour sonore.
+La balise `<audio>` joue des fichiers. **Tone.js**, lui, *fabrique* le son&nbsp;: il synthétise les notes à la volée, sans le moindre fichier audio. L'objectif de cet exercice est de faire jouer une courte mélodie à votre page, puis d'habiller vos interactions d'un retour sonore.
 
 <!-- ![](../assets/images/tonejs-boite.png){.w-100 data-zoom-image} -->
 
