@@ -4,7 +4,7 @@
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. Une réponse d'API, c'est des objets dans des tableaux dans des objets. Votre donnée est quelque part au fond : pour l'atteindre, on écrit son **chemin**.
-2. On avance **de l'extérieur vers l'intérieur** : `.cle` pour un objet `{ }`, `[0]` pour un tableau `[ ]`, et des crochets pour une clé avec un tiret.
+2. On avance **de l'extérieur vers l'intérieur** : `.propriete` pour un objet `{ }`, `[0]` pour un tableau `[ ]`, et des crochets pour une propriété avec un tiret.
 3. **Une étape à la fois** : le premier `undefined` vous montre où le chemin casse.
 
 </div>
@@ -15,9 +15,9 @@
 
 | Vous voyez... | C'est... | Vous écrivez... | Exemple |
 |---|---|---|---|
-| `{` | un **objet** | `.` et le nom de la clé | `data.sprites` |
+| `{` | un **objet** | `.` et le nom de la propriété | `data.sprites` |
 | `[` | un **tableau** | `[` et la position, à partir de 0 | `data.types[0]` |
-| une clé avec un tiret | un objet, mais... | des **crochets** et des guillemets | `data.sprites.other["official-artwork"]` |
+| une propriété avec un tiret | un objet, mais... | des **crochets** et des guillemets | `data.sprites.other["official-artwork"]` |
 
 Avancez **une étape à la fois**. Le premier `undefined` vous montre où le chemin casse.
 
@@ -27,24 +27,48 @@ Ouvrez [pokeapi.co/api/v2/pokemon/pikachu](https://pokeapi.co/api/v2/pokemon/pik
 
 ```js
 data.name
-// "pikachu" : une clé, directement dans l'objet
+// "pikachu" : une propriété, directement dans l'objet
 
 data.sprites.front_default
-// l'image : un objet (sprites), puis une clé
+// l'image : un objet (sprites), puis une propriété
 
 data.types[0].type.name
-// "electric" : un tableau (types), sa 1re case, un objet, une clé
+// "electric" : un tableau (types), sa 1re case, un objet, une propriété
 
 data.sprites.other["official-artwork"].front_default
-// la grande image : la clé a un tiret, donc des crochets
+// la grande image : la propriété a un tiret, donc des crochets
 ```
 
 !!! warning "Le piège du tiret"
-    `data.sprites.other.official-artwork` ne fonctionne pas : JavaScript lit le tiret comme une **soustraction** (`official` moins `artwork`). Dès qu'une clé contient un tiret ou une espace, on passe aux crochets : `["official-artwork"]`.
+    `data.sprites.other.official-artwork` ne fonctionne pas : JavaScript lit le tiret comme une **soustraction** (`official` moins `artwork`). Dès qu'une propriété contient un tiret ou une espace, on passe aux crochets : `["official-artwork"]`.
 
-## À vous { #tester }
+## À vous : tester vos chemins { #tester }
 
-Pikachu, puis trois vraies API : trouvez le chemin vers la donnée.
+La démo charge la réponse de la PokéAPI. Essayez les chemins proposés, du plus simple au plus difficile, puis les deux versions du piège du tiret.
+
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-json-chemin&onglets=resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:550px;border:0" loading="lazy"></iframe>
+
+!!! question "Défi : les points de vie (hp) de Pikachu"
+    Dans le champ **Le chemin** de la démo ci-dessus, trouvez le chemin qui donne le **nombre** de points de vie de Pikachu : la démo doit afficher **35**.
+
+    Indice : cherchez `stats` dans la réponse. C'est un tableau d'objets. Le **nom** de la statistique (`"hp"`) vous dit dans quelle case regarder, mais ce n'est pas la valeur que vous cherchez.
+
+??? success "Réponse"
+    `data.stats[0].base_stat`, qui donne `35`.
+
+    Chaque case du tableau `stats` est un objet comme celui-ci :
+
+    ```js
+    {
+      base_stat: 35,        // la valeur : c'est elle qu'on veut
+      effort: 0,
+      stat: { name: "hp" }  // l'étiquette : elle dit de quelle statistique on parle
+    }
+    ```
+
+    `data.stats[0].stat.name` donne `"hp"` : ça confirme qu'on est dans la bonne case, mais c'est l'étiquette, pas le nombre.
+
+Ensuite, trois vraies API :
 
 [:material-code-json: Exercice : Où se cache la donnée?](../exercices/ex-ou-se-cache/index.md){ .md-button .md-button--primary }
 
@@ -101,8 +125,8 @@ Voir [Récap JS : `map()`](recap-js.md#map-join).
   <ol>
     <li>Collez l'adresse de l'API dans la <strong>barre d'adresse</strong>, puis <kbd>Enter</kbd>. Par exemple : <code>https://pokeapi.co/api/v2/pokemon/pikachu</code>.</li>
     <li>Onglet <strong>JSON</strong> : la réponse, bien rangée. L'onglet <strong>Données brutes</strong> montre le texte tel qu'il arrive.</li>
-    <li><strong>Filtrer le JSON</strong> : tapez une clé (par exemple <code>official-artwork</code>) pour la trouver dans une longue réponse.</li>
-    <li>Le <strong>triangle</strong> devant une clé déplie un objet <code>{ }</code> ou un tableau <code>[ ]</code>.</li>
+    <li><strong>Filtrer le JSON</strong> : tapez une propriété (par exemple <code>official-artwork</code>) pour la trouver dans une longue réponse.</li>
+    <li>Le <strong>triangle</strong> devant une propriété déplie un objet <code>{ }</code> ou un tableau <code>[ ]</code>.</li>
   </ol>
 </div>
 

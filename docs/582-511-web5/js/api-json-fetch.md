@@ -4,7 +4,7 @@
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. Une *API* (Application Programming Interface), c'est la porte d'entrée d'un service : on lui envoie une requête, elle répond avec des **données**, pas avec une page.
-2. Le *JSON*, c'est la langue de ces données : des paires clé-valeur, que tous les langages savent lire.
+2. Le *JSON*, c'est la langue de ces données : des paires clé-valeur (en JavaScript, on parle de propriétés), que tous les langages savent lire.
 3. *`fetch()`*, c'est le messager du navigateur : il va chercher ces données **sans charger une nouvelle page**. C'est ainsi que le web professionnel est construit aujourd'hui.
 
 </div>

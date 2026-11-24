@@ -104,9 +104,12 @@ Une **API** est la porte d'un service, le **JSON** est la langue de ses données
 
 [:material-api: API, JSON et fetch : le trio du web moderne](js/api-json-fetch.md){ .md-button .md-button--primary } 
 
+[:material-code-json: Trouver une donnée dans un JSON](js/json-chemin.md){ .md-button }
+
 
 !!! info "Reporté au cours 13.1"
-    L'exercice [Où se cache la donnée?](exercices/ex-ou-se-cache/index.md), le fetch externe et le choix de votre API sont reportés au [cours 13.1](cours13a.md).
+    - Compléter la présentation de  [:material-code-json: Trouver une donnée dans un JSON](js/json-chemin.md)
+    - L'exercice [Où se cache la donnée?](exercices/ex-ou-se-cache/index.md), le fetch externe et le choix de votre API sont reportés au [cours 13.1](cours13a.md).
 
 ## Devoirs
 

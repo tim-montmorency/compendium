@@ -18,14 +18,25 @@ Au besoin : [la méthode](../../js/json-chemin.md#methode) pour lire un chemin.
 
 ## Partie A : Pikachu *10 min* { #partie-a }
 
-La démo charge la réponse de la PokéAPI. Essayez les chemins proposés, du plus simple au plus difficile, puis relevez le défi.
+**D'où viennent les données?** De la [PokéAPI](https://pokeapi.co/){ :target="_blank" }, une API gratuite sur les Pokémon. 
+
+Copiez l'adresse de la version 2 de leur API (ci-bas) dans Firefox pour voir la réponse complète, et sa structure :
+
+```
+https://pokeapi.co/api/v2/pokemon/pikachu
+```
+
+Gardez-la ouverte à côté : c'est en lisant cette structure qu'on trouve les chemins.
+
+La démo ci-dessous charge la même réponse. Essayez les chemins proposés, du plus simple au plus difficile, puis relevez le défi.
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-json-chemin&onglets=resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:550px;border:0" loading="lazy"></iframe>
 
-!!! question "Défi : les points de vie (hp) de Pikachu"
-    Dans le champ **Le chemin** de la démo ci-dessus, trouvez le chemin qui donne le **nombre** de points de vie de Pikachu : la démo doit afficher **35**.
+### Défi : les points de vie (hp) de Pikachu { #defi }
 
-    Indice : cherchez `stats` dans la réponse. C'est un tableau d'objets. Le **nom** de la statistique (`"hp"`) vous dit dans quelle case regarder, mais ce n'est pas la valeur que vous cherchez.
+Dans le champ **Le chemin** de la démo ci-dessus, trouvez le chemin qui donne le **nombre** de points de vie de Pikachu : la démo doit afficher **35**.
+
+Indice : cherchez `stats` dans la réponse. C'est un tableau d'objets. Le **nom** de la statistique (`"hp"`) vous dit dans quelle case regarder, mais ce n'est pas la valeur que vous cherchez.
 
 ??? success "Réponse"
     `data.stats[0].base_stat`, qui donne `35`.

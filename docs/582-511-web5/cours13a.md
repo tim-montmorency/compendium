@@ -44,12 +44,19 @@ Les chapitres chargés depuis `data.json`, ensemble.
 
 ## Aujourd'hui
 
-- [ ] Exercice : Où se cache la donnée? Chaque personne, dans Wooclap
+- [ ] API: Trouver une donnée dans un JSON complexe
+  - [ ] Exercice : Où se cache la donnée? Chaque personne, dans Wooclap
 - [ ] Le *fetch* externe : choisir et tester votre API
 - [ ] En équipe : trouvez votre API et faites-la valider avant la fin du cours
 - [ ] La *phase 2*{ .w5-phase .w5-phase-2 } : on commence ensemble, puis atelier
 
-## 1. :material-code-json:  Exercice : Où se cache la donnée? *25 min* { #ou-se-cache }
+## 1. :material-code-json: API: Trouver une donnée dans un JSON complexe
+
+La réponse d'une vraie API est rarement petite : des objets dans des tableaux dans des objets. Pour atteindre votre donnée, il faut écrire son chemin. La méthode, une démo pour tester vos chemins, et les outils de Firefox et de Chrome sont sur leur propre page. 
+
+[:material-code-json: Trouver une donnée dans un JSON](js/json-chemin.md){ .md-button }
+
+Exercice : Où se cache la donnée? *25 min* { #ou-se-cache }
 
 Chaque personne, sur **son** poste : Pikachu (partie A), puis trois vraies API (partie B). Les réponses de la partie B vont dans Wooclap.
 

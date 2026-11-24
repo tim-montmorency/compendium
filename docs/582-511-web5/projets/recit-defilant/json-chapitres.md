@@ -73,7 +73,7 @@ Votre dépôt a déjà toute l'[arborescence](arborescence-recit-defilant.md) su
 ??? note "Sinon : l'étape 0, ensemble, sur `main`"
     1. Créez tous les fichiers de [Arborescence et code de départ](arborescence-recit-defilant.md#arborescence), **même vides**, avec tous les `@import` et les `import` déjà écrits.
     2. Dans `index.html` : un `<main id="recit">`, et `main.js` chargé comme module (`type="module"`). Vos `<section>` statiques restent là jusqu'à l'étape 4.
-    3. Dans `data/data.json` : **le squelette de tous vos chapitres**, dans l'ordre du récit. Un objet par chapitre, avec les clés communes (`id`, `numero`, `titre`, `responsable`, `texte`) et un `"contenu": {}` vide. Le format : [Les données : `data.json`](arborescence-recit-defilant.md#data-json). Vos autres idées du cahier de charges iront dans le `contenu`, au besoin.
+    3. Dans `data/data.json` : **le squelette de tous vos chapitres**, dans l'ordre du récit. Un objet par chapitre, avec les propriétés communes (`id`, `numero`, `titre`, `responsable`, `texte`) et un `"contenu": {}` vide. Le format : [Les données : `data.json`](arborescence-recit-defilant.md#data-json). Vos autres idées du cahier de charges iront dans le `contenu`, au besoin.
     4. *Commit* `Commun : ajoute la structure de départ`, puis *push*.
     5. L'autre personne fait un *pull*. Puis chacun crée sa branche et la publie ([Git en équipe](git-en-equipe.md)).
 
