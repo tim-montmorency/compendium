@@ -147,7 +147,7 @@ Faites défiler la démo ci-dessous :
 
 ## Des pistes pour choisir votre API { #pistes }
 
-
+Une API, c'est quoi déjà? [L'API : la porte d'un service](../../js/api-json-fetch.md#api)
 
 Voici plusieurs pistes à explorer pour trouver l'API de votre moment dataviz :
 
