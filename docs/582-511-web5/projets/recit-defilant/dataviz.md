@@ -149,14 +149,14 @@ Voici plusieurs pistes à explorer pour trouver l'API de votre moment dataviz :
     - **Cross-Origin Resource Sharing (CORS) : `Yes`** (utilisable depuis le navigateur; `Unknown` est permis, mais testez avant de choisir). 
   - La liste des catégories des Publics API : [les liens directs par catégorie]([#api-categories](https://github.com/public-apis/public-apis#animals).
 - [**Données Québec**](https://www.donneesquebec.ca/){ :target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ :target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
-- **Quelques API sans clé**, prêtes à tester : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [REST Countries](https://restcountries.com/){ :target="_blank" } (pays), [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ :target="_blank" } (œuvres d'art, avec images), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
+- **Quelques API sans clé**, prêtes à tester : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [Nager.Date](https://date.nager.at/){ :target="_blank" } (jours fériés), [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ :target="_blank" } (œuvres d'art, avec images), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
 
 <a id="pas-d-idee"></a>
 
 ??? tip "Pas d'idée? La donnée peut parler du contexte"
     Votre donnée n'a pas besoin de porter sur le **sujet** de votre récit. Elle peut porter sur son **contexte** :
 
-    - **le lieu** : la météo, le lever du soleil, la population du pays où se passe l'histoire (Open-Meteo, Sunrise-Sunset, REST Countries);
+    - **le lieu** : la météo, le lever du soleil, les jours fériés du pays où se passe l'histoire (Open-Meteo, Sunrise-Sunset, Nager.Date);
     - **le moment** : la météo à une date précise, même dans le passé ([l'archive d'Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api){ :target="_blank" });
     - **le contraste entre la réalité et la fiction** : « Dans l'histoire, il neige depuis 40 jours. À Montréal, l'hiver dernier : X jours. »
 
@@ -223,7 +223,34 @@ Avant d'écrire une ligne de code, **collez l'adresse dans la barre d'adresse** 
 
 Par exemple, la température maximale des 7 prochains jours à Montréal : [l'adresse Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=auto){ :target="_blank" }.
 
-La plupart des API se **règlent dans l'adresse**, après le `?` : `latitude=45.5`, `daily=temperature_2m_max`. Changez une valeur, rechargez : vous voyez tout de suite ce que ça change. Plusieurs API, comme Open-Meteo, ont même un **générateur d'adresse** dans leur documentation.
+#### Construire l'adresse avec la documentation { #api-doc }
+
+Dans la documentation d'une API, cherchez 4 choses :
+
+1. **L'adresse de base** : le début de l'adresse, toujours le même.
+2. **Les paramètres** : ce qu'on ajoute pour choisir ses données. Lesquels sont obligatoires?
+3. **Un exemple de réponse** : la structure du JSON, pour trouver votre chemin.
+4. **Les limites** : une clé exigée? Un nombre maximal de requêtes?
+
+**Open-Meteo : les paramètres après le `?`**
+
+La [documentation d'Open-Meteo](https://open-meteo.com/en/docs){ :target="_blank" } a un générateur : choisissez un lieu, cochez des variables, et l'adresse se construit sous **API URL**, juste sous le graphique de la section [API Response](https://open-meteo.com/en/docs#api_response){ :target="_blank" }.
+
+| Le morceau | Son rôle |
+|---|---|
+| `https://api.open-meteo.com/v1/forecast` | l'adresse de base |
+| `?` | le début des paramètres |
+| `latitude=45.5&longitude=-73.57` | le lieu : Montréal |
+| `&daily=temperature_2m_max` | la donnée : la température maximale de chaque jour |
+| `&timezone=auto` | les jours selon l'heure locale |
+
+Chaque paramètre s'écrit `nom=valeur`, et `&` les sépare. Changez une valeur, rechargez : vous voyez tout de suite l'effet.
+
+**PokéAPI : le paramètre dans le chemin**
+
+Ici, pas de `?`. La [documentation de la PokéAPI](https://pokeapi.co/docs/v2){ :target="_blank" }, section Pokémon, indique `/api/v2/pokemon/{id or name}/` : on remplace `{id or name}` par le Pokémon voulu, `pikachu` ou `25`.
+
+Dans une documentation, des accolades `{ }` dans une adresse veulent dire : « remplacez par votre valeur ».
 
 #### Tester le Cross-Origin Resource Sharing (CORS) { #api-cors }
 

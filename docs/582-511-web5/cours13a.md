@@ -69,6 +69,7 @@ Chaque personne, sur **son** poste : Pikachu (partie A), puis trois vraies API (
 Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interroger une API, c'est **le même `fetch()`**, avec une adresse sur un autre site. Ce qui est nouveau :
 
 - **choisir** une API : **sans clé d'identification** (dans les listes d'API, la colonne **Auth : `No`**, plutôt que `apiKey` ou `OAuth`), **Cross-Origin Resource Sharing (CORS) : `Yes`** (ou `Unknown`, à tester d'abord), du JSON, et votre donnée;
+- **construire** son adresse, à l'aide de sa documentation ([lire une documentation d'API](projets/recit-defilant/dataviz.md#api-doc));
 - **lire** sa réponse : tester l'adresse dans le navigateur, trouver le chemin vers votre valeur;
 - **prévoir la panne** : des valeurs de secours, pour que le récit reste lisible.
 
