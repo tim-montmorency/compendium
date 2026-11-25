@@ -62,9 +62,13 @@ Trois adresses, de la plus facile à la plus difficile. Pour chacune :
 | [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson){ target="_blank" } | Le lieu du **premier** séisme de la liste | `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson` |
 | [Nager.Date](https://date.nager.at/api/v3/PublicHolidays/2026/CA){ target="_blank" } | Le nom anglais du **premier** jour férié de 2026 au Canada | `https://date.nager.at/api/v3/PublicHolidays/2026/CA` |
 
-**Tester un chemin dans la console** : collez ces deux lignes, puis remplacez `data.propriete` par votre chemin. La console affiche la valeur, ou `undefined` si le chemin est faux ([dans Chrome ou Edge](../../js/json-chemin.md#console)).
+**Tester un chemin dans la console** : dans la console de Firefox, collez ces deux lignes, puis remplacez `data.propriete` par votre chemin. La console affiche la valeur, ou `undefined` si le chemin est faux.
+
 
 ```js
 const data = $json.data;
 data.propriete
 ```
+
+Si vous voulez plutôt tester un chemin dans Chrome ou Edge [voir les détails ici](../../js/json-chemin.md#console).
+

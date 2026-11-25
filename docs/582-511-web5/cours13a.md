@@ -1,6 +1,24 @@
 # **Cours 13.1** Des API à la phase 2
 <!-- mer. 25 nov. -->
 
+!!! success "Tutorat : 2 périodes ajoutées pour Web 5 avant la bêta"
+
+    === "Tutorat supplém. pour Web 5"
+
+        | 📅 Date | 👤 Tuteur | ⏱️ Durée | 📍 Où | 🎯 Avant |
+        |---|---|---|---|---|
+        | Jeu. 26 nov., 14h40 à 15h30 | Alexis | 50min | 🏫 En personne au Centre d'aide C1602 | Bêta(2 déc) |
+        | Lun. 30 nov., 14h40 à 15h30 | Olivier | 50min | 💻 En ligne sur Teams, équipe *Web5* : [canal « Tutorat Web5 »](https://teams.microsoft.com/l/channel/19%3A9d3216c048864138a5c339b1fab4744f%40thread.tacv2/Tutorat%20d%C3%A9di%C3%A9%20Web5?groupId=f3a480ff-8bfb-44d3-9785-1b4c7f366701&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) | Bêta(2 déc) |
+
+        Deux autres périodes viendront avant la remise finale : dates à venir.
+
+    === "Tutorat hebdomadaire récurrent"
+
+        | 📅 Date | 👤 Tuteur | ⏱️ Durée | 📍 Où |
+        |---|---|---|---|
+        | Chaque mardi, 12h30 à 14h10 (8 sept au 8 déc) | Alexis Guilbault | 1h40 | 🏫 En personne au Centre d'aide C-1602 |
+        | Chaque mercredi, 20h à 21h15 (9 sept au 9 déc) | Olivier Laliberté | 1h15 | 💻 En ligne sur Teams : [canal Tutorat de l'équipe TIM-Programme TIM](https://teams.microsoft.com/l/channel/19%3A68fb96c731e7460ba846ff328a9fe109%40thread.tacv2/Tutorat?groupId=924057af-2255-4c2a-8ce7-f0a1809ad4a4&tenantId=ffa995c7-10de-4ec8-95db-28ed0576455d) |
+
 ![](assets/cours13a-banniere.webp){.w-100}
 
 <div class="class-content-link">
