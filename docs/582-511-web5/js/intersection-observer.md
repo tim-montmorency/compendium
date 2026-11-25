@@ -52,20 +52,26 @@ Les morceaux :
 
 <iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-intersection-observer&onglets=js,html,css,resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:850px;border:0" loading="lazy"></iframe>
 
-## Dans votre récit
+## Dans votre récit { #dans-votre-recit }
 
 Dans la démo du Petit Chaperon rouge, le fichier commun `js/utils.js` contient une petite fonction réutilisable, et le chapitre 5 s'en sert pour charger la météo seulement quand le chapitre approche :
 
 ```js
 // js/utils.js
+// Appelle callback une seule fois, quand element entre dans l'écran.
+// margin (facultatif) : agrandit la zone de l'écran, comme rootMargin.
 export function observeOnce(element, callback, margin = "0px") {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
+      // Pas encore visible : on attend
       if (!entry.isIntersecting) return;
+      // Visible : on lance la fonction reçue, avec l'élément
       callback(entry.target);
+      // On arrête de le surveiller : une seule fois
       observer.unobserve(entry.target);
     });
   }, { rootMargin: margin });
+  // On commence à surveiller l'élément
   observer.observe(element);
 }
 ```
@@ -74,14 +80,20 @@ export function observeOnce(element, callback, margin = "0px") {
 // js/chapitres/ch-05.js
 import { observeOnce } from "../utils.js";
 
+// main.js appelle animate() une fois le chapitre dans la page
 export function animate(section, chapter) {
+  // L'élément où afficher la météo, dans la section du chapitre
   const weather = section.querySelector(".meteo");
+  // Le lieu, lu dans data.json : chapter.contenu.lieu
   const place = chapter.contenu.lieu;
-  // Le fetch part une demi-hauteur d'écran AVANT le chapitre
+
+  // showWeather() : une fonction du chapitre, qui contient le fetch()
+  // vers l'API météo, puis affiche le résultat dans el
+  // Rappel, dans utils.js : observeOnce(element, callback, margin)
   observeOnce(
-    weather,
-    (el) => showWeather(el, place),
-    "0px 0px 50% 0px"
+    weather,                          // element : l'élément à surveiller
+    (el) => showWeather(el, place),   // callback : le fetch, une fois
+    "0px 0px 50% 0px"                 // margin : margin-bottom de 50 %
   );
 }
 ```

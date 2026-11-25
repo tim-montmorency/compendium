@@ -111,7 +111,7 @@ Les étapes 1 à 6 se codent toutes dans **`js/main.js`**.
 
 ### 2. Parcourir les chapitres { #ensemble-2 }
 
-- Dans `init()`, rangez le résultat de `loadChapters()` dans une constante `chapters`.
+- Dans `init()`, rangez le résultat de `loadChapters()` de l'étape précédente dans une constante `chapters`.
 - Parcourez-la avec [`forEach`](../../js/recap-js.md#foreach).
 - Pour chaque chapitre : son numéro et son titre, dans la console.
 
@@ -122,6 +122,7 @@ Les étapes 1 à 6 se codent toutes dans **`js/main.js`**.
 - Dans `js/main.js`, codez la fonction `createChapter(chapter)`.
 - Elle retourne une `<section>`, avec l'`id` du chapitre.
 - Dans la `<section>` : un `<h2>` avec le titre du chapitre.
+- Pour tester, dans `init()` : `console.log(createChapter(chapters[0]))`.
 
 *Vérification* : le HTML du 1er chapitre, dans la console.
 
@@ -130,6 +131,7 @@ Les étapes 1 à 6 se codent toutes dans **`js/main.js`**.
 - **D'abord, la copie de sécurité** (voir l'encadré ci-dessous).
 - Retirez vos `<section>` statiques : `<main id="recit">` est vide.
 - Ajoutez-y le HTML de **chaque** chapitre.
+- Dans `init()`, appelez `createChapter()` pour chaque chapitre avec `map()`, collez le tout avec `join("")`, puis placez-le dans `<main id="recit">` avec `innerHTML` ([Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join)).
 
 *Vérification* : tous vos titres, dans l'ordre. Le texte et les médias reviennent à l'étape 5.
 
@@ -171,6 +173,38 @@ Les étapes 1 à 6 se codent toutes dans **`js/main.js`**.
     - donnez un `width` et un `height` à vos `<img>` : la place est réservée avant le chargement.
 
     [Pourquoi, et comment le vérifier](../../js/gsap-scrolltrigger.md#refresh)
+
+??? warning "DrawSVG, MorphSVG : le SVG doit être dans la page AVANT `animate()`"
+    Ces extensions de GSAP animent les traits d'un SVG : le SVG doit être **dans le HTML** (pas dans une balise `<img>`), et déjà dans la page quand `animate()` s'exécute. Comme vos chapitres sont construits par JavaScript, il faut attendre.
+
+    Comme dans la démo du Petit Chaperon rouge :
+
+    - dans `createMedia()`, un conteneur vide qui indique le fichier : `<div class="loup" data-svg="medias/loup.svg"></div>`;
+    - dans `main.js`, une fonction qui insère chaque SVG dans son conteneur;
+    - dans `init()`, après le `innerHTML` et **avant** les `animate()` : `await injectSvg();`.
+
+    ```js
+    // js/main.js
+    // Insère chaque fichier SVG dans la page,
+    // pour que DrawSVG atteigne ses traits
+    async function injectSvg() {
+      const containers = document.querySelectorAll("[data-svg]");
+      for (const container of containers) {
+        const response = await fetch(container.dataset.svg);
+        container.innerHTML = await response.text();
+      }
+    }
+    ```
+
+    [DrawSVG](../../js/gsap-drawsvg.md)
+
+??? warning "SplitText, ScrambleText : dans `animate()`, et SplitText attend les polices"
+    Le texte est déjà dans le HTML de `createMedia()` : il est dans la page quand `animate()` s'exécute. Deux précautions :
+
+    - **appelez l'extension dans `animate()`**, jamais en haut du fichier du chapitre : ce code-là s'exécute à l'`import`, avant que le HTML existe;
+    - **SplitText découpe en lignes** selon la largeur du texte. Si la police n'est pas encore chargée, les lignes sont mal coupées. Dans `init()`, avant les `animate()` : `await document.fonts.ready;`.
+
+    [SplitText](../../js/gsap-splittext.md), [ScrambleText](../../js/gsap-scrambletext.md)
 
 ??? tip "Un chapitre n'a pas encore d'animation?"
     Un `console.log("chapitre 3 prêt")` dans son `animate` suffit pour vérifier l'étape 6.

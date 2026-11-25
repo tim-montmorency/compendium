@@ -151,7 +151,8 @@ Une API, c'est quoi déjà? [L'API : la porte d'un service](../../js/api-json-fe
 
 Voici plusieurs pistes à explorer pour trouver l'API de votre moment dataviz :
 
-- [**Public APIs**](https://github.com/public-apis/public-apis#index){ target="_blank" } : une grande liste d'API gratuites, classées par thème. 
+- [**publicapi.dev: The directory of public APIs**](https://publicapi.dev){ target="_blank" }
+- [**Public APIs**](https://github.com/public-apis/public-apis#index){ target="_blank" } : une grande liste d'API gratuites, classées par thème.
   - Visez les colonnes 
     - **Auth : `No`** (sans clé d'identification : ni `apiKey`, ni `OAuth`)
     - **Cross-Origin Resource Sharing (CORS) : `Yes`** (utilisable depuis le navigateur; `Unknown` est permis, mais testez avant de choisir). 
@@ -199,7 +200,9 @@ Une bonne API pour votre récit coche ces 4 cases :
 
     C'est pourquoi une API peut très bien s'afficher dans la barre d'adresse, et échouer dans votre page : la barre d'adresse n'est pas « un autre site » qui demande.
 
-Des pistes : la liste [Public APIs](https://github.com/public-apis/public-apis#index){ target="_blank" }, et les API sans clé de la section [Des pistes pour choisir votre API](#pistes).
+Des pistes : 
+- la liste [Public APIs](https://github.com/public-apis/public-apis#index){ target="_blank" }, et les API sans clé de la section [Des pistes pour choisir votre API](#pistes)
+- [publicapi.dev: The directory of public APIs](https://publicapi.dev){ target="_blank" }
 
 #### Public APIs, par catégorie { #api-categories }
 
@@ -325,7 +328,7 @@ C'est le même `fetch()` que pour `data.json` : voir [Récap JS : `async` / `awa
 
 ### 5. Charger au bon moment { #api-moment }
 
-Pas au chargement de la page : **quand le visiteur approche du chapitre**. C'est le rôle d'[IntersectionObserver](../../js/intersection-observer.md), avec un `rootMargin` qui le déclenche un peu avant, pour que les données soient là à temps.
+Pas au chargement de la page : **quand le visiteur approche du chapitre**. C'est le rôle d'[IntersectionObserver](../../js/intersection-observer.md#dans-votre-recit), avec un `rootMargin` qui le déclenche un peu avant, pour que les données soient là à temps.
 
 ### 6. Prévoir la panne { #api-panne }
 
