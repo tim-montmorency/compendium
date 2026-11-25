@@ -59,7 +59,7 @@ Une scène épinglée, 5 calques, deux personnages : un exemple complet.
 
 ## Rappel pour les images non créées pas vous même
 
-- **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ :target="_blank" }, [Pexels](https://www.pexels.com/){ :target="_blank" }), selon leur licence.
+- **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ target="_blank" }, [Pexels](https://www.pexels.com/){ target="_blank" }), selon leur licence.
 - **Images générées par IA permises**, si elles sont créditées dans le `README.md`, avec l'outil comme source.
 - **Autre images qui ne sont pas de vous**
   

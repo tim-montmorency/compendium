@@ -349,7 +349,7 @@ export function animate(section, chapter) {
 
 ## Références
 
-- [ScrollTrigger : la documentation](https://gsap.com/docs/v3/Plugins/ScrollTrigger/){ :target="_blank" }
-- [`gsap.matchMedia()`](https://gsap.com/docs/v3/GSAP/gsap.matchMedia()){ :target="_blank" }
+- [ScrollTrigger : la documentation](https://gsap.com/docs/v3/Plugins/ScrollTrigger/){ target="_blank" }
+- [`gsap.matchMedia()`](https://gsap.com/docs/v3/GSAP/gsap.matchMedia()){ target="_blank" }
 - Explications des marqueurs et des `toggleActions` : notes du cours 582-424, TIM Montmorency.
 - Exemples de déclenchement, de `toggleActions`, de `scrub`, de scènes épinglées et de `snap` : Fragments du cours Web 3 (582-311), TIM Montmorency, utilisés avec sa permission.

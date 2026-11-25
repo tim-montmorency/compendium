@@ -64,7 +64,7 @@ Tout faire sans souris, en voyant toujours le focus.
 
 ## WAVE en ligne (aucune installation)
 
-Allez sur [wave.webaim.org](https://wave.webaim.org/){ :target="_blank" }, collez l'adresse de votre site en ligne (GitHub Pages), puis **Entrée**. Ça fonctionne dans tous les navigateurs, même sur un téléphone. Votre page s'affiche avec des icônes de couleur. **Repérez-les par leur couleur** : chaque catégorie a la sienne.
+Allez sur [wave.webaim.org](https://wave.webaim.org/){ target="_blank" }, collez l'adresse de votre site en ligne (GitHub Pages), puis **Entrée**. Ça fonctionne dans tous les navigateurs, même sur un téléphone. Votre page s'affiche avec des icônes de couleur. **Repérez-les par leur couleur** : chaque catégorie a la sienne.
 
 | Couleur | Catégorie | Ce que ça signale | Quoi faire |
 |---|---|---|---|
@@ -332,9 +332,9 @@ Utile pour un premier ménage, mais rappelez-vous : un score de 100 ne veut pas 
 
 ## Références
 
-- [WCAG 2.2 en bref (W3C, en anglais)](https://www.w3.org/WAI/standards-guidelines/wcag/){ :target="_blank" }
-- [Accessibilité (MDN, en français)](https://developer.mozilla.org/fr/docs/Web/Accessibility){ :target="_blank" }
-- [WebAIM : vérificateur de contraste](https://webaim.org/resources/contrastchecker/){ :target="_blank" }
+- [WCAG 2.2 en bref (W3C, en anglais)](https://www.w3.org/WAI/standards-guidelines/wcag/){ target="_blank" }
+- [Accessibilité (MDN, en français)](https://developer.mozilla.org/fr/docs/Web/Accessibility){ target="_blank" }
+- [WebAIM : vérificateur de contraste](https://webaim.org/resources/contrastchecker/){ target="_blank" }
 
 <style>
   .a11y-demo {

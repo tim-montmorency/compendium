@@ -17,7 +17,7 @@ Les deux bornes du trait changent : la partie visible glisse le long du tracé.
 
 <iframe height="550" style="width: 100%;" scrolling="no" title="DrawSVG : le principe" src="https://codepen.io/tim-momo/embed/ExdmrwY?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<small>Démo CodePen : [DrawSVG : le principe](https://codepen.io/tim-momo/pen/ExdmrwY){ :target="_blank" }</small>
+<small>Démo CodePen : [DrawSVG : le principe](https://codepen.io/tim-momo/pen/ExdmrwY){ target="_blank" }</small>
 
 ## Installer { #installer }
 
@@ -54,7 +54,7 @@ DrawSVG anime le **contour** (`stroke`), pas le remplissage (`fill`). Votre trac
 }
 ```
 
-Pour bien comprendre les contours en SVG : [SVG : remplissage et contour (MDN)](https://developer.mozilla.org/fr/docs/Web/SVG/Tutorial/Fills_and_Strokes){ :target="_blank" }.
+Pour bien comprendre les contours en SVG : [SVG : remplissage et contour (MDN)](https://developer.mozilla.org/fr/docs/Web/SVG/Tutorial/Fills_and_Strokes){ target="_blank" }.
 
 !!! info "Sous le capot"
     DrawSVG anime deux propriétés CSS du SVG : `stroke-dasharray` et `stroke-dashoffset`. Vous pourriez le faire à la main, mais il faudrait calculer la longueur exacte de chaque tracé.
@@ -70,13 +70,13 @@ Pour voir un trait se dessiner du début à la fin, on part de `0`, avec `set()`
 
 <iframe height="600" style="width: 100%;" scrolling="no" title="DrawSVG : set() puis to()" src="https://codepen.io/tim-momo/embed/OJBmKjy?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<small>Démo CodePen : [DrawSVG : set() puis to()](https://codepen.io/tim-momo/pen/OJBmKjy){ :target="_blank" }</small>
+<small>Démo CodePen : [DrawSVG : set() puis to()](https://codepen.io/tim-momo/pen/OJBmKjy){ target="_blank" }</small>
 
 On peut aussi le faire en une seule ligne, avec `fromTo()` :
 
 <iframe height="600" style="width: 100%;" scrolling="no" title="DrawSVG : fromTo()" src="https://codepen.io/tim-momo/embed/XWxRGjK?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<small>Démo CodePen : [DrawSVG : fromTo()](https://codepen.io/tim-momo/pen/XWxRGjK){ :target="_blank" }</small>
+<small>Démo CodePen : [DrawSVG : fromTo()](https://codepen.io/tim-momo/pen/XWxRGjK){ target="_blank" }</small>
 
 **Au clic** : un dessin qui se trace avec `fromTo()`, de `drawSVG: "0%"` à `"100%"`. Remarquez `visibility: "visible"` au départ : le trait est caché dans le CSS tant que l'animation n'a pas commencé, pour éviter qu'il s'affiche une fraction de seconde au chargement.
 
@@ -100,7 +100,7 @@ Et dans une timeline : dessiner chaque trait, puis finir avec le remplissage.
 
 <iframe height="700" style="width: 100%;" scrolling="no" title="DrawSVG : une timeline" src="https://codepen.io/tim-momo/embed/mdzwbEO?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<small>Démo CodePen : [DrawSVG : une timeline](https://codepen.io/tim-momo/pen/mdzwbEO){ :target="_blank" }</small>
+<small>Démo CodePen : [DrawSVG : une timeline](https://codepen.io/tim-momo/pen/mdzwbEO){ target="_blank" }</small>
 
 ## Dans votre récit { #dans-votre-recit }
 
@@ -136,5 +136,5 @@ Avec le mouvement réduit, le chemin est affiché au complet, tout de suite.
 
 ## Références
 
-- [DrawSVGPlugin : la documentation](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/){ :target="_blank" }
-- [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ :target="_blank" }
+- [DrawSVGPlugin : la documentation](https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/){ target="_blank" }
+- [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ target="_blank" }

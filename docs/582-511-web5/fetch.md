@@ -10,7 +10,7 @@ Ce qu'est une promesse, ses trois états, et comment on la traite dans un portfo
 
 [Une promesse, en bref](js/recap-js.md#promesses){ .md-button }
 
-Référence complète : [Promise (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise){ :target="_blank" }
+Référence complète : [Promise (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise){ target="_blank" }
 
 ## Fetch API
 
@@ -24,7 +24,7 @@ Appliqué au portfolio, selon votre source de données :
 
 [Charger les données du portfolio](projets/portfolio/donnees/index.md){ .md-button }
 
-Référence complète : [Utiliser l'API Fetch (MDN)](https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch){ :target="_blank" }
+Référence complète : [Utiliser l'API Fetch (MDN)](https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch){ target="_blank" }
 
 ## Gestions des données reçues
 
@@ -32,16 +32,16 @@ Référence complète : [Utiliser l'API Fetch (MDN)](https://developer.mozilla.o
 
 [JSON](js/recap-js.md#json){ .md-button }
 
-Référence : [structure du JSON (MDN)](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON#structure_du_json){ :target="_blank" }
+Référence : [structure du JSON (MDN)](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON#structure_du_json){ target="_blank" }
 
 ### Accéder aux propriétés d'un objet JS
 
 [Objets et accès aux propriétés](js/recap-js.md#objets){ .md-button }
 
-Référence : [accesseurs de propriétés (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors){ :target="_blank" }
+Référence : [accesseurs de propriétés (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors){ target="_blank" }
 
 ### forEach sur tableau JS
 
 [Parcourir un tableau avec forEach](js/recap-js.md#foreach){ .md-button }
 
-Référence : [forEach (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach){ :target="_blank" }
+Référence : [forEach (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach){ target="_blank" }

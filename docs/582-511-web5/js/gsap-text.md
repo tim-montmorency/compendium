@@ -15,7 +15,7 @@
 
 <iframe height="640" style="width: 100%;" scrolling="no" title="TextPlugin : exemple" src="https://codepen.io/tim-momo/embed/JjVeNBZ?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<small>Démo CodePen : [TextPlugin : exemple](https://codepen.io/tim-momo/pen/JjVeNBZ){ :target="_blank" }</small>
+<small>Démo CodePen : [TextPlugin : exemple](https://codepen.io/tim-momo/pen/JjVeNBZ){ target="_blank" }</small>
 
 ## Installer { #installer }
 
@@ -57,11 +57,11 @@ gsap.to(".narration", {
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="TextPlugin : remplacer un texte" src="https://codepen.io/tim-momo/embed/MWRZwKw?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<small>Démo CodePen : [TextPlugin : remplacer un texte](https://codepen.io/tim-momo/pen/MWRZwKw){ :target="_blank" }</small>
+<small>Démo CodePen : [TextPlugin : remplacer un texte](https://codepen.io/tim-momo/pen/MWRZwKw){ target="_blank" }</small>
 
 <iframe height="500" style="width: 100%;" scrolling="no" title="TextPlugin : autre exemple" src="https://codepen.io/tim-momo/embed/ExJGjyZ?default-tab=result&editable=false" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
 
-<small>Démo CodePen : [TextPlugin : autre exemple](https://codepen.io/tim-momo/pen/ExJGjyZ){ :target="_blank" }</small>
+<small>Démo CodePen : [TextPlugin : autre exemple](https://codepen.io/tim-momo/pen/ExJGjyZ){ target="_blank" }</small>
 
 **Au clic** : le bouton vide le texte, puis TextPlugin l'écrit lettre par lettre, en 3 secondes, avec `ease: "none"` pour une vitesse constante.
 
@@ -120,6 +120,6 @@ Avec le mouvement réduit, rien ne s'anime : le texte est simplement là.
 
 ## Références
 
-- [TextPlugin : la documentation](https://gsap.com/docs/v3/Plugins/TextPlugin/){ :target="_blank" }
-- [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ :target="_blank" }
+- [TextPlugin : la documentation](https://gsap.com/docs/v3/Plugins/TextPlugin/){ target="_blank" }
+- [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ target="_blank" }
 

@@ -19,7 +19,7 @@
 
 ## Retour sur arborescence
 
-[:material-file-tree: Arborescence du dépôt : portfolio](./projets/portfolio/arborescence-portfolio.md){ .md-button .md-button--primary :target="_blank" }
+[:material-file-tree: Arborescence du dépôt : portfolio](./projets/portfolio/arborescence-portfolio.md){ .md-button .md-button--primary target="_blank" }
 
 - Variables CSS (lier le fichier variables.css AVANT tous les autres dans les `<head>` de vos fichiers HTML.)
 
@@ -35,18 +35,18 @@ Vos maquettes Figma ont été pensées en desktop d'abord. Bien que vous puissie
 
 On code donc dans cet ordre : le HTML/CSS desktop d'abord, une passe responsive séparée pour le mobile plus tard.
 
-[Mobile-first VS desktop-first - Contenu de cours 2026](https://tim-montmorency.com/compendium/582-211-web2/css/mediaqueries-breakpoints.html#mobile-first-vs-desktop-first){ .md-button :target="_blank" }
+[Mobile-first VS desktop-first - Contenu de cours 2026](https://tim-montmorency.com/compendium/582-211-web2/css/mediaqueries-breakpoints.html#mobile-first-vs-desktop-first){ .md-button target="_blank" }
 
-[Développement mobile-first - Contenu de cours 2025](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#developpement-mobile-first){ .md-button :target="_blank" }
+[Développement mobile-first - Contenu de cours 2025](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#developpement-mobile-first){ .md-button target="_blank" }
 
 
 ### Media queries (requêtes média)
 
 Les [media queries](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#media-query-requete-media) qu'on a vues au cours 2.1 s'appliquent de la même façon, seulement dans l'autre sens (`max-width` plutôt que `min-width`).
 
-[Media query (requête média) - Contenu de cours 2026](https://tim-montmorency.com/compendium/582-211-web2/css/mediaqueries-breakpoints.html#media-query-requete-media){ .md-button :target="_blank" }
+[Media query (requête média) - Contenu de cours 2026](https://tim-montmorency.com/compendium/582-211-web2/css/mediaqueries-breakpoints.html#media-query-requete-media){ .md-button target="_blank" }
 
-[Media query (requête média) - Contenu de cours 2025](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#media-query-requete-media){ .md-button :target="_blank" }
+[Media query (requête média) - Contenu de cours 2025](https://tim-montmorency.com/timdoc/582-211/css/media-queries/#media-query-requete-media){ .md-button target="_blank" }
 
 
 

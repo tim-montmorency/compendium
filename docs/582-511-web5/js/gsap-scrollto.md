@@ -117,6 +117,6 @@ buttons.forEach((button) => {
 
 ## Références
 
-- [ScrollToPlugin : la documentation](https://gsap.com/docs/v3/Plugins/ScrollToPlugin/){ :target="_blank" }
-- [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ :target="_blank" }
+- [ScrollToPlugin : la documentation](https://gsap.com/docs/v3/Plugins/ScrollToPlugin/){ target="_blank" }
+- [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ target="_blank" }
 

@@ -46,7 +46,7 @@ Un exemple à explorer ici même : cherchez un nom, changez de filtre, puis ouvr
 
 ## Vidéo: Vue.js en 2 minutes
 
-[:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw){ .md-button :target="_blank" }
+[:material-play-circle: Voir une vidéo](https://www.youtube.com/watch?v=KgcKB7ZrPvw){ .md-button target="_blank" }
 
 ## Vue: version 3
 

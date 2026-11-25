@@ -5,7 +5,7 @@ Ce guide fixe une base commune de paramétrage, pour que tout le monde parte du 
 !!! info "Ce guide suppose que Copilot est déjà activé"
     Si ce n'est pas encore fait, voir d'abord le guide d'activation.
 
-    [:material-github: Activer GitHub Copilot (plan Student)](Guide_GitHub_Education_Copilot.md){ .md-button :target="_blank" }
+    [:material-github: Activer GitHub Copilot (plan Student)](Guide_GitHub_Education_Copilot.md){ .md-button target="_blank" }
 
 ## Les principes, peu importe l'interface
 
@@ -67,7 +67,7 @@ Un bouton *Default permissions* en bas et choisissez l'option *Ask when approval
 
 ![](./assets/vscode-copilot-chat-default-permission-always-ask.png)
 
-[:material-swap-horizontal: Ce que vous voyez selon votre poste (labo ou personnel)](modes-copilot-ancien-nouveau.md){ .md-button :target="_blank" }
+[:material-swap-horizontal: Ce que vous voyez selon votre poste (labo ou personnel)](modes-copilot-ancien-nouveau.md){ .md-button target="_blank" }
 
 !!! danger "Obligatoire pour le portfolio"
     Peu importe les noms de boutons devant vous : choisissez toujours l'option qui vous demande votre accord avant chaque changement, jamais celle qui exécute des commandes ou modifie plusieurs fichiers de façon autonome.
@@ -100,13 +100,13 @@ Un fichier à la racine de votre dépôt, lu automatiquement par Copilot, où vo
 
 Un bloc de code HTML/CSS/JS qui représente un élément de l'interface (ex. un bouton, un formulaire, une carte d'un projet). Chaque bloc est commenté et séparé des autres pour faciliter la lecture et la maintenance.
 
-[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button :target="_blank" }
+[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button target="_blank" }
 
 \* **Nomenclature BEM pour vos classes CSS**
 
 Une convention de nommage des classes CSS qui reflète la structure du composant (ex. `card__title` pour le titre d'une carte).
 
-[Nomenclature BEM pour vos classes CSS](https://tim-montmorency.com/compendium/582-211-web2/css/nomenclature-bem.html){ .md-button :target="_blank" }
+[Nomenclature BEM pour vos classes CSS](https://tim-montmorency.com/compendium/582-211-web2/css/nomenclature-bem.html){ .md-button target="_blank" }
 
 ## 5. Gérer vos crédits IA
 

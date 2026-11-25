@@ -33,8 +33,8 @@ Une organisation (un musée, un organisme, un média, une marque) vous confie un
 
 C'est le format des grands récits interactifs des médias en ligne. Exemples à explorer :
 
-- [The Pudding](https://pudding.cool/){ :target="_blank" } : des essais visuels construits sur des données;
-- [Snow Fall (The New York Times, 2012)](https://www.nytimes.com/projects/2012/snow-fall/){ :target="_blank" } : un des premiers récits défilants célèbres.
+- [The Pudding](https://pudding.cool/){ target="_blank" } : des essais visuels construits sur des données;
+- [Snow Fall (The New York Times, 2012)](https://www.nytimes.com/projects/2012/snow-fall/){ target="_blank" } : un des premiers récits défilants célèbres.
 
 Ce projet réunit tout ce que vous avez appris : la conception, l'animation, les données, le contrôle de la qualité et le travail d'équipe. C'est aussi une pièce de choix pour votre portfolio.
 
@@ -112,7 +112,7 @@ On verra en classe comment préparer chacun de ces formats. D'ici là, choisisse
 
 ### Les médias et les crédits
 
-- **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ :target="_blank" }, [Pexels](https://www.pexels.com/){ :target="_blank" }), selon leur licence.
+- **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ target="_blank" }, [Pexels](https://www.pexels.com/){ target="_blank" }), selon leur licence.
 - **Images générées par IA permises**, si elles sont créditées dans le `README.md`, avec l'outil comme source.
 - **Tous les médias sont crédités** dans le `README.md`, dans un tableau : média, chapitre, source, auteur, licence, modifié ou non.
 
@@ -129,7 +129,7 @@ On verra en classe comment préparer chacun de ces formats. D'ici là, choisisse
 
 ### :material-account-group-outline: Inscrire votre équipe { #inscrire-votre-equipe }
 
-Inscrivez les deux noms de votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" }. Ajoutez le thème dès que je l'ai validé.
+Inscrivez les deux noms de votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ target="_blank" }. Ajoutez le thème dès que je l'ai validé.
 
 ### :material-account-outline: Vos zones de responsabilité { #vos-zones-de-responsabilite }
 

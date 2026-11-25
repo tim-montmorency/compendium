@@ -16,7 +16,9 @@
 
 </div>
 
-## Ce qui fait un bon moment dataviz
+## La dataviz dans le récit
+
+### Ce qui fait un bon moment dataviz
 
 Une dataviz de récit n'est pas un tableau de bord. Elle ne montre pas *toutes* les données : elle en montre **une**, au moment où le lecteur en a besoin.
 
@@ -28,7 +30,7 @@ Une dataviz de récit n'est pas un tableau de bord. Elle ne montre pas *toutes* 
 | **Une révélation** | Qu'est-ce qui bouge, et quand? | Le chiffre compte jusqu'à sa valeur quand on l'atteint |
 | **Une chute** | Quelle phrase dit ce que la donnée raconte? | « Le plus fort : magnitude 6,8 » |
 
-## Des formes simples qui marchent
+### Des formes simples qui marchent
 
 Pas besoin de librairie de graphiques : ces formes se font en HTML, en CSS et avec un peu de JavaScript.
 
@@ -38,7 +40,7 @@ Pas besoin de librairie de graphiques : ces formes se font en HTML, en CSS et av
 - **L'échelle** : comparer une valeur à quelque chose de connu (la hauteur d'un immeuble, la taille d'un terrain de soccer).
 - **La ligne du temps** : une valeur qui change avec les années, révélée au fil du défilement.
 
-## Visez plus loin que le graphique à barres { #plus-loin }
+### Visez plus loin que le graphique à barres { #plus-loin }
 
 Un graphique à barres ou en pointe de tarte, c'est la forme **par défaut** : il informe, mais il ne raconte rien, et il ressemble à tous les rapports. Dans un récit défilant, la donnée doit **prendre la forme de votre histoire**.
 
@@ -71,7 +73,7 @@ Ouvrez-les sur un ordinateur, défilez lentement, et repérez les 5 ingrédients
 
 On descend au fond de l'océan en défilant, avec la profondeur affichée en continu. **Le défilement lui-même devient la donnée.** À observer : à quel moment apparaissent les repères qui nous font réaliser la profondeur.
 
-[:octicons-arrow-right-24: neal.fun/deep-sea](https://neal.fun/deep-sea/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: neal.fun/deep-sea](https://neal.fun/deep-sea/){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -81,7 +83,7 @@ On descend au fond de l'océan en défilant, avec la profondeur affichée en con
 
 La fortune des milliardaires, à l'échelle : un pixel vaut 1 000 dollars, et on défile, longtemps. À observer : comment une **comparaison** rend un chiffre impossible à imaginer enfin concret.
 
-[:octicons-arrow-right-24: eattherichtextformat.github.io](https://eattherichtextformat.github.io/1-pixel-wealth/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: eattherichtextformat.github.io](https://eattherichtextformat.github.io/1-pixel-wealth/){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -91,7 +93,7 @@ La fortune des milliardaires, à l'échelle : un pixel vaut 1 000 dollars, et on
 
 Un classique primé : des centaines de points qui se déplacent et se trient au fil du défilement. À observer : **les mêmes données** changent de forme à chaque étape de l'explication.
 
-[:octicons-arrow-right-24: narrative-flow.github.io](https://narrative-flow.github.io/exploratory-study-2/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: narrative-flow.github.io](https://narrative-flow.github.io/exploratory-study-2/){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -101,7 +103,7 @@ Un classique primé : des centaines de points qui se déplacent et se trient au 
 
 Des rappeurs classés selon le nombre de mots différents dans leurs textes. À observer : un graphique qui **se construit étape par étape**, avec une phrase pour chaque étape.
 
-[:octicons-arrow-right-24: pudding.cool](https://pudding.cool/projects/vocabulary/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: pudding.cool](https://pudding.cool/projects/vocabulary/){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -111,7 +113,7 @@ Des rappeurs classés selon le nombre de mots différents dans leurs textes. À 
 
 Un documentaire interactif sur les victimes de la Seconde Guerre mondiale, où les données sont racontées comme un film. À observer : **une unité par personne**, et l'effet des chiffres qui s'empilent.
 
-[:octicons-arrow-right-24: fallen.io](https://www.fallen.io/ww2/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: fallen.io](https://www.fallen.io/ww2/){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -121,14 +123,14 @@ Un documentaire interactif sur les victimes de la Seconde Guerre mondiale, où l
 
 Des milliers de graphiques sur la santé, l'environnement, la société. **Une mine d'idées et de données** pour votre thème. À observer : le titre de chaque graphique est une phrase qui dit ce qu'il montre.
 
-[:octicons-arrow-right-24: ourworldindata.org](https://ourworldindata.org/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: ourworldindata.org](https://ourworldindata.org/){ .stretched-link target="_blank" }
 </div>
 
 </div>
 
 Vous trouverez d'autres exemples, dont The Pudding et Pixel Space, dans la page [exemples et inspirations](inspirations.md).
 
-## La démo : la Terre bouge { #demo }
+### La démo : la Terre bouge { #demo }
 
 Une petite démo avec **deux moments dataviz** et des données réelles, chargées au moment où on les atteint :
 
@@ -137,19 +139,25 @@ Une petite démo avec **deux moments dataviz** et des données réelles, chargé
 
 Le code est commenté dans `js/dataviz.js`. Il suit toujours les mêmes 4 étapes : **attendre** que le moment approche (`IntersectionObserver`), **charger** les données (`fetch`), **construire** la forme, puis **révéler** avec une classe CSS.
 
-[:material-chart-bar: Voir la démo](demo-dataviz/index.html){ .md-button .md-button--primary :target="_blank" }
+Faites défiler la démo ci-dessous :
 
-### Des pistes pour choisir votre API { #pistes }
+<iframe src="demo-dataviz/index.html" style="width:100%;height:600px;border:1px solid var(--md-default-fg-color--lightest);border-radius:0.4rem" loading="lazy" title="La démo La Terre bouge"></iframe>
+
+[:material-open-in-new: Ouvrir la démo dans un nouvel onglet](demo-dataviz/index.html){ .md-button .md-button--primary target="_blank" }
+
+## Des pistes pour choisir votre API { #pistes }
+
+
 
 Voici plusieurs pistes à explorer pour trouver l'API de votre moment dataviz :
 
-- [**Public APIs**](https://github.com/public-apis/public-apis#index){ :target="_blank" } : une grande liste d'API gratuites, classées par thème. 
+- [**Public APIs**](https://github.com/public-apis/public-apis#index){ target="_blank" } : une grande liste d'API gratuites, classées par thème. 
   - Visez les colonnes 
     - **Auth : `No`** (sans clé d'identification : ni `apiKey`, ni `OAuth`)
     - **Cross-Origin Resource Sharing (CORS) : `Yes`** (utilisable depuis le navigateur; `Unknown` est permis, mais testez avant de choisir). 
   - La liste des catégories des Publics API : [les liens directs par catégorie]([#api-categories](https://github.com/public-apis/public-apis#animals).
-- [**Données Québec**](https://www.donneesquebec.ca/){ :target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ :target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
-- **Quelques API sans clé**, prêtes à tester : [Open-Meteo](https://open-meteo.com/){ :target="_blank" } (météo, climat), [Nager.Date](https://date.nager.at/){ :target="_blank" } (jours fériés), [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ :target="_blank" } (œuvres d'art, avec images), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ :target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ :target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ :target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ :target="_blank" } (lever et coucher du soleil).
+- [**Données Québec**](https://www.donneesquebec.ca/){ target="_blank" } et les [**données ouvertes de Montréal**](https://donnees.montreal.ca/){ target="_blank" } : des données d'ici, en français. Plusieurs jeux de données sont des fichiers à télécharger plutôt qu'une API : on en reparlera au cours.
+- **Quelques API sans clé**, prêtes à tester : [Open-Meteo](https://open-meteo.com/){ target="_blank" } (météo, climat), [Nager.Date](https://date.nager.at/){ target="_blank" } (jours fériés), [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ target="_blank" } (œuvres d'art, avec images), [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php){ target="_blank" } (séismes en temps réel), [PokéAPI](https://pokeapi.co/){ target="_blank" }, [Open Library](https://openlibrary.org/developers/api){ target="_blank" } (livres), [Sunrise-Sunset](https://sunrise-sunset.org/api){ target="_blank" } (lever et coucher du soleil).
 
 <a id="pas-d-idee"></a>
 
@@ -157,7 +165,7 @@ Voici plusieurs pistes à explorer pour trouver l'API de votre moment dataviz :
     Votre donnée n'a pas besoin de porter sur le **sujet** de votre récit. Elle peut porter sur son **contexte** :
 
     - **le lieu** : la météo, le lever du soleil, les jours fériés du pays où se passe l'histoire (Open-Meteo, Sunrise-Sunset, Nager.Date);
-    - **le moment** : la météo à une date précise, même dans le passé ([l'archive d'Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api){ :target="_blank" });
+    - **le moment** : la météo à une date précise, même dans le passé ([l'archive d'Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api){ target="_blank" });
     - **le contraste entre la réalité et la fiction** : « Dans l'histoire, il neige depuis 40 jours. À Montréal, l'hiver dernier : X jours. »
 
     **En dernier recours**, les statistiques de Wikipédia marchent pour presque tous les sujets : combien de personnes ont lu la page « Loup », mois par mois. Remplacez `Loup` par votre sujet, tel qu'il est écrit dans l'adresse de sa page Wikipédia :
@@ -191,26 +199,26 @@ Une bonne API pour votre récit coche ces 4 cases :
 
     C'est pourquoi une API peut très bien s'afficher dans la barre d'adresse, et échouer dans votre page : la barre d'adresse n'est pas « un autre site » qui demande.
 
-Des pistes : la liste [Public APIs](https://github.com/public-apis/public-apis#index){ :target="_blank" }, et les API sans clé de la section [Des pistes pour choisir votre API](#pistes).
+Des pistes : la liste [Public APIs](https://github.com/public-apis/public-apis#index){ target="_blank" }, et les API sans clé de la section [Des pistes pour choisir votre API](#pistes).
 
 #### Public APIs, par catégorie { #api-categories }
 
-La liste [Public APIs](https://github.com/public-apis/public-apis#index){ :target="_blank" } est classée par thème, mais l'index des catégories est loin dans la page. Allez-y directement :
+La liste [Public APIs](https://github.com/public-apis/public-apis#index){ target="_blank" } est classée par thème, mais l'index des catégories est loin dans la page. Allez-y directement :
 
-- [Animaux](https://github.com/public-apis/public-apis#animals){ :target="_blank" }
-- [Art et design](https://github.com/public-apis/public-apis#art--design){ :target="_blank" }
-- [Livres](https://github.com/public-apis/public-apis#books){ :target="_blank" }
-- [Environnement](https://github.com/public-apis/public-apis#environment){ :target="_blank" }
-- [Nourriture](https://github.com/public-apis/public-apis#food--drink){ :target="_blank" }
-- [Jeux et BD](https://github.com/public-apis/public-apis#games--comics){ :target="_blank" }
-- [Géolocalisation](https://github.com/public-apis/public-apis#geocoding){ :target="_blank" }
-- [Santé](https://github.com/public-apis/public-apis#health){ :target="_blank" }
-- [Musique](https://github.com/public-apis/public-apis#music){ :target="_blank" }
-- [Données ouvertes](https://github.com/public-apis/public-apis#open-data){ :target="_blank" }
-- [Sciences et maths](https://github.com/public-apis/public-apis#science--math){ :target="_blank" }
-- [Sports](https://github.com/public-apis/public-apis#sports--fitness){ :target="_blank" }
-- [Transport](https://github.com/public-apis/public-apis#transportation){ :target="_blank" }
-- [Météo](https://github.com/public-apis/public-apis#weather){ :target="_blank" }
+- [Animaux](https://github.com/public-apis/public-apis#animals){ target="_blank" }
+- [Art et design](https://github.com/public-apis/public-apis#art--design){ target="_blank" }
+- [Livres](https://github.com/public-apis/public-apis#books){ target="_blank" }
+- [Environnement](https://github.com/public-apis/public-apis#environment){ target="_blank" }
+- [Nourriture](https://github.com/public-apis/public-apis#food--drink){ target="_blank" }
+- [Jeux et BD](https://github.com/public-apis/public-apis#games--comics){ target="_blank" }
+- [Géolocalisation](https://github.com/public-apis/public-apis#geocoding){ target="_blank" }
+- [Santé](https://github.com/public-apis/public-apis#health){ target="_blank" }
+- [Musique](https://github.com/public-apis/public-apis#music){ target="_blank" }
+- [Données ouvertes](https://github.com/public-apis/public-apis#open-data){ target="_blank" }
+- [Sciences et maths](https://github.com/public-apis/public-apis#science--math){ target="_blank" }
+- [Sports](https://github.com/public-apis/public-apis#sports--fitness){ target="_blank" }
+- [Transport](https://github.com/public-apis/public-apis#transportation){ target="_blank" }
+- [Météo](https://github.com/public-apis/public-apis#weather){ target="_blank" }
 
 Dans chaque catégorie, un tableau : regardez les colonnes **Auth** (`No`) et **Cross-Origin Resource Sharing (CORS)** (`Yes`, ou `Unknown` à tester).
 
@@ -221,7 +229,7 @@ Dans chaque catégorie, un tableau : regardez les colonnes **Auth** (`No`) et **
 
 Avant d'écrire une ligne de code, **collez l'adresse dans la barre d'adresse** du navigateur. Firefox affiche le JSON joliment, avec des triangles pour plier et déplier. Dans Chrome, cochez *Impression élégante*.
 
-Par exemple, la température maximale des 7 prochains jours à Montréal : [l'adresse Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=auto){ :target="_blank" }.
+Par exemple, la température maximale des 7 prochains jours à Montréal : [l'adresse Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=auto){ target="_blank" }.
 
 #### Construire l'adresse avec la documentation { #api-doc }
 
@@ -234,7 +242,7 @@ Dans la documentation d'une API, cherchez 4 choses :
 
 **Open-Meteo : les paramètres après le `?`**
 
-La [documentation d'Open-Meteo](https://open-meteo.com/en/docs){ :target="_blank" } a un générateur : choisissez un lieu, cochez des variables, et l'adresse se construit sous **API URL**, juste sous le graphique de la section [API Response](https://open-meteo.com/en/docs#api_response){ :target="_blank" }.
+La [documentation d'Open-Meteo](https://open-meteo.com/en/docs){ target="_blank" } a un générateur : choisissez un lieu, cochez des variables, et l'adresse se construit sous **API URL**, juste sous le graphique de la section [API Response](https://open-meteo.com/en/docs#api_response){ target="_blank" }.
 
 | Le morceau | Son rôle |
 |---|---|
@@ -248,7 +256,7 @@ Chaque paramètre s'écrit `nom=valeur`, et `&` les sépare. Changez une valeur,
 
 **PokéAPI : le paramètre dans le chemin**
 
-Ici, pas de `?`. La [documentation de la PokéAPI](https://pokeapi.co/docs/v2){ :target="_blank" }, section Pokémon, indique `/api/v2/pokemon/{id or name}/` : on remplace `{id or name}` par le Pokémon voulu, `pikachu` ou `25`.
+Ici, pas de `?`. La [documentation de la PokéAPI](https://pokeapi.co/docs/v2){ target="_blank" }, section Pokémon, indique `/api/v2/pokemon/{id or name}/` : on remplace `{id or name}` par le Pokémon voulu, `pikachu` ou `25`.
 
 Dans une documentation, des accolades `{ }` dans une adresse veulent dire : « remplacez par votre valeur ».
 

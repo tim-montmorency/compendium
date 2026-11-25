@@ -80,7 +80,7 @@ Pour votre navigateur de chapitres, vous avez besoin de **4 notions**, pas plus.
 
 [:simple-vuedotjs: Boucle `v-for`](vue/boucle.md){ .md-button }
 
-Dans la [documentation de Vue](https://fr.vuejs.org/guide/introduction.html){ :target="_blank" }, choisissez **Options** dans le sélecteur *Préférence d'API*, en haut à gauche : c'est la façon d'écrire Vue de ce cours.
+Dans la [documentation de Vue](https://fr.vuejs.org/guide/introduction.html){ target="_blank" }, choisissez **Options** dans le sélecteur *Préférence d'API*, en haut à gauche : c'est la façon d'écrire Vue de ce cours.
 
 ## 3. :material-pencil-ruler:  Pratiquer : un exercice { #exercices }
 

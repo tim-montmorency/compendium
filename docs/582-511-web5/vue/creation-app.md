@@ -68,9 +68,9 @@ Le navigateur affiche le HTML **avant** que Vue démarre. Pendant une fraction d
 
 Quand l'app est montée (`mount()`), Vue **retire** l'attribut `v-cloak` : la zone apparaît, avec les vraies valeurs.
 
-[La directive `v-cloak`, dans la documentation de Vue](https://fr.vuejs.org/api/built-in-directives.html#v-cloak){ :target="_blank" }
+[La directive `v-cloak`, dans la documentation de Vue](https://fr.vuejs.org/api/built-in-directives.html#v-cloak){ target="_blank" }
 
-[Plus d'info sur <code>createApp()</code>](https://fr.vuejs.org/guide/essentials/application.html#creating-an-application-instance){ .md-button :target="_blank" }
+[Plus d'info sur <code>createApp()</code>](https://fr.vuejs.org/guide/essentials/application.html#creating-an-application-instance){ .md-button target="_blank" }
 
 <small style="vertical-align: bottom">Dans le cadre de ce cours, n'oubliez pas de toujours consulter la docmentation avec l'<em>API Options</em> <img src="./assets/vuejs-options-api-petit.png" alt="Bouton à bascule pour activer Options API dans la documentation Vue.js" style="width: 130px;"></small>
 

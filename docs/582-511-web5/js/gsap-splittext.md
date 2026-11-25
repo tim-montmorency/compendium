@@ -124,6 +124,6 @@ Avec le mouvement réduit, on ne découpe rien : le titre reste tel quel.
 
 ## Références
 
-- [SplitText : la documentation](https://gsap.com/docs/v3/Plugins/SplitText/){ :target="_blank" }
-- [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ :target="_blank" }
+- [SplitText : la documentation](https://gsap.com/docs/v3/Plugins/SplitText/){ target="_blank" }
+- [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ target="_blank" }
 

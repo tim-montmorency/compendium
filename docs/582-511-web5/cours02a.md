@@ -10,7 +10,7 @@
 
 ## Compléter la procédure pour activer GitHub Copilot Pro (via votre compte GitHub Éducation)
 
-[:material-github: GitHub Education :material-robot: Copilot Pro :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
+[:material-github: GitHub Education :material-robot: Copilot Pro :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary target="_blank" }
 
 ## Extensions Visual Studio Code
 
@@ -62,7 +62,7 @@ Banques d'images libre de droit, sons, icônes, polices de caractère, palettes 
 
 Si ce n'est pas encore fait, complétez la procédure via votre compte GitHub Éducation.
 
-[:material-github: GitHub Education :material-robot: Copilot Pro :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
+[:material-github: GitHub Education :material-robot: Copilot Pro :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary target="_blank" }
 
 ### Extensions Visual Studio Code
 
@@ -162,9 +162,9 @@ grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 
     Pour une grille de cartes qui doit toujours remplir la largeur, `auto-fit` est presque toujours le bon choix.
 
-[:material-view-grid-outline: CSS Grid, intro](css/grid/intro.md){ .md-button :target="_blank" }
+[:material-view-grid-outline: CSS Grid, intro](css/grid/intro.md){ .md-button target="_blank" }
 
-[:material-table-column: Conteneur et template](css/grid/grid-template-cols-rows.md){ .md-button :target="_blank" }
+[:material-table-column: Conteneur et template](css/grid/grid-template-cols-rows.md){ .md-button target="_blank" }
 
 ### Étape 2 : Flexbox pour l'intérieur d'une carte
 
@@ -190,7 +190,7 @@ Flexbox aligne le contenu à l'intérieur d'une carte, en colonne, avec le bouto
 !!! note "Grid ou flexbox, comment choisir"
     Grid pour l'agencement en deux dimensions (lignes ET colonnes, ici : la grille de cartes). Flexbox pour l'alignement en une dimension (ici : l'empilement vertical dans une carte). Les deux se combinent naturellement, chacun à son échelle.
 
-[:material-arrow-expand-horizontal: Aller plus loin : Flexbox](../582-211-web2/css/flexbox01.md){ .md-button :target="_blank" }
+[:material-arrow-expand-horizontal: Aller plus loin : Flexbox](../582-211-web2/css/flexbox01.md){ .md-button target="_blank" }
 
 ### Étape 3 : Variables CSS
 
@@ -217,7 +217,7 @@ On sort les valeurs répétées (couleurs, espacements) en variables, définies 
 !!! tip
     Utile pour maintenir la cohérence visuelle sur tout un site, et pratique quand vous changez d'avis sur une couleur : un seul endroit à modifier.
 
-[:material-format-color-fill: Aller plus loin : variables, unités, fonctions](../582-211-web2/css/variables-unites-fonctions.md){ .md-button :target="_blank" }
+[:material-format-color-fill: Aller plus loin : variables, unités, fonctions](../582-211-web2/css/variables-unites-fonctions.md){ .md-button target="_blank" }
 
 ### Étape 4 : Responsive, mobile-first
 
@@ -235,7 +235,7 @@ On écrit les styles de base pour mobile, puis on ajuste pour les écrans plus l
 }
 ```
 
-[:material-cellphone-link: Aller plus loin : media queries et breakpoints](../582-211-web2/css/mediaqueries-breakpoints.md){ .md-button :target="_blank" }
+[:material-cellphone-link: Aller plus loin : media queries et breakpoints](../582-211-web2/css/mediaqueries-breakpoints.md){ .md-button target="_blank" }
 
 ## Nouveau workflow UI/UX : Figma + IA générative 🤖🎨
 
@@ -246,7 +246,7 @@ Le design ne part plus d'une page blanche. L'IA de Figma sert à explorer rapide
 
 ### Apprendre à utiliser **Figma First Draft** pour générer des directions visuelles
 
-[:material-figma: Figma First Draft](https://help.figma.com/hc/en-us/articles/1500000828232-Use-First-Draft-to-generate-designs-with-AI){ .md-button :target="_blank" }
+[:material-figma: Figma First Draft](https://help.figma.com/hc/en-us/articles/1500000828232-Use-First-Draft-to-generate-designs-with-AI){ .md-button target="_blank" }
 
 
 ### La boucle diverger / converger

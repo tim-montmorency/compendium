@@ -120,7 +120,7 @@ Techniquement, c'est une animation au défilement de plus : `view-timeline-name`
 
 !!! danger "Rappel : créditez vos médias dans le README.md"
 
-    - **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ :target="_blank" }, [Pexels](https://www.pexels.com/){ :target="_blank" }), selon leur licence.
+    - **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ target="_blank" }, [Pexels](https://www.pexels.com/){ target="_blank" }), selon leur licence.
     - **Images générées par IA permises**, si elles sont créditées dans le `README.md`, avec l'outil comme source.
     - **Tous les médias sont crédités** dans le `README.md`, dans un tableau : média, chapitre, source, auteur, licence, modifié ou non.
 

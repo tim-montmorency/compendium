@@ -6,7 +6,7 @@
 ## Annonces
 
 !!! warning "Dès votre arrivée : votre identifiant GitHub pour Classroom 50"
-    Une seule question, 30 secondes : [Inscription à ma classe GitHub Classroom 50 – Remplir le formulaire](https://forms.cloud.microsoft/r/Fa0X0aXWm8){ :target="_blank" }
+    Une seule question, 30 secondes : [Inscription à ma classe GitHub Classroom 50 – Remplir le formulaire](https://forms.cloud.microsoft/r/Fa0X0aXWm8){ target="_blank" }
 
     Écrivez votre identifiant **exactement** comme sur GitHub. Ensuite, surveillez vos courriels : vous recevrez une **invitation à l'organisation GitHub du cours**. Acceptez-la avant l'exercice de la section 3, sinon vous ne pourrez pas y accéder.
 

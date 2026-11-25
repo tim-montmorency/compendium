@@ -16,7 +16,7 @@
 
 ## Obtenir votre dépôt *5 min*
 
-**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-gsap-zombi/accept?k=rthn1z36){ :target="_blank" }**
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-gsap-zombi/accept?k=rthn1z36){ target="_blank" }**
 
 1. Ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis acceptez l'exercice.
 2. **Clonez** votre dépôt et ouvrez-le dans VS Code.
@@ -52,7 +52,7 @@ Tout votre code va dans `js/script.js`. Ouvrez aussi `index.html` et repérez l'
 
 ### Le lissage
 
-- [ ] Ouvrez le [visualiseur d'*eases* de GSAP](https://gsap.com/docs/v3/Eases){ :target="_blank" } et essayez des lissages pour arriver au résultat de la vidéo. Ne regardez pas la réponse tout de suite!
+- [ ] Ouvrez le [visualiseur d'*eases* de GSAP](https://gsap.com/docs/v3/Eases){ target="_blank" } et essayez des lissages pour arriver au résultat de la vidéo. Ne regardez pas la réponse tout de suite!
 
 ??? success "Réponse"
     `ease: "elastic.out(1, 0.3)"`

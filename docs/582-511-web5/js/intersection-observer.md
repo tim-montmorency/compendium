@@ -94,4 +94,4 @@ export function animate(section, chapter) {
 
 ## Références
 
-- [IntersectionObserver (MDN)](https://developer.mozilla.org/fr/docs/Web/API/Intersection_Observer_API){ :target="_blank" }
+- [IntersectionObserver (MDN)](https://developer.mozilla.org/fr/docs/Web/API/Intersection_Observer_API){ target="_blank" }

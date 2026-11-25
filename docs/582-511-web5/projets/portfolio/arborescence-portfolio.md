@@ -97,4 +97,4 @@ Un fichier CSS ou JS par composant, ça veut dire qu'un incrément de votre bouc
 
 Un bloc de code HTML/CSS/JS qui représente un élément de l'interface (ex. un bouton, un formulaire, une carte d'un projet). Chaque bloc est commenté et séparé des autres pour faciliter la lecture et la maintenance.
 
-[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button :target="_blank" }
+[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button target="_blank" }

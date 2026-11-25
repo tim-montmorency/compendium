@@ -73,7 +73,7 @@ Web 5 est le cours **intégrateur** de votre 5e session : il rassemble ce que vo
 
 L'IA (Copilot, Figma) est disponible tout au long de la session. Elle change votre vitesse de travail, pas votre responsabilité : vous devez être capable d'expliquer et de défendre tout ce que vous livrez.
 
-[:material-file-powerpoint-box: Diapositives : Le travail assisté par IA](assets/documents/Web5_travail-assiste-IA.pptx){ .md-button .md-button--primary :target="_blank" }
+[:material-file-powerpoint-box: Diapositives : Le travail assisté par IA](assets/documents/Web5_travail-assiste-IA.pptx){ .md-button .md-button--primary target="_blank" }
 
 La compétence clé se déplace : la question n'est plus « comment mémoriser la syntaxe », c'est « comment décrire clairement ce que je veux, puis reconnaître si la réponse est bonne ».
 
@@ -150,13 +150,13 @@ Le code final livré est toujours écrit et compris par vous, Copilot est un sou
 
 ### Procédure pour activer GitHub Education + GitHub Copilot Pro + VS Code
 
-[:material-github: GitHub Education :material-robot: GitHub Copilot :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary :target="_blank" }
+[:material-github: GitHub Education :material-robot: GitHub Copilot :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button .md-button--primary target="_blank" }
 
 ### Procédure pour activer Figma Éducation
 
 <!-- NOUVEAU : sujet séparé à traiter ensemble, même traitement pas-à-pas que le guide GitHub -->
 
-[:simple-figma: Figma Éducation](ia/Guide_Figma_Education.md){ .md-button .md-button--primary :target="_blank" }
+[:simple-figma: Figma Éducation](ia/Guide_Figma_Education.md){ .md-button .md-button--primary target="_blank" }
 
 ## Devoirs
 

@@ -16,7 +16,7 @@
 !!! danger "Rattrapage : si vous n'avez pas eu le cours 4.2"
     Le cours 4.2 (panne d'électricité) n'a pas eu lieu pour votre groupe. Deux choses à rattraper par vous-même avant ou pendant l'atelier d'aujourd'hui :
 
-    [:material-view-grid: Interface responsive adaptable à la largeur de l'écran](cours04b.md#interface-responsive-adaptable-a-la-largeur-de-lecran){ .md-button :target="_blank" }
+    [:material-view-grid: Interface responsive adaptable à la largeur de l'écran](cours04b.md#interface-responsive-adaptable-a-la-largeur-de-lecran){ .md-button target="_blank" }
 
     - **Comment démarrer un composant** : choisir un composant non commencé, coller le frame Figma dans Copilot, écrire l'intention, générer le HTML par petits incréments, nommer selon BEM, générer le CSS, tester, commit.
 
@@ -50,7 +50,7 @@ Voici la suite :
 
     [:material-github: Paramétrage complet](ia/parametrage-copilot.md){ .md-button }
 
-[:material-sync: La boucle IA par composant, en un schéma](./ia/boucle-ia-par-composant.md){ .md-button .md-button--primary :target="_blank" }
+[:material-sync: La boucle IA par composant, en un schéma](./ia/boucle-ia-par-composant.md){ .md-button .md-button--primary target="_blank" }
 
 ![](./ia/assets/schema_boucle_ia_par_composant_v6.svg)
 
@@ -148,7 +148,7 @@ La prochaine étape sera de rendre vos composants interactifs de cette façon, e
 
 Chacun remplit le formulaire avant de partir (2 minutes, individuel) :
 
-[:material-clipboard-text: Bilan du cours 5.1](https://forms.cloud.microsoft/r/E0pZZbFa9X){ .md-button .md-button--primary :target="_blank" }
+[:material-clipboard-text: Bilan du cours 5.1](https://forms.cloud.microsoft/r/E0pZZbFa9X){ .md-button .md-button--primary target="_blank" }
 
 Entrée au journal de bord avant de partir.
 

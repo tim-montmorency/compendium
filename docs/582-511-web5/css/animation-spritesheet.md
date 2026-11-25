@@ -9,7 +9,7 @@
 
 </div>
 
-[:material-play-circle: Voir la démo](demo-spritesheet.html){ .md-button .md-button--primary :target="_blank" }
+[:material-play-circle: Voir la démo](demo-spritesheet.html){ .md-button .md-button--primary target="_blank" }
 
 ## Le principe : une pellicule
 
@@ -213,8 +213,8 @@ C'est l'un des trois formats de **média animable** du récit défilant : **6 à
 2. **Assemblez-les** côte à côte, sans marge :
   - dans **Figma** : un cadre de 8 × 400 = 3200 px de large, une image tous les 400 px (utilisez une grille ou l'auto layout avec un espacement de 0), puis exportez le cadre en PNG;
   - dans **Photoshop** : un document de 3200 × 400, avec un guide tous les 400 px;
-  - avec un outil en ligne comme [Responsive CSS Sprites](https://responsive-css.spritegen.com/){ :target="_blank" }, à partir de fichiers séparés.
-3. **Convertissez en WebP** ([Squoosh](https://squoosh.app/){ :target="_blank" }), et vérifiez le poids.
+  - avec un outil en ligne comme [Responsive CSS Sprites](https://responsive-css.spritegen.com/){ target="_blank" }, à partir de fichiers séparés.
+3. **Convertissez en WebP** ([Squoosh](https://squoosh.app/){ target="_blank" }), et vérifiez le poids.
 4. **Créditez** votre source dans le `README.md` (et l'outil d'IA, s'il a servi de source).
 
 !!! tip "Le test du chiffre"

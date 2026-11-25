@@ -53,7 +53,7 @@
 
 ## Les 4 choix technologiques de votre portfolio 🎯
 
-[:material-file-powerpoint-box: 4 choix technologiques de votre portfolio 🎯](assets/documents/Web5_portfolio-planification-4choix-techno.pptx){ .md-button .md-button--primary :target="_blank" }
+[:material-file-powerpoint-box: 4 choix technologiques de votre portfolio 🎯](assets/documents/Web5_portfolio-planification-4choix-techno.pptx){ .md-button .md-button--primary target="_blank" }
 
 Pour chacun des 4 éléments suivants, vous devez choisir une approche et **l'expliquer dans `PLANIFICATION.md`**. Il n'y a pas de mauvais choix, seulement des choix pas justifiés. L'objectif aujourd'hui : que vous ayez une idée claire de comment chaque option fonctionne concrètement, avant de trancher.
 
@@ -171,10 +171,10 @@ Les deux font exactement la même chose : `fetch()` retourne une promesse, `asyn
 
 Seule l'adresse dans `fetch()` change. On reverra ce mécanisme en détail au bloc 5.1, c'est votre aide-mémoire JS qui couvre déjà `fetch`/async : 
 
-- [Aide-mémoire JavaScript de JF Cartier](https://jfcmontmorency.github.io/aide-memoire/){ :target="_blank" }
-- [Promesse JavaScript](https://tim-montmorency.com/timdoc/582-424MO/javascript/promesses-js/){ :target="_blank" }
-- [Fetch API](https://tim-montmorency.com/timdoc/582-424MO/javascript/fetch-api/){ :target="_blank" }
-- [Structure du JSON et accès aux propriétés](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON#structure_du_json){ :target="_blank" }
+- [Aide-mémoire JavaScript de JF Cartier](https://jfcmontmorency.github.io/aide-memoire/){ target="_blank" }
+- [Promesse JavaScript](https://tim-montmorency.com/timdoc/582-424MO/javascript/promesses-js/){ target="_blank" }
+- [Fetch API](https://tim-montmorency.com/timdoc/582-424MO/javascript/fetch-api/){ target="_blank" }
+- [Structure du JSON et accès aux propriétés](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON#structure_du_json){ target="_blank" }
 
 ## Maintenant, à vous 📝
 

@@ -25,7 +25,7 @@ Avancez **une étape à la fois**. Le premier `undefined` vous montre où le che
 
 ## Un exemple : la PokéAPI { #exemple }
 
-Ouvrez [pokeapi.co/api/v2/pokemon/pikachu](https://pokeapi.co/api/v2/pokemon/pikachu){ :target="_blank" } dans Firefox, qui affiche le JSON avec des triangles pour plier et déplier (voir [Firefox](#firefox), plus bas). La réponse est longue! Voici quatre chemins, du plus simple au plus difficile :
+Ouvrez [pokeapi.co/api/v2/pokemon/pikachu](https://pokeapi.co/api/v2/pokemon/pikachu){ target="_blank" } dans Firefox, qui affiche le JSON avec des triangles pour plier et déplier (voir [Firefox](#firefox), plus bas). La réponse est longue! Voici quatre chemins, du plus simple au plus difficile :
 
 ```js
 data.name
@@ -142,7 +142,7 @@ Voir [Récap JS : `map()`](recap-js.md#map-join).
 
 ### Chrome : la requête de votre page { #chrome }
 
-On ouvre la page qui fait le `fetch()` (votre récit, ou [la démo Pokémon](https://tim-montmorency.com/Fragment/f/w5-json-chemin/){ :target="_blank" }), puis les outils de développement (++f12++).
+On ouvre la page qui fait le `fetch()` (votre récit, ou [la démo Pokémon](https://tim-montmorency.com/Fragment/f/w5-json-chemin/){ target="_blank" }), puis les outils de développement (++f12++).
 
 <div class="grid grid-1-2 grid-cover" markdown>
   ![Les outils de développement de Chrome, onglet Réseau : le filtre Fetch/XHR, la requête pikachu, l'onglet Aperçu, puis un clic droit sur la valeur name et la commande Copy property path. Chaque étape est numérotée de 1 à 6.](assets/chrome-reseau-chemin.webp){ data-zoom-image }

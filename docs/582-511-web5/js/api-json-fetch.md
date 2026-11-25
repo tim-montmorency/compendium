@@ -176,9 +176,9 @@ Cette page de musée est branchée sur la vraie API du Cleveland Museum of Art. 
 
 
 ??? example "Des API ouvertes, pour créer"
-    - *Les collections de musées* : le [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ :target="_blank" } (la source de la démo) et le [Met (New York)](https://metmuseum.github.io/){ :target="_blank" }, avec les images.
-    - *Les couleurs* : [The Color API](https://www.thecolorapi.com/){ :target="_blank" } donne le nom d'une couleur et ses harmonies.
-    - *Les mots* : [PoetryDB](https://poetrydb.org/){ :target="_blank" } renvoie des poèmes classiques (en anglais).
+    - *Les collections de musées* : le [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/){ target="_blank" } (la source de la démo) et le [Met (New York)](https://metmuseum.github.io/){ target="_blank" }, avec les images.
+    - *Les couleurs* : [The Color API](https://www.thecolorapi.com/){ target="_blank" } donne le nom d'une couleur et ses harmonies.
+    - *Les mots* : [PoetryDB](https://poetrydb.org/){ target="_blank" } renvoie des poèmes classiques (en anglais).
 
 ### Dans le monde professionnel { #metiers }
 
@@ -263,6 +263,6 @@ La réponse d'une vraie API est rarement petite : des objets dans des tableaux d
 
 ## Références
 
-- [Utiliser l'API Fetch (MDN)](https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch){ :target="_blank" }
-- [Travailler avec JSON (MDN)](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON){ :target="_blank" }
-- [Méthodes de requête HTTP (MDN)](https://developer.mozilla.org/fr/docs/Web/HTTP/Reference/Methods){ :target="_blank" }
+- [Utiliser l'API Fetch (MDN)](https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch){ target="_blank" }
+- [Travailler avec JSON (MDN)](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON){ target="_blank" }
+- [Méthodes de requête HTTP (MDN)](https://developer.mozilla.org/fr/docs/Web/HTTP/Reference/Methods){ target="_blank" }

@@ -25,7 +25,7 @@ Le défi de la partie A et les trois API de la partie B : vos réponses vont dan
 
 ## Partie A : Pikachu *10 min* { #partie-a }
 
-**D'où viennent les données?** De la [PokéAPI](https://pokeapi.co/){ :target="_blank" }, une API gratuite sur les Pokémon. 
+**D'où viennent les données?** De la [PokéAPI](https://pokeapi.co/){ target="_blank" }, une API gratuite sur les Pokémon. 
 
 Copiez l'adresse de la version 2 de leur API (ci-bas) dans Firefox pour voir la réponse complète, et sa structure :
 
@@ -58,9 +58,9 @@ Trois adresses, de la plus facile à la plus difficile. Pour chacune :
 
 | L'API | La valeur à trouver | L'adresse à copier dans Firefox |
 |---|---|---|
-| [Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=America%2FToronto){ :target="_blank" } | La température maximale prévue **demain** à Montréal | `https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=America%2FToronto` |
-| [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson){ :target="_blank" } | Le lieu du **premier** séisme de la liste | `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson` |
-| [Nager.Date](https://date.nager.at/api/v3/PublicHolidays/2026/CA){ :target="_blank" } | Le nom anglais du **premier** jour férié de 2026 au Canada | `https://date.nager.at/api/v3/PublicHolidays/2026/CA` |
+| [Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=America%2FToronto){ target="_blank" } | La température maximale prévue **demain** à Montréal | `https://api.open-meteo.com/v1/forecast?latitude=45.5&longitude=-73.57&daily=temperature_2m_max&timezone=America%2FToronto` |
+| [USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson){ target="_blank" } | Le lieu du **premier** séisme de la liste | `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson` |
+| [Nager.Date](https://date.nager.at/api/v3/PublicHolidays/2026/CA){ target="_blank" } | Le nom anglais du **premier** jour férié de 2026 au Canada | `https://date.nager.at/api/v3/PublicHolidays/2026/CA` |
 
 **Tester un chemin dans la console** : collez ces deux lignes, puis remplacez `data.propriete` par votre chemin. La console affiche la valeur, ou `undefined` si le chemin est faux ([dans Chrome ou Edge](../../js/json-chemin.md#console)).
 

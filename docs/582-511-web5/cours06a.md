@@ -94,7 +94,7 @@ Le CSS moderne peut faire avancer une animation avec le défilement plutôt qu'a
 
 [:material-animation-play: Animations pilotées par le défilement](css/animations-scroll.md){ .md-button .md-button--primary }
 
-[:material-play-circle: Voir la démo](css/demo-animations-scroll.html){ .md-button :target="_blank" }
+[:material-play-circle: Voir la démo](css/demo-animations-scroll.html){ .md-button target="_blank" }
 
 !!! tip "Pour la bêta : optionnel"
     Une animation au défilement n'est pas exigée pour la bêta. Priorité au contenu qui fonctionne. Si vous avez le temps, une seule animation bien choisie (vos cartes qui apparaissent, par exemple) fait déjà une belle différence.

@@ -96,6 +96,6 @@ export function animate(section, chapter) {
 
 ## Références
 
-- [ScrambleTextPlugin : la documentation](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin/){ :target="_blank" }
-- [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ :target="_blank" }
+- [ScrambleTextPlugin : la documentation](https://gsap.com/docs/v3/Plugins/ScrambleTextPlugin/){ target="_blank" }
+- [Toutes les extensions de GSAP](https://gsap.com/docs/v3/Plugins/){ target="_blank" }
 
