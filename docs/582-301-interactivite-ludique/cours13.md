@@ -1,7 +1,5 @@
 # Cours 13
 
-[STOP]
-
 ## itch.io
 
 ![](./assets/img/itchio-banner.png)
