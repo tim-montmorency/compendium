@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caméléon</title>
+  </head>
+  <body>
+    <main class="max-w-xl mx-auto p-8 grid gap-8 text-center">
+
+      <h1 class="text-4xl font-bold">🦎 Caméléon</h1>
+
+      <!-- Le thème : coché = clair, décoché = sombre -->
+      <label class="flex justify-center items-center gap-2">
+        Sombre
+        <input id="theme" type="checkbox" value="light" class="toggle theme-controller" />
+        Clair
+      </label>
+
+      <!-- Le compteur de visites -->
+      <p>Nombre de visites : <span id="visites">0</span></p>
+
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

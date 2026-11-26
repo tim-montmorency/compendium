@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L'univers - Les Terres de Warrok</title>
+  </head>
+  <body data-barba="wrapper" class="bg-base-200">
+
+    <!-- HORS du conteneur : la navbar et la musique restent d'une page à l'autre -->
+    <nav class="navbar bg-base-100 sticky top-0 z-10 gap-2">
+      <a href="./index.html" class="btn btn-ghost">Accueil</a>
+      <a href="./univers.html" class="btn btn-ghost">L'univers</a>
+      <button id="bouton-son" class="btn btn-outline ml-auto">🔇 Son coupé</button>
+      <audio id="musique" src="./audio/ambiance.mp3" loop></audio>
+    </nav>
+
+    <!-- LE conteneur : seul ce bloc est remplacé lors d'un changement de page -->
+    <main data-barba="container" data-barba-namespace="univers">
+
+      <section class="hero min-h-[80vh]">
+        <div class="hero-content text-center">
+          <div>
+            <h1 class="text-5xl font-bold">L'univers</h1>
+            <p class="py-6">Trois zones à explorer, un gardien à affronter.</p>
+            <p class="text-sm opacity-60">Activez le son, puis changez de page&nbsp;: la musique continue.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="max-w-3xl mx-auto px-8 pb-32 grid gap-8">
+        <div class="apparition card bg-base-100"><div class="card-body"><h2 class="card-title">Bloc 1</h2><p>Apparaît au défilement.</p></div></div>
+        <div class="apparition card bg-base-100"><div class="card-body"><h2 class="card-title">Bloc 2</h2><p>Apparaît au défilement.</p></div></div>
+        <div class="apparition card bg-base-100"><div class="card-body"><h2 class="card-title">Bloc 3</h2><p>Apparaît au défilement.</p></div></div>
+      </section>
+
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

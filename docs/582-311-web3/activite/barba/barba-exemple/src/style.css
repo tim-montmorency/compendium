@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Les éléments à faire apparaître au défilement partent invisibles */
+.apparition {
+  opacity: 0;
+}

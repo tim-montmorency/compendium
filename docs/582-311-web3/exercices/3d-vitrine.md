@@ -8,7 +8,7 @@ tags:
 
 L'objectif de cet exercice est de faire passer **un modèle créé dans Maya** jusqu'au navigateur, puis de le présenter dans une **vitrine interactive** avec `<model-viewer>`.
 
-C'est le pipeline complet d'un média 3D&nbsp;: export, conversion, optimisation, classement et intégration.
+C'est le pipeline complet d'un média 3D : export, conversion, optimisation, classement et intégration.
 
 <!-- ![](../assets/images/3d-vitrine.png){.w-100 data-zoom-image} -->
 
@@ -18,18 +18,18 @@ Une section *hero* DaisyUI dont le visuel principal est un modèle 3D que le vis
 
 ## Indices
 
-Le modèle part de Maya en `.fbx`, passe par Blender et en ressort en `.glb`. Avant de l'intégrer, glissez-le dans **[gltf.report](https://gltf.report/)**&nbsp;: si le poids vous surprend, regardez d'abord du côté des textures 😜
+Le modèle part de Maya en `.fbx`, passe par Blender et en ressort en `.glb`. Avant de l'intégrer, le glisser dans **[gltf.report](https://gltf.report/)** : si le poids est surprenant, regarder d'abord du côté des textures 😜
 
 ## Instructions
 
 ### Le modèle
 
-- [ ] Choisissez un modèle réalisé dans le cours de 3D (personnage, objet, accessoire, décor simple)
-- [ ] Préparez-le dans Maya&nbsp;: centré à l'origine, transformations gelées, historique supprimé
-- [ ] Exportez-le en `.fbx`, puis convertissez-le en `.glb` avec Blender
-- [ ] Optimisez-le avec `gltf-transform` (géométrie Draco, textures WebP, 1024&nbsp;px maximum)
-- [ ] Notez dans le `README.md` le poids **avant** et **après** optimisation
-- [ ] Classez le fichier dans `public/modeles/`, avec une image *poster* en WebP
+- [ ] Choisir un modèle réalisé dans le cours de 3D (personnage, objet, accessoire, décor simple)
+- [ ] Le préparer dans Maya : centré à l'origine, transformations gelées, historique supprimé
+- [ ] L'exporter en `.fbx`, puis le convertir en `.glb` avec Blender
+- [ ] L'optimiser avec `gltf-transform` (géométrie Draco, textures WebP, 1024 px maximum)
+- [ ] Noter dans le `README.md` le poids **avant** et **après** optimisation
+- [ ] Classer le fichier dans `public/modeles/`, avec une image *poster* en WebP
 
 !!! info "Pas de modèle Maya utilisable ?"
 
@@ -37,11 +37,11 @@ Le modèle part de Maya en `.fbx`, passe par Blender et en ressort en `.glb`. Av
 
 ### La vitrine
 
-- [ ] Créez un projet Vite avec Tailwind et DaisyUI, puis installez `@google/model-viewer` et `three`
-- [ ] Intégrez le modèle dans une section *hero*, avec une taille définie en Tailwind
-- [ ] Ajoutez les attributs `alt`, `camera-controls`, `poster`, `loading="lazy"` et `shadow-intensity`
-- [ ] Choisissez un angle de départ flatteur avec `camera-orbit`
-- [ ] Activez la réalité augmentée (`ar`)
+- [ ] Créer un projet Vite avec Tailwind et DaisyUI, puis installer `@google/model-viewer` et `three`
+- [ ] Intégrer le modèle dans une section *hero*, avec une taille définie en Tailwind
+- [ ] Ajouter les attributs `alt`, `camera-controls`, `poster`, `loading="lazy"` et `shadow-intensity`
+- [ ] Choisir un angle de départ flatteur avec `camera-orbit`
+- [ ] Activer la réalité augmentée (`ar`)
 
 ### Vérification
 

@@ -5,7 +5,7 @@ export default defineConfig({
   base: './',
   plugins: [tailwindcss()],
   build: {
-    rollupOptions: {
+    rolldownOptions: {
       input: {
         main: 'index.html',
         defilement: 'defilement.html',

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wartales, un RPG tactique en monde ouvert : dirigez une compagnie de mercenaires dans un royaume médiéval livré aux bandits." />
+    <title>Wartales - RPG tactique en monde ouvert</title>
+  </head>
+  <body class="bg-base-100 font-sans">
+    <header class="navbar fixed top-0 z-50 bg-base-100/85 backdrop-blur px-4">
+      <div class="navbar-start">
+        <div class="dropdown lg:hidden">
+          <div tabindex="0" role="button" class="btn btn-ghost" aria-label="Ouvrir le menu"><span class="icon-menu text-xl"></span></div>
+          <ul tabindex="-1" class="menu dropdown-content bg-base-200 rounded-box z-10 mt-3 w-52 p-2 shadow">
+              <li><a href="./index.html" class="menu-active" aria-current="page">Accueil</a></li>
+              <li><a href="./jeu.html">Le jeu</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <a href="./index.html">
+          <img src="./src/assets/images/logo-wartales.webp" alt="Wartales" width="1200" height="276" class="h-8 w-auto" />
+        </a>
+      </div>
+      <nav class="navbar-center hidden lg:flex" aria-label="Navigation principale">
+        <ul class="menu menu-horizontal px-1">
+            <li><a href="./index.html" class="menu-active" aria-current="page">Accueil</a></li>
+            <li><a href="./jeu.html">Le jeu</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="navbar-end gap-2">
+        <label class="swap swap-rotate btn btn-ghost btn-circle" aria-label="Thème clair ou sombre">
+          <input id="theme" type="checkbox" value="retro" class="theme-controller" />
+          <span class="swap-on icon-sun text-xl"></span>
+          <span class="swap-off icon-moon text-xl"></span>
+        </label>
+        <button id="bouton-son" class="btn btn-sm btn-outline btn-primary" type="button"><span class="icon-volume-x"></span> Jouer</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero : vidéo d'arrière-plan muette en boucle, avec contenu superposé -->
+      <section id="hero" class="relative grid min-h-screen place-items-center overflow-hidden">
+        <video class="absolute inset-0 h-full w-full object-cover" autoplay muted loop playsinline poster="./src/assets/images/hero-affiche.webp">
+          <source src="./src/assets/videos/hero.webm" type="video/webm" />
+        </video>
+        <div class="absolute inset-0 bg-base-100/55"></div>
+
+        <div class="relative z-10 px-6 text-center">
+          <h1>
+            <img id="hero-logo" src="./src/assets/images/logo-wartales.webp" alt="Wartales" width="1200" height="276" class="mx-auto w-80 drop-shadow-lg md:w-[40rem]" />
+          </h1>
+          <p id="hero-accroche" class="mx-auto mt-6 max-w-xl text-lg md:text-2xl">
+            Combattre, survivre et vivre pour raconter.
+          </p>
+          <div id="hero-boutons" class="mt-10 flex flex-wrap justify-center gap-4">
+            <a href="https://store.steampowered.com/app/1527950/Wartales/" class="btn btn-primary btn-lg"><span class="icon-gamepad-2"></span> Voir sur Steam</a>
+            <a href="./jeu.html" class="btn btn-outline btn-lg"><span class="icon-compass"></span> Découvrir le jeu</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Aperçu des autres pages -->
+      <section class="mx-auto max-w-6xl px-6 py-24">
+        <h2 class="apparition mb-6 text-center font-titre text-3xl md:text-5xl">Vous n'êtes pas un héros</h2>
+        <p class="apparition mx-auto mb-14 max-w-2xl text-center text-lg">
+          Un RPG tactique en monde ouvert, où une compagnie de mercenaires cherche fortune dans un royaume livré aux bandits.
+        </p>
+        <div class="grid gap-8 md:grid-cols-3">
+          <article class="apparition card bg-base-200 shadow-xl">
+            <figure><img src="./src/assets/images/capture-02.webp" alt="Paysage du monde de Wartales" width="1280" height="720" loading="lazy" /></figure>
+            <div class="card-body">
+              <h3 class="card-title font-titre">Le jeu</h3>
+              <p>Cent ans après la chute de l'Empire edoran, une compagnie de mercenaires cherche fortune sur les routes.</p>
+              <div class="card-actions justify-end"><a href="./jeu.html" class="btn btn-sm btn-primary btn-outline"><span class="icon-compass"></span> Découvrir</a></div>
+            </div>
+          </article>
+          <article class="apparition card bg-base-200 shadow-xl">
+            <figure><img src="./src/assets/images/capture-03.webp" alt="La compagnie de mercenaires au combat" width="1280" height="720" loading="lazy" /></figure>
+            <div class="card-body">
+              <h3 class="card-title font-titre">Les contrôles</h3>
+              <p>À la souris pour explorer, au clavier pour la caméra et les compétences en combat.</p>
+              <div class="card-actions justify-end"><a href="./jeu.html#controles" class="btn btn-sm btn-primary btn-outline"><span class="icon-keyboard"></span> Voir</a></div>
+            </div>
+          </article>
+          <article class="apparition card bg-base-200 shadow-xl">
+            <figure><img src="./src/assets/images/capture-04.webp" alt="Un campement de mercenaires" width="1280" height="720" loading="lazy" /></figure>
+            <div class="card-body">
+              <h3 class="card-title font-titre">Rejoindre la compagnie</h3>
+              <p>Être averti des prochaines mises à jour, ou poser une question.</p>
+              <div class="card-actions justify-end"><a href="./contact.html" class="btn btn-sm btn-primary btn-outline"><span class="icon-mail"></span> Écrire</a></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Lancement -->
+      <section id="lancement" class="bg-base-200 px-6 py-24">
+        <div class="mx-auto max-w-4xl text-center">
+          <h2 class="apparition font-titre text-3xl md:text-5xl">Lancement</h2>
+          <div class="apparition stats stats-vertical mt-12 w-full bg-base-100 shadow md:stats-horizontal">
+            <div class="stat">
+              <div class="stat-figure text-primary"><span class="icon-calendar-days text-3xl"></span></div>
+              <div class="stat-title">Date de sortie</div>
+              <div class="stat-value text-primary">12 avril 2023</div>
+              <div class="stat-desc">Version 1.0 sur PC</div>
+            </div>
+            <div class="stat">
+              <div class="stat-figure text-primary"><span class="icon-monitor text-3xl"></span></div>
+              <div class="stat-title">Plateformes</div>
+              <div class="stat-value">PC · Switch · Xbox</div>
+              <div class="stat-desc">Steam, Nintendo Switch, Xbox Series X|S et Xbox One</div>
+            </div>
+          </div>
+          <!-- Widget de la boutique Steam (l'équivalent du widget itch.io) -->
+          <iframe class="apparition mx-auto mt-12 w-full max-w-2xl" src="https://store.steampowered.com/widget/1527950/" height="190" loading="lazy" title="Wartales sur Steam"></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer footer-center grid-flow-row bg-base-200 text-base-content p-10 gap-4">
+      <nav class="grid grid-flow-col gap-4">
+        <a class="link link-hover" href="./jeu.html">Le jeu</a>
+        <a class="link link-hover" href="./jeu.html#controles">Contrôles</a>
+        <a class="link link-hover" href="./contact.html">Contact</a>
+      </nav>
+      <p class="text-sm opacity-70">
+        Projet étudiant réalisé par Prénom Nom.<br />
+        Techniques d'intégration multimédia, Collège Montmorency.<br />
+        Non affilié aux titulaires des droits.
+      </p>
+    </footer>
+
+    <audio id="musique" src="./src/assets/audio/musique-theme.mp3" loop preload="none"></audio>
+    <audio id="effet" src="./src/assets/audio/sfx-clochette.mp3"></audio>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

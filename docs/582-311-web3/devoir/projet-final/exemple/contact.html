@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Écrire à la compagnie ou être averti des prochaines mises à jour de Wartales." />
+    <title>Contact - Wartales</title>
+  </head>
+  <body class="bg-base-100 font-sans">
+    <header class="navbar fixed top-0 z-50 bg-base-100/85 backdrop-blur px-4">
+      <div class="navbar-start">
+        <div class="dropdown lg:hidden">
+          <div tabindex="0" role="button" class="btn btn-ghost" aria-label="Ouvrir le menu"><span class="icon-menu text-xl"></span></div>
+          <ul tabindex="-1" class="menu dropdown-content bg-base-200 rounded-box z-10 mt-3 w-52 p-2 shadow">
+              <li><a href="./index.html">Accueil</a></li>
+              <li><a href="./jeu.html">Le jeu</a></li>
+              <li><a href="./contact.html" class="menu-active" aria-current="page">Contact</a></li>
+          </ul>
+        </div>
+        <a href="./index.html">
+          <img src="./src/assets/images/logo-wartales.webp" alt="Wartales" width="1200" height="276" class="h-8 w-auto" />
+        </a>
+      </div>
+      <nav class="navbar-center hidden lg:flex" aria-label="Navigation principale">
+        <ul class="menu menu-horizontal px-1">
+            <li><a href="./index.html">Accueil</a></li>
+            <li><a href="./jeu.html">Le jeu</a></li>
+            <li><a href="./contact.html" class="menu-active" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="navbar-end gap-2">
+        <label class="swap swap-rotate btn btn-ghost btn-circle" aria-label="Thème clair ou sombre">
+          <input id="theme" type="checkbox" value="retro" class="theme-controller" />
+          <span class="swap-on icon-sun text-xl"></span>
+          <span class="swap-off icon-moon text-xl"></span>
+        </label>
+        <button id="bouton-son" class="btn btn-sm btn-outline btn-primary" type="button"><span class="icon-volume-x"></span> Jouer</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="grid min-h-screen place-items-center px-6 pt-32 pb-24">
+        <div class="apparition card w-full max-w-xl bg-base-200 shadow-xl">
+          <form id="formulaire-contact" class="card-body gap-4">
+            <h1 class="card-title font-titre text-3xl">Rejoindre la compagnie</h1>
+            <p>Une question, ou l'envie d'être averti des prochaines mises à jour ? Écrivez-nous.</p>
+
+            <label class="floating-label">
+              <span>Nom</span>
+              <input name="nom" type="text" class="input w-full" placeholder="Nom" required />
+            </label>
+            <label class="floating-label">
+              <span>Courriel</span>
+              <input name="courriel" type="email" class="input w-full" placeholder="Courriel" required />
+            </label>
+            <label class="floating-label">
+              <span>Sujet</span>
+              <select name="sujet" class="select w-full">
+                <option>M'avertir des prochaines mises à jour</option>
+                <option>Question sur le jeu</option>
+                <option>Presse</option>
+              </select>
+            </label>
+            <label class="floating-label">
+              <span>Message</span>
+              <textarea name="message" class="textarea w-full" rows="5" placeholder="Message" required></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary"><span class="icon-send"></span> Envoyer</button>
+
+            <div id="message-succes" role="alert" class="alert alert-success hidden">Message envoyé. Merci !</div>
+            <div id="message-erreur" role="alert" class="alert alert-error hidden">L'envoi a échoué. Réessayez dans un instant.</div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer footer-center grid-flow-row bg-base-200 text-base-content p-10 gap-4">
+      <nav class="grid grid-flow-col gap-4">
+        <a class="link link-hover" href="./jeu.html">Le jeu</a>
+        <a class="link link-hover" href="./jeu.html#controles">Contrôles</a>
+        <a class="link link-hover" href="./contact.html">Contact</a>
+      </nav>
+      <p class="text-sm opacity-70">
+        Projet étudiant réalisé par Prénom Nom.<br />
+        Techniques d'intégration multimédia, Collège Montmorency.<br />
+        Non affilié aux titulaires des droits.
+      </p>
+    </footer>
+
+    <audio id="musique" src="./src/assets/audio/musique-theme.mp3" loop preload="none"></audio>
+    <audio id="effet" src="./src/assets/audio/sfx-clochette.mp3"></audio>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

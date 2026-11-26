@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "lucide-static/font/lucide.css";
+@import "@fontsource/im-fell-english-sc";
+@import "@fontsource/alegreya-sans/400.css";
+@import "@fontsource/alegreya-sans/700.css";
+
+/* Deux thèmes DaisyUI : coffee (sombre, par défaut) et retro (clair) */
+@plugin "daisyui" {
+  themes: coffee --default, retro;
+}
+
+@theme {
+  --font-titre: "IM Fell English SC", serif;
+  --font-sans: "Alegreya Sans", sans-serif;
+}

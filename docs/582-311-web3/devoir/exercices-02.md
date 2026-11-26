@@ -7,25 +7,25 @@ tags:
 
 # Exercices 02 - Remise du bloc 2 (cours 7 à 12)
 
-Cette remise vaut **15 % de la note de session**. Comme pour le bloc 1, il n'y a rien de nouveau à produire&nbsp;: **si vous avez fait vos exercices en classe, le travail est déjà fait.**
+Cette remise vaut **15 % de la note de session**. Comme pour le bloc 1, il n'y a rien de nouveau à produire : **si vous avez fait vos exercices en classe, le travail est déjà fait.**
 
 Vous reprenez **le même dépôt** qu'au bloc 1 - `web3-exercices` - et vous y ajoutez une seconde section.
 
 !!! tip "Des points faciles"
 
-    Onze exercices, deux points chacun. Chaque exercice complété et fonctionnel vaut ses points.
+    Dix exercices, deux points chacun. Chaque exercice complété et fonctionnel vaut ses points.
 
 ## Ce qui change par rapport au bloc 1
 
-Rien dans la mécanique. Trois choses dans le contenu&nbsp;:
+Rien dans la mécanique. Trois choses dans le contenu :
 
 * Les exercices des cours 7, 11 et 12 sont des **projets locaux** - ils vivent dans des dossiers du dépôt, pas sur CodePen.
 * Les exercices GSAP des cours 8 à 10 sont des **CodePen** - donc **forkés, sauvegardés et publics**.
-* L'exercice *Momo* (cours 7) se fait dans un devoir Classroom 50&nbsp;: on y indique simplement l'adresse de son répertoire.
+* L'exercice *Momo* (cours 7) se fait dans un devoir Classroom 50 : on y indique simplement l'adresse de son répertoire.
 
 !!! danger "Les CodePen doivent être forkés"
 
-    Un pen qui n'a pas été forké **pendant que vous étiez connecté** n'a pas d'adresse&nbsp;: vous ne pourrez pas me le montrer. Si c'est votre cas, refaites l'exercice — vous le connaissez déjà, ça ira vite.
+    Un pen qui n'a pas été forké **pendant que vous étiez connecté** n'a pas d'adresse : vous ne pourrez pas me le montrer. Si c'est votre cas, refaites l'exercice — vous le connaissez déjà, ça ira vite.
 
 ## Étape 1 - Ajouter la section au README
 
@@ -43,13 +43,12 @@ Ajoutez ce tableau **sous** celui du bloc 1, dans le `README.md` de `web3-exerci
 | 11 | Scène animée réactive | 9 | CodePen | https://codepen.io/… | 🟡 |
 | 12 | Automobile turquoise | 10 | CodePen | https://codepen.io/… | ✅ |
 | 13 | Labyrinthe | 10 | CodePen | https://codepen.io/… | ❌ |
-| 14 | Salle de projection | 11 | Dossier | `14-salle-projection/` | ✅ |
-| 15 | Boîte à musique | 11 | Dossier | `15-boite-a-musique/` | ✅ |
-| 16 | Vitrine 3D | 12 | Dossier | `16-vitrine-3d/` | ✅ |
-| 17 | Atelier de personnalisation | 12 | Dossier | `17-atelier-personnalisation/` | ✅ |
+| 14 | Woof | 11 | Dossier | `14-woof/` | ✅ |
+| 15 | Caméléon | 12 | Dossier | `15-cameleon/` | ✅ |
+| 16 | Archipel | 12 | Dossier | `16-archipel/` | ✅ |
 ```
 
-La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réussi avec de l'aide, ❌ pas réussi. Elle n'est **pas notée**&nbsp;: remplissez-la honnêtement, c'est votre propre tableau de bord avant le projet final.
+La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réussi avec de l'aide, ❌ pas réussi. Elle n'est **pas notée** : remplissez-la honnêtement, c'est votre propre tableau de bord avant le projet final.
 
 - [ ] Une ligne par exercice, **dans l'ordre**
 - [ ] Chaque lien doit être **cliquable et fonctionnel**
@@ -57,14 +56,14 @@ La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réuss
 
 ## Étape 2 - Vérifier avant de remettre
 
-- [ ] Ouvrez votre dépôt en **navigation privée**&nbsp;: tout doit être visible
-- [ ] Cliquez sur **chacun** de vos liens CodePen&nbsp;: aucun ne doit tomber sur une page 404
-- [ ] Pour chaque dossier de projet, vérifiez qu'un `npm install && npm run dev` suffirait à le faire fonctionner
-- [ ] Pour *Momo*, vérifiez que les médias d'origine ont été supprimés et que `npm run build` fonctionne
+- [ ] Ouvrez votre dépôt en **navigation privée** : tout doit être visible
+- [ ] Cliquez sur **chacun** de vos liens CodePen : aucun ne doit tomber sur une page 404
+- [ ] Pour chaque dossier de projet, vérifiez qu'un `npm install` puis `npx vite` suffirait à le faire fonctionner
+- [ ] Pour *Momo*, vérifiez que les médias d'origine ont été supprimés et que `npx vite build` fonctionne
 
 !!! info "Les preuves de type capture"
 
-    Si l'un de vos exercices s'est déroulé ailleurs (plateforme externe, manipulation ponctuelle), la règle du bloc 1 s'applique toujours&nbsp;: une capture d'écran datée dans `preuves/`, et le chemin du fichier dans le tableau.
+    Si l'un de vos exercices s'est déroulé ailleurs (plateforme externe, manipulation ponctuelle), la règle du bloc 1 s'applique toujours : une capture d'écran datée dans `preuves/`, et le chemin du fichier dans le tableau.
 
 ## Barème
 
@@ -77,14 +76,13 @@ La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réuss
 | 11 | **Scène animée réactive** — ScrollTrigger et `matchMedia()` | 9 | 2 |
 | 12 | **Automobile turquoise** — boucles infinies, roues synchronisées | 10 | 2 |
 | 13 | **Labyrinthe** — MotionPath le long d'un tracé SVG | 10 | 2 |
-| 14 | **Salle de projection** — lecteur maison et effets sonores | 11 | 2 |
-| 15 | **Boîte à musique** — mélodie et effets sonores Tone.js | 11 | 2 |
-| 16 | **Vitrine 3D** — modèle Maya optimisé en `.glb`, `<model-viewer>` et réalité augmentée | 12 | 2 |
-| 17 | **Atelier de personnalisation** — configurateur de couleur et thème mémorisés avec `localStorage` | 12 | 2 |
+| 14 | **Woof** — lecteur maison et effets sonores | 11 | 2 |
+| 15 | **Caméléon** — thème et compteur de visites mémorisés avec `localStorage` | 12 | 2 |
+| 16 | **Archipel** — site Vite de trois pages, déclarées pour le *build* | 12 | 2 |
 | — | **Qualité générale** — indentation, nomenclature, arborescence, `.gitignore`, README complet | — | 2 |
-| | | **Total** | **/24** |
+| | | **Total** | **/22** |
 
-Pour chaque exercice&nbsp;:
+Pour chaque exercice :
 
 | Points | Signification |
 |:-:|---|
@@ -94,7 +92,7 @@ Pour chaque exercice&nbsp;:
 
 ## Livrable
 
-Dans le devoir **Exercices 02** sur Teams, déposez **une seule chose**&nbsp;:
+Dans le devoir **Exercices 02** sur Teams, déposez **une seule chose** :
 
 - [ ] L'**adresse de votre dépôt GitHub** — le même qu'au bloc 1
 
@@ -102,7 +100,7 @@ Dans le devoir **Exercices 02** sur Teams, déposez **une seule chose**&nbsp;:
 
     Pas de `.zip`. Juste le lien.
 
-**Date de remise&nbsp;: la veille du cours 13, à 23 h 59.**
+**Date de remise : la veille du cours 13, à 23 h 59.**
 
 Les retards sont pénalisés selon la PIÉA (art. 7.4.2).
 
