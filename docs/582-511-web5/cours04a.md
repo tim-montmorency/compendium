@@ -29,22 +29,22 @@
 
 ### Figma Make ou Stitch (ou autre) lors de la phase design
 
-[:material-file-powerpoint-box: Diapositives PPT : Code généré par Figma Make ou Google Stitch](assets/documents/Web5_codefigmamake-vs-tontravail.pptx){ .md-button .md-button--primary :target="_blank" }
+[:material-file-powerpoint-box: Diapositives PPT : Code généré par Figma Make ou Google Stitch](assets/documents/Web5_codefigmamake-vs-tontravail.pptx){ .md-button .md-button--primary target="_blank" }
 
 ## Paramétrage de GitHub Copilot
 
 Rappel (ou changement de licence) :
 
-[:material-github: GitHub Education :material-robot: GitHub Copilot :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button  :target="_b lank" }
+[:material-github: GitHub Education :material-robot: GitHub Copilot :material-microsoft-visual-studio-code: VS Code](ia/Guide_GitHub_Education_Copilot.md){ .md-button  target="_b lank" }
 
-[:material-github: Paramétrage de GitHub Copilot](ia/parametrage-copilot.md){ .md-button .md-button--primary :target="_blank" }
+[:material-github: Paramétrage de GitHub Copilot](ia/parametrage-copilot.md){ .md-button .md-button--primary target="_blank" }
 
 !!! danger "Faire approuver votre paramétrage avant de quitter"
     Une fois vos réglages faits, venez me les montrer avant de quitter le cours aujourd'hui. Je vérifie et note chaque étudiant individuellement : tant que ce n'est pas approuvé par moi, ce n'est pas considéré comme fait.
 
 ## Arborescence du dépôt git
 
-[:material-file-tree: Arborescence du dépôt : portfolio](./projets/portfolio/arborescence-portfolio.md){ .md-button .md-button--primary :target="_blank" }
+[:material-file-tree: Arborescence du dépôt : portfolio](./projets/portfolio/arborescence-portfolio.md){ .md-button .md-button--primary target="_blank" }
 
 ## Boucle IA avec Copilot : démonstration
 
@@ -67,13 +67,13 @@ En direct dans VS Code, sur un vrai composant (la carte de projet) : intention �
 
 Un bloc de code HTML/CSS/JS qui représente un élément de l'interface (ex. un bouton, un formulaire, une carte d'un projet). Chaque bloc est commenté et séparé des autres pour faciliter la lecture et la maintenance.
 
-[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button  :target="_blank" }
+[Approche par composant](https://tim-montmorency.com/compendium/582-211-web2/css/composants.html){ .md-button  target="_blank" }
 
 ## Nomenclature BEM pour vos classes CSS
 
 Une convention de nommage des classes CSS qui reflète la structure du composant (ex. `card__title` pour le titre d'une carte).
 
-[Nomenclature BEM pour vos classes CSS](https://tim-montmorency.com/compendium/582-211-web2/css/nomenclature-bem.html){ .md-button  :target="_blank" }
+[Nomenclature BEM pour vos classes CSS](https://tim-montmorency.com/compendium/582-211-web2/css/nomenclature-bem.html){ .md-button  target="_blank" }
 
 ## Devoirs
 

@@ -115,7 +115,7 @@ Le mode appareil de l'inspecteur **simule** la largeur d'un téléphone, mais pa
 | **Console** (F12) | Les erreurs JavaScript et les ressources introuvables. | Inspecteur, onglet Console |
 | **Réseau** (F12) | Les 404, le poids des fichiers, la simulation d'une connexion lente. | Inspecteur, onglet Réseau |
 | **Mode appareil** | Simuler la largeur d'un téléphone ou d'une tablette. | Inspecteur, icône téléphone/tablette (Ctrl + Maj + M) |
-| **WAVE** | Les erreurs d'accessibilité : `alt`, titres, contraste, formulaires. | [wave.webaim.org](https://wave.webaim.org/){ :target="_blank" } : collez l'adresse du site (tous les navigateurs) |
+| **WAVE** | Les erreurs d'accessibilité : `alt`, titres, contraste, formulaires. | [wave.webaim.org](https://wave.webaim.org/){ target="_blank" } : collez l'adresse du site (tous les navigateurs) |
 | **Lighthouse** | Un rapport global : performance, accessibilité, bonnes pratiques. | Inspecteur de Chrome ou d'Edge, onglet Lighthouse |
 | **Inspecteur d'accessibilité** | Contraste, clavier, libellés manquants. | Inspecteur de Firefox, onglet Accessibilité → *Vérifier les problèmes* |
 

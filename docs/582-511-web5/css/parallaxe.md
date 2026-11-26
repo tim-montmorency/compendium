@@ -23,7 +23,7 @@ Vous la vivez aussi en train ou en voiture : les poteaux au bord de la route dé
 
 ### Au cinéma d'animation
 
-Dès les années 1930, les studios Disney utilisent la [caméra multiplane (en anglais)](https://en.wikipedia.org/wiki/Multiplane_camera){ :target="_blank" }, où les décors sont peints sur des plaques de verre superposées, à des distances différentes. En déplaçant les plaques à des vitesses différentes, une image plate prend de la profondeur.
+Dès les années 1930, les studios Disney utilisent la [caméra multiplane (en anglais)](https://en.wikipedia.org/wiki/Multiplane_camera){ target="_blank" }, où les décors sont peints sur des plaques de verre superposées, à des distances différentes. En déplaçant les plaques à des vitesses différentes, une image plate prend de la profondeur.
 
 <iframe width="768" height="518" frameborder="0" loading="lazy" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; web-share" allowfullscreen src="https://commons.wikimedia.org/wiki/File:MultiplaneDemo.webm?embedplayer=true" />
   
@@ -53,7 +53,7 @@ Sur une page, il n'y a pas de caméra : c'est **le défilement** qui la remplace
 <figcaption>Au défilement, ballons et nuages bougent chacun à leur vitesse : la scène prend de la profondeur.</figcaption>
 </figure>
 
-Pour le voir en action, calque par calque, avec les vitesses en chiffres : le [Labo parallaxe](labo-parallaxe.html){ :target="_blank" }.
+Pour le voir en action, calque par calque, avec les vitesses en chiffres : le [Labo parallaxe](labo-parallaxe.html){ target="_blank" }.
 
 On rencontre surtout trois formes :
 
@@ -71,12 +71,12 @@ On rencontre surtout trois formes :
 
 ## Des exemples
 
-- [Firewatch](https://www.firewatchgame.com/){ :target="_blank" } : le site du jeu. Défilez au tout début : six calques de paysage, du ciel jusqu'aux arbres du premier plan. Un classique de la scène en calques.
-- [Paysage en parallaxe, de isladjan](https://codepen.io/isladjan/pen/abdyPBw){ :target="_blank" } (CodePen) : une scène de paysage animée au défilement, avec le code à côté.
-- [The Goonies](https://the-goonies.webflow.io/){ :target="_blank" } : un hommage au film. On plonge vers la côte, entre des plans qui défilent à des vitesses différentes.
-- [Montagnes, forêt et nuages](https://parallax-bgsprod.webflow.io/){ :target="_blank" } : un exemple simple et très propre de scène en calques. Proche de ce que vous ferez.
-- [The Boat](https://www.sbs.com.au/theboat/){ :target="_blank" } (SBS, Australie) : un roman graphique interactif, avec du son. Les dessins sont découpés en plans qui glissent à des vitesses différentes : la parallaxe au service d'un récit défilant.
-- [Une parallaxe en CSS pur, de Keith Clark](https://keithclark.co.uk/articles/pure-css-parallax-websites/demo3/){ :target="_blank" } : une démo sans JavaScript. Ouvrez les outils de développement pour voir les calques.
+- [Firewatch](https://www.firewatchgame.com/){ target="_blank" } : le site du jeu. Défilez au tout début : six calques de paysage, du ciel jusqu'aux arbres du premier plan. Un classique de la scène en calques.
+- [Paysage en parallaxe, de isladjan](https://codepen.io/isladjan/pen/abdyPBw){ target="_blank" } (CodePen) : une scène de paysage animée au défilement, avec le code à côté.
+- [The Goonies](https://the-goonies.webflow.io/){ target="_blank" } : un hommage au film. On plonge vers la côte, entre des plans qui défilent à des vitesses différentes.
+- [Montagnes, forêt et nuages](https://parallax-bgsprod.webflow.io/){ target="_blank" } : un exemple simple et très propre de scène en calques. Proche de ce que vous ferez.
+- [The Boat](https://www.sbs.com.au/theboat/){ target="_blank" } (SBS, Australie) : un roman graphique interactif, avec du son. Les dessins sont découpés en plans qui glissent à des vitesses différentes : la parallaxe au service d'un récit défilant.
+- [Une parallaxe en CSS pur, de Keith Clark](https://keithclark.co.uk/articles/pure-css-parallax-websites/demo3/){ target="_blank" } : une démo sans JavaScript. Ouvrez les outils de développement pour voir les calques.
 
 
 ## Le faire en CSS { #en-css }
@@ -159,9 +159,9 @@ Le même principe, répété : **une seule timeline** (celle de la section) et *
 
 Le labo montre une scène en quatre calques. Faites défiler, activez les **rayons X** pour voir les calques dépasser de la section, changez les amplitudes, et lisez le CSS qui se met à jour :
 
-[:material-flask-outline: Labo parallaxe : plusieurs calques en direct](labo-parallaxe.html){ .md-button .md-button--primary :target="_blank" }
+[:material-flask-outline: Labo parallaxe : plusieurs calques en direct](labo-parallaxe.html){ .md-button .md-button--primary target="_blank" }
 
-Voir aussi l'exemple 5 de la [démo des animations au défilement](demo-animations-scroll.html){ :target="_blank" }.
+Voir aussi l'exemple 5 de la [démo des animations au défilement](demo-animations-scroll.html){ target="_blank" }.
 
 !!! danger "Piège : `overflow: hidden` sur la section"
     Un parent avec `overflow: hidden` (ou `auto`, `scroll`) devient un **conteneur de défilement**. `view()` et `scroll()` suivent alors ce conteneur, qui ne défile pas, au lieu de la page : l'animation reste figée, sans message d'erreur.

@@ -31,7 +31,7 @@ Quand une étape se fait dans VS Code **ou** dans GitHub Desktop, il y a deux on
 
 Votre dépôt est créé pour vous par **Classroom 50**, avec le fichier `index.html` de départ déjà dedans.
 
-**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exercice-conflit-git/accept?k=rthn1z36){ :target="_blank" }**
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exercice-conflit-git/accept?k=rthn1z36){ target="_blank" }**
 
 1. :material-school-outline: **Avant tout** : vous devez avoir accepté l'invitation à l'organisation GitHub du cours (courriel de GitHub). Sinon, Classroom 50 affiche « Not a member yet » : venez me voir.
 2. :material-school-outline: **Personne A** : ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**. Dans **Group name**, écrivez vos deux prénoms (ex. `zoe-leo`), puis **Create group**, et acceptez l'exercice.
@@ -52,7 +52,7 @@ Votre dépôt est créé pour vous par **Classroom 50**, avec le fichier `index.
 ??? warning "Plan B : si Classroom 50 ne fonctionne pas"
     Ouvrez cet encadré seulement si je vous le demande, ou si votre duo reste bloqué. On crée le même dépôt, directement sur GitHub.
 
-    1. **Personne A** : ouvrez le [dépôt modèle](https://github.com/apprendre-avec-mariemi/gabarit-exercice-conflit-git){ :target="_blank" }, puis **Use this template** → **Create a new repository**. Créez-le dans **votre compte**, en **privé**, sous le nom `exercice-conflit-git`.
+    1. **Personne A** : ouvrez le [dépôt modèle](https://github.com/apprendre-avec-mariemi/gabarit-exercice-conflit-git){ target="_blank" }, puis **Use this template** → **Create a new repository**. Créez-le dans **votre compte**, en **privé**, sous le nom `exercice-conflit-git`.
     2. **Personne A** : dans le nouveau dépôt, **Settings** → **Collaborators** → **Add people**. Ajoutez la personne B, et `marie-michelle-ouellet` (c'est votre remise).
     3. **Personne B** : acceptez l'invitation, reçue par courriel ou dans les notifications de github.com.
     4. Chacun **clone** le dépôt sur son poste et l'ouvre dans VS Code.

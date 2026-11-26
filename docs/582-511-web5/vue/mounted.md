@@ -87,5 +87,5 @@ Dans le navigateur de chapitres, `mounted()` fait exactement la même chose que 
 
 ## Références
 
-- [Les hooks du cycle de vie (documentation de Vue)](https://fr.vuejs.org/guide/essentials/lifecycle.html){ :target="_blank" }
-- [`mounted()` dans la référence de l'API (documentation de Vue)](https://fr.vuejs.org/api/options-lifecycle.html#mounted){ :target="_blank" }
+- [Les hooks du cycle de vie (documentation de Vue)](https://fr.vuejs.org/guide/essentials/lifecycle.html){ target="_blank" }
+- [`mounted()` dans la référence de l'API (documentation de Vue)](https://fr.vuejs.org/api/options-lifecycle.html#mounted){ target="_blank" }

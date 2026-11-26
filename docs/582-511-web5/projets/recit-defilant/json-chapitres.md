@@ -73,7 +73,7 @@ Votre dépôt a déjà toute l'[arborescence](arborescence-recit-defilant.md) su
 ??? note "Sinon : l'étape 0, ensemble, sur `main`"
     1. Créez tous les fichiers de [Arborescence et code de départ](arborescence-recit-defilant.md#arborescence), **même vides**, avec tous les `@import` et les `import` déjà écrits.
     2. Dans `index.html` : un `<main id="recit">`, et `main.js` chargé comme module (`type="module"`). Vos `<section>` statiques restent là jusqu'à l'étape 4.
-    3. Dans `data/data.json` : **le squelette de tous vos chapitres**, dans l'ordre du récit. Un objet par chapitre, avec les clés communes (`id`, `numero`, `titre`, `responsable`, `texte`) et un `"contenu": {}` vide. Le format : [Les données : `data.json`](arborescence-recit-defilant.md#data-json). Vos autres idées du cahier de charges iront dans le `contenu`, au besoin.
+    3. Dans `data/data.json` : **le squelette de tous vos chapitres**, dans l'ordre du récit. Un objet par chapitre, avec les propriétés communes (`id`, `numero`, `titre`, `responsable`, `texte`) et un `"contenu": {}` vide. Le format : [Les données : `data.json`](arborescence-recit-defilant.md#data-json). Vos autres idées du cahier de charges iront dans le `contenu`, au besoin.
     4. *Commit* `Commun : ajoute la structure de départ`, puis *push*.
     5. L'autre personne fait un *pull*. Puis chacun crée sa branche et la publie ([Git en équipe](git-en-equipe.md)).
 
@@ -89,11 +89,53 @@ Votre dépôt a déjà toute l'[arborescence](arborescence-recit-defilant.md) su
 
 `main.js` est un fichier commun : on l'écrit ensemble, en équipe, sinon c'est le conflit garanti. En alternant au clavier, **les deux** écrivent du code de chargement, et les deux devront l'expliquer. Celui qui n'est pas au clavier lit, propose et repère les erreurs.
 
-## :material-account-group-outline: Partie 1 : ensemble, en équipe, en 6 étapes { #ensemble }
+## :material-account-group-outline: *Phase 2*{ .w5-phase .w5-phase-2 } Partie 1 : en équipe, en 6 étapes { #ensemble }
+
+<div class="class-content-link">
+  <img src="../../assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
+</div>
 
 C'est la même chose que l'[exercice « Du JSON à la carte »](../../exercices/ex-json-cartes/index.md) : gardez-le ouvert. **Vérifiez chaque étape** dans le navigateur avant de passer à la suivante.
 
-??? danger "Étape 4: copie de sécurité AVANT de retirer vos sections"
+Les étapes 1 à 6 se codent toutes dans **`js/main.js`**.
+
+### 1. Charger les chapitres { #ensemble-1 }
+
+- Dans `js/main.js`, codez la fonction `async loadChapters()`.
+- Elle va chercher `data/data.json` et **retourne le tableau**.
+- Appelez-la dans `init()`.
+- Au besoin : [`fetch` et `async`](../../js/recap-js.md#async), [`init()`](../../js/recap-js.md#init).
+
+*Vérification* : `console.table()` affiche une ligne par chapitre.
+
+### 2. Parcourir les chapitres { #ensemble-2 }
+
+- Dans `init()`, rangez le résultat de `loadChapters()` de l'étape précédente dans une constante `chapters`.
+- Parcourez-la avec [`forEach`](../../js/recap-js.md#foreach).
+- Pour chaque chapitre : son numéro et son titre, dans la console.
+
+*Vérification* : vos chapitres, dans l'ordre du récit.
+
+### 3. La structure HTML de base d'un chapitre (`<section>` et `<h2>`) { #ensemble-3 }
+
+- Dans `js/main.js`, codez la fonction `createChapter(chapter)`.
+- Elle retourne une `<section>`, avec l'`id` du chapitre.
+- Dans la `<section>` : un `<h2>` avec le titre du chapitre.
+- Pour tester, dans `init()` : `console.log(createChapter(chapters[0]))`.
+
+*Vérification* : le HTML du 1er chapitre, dans la console.
+
+### 4. Les chapitres dans la page { #ensemble-4 }
+
+- **D'abord, la copie de sécurité** (voir l'encadré ci-dessous).
+- Retirez vos `<section>` statiques : `<main id="recit">` est vide.
+- Ajoutez-y le HTML de **chaque** chapitre.
+- Dans `init()`, appelez `createChapter()` pour chaque chapitre avec `map()`, collez le tout avec `join("")`, puis placez-le dans `<main id="recit">` avec `innerHTML` ([Récap JS : `map()` et `join()`](../../js/recap-js.md#map-join)).
+
+*Vérification* : tous vos titres, dans l'ordre. Le texte et les médias reviennent à l'étape 5.
+
+??? danger "Copie de sécurité AVANT de retirer vos sections"
     Vos `<section>` statiques contiennent tout votre travail de la *phase 1*{ .w5-phase .w5-phase-1 } : à l'étape 5, chacun en aura besoin pour remplir son `createMedia()`. Avant de les retirer de `index.html` :
 
     1. Dans VS Code, clic droit sur `index.html`, **Copier**.
@@ -103,23 +145,26 @@ C'est la même chose que l'[exercice « Du JSON à la carte »](../../exercices/
 
     Ensuite seulement, retirez les sections. Vous irez chercher votre HTML dans `documentation/index-phase-1.html`.
 
-- [ ] **1. Charger** : coder la fonction `async loadChapters()` qui va chercher `data/data.json` et retourne le tableau. Appelée dans `init()`. Voir [`fetch` et `async`](../../js/recap-js.md#async), [`init()`](../../js/recap-js.md#init).
-  - *Vérification* : `console.table()` affiche une ligne par chapitre.
-- [ ] **2. Parcourir** : avec [`forEach`](../../js/recap-js.md#foreach), le numéro et le titre de chaque chapitre, dans la console.
-  - *Vérification* : vos chapitres, dans l'ordre du récit.
-- [ ] **3. Le HTML d'un chapitre** : coder la fonction `createChapter(chapter)` qui retourne une `<section>` : l'`id` du chapitre et un `<h2>` avec son titre.
-  - *Vérification* : le HTML du 1er chapitre, dans la console.
-- [ ] **4. Dans la page** : **d'abord, la copie de sécurité** (voir l'encadré). Puis retirez vos `<section>` statiques : `<main id="recit">` est vide. Ajoutez-y le HTML de **chaque** chapitre.
-  - *Vérification* : tous vos titres, dans l'ordre. Le texte et les médias reviennent à l'étape 5.
-- [ ] **5. Le contenu** : 2e paramètre de `createChapter` : le module du chapitre. Sous le `<h2>` : le HTML de `chapterModule.createMedia(chapter)`, qui retourne le texte **et** le média.
-  - *Vérification* : vos textes et vos médias réapparaissent.
-- [ ] **6. Les animations** : à la fin de `init()`, la fonction `animate` du module de chaque chapitre, avec sa `<section>` et ses données.
-  - *Vérification* : vos animations de la *phase 1*{ .w5-phase .w5-phase-1 } fonctionnent.
+### 5. Le contenu : texte et médias { #ensemble-5 }
 
-Le code des étapes 5 et 6 est fourni : [`main.js`, dans Arborescence et code de départ](arborescence-recit-defilant.md#main-js).
+- Ajoutez un 2e paramètre à `createChapter` : le **module** du chapitre.
+- Sous le `<h2>` : le HTML retourné par `chapterModule.createMedia(chapter)`.
+- `createMedia()` retourne le texte **et** le média du chapitre.
+- Le code est fourni : [`main.js`, dans Arborescence et code de départ](arborescence-recit-defilant.md#main-js).
 
-??? tip "Étape 5 : pourquoi le module du chapitre?"
+*Vérification* : vos textes et vos médias réapparaissent.
+
+??? tip "Pourquoi le module du chapitre?"
     Chaque chapitre est différent : un texte avant la parallaxe, un texte par plan, un titre qui s'écrit lettre par lettre. C'est donc le module du chapitre qui crée **son texte et son média**, pas `main.js`. Pour l'instant, chacun **copie tout ce qui suit le `<h2>`** de son ancienne `<section>`, dans `documentation/index-phase-1.html`, tel quel, dans le `return` de son `createMedia()`. Vous le relierez aux données à la partie 2.
+
+### 6. Les animations { #ensemble-6 }
+
+- À la fin de `init()`, appelez la fonction `animate` du module de chaque chapitre.
+- Passez-lui sa `<section>` et ses données.
+- Puis ajoutez `ScrollTrigger.refresh();` (voir l'encadré ci-dessous).
+- Le code est fourni : [`main.js`, dans Arborescence et code de départ](arborescence-recit-defilant.md#main-js).
+
+*Vérification* : vos animations de la *phase 1*{ .w5-phase .w5-phase-1 } fonctionnent.
 
 ??? warning "`ScrollTrigger.refresh()` à la fin de `init()`"
     ScrollTrigger calcule ses repères quand vous créez vos animations. Vos chapitres arrivent par `fetch()`, et la page change de hauteur après : sans recalcul, vos animations partent au mauvais endroit (activez `markers: true` pour le voir). Deux réflexes :
@@ -129,15 +174,53 @@ Le code des étapes 5 et 6 est fourni : [`main.js`, dans Arborescence et code de
 
     [Pourquoi, et comment le vérifier](../../js/gsap-scrolltrigger.md#refresh)
 
-??? top "Un chapitre n'a pas encore d'animation?" 
+??? warning "DrawSVG, MorphSVG : le SVG doit être dans la page AVANT `animate()`"
+    Ces extensions de GSAP animent les traits d'un SVG : le SVG doit être **dans le HTML** (pas dans une balise `<img>`), et déjà dans la page quand `animate()` s'exécute. Comme vos chapitres sont construits par JavaScript, il faut attendre.
+
+    Comme dans la démo du Petit Chaperon rouge :
+
+    - dans `createMedia()`, un conteneur vide qui indique le fichier : `<div class="loup" data-svg="medias/loup.svg"></div>`;
+    - dans `main.js`, une fonction qui insère chaque SVG dans son conteneur;
+    - dans `init()`, après le `innerHTML` et **avant** les `animate()` : `await injectSvg();`.
+
+    ```js
+    // js/main.js
+    // Insère chaque fichier SVG dans la page,
+    // pour que DrawSVG atteigne ses traits
+    async function injectSvg() {
+      const containers = document.querySelectorAll("[data-svg]");
+      for (const container of containers) {
+        const response = await fetch(container.dataset.svg);
+        container.innerHTML = await response.text();
+      }
+    }
+    ```
+
+    [DrawSVG](../../js/gsap-drawsvg.md)
+
+??? warning "SplitText, ScrambleText : dans `animate()`, et SplitText attend les polices"
+    Le texte est déjà dans le HTML de `createMedia()` : il est dans la page quand `animate()` s'exécute. Deux précautions :
+
+    - **appelez l'extension dans `animate()`**, jamais en haut du fichier du chapitre : ce code-là s'exécute à l'`import`, avant que le HTML existe;
+    - **SplitText découpe en lignes** selon la largeur du texte. Si la police n'est pas encore chargée, les lignes sont mal coupées. Dans `init()`, avant les `animate()` : `await document.fonts.ready;`.
+
+    [SplitText](../../js/gsap-splittext.md), [ScrambleText](../../js/gsap-scrambletext.md)
+
+??? tip "Un chapitre n'a pas encore d'animation?"
     Un `console.log("chapitre 3 prêt")` dans son `animate` suffit pour vérifier l'étape 6.
 
-- [ ] **7. Mise en commun git** :
-  - *Commit* nommé `Commun : charge les chapitres depuis data.json`
-  - *Push*
-  - L'autre personne fait un *pull*.
+### 7. Mise en commun Git { #ensemble-7 }
 
-## :material-account-outline: Partie 2 : chacun ses chapitres { #chacun-ses-chapitres }
+- *Commit* : `Commun : charge les chapitres depuis data.json`.
+- *Push*.
+- L'autre personne fait un *pull*.
+
+## :material-account-outline: *Phase 2*{ .w5-phase .w5-phase-2 } Partie 2 : chacun ses chapitres { #chacun-ses-chapitres }
+
+<div class="class-content-link">
+  <img src="../../assets/IA-interdite.png">
+  <span>L'utilisation de l'IA pour coder le projet Récit défilant est <strong>strictement interdite</strong>. Désactivez Copilot dans votre projet.</span>
+</div>
 
 Sur **votre** branche, mise à jour avec `main` ([étape 5 de Git en équipe](git-en-equipe.md#etape-5)) :
 

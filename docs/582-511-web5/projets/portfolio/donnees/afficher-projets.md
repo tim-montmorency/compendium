@@ -140,7 +140,7 @@ Les outils dont vous avez besoin :
 | `event.target.closest('.votre-bouton')` | Retrouve le bouton cliqué, même si on a cliqué sur un élément à l'intérieur. `null` si le clic était ailleurs. | [Récap : délégation d'événements](../../../js/recap-js.md#delegation) |
 | `bouton.dataset.id` | Lit l'attribut `data-id` d'un élément. | [Récap : `dataset`](../../../js/recap-js.md#dataset) |
 | `projects.find(p => p.id === ...)` | Retourne **le** projet qui a cet `id`. Aucun nouveau `fetch()`. | [Récap : `find`](../../../js/recap-js.md#map-filter-find) |
-| `modal.showModal()` / `modal.close()` | Ouvre et ferme un `<dialog>`. | [MDN : `<dialog>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/dialog){ :target="_blank" } |
+| `modal.showModal()` / `modal.close()` | Ouvre et ferme un `<dialog>`. | [MDN : `<dialog>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/dialog){ target="_blank" } |
 
 ## 5. Multipages : `project.html` et les paramètres d'URL
 

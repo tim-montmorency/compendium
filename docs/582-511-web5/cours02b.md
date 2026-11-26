@@ -12,14 +12,14 @@
 
 ## Bootcamp JS
 
-[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button :target="_blank" } 
+[🥾🏃‍♂️🪖🏋️‍♂️Bootcamp JS](./exercices/bootcamp-js.md){ .md-button target="_blank" } 
 
 ➜ [Solution💡](https://codepen.io/tim-momo/pen/YPydodm)
 
 
 ## Super Smash Bros
 
-[🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button :target="_blank" }
+[🕹️🍄🎮👾 Super Smash Bros](./exercices/super-smash-bros.md){ .md-button target="_blank" }
 
 ➜ [Solution💡](https://codepen.io/tim-momo/pen/dPYLmWZ)
 

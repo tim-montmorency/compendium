@@ -9,7 +9,7 @@
 
 </div>
 
-[:material-play-circle: Voir la démo](demo-animations-scroll.html){ .md-button .md-button--primary :target="_blank" }
+[:material-play-circle: Voir la démo](demo-animations-scroll.html){ .md-button .md-button--primary target="_blank" }
 
 Faites défiler la démo, puis ouvrez l'inspecteur : tout le CSS est dans la page, commenté exemple par exemple.
 
@@ -123,7 +123,7 @@ Les pourcentages précisent le début et la fin : `entry 0% entry 100%` = du tou
 
     La carte attend d'être **entièrement** visible, puis apparaît sur une courte distance de défilement. C'est la version utilisée dans l'exemple 2 de la démo. Essayez les deux et comparez.
 
-Pour tester différentes plages visuellement : [View Progress Timeline : Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/){ :target="_blank" }.
+Pour tester différentes plages visuellement : [View Progress Timeline : Ranges Visualizer](https://scroll-driven-animations.style/tools/view-timeline/ranges/){ target="_blank" }.
 
 ## Suivre un autre élément : `view-timeline-name` { #view-timeline-name }
 
@@ -183,7 +183,7 @@ Pour une animation fluide, animez en priorité :
 
 ### 1. `@supports` : tous les navigateurs ne suivent pas encore
 
-Chrome, Edge et Safari (version 26 et plus) supportent les animations pilotées par le défilement. Firefox est en train de les ajouter : vérifiez l'état actuel sur [Can I use](https://caniuse.com/mdn-css_properties_animation-timeline){ :target="_blank" }.
+Chrome, Edge et Safari (version 26 et plus) supportent les animations pilotées par le défilement. Firefox est en train de les ajouter : vérifiez l'état actuel sur [Can I use](https://caniuse.com/mdn-css_properties_animation-timeline){ target="_blank" }.
 
 !!! note "Tester dans Firefox"
     Dans la version courante de Firefox, la fonctionnalité existe mais est désactivée par défaut (elle est active seulement dans Firefox Nightly). Pour l'essayer sur votre poste : tapez `about:config` dans la barre d'adresse, cherchez `layout.css.scroll-driven-animations.enabled`, et mettez-la à `true`. Vos visiteurs, eux, n'auront pas ce réglage : d'où l'importance de `@supports`.
@@ -243,5 +243,5 @@ Une ou deux animations bien choisies valent mieux que tout animer. Reliez-les au
 
 ## Références
 
-- [Scroll-driven animations (MDN, en anglais)](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations){ :target="_blank" }
-- [scroll-driven-animations.style](https://scroll-driven-animations.style/){ :target="_blank" } : démos et outils visuels, par un ingénieur de l'équipe Chrome
+- [Scroll-driven animations (MDN, en anglais)](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations){ target="_blank" }
+- [scroll-driven-animations.style](https://scroll-driven-animations.style/){ target="_blank" } : démos et outils visuels, par un ingénieur de l'équipe Chrome

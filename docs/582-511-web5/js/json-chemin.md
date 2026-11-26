@@ -4,49 +4,51 @@
 <p class="essentiel__titre">L'essentiel en 3 points</p>
 
 1. Une réponse d'API, c'est des objets dans des tableaux dans des objets. Votre donnée est quelque part au fond : pour l'atteindre, on écrit son **chemin**.
-2. On avance **de l'extérieur vers l'intérieur** : `.cle` pour un objet `{ }`, `[0]` pour un tableau `[ ]`, et des crochets pour une clé avec un tiret.
+2. On avance **de l'extérieur vers l'intérieur** : `.propriete` pour un objet `{ }`, `[0]` pour un tableau `[ ]`, et des crochets pour une propriété avec un tiret.
 3. **Une étape à la fois** : le premier `undefined` vous montre où le chemin casse.
 
 </div>
 
 ## La méthode { #methode }
 
+![La réponse de la PokéAPI pour Pikachu dans Firefox : des valeurs simples (id, name, height), des tableaux entre crochets (abilities, moves) et des objets entre accolades (species, sprites).](assets/json-pikachu-firefox.webp){ data-zoom-image }
+
 À chaque niveau, regardez le **symbole** qui ouvre la valeur :
 
-| Vous voyez... | C'est... | Vous écrivez... | Exemple |
+| Donnée encadrée par... | C'est... | Vous écrivez... | Exemple |
 |---|---|---|---|
-| `{` | un **objet** | `.` et le nom de la clé | `data.sprites` |
-| `[` | un **tableau** | `[` et la position, à partir de 0 | `data.types[0]` |
-| une clé avec un tiret | un objet, mais... | des **crochets** et des guillemets | `data.sprites.other["official-artwork"]` |
+| `{ }` | un **objet** | `.` et le nom de la propriété | `data.sprites` |
+| `[ ]` | un **tableau** | `[` et la position, à partir de 0 | `data.types[0]` |
+| une propriété avec un tiret | un objet, mais... | des **crochets** et des guillemets | `data.sprites.other["official-artwork"]` |
 
 Avancez **une étape à la fois**. Le premier `undefined` vous montre où le chemin casse.
 
 ## Un exemple : la PokéAPI { #exemple }
 
-Ouvrez [pokeapi.co/api/v2/pokemon/pikachu](https://pokeapi.co/api/v2/pokemon/pikachu){ :target="_blank" } dans Firefox, qui affiche le JSON avec des triangles pour plier et déplier (voir [Firefox](#firefox), plus bas). La réponse est longue! Voici quatre chemins, du plus simple au plus difficile :
+Ouvrez [pokeapi.co/api/v2/pokemon/pikachu](https://pokeapi.co/api/v2/pokemon/pikachu){ target="_blank" } dans Firefox, qui affiche le JSON avec des triangles pour plier et déplier (voir [Firefox](#firefox), plus bas). La réponse est longue! Voici quatre chemins, du plus simple au plus difficile :
 
 ```js
 data.name
-// "pikachu" : une clé, directement dans l'objet
+// "pikachu" : une propriété, directement dans l'objet
 
 data.sprites.front_default
-// l'image : un objet (sprites), puis une clé
+// l'image : un objet (sprites), puis une propriété
 
 data.types[0].type.name
-// "electric" : un tableau (types), sa 1re case, un objet, une clé
+// "electric" : un tableau (types), sa 1re case, un objet, une propriété
 
 data.sprites.other["official-artwork"].front_default
-// la grande image : la clé a un tiret, donc des crochets
+// la grande image : la propriété a un tiret, donc des crochets
 ```
 
 !!! warning "Le piège du tiret"
-    `data.sprites.other.official-artwork` ne fonctionne pas : JavaScript lit le tiret comme une **soustraction** (`official` moins `artwork`). Dès qu'une clé contient un tiret ou une espace, on passe aux crochets : `["official-artwork"]`.
+    `data.sprites.other.official-artwork` ne fonctionne pas : JavaScript lit le tiret comme une **soustraction** (`official` moins `artwork`). Dès qu'une propriété contient un tiret ou une espace, on passe aux crochets : `["official-artwork"]`.
 
 ## À vous : tester vos chemins { #tester }
 
 La démo charge la réponse de la PokéAPI. Essayez les chemins proposés, du plus simple au plus difficile, puis les deux versions du piège du tiret.
 
-<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-json-chemin&onglets=resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:550px;border:0" loading="lazy"></iframe>
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=w5-json-chemin&onglets=resultat&modifiable=1&boutons=rejouer,ouvrir" style="width:100%;height:650px;border:0" loading="lazy"></iframe>
 
 !!! question "Défi : les points de vie (hp) de Pikachu"
     Dans le champ **Le chemin** de la démo ci-dessus, trouvez le chemin qui donne le **nombre** de points de vie de Pikachu : la démo doit afficher **35**.
@@ -68,17 +70,29 @@ La démo charge la réponse de la PokéAPI. Essayez les chemins proposés, du pl
 
     `data.stats[0].stat.name` donne `"hp"` : ça confirme qu'on est dans la bonne case, mais c'est l'étiquette, pas le nombre.
 
+Ensuite, trois vraies API :
+
+[:material-code-json: Exercice : Où se cache la donnée?](../exercices/ex-ou-se-cache/index.md){ .md-button .md-button--primary }
+
 ### Tester un chemin dans la console, avec n'importe quelle API { #console }
 
-Ouvrez l'adresse de l'API dans le navigateur, puis la console (++f12++), et collez :
+Ouvrez l'adresse de l'API dans le navigateur, puis la console (++f12++).
+
+**Dans Firefox**, la réponse est déjà prête dans `$json.data`. Collez :
+
+```js
+const data = $json.data;
+```
+
+**Dans Chrome ou Edge**, il faut la charger avec `fetch()`. Collez :
 
 ```js
 const data = await (await fetch(location.href)).json();
 ```
 
-Tapez ensuite votre chemin, par exemple `data.name`, puis ++enter++. La console affiche la valeur, ou `undefined` si le chemin est faux.
+`location.href`, c'est l'adresse de la page ouverte : le `fetch()` part de la même adresse que l'API, donc pas de problème de CORS.
 
-`location.href`, c'est l'adresse de la page ouverte. Le `fetch()` part de la même adresse que l'API : pas de problème de CORS.
+Tapez ensuite votre chemin, par exemple `data.name`, puis ++enter++. La console affiche la valeur, ou `undefined` si le chemin est faux.
 
 ## Plusieurs valeurs : `map()` { #map }
 
@@ -121,14 +135,14 @@ Voir [Récap JS : `map()`](recap-js.md#map-join).
   <ol>
     <li>Collez l'adresse de l'API dans la <strong>barre d'adresse</strong>, puis <kbd>Enter</kbd>. Par exemple : <code>https://pokeapi.co/api/v2/pokemon/pikachu</code>.</li>
     <li>Onglet <strong>JSON</strong> : la réponse, bien rangée. L'onglet <strong>Données brutes</strong> montre le texte tel qu'il arrive.</li>
-    <li><strong>Filtrer le JSON</strong> : tapez une clé (par exemple <code>official-artwork</code>) pour la trouver dans une longue réponse.</li>
-    <li>Le <strong>triangle</strong> devant une clé déplie un objet <code>{ }</code> ou un tableau <code>[ ]</code>.</li>
+    <li><strong>Filtrer le JSON</strong> : tapez une propriété (par exemple <code>official-artwork</code>) pour la trouver dans une longue réponse.</li>
+    <li>Le <strong>triangle</strong> devant une propriété déplie un objet <code>{ }</code> ou un tableau <code>[ ]</code>.</li>
   </ol>
 </div>
 
 ### Chrome : la requête de votre page { #chrome }
 
-On ouvre la page qui fait le `fetch()` (votre récit, ou [la démo Pokémon](https://tim-montmorency.com/Fragment/f/w5-json-chemin/){ :target="_blank" }), puis les outils de développement (++f12++).
+On ouvre la page qui fait le `fetch()` (votre récit, ou [la démo Pokémon](https://tim-montmorency.com/Fragment/f/w5-json-chemin/){ target="_blank" }), puis les outils de développement (++f12++).
 
 <div class="grid grid-1-2 grid-cover" markdown>
   ![Les outils de développement de Chrome, onglet Réseau : le filtre Fetch/XHR, la requête pikachu, l'onglet Aperçu, puis un clic droit sur la valeur name et la commande Copy property path. Chaque étape est numérotée de 1 à 6.](assets/chrome-reseau-chemin.webp){ data-zoom-image }

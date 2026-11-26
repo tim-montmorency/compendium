@@ -16,7 +16,7 @@
 
 ## Obtenir votre dépôt *5 min*
 
-**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-vue-tableau-nba/accept?k=rthn1z36){ :target="_blank" }**
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-vue-tableau-nba/accept?k=rthn1z36){ target="_blank" }**
 
 1. Ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis acceptez l'exercice.
 2. **Clonez** votre dépôt et ouvrez-le dans VS Code.
@@ -59,7 +59,7 @@ Deux méthodes qui font presque la même chose, c'est du code en double.
 ??? tip "Indice : les crochets"
     Le nom de la propriété est dans une variable : la notation avec un point (`this.team`) ne fonctionne pas. Utilisez les crochets : `this[team]`.
 
-    Voir [les deux façons d'accéder à une propriété (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors){ :target="_blank" }, et [une méthode avec des paramètres](../../vue/methodes-evenements.md).
+    Voir [les deux façons d'accéder à une propriété (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors){ target="_blank" }, et [une méthode avec des paramètres](../../vue/methodes-evenements.md).
 
 - [ ] *Commit* (`Partie C : une seule méthode avec un paramètre`), puis *push*.
 

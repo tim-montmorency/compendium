@@ -32,7 +32,7 @@ https://cmontmorency365-my.sharepoint.com/:p:/r/personal/mariem_ouellet_cmontmor
 
 L'IA (Copilot, Figma) est disponible tout au long de la session. Elle change votre vitesse de travail, pas votre responsabilité : vous devez être capable d'expliquer et de défendre tout ce que vous livrez.
 
-[:material-file-powerpoint-box: Diapositives : Le travail assisté par IA](./assets/documents/Web5_travail-assiste-IA.pptx){ .md-button .md-button--primary :target="_blank" }
+[:material-file-powerpoint-box: Diapositives : Le travail assisté par IA](./assets/documents/Web5_travail-assiste-IA.pptx){ .md-button .md-button--primary target="_blank" }
 
 La compétence clé se déplace : la question n'est plus « comment mémoriser la syntaxe », c'est « comment décrire clairement ce que je veux, puis reconnaître si la réponse est bonne ».
 
@@ -144,7 +144,7 @@ Avant de commencer les maquettes, prenez un moment pour définir **pour qui** vo
 
 À partir d'aujourd'hui, votre portfolio devient le fil conducteur des 7 prochaines semaines. Toutes les consignes, les dates de remise et les critères se trouvent sur la page du projet.
 
-[:material-briefcase-outline: Projet 1 : Portfolio](projets/portfolio/index.md){ .md-button .md-button--primary :target="_blank" }
+[:material-briefcase-outline: Projet 1 : Portfolio](projets/portfolio/index.md){ .md-button .md-button--primary target="_blank" }
 
 !!! note "Rappel : projet conjoint"
     Web 5 s'occupe du **contenant** (site, code, design, qualité). *Préparation au milieu du travail* s'occupe du **contenu** (CV, lettre, démo reel).

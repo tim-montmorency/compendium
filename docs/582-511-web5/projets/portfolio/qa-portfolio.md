@@ -32,7 +32,7 @@ C'est le **critère 3** de votre grille d'évaluation *Contrôle rigoureux de la
 
 ## Étape 1 : préparer votre fichier { #etape-1-preparer-votre-fichier }
 
-1. Ouvrez le dossier partagé sur OneDrive : [dossier QA du portfolio](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/01-projet-portfolio/qa-2026?d=w4a3f50b34edd4cb1a4014fafe79b1ea2&csf=1&web=1&e=HML1yB){ :target="_blank" }.
+1. Ouvrez le dossier partagé sur OneDrive : [dossier QA du portfolio](https://cmontmorency365-my.sharepoint.com/:f:/r/personal/mariem_ouellet_cmontmorency_qc_ca/Documents/01_cours/Cours%20Web%205%20-%20Projet%20Web/04_projets/01-projet-portfolio/qa-2026?d=w4a3f50b34edd4cb1a4014fafe79b1ea2&csf=1&web=1&e=HML1yB){ target="_blank" }.
 2. **Ne modifiez pas le gabarit.** Clic droit sur le gabarit → **Copier vers** → le même dossier.
 3. Renommez votre copie `qa-prenom-nom.xlsx` : **minuscules, sans accents, sans espaces**. Ex. `qa-helene-cote.xlsx`.
 4. Ouvrez votre copie (dans le navigateur, avec Excel en ligne) et remplissez l'onglet **Lisez-moi** : vos informations, l'adresse de votre site, et les 3 testeurs.

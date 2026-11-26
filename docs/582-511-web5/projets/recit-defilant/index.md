@@ -33,8 +33,8 @@ Une organisation (un musée, un organisme, un média, une marque) vous confie un
 
 C'est le format des grands récits interactifs des médias en ligne. Exemples à explorer :
 
-- [The Pudding](https://pudding.cool/){ :target="_blank" } : des essais visuels construits sur des données;
-- [Snow Fall (The New York Times, 2012)](https://www.nytimes.com/projects/2012/snow-fall/){ :target="_blank" } : un des premiers récits défilants célèbres.
+- [The Pudding](https://pudding.cool/){ target="_blank" } : des essais visuels construits sur des données;
+- [Snow Fall (The New York Times, 2012)](https://www.nytimes.com/projects/2012/snow-fall/){ target="_blank" } : un des premiers récits défilants célèbres.
 
 Ce projet réunit tout ce que vous avez appris : la conception, l'animation, les données, le contrôle de la qualité et le travail d'équipe. C'est aussi une pièce de choix pour votre portfolio.
 
@@ -112,7 +112,7 @@ On verra en classe comment préparer chacun de ces formats. D'ici là, choisisse
 
 ### Les médias et les crédits
 
-- **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ :target="_blank" }, [Pexels](https://www.pexels.com/){ :target="_blank" }), selon leur licence.
+- **Banques d'images libres permises** (ex. [Unsplash](https://unsplash.com/){ target="_blank" }, [Pexels](https://www.pexels.com/){ target="_blank" }), selon leur licence.
 - **Images générées par IA permises**, si elles sont créditées dans le `README.md`, avec l'outil comme source.
 - **Tous les médias sont crédités** dans le `README.md`, dans un tableau : média, chapitre, source, auteur, licence, modifié ou non.
 
@@ -129,7 +129,7 @@ On verra en classe comment préparer chacun de ces formats. D'ici là, choisisse
 
 ### :material-account-group-outline: Inscrire votre équipe { #inscrire-votre-equipe }
 
-Inscrivez les deux noms de votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" }. Ajoutez le thème dès que je l'ai validé.
+Inscrivez les deux noms de votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ target="_blank" }. Ajoutez le thème dès que je l'ai validé.
 
 ### :material-account-outline: Vos zones de responsabilité { #vos-zones-de-responsabilite }
 
@@ -281,8 +281,8 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 | mer. 11 nov. | Initiation à Vue.js : les principes, et deux exercices. |
 | ~~ven. 13 nov.~~ ***mer. 18 nov.*** | ***Remise 3 : [Prototype](#prototype)*** (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée.<br><br>Cours 12.1 : [les composants Vue](composant-vue.md), construits en direct. Atelier : chaque personne intègre son composant Vue dans le projet. |
 | ven. 20 nov. | Cours 12.2 : API, JSON et fetch. Le fetch externe : [choisir et tester votre API](dataviz.md#api). Atelier : l'API dans votre bac à sable, et la fin de l'intégration de votre composant Vue. |
-| ***mer. 25 nov.*** | ***Mini-jalon*** (formatif) : les composants Vue intégrés (*pull request* fusionnée), l'API testée (la donnée s'affiche dans la console). <br><br>Cours 13.1 : Atelier : la *phase 2*{ .w5-phase .w5-phase-2 }, [ensemble](json-chapitres.md#ensemble). |
-| ven. 27 nov. | Cours 13.2 : atelier, la *phase 2*{ .w5-phase .w5-phase-2 } [chacun ses chapitres](json-chapitres.md#chacun-ses-chapitres), la dataviz branchée. |
+| mer. 25 nov. | Cours 13.1 : l'exercice [Où se cache la donnée?](../../exercices/ex-ou-se-cache/index.md), le fetch externe : [choisir et tester votre API](dataviz.md#api). La *phase 2*{ .w5-phase .w5-phase-2 }, [ensemble](json-chapitres.md#ensemble). |
+| ***ven. 27 nov.*** | ***Mini-jalon*** (formatif) : les composants Vue intégrés (*pull request* fusionnée), l'API testée (la donnée s'affiche dans la console). <br><br>Cours 13.2 : atelier, la *phase 2*{ .w5-phase .w5-phase-2 } [chacun ses chapitres](json-chapitres.md#chacun-ses-chapitres), la dataviz branchée. |
 | ~~ven. 20 nov.~~ ***mer. 2 déc.*** | ***Remise 4 : Bêta*** : un récit fonctionnel, pas fini. [*Phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, chapitres chargés depuis `data.json`. Médias finaux intégrés. Les deux composants Vue en place. Dataviz branchée : les vraies données de l'API s'affichent, sans animation pour l'instant. Au minimum, les animations du prototype (une par chapitre). Prête pour la QA. |
 | mer. 2 au mer. 9 déc. | Cours 14.1 à 15.1 : Contrôle de la qualité croisé (issues GitHub) : tests et rapport (ven. 4 déc.), puis correctifs. |
 | mer. 9 déc. | Cours 15.1 : correctifs. Finition : l'animation de la dataviz, toutes vos autres animations. Déploiement final, préparation de la défense. |
@@ -381,9 +381,9 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
     - [ ] Son travail **fusionné** dans `main` par *pull request*.
     - [ ] Son **journal** `documentation/JOURNAL-prenom.md` : les [5 questions](#journal-de-bord-individuel) pour ce bloc 3, sous un titre `## Questions bloc 3` (ou `###`, selon votre structure).
 
-    Les composants Vue ne sont pas exigés au prototype : chaque personne intègre le sien pendant le même cours, en atelier, après la démo. Ils sont vérifiés au mini-jalon du mer. 25 nov.
+    Les composants Vue ne sont pas exigés au prototype : chaque personne intègre le sien pendant le même cours, en atelier, après la démo. Ils sont vérifiés au mini-jalon du ven 27 nov.
 
-### Mini-jalon *mer 25 nov, début du cours 13.1* { #mini-jalon }
+### Mini-jalon *~~mer 25 nov~~ ven 27 nov, début du cours 13.2* { #mini-jalon }
 
 ??? note "Les consignes pour Mini-jalon"
 

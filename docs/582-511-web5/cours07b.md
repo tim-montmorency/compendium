@@ -80,7 +80,7 @@ Ce qu'on construit, comment on est évalué, et le calendrier jusqu'au 11 décem
 
 - **Équipes de 2.** Choisissez quelqu'un avec qui vous pouvez travailler **à distance** pendant deux semaines : échangez vos coordonnées (Teams, téléphone) avant de partir.
 - Une compétence complémentaire aide : l'un plus à l'aise en design, l'autre en code, par exemple. Mais **chacun code ses propres chapitres**.
-- Inscrivez votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" } : les deux noms, puis le thème dès qu'il est validé.
+- Inscrivez votre équipe et votre thème dans le fichier [equipes-recit-defilant.xlsx](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ target="_blank" } : les deux noms, puis le thème dès qu'il est validé.
 
 ## :material-account-outline: S'inspirer, seul
 
@@ -101,7 +101,7 @@ On veut voir votre **processus créatif**, pas seulement l'idée finale. En équ
 
 Ne nettoyez pas le tableau après coup : les idées écartées font partie de votre processus. Cette trace est **obligatoire** pour la remise 1. [Ce qu'elle doit montrer](projets/recit-defilant/index.md#brainstorm)
 
-Validez votre thème avec moi avant de partir, puis inscrivez-le dans le [fichier des équipes](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" }.
+Validez votre thème avec moi avant de partir, puis inscrivez-le dans le [fichier des équipes](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ target="_blank" }.
 
 ## Commencer le cahier de charges
 

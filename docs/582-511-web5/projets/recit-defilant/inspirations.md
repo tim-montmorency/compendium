@@ -15,7 +15,7 @@
 
 Le terme anglais *scrollytelling* contracte *scroll* (défiler) et *storytelling* (raconter). Le principe : l'histoire avance au rythme du défilement. Le texte, les images, les sons, les vidéos et les données arrivent au moment où le lecteur les atteint.
 
-La forme vient du journalisme. L'exemple fondateur est [*Snow Fall : The Avalanche at Tunnel Creek*](https://www.nytimes.com/projects/2012/snow-fall/index.html){ :target="_blank" }, publié par le **New York Times** en 2012. Depuis, on la retrouve dans les récits illustrés, les rapports annuels, les pages de produits et les sites promotionnels.
+La forme vient du journalisme. L'exemple fondateur est [*Snow Fall : The Avalanche at Tunnel Creek*](https://www.nytimes.com/projects/2012/snow-fall/index.html){ target="_blank" }, publié par le **New York Times** en 2012. Depuis, on la retrouve dans les récits illustrés, les rapports annuels, les pages de produits et les sites promotionnels.
 
 L'effet le plus connu est la **parallaxe** : des plans qui défilent à des vitesses différentes, pour créer une impression de profondeur. Mais un bon récit défilant ne se résume pas à ses effets : **chaque animation sert l'histoire**.
 
@@ -45,7 +45,7 @@ Ouvrez l'exemple sur un ordinateur, défilez **lentement**, puis remontez. Posez
 
 Une nouvelle adaptée en roman graphique défilant : dessins à l'encre, son, texte qui bouge. **La référence du genre.** À observer : comment le texte lui-même devient une animation.
 
-[:octicons-arrow-right-24: sbs.com.au/theboat](https://www.sbs.com.au/theboat){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: sbs.com.au/theboat](https://www.sbs.com.au/theboat){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -55,7 +55,7 @@ Une nouvelle adaptée en roman graphique défilant : dessins à l'encre, son, te
 
 Une histoire illustrée, simple et touchante. **Très proche de ce que vous pouvez réaliser en 8 semaines.** À observer : le rythme, une idée par écran.
 
-[:octicons-arrow-right-24: thebearandhisscarf.com](https://thebearandhisscarf.com){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: thebearandhisscarf.com](https://thebearandhisscarf.com){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -65,7 +65,7 @@ Une histoire illustrée, simple et touchante. **Très proche de ce que vous pouv
 
 L'histoire d'une famille réfugiée sous un quai pendant un feu de forêt en Tasmanie (2013), racontée en chapitres avec photos, vidéo et son. À observer : comment le récit est découpé en chapitres, et comment chaque média ouvre une nouvelle étape.
 
-[:octicons-arrow-right-24: theguardian.com](https://www.theguardian.com/world/interactive/2013/may/26/firestorm-bushfire-dunalley-holmes-family){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: theguardian.com](https://www.theguardian.com/world/interactive/2013/may/26/firestorm-bushfire-dunalley-holmes-family){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -75,7 +75,7 @@ L'histoire d'une famille réfugiée sous un quai pendant un feu de forêt en Tas
 
 Le pionnier (New York Times, 2012). Les effets ont vieilli, mais la structure est toujours un modèle. À observer : comment chaque média arrive **au bon moment** du texte.
 
-[:octicons-arrow-right-24: nytimes.com](https://www.nytimes.com/projects/2012/snow-fall/index.html){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: nytimes.com](https://www.nytimes.com/projects/2012/snow-fall/index.html){ .stretched-link target="_blank" }
 </div>
 
 </div>
@@ -93,7 +93,7 @@ Pour votre **moment dataviz** : les données ne sont pas un tableau ajouté à l
 
 Un site entier de récits défilants construits sur des données (musique, culture, société). **Le meilleur modèle pour votre moment dataviz.** À observer : un graphique qui se construit étape par étape.
 
-[:octicons-arrow-right-24: pudding.cool](https://pudding.cool/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: pudding.cool](https://pudding.cool/){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -103,7 +103,7 @@ Un site entier de récits défilants construits sur des données (musique, cultu
 
 Le système solaire à l'échelle, où **un pixel vaut la taille de la Lune**. À observer : le défilement lui-même devient la mesure. Une idée simple, un effet énorme.
 
-[:octicons-arrow-right-24: joshworth.com](https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: joshworth.com](https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -113,7 +113,7 @@ Le système solaire à l'échelle, où **un pixel vaut la taille de la Lune**. �
 
 Un rapport de recherche transformé en récit. À observer : comment un graphique est introduit, expliqué, puis commenté.
 
-[:octicons-arrow-right-24: mo.ibrahim.foundation](https://mo.ibrahim.foundation/our-research/data-stories/covid-19-africa-challenging-road-recovery){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: mo.ibrahim.foundation](https://mo.ibrahim.foundation/our-research/data-stories/covid-19-africa-challenging-road-recovery){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -123,7 +123,7 @@ Un rapport de recherche transformé en récit. À observer : comment un graphiqu
 
 Un rapport annuel d'organisme en récit défilant. À observer : des chiffres qui deviennent des moments forts plutôt qu'un tableau.
 
-[:octicons-arrow-right-24: stories.pinecove.com](https://stories.pinecove.com/2021-recap/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: stories.pinecove.com](https://stories.pinecove.com/2021-recap/){ .stretched-link target="_blank" }
 </div>
 
 </div>
@@ -139,7 +139,7 @@ Un rapport annuel d'organisme en récit défilant. À observer : des chiffres qu
 
 Un paysage en calques qui défilent à des vitesses différentes. **Exactement le média animable « image en calques ».** À observer : combien de plans, et lequel va le plus vite.
 
-[:octicons-arrow-right-24: firewatchgame.com](https://www.firewatchgame.com/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: firewatchgame.com](https://www.firewatchgame.com/){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -149,7 +149,7 @@ Un paysage en calques qui défilent à des vitesses différentes. **Exactement l
 
 Un produit qui tourne et se démonte au défilement : une **séquence d'images** pilotée par le scroll. C'est le cousin de la spritesheet. À observer : les sections épinglées.
 
-[:octicons-arrow-right-24: apple.com](https://www.apple.com/airpods-pro/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: apple.com](https://www.apple.com/airpods-pro/){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -159,7 +159,7 @@ Un produit qui tourne et se démonte au défilement : une **séquence d'images**
 
 Un paysage animé au défilement, **avec son code ouvert**. À observer : ouvrez les onglets HTML, CSS et JS, et repérez comment les calques sont construits.
 
-[:octicons-arrow-right-24: codepen.io](https://codepen.io/isladjan/pen/abdyPBw){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: codepen.io](https://codepen.io/isladjan/pen/abdyPBw){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -169,7 +169,7 @@ Un paysage animé au défilement, **avec son code ouvert**. À observer : ouvrez
 
 Des sites primés faits avec GSAP, la librairie que vous utiliserez. À observer : choisissez un site, défilez lentement, et repérez les sections épinglées et les animations liées au défilement (ScrollTrigger).
 
-[:octicons-arrow-right-24: gsap.com/showcase](https://gsap.com/showcase/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: gsap.com/showcase](https://gsap.com/showcase/){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -179,7 +179,7 @@ Des sites primés faits avec GSAP, la librairie que vous utiliserez. À observer
 
 Un récit défilant qui explique les récits défilants. À observer : les grands types de mise en page (plein écran, texte par-dessus l'image, image épinglée).
 
-[:octicons-arrow-right-24: shorthand.com](https://shorthand.com/the-craft/an-introduction-to-scrollytelling/index.html){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: shorthand.com](https://shorthand.com/the-craft/an-introduction-to-scrollytelling/index.html){ .stretched-link target="_blank" }
 </div>
 
 <div class="card" markdown>
@@ -189,7 +189,7 @@ Un récit défilant qui explique les récits défilants. À observer : les grand
 
 Des démos des animations CSS pilotées par le défilement (`animation-timeline`, `scroll()`, `view()`), par l'équipe de Chrome. **La technique de la parallaxe en CSS, sans librairie.**
 
-[:octicons-arrow-right-24: scroll-driven-animations.style](https://scroll-driven-animations.style/){ .stretched-link :target="_blank" }
+[:octicons-arrow-right-24: scroll-driven-animations.style](https://scroll-driven-animations.style/){ .stretched-link target="_blank" }
 </div>
 
 </div>

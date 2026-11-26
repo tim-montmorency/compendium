@@ -173,7 +173,7 @@ ease: "elastic.out"   // rebondit
 ease: "none"          // vitesse constante : pour le défilement
 ```
 
-Pour les essayer : [le visualiseur d'*eases* de GSAP](https://gsap.com/docs/v3/Eases){ :target="_blank" }.
+Pour les essayer : [le visualiseur d'*eases* de GSAP](https://gsap.com/docs/v3/Eases){ target="_blank" }.
 
 ## La timeline : enchaîner { #la-timeline }
 
@@ -252,5 +252,5 @@ Des effets à explorer pour votre récit. Toutes gratuites, sur le même CDN que
 
 ## Références
 
-- [La documentation de GSAP](https://gsap.com/docs/v3/){ :target="_blank" } et son [aide-mémoire](https://gsap.com/cheatsheet){ :target="_blank" }
+- [La documentation de GSAP](https://gsap.com/docs/v3/){ target="_blank" } et son [aide-mémoire](https://gsap.com/cheatsheet){ target="_blank" }
 - Exemples `to()`, `from()`, `fromTo()` et `set()` : Fragment, cours Web 3 (582-311), TIM Montmorency.

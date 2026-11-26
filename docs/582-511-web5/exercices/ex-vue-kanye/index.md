@@ -16,7 +16,7 @@
 
 ## Obtenir votre dépôt *5 min*
 
-**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-vue-cheese-kanye-says/accept?k=rthn1z36){ :target="_blank" }**
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-vue-cheese-kanye-says/accept?k=rthn1z36){ target="_blank" }**
 
 1. Ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis acceptez l'exercice.
 2. **Clonez** votre dépôt et ouvrez-le dans VS Code.
@@ -48,7 +48,7 @@
 
 ## Partie B : la citation vient de l'API *15 min*
 
-L'API [Kanye.rest](https://kanye.rest/){ :target="_blank" } renvoie une citation au hasard à chaque requête.
+L'API [Kanye.rest](https://kanye.rest/){ target="_blank" } renvoie une citation au hasard à chaque requête.
 
 - [ ] **D'abord, testez l'adresse** dans le navigateur : collez `https://api.kanye.rest/` dans la barre d'adresse. Que contient la réponse? Quel est le **chemin** vers le texte de la citation?
 - [ ] Dans `getQuote()`, effacez le texte fixe. Faites plutôt un `fetch()` vers `https://api.kanye.rest/`, puis mettez la citation reçue dans la donnée `citation`.
@@ -107,4 +107,4 @@ Testez votre page **sans regarder le code**, sauf quand l'énoncé le demande. C
 !!! warning "Pour remettre : un *push* sur `main`"
     Votre exercice est **remis** seulement quand vos *commits* sont **poussés** (*push*) sur la branche `main` de votre dépôt Classroom 50. Un *commit* qui reste sur votre poste, je ne le vois pas.
 
-<small>Citations : [Kanye.rest](https://kanye.rest/){ :target="_blank" }.</small>
+<small>Citations : [Kanye.rest](https://kanye.rest/){ target="_blank" }.</small>

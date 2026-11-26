@@ -71,7 +71,7 @@ Scénario, résultat attendu, résultat observé, écart, gravité, correctif, v
 
 Les 4 points de la grille (sémantique, `alt`, contraste, clavier), et comment tester chacun en quelques minutes. Démo au projecteur sur une bêta volontaire.
 
-Aucune installation : on utilise [WAVE en ligne](https://wave.webaim.org/){ :target="_blank" }, en collant l'adresse du site.
+Aucune installation : on utilise [WAVE en ligne](https://wave.webaim.org/){ target="_blank" }, en collant l'adresse du site.
 
 [:material-human: L'accessibilité : les 4 points de la grille](qa/accessibilite.md){ .md-button .md-button--primary }
 

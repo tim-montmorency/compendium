@@ -9,7 +9,7 @@
 
 </div>
 
-Pour aller plus loin sur chaque notion : [aide-mémoire JS](https://jfcmontmorency.github.io/aide-memoire/){ :target="_blank" } (celui de vos sessions précédentes) et [MDN en français](https://developer.mozilla.org/fr/docs/Web/JavaScript){ :target="_blank" }.
+Pour aller plus loin sur chaque notion : [aide-mémoire JS](https://jfcmontmorency.github.io/aide-memoire/){ target="_blank" } (celui de vos sessions précédentes) et [MDN en français](https://developer.mozilla.org/fr/docs/Web/JavaScript){ target="_blank" }.
 
 <!--
 !!! info "Les noms dans le code : en anglais"
@@ -115,7 +115,7 @@ project.teammate.name;    // "Bob"
 
 Une réponse d'API, beaucoup plus profonde? La méthode et un outil pour tester vos chemins : [Trouver une donnée dans un JSON complexe](json-chemin.md).
 
-Référence : [accesseurs de propriétés (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors){ :target="_blank" }
+Référence : [accesseurs de propriétés (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Property_accessors){ target="_blank" }
 
 ## 5. Tableaux
 
@@ -221,7 +221,7 @@ projects.forEach((project) => {
 !!! note "`forEach` ou `map()` + `join()`?"
     Les deux affichent les mêmes cartes. `forEach` est souvent plus intuitif : « pour chaque projet, ajoute une carte ». `map()` + `join()` (section suivante) construit tout le HTML d'abord, puis l'insère en **une seule** fois, ce qui est un peu plus efficace. C'est la version utilisée dans les pages de gestion des données, mais pour une dizaine de projets, la différence est imperceptible. Choisissez celle que vous comprenez le mieux.
 
-Référence : [forEach (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach){ :target="_blank" }
+Référence : [forEach (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach){ target="_blank" }
 
 ## 10. Transformer, filtrer, trouver : `map`, `filter`, `find` { #map-filter-find }
 
@@ -398,7 +398,7 @@ Avec `fetch()`, `response.json()` fait le `JSON.parse()` pour vous.
 
 Une fois converti par `response.json()`, votre JSON **devient** un tableau d'objets JavaScript ordinaire : on y accède avec le point (`project.title`), on le parcourt avec `forEach` ou `map()`.
 
-Référence : [structure du JSON (MDN)](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON#structure_du_json){ :target="_blank" }
+Référence : [structure du JSON (MDN)](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/Scripting/JSON#structure_du_json){ target="_blank" }
 
 ## 15. Asynchrone : `fetch`, `async` / `await` et `.then()` { #async }
 
@@ -416,7 +416,7 @@ Référence : [structure du JSON (MDN)](https://developer.mozilla.org/fr/docs/Le
 
 C'est tout ce qu'il faut retenir pour le portfolio : on ne crée pas de promesses soi-même, on **attend** celles que retourne `fetch()`.
 
-Référence : [Promise (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise){ :target="_blank" }
+Référence : [Promise (MDN)](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise){ target="_blank" }
 
 ### Attendre la réponse : deux syntaxes
 

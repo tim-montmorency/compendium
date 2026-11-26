@@ -16,7 +16,7 @@
 
 ## Obtenir votre dépôt *5 min*
 
-**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-vue-collection-de-films/accept?k=rthn1z36){ :target="_blank" }**
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exerc-vue-collection-de-films/accept?k=rthn1z36){ target="_blank" }**
 
 1. Ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis acceptez l'exercice.
 2. **Clonez** votre dépôt et ouvrez-le dans VS Code.

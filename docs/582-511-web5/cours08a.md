@@ -89,7 +89,7 @@ Un storyboard de défilement montre **la suite des moments** que vit le visiteur
 !!! warning "Faites approuver votre thème"
     **Dès que possible pendant l'atelier**, venez me voir **en équipe** (2 minutes) pour faire approuver votre thème, verbalement.
 
-    Apportez votre idée résumée en **une phrase**, et votre brainstorm (FigJam ou photos). Une fois le thème approuvé, inscrivez-le dans le [fichier des équipes](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ :target="_blank" }.
+    Apportez votre idée résumée en **une phrase**, et votre brainstorm (FigJam ou photos). Une fois le thème approuvé, inscrivez-le dans le [fichier des équipes](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/mariem_ouellet_cmontmorency_qc_ca/IQAjsQ0uE1HKRrkQXrMKFTAMAeVW1rYQkDk6AHIYjIdyfTs?e=dNPvKA){ target="_blank" }.
 
 **À faire (25 min)** : avancez vos cadres dans Figma, à partir du gabarit.
 

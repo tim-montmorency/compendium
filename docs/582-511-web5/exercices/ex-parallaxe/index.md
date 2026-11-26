@@ -9,11 +9,11 @@
 
 </div>
 
-**Seul, environ 40 minutes.** Pour le principe et des exemples, voyez [La parallaxe](../../css/parallaxe.md). Gardez aussi la section [Le faire en CSS](../../css/parallaxe.md#en-css) ouverte à côté, et jouez avec le [Labo parallaxe](../../css/labo-parallaxe.html){ :target="_blank" } : c'est le même principe.
+**Seul, environ 40 minutes.** Pour le principe et des exemples, voyez [La parallaxe](../../css/parallaxe.md). Gardez aussi la section [Le faire en CSS](../../css/parallaxe.md#en-css) ouverte à côté, et jouez avec le [Labo parallaxe](../../css/labo-parallaxe.html){ target="_blank" } : c'est le même principe.
 
 ## Obtenir votre dépôt *5 min*
 
-**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exercice-parallaxe/accept?k=rthn1z36){ :target="_blank" }**
+**[Accepter l'exercice dans Classroom 50](https://classroom50.org/apprendre-avec-mariemi/w5/assignments/exercice-parallaxe/accept?k=rthn1z36){ target="_blank" }**
 
 1. Ouvrez le lien ci-dessus, connectez-vous avec **Sign in with GitHub**, puis acceptez l'exercice.
 2. Quand le dépôt est prêt, **clonez**-le sur votre poste et ouvrez-le dans VS Code.
@@ -93,7 +93,7 @@ Chaque animation commence à `translateY(0)` (`from`).
     La page fait `300vh` : on défile donc de `200vh` (300vh moins la hauteur de l'écran). Un calque qui descend de `100vh` pendant ce temps monte deux fois moins vite que la page. Un calque qui bouge de `5vh`, ça ne se voit presque pas.
 
 !!! info "`scroll()` ou une timeline nommée?"
-    Dans votre récit, un chapitre est **une section parmi d'autres** : ses calques suivront la visibilité de **la section**, avec une [timeline nommée](../../css/parallaxe.md#en-css) (`view-timeline-name`), comme dans le [Labo parallaxe](../../css/labo-parallaxe.html){ :target="_blank" }. Ici, la scène occupe toute la page : le défilement de la page, `scroll()`, suffit.
+    Dans votre récit, un chapitre est **une section parmi d'autres** : ses calques suivront la visibilité de **la section**, avec une [timeline nommée](../../css/parallaxe.md#en-css) (`view-timeline-name`), comme dans le [Labo parallaxe](../../css/labo-parallaxe.html){ target="_blank" }. Ici, la scène occupe toute la page : le défilement de la page, `scroll()`, suffit.
 
 ## Partie 3 : les deux règles obligatoires *5 min*
 
