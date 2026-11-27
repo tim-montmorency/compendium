@@ -227,6 +227,5 @@ Il est tant attendu ! Le voici, le voilà !
 <div class="grid grid-1-2" markdown>
   ![](./activite/k-go/prev.gif){.aspect-4-3}
 
-  <small>Exercice - Vite</small><br>
   **[K.. go !](./activite/k-go/index.md){.stretched-link .back}**
 </div>
