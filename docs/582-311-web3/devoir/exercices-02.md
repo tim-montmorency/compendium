@@ -19,9 +19,9 @@ Vous reprenez **le même dépôt** qu'au bloc 1 - `web3-exercices` - et vous y a
 
 Rien dans la mécanique. Trois choses dans le contenu :
 
-* Les exercices des cours 7, 11 et 12 sont des **projets locaux** - ils vivent dans des dossiers du dépôt, pas sur CodePen.
+* Les exercices *Momo*, *Woof* et *1984* se font dans des **devoirs Classroom 50** : on y indique simplement l'adresse de son répertoire.
 * Les exercices GSAP des cours 8 à 10 sont des **CodePen** - donc **forkés, sauvegardés et publics**.
-* L'exercice *Momo* (cours 7) se fait dans un devoir Classroom 50 : on y indique simplement l'adresse de son répertoire.
+* L'exercice *k, go* est le début du projet final, dans son propre répertoire : on y indique l'adresse du site en ligne.
 
 !!! danger "Les CodePen doivent être forkés"
 
@@ -43,22 +43,22 @@ Ajoutez ce tableau **sous** celui du bloc 1, dans le `README.md` de `web3-exerci
 | 11 | Scène animée réactive | 9 | CodePen | https://codepen.io/… | 🟡 |
 | 12 | Automobile turquoise | 10 | CodePen | https://codepen.io/… | ✅ |
 | 13 | Labyrinthe | 10 | CodePen | https://codepen.io/… | ❌ |
-| 14 | Woof | 11 | Dossier | `14-woof/` | ✅ |
-| 15 | Caméléon | 12 | Dossier | `15-cameleon/` | ✅ |
-| 16 | Archipel | 12 | Dossier | `16-archipel/` | ✅ |
+| 14 | Woof | 11 | Classroom | https://github.com/… | ✅ |
+| 15 | 1984 | 12 | Classroom | https://github.com/… | ✅ |
+| 16 | k, go | 12 | Site en ligne | https://….github.io/… | ✅ |
 ```
 
 La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réussi avec de l'aide, ❌ pas réussi. Elle n'est **pas notée** : remplissez-la honnêtement, c'est votre propre tableau de bord avant le projet final.
 
 - [ ] Une ligne par exercice, **dans l'ordre**
 - [ ] Chaque lien doit être **cliquable et fonctionnel**
-- [ ] Les dossiers de projet ne contiennent **pas** `node_modules`
+- [ ] Les répertoires Classroom 50 ne contiennent **pas** `node_modules`
 
 ## Étape 2 - Vérifier avant de remettre
 
 - [ ] Ouvrez votre dépôt en **navigation privée** : tout doit être visible
 - [ ] Cliquez sur **chacun** de vos liens CodePen : aucun ne doit tomber sur une page 404
-- [ ] Pour chaque dossier de projet, vérifiez qu'un `npm install` puis `npx vite` suffirait à le faire fonctionner
+- [ ] Pour chaque répertoire Classroom 50, vérifiez qu'un `npm install` puis `npx vite` suffirait à le faire fonctionner
 - [ ] Pour *Momo*, vérifiez que les médias d'origine ont été supprimés et que `npx vite build` fonctionne
 
 !!! info "Les preuves de type capture"
@@ -77,8 +77,8 @@ La colonne **Auto** fonctionne comme au bloc 1 — ✅ réussi seul, 🟡 réuss
 | 12 | **Automobile turquoise** — boucles infinies, roues synchronisées | 10 | 2 |
 | 13 | **Labyrinthe** — MotionPath le long d'un tracé SVG | 10 | 2 |
 | 14 | **Woof** — lecteur maison et effets sonores | 11 | 2 |
-| 15 | **Caméléon** — thème et compteur de visites mémorisés avec `localStorage` | 12 | 2 |
-| 16 | **Archipel** — site Vite de trois pages, déclarées pour le *build* | 12 | 2 |
+| 15 | **1984** — thème et compteur de visites mémorisés avec `localStorage` | 12 | 2 |
+| 16 | **k, go** — démarrage du projet final : trois pages déclarées pour le *build*, squelette commun, site en ligne | 12 | 2 |
 | — | **Qualité générale** — indentation, nomenclature, arborescence, `.gitignore`, README complet | — | 2 |
 | | | **Total** | **/22** |
 

@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import '@fontsource/dseg7-classic';
+
+@plugin "daisyui" {
+   themes: black --default, wireframe;
+}
+
+body{
+    background-image: radial-gradient(var(--color-base-300) 1px, var(--color-base-100) 1px);
+    background-size: 10px 10px;
+}
+
+.digit {
+  font-family: 'DSEG7 Classic', sans-serif;
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr" data-theme="black">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conte</title>
+</head>
+
+<body>
+  <main class="w-screen min-h-screen grid justify-center items-center">
+    
+    <div>
+      <!-- Le thème 
+           Si coché = clair
+           Si décoché = sombre 
+           -->
+      <label class="flex justify-end">
+        <input id="theme" type="checkbox" value="wireframe" class="toggle theme-controller" />
+      </label> 
+
+      <!-- Compteur de visites -->
+      <p class="bg-base-300/50 p-4 my-2">
+        <span id="visites" class="digit text-9xl">0</span>
+      </p>
+    </div>
+    
+  </main>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>

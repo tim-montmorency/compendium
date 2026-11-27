@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le jeu - Mon jeu</title>
+  </head>
+  <body>
+    <header class="navbar bg-base-200 px-4">
+      <div class="navbar-start">
+        <a href="./index.html"><img src="./src/assets/images/logo.svg" alt="Mon jeu" class="h-8" /></a>
+      </div>
+      <nav class="navbar-center">
+        <ul class="menu menu-horizontal">
+          <li><a href="./index.html">Accueil</a></li>
+          <li><a href="./jeu.html" class="menu-active">Le jeu</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="navbar-end gap-2">
+        <input type="checkbox" value="light" class="toggle theme-controller" aria-label="Thème clair ou sombre" />
+        <button id="bouton-son" class="btn btn-sm" type="button">Son</button>
+      </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto p-8 grid gap-4 text-center">
+      <h1 class="font-titre text-5xl">Le jeu</h1>
+      <p>Le concept, les zones et les contrôles viendront ici.</p>
+    </main>
+
+    <footer class="footer footer-center bg-base-200 p-8">
+      <p>
+        Projet étudiant réalisé par Prénom Nom.<br />
+        Techniques d'intégration multimédia, Collège Montmorency.<br />
+        Non affilié aux titulaires des droits.
+      </p>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

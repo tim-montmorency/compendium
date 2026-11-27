@@ -20,7 +20,7 @@ Place à la pratique ! Cette séance et la suivante sont des **ateliers encadré
 - [ ] Assembler l'interface avec **Tailwind + DaisyUI** : hero d'accueil, galerie de captures, section fonctionnalités (cours 2 à 4).
 - [ ] Ajouter de l'**interactivité** en JavaScript - menu, onglets, sélecteur de thème mémorisé avec `localStorage` (cours 7 et 12).
 - [ ] **Animer** l'ambiance avec GSAP : apparition au défilement, parallaxe, plugins (SplitText, DrawSVG, MorphSVG…), bande-annonce mise en valeur (cours 9 à 11).
-- [ ] Intégrer **ma touche supplémentaire** : une des options de la liste (vitrine 3D, Chart.js, Barba, Lottie, Lenis, Leaflet ou PhotoSwipe - voir la page [Extras pour le projet final](./extras.md)).
+- [ ] Intégrer **ma touche supplémentaire** : une des options de la liste (`<model-viewer>`, Chart.js, Barba, Leaflet ou PhotoSwipe).
 - [ ] Rendre le site **accessible** : textes alternatifs, boutons nommés, contraste, clavier et animations réduites (voir ci-dessous).
 - [ ] Ajouter un formulaire de contact avec **EmailJS** et mesurer la fréquentation du site avec **Google Analytics** (voir ci-dessous).
 
