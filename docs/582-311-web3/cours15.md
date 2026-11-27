@@ -1,4 +1,4 @@
-# Cours 15 | Démonstrations et entrevues
+# Cours 15
 
 ![](./assets/images/calm.webp){.w-100}
 

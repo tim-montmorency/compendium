@@ -1,4 +1,4 @@
-# Cours 13 | Séance de travail - projet final (1/2)
+# Cours 13
 
 [STOP]
 

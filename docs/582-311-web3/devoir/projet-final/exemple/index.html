@@ -31,7 +31,7 @@
       </nav>
       <div class="navbar-end gap-2">
         <label class="swap swap-rotate btn btn-ghost btn-circle" aria-label="Thème clair ou sombre">
-          <input id="theme" type="checkbox" value="retro" class="theme-controller" />
+          <input id="theme" type="checkbox" value="caramellatte" class="theme-controller" />
           <span class="swap-on icon-sun text-xl"></span>
           <span class="swap-off icon-moon text-xl"></span>
         </label>
@@ -41,7 +41,7 @@
 
     <main>
       <!-- Hero : vidéo d'arrière-plan muette en boucle, avec contenu superposé -->
-      <section id="hero" class="relative grid min-h-screen place-items-center overflow-hidden">
+      <section id="hero" data-theme="coffee" class="relative grid min-h-screen place-items-center overflow-hidden">
         <video class="absolute inset-0 h-full w-full object-cover" autoplay muted loop playsinline poster="./src/assets/images/hero-affiche.webp">
           <source src="./src/assets/videos/hero.webm" type="video/webm" />
         </video>
@@ -101,20 +101,19 @@
           <h2 class="apparition font-titre text-3xl md:text-5xl">Lancement</h2>
           <div class="apparition stats stats-vertical mt-12 w-full bg-base-100 shadow md:stats-horizontal">
             <div class="stat">
-              <div class="stat-figure text-primary"><span class="icon-calendar-days text-3xl"></span></div>
               <div class="stat-title">Date de sortie</div>
               <div class="stat-value text-primary">12 avril 2023</div>
               <div class="stat-desc">Version 1.0 sur PC</div>
             </div>
             <div class="stat">
-              <div class="stat-figure text-primary"><span class="icon-monitor text-3xl"></span></div>
               <div class="stat-title">Plateformes</div>
               <div class="stat-value">PC · Switch · Xbox</div>
               <div class="stat-desc">Steam, Nintendo Switch, Xbox Series X|S et Xbox One</div>
             </div>
           </div>
-          <!-- Widget de la boutique Steam (l'équivalent du widget itch.io) -->
-          <iframe class="apparition mx-auto mt-12 w-full max-w-2xl" src="https://store.steampowered.com/widget/1527950/" height="190" loading="lazy" title="Wartales sur Steam"></iframe>
+          <!-- Widget de la boutique Steam (l'équivalent du widget itch.io).
+               scheme-light : sans lui, le navigateur affiche un fond blanc derrière le widget en thème sombre -->
+          <iframe class="apparition mx-auto mt-12 w-full max-w-[646px] scheme-light" src="https://store.steampowered.com/widget/1527950/" height="190" loading="lazy" title="Wartales sur Steam"></iframe>
         </div>
       </section>
     </main>

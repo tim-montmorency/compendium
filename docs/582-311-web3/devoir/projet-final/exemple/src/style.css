@@ -4,12 +4,18 @@
 @import "@fontsource/alegreya-sans/400.css";
 @import "@fontsource/alegreya-sans/700.css";
 
-/* Deux thèmes DaisyUI : coffee (sombre, par défaut) et retro (clair) */
+/* Deux thèmes DaisyUI : coffee (sombre, par défaut) et caramellatte (clair) */
 @plugin "daisyui" {
-  themes: coffee --default, retro;
+  themes: coffee --default, caramellatte;
 }
 
 @theme {
   --font-titre: "IM Fell English SC", serif;
   --font-sans: "Alegreya Sans", sans-serif;
+}
+
+/* Alegreya Sans paraît petite : 18 px au lieu de 16 px.
+   Tailwind et DaisyUI sont en rem, donc tout grossit dans les mêmes proportions */
+html {
+  font-size: 112.5%;
 }
