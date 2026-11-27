@@ -359,7 +359,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Remise 3: Prototype *~~ven 13 nov~~ mer 18 nov* { #prototype }
 
-???+ note "Les consignes pour Prototype"
+??? note "Les consignes pour Prototype"
 
     !!! warning "Reporté : ~~ven. 13 nov~~ mer. 18 nov : attentes + élevées"
         En raison de la levée de cours du ven. 13 nov., le cours et le prototype prévus ce jour-là ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus élevées.
@@ -385,7 +385,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Mini-jalon *~~mer 25 nov~~ ven 27 nov, cours 13.2* { #mini-jalon }
 
-??? note "Les consignes pour Mini-jalon"
+???+ note "Les consignes pour Mini-jalon"
 
     Un court arrêt entre le prototype et la bêta, pour ne pas tout accumuler à la fin. Rien à déposer : je passe d'équipe en équipe.
 
@@ -402,7 +402,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Remise 4: Bêta *mer 2 déc, début du cours 14.1* { #beta }
 
-??? note "Les consignes pour Bêta"
+???+ note "Les consignes pour Bêta"
 
     Un récit fonctionnel, pas fini : il doit être prêt pour le contrôle de la qualité croisé, qui commence le jour même.
 
