@@ -281,8 +281,8 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 | mer. 11 nov. | Initiation à Vue.js : les principes, et deux exercices. |
 | ~~ven. 13 nov.~~ ***mer. 18 nov.*** | ***Remise 3 : [Prototype](#prototype)*** (formatif) : une démo de 60 secondes de votre récit, sur votre poste, pendant le cours. Rien à déposer. [*Phase 1*{ .w5-phase .w5-phase-1 } : intégration statique](arborescence-recit-defilant.md#html-phase-1) acceptée.<br><br>Cours 12.1 : [les composants Vue](composant-vue.md), construits en direct. Atelier : chaque personne intègre son composant Vue dans le projet. |
 | ven. 20 nov. | Cours 12.2 : API, JSON et fetch. Le fetch externe : [choisir et tester votre API](dataviz.md#api). Atelier : l'API dans votre bac à sable, et la fin de l'intégration de votre composant Vue. |
-| mer. 25 nov. | Cours 13.1 : l'exercice [Où se cache la donnée?](../../exercices/ex-ou-se-cache/index.md), le fetch externe : [choisir et tester votre API](dataviz.md#api). La *phase 2*{ .w5-phase .w5-phase-2 }, [ensemble](json-chapitres.md#ensemble). |
-| ***ven. 27 nov.*** | ***Mini-jalon*** (formatif) : les composants Vue intégrés (*pull request* fusionnée), l'API testée (la donnée s'affiche dans la console). <br><br>Cours 13.2 : atelier, la *phase 2*{ .w5-phase .w5-phase-2 } [chacun ses chapitres](json-chapitres.md#chacun-ses-chapitres), la dataviz branchée. |
+| mer. 25 nov. | Cours 13.1 : l'exercice [Où se cache la donnée?](../../exercices/ex-ou-se-cache/index.md), le fetch externe : [choisir et tester votre API](dataviz.md#api). |
+| ***ven. 27 nov.*** | ***Mini-jalon*** (formatif) : les composants Vue intégrés (*pull request* fusionnée), l'API testée (la donnée s'affiche dans la console). <br><br>Cours 13.2 : la *phase 2*{ .w5-phase .w5-phase-2 }, [en équipe](json-chapitres.md#ensemble), puis [chacun ses chapitres](json-chapitres.md#chacun-ses-chapitres). |
 | ~~ven. 20 nov.~~ ***mer. 2 déc.*** | ***Remise 4 : Bêta*** : un récit fonctionnel, pas fini. [*Phase 2*{ .w5-phase .w5-phase-2 } : intégration dynamique](arborescence-recit-defilant.md#phase-2) exigée, chapitres chargés depuis `data.json`. Médias finaux intégrés. Les deux composants Vue en place. Dataviz branchée : les vraies données de l'API s'affichent, sans animation pour l'instant. Au minimum, les animations du prototype (une par chapitre). Prête pour la QA. |
 | mer. 2 au mer. 9 déc. | Cours 14.1 à 15.1 : Contrôle de la qualité croisé (issues GitHub) : tests et rapport (ven. 4 déc.), puis correctifs. |
 | mer. 9 déc. | Cours 15.1 : correctifs. Finition : l'animation de la dataviz, toutes vos autres animations. Déploiement final, préparation de la défense. |
@@ -359,7 +359,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Remise 3: Prototype *~~ven 13 nov~~ mer 18 nov* { #prototype }
 
-???+ note "Les consignes pour Prototype"
+??? note "Les consignes pour Prototype"
 
     !!! warning "Reporté : ~~ven. 13 nov~~ mer. 18 nov : attentes + élevées"
         En raison de la levée de cours du ven. 13 nov., le cours et le prototype prévus ce jour-là ont lieu le **mer. 18 nov.** Vous gagnez cinq jours : les attentes pour chaque personne sont donc plus élevées.
@@ -383,9 +383,9 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
     Les composants Vue ne sont pas exigés au prototype : chaque personne intègre le sien pendant le même cours, en atelier, après la démo. Ils sont vérifiés au mini-jalon du ven 27 nov.
 
-### Mini-jalon *~~mer 25 nov~~ ven 27 nov, début du cours 13.2* { #mini-jalon }
+### Mini-jalon *~~mer 25 nov~~ ven 27 nov, cours 13.2* { #mini-jalon }
 
-??? note "Les consignes pour Mini-jalon"
+???+ note "Les consignes pour Mini-jalon"
 
     Un court arrêt entre le prototype et la bêta, pour ne pas tout accumuler à la fin. Rien à déposer : je passe d'équipe en équipe.
 
@@ -402,7 +402,7 @@ Une étape ratée se rattrape en partie : une **v2 complète** du storyboard (ve
 
 ### Remise 4: Bêta *mer 2 déc, début du cours 14.1* { #beta }
 
-??? note "Les consignes pour Bêta"
+???+ note "Les consignes pour Bêta"
 
     Un récit fonctionnel, pas fini : il doit être prêt pour le contrôle de la qualité croisé, qui commence le jour même.
 
