@@ -14,7 +14,7 @@
 
 </div>
 
-Au besoin : [la méthode](../../js/json-chemin.md#methode) pour lire un chemin.
+Notes de cours sur le sujet : [la méthode](../../js/json-chemin.md#methode) pour lire un chemin.
 
 ## Le Wooclap de votre groupe { #wooclap }
 

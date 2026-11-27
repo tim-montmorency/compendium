@@ -105,7 +105,7 @@ Les étapes 1 à 6 se codent toutes dans **`js/main.js`**.
 - Dans `js/main.js`, codez la fonction `async loadChapters()`.
 - Elle va chercher `data/data.json` et **retourne le tableau**.
 - Appelez-la dans `init()`.
-- Au besoin : [`fetch` et `async`](../../js/recap-js.md#async), [`init()`](../../js/recap-js.md#init).
+- Notes de cours sur le sujet : [`fetch` et `async`](../../js/recap-js.md#async), [`init()`](../../js/recap-js.md#init).
 
 *Vérification* : `console.table()` affiche une ligne par chapitre.
 
