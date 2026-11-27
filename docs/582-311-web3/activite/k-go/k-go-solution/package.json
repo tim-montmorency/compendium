@@ -1,0 +1,21 @@
+{
+  "name": "k-go",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "daisyui": "^5.8.2",
+    "tailwindcss": "^4.3.5",
+    "vite": "^8.3.8"
+  },
+  "dependencies": {
+    "@fontsource/cinzel": "^5.3.0",
+    "gsap": "^3.15.1"
+  }
+}

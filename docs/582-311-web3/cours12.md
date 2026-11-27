@@ -8,8 +8,6 @@
 *[GLB]: glTF Binary
 *[JS]: JavaScript
 
-[STOP]
-
 ## Médias et JavaScript
 
 ![type:video](./assets/videos/tv.webm){.h-auto}
@@ -88,7 +86,7 @@ media.addEventListener("ended", () => {
 
 ### Déboguer avec DevTools
 
-Quand quelquechose ne fonctionne pas comme on veut, ayez le réflex d'ouvrir **DevTools** (++f12++).
+Quand quelque chose ne fonctionne pas comme on veut, ayez le réflexe d'ouvrir **DevTools** (++f12++).
 
 - L'onglet **Console** affiche les erreurs et vos `console.log(...)`
 - L'onglet **Réseau** montre si le fichier média se charge (ou renvoie une erreur 404)
@@ -102,28 +100,32 @@ Quand quelquechose ne fonctionne pas comme on veut, ayez le réflex d'ouvrir **D
   **[Woof](./activite/woof/index.md){.stretched-link .back}**
 </div>
 
-## Savegarde en Web
+## Sauvegarde en Web
 
-Saviez-vous ? On peut savegarder plein de choses dans le navigateur grace à `localStorage` en JavaScript. C'est très semblable à la notion de cookie.
+<iframe src="https://tim-montmorency.com/Fragment/v/?f=localstorage&onglets=html,js,resultat&actif=resultat&modifiable=1&disposition=onglets&numeros=1" class="aspect-16-9" style="width:100%;border:0" loading="lazy"></iframe>
 
-Voyez ça comme une variable de texte. On peut la sauvegarder comme une variable (clé) et le nagivateur s'en souviendra, même après l'avoir fermé.
+Le saviez-vous ? On peut sauvegarder plein de choses dans le navigateur grâce à `localStorage` en JavaScript. C'est très semblable à la notion de cookie.
+
+Voyez ça comme une variable de texte, mais au lieu de s'appeler variable, ça s'appelle une clé.
 
 ```js
+const maCle = "couleur-perso"
+
 // Écrire
-localStorage.setItem("couleur-perso", "#e63946")
+localStorage.setItem(maCle, "#e63946")
 
 // Lire (null si la clé n'existe pas)
-const couleur = localStorage.getItem("couleur-perso")
+const couleur = localStorage.getItem(maCle)
 
 // Effacer
-localStorage.removeItem("couleur-perso")
+localStorage.removeItem(maCle)
 ```
 
 !!! tip "Voir le contenu du `localStorage`"
 
     DevTools > onglet **Application** > **Local Storage**. On y voit chaque clé, on peut les modifier ou les supprimer à la main pour tester.
 
-### `localStorage` et DaisyUI
+### `localStorage` et daisyUI
 
 Vous vous souvenez du `theme-controller` de daisyUI ? Ça changeait le thème, mais ça « oubliait » sa sélection au rechargement de page. On peut maintenant y remédier.
 
@@ -134,48 +136,42 @@ Vous vous souvenez du `theme-controller` de daisyUI ? Ça changeait le thème, m
 ```js title="src/main.js"
 const interrupteur = document.querySelector(".theme-controller")
 
-// Au chargement, on vérifie le contenu du localstorage
+// Au chargement, on vérifie le contenu du localStorage
 // et on coche le theme controller selon la condition
-if (localStorage.getItem('theme') === 'light') {
-  controller.checked = true
+if (localStorage.getItem('theme') === 'dark') {
+  interrupteur.checked = true
 }
 
 // Au changement, on sauvegarde
 interrupteur.addEventListener("change", () => {
   if (interrupteur.checked) {
-    localStorage.setItem('theme', 'light')
-  } else {
     localStorage.setItem('theme', 'dark')
+  } else {
+    localStorage.setItem('theme', 'light')
   }
 })
 ```
 
-!!! tip "Même principe si on a un bouton qui fait jouer de l'audio"
+!!! tip "C'est le même principe si on a un bouton qui fait jouer de l'audio 😜"
 
 ### Exercice sur la sauvegarde
 
 <div class="grid grid-1-2" markdown>
-  ![](./activite/cameleon/preview.png){.aspect-4-3}
+  ![](./activite/1984/prev.png){.aspect-4-3}
 
   <small>Exercice - Sauvegarde</small><br>
-  **[Caméléon](./activite/cameleon/index.md){.stretched-link .back}**
+  **[1984](./activite/1984/index.md){.stretched-link .back}**
 </div>
 
 ## Site de plusieurs pages
 
-Le projet final est un microsite de **plusieurs pages** (`index.html`, `jeu.html`, `contact.html`). Avec Vite, ajouter une page semble facile, mais un piège attend au moment de la mise en ligne.
+Le projet final est un microsite de **plusieurs pages**. Avec Vite, ajouter une page semble facile, mais un piège attend au moment de la mise en ligne !!
 
-### Le piège
+1. Créer un fichier `jeu.html` à la racine du projet (à côté de `index.html`) et mettre un lien depuis l'accueil (`<a href="./jeu.html">`)
+1. Avec `npx vite`, tout fonctionne. On clique et la page s'affiche
+1. Maintenant, lancer `npx vite build`, puis ouvrir le dossier `dist/`. **`jeu.html` n'est pas là** 😱
 
-1. Créer un fichier `jeu.html` à la racine du projet, à côté de `index.html`, et y mettre un lien depuis l'accueil (`<a href="./jeu.html">`)
-1. Avec `npx vite`, tout fonctionne : la page s'affiche
-1. Lancer `npx vite build`, puis ouvrir le dossier `dist/` : **`jeu.html` n'y est pas**
-
-Vite ne garde au *build* que `index.html`, et il n'affiche **aucun message d'erreur**. Une fois le site en ligne, le lien vers `jeu.html` mène à une page 404.
-
-### La solution : déclarer les pages
-
-Chaque page du site se déclare dans `vite.config.js` :
+Il faut juste configurer les pages manuellement dans `vite.config.js` :
 
 ```js title="vite.config.js" hl_lines="7-15"
 import { defineConfig } from 'vite'
@@ -196,56 +192,41 @@ export default defineConfig({
 })
 ```
 
-Relancer `npx vite build` : les trois fichiers HTML sont maintenant dans `dist/`.
+Relancer `npx vite build` et toutes les pages déclarées sont maintenant dans `dist/`.
 
+<!-- 
 ### Les règles à suivre
 
 - Toutes les pages sont à la **racine** du projet, à côté de `index.html`
 - Chaque page charge le **même** script : `<script type="module" src="./src/main.js"></script>`
 - Tous les chemins internes commencent par `./`, jamais par `/` : liens entre les pages, images, vidéos, modèles 3D. Un chemin en `/` ne fonctionne qu'à la racine d'un serveur, et il brise le site dès qu'il est publié dans un sous-dossier, comme sur GitHub Pages
-- La navbar et le pied de page sont **copiés** dans chaque page. Le lien de la page courante est mis en évidence (ex. : la classe `menu-active` de DaisyUI sur le bon lien)
+- La navbar et le pied de page sont **copiés** dans chaque page. Le lien de la page courante est mis en évidence (ex. : la classe `menu-active` de DaisyUI sur le bon lien) 
+-->
 
-### Le code qui cible un élément absent
+### Bonne pratique
 
-Comme `main.js` est chargé sur **chaque** page, tout le JavaScript s'exécute partout. Une animation GSAP dont la cible n'existe pas sur la page courante affiche un avertissement dans la console, et un `querySelector` qui ne trouve rien retourne `null`. On regroupe donc le code propre à une page dans un bloc conditionnel :
+Comme `main.js` est chargé sur chaque page, tout le JavaScript s'exécute partout. Par exemple, une animation GSAP dont la cible n'existe pas sur la page courante affiche un avertissement dans la console et un `querySelector` qui ne trouve rien retourne `null`.
 
-```js title="src/gsap.js"
+Il faut donc idéalement vérifier la présence de ce qu'on veut modifier avant de faire quoi que ce soit :
+
+```js title="src/main.js"
 // Page Le jeu seulement
 if (document.querySelector("#parallaxe")) {
   // animations de la page Le jeu
 }
 ```
 
-!!! tip "Vérifier avant chaque remise"
-
-    Après `npx vite build`, ouvrir `dist/` et compter les fichiers HTML : il doit y en avoir **autant que de pages** dans le site.
-
-### Exercice sur les sites de plusieurs pages
-
-<div class="grid grid-1-2" markdown>
-  ![](./activite/archipel/preview.png){.aspect-4-3}
-
-  <small>Exercice - Vite</small><br>
-  **[Archipel](./activite/archipel/index.md){.stretched-link .back}**
-</div>
-
----
-
 ## Projet final
 
-Le projet final est un microsite de lancement pour le jeu développé en Interactivité ludique.
+Il est tant attendu ! Le voici, le voilà !
 
 [Énoncé du projet final](./devoir/projet-final/index.md){ .md-button .md-button--primary }
 
-Des librairies facultatives, utiles comme **touche supplémentaire** du projet (3D, graphiques, musique entre les pages…), sont présentées dans une page à part : [Extras pour le projet final](./extras.md).
+---
 
+<div class="grid grid-1-2" markdown>
+  ![](./activite/k-go/prev.gif){.aspect-4-3}
 
-<!-- ## Le calendrier
-
-| Cours | Ce qui se passe |
-| :--: | --- |
-| **11** | Plugins GSAP · présentation de l'énoncé · choix du volet · collecte des médias |
-| **12** | Plan du site (contenu de chaque page) et **maquette de l'accueil** · médias par programmation, `localStorage` et site de plusieurs pages, utiles au projet |
-| **13** | Atelier encadré : intégration, médias, animations, formulaire EmailJS |
-| **14** | Atelier encadré : gel des fonctionnalités, validation, mise en ligne, préparation de l'oral · **remise la veille du cours 15, à 23 h 59** |
-| **15** | **Démonstration et entrevue individuelle** | -->
+  <small>Exercice - Vite</small><br>
+  **[K.. go !](./activite/k-go/index.md){.stretched-link .back}**
+</div>

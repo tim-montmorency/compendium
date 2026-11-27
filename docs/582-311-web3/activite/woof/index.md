@@ -37,7 +37,7 @@ Le dossier de départ contient déjà les médias, classés dans `src/assets/` :
 
 ## Petits rappels
 
-| Contrôle | Fonctionnalitées liées |
+| Contrôle | Fonctionnalités liées |
 | --- | --- |
 | Bouton de lecture d'un média | `paused`, `play()`, `pause()` |
 | Lecture en boucle | l'attribut `loop` |
@@ -45,6 +45,10 @@ Le dossier de départ contient déjà les médias, classés dans `src/assets/` :
 | Flash blanc | GSAP, avec la propriété `autoAlpha` |
 
 ## Consignes
+
+- [ ] [Accepter le devoir Classroom 50](https://classroom50.org/tim-w3/web-3/assignments/woof/accept)
+- [ ] Cloner le dépôt avec GitHub Desktop
+- [ ] Ouvrir le dossier cloné dans VS Code, puis lancer `npm install`
 
 ### Les médias avec leurs contrôles natifs
 
@@ -65,15 +69,15 @@ Le dossier de départ contient déjà les médias, classés dans `src/assets/` :
 
   ??? quote "Observations"
 
-    Sans `controls`, la vidéo n'affiche plus que sa première image, et la balise `<audio>` devient complètement **invisible**. 
+      Sans `controls`, la vidéo n'affiche plus que sa première image, et la balise `<audio>` devient complètement **invisible**. 
     
-    Les médias sont toujours là, mais plus rien ne permet de les démarrer. C'est là que le JavaScript entre en scène.
+      Les médias sont toujours là, mais plus rien ne permet de les démarrer. C'est là que le JavaScript entre en scène.
 
 ### HTML
 
 Boutons
 
-- [ ] Ajouter trois boutons HTML ayant un style de bouton DaisyUI.
+- [ ] Ajouter trois boutons HTML ayant un style de bouton daisyUI.
 - [ ] Pour chaque bouton, ajouter une icône (Lucide est déjà installé) :
     - le bouton play : `<span class="icon-play"></span>`
     - le bouton du klaxon : `<span class="icon-megaphone"></span>`
@@ -82,7 +86,7 @@ Boutons
 
 Audio
 
-- [ ] Ajouter les audio manquants : klaxon et appareil photo (toujours **sans** `controls`)
+- [ ] Ajouter les balises audio manquantes : klaxon et appareil photo (toujours **sans** `controls`)
 
 Autre 
 
@@ -91,13 +95,13 @@ Autre
   - `inset-0` : équivalent de `top: 0` + `left: 0` + `right: 0` + `bottom: 0`
   - `bg-white`
   - `invisible` : caché au chargement de la page
-  - `pointer-events-none` : la souris ignore le div
+  - `pointer-events-none` : la souris ignore la div
 - [ ] Donner à chaque élément l'`id` utilisé dans `src/main.js`, qui sélectionne déjà tous les éléments de la page : `film`, `musique`, `klaxon`, `photo`, `btn-lecture`, `btn-klaxon` et `btn-photo`
 
 ### Le bouton play (`src/main.js`)
 
 - [ ] Au clic sur le bouton play, si `video.paused` lancer la vidéo **et** la musique avec `play()`. Sinon, mettre les deux en pause avec `pause()`
-- [ ] Changer l'icône du bouton selon l'état, en remplaçant son contenu avec `innerHTML`.<br>Pause = `'<span class="icon-pause"></span>'`<br>Play = `'<span class="icon-pause"></span>'`
+- [ ] Changer l'icône du bouton selon l'état, en remplaçant son contenu avec `innerHTML`.<br>Pause = `'<span class="icon-pause"></span>'`<br>Play = `'<span class="icon-play"></span>'`
 - [ ] Régler le `volume` de la musique autour de `0.4`
 
 ### Le klaxon et l'appareil photo (`src/main.js`)
@@ -110,7 +114,7 @@ Autre
 GSAP est déjà installé dans le dossier de départ.
 
 - [ ] Dans `src/gsap.js`, compléter la fonction `flash()` en animant `#flash` de `autoAlpha: 1` à `autoAlpha: 0` en environ `0.6` seconde avec `gsap.fromTo()`
-- [ ] Dans `main.js`, appeler `flash()` quand on clic sur le bouton de l'appareil photo.
+- [ ] Dans `main.js`, appeler `flash()` quand on clique sur le bouton de l'appareil photo.
 
 ## Défis
 
@@ -118,3 +122,11 @@ Pour aller plus loin, une fois l'exercice fonctionnel :
 
 - [ ] **Image d'attente** : ajouter l'attribut `poster` à la vidéo, avec l'image `chien-poster.webp` fournie. Elle s'affiche tant que la vidéo n'a pas démarré
 - [ ] **Raccourci clavier** : la barre d'espacement lance ou met en pause la vidéo et la musique, comme le bouton play
+
+[STOP]
+
+Un autre défi possible au besoin : 
+
+media.addEventListener("loadedmetadata", () => {
+  console.log( media.duration );
+});

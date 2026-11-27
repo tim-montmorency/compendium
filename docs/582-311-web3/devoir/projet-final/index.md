@@ -7,11 +7,11 @@ tags:
 
 ![](./gta6.webp)
 
-Comme projet final, vous devez réaliser le microsite de lancement d'un jeu vidéo de **trois pages Web** !
+Comme projet final, vous devez réaliser un microsite de **trois pages Web** pour le lancement d'un jeu vidéo !
 
 Le sujet du site est votre jeu du cours d'interactivité ludique.
 
-Le travail vaut pour 50% de la session.
+Le travail vaut pour 50 % de la session.
 
 !!! danger "IA"
 
@@ -37,7 +37,7 @@ Vous aurez besoin de ces médias :
 - [ ] Captures d'écran
 - [ ] Trame sonore
 - [ ] Effets sonores
-- [ ] Vidéo (Captée via Unity Recorder ou OBS)
+- [ ] Vidéo (captée via Unity Recorder ou OBS)
 - [ ] Une ou deux polices sur [Fontsource](https://fontsource.org/), qui rappellent l'ambiance du jeu
 
 Les médias qui ne viennent pas du jeu doivent être libres de droits (ex. : [Pixabay](https://pixabay.com/)).
@@ -49,7 +49,7 @@ Seuls les éléments ci-dessous sont imposés. Le reste du contenu, la mise en p
 ### Sur toutes les pages
 
 - [ ] La même structure : `<header>`, `<main>` et `<footer>`
-- [ ] Le **même header** : le logo, une navbar DaisyUI avec un indicateur visible de la **page active**, un **bouton son** (activer / couper) et un **bouton de thème** (clair / sombre)
+- [ ] Le **même header** : le logo, une navbar daisyUI avec un indicateur visible de la **page active**, un **bouton son** (activer / couper) et un **bouton de thème** (clair / sombre)
 - [ ] Le **même footer**, avec cette mention (le prénom seul est permis) :
 
   > Projet étudiant réalisé par Prénom Nom.<br>
@@ -57,7 +57,7 @@ Seuls les éléments ci-dessous sont imposés. Le reste du contenu, la mise en p
   > Non affilié aux titulaires des droits.
 
 - [ ] Un `<title>` propre à chaque page
-- [ ] Tout le contenu est en **français** et l'attribut lang est configuré (`<html lang="fr">`)
+- [ ] Tout le contenu est en **français** et l'attribut `lang` est configuré (`<html lang="fr">`)
 
 ### Accueil (`index.html`)
 
@@ -83,8 +83,8 @@ Seuls les éléments ci-dessous sont imposés. Le reste du contenu, la mise en p
 
 ## Démarrer le projet
 
-- [ ] Créer le projet Vite (Vanilla, JavaScript) et son répertoire GitHub (public!, pas privé), puis faire un premier _commit_
-- [ ] Installer les dépendances avec npm : Tailwind, DaisyUI, GSAP, Lucide et la police Fontsource
+- [ ] Créer le projet Vite (Vanilla, JavaScript) et son dépôt GitHub (public, pas privé !), puis faire un premier _commit_
+- [ ] Installer les dépendances avec npm : Tailwind, daisyUI, GSAP, Lucide et la police Fontsource
 - [ ] Créer `jeu.html` et `contact.html` à la racine en chargeant le même `src/main.js`
 - [ ] Configurer `vite.config.js` : `base: './'` et les trois pages dans `build.rolldownOptions.input`
 - [ ] Créer `src/gsap.js` et l'importer dans `main.js`
@@ -144,7 +144,7 @@ Seules les cases de cette section valent des points. Le nombre de points est ind
 
 - [ ] Le thème choisi par le visiteur (clair / sombre) est mémorisé avec `localStorage` **(1 pt)**
 - [ ] Ce choix est **restauré sur chaque page** **(1 pt)**
-- [ ] Formulaire stylé avec les composantes de DaisyUI **(1 pt)**
+- [ ] Formulaire stylé avec les composants de daisyUI **(1 pt)**
 - [ ] Formulaire **EmailJS** qui envoie réellement un courriel **(1 pt)**
 - [ ] Un message de succès ou d'erreur affiché au visiteur après l'envoi **(1 pt)**
 
@@ -164,18 +164,18 @@ Vous devrez choisir **une** des options suivantes. L'important, c'est la qualit�
 
 ### Mise en page
 
-- [ ] Deux thèmes DaisyUI : un clair et un sombre **(1 pt)**
+- [ ] Deux thèmes daisyUI : un clair et un sombre **(1 pt)**
 - [ ] **Police(s)** installée(s) avec **Fontsource** (npm).<br>Aucune police chargée depuis Google Fonts ou via un CDN **(1 pt)**
 - [ ] **Icônes** installées avec npm **(1 pt)**
   - **Lucide** ou librairie similaire (ex. : Hugeicons, Phosphor Icons, Heroicons)
-- [ ] Structure `<header>`, `<main>`, `<footer>`, avec le même header (et sa navbar DaisyUI) et le même footer sur les trois pages **(1 pt)**
+- [ ] Structure `<header>`, `<main>`, `<footer>`, avec le même header (et sa navbar daisyUI) et le même footer sur les trois pages **(1 pt)**
 - [ ] Un indicateur visible de la **page active** dans la navbar **(1 pt)**
 - [ ] Un `<title>` propre à chaque page **(1 pt)**
 - [ ] Tout le contenu en **français**, avec `<html lang="fr">` **(1 pt)**
 - [ ] Site **responsive** avec les breakpoints Tailwind : mobile, tablette, bureau **(2 pts)**
 - [ ] **Bouton d'appel à l'action** vers la page du jeu (ex. : itch.io) **(1 pt)**
 - [ ] Section **Contrôles** sur la page *Le jeu* **(1 pt)**
-  - les commandes du jeu (touches, souris ou manette) présentées avec la composante `kbd` de DaisyUI
+  - les commandes du jeu (touches, souris ou manette) présentées avec le composant `kbd` de daisyUI
 
 ### Mise en ligne
 
@@ -185,13 +185,13 @@ Vous devrez choisir **une** des options suivantes. L'important, c'est la qualit�
 
 ### Le `README.md`
 
-- [ ] Contenu du readme **(1 pt)**
+- [ ] Contenu du `README.md` **(1 pt)**
   - Nom du jeu
-  - Lien du GitHub Pages
+  - Lien vers le site GitHub Pages
 
 ### Qualité
 
-- [ ] Design soigné et cohérent d'une page à l'autre. Design cohérent au jeu **(2 pts)**
+- [ ] Design soigné et cohérent d'une page à l'autre. Design cohérent avec le jeu **(2 pts)**
 
 ## Oraux et entrevues
 
@@ -215,7 +215,7 @@ Le cours 15 se déroule en deux temps.
 
 > Environ 2 minutes
 
-Répertoire GitHub ouvert sur son écran
+Avoir son dépôt GitHub ouvert à l'écran
 
 - L'enseignant désigne, sur le moment, **n'importe quelle partie du code** : un fichier JavaScript, une animation GSAP, une partie du HTML, la configuration de Vite 🤷
 - Expliquer **ce que fait** ce passage et **comment** il le fait
@@ -257,5 +257,5 @@ Répertoire GitHub ouvert sur son écran
 
 **La veille du cours 15, à 23 h 59**, dans le devoir **Projet final** sur Teams :
 
-- [ ] Le **lien du répertoire GitHub** (public)
+- [ ] Le **lien du dépôt GitHub** (public)
 - [ ] Le **lien du site en ligne**

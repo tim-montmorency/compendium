@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "@fontsource/cinzel";
+
+@plugin "daisyui" {
+  themes: dark --default, light;
+}
+
+@theme {
+  --font-titre: "Cinzel", serif;
+}
