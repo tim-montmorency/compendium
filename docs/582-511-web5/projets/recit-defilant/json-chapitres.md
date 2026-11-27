@@ -113,9 +113,9 @@ Les étapes 1 à 6 se codent toutes dans **`js/main.js`**.
 
 - Dans `init()`, rangez le résultat de `loadChapters()` de l'étape précédente dans une constante `chapters`.
 - Parcourez-la avec [`forEach`](../../js/recap-js.md#foreach).
-- Pour chaque chapitre : son numéro et son titre, dans la console.
+- Dans la console, afficher le numéro et le titrede chaque chapitre.
 
-*Vérification* : vos chapitres, dans l'ordre du récit.
+*Vérification* : vos chapitres affichés dans la console, dans l'ordre du récit.
 
 ### 3. La structure HTML de base d'un chapitre (`<section>` et `<h2>`) { #ensemble-3 }
 
