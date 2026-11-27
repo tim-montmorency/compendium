@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Woof</title>
+  </head>
+  <body>
+    <main class="max-w-3xl mx-auto p-8 grid gap-8">
+
+      <!-- Les boutons, côte à côte en haut de la page -->
+      <div class="flex justify-center gap-2">
+        <!-- Le bouton play : il lance la vidéo ET la musique -->
+        <button id="btn-lecture" class="btn btn-primary">
+          <span class="icon-play"></span>
+        </button>
+
+        <!-- Les effets sonores -->
+        <button id="btn-klaxon" class="btn"><span class="icon-megaphone"></span></button>
+        <button id="btn-photo" class="btn"><span class="icon-camera"></span></button>
+      </div>
+
+      <!-- La vidéo SANS l'attribut controls -->
+      <!-- Défi « Image d'attente » : l'attribut poster -->
+      <video id="film" src="./src/assets/videos/chien.webm" poster="./src/assets/images/chien-poster.webp" loop class="w-full"></video>
+
+      <!-- L'audio : sans controls, donc invisible -->
+      <audio id="musique" src="./src/assets/audio/musique-jeu.mp3" loop></audio>
+      <audio id="klaxon" src="./src/assets/audio/klaxon.mp3"></audio>
+      <audio id="photo" src="./src/assets/audio/photo.mp3"></audio>
+
+    </main>
+
+    <!-- L'écran blanc du flash, invisible au départ -->
+    <div id="flash" class="fixed inset-0 bg-white invisible pointer-events-none"></div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

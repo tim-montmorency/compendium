@@ -552,7 +552,7 @@ export function gsapAnimations() {
 
 L'énoncé du projet final est présenté aujourd'hui&nbsp;: le **microsite de lancement** d'un jeu vidéo. Par défaut, c'est le jeu développé en **Interactivité ludique**&nbsp;; pour les personnes qui ne suivent pas ce cours, un jeu existant ou fictif, avec **les mêmes exigences**. Les plugins vus aujourd'hui y trouvent directement leur place.
 
-[Énoncé du projet final](./devoir/projet-final.md){ .md-button .md-button--primary }
+[Énoncé du projet final](./devoir/projet-final/index.md){ .md-button .md-button--primary }
 
 ### D'ici le cours 12
 

@@ -7,48 +7,48 @@ tags:
 
 # 🎨 Atelier de personnalisation
 
-L'objectif de cet exercice est de transformer la vitrine 3D en **configurateur**&nbsp;: le visiteur choisit une couleur pour une partie du modèle, et **son choix est retenu** d'une visite à l'autre grâce au `localStorage`.
+L'objectif de cet exercice est de transformer la vitrine 3D en **configurateur** : le visiteur choisit une couleur pour une partie du modèle, et **son choix est retenu** d'une visite à l'autre grâce au `localStorage`.
 
-Au passage, on règle enfin un vieux problème du cours 4&nbsp;: le thème DaisyUI qui s'oublie au rechargement.
+Au passage, on règle enfin un vieux problème du cours 4 : le thème DaisyUI qui s'oublie au rechargement.
 
 <!-- ![](../assets/images/3d-atelier.png){.w-100 data-zoom-image} -->
 
 ## Résultat attendu
 
-Sous le modèle, une rangée de pastilles de couleur. Un clic change la couleur d'une partie du modèle (armure, carrosserie, cape…). On recharge la page&nbsp;: la couleur choisie est toujours là, tout comme le thème clair ou sombre.
+Sous le modèle, une rangée de pastilles de couleur. Un clic change la couleur d'une partie du modèle (armure, carrosserie, cape…). On recharge la page : la couleur choisie est toujours là, tout comme le thème clair ou sombre.
 
 ## Indices
 
-Un matériau ne se modifie qu'une fois le modèle **chargé**&nbsp;: tout le code qui touche à `vitrine.model` va dans l'écouteur de l'événement `load`.
+Un matériau ne se modifie qu'une fois le modèle **chargé** : tout le code qui touche à `vitrine.model` va dans l'écouteur de l'événement `load`.
 
-La logique de sauvegarde tient en deux moments&nbsp;: **au clic**, on applique et on écrit&nbsp;; **au chargement**, on lit et on réapplique.
+La logique de sauvegarde tient en deux moments : **au clic**, on applique et on écrit ; **au chargement**, on lit et on réapplique.
 
 ## Instructions
 
 ### Mise en place
 
-- [ ] Repartez de votre exercice **Vitrine 3D**
-- [ ] Dans Maya, nommez clairement le matériau de la partie à personnaliser (ex.&nbsp;: `armure`), sans texture de couleur, puis réexportez le modèle
+- [ ] Repartir de l'exercice **Vitrine 3D**
+- [ ] Dans Maya, nommer clairement le matériau de la partie à personnaliser (ex. : `armure`), sans texture de couleur, puis réexporter le modèle
 
 ### Le configurateur
 
-- [ ] Ajoutez au moins **trois pastilles** de couleur (boutons DaisyUI), chacune avec un attribut `data-couleur` et un `aria-label`
-- [ ] Au chargement du modèle, récupérez le matériau avec `getMaterialByName()`
-- [ ] Au clic sur une pastille, changez la couleur du matériau avec `setBaseColorFactor()`
-- [ ] Indiquez visuellement la pastille active (bordure, anneau…)
+- [ ] Ajouter au moins **trois pastilles** de couleur (boutons DaisyUI), chacune avec un attribut `data-couleur` et un `aria-label`
+- [ ] Au chargement du modèle, récupérer le matériau avec `getMaterialByName()`
+- [ ] Au clic sur une pastille, changer la couleur du matériau avec `setBaseColorFactor()`
+- [ ] Indiquer visuellement la pastille active (bordure, anneau…)
 
 ### La mémoire
 
-- [ ] Sauvegardez la couleur choisie dans le `localStorage`
-- [ ] Au chargement du modèle, réappliquez la couleur sauvegardée, s'il y en a une
-- [ ] Ajoutez un interrupteur `theme-controller` DaisyUI dans la barre de navigation, et mémorisez aussi le thème choisi
-- [ ] Regroupez les deux réglages dans **un seul objet** sauvegardé avec `JSON.stringify()` et relu avec `JSON.parse()`
+- [ ] Sauvegarder la couleur choisie dans le `localStorage`
+- [ ] Au chargement du modèle, réappliquer la couleur sauvegardée, s'il y en a une
+- [ ] Ajouter un interrupteur `theme-controller` DaisyUI dans la barre de navigation, et mémoriser aussi le thème choisi
+- [ ] Regrouper les deux réglages dans **un seul objet** sauvegardé avec `JSON.stringify()` et relu avec `JSON.parse()`
 
 ### Vérification
 
-- [ ] Choisissez une couleur et le thème sombre, rechargez la page&nbsp;: les deux choix tiennent
-- [ ] DevTools → onglet **Application** → **Local Storage**&nbsp;: retrouvez votre clé et son contenu
-- [ ] Supprimez la clé à la main, rechargez&nbsp;: la page revient aux réglages par défaut sans erreur dans la console
+- [ ] Choisir une couleur et le thème sombre, recharger la page : les deux choix tiennent
+- [ ] DevTools → onglet **Application** → **Local Storage** : retrouver la clé et son contenu
+- [ ] Supprimer la clé à la main, recharger : la page revient aux réglages par défaut sans erreur dans la console
 
 !!! tip "Bonus"
 
