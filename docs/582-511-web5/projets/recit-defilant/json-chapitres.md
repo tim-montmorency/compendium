@@ -53,8 +53,9 @@
     <text x="235" y="83" font-size="12" opacity="0.7">étapes 1 et 2</text>
     <text x="405" y="65" font-weight="700">createChapter()</text>
     <text x="405" y="83" font-size="12" opacity="0.7">étape 3</text>
-    <text x="565" y="65" font-weight="700">#recit</text>
-    <text x="565" y="83" font-size="12" opacity="0.7">étape 4</text>
+    <text x="565" y="62" font-weight="700">HTML généré</text>
+    <text x="565" y="77" font-size="12" opacity="0.7">dans #recit</text>
+    <text x="565" y="91" font-size="12" opacity="0.7">étape 4</text>
     <text x="715" y="65" font-weight="700">animate()</text>
     <text x="715" y="83" font-size="12" opacity="0.7">étape 6</text>
     <text x="405" y="175" font-weight="700">createMedia()</text>
