@@ -1,4 +1,4 @@
-# **Récit défilant** :material-code-json:  Du JSON aux chapitres : dans votre projet
+# **Récit défilant** :material-code-json: Du JSON aux chapitres
 
 <div class="class-content-link">
   <img src="../../assets/IA-interdite.png">

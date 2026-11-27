@@ -66,7 +66,7 @@ Les chapitres chargés depuis `data.json`, ensemble.
   - [ ] Exercice : Où se cache la donnée? Chaque personne, dans Wooclap
 - [ ] Le *fetch* externe : choisir et tester votre API
 - [ ] En équipe : trouvez votre API et faites-la valider avant la fin du cours
-- [ ] La *phase 2*{ .w5-phase .w5-phase-2 } : on commence ensemble, puis atelier
+- [ ] ~~La *phase 2*{ .w5-phase .w5-phase-2 } : on commence ensemble, puis atelier~~ Reporté au cours 13.2
 
 ## 1. :material-code-json: API: Trouver une donnée dans un JSON complexe
 
@@ -109,11 +109,10 @@ Vous savez déjà faire un `fetch()` : vous l'utilisez pour `data.json`. Interro
 
 Une fois validée, la personne responsable de la dataviz fait le `fetch()` dans son bac à sable et documente l'API dans le cahier de charges ([les 7 étapes](projets/recit-defilant/dataviz.md#api)). C'est exigé au mini-jalon du ven 27 nov.
 
-## 4. :material-code-json:  La *phase 2*{ .w5-phase .w5-phase-2 }, ensemble { #phase-2 }
+## 4. :material-code-json:  La *phase 2*{ .w5-phase .w5-phase-2 } { #phase-2 }
 
-Il reste une semaine avant la bêta. On commence la *phase 2*{ .w5-phase .w5-phase-2 } ensemble : les chapitres chargés depuis `data.json`. Ensuite, atelier en équipe.
-
-[:material-code-json: La *phase 2*{ .w5-phase .w5-phase-2 } : ensemble, en 6 étapes](projets/recit-defilant/json-chapitres.md#ensemble){ .md-button .md-button--primary }
+!!! info "Reporté au cours 13.2"
+    La *phase 2*{ .w5-phase .w5-phase-2 } est reportée au [cours 13.2](cours13b.md).
 
 ## Devoirs
 
@@ -124,7 +123,7 @@ Il reste une semaine avant la bêta. On commence la *phase 2*{ .w5-phase .w5-pha
 
 ### D'ici le ven 27 nov (cours 13.2) : le mini-jalon
 
-Je le vérifie avec vous au début du cours. Il est formatif.
+Je le vérifie avec vous pendant l'atelier. Il est formatif.
 
 - **Votre composant Vue intégré** dans le projet : *pull request* fusionnée dans `main`.
 - **La matrice de responsabilités à jour** (section 4 du `CAHIER-DE-CHARGES.md`).
