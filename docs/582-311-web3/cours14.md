@@ -1,4 +1,4 @@
-# Cours 14 | Séance de travail - projet final (2/2)
+# Cours 14
 
 [STOP]
 

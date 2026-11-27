@@ -31,7 +31,7 @@
       </nav>
       <div class="navbar-end gap-2">
         <label class="swap swap-rotate btn btn-ghost btn-circle" aria-label="Thème clair ou sombre">
-          <input id="theme" type="checkbox" value="retro" class="theme-controller" />
+          <input id="theme" type="checkbox" value="caramellatte" class="theme-controller" />
           <span class="swap-on icon-sun text-xl"></span>
           <span class="swap-off icon-moon text-xl"></span>
         </label>
@@ -41,7 +41,7 @@
 
     <main>
       <!-- Parallaxe : l'image clé descend lentement, les trois cadres remontent vite -->
-      <section id="parallaxe" class="relative h-screen overflow-hidden">
+      <section id="parallaxe" data-theme="coffee" class="relative h-screen overflow-hidden">
         <img class="couche-fond absolute inset-0 h-full w-full object-cover" src="./src/assets/images/parallaxe-fond.webp" alt="" width="1920" height="1080" />
         <div class="absolute inset-0 bg-base-100/40"></div>
         <h1 id="parallaxe-titre" class="absolute inset-x-0 top-1/4 text-center font-titre text-5xl drop-shadow-lg md:text-8xl">Le jeu</h1>
